@@ -6,6 +6,7 @@ module.exports = {
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-mdx",
+    "gatsby-plugin-postcss",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -14,5 +15,6 @@ module.exports = {
       },
       __key: "pages",
     },
+    "gatsby-plugin-postcss",
   ],
 };
