@@ -58,6 +58,102 @@ collections:
         label: "Slug"
         widget: string
         pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+  - name: "home"
+    label: "首頁"
+    i18n: true
+    files:
+      - name: "news"
+        label: "最新消息"
+        i18n: true
+        file: "/data/pages/home/news.yml"
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+          - name: "moreButtonTitle"
+            label: "更多消息按鈕文字"
+            i18n: true
+            widget: string
+          - name: "detailsButtonTitle"
+            label: "了解更多按鈕文字"
+            i18n: true
+            widget: string
+          - name: "items"
+            label: "最新消息"
+            widget: list
+            summary: "{{fields.item}}"
+            field:
+              name: "item"
+              label: "項目"
+              widget: relation
+              collection: "news"
+              search_fields: ["title", "slug"]
+              value_field: "slug"
+              display_fields: ["title"]
+      - name: "swiper"
+        label: "幻燈片"
+        file: "/data/pages/home/swiper/config.yml"
+        fields:
+          - name: "slides"
+            label: "項目清單"
+            widget: list
+            summary: "{{fields.slide}}"
+            field:
+              name: "slide"
+              label: "項目"
+              widget: relation
+              collection: "homeSwiperSlides"
+              search_fields: ["title", "shortTitle", "slug"]
+              value_field: "slug"
+              display_fields: ["title"]
+  - name: "homeSwiperSlides"
+    label: "首頁幻燈片項目"
+    slug: "{{fields.slug}}"
+    i18n: true
+    create: true
+    folder: "/data/pages/home/swiper/slides"
+    fields:
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "shortTitle"
+        label: "短標題"
+        i18n: true
+        widget: string
+      - name: "title"
+        label: "長標題"
+        i18n: true
+        widget: string
+      - name: "subtitle"
+        label: "副標題"
+        i18n: true
+        widget: string
+      - name: "description"
+        label: "介簡"
+        i18n: true
+        widget: text
+      - name: "buttonTitle"
+        label: "按鈕文字"
+        i18n: true
+        widget: string
+      - name: "bgImage"
+        label: "背景圖片"
+        widget: image
+        media_folder: "/static/images/uploads/home/swiper/slides"
+        public_folder: "/images/uploads/home/swiper/slides"
+        required: false
+      - name: "gradient"
+        label: "背景漸變"
+        widget: object
+        fields:
+          - name: "color1"
+            label: "顏色 1"
+            widget: color
+          - name: "color2"
+            label: "顏色 2"
+            widget: color
   - name: "news"
     label: "最新消息"
     folder: "/data/news"
