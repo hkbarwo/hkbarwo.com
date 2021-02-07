@@ -1,0 +1,56 @@
+backend:
+  name: git-gateway
+  branch: master
+local_backend: true
+publish_mode: editorial_workflow
+media_folder: "/static/images/uploads"
+public_folder: "/images/uploads"
+i18n:
+  structure: single_file
+  locales: [zh, en]
+  default_locale: zh
+collections:
+  - name: "news"
+    label: "最新消息"
+    folder: "/data/news"
+    create: true
+    slug: "{{year}}/{{month}}{{day}}-{{fields.slug}}"
+    i18n: true
+    fields:
+      - name: "title"
+        label: "標題"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        hint: "適用於網址中"
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "date"
+        label: "日期"
+        widget: datetime
+        date_format: "YYYY-MM-DD"
+        time_format: false
+      - name: "content"
+        label: "內容"
+        i18n: true
+        widget: markdown
+        required: false
+      - name: images
+        label: "圖片"
+        widget: image
+        required: false
+        media_library:
+          config:
+            multiple: true
+        media_folder: "/static/images/uploads/news"
+        public_folder: "/images/uploads/news"
+      - name: "pdfFile"
+        label: "PDF 檔案"
+        i18n: true
+        widget: file
+        required: false
+      - name: "youtubeVideoID"
+        label: "YouTube 影片 ID"
+        widget: string
+        required: false
