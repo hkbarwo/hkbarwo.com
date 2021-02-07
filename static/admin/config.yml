@@ -10,6 +10,54 @@ i18n:
   locales: [zh, en]
   default_locale: zh
 collections:
+  - name: "menu"
+    label: "選單"
+    folder: "/data/menu"
+    create: false
+    delete: false
+    slug: "{{id}}"
+    fields:
+      - name: "title"
+        label: "名稱"
+        widget: string
+      - name: "id"
+        label: "ID"
+        widget: string
+      - name: "items"
+        label: "項目"
+        widget: "list"
+        summary: "{{fields.item}} [{{fields.style}}]"
+        fields:
+          - name: "item"
+            label: "選單項目"
+            widget: relation
+            collection: "menuItems"
+            search_fields: ["title", "slug"]
+            value_field: "slug"
+            display_fields: ["title"]
+          - name: "style"
+            label: "樣式"
+            widget: select
+            default: "primary"
+            options:
+              - { label: "首要", value: "primary" }
+              - { label: "次要", value: "secondary" }
+  - name: "menuItems"
+    label: "選單項目"
+    folder: "/data/menu/items"
+    create: false
+    delete: false
+    i18n: true
+    slug: "{{fields.slug}}"
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
   - name: "news"
     label: "最新消息"
     folder: "/data/news"
