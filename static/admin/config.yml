@@ -129,3 +129,45 @@ collections:
       - name: "color"
         label: "顏色"
         widget: color
+  - name: "contact"
+    label: "聯絡我們"
+    i18n: true
+    files:
+      - name: "intro"
+        label: "簡介"
+        i18n: true
+        file: "/data/pages/contact/intro.yml"
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+          - name: "content"
+            label: "內容"
+            i18n: true
+            widget: string
+          - name: "image"
+            label: "圖片"
+            widget: image
+      - name: "info"
+        label: "聯絡資料"
+        i18n: true
+        file: "/data/pages/contact/info.yml"
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+          - name: "phone"
+            label: "電話"
+            widget: string
+          - name: "fax"
+            label: "傳真"
+            widget: string
+          - name: "email"
+            label: "電郵"
+            widget: string
+          - name: "address"
+            label: "地址"
+            i18n: true
+            widget: string 
