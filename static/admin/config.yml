@@ -171,3 +171,72 @@ collections:
             label: "地址"
             i18n: true
             widget: string 
+  - name: "site"
+    label: "全站設定"
+    i18n: true
+    files:
+      - name: "general"
+        label: "一般"
+        i18n: true
+        file: "/data/site/general.yml"
+        fields:
+          - name: "siteTitle"
+            label: "網站標題"
+            i18n: true
+            widget: string
+          - name: "socialAccounts"
+            label: "社交媒體帳號"
+            widget: object
+            fields:
+              - name: "facebook"
+                label: "Facebook"
+                widget: string
+                hint: "URL"
+              - name: "instagram"
+                label: "Instagram"
+                widget: string
+                hint: "URL"
+              - name: "youtube"
+                label: "YouTube"
+                widget: string
+                hint: "URL"
+          - name: "menuTitle"
+            label: "選單按鈕文字"
+            i18n: true
+            widget: string
+          - name: "themeSettings"
+            label: "主題模式"
+            widget: object
+            i18n: true
+            fields:
+              - name: "light"
+                label: "淺色"
+                i18n: true
+                widget: string
+                hint: "按鈕文字"
+              - name: "dark"
+                label: "深色"
+                i18n: true
+                widget: string
+                hint: "按鈕文字"
+          - name: "copyright"
+            label: "版權聲明"
+            i18n: true
+            widget: string
+      - name: "newsletter"
+        label: "電子通訊"
+        i18n: true
+        file: "/data/site/newsletter.yml"
+        fields: 
+          - name: "cta"
+            label: "標語"
+            i18n: true
+            widget: string
+          - name: "placeholder"
+            label: "提示"
+            i18n: true
+            widget: string
+          - name: "buttonTitle"
+            label: "按鈕"
+            i18n: true
+            widget: string

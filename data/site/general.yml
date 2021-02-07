@@ -1,0 +1,18 @@
+zh:
+  siteTitle: 香港八和會館
+  copyright: © 香港八和會館{year} | 版權所有 不得轉載
+  socialAccounts:
+    facebook: https://example.com
+    instagram: https://example.com
+    youtube: https://example.com
+  themeSettings:
+    light: 淺色模式
+    dark: 深色模式
+  menuTitle: 目錄
+en:
+  copyright: © The Chinese Artists Association of Hong kong {year} | All rights reserved.
+  siteTitle: The Chinese Artists Association of Hong kong
+  themeSettings:
+    light: Light Theme
+    dark: Dark Theme
+  menuTitle: MENU
