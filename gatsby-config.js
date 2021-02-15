@@ -1,3 +1,5 @@
+const camelCase = require('camelcase');
+
 module.exports = {
   siteMetadata: {
     title: "hkbarwo.com",
@@ -14,6 +16,14 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-transformer-yaml`,
+      options: {
+        typeName: ({ node }) => {
+          // Convert type name to yaml[path][filename] in camel case
+          return camelCase(`yaml ${node.relativeDirectory.replace(/\//g, ' ')} ${node.name}`);
+        },
+      },
+    },
   ],
 };
