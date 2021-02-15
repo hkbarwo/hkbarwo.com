@@ -8,13 +8,12 @@ module.exports = {
     "gatsby-plugin-mdx",
     "gatsby-plugin-postcss",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        path: `./data/`,
       },
-      __key: "pages",
     },
-    "gatsby-plugin-postcss",
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-yaml`,
   ],
 };
