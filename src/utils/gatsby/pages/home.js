@@ -50,7 +50,7 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
     path: locale !== defaultLocale ? `/${locale}${path}` : path,
     component: homePageTemplate,
     context: {
-      locale,
+      ...context,
       slides,
     },
   }); 
