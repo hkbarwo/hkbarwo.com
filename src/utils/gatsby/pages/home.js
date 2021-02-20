@@ -46,8 +46,18 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
 
   const path = '/';
 
+  if (locale === defaultLocale) {
+    actions.createRedirect({
+      fromPath: path,
+      toPath: `/${locale}${path}`,
+      redirectInBrowser: true,
+      isPermanent: true,
+      force: true,
+    });
+  }
+
   actions.createPage({
-    path: locale !== defaultLocale ? `/${locale}${path}` : path,
+    path: `/${locale}${path}`,
     component: homePageTemplate,
     context: {
       ...context,
