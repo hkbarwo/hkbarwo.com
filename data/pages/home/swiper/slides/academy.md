@@ -1,27 +1,27 @@
 ---
 zh:
   shortTitle: 傳承
-  slug: legacy
-  title: 粵劇新秀
-  subtitle: 棟樑與培育
+  slug: academy
+  title: 八和學院
+  subtitle: 粵劇傳承
   description: >-
     過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....
 
 
     過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....
-  bgImage: /images/uploads/home/swiper/slides/legacy.jpg
+  bgImage: /images/uploads/home/swiper/slides/academy.jpg
   gradient:
-    color1: "#e0281a"
-    color2: "#e2867c"
-  buttonTitle: 探索我們的故事
+    color1: "#fc4786"
+    color2: "#ffa7a7"
+  buttonTitle: 了解我們的學院
 en:
   shortTitle: 傳承
-  title: 粵劇新秀
-  subtitle: 棟樑與培育
+  title: 八和學院
+  subtitle: 粵劇傳承
   description: >-
     過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....
 
 
     過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....
-  buttonTitle: 探索我們的故事
+  buttonTitle: 了解我們的學院
 ---

@@ -1,25 +1,25 @@
 ---
 zh:
-  shortTitle: 傳承
-  slug: legacy
-  title: 粵劇新秀
-  subtitle: 棟樑與培育
+  slug: channel
+  shortTitle: 推廣
+  title: 八和頻道
+  subtitle: 粵劇傳播與傳承
   description: >-
-    過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....
+    過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她
 
 
     過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....
-  bgImage: /images/uploads/home/swiper/slides/legacy.jpg
+  bgImage: /images/uploads/home/swiper/slides/channel.jpg
   gradient:
-    color1: "#e0281a"
-    color2: "#e2867c"
+    color1: "#24b7c9"
+    color2: "#ebd4a3"
   buttonTitle: 探索我們的故事
 en:
-  shortTitle: 傳承
-  title: 粵劇新秀
-  subtitle: 棟樑與培育
+  shortTitle: 推廣
+  title: 八和頻道
+  subtitle: 粵劇傳播與傳承
   description: >-
-    過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....
+    過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她
 
 
     過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....過功坡衣去支坡，婆牠信少冬口尾牠娘位歌過進我看。由二五雪土欠朋怕圓她.....
