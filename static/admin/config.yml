@@ -138,11 +138,6 @@ collections:
         label: "按鈕文字"
         i18n: true
         widget: string
-      - name: "bgImage"
-        label: "背景圖片"
-        widget: image
-        media_folder: "/static/images/uploads/home/swiper/slides"
-        public_folder: "/images/uploads/home/swiper/slides"
         required: false
       - name: "gradient"
         label: "背景漸變"
@@ -154,6 +149,23 @@ collections:
           - name: "color2"
             label: "顏色 2"
             widget: color
+      - name: "bgImage"
+        label: "圖片"
+        widget: image
+        media_folder: "/static/images/uploads/home/swiper/slides"
+        public_folder: "/images/uploads/home/swiper/slides"
+        required: false
+      - name: "bgImageFillStyle"
+        label: "圖片填滿"
+        widget: "select"
+        default:
+          - "cover"
+        required: false
+        options:
+          - label: "全填滿"
+            value: "cover"
+          - label: "全顯示"
+            value: "contain"
   - name: "news"
     label: "最新消息"
     folder: "/data/news"

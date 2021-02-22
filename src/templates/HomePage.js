@@ -37,7 +37,11 @@ function FullScreenSlide({ slide, i, total, onClose, onNext, onPrev }) {
         }}
       >
         <div className="hidden lg:block relative flex-1 overflow-hidden">
-          <img className="w-full h-full object-cover" src={`${slide.bgImage}`} alt={slide.title} />
+          <img
+            className={classNames('w-full h-full', slide.bgImageFillStyle === 'contain' ? 'object-contain' : 'object-cover')}
+            src={`${slide.bgImage}`}
+            alt={slide.title}
+          />
         </div>
         <div className="flex-1 text-white">
           <div className="p-10 sm:p-32 md:p-64 w-full">
@@ -49,7 +53,7 @@ function FullScreenSlide({ slide, i, total, onClose, onNext, onPrev }) {
                   onClick={onPrev}
                 >
                   <svg className="w-20 h-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M18.45,10.13H1.76m8.59-8.8L1.68,10l8.68,8.67" fill="none" stroke="currentColor" stroke-width="1"/>
+                    <path d="M18.45,10.13H1.76m8.59-8.8L1.68,10l8.68,8.67" fill="none" stroke="currentColor" strokeWidth="1"/>
                   </svg>
                 </button>
                 <span className="mx-8 text-22 font-light tracking-widest leading-none">{`${i < 9 ? '0' : ''}${i + 1}/${total < 9 ? '0' : ''}${total + 1}`}</span>
@@ -58,7 +62,7 @@ function FullScreenSlide({ slide, i, total, onClose, onNext, onPrev }) {
                   onClick={onNext}
                 >
                   <svg className="w-20 h-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M1.68,9.88H18.37M9.78,18.67,18.45,10,9.77,1.33" fill="none" stroke="currentColor" stroke-width="1"/>
+                    <path d="M1.68,9.88H18.37M9.78,18.67,18.45,10,9.77,1.33" fill="none" stroke="currentColor" strokeWidth="1"/>
                   </svg>
                 </button>
               </div>

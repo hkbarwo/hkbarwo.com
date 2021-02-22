@@ -23,6 +23,7 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
                 description
                 buttonTitle
                 bgImage
+                bgImageFillStyle
                 slug
                 gradient {
                   color1
