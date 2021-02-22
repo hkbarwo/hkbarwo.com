@@ -11,8 +11,13 @@ module.exports = {
       
       'logo-black': '#1a1818',
       
+      'gray-f4': '#f4f4f4',
       'gray-3c': '#3c3c3c',
       'gray-24': '#242424',
+    },
+    fontFamily: {
+      'sans': ['Noto Sans TC', 'sans-serif'],
+      'serif': ['Noto Serif TC', 'serif'],
     },
     spacing: {
       '0': '0rem',
@@ -38,9 +43,15 @@ module.exports = {
       '14': '0.875rem',
       '16': '1rem',
       '18': '1.125rem',
+      '22': '1.375rem',
       '24': '1.5rem',
       '28': '1.75rem',
       '36': '2.25rem',
+    },
+    letterSpacing: {
+      normal: '0',
+      wide: '.1em',
+      widest: '.25em',
     },
     aspectRatio: {
       1: '1',
@@ -51,13 +62,18 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'pattern-light': "url('/images/bg/pattern-light.svg')",
+        'pattern-white': "url('/images/bg/pattern-white.svg')",
       })
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      scale: ['group-hover'],
+      translate: ['group-hover'],
+    },
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/line-clamp'),
   ],
 }
