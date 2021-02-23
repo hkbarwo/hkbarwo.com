@@ -170,7 +170,7 @@ collections:
     label: "最新消息"
     folder: "/data/news"
     create: true
-    slug: "{{year}}/{{month}}{{day}}-{{fields.slug}}"
+    slug: "{{year}}{{month}}{{day}}-{{fields.slug}}"
     i18n: true
     fields:
       - name: "title"
@@ -187,6 +187,7 @@ collections:
         widget: datetime
         date_format: "YYYY-MM-DD"
         time_format: false
+        i18n: false
       - name: "category"
         label: "分類"
         widget: relation
@@ -194,6 +195,7 @@ collections:
         search_fields: ["title", "slug"]
         value_field: "slug"
         display_fields: ["title"]
+        i18n: false
       - name: "content"
         label: "內容"
         i18n: true
