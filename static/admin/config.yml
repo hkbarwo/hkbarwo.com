@@ -187,7 +187,6 @@ collections:
         widget: datetime
         date_format: "YYYY-MM-DD"
         time_format: false
-        i18n: false
       - name: "category"
         label: "分類"
         widget: relation
@@ -195,7 +194,6 @@ collections:
         search_fields: ["title", "slug"]
         value_field: "slug"
         display_fields: ["title"]
-        i18n: false
       - name: "content"
         label: "內容"
         i18n: true
@@ -280,7 +278,182 @@ collections:
           - name: "address"
             label: "地址"
             i18n: true
-            widget: string 
+            widget: string
+  - name: "resourcesPage"
+    label: "資源中心頁面"
+    i18n: true
+    files:
+      - name: "channel"
+        label: "八和頻道"
+        i18n: true
+        file: "/data/resources/channel/config.yml"
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+          - name: "description"
+            label: "簡介"
+            i18n: true
+            widget: markdown
+            required: false
+          - name: "youtubeLink"
+            label: "YouTube 連結"
+            widget: string
+            hint: "URL"
+            required: false
+      - name: "photoGallery"
+        label: "圖片珍藏"
+        i18n: true
+        file: "/data/resources/photo-gallery/config.yml"
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+          - name: "description"
+            label: "簡介"
+            i18n: true
+            widget: markdown
+            required: false
+      - name: "publications"
+        label: "出版刊物"
+        i18n: true
+        file: "/data/resources/publications/config.yml"
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+          - name: "description"
+            label: "簡介"
+            i18n: true
+            widget: markdown
+            required: false
+  - name: "channelCategories"
+    label: "八和頻道項目分類"
+    folder: "/data/resources/channel/categories"
+    create: true
+    delete: false
+    i18n: true
+    slug: "{{fields.slug}}"
+    sortable_fields: ["title", "slug"]
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+  - name: "channelItems"
+    label: "八和頻道項目"
+    i18n: true
+    folder: "/data/resources/channel/items"
+    create: true
+    slug: "{{fields.slug}}"
+    sortable_fields: ["title", "slug"]
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "category"
+        label: "分類"
+        widget: relation
+        collection: "channelCategories"
+        search_fields: ["title", "slug"]
+        value_field: "slug"
+        display_fields: ["title"]
+      - name: "date"
+        label: "日期"
+        widget: datetime
+        date_format: "YYYY-MM-DD"
+        time_format: false
+      - name: "coverImage"
+        label: "圖片"
+        widget: image
+        media_folder: "/static/images/uploads/resources/channel"
+        public_folder: "/images/uploads/resources/channel"
+        required: false
+      - name: "content"
+        i18n: true
+        label: "內文"
+        widget: markdown
+      - name: "youtubeVideoID"
+        label: "YouTube 影片 ID"
+        widget: string
+        required: false
+  - name: "photoGallaryItems"
+    label: "圖片珍藏項目"
+    folder: "/data/resources/photo-gallery/items"
+    i18n: true
+    create: true
+    slug: "{{fields.slug}}"
+    sortable_fields: ["title", "slug"]
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "date"
+        label: "日期"
+        widget: datetime
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        required: false
+      - name: "image"
+        label: "圖片"
+        widget: image
+        media_folder: "/static/images/uploads/resources/photos"
+        public_folder: "/images/uploads/resources/photos"
+        required: false
+      - name: "description"
+        i18n: true
+        label: "描述"
+        widget: text
+  - name: "publicationsItems"
+    label: "出版刊物項目"
+    folder: "/data/resources/publications/items"
+    i18n: true
+    create: true
+    slug: "{{fields.slug}}"
+    sortable_fields: ["title", "slug"]
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "date"
+        label: "出版日期"
+        widget: datetime
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        required: false
+      - name: "image"
+        label: "封面"
+        widget: image
+        media_folder: "/static/images/uploads/resources/publications"
+        public_folder: "/images/uploads/resources/publications"
+        required: false
+      - name: "pdf"
+        label: "PDF 檔案"
+        i18n: true
+        widget: file
+        required: false
   - name: "site"
     label: "全站設定"
     i18n: true
