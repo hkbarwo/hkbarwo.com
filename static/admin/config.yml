@@ -240,6 +240,474 @@ collections:
       - name: "color"
         label: "顏色"
         widget: color
+  - name: "about"
+    label: "關於我們"
+    i18n: true
+    files:
+      - name: "index"
+        label: "八和會館"
+        i18n: true
+        file: "/data/about/index.yml"
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+            required: false
+          - name: "excerpt"
+            label: "簡介"
+            widget: object
+            i18n: true
+            collapsed: false
+            fields: 
+              - name: "title"
+                label: "標題"
+                i18n: true
+                widget: string
+                required: false
+              - name: "content"
+                label: "內文"
+                i18n: true
+                widget: text
+                required: false
+          - name: "introduction"
+            label: "介紹"
+            widget: object
+            i18n: true
+            collapsed: false
+            fields: 
+              - name: "title"
+                label: "標題"
+                i18n: true
+                widget: string
+                required: false
+              - name: "content"
+                label: "內文"
+                i18n: true
+                widget: text
+                required: false
+              - name: "image"
+                label: "圖片"
+                widget: image
+                media_folder: "/static/images/uploads/about"
+                public_folder: "/images/uploads/about"
+                required: false
+          - name: "associations"
+            label: "屬會"
+            i18n: true
+            widget: object
+            collapsed: false
+            fields: 
+              - name: "title"
+                label: "標題"
+                i18n: true
+                widget: string
+                required: false
+              - name: "buttonTitle"
+                label: "按扭文字"
+                i18n: true
+                widget: string
+                required: false
+          - name: "excerpt2"
+            label: "前瞻"
+            widget: object
+            i18n: true
+            collapsed: false
+            fields: 
+              - name: "title"
+                label: "標題"
+                i18n: true
+                widget: string
+                required: false
+              - name: "content"
+                label: "內文"
+                i18n: true
+                widget: text
+                required: false
+          - name: "developmentStrategy"
+            label: "發展策略"
+            widget: markdown
+            i18n: true
+          - name: "developmentStrategyImage"
+            label: "發展策略圖片"
+            widget: image
+            media_folder: "/static/images/uploads/about"
+            public_folder: "/images/uploads/about"
+            required: false
+          - name: "sections"
+            label: "段落"
+            i18n: true
+            widget: list
+            collapsed: false
+            fields:
+              - name: "title"
+                label: "標題"
+                i18n: true
+                widget: string
+                required: false
+              - name: "content"
+                label: "內文"
+                i18n: true
+                widget: text
+                required: false
+              - name: "image"
+                label: "圖片"
+                widget: image
+                media_folder: "/static/images/uploads/about"
+                public_folder: "/images/uploads/about"
+                required: false
+      - name: "chronicle"
+        label: "歷年大事表"
+        i18n: true
+        file: "/data/about/chronicle.yml"
+        fields:
+          - name: "excerpt"
+            label: "簡介"
+            widget: object
+            i18n: true
+            collapsed: false
+            fields: 
+              - name: "title"
+                label: "標題"
+                i18n: true
+                widget: string
+                required: false
+              - name: "content"
+                label: "內文"
+                i18n: true
+                widget: text
+                required: false
+      - name: "advisors"
+        label: "顧問"
+        file: "/data/about/organization/advisors.yml"
+        i18n: true
+        fields:
+          - name: "groups"
+            label: "組別"
+            i18n: true
+            widget: list
+            fields:
+              - name: "title"
+                label: "標題"
+                i18n: true
+                widget: string
+              - name: "list"
+                label: "名單"
+                i18n: true
+                widget: list
+                fields:
+                  - name: "name"
+                    label: "名稱"
+                    i18n: true
+                    widget: string
+                  - name: "title"
+                    label: "職位"
+                    i18n: true
+                    widget: string
+                    required: false
+  - name: "chronicleCategories"
+    label: "歷年大事件分類"
+    folder: "/data/about/chronicle/categories"
+    create: true
+    delete: false
+    i18n: true
+    slug: "{{fields.slug}}"
+    sortable_fields: ["title", "slug"]
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+  - name: "chronicleItems"
+    label: "歷年大事件項目"
+    folder: "/data/about/chronicle/items"
+    create: true
+    i18n: true
+    slug: "{{year}}{{month}}{{day}}-{{fields.slug}}"
+    sortable_fields: ["title", "slug", "date"]
+    fields:
+      - name: "title"
+        label: "內容"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "date"
+        label: "日期"
+        widget: datetime
+        default: ""
+        date_format: "YYYY-MM-DD"
+        time_format: false
+      - name: "category"
+        label: "分類"
+        widget: relation
+        collection: "chronicleCategories"
+        search_fields: ["title", "slug"]
+        value_field: "slug"
+        display_fields: ["title"]
+      - name: "image"
+        label: "圖片"
+        widget: image
+        media_folder: "/static/images/uploads/about/chronicle"
+        public_folder: "/images/uploads/about/chronicle"
+        required: false
+  - name: "commitiees"
+    label: "理事會"
+    folder: "/data/about/organization/commitiees"
+    create: true
+    i18n: true
+    slug: "{{fields.slug}}"
+    fields:
+      - name: "title"
+        label: "標題"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成。例如：「39th」"]
+      - name: "period"
+        label: "任期"
+        i18n: true
+        widget: string
+      - name: "president"
+        label: "主席"
+        i18n: true
+        widget: object
+        fields:
+          - name: "name"
+            label: "名稱"
+            i18n: true
+            widget: string
+          - name: "image"
+            label: "相片"
+            widget: image
+            media_folder: "/static/images/uploads/organization/commitiees"
+            public_folder: "/images/uploads/organization/commitiees"
+            required: false
+      - name: "vicePresidents"
+        label: "副主席"
+        i18n: true
+        widget: list
+        fields:
+          - name: "name"
+            label: "名稱"
+            i18n: true
+            widget: string
+          - name: "image"
+            label: "相片"
+            widget: image
+            media_folder: "/static/images/uploads/organization/commitiees"
+            public_folder: "/images/uploads/organization/commitiees"
+            required: false
+      - name: "groups"
+        label: "組"
+        i18n: true
+        widget: list
+        fields:
+          - name: "title"
+            label: "名稱"
+            widget: string
+            required: false
+          - name: "commitiees"
+            label: "理事"
+            i18n: true
+            widget: list
+            fields:
+              - name: "name"
+                label: "名稱"
+                i18n: true
+                widget: string
+              - name: "title"
+                label: "職位"
+                i18n: true
+                widget: string
+              - name: "image"
+                label: "相片"
+                widget: image
+                required: false
+  - name: "commitieePresidents"
+    label: "理事會會長"
+    i18n: true
+    files:
+      - name: "presidents"
+        label: "會長"
+        file: "/data/about/organization/commitiees/presidents.yml"
+        fields:
+          - name: "list"
+            label: "名單"
+            i18n: true
+            widget: list
+            fields:
+              - name: "name"
+                label: "名稱"
+                i18n: true
+                widget: string
+              - name: "title"
+                label: "職位"
+                i18n: true
+                widget: string
+              - name: "image"
+                label: "相片"
+                widget: image
+                media_folder: "/static/images/uploads/organization/commitiees"
+                public_folder: "/images/uploads/organization/commitiees"
+                required: false
+      - name: "vicePresidents"
+        label: "副會長"
+        file: "/data/about/organization/commitiees/vice-presidents.yml"
+        fields:
+          - name: "list"
+            label: "名單"
+            i18n: true
+            widget: list
+            fields:
+              - name: "name"
+                label: "名稱"
+                i18n: true
+                widget: string
+              - name: "title"
+                label: "職位"
+                i18n: true
+                widget: string
+              - name: "image"
+                label: "相片"
+                widget: image
+                media_folder: "/static/images/uploads/organization/commitiees"
+                public_folder: "/images/uploads/organization/commitiees"
+                required: false
+  - name: "associations"
+    label: "屬會"
+    i18n: true
+    create: true
+    delete: false
+    folder: "/data/about/organization/associations"
+    slug: "{{fields.slug}}"
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "shortTitle"
+        label: "簡短名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成。"]
+      - name: "logo"
+        label: "圖示"
+        widget: image
+        media_folder: "/static/images/uploads/organization/associations"
+        public_folder: "/images/uploads/organization/associations"
+        required: false
+      - name: "logoWhite"
+        label: "圖示（反白）"
+        widget: image
+        media_folder: "/static/images/uploads/organization/associations"
+        public_folder: "/images/uploads/organization/associations"
+        required: false
+      - name: "description"
+        label: "介紹"
+        i18n: true
+        widget: markdown
+        required: false
+      - name: "commitieesTitle"
+        label: "名單標題"
+        i18n: true
+        widget: string
+        required: false
+      - name: "commitiees"
+        label: "名單"
+        i18n: true
+        widget: list
+        required: false
+        fields:
+          - name: "name"
+            label: "名稱"
+            i18n: true
+            widget: string
+          - name: "title"
+            label: "職位"
+            i18n: true
+            widget: string
+            required: false
+  - name: "interviewCategories"
+    label: "訪問分類"
+    folder: "/data/about/interviews/categories"
+    create: true
+    delete: false
+    i18n: true
+    slug: "{{fields.slug}}"
+    sortable_fields: ["title", "slug"]
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+  - name: "interviewItems"
+    label: "訪問項目"
+    folder: "/data/about/interviews/items"
+    create: true
+    i18n: true
+    slug: "{{year}}{{month}}{{day}}-{{fields.slug}}"
+    sortable_fields: ["title", "slug", "date"]
+    fields:
+      - name: "title"
+        label: "標題"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "date"
+        label: "日期"
+        widget: datetime
+        default: ""
+        date_format: "YYYY-MM-DD"
+        time_format: false
+      - name: "category"
+        label: "分類"
+        widget: relation
+        collection: "interviewCategories"
+        search_fields: ["title", "slug"]
+        value_field: "slug"
+        display_fields: ["title"]
+      - name: "biographic"
+        label: "人物簡介"
+        widget: object
+        i18n: true
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+          - name: "description"
+            label: "內容"
+            i18n: true
+            widget: text
+          - name: "image"
+            label: "相片"
+            widget: image
+            media_folder: "/static/images/uploads/about/interviews"
+            public_folder: "/images/uploads/about/interviews"
+            required: false
+      - name: "body"
+        label: "內文"
+        i18n: true
+        widget: markdown
   - name: "contact"
     label: "聯絡我們"
     i18n: true
