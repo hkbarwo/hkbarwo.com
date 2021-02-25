@@ -9,8 +9,11 @@ export default function PageNav({ pageContext }) {
   return (
     <div className="relative z-10">
       <div className="fixed top-0 right-0">
-        <button className="text-white p-20 bg-primary rounded-bl-3xl" onClick={() => setOpen(true)}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17.143" viewBox="0 0 16 17.143">
+        <button
+          className="p-10 pb-16 md:p-20 md:w-60 bg-primary md:bg-transparent text-white rounded-bl-3xl"
+          onClick={() => setOpen(true)}
+        >
+          <svg className="mx-auto" xmlns="http://www.w3.org/2000/svg" width="16" height="17.143" viewBox="0 0 16 17.143">
             <g fill="currentColor" transform="translate(0 -184)">
               <rect width="3" height="3" transform="translate(0 184)" />
               <rect width="3" height="3" transform="translate(0 191.071)" />
