@@ -1,5 +1,5 @@
 import React, { useCallback, useLayoutEffect, useMemo, useRef, useState } from "react";
-import useResizeObserver from "use-resize-observer";
+import useResizeObserver from '@react-hook/resize-observer';
 
 import classNames from "classnames";
 
@@ -7,8 +7,19 @@ import PageNav from "../components/PageNav";
 import PageFooter from "../components/PageFooter";
 import SiteLogo from "../components/SiteLogo";
 
+function useSize(target) {
+  const [size, setSize] = useState({ width: 0, height: 0 });
+
+  React.useLayoutEffect(() => {
+    setSize(target.current.getBoundingClientRect());
+  }, [target]);
+
+  useResizeObserver(target, (entry) => setSize(entry.contentRect));
+  return size;
+}
+
 function useSlideSize(slider) {
-  const { width = 0 } = useResizeObserver({ ref: slider });
+  const { width = 0 } = useSize(slider);
   let slidesPerPage = 1;
   if (width >= 320 * 3) {
     slidesPerPage = 3;
