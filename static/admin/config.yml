@@ -138,6 +138,9 @@ collections:
         label: "按鈕文字"
         i18n: true
         widget: string
+      - name: "buttonLink"
+        label: "按鈕鏈結"
+        widget: string
         required: false
       - name: "gradient"
         label: "背景漸變"

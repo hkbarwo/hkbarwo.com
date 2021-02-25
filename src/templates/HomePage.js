@@ -90,7 +90,7 @@ function FullScreenSlide({ slide, i, total, onClose, onNext, onPrev }) {
               <p className="mt-44 text-14 leading-8 whitespace-pre-wrap">{slide.description}</p>
               <a
                 className="mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
-                href="#"
+                href={slide.buttonLink}
               >
                 {slide.buttonTitle}
                 <svg
