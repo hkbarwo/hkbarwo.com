@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { FormattedMessage } from "react-intl";
 import classNames from "classnames";
 
 import SiteLogo from "./SiteLogo";
@@ -22,10 +23,8 @@ export default function PageNav({ pageContext }) {
               <rect width="3" height="3" transform="translate(13 198.143)" />
             </g>
           </svg>
-          <div className="mt-16">
-            目
-            <br />
-            錄
+          <div className="mt-16 mx-auto break-all w-16 uppercase">
+            <FormattedMessage id="menu" />
           </div>
         </button>
       </div>
