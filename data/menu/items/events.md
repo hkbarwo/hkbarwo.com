@@ -1,6 +1,6 @@
 ---
 zh:
-  title: 展覽及活動
+  title: 演出及活動
   slug: events
 en:
   title: Events
