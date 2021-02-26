@@ -125,7 +125,7 @@ function NewsSection({ pageContext, className }) {
       </h2>
       <div className="relative flex-grow w-full mt-16">
         <FadeTransition transitionKey={news.slug}>
-          {style => (
+          {({ style }) => (
             <div
               className="absolute inset-0 px-28 py-16 opacity-0 transition-opacity duration-300 ease-out"
               style={style}

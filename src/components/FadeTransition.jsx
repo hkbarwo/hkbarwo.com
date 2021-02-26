@@ -11,16 +11,29 @@ const transitionStyles = {
   exited: { opacity: 0 },
 };
 
-export default function FadeTransition({ transitionKey, children }) {
+export default function FadeTransition({ inProp = true, transitionKey, children }) {
+  if (transitionKey) {
+    return (
+      <SwitchTransition>
+        <Transition
+          key={transitionKey}
+          in={inProp}
+          timeout={300}
+        >
+          {state => children(transitionStyles[state])}
+        </Transition>
+      </SwitchTransition>
+    );
+  }
   return (
-    <SwitchTransition>
-      <Transition
-        key={transitionKey}
-        in={true}
-        timeout={300}
-      >
-        {state => children(transitionStyles[state])}
-      </Transition>
-    </SwitchTransition>
-  )
+    <Transition
+      in={inProp}
+      timeout={300}
+    >
+      {state => children({
+        style: transitionStyles[state],
+        state,
+      })}
+    </Transition>
+  );
 }
