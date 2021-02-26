@@ -1,5 +1,5 @@
 exports.createNewsPages = async ({ actions, graphql }, context) => {
-  const { locale, defaultLocale } = context;
+  const { locale, defaultLocale, newsCategories } = context;
 
   const newsPageTemplate = require.resolve('../../../templates/NewsPage.js');
   const newsDetailsPageTemplate = require.resolve('../../../templates/NewsDetailsPage.js');
@@ -23,33 +23,16 @@ exports.createNewsPages = async ({ actions, graphql }, context) => {
           }
         }
       }
-      categories: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/data/news/categories/"}}) {
-        nodes {
-          fields {
-            ${locale} {
-              title
-              slug
-              color
-            }
-          }
-        }
-      }
-      categoryOrder: allYamlNewsCategoriesOrder {
-        nodes {
-          item
-        }
-      }
     }
   `);
 
   const categoriesData = {};
   const categorizedNews = {};
-  result.data.categories.nodes.forEach(({ fields }) => {
-    const key = fields[locale].slug;
-    categoriesData[key] = fields[locale];
-    categorizedNews[key] = [];
+
+  newsCategories.forEach(category => {
+    categorizedNews[category.slug] = [];
+    categoriesData[category.slug] = category;
   });
-  const newsCategories = result.data.categoryOrder.nodes[0].item.map((item) => categoriesData[item]);
 
   const allNews = [];
 
