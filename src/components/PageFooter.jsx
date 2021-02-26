@@ -1,8 +1,10 @@
 import React from "react"
 
 import classNames from "classnames";
+import { Link } from "gatsby";
 
 export default function PageFooter({ pageContext, className }) {
+  const { locale } = pageContext;
   return (
     <footer
       className={classNames('px-20 py-32 lg:px-96 lg:pt-72 lg:pb-36 text-gray-3c text-14 lg:text-16', className)}
@@ -10,7 +12,7 @@ export default function PageFooter({ pageContext, className }) {
     >
       <div className="max-w-sm mx-auto lg:max-w-full">
         <div className="lg:flex flex-row-reverse -m-8">
-          <div className="mb-24 p-8 text-center">
+          {/* <div className="mb-24 p-8 text-center">
             <div className="mb-20 lg:mb-24 text-16 lg:text-24 font-bold">{pageContext.newsletter.cta}</div>
             <div className="flex justify-center -m-8">
               <input
@@ -21,9 +23,21 @@ export default function PageFooter({ pageContext, className }) {
                 className="flex-shrink-0 m-8 px-20 lg:px-32 py-12 lg:py-16 text-18 text-white bg-black rounded-full"
               >{pageContext.newsletter.buttonTitle}</button>
             </div>
-          </div>
+          </div> */}
+          <nav className="hidden lg:block p-8">
+            <ul className="flex flex-wrap -m-8">
+              {pageContext.menus['footer-primary'].map((item, i) => (
+                <li
+                  key={item.slug}
+                  className="m-8"
+                >
+                  <Link href={`/${locale}/${item.slug}`}>{item.title}</Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
           <div className="flex-grow p-8">
-            <h5 className="text-24 font-bold">{pageContext.contact.title}</h5>
+            <h5 className="text-24 font-bold font-serif">{pageContext.contact.title}</h5>
             <ul className="mt-32">
               <li className="flex items-center">
                 <span className="flex items-center justify-center w-24 h-24 mr-8">
@@ -83,18 +97,6 @@ export default function PageFooter({ pageContext, className }) {
           </div>
         </div>
         <div className="mt-36 -m-8">
-          <nav className="hidden lg:block p-8">
-            <ul className="flex flex-wrap -m-8">
-              {pageContext.menus['footer-primary'].map((item, i) => (
-                <li
-                  key={item.slug}
-                  className="m-8"
-                >
-                  <a href={`#${item.slug}`}>{item.title}</a>
-                </li>
-              ))}
-            </ul>
-          </nav>
           <div className="lg:flex items-end -m-8 p-8">
             <nav className="hidden lg:block flex-grow">
               <ul className="flex flex-wrap">
@@ -131,7 +133,7 @@ export default function PageFooter({ pageContext, className }) {
                   </svg>
                 </a>
               </li>
-              <li className="m-8">
+              {/* <li className="m-8">
                 <a
                   href={pageContext.general.socialAccounts.instagram}
                   alt="Instagram"
@@ -146,7 +148,7 @@ export default function PageFooter({ pageContext, className }) {
                     />
                   </svg>
                 </a>
-              </li>
+              </li> */}
               <li className="m-8">
                 <a
                   href={pageContext.general.socialAccounts.youtube}
