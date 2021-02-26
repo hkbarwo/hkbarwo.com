@@ -27,15 +27,17 @@ exports.onCreateNode = ({ node, actions }) => {
       });
     }
   } else if (/^yaml/.test(node.internal.type)) {
-    locales.forEach((locale) => {
-      actions.createNodeField({
-        name: locale,
-        value: locale === defaultLocale
-          ? node[defaultLocale]
-          : merge(node[defaultLocale], node[locale]),
-        node,
+    if (node[defaultLocale]) {
+      locales.forEach((locale) => {
+        actions.createNodeField({
+          name: locale,
+          value: locale === defaultLocale
+            ? node[defaultLocale]
+            : merge(node[defaultLocale], node[locale]),
+          node,
+        });
       });
-    });
+    }
   }
 };
 
