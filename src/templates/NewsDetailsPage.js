@@ -6,14 +6,14 @@ import PageFooter from "../components/PageFooter";
 import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";
 
-export default function NewsDetailsPage({ pageContext }) {
+export default function NewsDetailsPage({ path, pageContext }) {
   const { newsItem: news, newsCategories, locale } = pageContext;
 
   return (
     <IntlProvider language={locale}>
       <main className="flex flex-col min-h-screen">
         <PageNav
-          {...{ pageContext }}
+          {...{ path, pageContext }}
           pageTitle={<FormattedMessage id="news" />}
         />
         <PageHeader

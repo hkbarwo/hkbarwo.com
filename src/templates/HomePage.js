@@ -215,7 +215,7 @@ function NewsSection({ pageContext, className }) {
   )
 }
 
-export default function HomePageTemplate({ pageContext }) {
+export default function HomePageTemplate({ pageContext, path }) {
   const slideCount = pageContext.slides.length;
   const maxSlideIndex = slideCount - 1;
 
@@ -292,7 +292,7 @@ export default function HomePageTemplate({ pageContext }) {
   return (
     <IntlProvider language={pageContext.locale}>
       <main className="font-sans">
-        <PageNav {...{ pageContext }} />
+        <PageNav {...{ path, pageContext }} />
         <header className="p-20 pt-16 bg-white md:hidden">
           <SiteLogo className="mx-auto" style={{ maxWidth: 140 }} />
         </header>

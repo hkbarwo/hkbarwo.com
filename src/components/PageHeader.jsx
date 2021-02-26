@@ -20,7 +20,7 @@ export default function PageHeader({ menuItems = [], getActive }) {
       >
         <div className="flex justify-end items-center w-full h-40 px-4 md:hidden">
           <button
-            className="relative z-10 p-8 hover:text-primary transition-colors"
+            className="relative p-8 hover:text-primary transition-colors"
             onClick={() => setIsShowMenu(!isShowMenu)}
           >
             <svg

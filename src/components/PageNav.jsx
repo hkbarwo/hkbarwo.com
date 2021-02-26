@@ -1,21 +1,136 @@
-import React, { useState } from "react"
+import React, { useState, useRef } from "react"
 import { FormattedMessage } from "react-intl";
+import { Link } from 'gatsby';
 import classNames from "classnames";
+
+import useResize from "../utils/react-hooks/useResize";
 
 import FadeTransition from "./FadeTransition";
 import SiteLogo from "./SiteLogo";
 
-export default function PageNav({ pageContext, pageTitle }) {
+// function NewsletterSection(props) {
+//   return <div className="mb-24 p-8 text-center">
+//     <div className="mb-20 text-16 font-bold">{props.cta}</div>
+//     <div className="flex justify-center -m-8">
+//       <input
+//         className="m-8 px-20 lg:px-32 py-12 lg:py-16 text-14 lg:text-18 text-center bg-white rounded-full max-w-sm w-full"
+//         placeholder={props.placeholder}
+//       ></input>
+//       <button
+//         className="flex-shrink-0 m-8 px-20 lg:px-32 py-12 lg:py-16 text-18 text-white bg-black rounded-full"
+//       >{props.buttonTitle}</button>
+//     </div>
+//   </div>;
+// }
+
+function LanguageButton({ path, locale, targetLocale, children }) {
+  return (
+    <Link
+      className={classNames(
+        'mx-10 py-2 hover:opacity-100',
+        locale === targetLocale ? 'border-b' : 'opacity-40'
+      )}
+      to={path.replace(locale, targetLocale)}
+    >{children}</Link>
+  )
+}
+
+function SubMenu({ type, pageContext, className }) {
+  switch (type) {
+    case 'news': {
+      const { newsCategories, locale } = pageContext;
+      return (
+        <ul className={classNames('text-18 mt-16', className)}>
+          {newsCategories.map(({ slug, title }, i) => (
+            <li
+              key={slug}
+              className={classNames({ 'mt-16': i !== 0 })}
+            >
+              <Link to={`/${locale}/news/${slug}`}>
+                {title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+  
+    default:
+      return null;
+  }
+}
+
+function ExpandableSubMenu({ locale, item, pageContext, onClose }) {
+  const menu = useRef(null);
+  const { height: menuHeight } = useResize(menu);
+  const [isShowMenu, setIsShowMenu] = useState(false);
+  const linkTo = `/${locale}/${item.slug}`;
+  return (
+    <li
+      className="text-center"
+      key={item.slug}
+    >
+      <div
+        className="relative w-full flex items-center justify-center py-4 border-b border-current text-20 text-center font-bold font-serif tracking-wide"
+      >
+        <Link to={linkTo} onClick={onClose}>
+          {item.title}
+        </Link>
+        <button
+          className="absolute right-0 p-8"
+          onClick={() => setIsShowMenu(!isShowMenu)}
+        >
+          <svg
+            className={classNames('w-12 h-12 transform transition-transform duration-300', {
+              'rotate-180': isShowMenu,
+            })}
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 12 12"
+          >
+            <path
+              d="M10.83 5.84L6 10.67 1.17 5.83M6 1.33v9.3"
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        className="relative transition-height duration-300 overflow-hidden"
+        style={{ height: isShowMenu ? menuHeight : 0 }}
+      >
+        <div
+          ref={menu}
+          className="absolute inset-x-0 top-0"
+        >
+          <SubMenu
+            className="pb-16"
+            type={item.slug}
+            pageContext={pageContext}
+          />
+        </div>
+      </div>
+    </li>
+  )
+}
+
+export default function PageNav({ pageContext, pageTitle, path }) {
+  const { locale } = pageContext;
   const [isOpen, setOpen] = useState(false)
   return (
     <div className="relative z-10">
-      <div className="fixed top-0 right-0 md:w-60">
+      <div className="fixed top-0 right-0 md:w-60 overflow-scroll">
         <button
           className={classNames(
             'p-10 pb-16 md:p-20 md:w-full bg-primary text-white rounded-bl-2xl md:rounded-none', 
             !!pageTitle ? 'md:bg-primary' : 'md:bg-transparent',
           )}
-          onClick={() => setOpen(true)}
+          onClick={() => {
+            setOpen(true);
+            window.scroll({ top: 0 });
+          }}
         >
           <svg className="mx-auto" xmlns="http://www.w3.org/2000/svg" width="16" height="17.143" viewBox="0 0 16 17.143">
             <g fill="currentColor" transform="translate(0 -184)">
@@ -47,7 +162,7 @@ export default function PageNav({ pageContext, pageTitle }) {
         {({ style, state }) => (
           <div
             className={classNames(
-              'flex flex-col fixed top-0 right-0 left-0 bottom-0 p-40 bg-primary bg-pattern-light bg-repeat transition-opacity duration-300',
+              'flex flex-col z-20 min-h-screen absolute top-0 right-0 left-0 p-16 md:p-40 bg-primary bg-pattern-light bg-repeat transition-opacity duration-300',
               {
                 'pointer-events-none': state === 'exited',
               }
@@ -55,10 +170,10 @@ export default function PageNav({ pageContext, pageTitle }) {
             style={style}
           >
             <header className="flex items-start">
-              <SiteLogo style={{ width: 180 }} />
+              <SiteLogo className="w-logo-sm md:w-logo" />
               <div className="flex-grow" />
               <div className="flex items-center">
-                <button
+                {/* <button
                   className={classNames('flex items-center mx-10 hover:opacity-100', { 'opacity-40': false })}
                 >
                   <svg
@@ -91,19 +206,21 @@ export default function PageNav({ pageContext, pageTitle }) {
                   <label
                     className={classNames('py-2', { 'border-b': false })}
                   >{pageContext.general.themeSettings.dark}</label>
-                </button>
+                </button> */}
 
-                <a
-                  className={classNames('mx-10 py-2 hover:opacity-100', { 'border-b': true, 'opacity-40': false })}
-                  href="#zh"
-                >中文</a>
-                <a
-                  className={classNames('mx-10 py-2 hover:opacity-100', { 'border-b': false, 'opacity-40': true })}
-                  href="#en"
-                >ENG</a>
+                <LanguageButton
+                  path={path}
+                  locale={locale}
+                  targetLocale="zh"
+                >中文</LanguageButton>
+                <LanguageButton
+                  path={path}
+                  locale={locale}
+                  targetLocale="en"
+                >ENG</LanguageButton>
 
                 <button
-                  className="dark:bg-text-primary ml-32 -mr-20"
+                  className="dark:bg-text-primary ml-10 md:ml-32 md:-mr-20"
                   onClick={() => setOpen(false)}
                 >
                   <svg
@@ -122,17 +239,22 @@ export default function PageNav({ pageContext, pageTitle }) {
                 </button>
               </div>
             </header>
-            <nav className="flex flex-grow flex-row-reverse mt-40">
+            <nav className="hidden md:flex flex-grow flex-row-reverse mt-40">
               <ul className="flex-shrink-0 ml-20 mr-48 text-right">
                 {pageContext.menus['primary'].map((item, i) => (
                   <li
                     className={classNames({ 'mt-20': i > 0 })}
                     key={item.slug}
                   >
-                    <a
-                      className={classNames(item.style === "primary" ? "text-24 font-bold" : "text-14 underline")}
-                      href={`#${item.slug}`}
-                    >{item.title}</a>
+                    <Link
+                      className={classNames(
+                        item.style === "primary"
+                          ? "text-24 font-bold font-serif"
+                          : "text-14 underline"
+                      )}
+                      to={`/${locale}/${item.slug}`}
+                      onClick={() => { setOpen(false) }}
+                    >{item.title}</Link>
                   </li>
                 ))}
               </ul>
@@ -142,28 +264,49 @@ export default function PageNav({ pageContext, pageTitle }) {
                     key={item.slug}
                     className="m-10 min-w-180 text-center"
                   >
-                    <a
-                      className="text-24 font-bold"
-                      href={`#${item.slug}`}
-                    >{item.title}</a>
+                    <Link
+                      className="text-24 font-bold font-serif"
+                      to={`/${locale}/${item.slug}`}
+                      onClick={() => { setOpen(false) }}
+                    >{item.title}</Link>
                     <hr className="my-8" />
+                    <SubMenu type={item.slug} pageContext={pageContext} />
                   </li>
                 ))}
               </ul>
-              {/* <ul>
-                {pageContext.menus['primary-mobile'].map(item => (
-                  <li key={item.slug}><a href={`#${item.slug}`}>{item.title}</a></li>
-                ))}
-              </ul> */}
-          
-              {/* <ul>
-                {pageContext.menus['secondary-mobile'].map(item => (
-                  <li key={item.slug}><a href={`#${item.slug}`}>{item.title}</a></li>
-                ))}
-              </ul> */}
             </nav>
-            <footer className="flex items-end">
-              <ul className="mt-32 flex-grow">
+            <nav className="md:hidden mt-32">
+              <ul>
+                {pageContext.menus['primary-mobile'].map(item => (
+                  <ExpandableSubMenu
+                    key={item.slug}
+                    item={item}
+                    locale={locale}
+                    pageContext={pageContext}
+                    onClose={() => { setOpen(false) }}
+                  />
+                ))}
+              </ul>
+          
+              <ul className="mt-16 flex items-center justify-center">
+                {pageContext.menus['secondary-mobile'].map(item => (
+                  <li
+                    key={item.slug}
+                    className="mx-8"
+                  >
+                    <Link
+                      className="text-14 underline"
+                      to={`/${locale}/${item.slug}`}
+                      onClick={() => { setOpen(false) }}
+                    >
+                      {item.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+            <footer className="flex flex-wrap items-end text-14">
+              <ul className="hidden md:block mt-32 flex-grow">
                 <li className="flex items-center">
                   <span className="flex items-center justify-center w-24 h-24 mr-8">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18.712" height="18.298" viewBox="0 0 18.712 18.298">
@@ -219,24 +362,13 @@ export default function PageNav({ pageContext, pageTitle }) {
                   <span>{pageContext.contact.address}</span>
                 </li>
               </ul>
-              <div>
-                <div className="mb-24 p-8 text-center">
-                  <div className="mb-20 text-16 font-bold">{pageContext.newsletter.cta}</div>
-                  <div className="flex justify-center -m-8">
-                    <input
-                      className="m-8 px-20 lg:px-32 py-12 lg:py-16 text-14 lg:text-18 text-center bg-white rounded-full max-w-sm w-full"
-                      placeholder={pageContext.newsletter.placeholder}
-                    ></input>
-                    <button
-                      className="flex-shrink-0 m-8 px-20 lg:px-32 py-12 lg:py-16 text-18 text-white bg-black rounded-full"
-                    >{pageContext.newsletter.buttonTitle}</button>
-                  </div>
-                </div>
-                <div className="flex">
-                  <div className="text-right m-8">
+              <div className="mx-auto md:mx-0 mt-20">
+                {/* <NewsletterSection {...pageContext.newsletter} /> */}
+                <div className="md:flex">
+                  <div className="text-right mb-16 md:mb-0 md:mr-16">
                     {(pageContext.general.copyright || '').replace('{year}', new Date().getFullYear())}
                   </div>
-                  <ul className="flex justify-center items-center">
+                  <ul className="flex justify-center items-center -m-8">
                     <li className="m-8">
                       <a
                         href={pageContext.general.socialAccounts.facebook}
@@ -253,7 +385,7 @@ export default function PageNav({ pageContext, pageTitle }) {
                         </svg>
                       </a>
                     </li>
-                    <li className="m-8">
+                    {/* <li className="m-8">
                       <a
                         href={pageContext.general.socialAccounts.instagram}
                         alt="Instagram"
@@ -268,7 +400,7 @@ export default function PageNav({ pageContext, pageTitle }) {
                           />
                         </svg>
                       </a>
-                    </li>
+                    </li> */}
                     <li className="m-8">
                       <a
                         href={pageContext.general.socialAccounts.youtube}

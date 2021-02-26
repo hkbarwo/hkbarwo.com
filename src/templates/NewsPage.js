@@ -7,13 +7,13 @@ import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";
 import { FormattedDate, FormattedMessage } from "react-intl";
 
-export default function NewsPage({ pageContext }) {
+export default function NewsPage({ path, pageContext }) {
   const { newsItems, newsCategory, newsCategories, locale } = pageContext;
   return (
     <IntlProvider language={locale}>
       <main className="flex flex-col min-h-screen">
         <PageNav
-          {...{ pageContext }}
+          {...{ path, pageContext }}
           pageTitle={<FormattedMessage id="news" />}
         />
         <PageHeader
