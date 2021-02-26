@@ -4,13 +4,16 @@ import classNames from "classnames";
 
 import SiteLogo from "./SiteLogo";
 
-export default function PageNav({ pageContext }) {
+export default function PageNav({ pageContext, pageTitle }) {
   const [isOpen, setOpen] = useState(false)
   return (
     <div className="relative z-10">
-      <div className="fixed top-0 right-0">
+      <div className="fixed top-0 right-0 md:w-60">
         <button
-          className="p-10 pb-16 md:p-20 md:w-60 bg-primary md:bg-transparent text-white rounded-bl-3xl"
+          className={classNames(
+            'p-10 pb-16 md:p-20 md:w-full bg-primary text-white rounded-bl-2xl md:rounded-none', 
+            !!pageTitle ? 'md:bg-primary' : 'md:bg-transparent',
+          )}
           onClick={() => setOpen(true)}
         >
           <svg className="mx-auto" xmlns="http://www.w3.org/2000/svg" width="16" height="17.143" viewBox="0 0 16 17.143">
@@ -30,6 +33,13 @@ export default function PageNav({ pageContext }) {
             <FormattedMessage id="menu" />
           </div>
         </button>
+        {!!pageTitle && (
+          <div className="hidden md:block p-20">
+            <div className="mx-auto break-all w-16 uppercase font-serif text-black font-black text-center">
+              {pageTitle}
+            </div>
+          </div>
+        )}
       </div>
 
       {isOpen && (

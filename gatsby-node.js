@@ -3,6 +3,7 @@ const merge = require('deepmerge');
 const { fetchSiteData } = require('./src/utils/gatsby/general');
 const { fetchMenus } = require('./src/utils/gatsby/menus');
 const { createHomePage } = require('./src/utils/gatsby/pages/home');
+const { createNewsPages } = require('./src/utils/gatsby/pages/news');
 
 const defaultLocale = 'zh';
 const locales = ['zh', 'en'];
@@ -48,5 +49,6 @@ exports.createPages = async (params) => {
     const menus = await fetchMenus(params, { locale });
     const context = { locale, defaultLocale, menus, ...siteData };
     await createHomePage(params, context);
+    await createNewsPages(params, context);
   }
 };

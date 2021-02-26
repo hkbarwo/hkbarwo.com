@@ -34,6 +34,20 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
           }
         }
       }
+      news: allMarkdownRemark(filter: {
+        fileAbsolutePath: {regex: "/data/news/items/"}},
+        sort: {order: DESC, fields: fields___${locale}___date,
+      }, limit: 12) {
+        nodes {
+          fields {
+            ${locale} {
+              title
+              slug
+              date
+            }
+          }
+        }
+      }
     }
   `);
 
@@ -44,6 +58,8 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
   });
 
   const slides = result.data.swiper.fields[locale].slides.map(slug => slidesData[slug]);
+
+  const news = result.data.news.nodes.map(({ fields }) => fields[locale]);
 
   const path = '/';
 
@@ -63,6 +79,7 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
     context: {
       ...context,
       slides,
+      news,
     },
   }); 
 };

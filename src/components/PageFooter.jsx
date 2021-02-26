@@ -4,7 +4,10 @@ import classNames from "classnames";
 
 export default function PageFooter({ pageContext, className }) {
   return (
-    <footer className={classNames('px-20 py-32 lg:px-96 lg:pt-72 lg:pb-36 bg-secondary text-gray-3c text-14 lg:text-16', className)}>
+    <footer
+      className={classNames('px-20 py-32 lg:px-96 lg:pt-72 lg:pb-36 text-gray-3c text-14 lg:text-16', className)}
+      style={{ backgroundColor: '#6fcdd4' }}
+    >
       <div className="max-w-sm mx-auto lg:max-w-full">
         <div className="lg:flex flex-row-reverse -m-8">
           <div className="mb-24 p-8 text-center">

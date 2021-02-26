@@ -70,35 +70,6 @@ collections:
     label: "首頁"
     i18n: true
     files:
-      - name: "news"
-        label: "最新消息"
-        i18n: true
-        file: "/data/pages/home/news.yml"
-        fields:
-          - name: "title"
-            label: "標題"
-            i18n: true
-            widget: string
-          - name: "moreButtonTitle"
-            label: "更多消息按鈕文字"
-            i18n: true
-            widget: string
-          - name: "detailsButtonTitle"
-            label: "了解更多按鈕文字"
-            i18n: true
-            widget: string
-          - name: "items"
-            label: "最新消息"
-            widget: list
-            summary: "{{fields.item}}"
-            field:
-              name: "item"
-              label: "項目"
-              widget: relation
-              collection: "news"
-              search_fields: ["title", "slug"]
-              value_field: "slug"
-              display_fields: ["title"]
       - name: "swiper"
         label: "幻燈片"
         file: "/data/pages/home/swiper/config.yml"
@@ -179,7 +150,7 @@ collections:
             value: "contain"
   - name: "news"
     label: "最新消息"
-    folder: "/data/news"
+    folder: "/data/news/items"
     create: true
     slug: "{{year}}{{month}}{{day}}-{{fields.slug}}"
     i18n: true
@@ -198,6 +169,7 @@ collections:
         widget: datetime
         date_format: "YYYY-MM-DD"
         time_format: false
+        default: ""
       - name: "category"
         label: "分類"
         widget: relation
@@ -248,6 +220,24 @@ collections:
       - name: "color"
         label: "顏色"
         widget: color
+  - name: "newsCategoriesOrder"
+    label: "最新消息分類排序"
+    files:
+      - name: "list"
+        label: "列表"
+        file: "/data/news/categories/order.yml"
+        fields:
+          - name: "item"
+            label: "項目"
+            widget: list
+            field:
+              name: "category"
+              label: "分類"
+              widget: relation
+              collection: "newsCategories"
+              search_fields: ["title", "slug"]
+              value_field: "slug"
+              display_fields: ["title"]
   - name: "about"
     label: "關於我們"
     i18n: true

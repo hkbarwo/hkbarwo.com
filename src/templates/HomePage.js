@@ -1,26 +1,18 @@
 import React, { useCallback, useLayoutEffect, useMemo, useRef, useState } from "react";
-import useResizeObserver from '@react-hook/resize-observer';
-
+import { FormattedDate, FormattedMessage } from "react-intl";
+import { Link } from "gatsby";
 import classNames from "classnames";
 
+import useResize from "../utils/react-hooks/useResize";
+
+import FadeTransition from "../components/FadeTransition";
 import IntlProvider from "../components/IntlProvider";
 import PageNav from "../components/PageNav";
 import PageFooter from "../components/PageFooter";
 import SiteLogo from "../components/SiteLogo";
 
-function useSize(target) {
-  const [size, setSize] = useState({ width: 0, height: 0 });
-
-  React.useLayoutEffect(() => {
-    setSize(target.current.getBoundingClientRect());
-  }, [target]);
-
-  useResizeObserver(target, (entry) => setSize(entry.contentRect));
-  return size;
-}
-
 function useSlideSize(slider) {
-  const { width = 0 } = useSize(slider);
+  const { width = 0 } = useResize(slider);
   let slidesPerPage = 1;
   if (width >= 320 * 3) {
     slidesPerPage = 3;
@@ -115,6 +107,114 @@ function FullScreenSlide({ slide, i, total, onClose, onNext, onPrev }) {
   );
 }
 
+function NewsSection({ pageContext, className }) {
+  const [slideIndex, setSlideIndex] = useState(0);
+
+  function goToSlide(index) {
+    const slideCount = pageContext.news.length;
+    const newIndex = index >= 0 ? index % slideCount : slideCount - 1;
+    setSlideIndex(newIndex);
+  }
+
+  const news = pageContext.news[slideIndex];
+
+  return (
+    <div className={classNames('flex flex-col items-start', className)}>
+      <h2 className="text-white bg-secondary rounded-full mx-28 p-8 px-16">
+        <FormattedMessage id="home.news.title" />
+      </h2>
+      <div className="relative flex-grow w-full mt-16">
+        <FadeTransition transitionKey={news.slug}>
+          {style => (
+            <div
+              className="absolute inset-0 px-28 py-16 opacity-0 transition-opacity duration-300 ease-out"
+              style={style}
+            >
+              <h3>{news.title}</h3>
+              <footer className="flex justify-between items-center mt-16 text-14">
+                <div className="flex items-center">
+                  <svg className="w-16 h-16 mr-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                    <path
+                      d="M10.44,11.19l-3-3v-5H8.53V7.78l2.66,2.66ZM8,15.44A7.44,7.44,0,1,1,15.44,8,7.44,7.44,0,0,1,8,15.44ZM8,1.62A6.38,6.38,0,1,0,14.38,8,6.38,6.38,0,0,0,8,1.62Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <FormattedDate value={news.date} />
+                </div>
+                <Link
+                  className="flex items-center px-12 py-4 border border-current rounded-full font-light group"
+                  to={`/${pageContext.locale}/news/${news.slug}`}
+                >
+                  <FormattedMessage id="know.more" />
+                  <svg
+                    className="w-12 h-12 ml-8 transform group-hover:translate-x-4 transition-transform"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                </Link>
+              </footer>
+            </div>
+          )}
+        </FadeTransition>
+      </div>
+      <footer class="flex justify-between items-center p-32 text-14 w-full">
+        <Link
+          className="border-b border-current pb-2 group"
+          to={`/${pageContext.locale}/news`}
+        >
+          <div className="transform group-hover:-translate-y-2 transition-transform">
+            <FormattedMessage id="home.news.more" />
+          </div>
+        </Link>
+        <div className="flex items-center">
+          <button
+            className="group"
+            onClick={() => goToSlide(slideIndex - 1)}
+          >
+            <svg
+              className="w-12 h-12 transform group-hover:-translate-x-2 transition-transform"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 12 12"
+            >
+              <path
+                d="M10.69 6h-9.3m4.83 4.83L1.39 6l4.84-4.84"
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+              />
+            </svg>
+          </button>
+          <span className="tracking-widest mx-8">{slideIndex + 1}/{pageContext.news.length}</span>
+          <button
+            className="group"
+            onClick={() => goToSlide(slideIndex + 1)}
+          >
+            <svg
+              className="w-12 h-12 transform group-hover:translate-x-2 transition-transform"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 12 12"
+            >
+              <path
+                d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </footer>
+    </div>
+  )
+}
+
 export default function HomePageTemplate({ pageContext }) {
   const slideCount = pageContext.slides.length;
   const maxSlideIndex = slideCount - 1;
@@ -198,12 +298,16 @@ export default function HomePageTemplate({ pageContext }) {
         </header>
         <div className="fixed inset-0 hidden md:flex items-stretch">
           <section
-            className="flex-shrink-0"
+            className="flex flex-col flex-shrink-0 bg-gray-f4 bg-pattern-white h-full"
             style={{ width: 346 }}
           >
-            <header className="p-28 bg-gray-f4 bg-pattern-white h-full">
+            <header className="p-28">
               <SiteLogo className="mx-auto" style={{ maxWidth: 200 }} />
             </header>
+            <NewsSection
+              className="flex-grow mt-60"
+              pageContext={pageContext}
+            />
           </section>
           <section ref={sliderSection} className="relative flex-grow overflow-hidden">
             <ul
