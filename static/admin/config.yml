@@ -431,6 +431,11 @@ collections:
                 i18n: true
                 widget: text
                 required: false
+          - name: "pdf"
+            label: "PDF 檔案"
+            i18n: true
+            widget: file
+            required: false
       - name: "advisors"
         label: "顧問"
         file: "/data/about/organization/advisors.yml"
@@ -476,6 +481,9 @@ collections:
         label: "Slug"
         widget: string
         pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "color"
+        label: "顏色"
+        widget: color
   - name: "chronicleItems"
     label: "歷年大事件項目"
     folder: "/data/about/chronicle/items"
@@ -511,6 +519,7 @@ collections:
         media_folder: "/static/images/uploads/about/chronicle"
         public_folder: "/images/uploads/about/chronicle"
         required: false
+        default: ""
   - name: "commitiees"
     label: "理事會"
     folder: "/data/about/organization/commitiees"
