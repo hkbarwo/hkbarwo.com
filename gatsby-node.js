@@ -20,12 +20,19 @@ exports.onCreateNode = ({ node, actions }) => {
         value: frontmatter[defaultLocale].slug,
         node,
       });
+      
+      const isMenuItem = node.fileAbsolutePath.indexOf('data/menu/items') !== -1;
+
       locales.forEach((locale) => {
         actions.createNodeField({
           name: locale,
           value: locale === defaultLocale
             ? frontmatter[defaultLocale]
-            : merge(frontmatter[defaultLocale], frontmatter[locale]),
+            : isMenuItem
+              ? merge(frontmatter[defaultLocale], frontmatter[locale], {
+                arrayMerge: (_, source) => source,
+              })
+              : merge(frontmatter[defaultLocale], frontmatter[locale]),
           node,
         });
       });
