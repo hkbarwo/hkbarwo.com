@@ -20,7 +20,10 @@ export default function FadeTransition({ inProp = true, transitionKey, children 
           in={inProp}
           timeout={300}
         >
-          {state => children(transitionStyles[state])}
+          {state => children({
+            style: transitionStyles[state],
+            state,
+          })}
         </Transition>
       </SwitchTransition>
     );
