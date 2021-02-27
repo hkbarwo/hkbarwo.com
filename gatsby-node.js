@@ -3,6 +3,7 @@ const merge = require('deepmerge');
 const { fetchSiteData } = require('./src/utils/gatsby/general');
 const { fetchMenus } = require('./src/utils/gatsby/menus');
 const { fetchNewsCategories } = require('./src/utils/gatsby/news');
+const { createAboutPages } = require('./src/utils/gatsby/pages/about');
 const { createHomePage } = require('./src/utils/gatsby/pages/home');
 const { createNewsPages } = require('./src/utils/gatsby/pages/news');
 
@@ -65,6 +66,7 @@ exports.createPages = async (params) => {
     await Promise.all([
       createHomePage(params, context),
       createNewsPages(params, context),
+      createAboutPages(params, context),
     ]);
   }
 };
