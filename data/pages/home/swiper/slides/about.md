@@ -8,7 +8,7 @@ zh:
     color1: "#f11462"
     color2: "#7785fd"
   bgImage: /images/uploads/home/swiper/slides/landing-img-1-2x.jpg
-  subtitle: 創意．傳承
+  subtitle: 保育．傳承
   title: 八和會館
   bgImageFillStyle: contain
   shortTitle: 關於我們
