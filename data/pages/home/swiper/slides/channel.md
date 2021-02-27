@@ -2,6 +2,8 @@
 zh:
   buttonTitle: 探索我們的頻道
   slug: channel
+  buttonLink:
+    page: channel
   gradient:
     color1: "#24b7c9"
     color2: "#ebd4a3"

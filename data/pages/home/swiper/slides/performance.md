@@ -2,6 +2,8 @@
 zh:
   buttonTitle: 查看最新活動
   slug: performance
+  buttonLink:
+    page: events-latest
   gradient:
     color1: "#005bd5"
     color2: "#98d6c4"

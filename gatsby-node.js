@@ -2,6 +2,7 @@ const merge = require('deepmerge');
 
 const { fetchSiteData } = require('./src/utils/gatsby/general');
 const { fetchMenus } = require('./src/utils/gatsby/menus');
+const { fetchPageItems } = require('./src/utils/gatsby/pages');
 const { fetchNewsCategories } = require('./src/utils/gatsby/news');
 const { createAboutPages } = require('./src/utils/gatsby/pages/about');
 const { createHomePage } = require('./src/utils/gatsby/pages/home');
@@ -49,15 +50,21 @@ exports.createPages = async (params) => {
     const locale = locales[i];
     const [
       siteData,
+      pages,
+    ] = await Promise.all([
+      fetchSiteData(params, { locale }),
+      fetchPageItems(params, { locale }),
+    ]);
+    const [
       menus,
       newsCategories,
     ] = await Promise.all([
-      fetchSiteData(params, { locale }),
-      fetchMenus(params, { locale }),
+      fetchMenus(params, { locale, pages }),
       fetchNewsCategories(params, { locale }),
     ]);
     const context = {
       locale,
+      pages,
       defaultLocale,
       menus,
       newsCategories,

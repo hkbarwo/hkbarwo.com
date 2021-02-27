@@ -2,7 +2,7 @@
 zh:
   title: 支持我們
   slug: support
-  page: support
+  url: /support
 en:
   title: Support
 ---

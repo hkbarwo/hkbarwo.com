@@ -1,16 +1,7 @@
-zh:
-  slides:
-    - about
-    - channel
-    - legacy
-    - academy
-    - performance
-    - member
-en:
-  slides:
-    - about
-    - channel
-    - legacy
-    - academy
-    - performance
-    - member
+slides:
+  - about
+  - channel
+  - legacy
+  - academy
+  - performance
+  - member

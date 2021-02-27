@@ -2,7 +2,7 @@
 zh:
   title: 使用條款及細則
   slug: tnc
-  page: tnc
+  url: /tnc
 en:
-  title: Terms
+  title: T&C
 ---

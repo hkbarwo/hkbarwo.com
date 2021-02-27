@@ -6,11 +6,7 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
   const result = await graphql(`
     {
       swiper: yamlPagesHomeSwiperConfig {
-        fields {
-          ${locale} {
-            slides
-          }
-        }
+        slides
       }
       slides: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/pages/home/swiper/slides/"}}) {
         edges {
@@ -57,7 +53,7 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
     slidesData[slideData.slug] = slideData;
   });
 
-  const slides = result.data.swiper.fields[locale].slides.map(slug => slidesData[slug]);
+  const slides = result.data.swiper.slides.map(slug => slidesData[slug]);
 
   const news = result.data.news.nodes.map(({ fields }) => fields[locale]);
 

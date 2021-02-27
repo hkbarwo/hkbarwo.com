@@ -53,10 +53,11 @@ collections:
   - name: "menuItems"
     label: "選單項目"
     folder: "/data/menu/items"
-    create: false
+    create: true
     delete: false
     i18n: true
     slug: "{{fields.slug}}"
+    sortable_fields: ["title", "slug", "page"]
     fields:
       - name: "title"
         label: "名稱"
@@ -66,9 +67,47 @@ collections:
         label: "Slug"
         widget: string
         pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "page"
+        label: "頁面"
+        widget: relation
+        collection: "pages"
+        search_fields: ["title", "slug"]
+        value_field: "slug"
+        display_fields: ["title"]
+      - name: "subPages"
+        label: "頁面"
+        widget: list
+        summary: "{{fields.page}}"
+        field:
+          name: "page"
+          label: "頁面"
+          widget: relation
+          collection: "pages"
+          search_fields: ["title", "slug"]
+          value_field: "slug"
+          display_fields: ["title"]
+  - name: "pages"
+    label: "頁面"
+    folder: "/data/pages/items"
+    create: true
+    delete: false
+    i18n: true
+    slug: "{{fields.slug}}"
+    sortable_fields: ["title", "slug", "url"]
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "url"
+        label: "連結"
+        widget: string
   - name: "home"
     label: "首頁"
-    i18n: true
     files:
       - name: "swiper"
         label: "幻燈片"
@@ -119,8 +158,20 @@ collections:
         widget: string
       - name: "buttonLink"
         label: "按鈕鏈結"
-        widget: string
-        required: false
+        widget: object
+        fields:
+          - name: "url"
+            label: "URL"
+            widget: string
+            required: false
+          - name: "page"
+            label: "頁面"
+            widget: relation
+            collection: "pages"
+            search_fields: ["title", "slug"]
+            value_field: "slug"
+            display_fields: ["title"]
+            required: false
       - name: "gradient"
         label: "背景漸變"
         widget: object

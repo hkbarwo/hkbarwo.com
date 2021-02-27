@@ -1,8 +1,8 @@
 ---
 zh:
   title: 主頁
-  slug: home
-  page: index
+  slug: index
+  url: /
 en:
   title: Home
 ---

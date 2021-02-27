@@ -2,6 +2,8 @@
 zh:
   buttonTitle: 探索我們的故事
   slug: about
+  buttonLink:
+    page: introduction
   gradient:
     color1: "#f11462"
     color2: "#7785fd"

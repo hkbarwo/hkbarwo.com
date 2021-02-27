@@ -1,5 +1,5 @@
 
-exports.fetchMenus = async ({ graphql }, { locale }) => {
+exports.fetchMenus = async ({ graphql }, { locale, pages }) => {
   const result = await graphql(`
     {
       menus: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/data/menu/"}, frontmatter: {id: {regex: "/.*/"}}}) {
@@ -16,13 +16,14 @@ exports.fetchMenus = async ({ graphql }, { locale }) => {
         }
       }
       menuItems: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/data/menu/items/"}}) {
-        edges {
-          node {
-            fields {
+        nodes {
+          fields {
+            slug
+            ${locale} {
               slug
-              ${locale} {
-                title
-              }
+              title
+              page
+              subPages
             }
           }
         }
@@ -31,14 +32,21 @@ exports.fetchMenus = async ({ graphql }, { locale }) => {
   `);
 
   const menuItems = {};
-  result.data.menuItems.edges.forEach(({ node: { fields } }) => {
-    menuItems[fields.slug] = fields;
+  result.data.menuItems.nodes.forEach(({ fields }) => {
+    const item = { ...fields[locale] };
+    if (item.page) {
+      item.page = pages[item.page];
+    }
+    if (item.subPages && item.subPages.length) {
+      item.subPages = item.subPages.map(page => pages[page])
+    }
+    menuItems[item.slug] = item;
   });
 
   const menus = {};
   result.data.menus.edges.forEach(({ node: { frontmatter: { id, items } } }) => {
     menus[id] = items.map(({ style, item: slug }) => ({
-      ...menuItems[slug][locale],
+      ...menuItems[slug],
       slug,
       style,
     }));

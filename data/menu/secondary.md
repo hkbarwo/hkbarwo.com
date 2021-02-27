@@ -5,7 +5,7 @@ items:
   - style: primary
     item: about
   - style: primary
-    item: performances
+    item: events
   - style: primary
     item: news
   - style: primary

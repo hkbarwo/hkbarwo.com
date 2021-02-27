@@ -2,7 +2,7 @@
 zh:
   title: 私隱政策
   slug: privacy
-  page: privacy
+  url: /privacy
 en:
   title: Privacy
 ---

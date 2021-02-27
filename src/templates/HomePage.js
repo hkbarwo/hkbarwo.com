@@ -164,7 +164,7 @@ function NewsSection({ pageContext, className }) {
           )}
         </FadeTransition>
       </div>
-      <footer class="flex justify-between items-center p-32 text-14 w-full">
+      <footer className="flex justify-between items-center p-32 text-14 w-full">
         <Link
           className="border-b border-current pb-2 group"
           to={`/${pageContext.locale}/news`}

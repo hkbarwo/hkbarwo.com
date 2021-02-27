@@ -2,7 +2,7 @@
 zh:
   title: 最新消息
   slug: news
-  page: news
+  url: /news
 en:
-  title: News
+  title: 最新消息
 ---

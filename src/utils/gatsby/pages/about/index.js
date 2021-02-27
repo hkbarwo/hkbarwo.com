@@ -5,7 +5,7 @@ const createAboutIndexPage = async (params, context) => {
   const { actions, graphql } = params;
   const { locale, defaultLocale } = context;
 
-  const aboutPageTemplate = require.resolve('../../../../templates/AboutPage.js');
+  const aboutPageTemplate = require.resolve('../../../../templates/AboutIndexPage.js');
 
   const result = await graphql(`
     {

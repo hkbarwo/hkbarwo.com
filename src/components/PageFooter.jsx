@@ -26,14 +26,17 @@ export default function PageFooter({ pageContext, className }) {
           </div> */}
           <nav className="hidden lg:block p-8">
             <ul className="flex flex-wrap -m-8">
-              {pageContext.menus['footer-primary'].map((item, i) => (
-                <li
-                  key={item.slug}
-                  className="m-8"
-                >
-                  <Link href={`/${locale}/${item.slug}`}>{item.title}</Link>
-                </li>
-              ))}
+              {pageContext.menus['footer-primary'].map((item, i) => {
+                const page = item.page || {};
+                return (
+                  <li
+                    key={item.slug}
+                    className="m-8"
+                  >
+                    <Link to={`/${locale}${page.url}`}>{item.title}</Link>
+                  </li>
+                )
+              })}
             </ul>
           </nav>
           <div className="flex-grow p-8">
