@@ -1,3 +1,5 @@
+const { Remarkable } = require('remarkable');
+
 const { createAboutOrganizationPages } = require('./organization');
 const { createAboutChroniclePage } = require('./chronicle');
 
@@ -13,6 +15,7 @@ const createAboutIndexPage = async (params, context) => {
         fields {
           ${locale} {
             developmentStrategy
+            developmentStrategyImage
             associations {
               buttonTitle
               title
@@ -43,6 +46,9 @@ const createAboutIndexPage = async (params, context) => {
   `);
 
   const pageData = result.data.page.fields[locale];
+
+  const md = new Remarkable();
+  pageData.developmentStrategy = md.render(pageData.developmentStrategy);
   
   const path = '/about';
 

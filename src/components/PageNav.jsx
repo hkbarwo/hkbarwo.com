@@ -35,12 +35,6 @@ function LanguageButton({ path, locale, targetLocale, children }) {
   )
 }
 
-function getNavLink(locale, item) {
-  const { page } = item;
-  const { url } = page || {};
-  return `/${locale}${url || ''}`
-}
-
 function SubMenu({ item, pageContext, className }) {
   const { locale } = pageContext;
   switch (item.slug) {
@@ -96,7 +90,7 @@ function ExpandableSubMenu({ locale, item, pageContext, onClose }) {
       <div className="relative w-full flex items-center justify-center py-4 border-b border-current text-20 text-center font-bold font-serif tracking-wide">
         <Link
           className="tracking-wide"
-          to={getNavLink(locale, item)}
+          to={item.url}
           onClick={onClose}
         >
           {item.title}
@@ -279,7 +273,7 @@ export default function PageNav({ pageContext, pageTitle, path }) {
                           ? "text-24 font-bold font-serif"
                           : "text-14 underline"
                       )}
-                      to={getNavLink(locale, item)}
+                      to={item.url}
                       onClick={() => { setOpen(false) }}
                     >{item.title}</Link>
                   </li>
@@ -293,7 +287,7 @@ export default function PageNav({ pageContext, pageTitle, path }) {
                   >
                     <Link
                       className="text-24 font-bold font-serif"
-                      to={getNavLink(locale, item)}
+                      to={item.url}
                       onClick={() => { setOpen(false) }}
                     >{item.title}</Link>
                     <hr className="my-8" />
@@ -323,7 +317,7 @@ export default function PageNav({ pageContext, pageTitle, path }) {
                   >
                     <Link
                       className="text-14 underline"
-                      to={getNavLink(locale, item)}
+                      to={item.url}
                       onClick={() => { setOpen(false) }}
                     >
                       {item.title}

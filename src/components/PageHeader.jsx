@@ -18,9 +18,9 @@ export default function PageHeader({ menuItems = [], getActive }) {
         className="relative mb-28 flex-grow mt-40 -mx-16 lg:mt-0 h-40 md:h-auto overflow-hidden transition-height duration-300"
         style={{ height: isShowMenu ? menuHeight : undefined }}
       >
-        <div className="flex justify-end items-center w-full h-40 px-4 md:hidden">
+        <div className="relative flex justify-end items-center w-full h-40 px-4 md:hidden">
           <button
-            className="relative p-8 hover:text-primary transition-colors"
+            className="p-8 hover:text-primary transition-colors"
             onClick={() => setIsShowMenu(!isShowMenu)}
           >
             <svg
@@ -42,7 +42,7 @@ export default function PageHeader({ menuItems = [], getActive }) {
         </div>
         <ul
           ref={menu}
-          className="absolute md:relative inset-x-0 top-0 flex flex-col md:flex-row items-center justify-center lg:mr-logo px-24 font-serif font-bold"
+          className="absolute md:relative inset-x-0 top-0 flex flex-col md:flex-row items-center justify-center lg:mr-logo mx-32 font-serif font-bold"
         >
           {menuItems.map(({ key, path = false, title }, i) => {
             const isActive = getActive({ key, path });

@@ -8,22 +8,21 @@ import PageHeader from "../components/PageHeader";
 import { FormattedMessage } from "react-intl";
 
 export default function AboutPage({ path, pageContext }) {
-  const { locale } = pageContext;
+  const { locale, menus } = pageContext;
+  const menuItem = menus.secondary.find(({ slug }) => slug === 'about');
   return (
     <IntlProvider language={locale}>
       <main className="flex flex-col min-h-screen">
         <PageNav
           {...{ path, pageContext }}
-          pageTitle={<FormattedMessage id="about" />}
+          pageTitle={menuItem.title}
         />
         <PageHeader
-          menuItems={[
-            {
-              path: `/${locale}/about`,
-              key: 'index',
-              title: <FormattedMessage id="all" />,
-            },
-          ]}
+          menuItems={menuItem.subPages.map((item) => ({
+            path: `/${locale}${item.url}`,
+            key: item.slug,
+            title: item.title,
+          }))}
           getActive={({ key }) => key === 'index'}
         />
         <section className="flex-grow w-full max-w-screen-xl mx-auto p-14 pb-48 md:pb-96">

@@ -47,6 +47,7 @@ module.exports = {
       '64': '4rem',
       '72': '4.5rem',
       '96': '6rem',
+      '120': '7.5rem',
       'logo-sm': '140px',
       'logo': '160px',
     },

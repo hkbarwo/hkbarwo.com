@@ -1,3 +1,4 @@
+const { getNavLink } = require('../link');
 
 exports.fetchMenus = async ({ graphql }, { locale, pages }) => {
   const result = await graphql(`
@@ -39,6 +40,9 @@ exports.fetchMenus = async ({ graphql }, { locale, pages }) => {
     }
     if (item.subPages && item.subPages.length) {
       item.subPages = item.subPages.map(page => pages[page])
+    }
+    if (!item.url) {
+      item.url = getNavLink(locale, item);
     }
     menuItems[item.slug] = item;
   });

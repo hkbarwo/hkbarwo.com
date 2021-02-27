@@ -67,6 +67,10 @@ collections:
         label: "Slug"
         widget: string
         pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "url"
+        label: "URL"
+        widget: string
+        required: false
       - name: "page"
         label: "頁面"
         widget: relation
@@ -380,6 +384,7 @@ collections:
           - name: "developmentStrategyImage"
             label: "發展策略圖片"
             widget: image
+            i18n: true
             media_folder: "/static/images/uploads/about"
             public_folder: "/images/uploads/about"
             required: false
