@@ -1,0 +1,14 @@
+---
+zh:
+  date: 2021-02-10T16:00:00.000Z
+  title: 第三十九屆理事會代表成員出席辛丑年新春祭禮
+  slug: chinese-new-year-ceremony
+  category: notice
+  content: >-
+    在二零二一年二月十一日（農曆年三十晚）子時，第三十九屆理事會代表成員和會館職員出席新春祭禮。（由左至右：岑金倩、黃美娟、新劍郎、李沛妍、汪明荃、羅家英、陳鴻進、龍貫天、溫玉瑜）
+
+
+    文字
+  images: /images/uploads/news/210217172840.event.1.jpg
+en: {}
+---
