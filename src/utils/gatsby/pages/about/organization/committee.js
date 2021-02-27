@@ -1,27 +1,43 @@
 exports.createAboutOrganizationCommitteePage = async ({ actions, graphql }, context) => {
   const { locale, defaultLocale } = context;
 
-  const aboutPageTemplate = require.resolve('../../../../../templates/AboutPage.js');
-
-  // const result = await graphql(`
-  //   {
-  //     page: yamlAboutOrganizationAdvisors {
-  //       fields {
-  //         ${locale} {
-  //           groups {
-  //             list {
-  //               name
-  //               title
-  //             }
-  //             title
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // `);
-
-  // const pageData = result.data.page.fields[locale];
+  const result = await graphql(`
+    {
+      committee: allMarkdownRemark(
+        filter: { fileAbsolutePath: {regex: "/data/about/organization/commitiees/" }},
+        sort: { fields: fields___${locale}___slug, order: DESC }
+        limit: 1
+      ) {
+        nodes {
+          fields {
+            ${locale} {
+              title
+              slug
+              period
+              president {
+                name
+                title
+                image
+              }
+              vicePresidents {
+                name
+                title
+                image
+              }
+              groups {
+                title
+                commitiees {
+                  name
+                  title
+                  image
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
 
   const parentPath = '/about/organization';
   
@@ -70,10 +86,10 @@ exports.createAboutOrganizationCommitteePage = async ({ actions, graphql }, cont
 
   actions.createPage({
     path: `/${locale}${path}`,
-    component: aboutPageTemplate,
+    component: require.resolve('../../../../../templates/AboutOrganizationCommitteePage.js'),
     context: {
       ...context,
-      // pageData,
+      committee: result.data.committee.nodes[0].fields[locale],
     },
   });
 }

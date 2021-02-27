@@ -594,6 +594,8 @@ collections:
               - name: "image"
                 label: "相片"
                 widget: image
+                media_folder: "/static/images/uploads/organization/commitiees"
+                public_folder: "/images/uploads/organization/commitiees"
                 required: false
   - name: "commitieePresidents"
     label: "理事會會長"

@@ -8,7 +8,8 @@ module.exports = {
 
       primary: '#caa846',
       secondary: '#34b1bf',
- 
+      tertiary: '#F21365',
+
       white: '#fff',
       black: '#000',
       
@@ -59,6 +60,7 @@ module.exports = {
       '22': '1.375rem',
       '24': '1.5rem',
       '28': '1.75rem',
+      '32': '2rem',
       '36': '2.25rem',
     },
     letterSpacing: {
@@ -70,8 +72,12 @@ module.exports = {
       1: '1',
     },
     extend: {
+      width: {
+        '1/8': '12.5%',
+      },
       minWidth: {
         '180': '11.25rem',
+        '144': '144px',
       },
       backgroundImage: theme => ({
         'pattern-light': "url('/images/bg/pattern-light.svg')",
