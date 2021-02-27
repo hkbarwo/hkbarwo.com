@@ -23,7 +23,7 @@ zh:
 
     傳媒留座須預先登記，如欲安排採訪，請致電 2384 2929或電郵 support@hkbarwo.com 與行政秘書阮小姐聯絡。
   youtubeVideoID: ""
-  category: notice
+  category: event
   slug: channel-launch-press
 en:
   title: 粵劇新秀 演出系列2020-21（一）
