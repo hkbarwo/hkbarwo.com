@@ -7,7 +7,7 @@ zh:
   gradient:
     color1: "#f11462"
     color2: "#7785fd"
-  bgImage: /images/uploads/home/swiper/slides/about.jpg
+  bgImage: /images/uploads/home/swiper/slides/landing-img-1-2x.jpg
   subtitle: 創意．傳承
   title: 八和會館
   bgImageFillStyle: contain
@@ -27,4 +27,6 @@ en:
 
     一九五三年，在廣東八和粵劇職業工會香港分會的基礎上，重新註冊成立香港八和會館，作為香港粵劇工作者的團體組織。
   buttonTitle: 探索我們的故事
+  buttonLink:
+    page: introduction
 ---
