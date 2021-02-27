@@ -5,7 +5,7 @@ zh:
   slug: winter-outbreak-prevention
   category: notice
   content: 防疫抗疫基金4.0「藝術文化界資助計劃 — 向個人藝術從業者及自由職業者提供資助」資助發放安排及名單
-  pdfFile: /images/uploads/210216210009.event.1.pdf
+  pdfFile: /images/uploads/20210224-p1-3.pdf
 en:
   content: >-
     面足紅歡兌士手太植快士司。苗穴公勿，都采士戊重麼羽成幼兩詞枝？几記花，片歡休問信美示久羽背屋何飽京「卜蝶」乍什中小月位雞兌田問封扒外乞！方吧她下喝欠許造成我向色實帽裏男拉布後。
