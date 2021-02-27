@@ -121,7 +121,7 @@ export default function PageNav({ pageContext, pageTitle, path }) {
   const [isOpen, setOpen] = useState(false)
   return (
     <div className="relative z-10">
-      <div className="fixed top-0 right-0 md:w-60 overflow-scroll">
+      <div className="fixed top-0 right-0 md:w-60">
         <button
           className={classNames(
             'p-10 pb-16 md:p-20 md:w-full bg-primary text-white rounded-bl-2xl md:rounded-none', 
