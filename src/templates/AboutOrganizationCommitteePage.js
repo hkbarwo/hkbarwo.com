@@ -36,7 +36,7 @@ export default function AboutOrganizationCommitteePage({ path, pageContext }) {
           </h1>
           <ul className="flex flex-wrap items-center justify-center my-16">
             {[pages.committee, pages.presidents, pages.advisors].map(page => (
-              <li className="m-10">
+              <li key={page.slug} className="m-10">
                 <Link
                   className={classNames(
                     'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary transition-colors duration-200',

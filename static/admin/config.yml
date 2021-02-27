@@ -604,9 +604,10 @@ collections:
       - name: "presidents"
         label: "會長"
         file: "/data/about/organization/commitiees/presidents.yml"
+        i18n: true
         fields:
           - name: "list"
-            label: "名單"
+            label: "會長"
             i18n: true
             widget: list
             fields:
@@ -626,10 +627,11 @@ collections:
                 required: false
       - name: "vicePresidents"
         label: "副會長"
+        i18n: true
         file: "/data/about/organization/commitiees/vice-presidents.yml"
         fields:
           - name: "list"
-            label: "名單"
+            label: "副會長"
             i18n: true
             widget: list
             fields:

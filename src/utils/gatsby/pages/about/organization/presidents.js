@@ -1,25 +1,32 @@
 exports.createAboutOrganizationPresidentsPage = async ({ actions, graphql }, context) => {
   const { locale, defaultLocale } = context;
 
-  const aboutPageTemplate = require.resolve('../../../../../templates/AboutPage.js');
-
-  // const result = await graphql(`
-  //   {
-  //     page: yamlAboutOrganizationAdvisors {
-  //       fields {
-  //         ${locale} {
-  //           groups {
-  //             list {
-  //               name
-  //               title
-  //             }
-  //             title
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // `);
+  const result = await graphql(`
+    {
+      presidents: yamlAboutOrganizationCommitieesPresidents {
+        fields {
+          ${locale} {
+            list {
+              image
+              name
+              title
+            }
+          }
+        }
+      }
+      vicePresidents: yamlAboutOrganizationCommitieesVicePresidents {
+        fields {
+          ${locale} {
+            list {
+              image
+              name
+              title
+            }
+          }
+        }
+      }
+    }
+  `);
 
   // const pageData = result.data.page.fields[locale];
   
@@ -37,10 +44,11 @@ exports.createAboutOrganizationPresidentsPage = async ({ actions, graphql }, con
 
   actions.createPage({
     path: `/${locale}${path}`,
-    component: aboutPageTemplate,
+    component: require.resolve('../../../../../templates/AboutOrganizationPresidentsPage.js'),
     context: {
       ...context,
-      // pageData,
+      presidents: result.data.presidents.fields[locale].list,
+      vicePresidents: result.data.vicePresidents.fields[locale].list,
     },
   });
 }

@@ -1,0 +1,29 @@
+zh:
+  list:
+    - title: 永遠名譽會長
+      name: 芳艷芬
+      image: /images/uploads/organization/commitiees/female.png
+    - name: 關德興
+      title: 永遠名譽會長
+      image: /images/uploads/organization/commitiees/male.png
+    - name: 馬國超
+      title: 永遠會長
+      image: /images/uploads/organization/commitiees/male.png
+    - title: 永遠會長
+      name: 汪明荃 DLitt, SBS
+      image: /images/uploads/organization/commitiees/female.png
+en:
+  list:
+    - name: 芳艷芬
+      title: 永遠名譽會長
+      image: /images/uploads/organization/commitiees/female.png
+    - title: 永遠名譽會長
+      name: 關德興
+      image: /images/uploads/organization/commitiees/male.png
+    - {}
+    - name: 馬國超
+      title: 永遠會長
+      image: /images/uploads/organization/commitiees/male.png
+    - title: 永遠會長
+      name: 汪明荃 DLitt, SBS
+      image: /images/uploads/organization/commitiees/female.png
