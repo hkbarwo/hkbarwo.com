@@ -8,4 +8,5 @@ zh:
   youtubeVideoID: yVShnzCe8Sg
 en:
   date: 2021-02-28T18:25:09.335Z
+  category: online-course
 ---
