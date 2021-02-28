@@ -59,16 +59,6 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
 
   const path = '/';
 
-  if (locale === defaultLocale) {
-    actions.createRedirect({
-      fromPath: path,
-      toPath: `/${locale}${path}`,
-      redirectInBrowser: true,
-      isPermanent: true,
-      force: true,
-    });
-  }
-
   actions.createPage({
     path: `/${locale}${path}`,
     component: homePageTemplate,
@@ -77,5 +67,12 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
       slides,
       news,
     },
-  }); 
+  });
+
+  if (locale === defaultLocale) {
+    actions.createRedirect({
+      fromPath: path,
+      toPath: `/${locale}${path}`,
+    });
+  }
 };

@@ -50,9 +50,6 @@ exports.createNewsPages = async ({ actions, graphql }, context) => {
       actions.createRedirect({
         fromPath: path,
         toPath: `/${locale}${path}`,
-        redirectInBrowser: true,
-        isPermanent: true,
-        force: true,
       });
     }
 
@@ -74,9 +71,6 @@ exports.createNewsPages = async ({ actions, graphql }, context) => {
       actions.createRedirect({
         fromPath: path,
         toPath: `/${locale}${path}`,
-        redirectInBrowser: true,
-        isPermanent: true,
-        force: true,
       });
     }
 
@@ -98,9 +92,6 @@ exports.createNewsPages = async ({ actions, graphql }, context) => {
     actions.createRedirect({
       fromPath: path,
       toPath: `/${locale}${path}`,
-      redirectInBrowser: true,
-      isPermanent: true,
-      force: true,
     });
   }
 

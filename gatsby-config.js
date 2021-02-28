@@ -5,6 +5,7 @@ module.exports = {
     title: "hkbarwo.com",
   },
   plugins: [
+    "gatsby-plugin-netlify",
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-mdx",

@@ -47,41 +47,26 @@ exports.createAboutOrganizationCommitteePage = async ({ actions, graphql }, cont
     actions.createRedirect({
       fromPath: path,
       toPath: `/${locale}${path}`,
-      redirectInBrowser: true,
-      isPermanent: true,
-      force: true,
     });
 
     actions.createRedirect({
       fromPath: parentPath,
       toPath: `/${locale}/${parentPath}`,
-      redirectInBrowser: true,
-      isPermanent: true,
-      force: true,
     });
     actions.createRedirect({
       fromPath: `${parentPath}/`,
       toPath: `/${locale}${parentPath}/`,
-      redirectInBrowser: true,
-      isPermanent: true,
-      force: true,
     });
   }
 
   actions.createRedirect({
     fromPath: `/${locale}${parentPath}`,
     toPath: `/${locale}${path}`,
-    redirectInBrowser: true,
-    isPermanent: true,
-    force: true,
   });
 
   actions.createRedirect({
     fromPath: `/${locale}${parentPath}/`,
     toPath: `/${locale}${path}`,
-    redirectInBrowser: true,
-    isPermanent: true,
-    force: true,
   });
 
   actions.createPage({

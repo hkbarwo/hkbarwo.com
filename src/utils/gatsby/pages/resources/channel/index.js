@@ -78,9 +78,6 @@ exports.createResourcesChannelPages = async (params, context) => {
       actions.createRedirect({
         fromPath: path,
         toPath: localizedPath,
-        redirectInBrowser: true,
-        isPermanent: true,
-        force: true,
       });
     }
 
@@ -101,9 +98,6 @@ exports.createResourcesChannelPages = async (params, context) => {
       actions.createRedirect({
         fromPath: category.path,
         toPath: category.localizedPath,
-        redirectInBrowser: true,
-        isPermanent: true,
-        force: true,
       });
     }
 
@@ -122,9 +116,6 @@ exports.createResourcesChannelPages = async (params, context) => {
     actions.createRedirect({
       fromPath: indexPath,
       toPath: localizedIndexPath,
-      redirectInBrowser: true,
-      isPermanent: true,
-      force: true,
     });
   }
 

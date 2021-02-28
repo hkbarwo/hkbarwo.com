@@ -36,9 +36,6 @@ exports.createAboutOrganizationPresidentsPage = async ({ actions, graphql }, con
     actions.createRedirect({
       fromPath: path,
       toPath: `/${locale}${path}`,
-      redirectInBrowser: true,
-      isPermanent: true,
-      force: true,
     });
   }
 

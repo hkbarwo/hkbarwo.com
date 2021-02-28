@@ -28,9 +28,6 @@ exports.createAboutOrganizationAdvisorsPage = async ({ actions, graphql }, conte
     actions.createRedirect({
       fromPath: path,
       toPath: `/${locale}${path}`,
-      redirectInBrowser: true,
-      isPermanent: true,
-      force: true,
     });
   }
 
