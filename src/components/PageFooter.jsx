@@ -120,7 +120,7 @@ export default function PageFooter({ pageContext, className }) {
               {(pageContext.general.copyright || '').replace('{year}', new Date().getFullYear())}
             </div>
             <ul className="flex justify-center items-center">
-              <li className="m-8">
+              {/* <li className="m-8">
                 <a
                   href={pageContext.general.socialAccounts.facebook}
                   alt="Facebook"
@@ -135,7 +135,7 @@ export default function PageFooter({ pageContext, className }) {
                     />
                   </svg>
                 </a>
-              </li>
+              </li> */}
               {/* <li className="m-8">
                 <a
                   href={pageContext.general.socialAccounts.instagram}
