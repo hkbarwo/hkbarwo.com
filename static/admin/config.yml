@@ -66,7 +66,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
       - name: "url"
         label: "URL"
         widget: string
@@ -106,7 +106,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
       - name: "url"
         label: "連結"
         widget: string
@@ -139,7 +139,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
       - name: "shortTitle"
         label: "短標題"
         i18n: true
@@ -218,7 +218,7 @@ collections:
         label: "Slug"
         widget: string
         hint: "適用於網址中"
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
       - name: "date"
         label: "日期"
         widget: datetime
@@ -271,7 +271,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
       - name: "color"
         label: "顏色"
         widget: color
@@ -500,7 +500,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
       - name: "color"
         label: "顏色"
         widget: color
@@ -519,7 +519,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
       - name: "date"
         label: "日期"
         widget: datetime
@@ -554,7 +554,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成。例如：「39th」"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成。例如：「39th」"]
       - name: "period"
         label: "任期"
         i18n: true
@@ -688,7 +688,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成。"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成。"]
       - name: "logo"
         label: "圖示"
         widget: image
@@ -742,7 +742,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
   - name: "interviewItems"
     label: "訪問項目"
     folder: "/data/about/interviews/items"
@@ -758,7 +758,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
       - name: "date"
         label: "日期"
         widget: datetime
@@ -921,7 +921,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
   - name: "channelItems"
     label: "八和頻道項目"
     i18n: true
@@ -937,7 +937,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
       - name: "category"
         label: "分類"
         widget: relation
@@ -979,7 +979,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
       - name: "date"
         label: "日期"
         widget: datetime
@@ -1011,7 +1011,7 @@ collections:
       - name: "slug"
         label: "Slug"
         widget: string
-        pattern: ['^[a-z1-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
       - name: "date"
         label: "出版日期"
         widget: datetime
