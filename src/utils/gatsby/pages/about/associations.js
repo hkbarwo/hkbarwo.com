@@ -79,7 +79,7 @@ exports.createAboutAssociationPages = async (params, context) => {
 
   if (menus.length) {
     actions.createRedirect({
-      fromPath: indexPath,
+      fromPath: `/${locale}${indexPath}`,
       toPath: menus[0].localizedPath,
     });
   }

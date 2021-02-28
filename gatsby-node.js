@@ -54,6 +54,7 @@ exports.onCreateNode = ({ node, actions }) => {
 };
 
 exports.createPages = async (params) => {
+  const { actions } = params;
   for (let i = 0; i < locales.length; i++) {
     const locale = locales[i];
     const [
@@ -84,5 +85,19 @@ exports.createPages = async (params) => {
       createAboutPages(params, context),
       createResourcesPages(params, context),
     ]);
+
+    Object.keys(pages).forEach(slug => {
+      const page = pages[slug];
+      if (page && page.wip) {
+        actions.createPage({
+          path: page.localizedPath,
+          component: require.resolve('./src/templates/WipPage.js'),
+          context: {
+            ...context,
+            pageData: page,
+          },
+        })
+      }
+    });
   }
 };

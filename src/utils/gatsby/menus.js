@@ -1,6 +1,6 @@
 const { getNavLink } = require('../link');
 
-exports.fetchMenus = async ({ graphql }, { locale, pages }) => {
+exports.fetchMenus = async ({ graphql, actions }, { locale, pages }) => {
   const result = await graphql(`
     {
       menus: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/data/menu/"}, frontmatter: {id: {regex: "/.*/"}}}) {

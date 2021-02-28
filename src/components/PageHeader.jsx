@@ -6,13 +6,13 @@ import useResize from "../utils/react-hooks/useResize";
 
 import SiteLogo from "./SiteLogo";
 
-export default function PageHeader({ menuItems = [], getActive }) {
+export default function PageHeader({ menuItems = [], getActive, locale }) {
   const menu = useRef(null);
   const { height: menuHeight } = useResize(menu);
   const [isShowMenu, setIsShowMenu] = useState(false);
   return (
     <header className="lg:flex items-start p-16 md:p-40">
-      <SiteLogo className="w-logo-sm lg:w-logo mx-auto lg:m-0" />
+      <SiteLogo className="w-logo-sm lg:w-logo mx-auto lg:m-0" locale={locale} />
 
       <nav
         className="relative mb-28 flex-grow mt-40 -mx-16 lg:mt-0 h-40 md:h-auto overflow-hidden transition-height duration-300"

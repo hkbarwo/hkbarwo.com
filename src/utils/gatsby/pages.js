@@ -1,5 +1,5 @@
 
-exports.fetchPageItems = async ({ graphql }, { locale }) => {
+exports.fetchPageItems = async ({ graphql, actions }, { locale, context }) => {
   const result = await graphql(`
     {
       pages: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/data/pages/items/"}}) {
@@ -9,6 +9,7 @@ exports.fetchPageItems = async ({ graphql }, { locale }) => {
               title
               slug
               url
+              wip
             }
           }
         }

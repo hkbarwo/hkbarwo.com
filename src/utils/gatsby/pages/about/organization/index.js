@@ -8,4 +8,10 @@ exports.createAboutOrganizationPages = async (params, context) => {
     createAboutOrganizationPresidentsPage(params, context),
     createAboutOrganizationAdvisorsPage(params, context),
   ]);
+
+  const indexPath = '/about/organization';
+  params.actions.createRedirect({
+    fromPath: indexPath,
+    toPath: `/${context.locale}${indexPath}`,
+  });
 }

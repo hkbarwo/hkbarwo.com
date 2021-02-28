@@ -191,7 +191,7 @@ export default function PageNav({ pageContext, pageTitle, path }) {
             style={style}
           >
             <header className="flex items-start">
-              <SiteLogo className="w-logo-sm md:w-logo" />
+              <SiteLogo className="w-logo-sm md:w-logo" locale={pageContext.locale} />
               <div className="flex-grow" />
               <div className="flex items-center">
                 {/* <button

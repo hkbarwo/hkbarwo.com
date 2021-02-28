@@ -110,6 +110,10 @@ collections:
       - name: "url"
         label: "連結"
         widget: string
+      - name: "wip"
+        label: "製作中"
+        widget: boolean
+        default: false
   - name: "home"
     label: "首頁"
     files:

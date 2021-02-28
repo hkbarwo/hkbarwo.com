@@ -330,7 +330,7 @@ export default function HomePageTemplate({ pageContext, path }) {
             style={{ width: 346 }}
           >
             <header className="p-28">
-              <SiteLogo className="mx-auto" style={{ maxWidth: 200 }} />
+              <SiteLogo className="mx-auto" locale={pageContext.locale} style={{ maxWidth: 200 }} />
             </header>
             <NewsSection
               className="flex-grow mt-60"

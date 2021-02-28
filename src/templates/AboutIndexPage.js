@@ -168,6 +168,7 @@ export default function AboutPage({ path, pageContext }) {
           pageTitle={menuItem.title}
         />
         <PageHeader
+          locale={locale}
           menuItems={menuItem.subPages.map((item) => ({
             path: `/${locale}${item.url}`,
             key: item.slug,
