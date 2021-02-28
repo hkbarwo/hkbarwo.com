@@ -46,13 +46,14 @@ exports.createAboutAssociationPages = async (params, context) => {
   });
 
   const menus = result.data.order.zh.list.map(slug => {
-    const { title, shortTitle, path, localizedPath } = associations[slug];
+    const { title, shortTitle, path, localizedPath, logoWhite } = associations[slug];
     return {
       slug,
       title,
       shortTitle,
       path,
       localizedPath,
+      logoWhite,
     };
   });
 
@@ -82,4 +83,6 @@ exports.createAboutAssociationPages = async (params, context) => {
       toPath: menus[0].localizedPath,
     });
   }
+
+  return { menus };
 }

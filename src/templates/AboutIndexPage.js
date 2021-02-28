@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import { Link } from "gatsby";
+import { Swiper, SwiperSlide } from 'swiper/react';
 import classNames from "classnames";
 
 import IntlProvider from "../components/IntlProvider";
@@ -7,8 +8,148 @@ import PageFooter from "../components/PageFooter";
 import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";
 
+import 'swiper/swiper-bundle.min.css';
+import useResize from "../utils/react-hooks/useResize";
+
+function AssociationsDirectory({ locale, data, items }) {
+  const [slideIndex, setSlideIndex] = useState(0);
+  const [controlledSwiper, setControlledSwiper] = useState(null);
+  const container = useRef(null);
+
+  const { width } = useResize(container);
+
+  return (
+    <section
+      className="text-white"
+      style={{
+        backgroundImage:
+          `linear-gradient(to bottom, #CC153D 0% , #F79D5E 100%)`,
+      }}
+    >
+      <div className="hidden md:flex flex-col items-center p-14 px-32 md:px-60">
+        <h1>{data.title}</h1>
+
+        <ul className="mt-56 max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-20 gap-y-72">
+          {items.map(item => (
+            <li key={item.slug}>
+              <Link
+                className="text-center"
+                to={item.localizedPath}
+                alt={item.title}
+              >
+                <div className="flex justify-center items-center w-150 h-150 mx-auto">
+                  <img
+                    src={item.logoWhite}
+                    alt={item.title}
+                  />
+                </div>
+                <div className="mt-44">{item.title}</div>
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <Link
+          className="mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
+          to={`${locale}/about/associations`}
+        >
+          {data.buttonTitle}
+        </Link>
+      </div>
+
+      <div
+        ref={container}
+        className="md:hidden pt-56 pb-32 text-center"
+      >
+        <div className="relative">
+          <Swiper
+            spaceBetween={0}
+            slidesPerView={1}
+            observer={true}
+            style={{ width }}
+            onSlideChange={(swiper) => {
+              setSlideIndex(swiper.activeIndex);
+            }}
+            onSwiper={setControlledSwiper}
+          >
+            {items.map(item => (
+              <SwiperSlide key={item.slug}>
+                <div className="text-center px-14">
+                  <div className="flex justify-center items-center mx-auto">
+                    <img
+                      src={item.logoWhite}
+                      alt={item.title}
+                    />
+                  </div>
+                  <div className="mt-24">{item.title}</div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <button
+            className="absolute z-10 left-10 top-1/2 w-44 h-44 -mt-22 p-16 border border-white bg-white bg-opacity-20 rounded-full group"
+            onClick={(e) => {
+              e.preventDefault();
+              controlledSwiper.slidePrev();
+            }}
+          >
+            <svg
+              className="w-12 h-12 transform group-hover:-translate-x-4 transition-transform"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 12 12"
+            >
+              <path
+                d="M10.69 6h-9.3m4.83 4.83L1.39 6l4.84-4.84"
+                fill="none"
+                stroke="#fff"
+                strokeLinecap="round"
+              />
+            </svg>
+          </button>
+          <button
+            className="absolute z-10 right-10 top-1/2 w-44 h-44 -mt-22 p-16 border border-white bg-white bg-opacity-20 rounded-full group"
+            onClick={(e) => {
+              e.preventDefault();
+              controlledSwiper.slideNext();
+            }}
+          >
+            <svg
+              className="w-12 h-12 transform group-hover:translate-x-4 transition-transform"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 12 12"
+            >
+              <path
+                d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
+                fill="none"
+                stroke="#fff"
+                strokeLinecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+        <ul className="mt-24 flex justify-center items-center">
+          {items.map((item, i) => (
+            <li
+              key={item.slug}
+              className={classNames(
+                'w-10 h-10 mx-8 border border-white rounded-full transition-colors',
+                { 'bg-white': slideIndex === i },
+              )}
+            />
+          ))}
+        </ul>
+        <Link
+          className="mt-40 mx-auto inline-flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
+          to={items[slideIndex].localizedPath}
+        >
+          {data.buttonTitle}
+        </Link>
+      </div>
+    </section>
+  );
+}
+
 export default function AboutPage({ path, pageContext }) {
-  const { locale, pageData, menus } = pageContext;
+  const { locale, pageData, menus, associations: associationItems } = pageContext;
   const menuItem = menus.secondary.find(({ slug }) => slug === 'about');
   const {
     excerpt,
@@ -54,28 +195,11 @@ export default function AboutPage({ path, pageContext }) {
               <img src={introduction.image} alt="" />
             </div>
           </section>
-          <section>
-          <section
-            className="text-white p-32 md:px-60"
-            style={{
-              backgroundImage:
-                `linear-gradient(to bottom, #CC153D 0% , #F79D5E 100%)`,
-            }}
-          >
-            <div className="flex flex-col items-center px-14">
-              <h1>{associations.title}</h1>
-              <div>
-
-              </div>
-              <Link
-                className="mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
-                to={`${locale}/about/associations`}
-              >
-                {associations.buttonTitle}
-              </Link>
-            </div>
-          </section>
-          </section>
+          <AssociationsDirectory
+            locale={locale}
+            data={associations}
+            items={associationItems}
+          />
           <section className="mt-48 px-14 max-w-2xl w-full mx-auto">
             <h1 className="flex items-center justify-center max-w-sm mx-auto text-primary text-24 text-center font-bold font-serif">
               <span className="bg-current h-1 flex-grow" />
@@ -96,11 +220,13 @@ export default function AboutPage({ path, pageContext }) {
             </div>
           </section>
           {sections.map((section, i) => (
-            <section className={classNames(
-              'mt-48 md:flex md:mt-60 xl:mt-120',
-              {
-                'md:flex-row-reverse': i % 2 === 0
-              }
+            <section
+              key={i}
+              className={classNames(
+                'mt-48 md:flex md:mt-60 xl:mt-120',
+                {
+                  'md:flex-row-reverse': i % 2 === 0
+                }
               )}
             >
               <div

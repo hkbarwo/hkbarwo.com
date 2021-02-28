@@ -72,10 +72,11 @@ const createAboutIndexPage = async (params, context) => {
 
 exports.createAboutPages = async (params, context) => {
   await Promise.all([
-    createAboutIndexPage(params, context),
+    createAboutAssociationPages(params, context).then(({ menus }) => {
+      console.log(JSON.stringify(menus));
+      return createAboutIndexPage(params, { ...context, associations: menus });
+    }),
     createAboutOrganizationPages(params, context),
     createAboutChroniclePage(params, context),
-    createAboutAssociationPages(params, context),
   ]);
-
 }

@@ -51,6 +51,7 @@ module.exports = {
       '96': '6rem',
       '120': '7.5rem',
       'logo-sm': '140px',
+      '150': '150px',
       'logo': '160px',
     },
     fontSize: {
