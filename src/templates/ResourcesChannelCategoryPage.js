@@ -69,7 +69,7 @@ export default function ResourcesChannelCategoryPage({ path, pageContext }) {
           ) : (
             <p
               className="py-72 text-36 text-gray-bc text-center font-serif font-light"
-            ><FormattedMessage id="list.empty" /></p>
+            ><FormattedMessage id="channel.list.empty" /></p>
           )}
         </nav>
 

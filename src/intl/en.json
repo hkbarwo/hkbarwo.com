@@ -3,6 +3,7 @@
 
   "channel.subscribe": "Subscribe to our YouTube channel",
   "channel.videos.more": "More Videos",
+  "channel.list.empty": "Coming soon",
   
   "committee.past": "Past Committees",
   "download.pdf": "Download PDF",
@@ -10,6 +11,7 @@
   "home.news.more": "More news",
 
   "know.more": "More",
+
   "list.empty": "No items",
 
   "menu": "Menu",
