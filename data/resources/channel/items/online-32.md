@@ -2,8 +2,8 @@
 zh:
   date: 2021-02-28T18:07:01.712Z
   title: 第三十二集 做：南派程式（三）大架、加官
-  slug: online-32
-  category: online-course
+  slug: class-32
+  category: cantonese-opera-online-course
   content: >-
     大架是粵劇獨有的身段表演程式，相等於京劇的「起霸」、「走邊」，南派大架講究一招一式硬淨有力，配以粵劇的大鑼大鼓，非常有氣勢，今集會示範徒手大架、桃花女架之大架、十三妹大架（文鑼）。
 

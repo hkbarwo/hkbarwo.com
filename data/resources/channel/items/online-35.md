@@ -2,8 +2,8 @@
 zh:
   date: 2021-02-28T18:10:30.484Z
   title: 第三十五集 做：手下教材（一）開堂、一綑三標、夾棍、打棍子、花開門、鑼邊花、企洞、七槌
-  slug: online-35
-  category: online-course
+  slug: class-35
+  category: cantonese-opera-online-course
   content: |-
     大審戲是粵劇獨有演岀，今集會示範開堂、一綑三標及主審官嚴刑迫供時會使用的夾棍、打板子等。
 

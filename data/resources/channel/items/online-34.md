@@ -13,8 +13,8 @@ zh:
 
     〈拜壽〉是粵劇傳統例戲之一，亦是是粵劇初學者必學排場，家丁和梅香會向老爺賀壽。
   youtubeVideoID: GH-RSD7Vbws
-  slug: online-34
-  category: online-course
+  slug: class-34
+  category: cantonese-opera-online-course
   coverImage: /images/uploads/resources/channel/epi34.jpg
 en:
   date: 2021-02-28T06:59:16.081Z
