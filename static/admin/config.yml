@@ -294,7 +294,7 @@ collections:
               value_field: "slug"
               display_fields: ["title"]
   - name: "about"
-    label: "關於我們頁面"
+    label: "📄 關於我們頁面"
     i18n: true
     files:
       - name: "index"
@@ -437,7 +437,7 @@ collections:
             widget: file
             required: false
       - name: "advisors"
-        label: "顧問"
+        label: "📄 贊助人及顧問頁面"
         file: "/data/about/organization/advisors.yml"
         i18n: true
         fields:
@@ -468,6 +468,22 @@ collections:
                     i18n: true
                     widget: string
                     required: false
+      - name: "associations"
+        label: "📄 屬會、子機構頁面"
+        file: "/data/about/associations.yml"
+        fields:
+          - name: "order"
+            label: "🔀 排序"
+            widget: list
+            summary: "{{fields.association}}"
+            field:
+              name: "association"
+              label: "📄 屬會、子機構"
+              widget: relation
+              collection: "associations"
+              search_fields: ["title", "slug"]
+              value_field: "slug"
+              display_fields: ["title"]
   - name: "chronicleCategories"
     label: "歷年大事件分類"
     folder: "/data/about/chronicle/categories"

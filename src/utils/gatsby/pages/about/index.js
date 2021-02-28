@@ -2,6 +2,7 @@ const { Remarkable } = require('remarkable');
 
 const { createAboutOrganizationPages } = require('./organization');
 const { createAboutChroniclePage } = require('./chronicle');
+const { createAboutAssociationPages } = require('./associations');
 
 const createAboutIndexPage = async (params, context) => {
   const { actions, graphql } = params;
@@ -74,5 +75,7 @@ exports.createAboutPages = async (params, context) => {
     createAboutIndexPage(params, context),
     createAboutOrganizationPages(params, context),
     createAboutChroniclePage(params, context),
+    createAboutAssociationPages(params, context),
   ]);
+
 }
