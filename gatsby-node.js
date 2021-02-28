@@ -7,6 +7,7 @@ const { fetchNewsCategories } = require('./src/utils/gatsby/news');
 const { createAboutPages } = require('./src/utils/gatsby/pages/about');
 const { createHomePage } = require('./src/utils/gatsby/pages/home');
 const { createNewsPages } = require('./src/utils/gatsby/pages/news');
+const { createResourcesPages } = require('./src/utils/gatsby/pages/resources');
 
 const defaultLocale = 'zh';
 const locales = ['zh', 'en'];
@@ -81,6 +82,7 @@ exports.createPages = async (params) => {
       createHomePage(params, context),
       createNewsPages(params, context),
       createAboutPages(params, context),
+      createResourcesPages(params, context),
     ]);
   }
 };

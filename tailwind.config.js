@@ -44,6 +44,7 @@ module.exports = {
       '40': '2.5rem',
       '44': '2.75rem',
       '48': '3rem',
+      '56': '3.5rem',
       '60': '3.75rem',
       '64': '4rem',
       '72': '4.5rem',
@@ -70,6 +71,8 @@ module.exports = {
     },
     aspectRatio: {
       1: '1',
+      9: '9',
+      16: '16',
     },
     extend: {
       width: {
