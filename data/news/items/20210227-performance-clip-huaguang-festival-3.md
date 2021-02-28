@@ -5,5 +5,6 @@ zh:
   title: 2020華光誕《香花山大賀壽》演出片段〈擺花〉
   content: 2020華光誕《香花山大賀壽》演出片段〈擺花〉- 文雪裘、王希頴、陳紀婷、周洛童、梁非同、司徒凱誼、李晴茵、陳禧瑜
   category: event
+  youtubeVideoID: Perh43NHW3s
 en: {}
 ---
