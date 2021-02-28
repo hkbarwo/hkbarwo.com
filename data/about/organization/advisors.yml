@@ -1,12 +1,12 @@
 zh:
   groups:
-    - title: "名譽贊助人"
+    - title: 名譽贊助人
       list:
-        - name: "林鄭月娥 女士"
-          title: 大紫荊勳賢, GBS, JP 香港特別行政區行政長官
+        - name: 林鄭月娥 女士 大紫荊勳賢, GBS, JP
+          title: 香港特別行政區行政長官
     - title: 榮譽顧問
       list:
-        - name: "梁振英 先生 GBM, GBS, JP"
+        - name: 梁振英 先生 GBM, GBS, JP
         - name: 李居明 先生
     - title: 名譽顧問
       list:
@@ -15,15 +15,16 @@ zh:
     - title: 財務顧問
       list:
         - name: 黃龍德 會計師 PhD, BBS, JP
+  title: 贊助人及顧問
 en:
   groups:
-    - title: "名譽贊助人"
+    - title: 名譽贊助人
       list:
-        - name: "林鄭月娥 女士"
+        - name: 林鄭月娥 女士
           title: 大紫荊勳賢, GBS, JP 香港特別行政區行政長官
     - title: 榮譽顧問
       list:
-        - name: "梁振英 先生 GBM, GBS, JP"
+        - name: 梁振英 先生 GBM, GBS, JP
         - name: 李居明 先生
     - title: 名譽顧問
       list:
@@ -32,3 +33,4 @@ en:
     - title: 財務顧問
       list:
         - name: 黃龍德 會計師 PhD, BBS, JP
+  title: 贊助人及顧問

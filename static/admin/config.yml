@@ -294,7 +294,7 @@ collections:
               value_field: "slug"
               display_fields: ["title"]
   - name: "about"
-    label: "關於我們"
+    label: "關於我們頁面"
     i18n: true
     files:
       - name: "index"
@@ -441,6 +441,10 @@ collections:
         file: "/data/about/organization/advisors.yml"
         i18n: true
         fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
           - name: "groups"
             label: "組別"
             i18n: true

@@ -1,13 +1,12 @@
 exports.createAboutOrganizationAdvisorsPage = async ({ actions, graphql }, context) => {
   const { locale, defaultLocale } = context;
 
-  const aboutPageTemplate = require.resolve('../../../../../templates/AboutPage.js');
-
   const result = await graphql(`
     {
       page: yamlAboutOrganizationAdvisors {
         fields {
           ${locale} {
+            title
             groups {
               list {
                 name
@@ -37,7 +36,7 @@ exports.createAboutOrganizationAdvisorsPage = async ({ actions, graphql }, conte
 
   actions.createPage({
     path: `/${locale}${path}`,
-    component: aboutPageTemplate,
+    component: require.resolve('../../../../../templates/AboutOrganizationAdvisorsPage.js'),
     context: {
       ...context,
       pageData,
