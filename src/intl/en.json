@@ -1,6 +1,9 @@
 {
   "all": "All",
 
+  "channel.subscribe": "Subscribe to our YouTube channel",
+  "channel.videos.more": "More Videos",
+  
   "committee.past": "Past Committees",
   "download.pdf": "Download PDF",
   "home.news.title": "News",

@@ -10,6 +10,7 @@ exports.createResourcesChannelPages = async (params, context) => {
             categories
             description
             title
+            logo
             youtubeLink
           }
         }
@@ -49,9 +50,12 @@ exports.createResourcesChannelPages = async (params, context) => {
 
   const common = result.data.common.fields[locale];
 
+  const indexPath = '/resources/channel';
+  const localizedIndexPath = `/${locale}${indexPath}`
+
   const categoryData = {};
   result.data.categories.nodes.forEach(({ fields: { [locale]: category }}) => {
-    const path = `/resources/channel/${category.slug}`;
+    const path = `${indexPath}/${category.slug}`;
     const localizedPath = `/${locale}${path}`;
     categoryData[category.slug] = {
       ...category,
@@ -62,7 +66,7 @@ exports.createResourcesChannelPages = async (params, context) => {
   });
 
   result.data.items.nodes.forEach(({ fields: { [locale]: item } }) => {
-    const path = `/resources/channel/${item.category}/${item.slug}`;
+    const path = `${indexPath}/${item.category}/${item.slug}`;
     const localizedPath = `/${locale}${path}`;
 
     item.path = path;
@@ -112,5 +116,25 @@ exports.createResourcesChannelPages = async (params, context) => {
         pageData: category,
       },
     });
+  });
+
+  if (locale === defaultLocale) {
+    actions.createRedirect({
+      fromPath: indexPath,
+      toPath: localizedIndexPath,
+      redirectInBrowser: true,
+      isPermanent: true,
+      force: true,
+    });
+  }
+
+  actions.createPage({
+    path: localizedIndexPath,
+    component: require.resolve('../../../../../templates/ResourcesChannelPage.js'),
+    context: {
+      ...context,
+      categories,
+      pageData: common,
+    },
   });
 }

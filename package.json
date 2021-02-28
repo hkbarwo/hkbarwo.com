@@ -41,6 +41,7 @@
     "react-intl": "^5.13.0",
     "react-transition-group": "^4.4.1",
     "remarkable": "^2.0.1",
+    "swiper": "^6.4.15",
     "tailwindcss": "^2.0.2"
   }
 }

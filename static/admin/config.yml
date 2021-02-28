@@ -835,14 +835,20 @@ collections:
             i18n: true
             widget: markdown
             required: false
+          - name: "logo"
+            label: "標誌"
+            widget: image
+            media_folder: "/static/images/uploads/resources/channel"
+            public_folder: "/images/uploads/resources/channel"
           - name: "youtubeLink"
             label: "YouTube 連結"
             widget: string
             hint: "URL"
             required: false
           - name: "categories"
-            label: "分類列表"
+            label: "分類"
             widget: list
+            summary: "{{fields.category}}"
             field:
               name: "category"
               label: "分類"
