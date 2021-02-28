@@ -6,5 +6,6 @@ zh:
   youtubeVideoID: ixCfyAH_FeY
   slug: class-25
   category: cantonese-opera-online-course
+  coverImage: /images/uploads/resources/channel/epi25.jpg
 en: {}
 ---
