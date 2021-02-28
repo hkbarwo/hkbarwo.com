@@ -63,7 +63,7 @@ export default function AboutAssociationPage({ path, pageContext }) {
         <article className="flex-grow w-full max-w-screen-xl mx-auto mt-32 pb-48 md:pb-96 px-14 md:px-60">
           <section className="lg:flex mt-48 tracking-wide leading-8">
             <div className="flex-shrink-0 px-14 lg:mr-120">
-              <img className="mx-auto" src={logo} style={{ width: 260 }} />
+              <img className="mx-auto" src={logo} alt={title} style={{ width: 260 }} />
             </div>
             <div className="flex-grow mt-48 lg:mt-0">
               <h1 className="flex text-primary text-36 font-bold font-serif">{title}</h1>
