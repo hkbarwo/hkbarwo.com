@@ -26,7 +26,7 @@ function useSlideSize(slider) {
   };
 }
 
-function FullScreenSlide({ slide, i, total, onClose, onNext, onPrev }) {
+function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
   return (
     <li
       key={slide.slug}
@@ -81,24 +81,52 @@ function FullScreenSlide({ slide, i, total, onClose, onNext, onPrev }) {
               <h1 className="mt-16 md:mt-40 text-36 font-bold font-serif tracking-widest text-center md:text-left">{slide.title}</h1>
               <h2 className="mt-4 text-28 font-light font-serif tracking-widest text-center md:text-left">{slide.subtitle}</h2>
               <p className="mt-44 text-14 leading-8 whitespace-pre-wrap">{slide.description}</p>
-              <a
-                className="mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
-                href={slide.buttonLink}
-              >
-                {slide.buttonTitle}
-                <svg
-                  className="ml-12 w-12 h-12 transform group-hover:translate-x-4 transition-transform"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 12 12"
-                >
-                  <path
-                    d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
-                    fill="none"
-                    stroke="#fff"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </a>
+              
+              {!!slide.buttonLink && (
+                slide.buttonLink.page ? (
+                  <Link
+                    className="mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
+                    to={pages[slide.buttonLink.page].localizedPath}
+                    alt={slide.buttonTitle}
+                  >
+                    {slide.buttonTitle}
+                    <svg
+                      className="ml-12 w-12 h-12 transform group-hover:translate-x-4 transition-transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 12 12"
+                    >
+                      <path
+                        d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
+                        fill="none"
+                        stroke="#fff"
+                        strokeLinecap="round"
+                      />
+                    </svg>
+                  </Link>
+                ) : (
+                  <a
+                    className="mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
+                    href={slide.buttonLink.url}
+                    alt={slide.buttonTitle}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {slide.buttonTitle}
+                    <svg
+                      className="ml-12 w-12 h-12 transform group-hover:translate-x-4 transition-transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 12 12"
+                    >
+                      <path
+                        d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
+                        fill="none"
+                        stroke="#fff"
+                        strokeLinecap="round"
+                      />
+                    </svg>
+                  </a>
+                )
+              )}
             </div>
           </div>
         </div>
@@ -458,6 +486,7 @@ export default function HomePageTemplate({ pageContext, path }) {
           <section className="z-50 md:z-0 fixed inset-0">
             <ul>
               <FullScreenSlide
+                pages={pageContext.pages}
                 slide={pageContext.slides[slideIndex]}
                 i={slideIndex}
                 total={maxSlideIndex}

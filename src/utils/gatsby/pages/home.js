@@ -18,6 +18,10 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
                 subtitle
                 description
                 buttonTitle
+                buttonLink {
+                  page
+                  url
+                }
                 bgImage
                 bgImageFillStyle
                 slug

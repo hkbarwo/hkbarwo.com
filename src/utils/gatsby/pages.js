@@ -17,8 +17,12 @@ exports.fetchPageItems = async ({ graphql }, { locale }) => {
   `);
 
   const pages = {};
-  result.data.pages.nodes.forEach(({ fields }) => {
-    pages[fields[locale].slug] = fields[locale];
+  result.data.pages.nodes.forEach(({ fields: { [locale]: page } }) => {
+    const localizedPath = `/${locale}${page.url}`;
+    pages[page.slug] = {
+      ...page,
+      localizedPath,
+    };
   });
 
   return pages;
