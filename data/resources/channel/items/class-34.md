@@ -25,5 +25,5 @@ en:
     鬼擔擔來自粵劇傳統排場蘆花蕩，飾演張飛的演員出場時雙手會張開，搭着兩名手下亮相，像擔著擔挑一樣。
 
     〈拜壽〉是粵劇傳統例戲之一，亦是是粵劇初學者必學排場，家丁和梅香會向老爺賀壽。
-  category: online-course
+  category: cantonese-opera-online-course
 ---

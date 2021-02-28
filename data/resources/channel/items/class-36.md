@@ -25,5 +25,5 @@ en:
 
     粵劇很注重排場，演繹戲份重的角色，上場多有眾人演員襯托，今集示範的禾花出水，就可以欣賞到主角更有份量地亮相的場面。
   title: 第三十六集 做：手下教材（二）上轎落轎、祭旗、走蚺蛇、禾花岀水
-  category: online-course
+  category: cantonese-opera-online-course
 ---

@@ -19,5 +19,5 @@ en:
 
 
     男加官和女加官是粵劇傳統例戲之一，全程配以特定鑼鼓，只有身段動作，沒有唱詞，男加官由呂洪廣示範、女加官由徐月明示範，她用身段砌岀「一品夫人」四字。
-  category: online-course
+  category: cantonese-opera-online-course
 ---

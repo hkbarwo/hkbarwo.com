@@ -11,5 +11,5 @@ en:
   date: 2021-02-28T07:01:48.712Z
   title: 第三十一集 打：南派程式（二）把子
   content: 粵劇把子，有分「南派把子」 及「北派把子」，今集會示範南派把子。大部分南派把子的開首招式，都是「一二三」，即雙方以纓槍作「上下上」三下對碰。
-  category: online-course
+  category: cantonese-opera-online-course
 ---

@@ -17,5 +17,5 @@ en:
     大審戲是粵劇獨有演岀，今集會示範開堂、一綑三標及主審官嚴刑迫供時會使用的夾棍、打板子等。
 
     今集亦會示範花開門及鑼邊花岀場亮相和企洞及七槌上場的表演程式。
-  category: online-course
+  category: cantonese-opera-online-course
 ---
