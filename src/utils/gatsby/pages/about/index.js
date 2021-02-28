@@ -73,7 +73,6 @@ const createAboutIndexPage = async (params, context) => {
 exports.createAboutPages = async (params, context) => {
   await Promise.all([
     createAboutAssociationPages(params, context).then(({ menus }) => {
-      console.log(JSON.stringify(menus));
       return createAboutIndexPage(params, { ...context, associations: menus });
     }),
     createAboutOrganizationPages(params, context),
