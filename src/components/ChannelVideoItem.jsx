@@ -11,7 +11,7 @@ export default function ChannelVideoItem({ item }) {
       <div className="relative aspect-w-16 aspect-h-9 w-full bg-gray-e5 overflow-hidden">
         <img
           className="absolute inset-0 object-cover transform group-hover:scale-110 transition-transform duration-300"
-          src={item.image}
+          src={item.coverImage}
           alt={item.title}
         />
       </div>

@@ -39,7 +39,7 @@ exports.createResourcesChannelPages = async (params, context) => {
               youtubeVideoID
               category
               content
-              image
+              coverImage
               date
             }
           }
