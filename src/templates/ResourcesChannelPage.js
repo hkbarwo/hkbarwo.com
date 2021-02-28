@@ -140,17 +140,17 @@ export default function ResourcesChannelPage({ path, pageContext }) {
               <span className="bg-current h-1 flex-grow" />
             </h1>
             <p className="mt-20 whitespace-pre-line leading-8 text-center">{pageData.description}</p>
-            <img className="my-64 mx-auto" src={pageData.logo} style={{ width: 212 }} />
+            <img className="my-64 mx-auto" src={pageData.logo} alt={pageData.title} style={{ width: 212 }} />
           </section>
           <section>
             <header className="text-right">
               <a
-                className="inline-flex item-center justify-end"
+                className="inline-flex items-center justify-end"
                 href={pageData.youtubeLink}
                 alt={<FormattedMessage id="channel.subscribe" />}
               >
                 <svg
-                  className="w-36 mr-16"
+                  className="w-36 h-32 mr-16"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 29.241 20.56"
                 >
