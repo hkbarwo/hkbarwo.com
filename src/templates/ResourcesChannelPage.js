@@ -148,6 +148,8 @@ export default function ResourcesChannelPage({ path, pageContext }) {
                 className="inline-flex items-center justify-end"
                 href={pageData.youtubeLink}
                 alt={<FormattedMessage id="channel.subscribe" />}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <svg
                   className="w-36 h-32 mr-16"
