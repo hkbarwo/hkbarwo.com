@@ -840,6 +840,17 @@ collections:
             widget: string
             hint: "URL"
             required: false
+          - name: "categories"
+            label: "分類列表"
+            widget: list
+            field:
+              name: "category"
+              label: "分類"
+              widget: relation
+              collection: "channelCategories"
+              search_fields: ["title", "slug"]
+              value_field: "slug"
+              display_fields: ["title"]
       - name: "photoGallery"
         label: "圖片珍藏"
         i18n: true
