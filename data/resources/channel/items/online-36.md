@@ -1,6 +1,6 @@
 ---
 zh:
-  date: 2021-01-01T06:56:01.970Z
+  date: 2021-02-28T18:11:13.968Z
   title: 第三十六集 做：手下教材（二）上轎落轎、祭旗、走蚺蛇、禾花岀水
   category: online-course
   content: >-
@@ -13,6 +13,7 @@ zh:
     粵劇很注重排場，演繹戲份重的角色，上場多有眾人演員襯托，今集示範的禾花出水，就可以欣賞到主角更有份量地亮相的場面。
   youtubeVideoID: -KkH6HGLDAY
   slug: online-36
+  coverImage: /images/uploads/resources/channel/epi36.jpg
 en:
   date: 2021-02-28T06:55:26.173Z
   content: >-
