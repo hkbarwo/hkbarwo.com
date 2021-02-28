@@ -4,5 +4,6 @@ zh:
   category: event
   title: 2020華光誕 - 拜神儀式花絮
   slug: huaguang-festival-twentytwenty-ceremony-highlights
+  youtubeVideoID: ifJ4kUUpvHA
 en: {}
 ---
