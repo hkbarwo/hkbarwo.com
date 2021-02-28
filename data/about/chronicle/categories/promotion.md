@@ -2,7 +2,7 @@
 zh:
   title: 培訓及推廣
   slug: promotion
-  color: "#4cb6dd"
+  color: "#f21365"
 en:
   title: 培訓及推廣
 ---
