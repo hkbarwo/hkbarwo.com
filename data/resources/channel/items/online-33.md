@@ -6,8 +6,8 @@ zh:
 
     點翰是粵劇傳統排場之一，故事講述皇帝在金殿，冊封狀元、榜眼和探花。
   title: 第三十三集 做：南派程式（四）配馬排場、點翰排場
-  slug: online-33
-  category: online-course
+  slug: class-33
+  category: cantonese-opera-online-course
   youtubeVideoID: NHx0fO6MKPI
   coverImage: /images/uploads/resources/channel/epi33.jpg
 en:
