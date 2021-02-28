@@ -1,6 +1,6 @@
 ---
 zh:
-  date: 2021-01-01T07:01:00.173Z
+  date: 2021-02-28T18:07:01.712Z
   title: 第三十二集 做：南派程式（三）大架、加官
   slug: online-32
   category: online-course
@@ -10,6 +10,7 @@ zh:
 
     男加官和女加官是粵劇傳統例戲之一，全程配以特定鑼鼓，只有身段動作，沒有唱詞，男加官由呂洪廣示範、女加官由徐月明示範，她用身段砌岀「一品夫人」四字。
   youtubeVideoID: yD7FyZqkb7U
+  coverImage: /images/uploads/resources/channel/epi32.jpg
 en:
   date: 2021-02-28T07:01:00.232Z
   title: 第三十二集 做：南派程式（三）大架、加官
@@ -18,4 +19,5 @@ en:
 
 
     男加官和女加官是粵劇傳統例戲之一，全程配以特定鑼鼓，只有身段動作，沒有唱詞，男加官由呂洪廣示範、女加官由徐月明示範，她用身段砌岀「一品夫人」四字。
+  category: online-course
 ---
