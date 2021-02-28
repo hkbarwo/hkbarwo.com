@@ -2,7 +2,10 @@
 zh:
   date: 2021-02-28T19:04:40.034Z
   title: 第六集 唱：梆子慢板（一）
-  content: 板腔體分了「梆子」和「二黃」兩大體系，今集會介紹及示範梆子慢板，包括平、子喉梆子慢板和霸腔梆子慢板等。
+  content: |-
+    板腔體分了「梆子」和「二黃」兩大體系，今集會介紹及示範梆子慢板，包括平、子喉梆子慢板和霸腔梆子慢板等。
+
+    梆子慢板，又名「士工慢板」，有平、子、霸、肉帶左、河調數種唱法。在梆子慢板的句式中，第二頓和第三頓中間可加四字活動句，一般為一板三叮。
   coverImage: /images/uploads/resources/channel/epi06.jpg
   category: cantonese-opera-online-course
   slug: class-06
