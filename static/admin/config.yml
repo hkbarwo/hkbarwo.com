@@ -1029,6 +1029,106 @@ collections:
         i18n: true
         widget: file
         required: false
+  - name: "events"
+    label: "🗃 演出及活動項目"
+    i18n: true
+    folder: "/data/events/items"
+    slug: "{{fields.slug}}"
+    create: true
+    delete: true
+    view_filters:
+      - label: "演出"
+        field: type
+        pattern: 'performance'
+      - label: "活動"
+        field: type
+        pattern: 'activity'
+      - label: "其他團體演出"
+        field: type
+        pattern: 'other'
+    sortable_fields: ["title", "slug", "date"]
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "type"
+        label: "類型"
+        widget: select
+        options:
+          - label: "演出"
+            value: "performance"
+          - label: "活動"
+            value: "activity"
+          - label: "其他團體演出"
+            value: "other"
+      - name: "date"
+        label: "日期"
+        widget: datetime
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        required: false
+      - name: "content"
+        label: "內容"
+        i18n: true
+        widget: markdown
+        required: false
+      - name: "coverImage"
+        label: "封面"
+        widget: image
+        allow_multiple: false
+        media_folder: "/static/uploads/images/events"
+        public_folder: "/uploads/images/events"
+        required: false
+      - name: "metadata"
+        label: "資料"
+        i18n: true
+        widget: list
+        fields:
+          - name: "label"
+            label: "標籤"
+            i18n: true
+            widget: string
+          - name: "content"
+            label: "內容"
+            i18n: true
+            widget: markdown
+          - name: "isShowInList"
+            label: "顯示於列表"
+            widget: boolean
+            default: false
+            required: false
+      - name: "purchaseURL"
+        label: "購票連結"
+        widget: string
+        required: false
+      - name: "tel"
+        label: "電話"
+        widget: string
+        required: false
+      - name: "email"
+        label: "電話"
+        widget: string
+        required: false
+      - name: "location"
+        label: "地點"
+        i18n: true
+        widget: string
+        required: false
+      - name: "photos"
+        label: "相片"
+        widget: image
+        media_folder: "/static/uploads/images/events"
+        public_folder: "/uploads/images/events"
+        required: false
+      - name: "youtubeVideoID"
+        label: "YouTube 影片 ID"
+        widget: string
+        required: false
   - name: "site"
     label: "全站設定"
     i18n: true
