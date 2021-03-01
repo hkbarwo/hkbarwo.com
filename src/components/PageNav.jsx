@@ -137,7 +137,7 @@ function ExpandableSubMenu({ locale, item, pageContext, onClose }) {
   )
 }
 
-export default function PageNav({ pageContext, pageTitle, path }) {
+export default function PageNav({ pageContext, pageTitle, isHideMenuButton = false }) {
   const { locale } = pageContext;
   const [isOpen, setOpen] = useState(false)
   return (
@@ -147,6 +147,9 @@ export default function PageNav({ pageContext, pageTitle, path }) {
           className={classNames(
             'p-10 pb-16 md:p-20 md:w-full bg-primary text-white rounded-bl-2xl md:rounded-none', 
             !!pageTitle ? 'md:bg-primary' : 'md:bg-transparent',
+            {
+              hidden: isHideMenuButton,
+            }
           )}
           onClick={() => {
             setOpen(true);

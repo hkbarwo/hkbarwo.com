@@ -1,4 +1,5 @@
 import React, { useCallback, useLayoutEffect, useMemo, useRef, useState } from "react";
+import Modal from 'react-modal';
 import { FormattedDate, FormattedMessage } from "react-intl";
 import { Link } from "gatsby";
 import classNames from "classnames";
@@ -28,110 +29,105 @@ function useSlideSize(slider) {
 
 function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
   return (
-    <li
-      key={slide.slug}
-      className="absolute inset-0"
+    <div
+      className="relative flex flex-grow"
+      href={`#${slide.slug}`}
+      style={{
+        backgroundImage:
+          `linear-gradient(to bottom, ${slide.gradient.color1} 0% , ${slide.gradient.color2} 100%)`,
+      }}
     >
-      <div
-        className="relative flex h-full"
-        href={`#${slide.slug}`}
-        style={{
-          backgroundImage:
-            `linear-gradient(to bottom, ${slide.gradient.color1} 0% , ${slide.gradient.color2} 100%)`,
-        }}
-      >
-        <div className="hidden lg:block relative flex-1 overflow-hidden">
-          <img
-            className={classNames('w-full h-full', slide.bgImageFillStyle === 'contain' ? 'object-contain' : 'object-cover')}
-            src={`${slide.bgImage}`}
-            alt={slide.title}
-          />
-        </div>
-        <div className="flex-1 text-white">
-          <div className="p-10 sm:p-32 md:p-64 w-full">
-            <div className="flex items-center justify-between">
-              <div className="hidden lg:block mr-24 text-18 tracking-wide flex-grow">{slide.shortTitle}</div>
-              <div className="mr-24 flex items-center">
-                <button
-                  className="w-20 h-20"
-                  onClick={onPrev}
-                >
-                  <svg className="w-20 h-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M18.45,10.13H1.76m8.59-8.8L1.68,10l8.68,8.67" fill="none" stroke="currentColor" strokeWidth="1"/>
-                  </svg>
-                </button>
-                <span className="mx-8 text-22 font-light tracking-widest leading-none">{`${i < 9 ? '0' : ''}${i + 1}/${total < 9 ? '0' : ''}${total + 1}`}</span>
-                <button
-                  className="w-20 h-20"
-                  onClick={onNext}
-                >
-                  <svg className="w-20 h-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M1.68,9.88H18.37M9.78,18.67,18.45,10,9.77,1.33" fill="none" stroke="currentColor" strokeWidth="1"/>
-                  </svg>
-                </button>
-              </div>
-              <button className="relative block w-16 h-16 md:w-28 md:h-28" onClick={onClose}>
-                <svg className="absolute inset-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
-                  <path d="M27,1,1,27M1,1,27,27" fill="none" stroke="currentColor"/>
+      <div className="hidden lg:block relative flex-1 overflow-hidden">
+        <img
+          className={classNames('w-full h-full', slide.bgImageFillStyle === 'contain' ? 'object-contain' : 'object-cover')}
+          src={`${slide.bgImage}`}
+          alt={slide.title}
+        />
+      </div>
+      <div className="flex-1 text-white">
+        <div className="p-10 sm:p-32 md:p-64 w-full">
+          <div className="flex items-center justify-between">
+            <div className="hidden lg:block mr-24 text-18 tracking-wide flex-grow">{slide.shortTitle}</div>
+            <div className="mr-24 flex items-center">
+              <button
+                className="w-20 h-20"
+                onClick={onPrev}
+              >
+                <svg className="w-20 h-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M18.45,10.13H1.76m8.59-8.8L1.68,10l8.68,8.67" fill="none" stroke="currentColor" strokeWidth="1"/>
+                </svg>
+              </button>
+              <span className="mx-8 text-22 font-light tracking-widest leading-none">{`${i < 9 ? '0' : ''}${i + 1}/${total < 9 ? '0' : ''}${total + 1}`}</span>
+              <button
+                className="w-20 h-20"
+                onClick={onNext}
+              >
+                <svg className="w-20 h-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M1.68,9.88H18.37M9.78,18.67,18.45,10,9.77,1.33" fill="none" stroke="currentColor" strokeWidth="1"/>
                 </svg>
               </button>
             </div>
-            <div className="flex flex-col md:mr-48">
-              <div className="md:hidden mt-32 text-18 tracking-wide text-center">{slide.shortTitle}</div>
-              <h1 className="mt-16 md:mt-40 text-36 font-bold font-serif tracking-widest text-center md:text-left">{slide.title}</h1>
-              <h2 className="mt-4 text-28 font-light font-serif tracking-widest text-center md:text-left">{slide.subtitle}</h2>
-              <p className="mt-44 text-14 leading-8 whitespace-pre-wrap">{slide.description}</p>
-              
-              {!!slide.buttonLink && (
-                slide.buttonLink.page ? (
-                  <Link
-                    className="mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
-                    to={pages[slide.buttonLink.page].localizedPath}
-                    alt={slide.buttonTitle}
+            <button className="relative block w-16 h-16 md:w-28 md:h-28" onClick={onClose}>
+              <svg className="absolute inset-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
+                <path d="M27,1,1,27M1,1,27,27" fill="none" stroke="currentColor"/>
+              </svg>
+            </button>
+          </div>
+          <div className="flex flex-col md:mr-48">
+            <div className="md:hidden mt-32 text-18 tracking-wide text-center">{slide.shortTitle}</div>
+            <h1 className="mt-16 md:mt-40 text-36 font-bold font-serif tracking-widest text-center md:text-left">{slide.title}</h1>
+            <h2 className="mt-4 text-28 font-light font-serif tracking-widest text-center md:text-left">{slide.subtitle}</h2>
+            <p className="mt-44 text-14 leading-8 whitespace-pre-wrap">{slide.description}</p>
+            
+            {!!slide.buttonLink && (
+              slide.buttonLink.page ? (
+                <Link
+                  className="my-32 md:mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
+                  to={pages[slide.buttonLink.page].localizedPath}
+                  alt={slide.buttonTitle}
+                >
+                  {slide.buttonTitle}
+                  <svg
+                    className="ml-12 w-12 h-12 transform group-hover:translate-x-4 transition-transform"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 12 12"
                   >
-                    {slide.buttonTitle}
-                    <svg
-                      className="ml-12 w-12 h-12 transform group-hover:translate-x-4 transition-transform"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 12 12"
-                    >
-                      <path
-                        d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
-                        fill="none"
-                        stroke="#fff"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                  </Link>
-                ) : (
-                  <a
-                    className="mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
-                    href={slide.buttonLink.url}
-                    alt={slide.buttonTitle}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    <path
+                      d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
+                      fill="none"
+                      stroke="#fff"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                </Link>
+              ) : (
+                <a
+                  className="my-32 md:mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
+                  href={slide.buttonLink.url}
+                  alt={slide.buttonTitle}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {slide.buttonTitle}
+                  <svg
+                    className="ml-12 w-12 h-12 transform group-hover:translate-x-4 transition-transform"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 12 12"
                   >
-                    {slide.buttonTitle}
-                    <svg
-                      className="ml-12 w-12 h-12 transform group-hover:translate-x-4 transition-transform"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 12 12"
-                    >
-                      <path
-                        d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
-                        fill="none"
-                        stroke="#fff"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                  </a>
-                )
-              )}
-            </div>
+                    <path
+                      d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
+                      fill="none"
+                      stroke="#fff"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                </a>
+              )
+            )}
           </div>
         </div>
       </div>
-    </li>
+    </div>
   );
 }
 
@@ -320,7 +316,7 @@ export default function HomePageTemplate({ pageContext, path }) {
   return (
     <IntlProvider language={pageContext.locale}>
       <main className="font-sans">
-        <PageNav {...{ path, pageContext }} />
+        <PageNav {...{ path, pageContext }} isHideMenuButton={isShowDetail} />
         <header className="p-20 pt-16 bg-white md:hidden">
           <SiteLogo className="mx-auto" style={{ maxWidth: 140 }} />
         </header>
@@ -482,36 +478,44 @@ export default function HomePageTemplate({ pageContext, path }) {
             </li>
           ))}
         </ul>
-        {isShowDetail && (
-          <section className="z-50 md:z-0 fixed inset-0">
+        <Modal
+          isOpen={isShowDetail}
+          style={{
+            content: {
+              zIndex: 50,
+              inset: 0,
+              padding: 0,
+              borderRadius: 0,
+              display: "flex",
+              flexDirection: "column",
+            }
+          }}
+        >
+          <FullScreenSlide
+            pages={pageContext.pages}
+            slide={pageContext.slides[slideIndex]}
+            i={slideIndex}
+            total={maxSlideIndex}
+            onClose={() => setIsShowDetail(false)}
+            onNext={() => goToSlide(slideIndex + 1)}
+            onPrev={() => goToSlide(slideIndex - 1)}
+          />
+          <div className="hidden absolute right-0 inset-y-0 w-60 md:flex items-center justify-center">
             <ul>
-              <FullScreenSlide
-                pages={pageContext.pages}
-                slide={pageContext.slides[slideIndex]}
-                i={slideIndex}
-                total={maxSlideIndex}
-                onClose={() => setIsShowDetail(false)}
-                onNext={() => goToSlide(slideIndex + 1)}
-                onPrev={() => goToSlide(slideIndex - 1)}
-              />
+              {pageContext.slides.map((slide, i) => (
+                <li
+                  key={slide.slug}
+                  className={classNames(
+                    'w-10 h-10 my-8 border border-white rounded-full transition-colors',
+                    {
+                      'bg-white': i === slideIndex,
+                    },
+                  )}
+                />
+              ))}
             </ul>
-            <div className="hidden absolute right-0 inset-y-0 w-60 md:flex items-center justify-center">
-              <ul>
-                {pageContext.slides.map((slide, i) => (
-                  <li
-                    key={slide.slug}
-                    className={classNames(
-                      'w-10 h-10 my-8 border border-white rounded-full transition-colors',
-                      {
-                        'bg-white': i === slideIndex,
-                      },
-                    )}
-                  />
-                ))}
-              </ul>
-            </div>
-          </section>
-        )}
+          </div>
+        </Modal>
         <PageFooter className="md:hidden" {...{ pageContext }} />
       </main>
     </IntlProvider>
