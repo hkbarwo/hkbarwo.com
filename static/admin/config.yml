@@ -807,25 +807,9 @@ collections:
         i18n: true
         widget: markdown
   - name: "contact"
-    label: "聯絡我們"
+    label: "📄 聯絡我們頁面"
     i18n: true
     files:
-      - name: "intro"
-        label: "簡介"
-        i18n: true
-        file: "/data/pages/contact/intro.yml"
-        fields:
-          - name: "title"
-            label: "標題"
-            i18n: true
-            widget: string
-          - name: "content"
-            label: "內容"
-            i18n: true
-            widget: string
-          - name: "image"
-            label: "圖片"
-            widget: image
       - name: "info"
         label: "聯絡資料"
         i18n: true
@@ -835,6 +819,12 @@ collections:
             label: "標題"
             i18n: true
             widget: string
+          - name: "subtitle"
+            label: "副標題"
+            i18n: true
+            widget: string
+            required: false
+            default: ""
           - name: "phone"
             label: "電話"
             widget: string

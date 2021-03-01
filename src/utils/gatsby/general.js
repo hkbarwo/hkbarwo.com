@@ -1,6 +1,3 @@
-
-const merge = require('deepmerge');
-
 exports.fetchSiteData = async ({ graphql }, { locale }) => {
   const result = await graphql(`
     {
@@ -11,6 +8,7 @@ exports.fetchSiteData = async ({ graphql }, { locale }) => {
             fax
             email
             address
+            subtitle
             title
           }
         }
