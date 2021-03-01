@@ -17,6 +17,7 @@ export default function NewsDetailsPage({ path, pageContext }) {
           pageTitle={<FormattedMessage id="news" />}
         />
         <PageHeader
+          locale={locale}
           menuItems={[
             {
               path: `/${locale}/news`,
