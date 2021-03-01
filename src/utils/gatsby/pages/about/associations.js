@@ -10,7 +10,12 @@ exports.createAboutAssociationPages = async (params, context) => {
           list: order
         }
       }
-      items: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/data/about/organization/associations/"}}) {
+      items: allMarkdownRemark(
+        filter: {
+          fileAbsolutePath: { regex: "/data/about/associations/" },
+          fields: { slug: { ne: "example" } }
+        }
+      ) {
         nodes {
           fields {
             ${locale} {

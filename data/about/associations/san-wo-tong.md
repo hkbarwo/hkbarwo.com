@@ -14,8 +14,8 @@ zh:
     慎和堂會員大部份為班政家、戲班經理，現今會員人數不足一百人，於2003年理事長馬國超的開放政策下(他認為所有願意發展粵劇，投資粵劇的人都應予以入會)，相信會員人數會有所增加。
   commitieesTitle: ""
   commitiees: []
-  logo: /images/uploads/organization/associations/san-wo-tong-g.svg
-  logoWhite: /images/uploads/organization/associations/group-1144.svg
+  logo: /images/uploads/associations/san-wo-tong-g.svg
+  logoWhite: /images/uploads/associations/group-1144.svg
 en:
   title: 香港粤劇慎和堂有限公司(事務部)
   shortTitle: 事務部

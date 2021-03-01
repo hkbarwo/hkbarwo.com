@@ -68,8 +68,10 @@ zh:
 
 
     由2012學年開始，學院與保良局成為合作伙伴，攜手推行初中粵劇課程，分別於李城璧中學及唐乃勤初中書院中一級實行。此外，學院陸續舉辦不同的粵劇專業課程，提升各個範疇粵劇從業員的藝術技藝。
-  logo: /images/uploads/organization/associations/coahk-g.svg
-  logoWhite: /images/uploads/organization/associations/coahk-w.svg
+  logo: /images/uploads/associations/coahk-g.svg
+  logoWhite: /images/uploads/associations/coahk-w.svg
+  commitieesTitle: ""
+  commitiees: []
 en:
   title: 八和粵劇學院
   shortTitle: 八和粵劇學院
@@ -120,4 +122,6 @@ en:
     本課程至今已有五屆畢業生，具發展潛質的畢業學員包括：譚穎倫、梁心怡、吳立熙、吳倩衡、鄺紫煌、梁芷萁、江駿傑、梁非同、袁學慧、羅耀邦、呂智豐、林貝嘉、李子蕊、李晴茵、蘇鈺橋、黎子樂、温子雄、謝紹岐等。
 
     自2010年起，學院與東華三院呂潤財紀念中學合辦粵劇教學協作計劃，首度將粵劇藝術納入初中的正規藝術課程。2011年，學院更與香港科技大學合辦「粵劇藝術概論」課程，把粵劇教育推廣至大專學界。由2012學年開始，學院與保良局成為合作伙伴，攜手推行初中粵劇課程，分別於李城璧中學及唐乃勤初中書院中一級實行。此外，學院陸續舉辦不同的粵劇專業課程，提升各個範疇粵劇從業員的藝術技藝。
+  commitieesTitle: ""
+  commitiees: []
 ---

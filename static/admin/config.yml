@@ -606,6 +606,7 @@ collections:
             label: "理事"
             i18n: true
             widget: list
+            default: "[]"
             fields:
               - name: "name"
                 label: "名稱"
@@ -678,7 +679,7 @@ collections:
     i18n: true
     create: true
     delete: false
-    folder: "/data/about/organization/associations"
+    folder: "/data/about/associations"
     slug: "{{fields.slug}}"
     fields:
       - name: "title"
@@ -696,30 +697,35 @@ collections:
       - name: "logo"
         label: "圖示"
         widget: image
-        media_folder: "/static/images/uploads/organization/associations"
-        public_folder: "/images/uploads/organization/associations"
+        media_folder: "/static/images/uploads/associations"
+        public_folder: "/images/uploads/associations"
         required: false
+        default: ""
       - name: "logoWhite"
         label: "圖示（反白）"
         widget: image
-        media_folder: "/static/images/uploads/organization/associations"
-        public_folder: "/images/uploads/organization/associations"
+        media_folder: "/static/images/uploads/associations"
+        public_folder: "/images/uploads/associations"
         required: false
+        default: ""
       - name: "description"
         label: "介紹"
         i18n: true
         widget: markdown
         required: false
+        default: ""
       - name: "commitieesTitle"
         label: "名單標題"
         i18n: true
         widget: string
         required: false
+        default: ""
       - name: "commitiees"
         label: "名單"
         i18n: true
         widget: list
         required: false
+        default: "[]"
         fields:
           - name: "name"
             label: "名稱"
@@ -730,6 +736,7 @@ collections:
             i18n: true
             widget: string
             required: false
+            default: ""
   - name: "interviewCategories"
     label: "訪問分類"
     folder: "/data/about/interviews/categories"
