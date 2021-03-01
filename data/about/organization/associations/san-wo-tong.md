@@ -22,7 +22,7 @@ zh:
       title: 名譽會長
     - name: 李淑嫻
       title: 名譽會長
-  logo: /images/uploads/organization/associations/group-1144.svg
+  logo: /images/uploads/organization/associations/san-wo-tong-g.svg
   logoWhite: /images/uploads/organization/associations/group-1144.svg
 en:
   title: 香港粤劇慎和堂有限公司(事務部)
