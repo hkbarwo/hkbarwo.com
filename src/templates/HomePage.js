@@ -2,15 +2,18 @@ import React, { useCallback, useLayoutEffect, useMemo, useRef, useState } from "
 import Modal from 'react-modal';
 import { FormattedDate, FormattedMessage } from "react-intl";
 import { Link } from "gatsby";
+import SwiperCore, { Autoplay } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import classNames from "classnames";
 
 import useResize from "../utils/react-hooks/useResize";
 
-import FadeTransition from "../components/FadeTransition";
 import IntlProvider from "../components/IntlProvider";
 import PageNav from "../components/PageNav";
 import PageFooter from "../components/PageFooter";
 import SiteLogo from "../components/SiteLogo";
+
+SwiperCore.use([Autoplay]);
 
 function useSlideSize(slider) {
   const { width = 0 } = useResize(slider);
@@ -133,61 +136,68 @@ function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
 
 function NewsSection({ pageContext, className }) {
   const [slideIndex, setSlideIndex] = useState(0);
-
-  function goToSlide(index) {
-    const slideCount = pageContext.news.length;
-    const newIndex = index >= 0 ? index % slideCount : slideCount - 1;
-    setSlideIndex(newIndex);
-  }
-
-  const news = pageContext.news[slideIndex];
+  const [controlledSwiper, setControlledSwiper] = useState(null);
 
   return (
     <div className={classNames('flex flex-col items-start', className)}>
       <h2 className="text-white bg-secondary rounded-full mx-28 p-8 px-16">
         <FormattedMessage id="home.news.title" />
       </h2>
+
       <div className="relative flex-grow w-full mt-16">
-        <FadeTransition transitionKey={news.slug}>
-          {({ style }) => (
-            <div
-              className="absolute inset-0 px-28 py-16 opacity-0 transition-opacity duration-300 ease-out"
-              style={style}
-            >
-              <h3>{news.title}</h3>
-              <footer className="flex justify-between items-center mt-16 text-14">
-                <div className="flex items-center">
-                  <svg className="w-16 h-16 mr-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                    <path
-                      d="M10.44,11.19l-3-3v-5H8.53V7.78l2.66,2.66ZM8,15.44A7.44,7.44,0,1,1,15.44,8,7.44,7.44,0,0,1,8,15.44ZM8,1.62A6.38,6.38,0,1,0,14.38,8,6.38,6.38,0,0,0,8,1.62Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  <FormattedDate value={news.date} />
-                </div>
-                <Link
-                  className="flex items-center px-12 py-4 border border-current rounded-full font-light group"
-                  to={`/${pageContext.locale}/news/${news.slug}`}
-                >
-                  <FormattedMessage id="know.more" />
-                  <svg
-                    className="w-12 h-12 ml-8 transform group-hover:translate-x-4 transition-transform"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 12 12"
+        <Swiper
+          spaceBetween={0}
+          slidesPerView={1}
+          observer={true}
+          loop={true}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: true,
+          }}
+          onSlideChange={(swiper) => {
+            setSlideIndex(swiper.realIndex);
+          }}
+          onSwiper={setControlledSwiper}
+        >
+          {pageContext.news.map(news => (
+            <SwiperSlide key={news.slug}>
+              <div className="px-28 py-16">
+                <h3>{news.title}</h3>
+                <footer className="flex justify-between items-center mt-16 text-14">
+                  <div className="flex items-center">
+                    <svg className="w-16 h-16 mr-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                      <path
+                        d="M10.44,11.19l-3-3v-5H8.53V7.78l2.66,2.66ZM8,15.44A7.44,7.44,0,1,1,15.44,8,7.44,7.44,0,0,1,8,15.44ZM8,1.62A6.38,6.38,0,1,0,14.38,8,6.38,6.38,0,0,0,8,1.62Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <FormattedDate value={news.date} />
+                  </div>
+                  <Link
+                    className="flex items-center px-12 py-4 border border-current rounded-full font-light group"
+                    to={`/${pageContext.locale}/news/${news.slug}`}
                   >
-                    <path
-                      d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                    />
-                  </svg>
-                </Link>
-              </footer>
-            </div>
-          )}
-        </FadeTransition>
+                    <FormattedMessage id="know.more" />
+                    <svg
+                      className="w-12 h-12 ml-8 transform group-hover:translate-x-4 transition-transform"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 12 12"
+                    >
+                      <path
+                        d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                      />
+                    </svg>
+                  </Link>
+                </footer>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
+
       <footer className="flex justify-between items-center p-32 text-14 w-full">
         <Link
           className="border-b border-current pb-2 group"
@@ -200,7 +210,9 @@ function NewsSection({ pageContext, className }) {
         <div className="flex items-center">
           <button
             className="group"
-            onClick={() => goToSlide(slideIndex - 1)}
+            onClick={() => {
+              controlledSwiper.slidePrev();
+            }}
           >
             <svg
               className="w-12 h-12 transform group-hover:-translate-x-2 transition-transform"
@@ -218,7 +230,9 @@ function NewsSection({ pageContext, className }) {
           <span className="tracking-widest mx-8">{slideIndex + 1}/{pageContext.news.length}</span>
           <button
             className="group"
-            onClick={() => goToSlide(slideIndex + 1)}
+            onClick={() => {
+              controlledSwiper.slideNext();
+            }}
           >
             <svg
               className="w-12 h-12 transform group-hover:translate-x-2 transition-transform"

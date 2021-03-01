@@ -8,7 +8,6 @@ import PageFooter from "../components/PageFooter";
 import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";
 
-import 'swiper/swiper-bundle.min.css';
 import useResize from "../utils/react-hooks/useResize";
 
 function AssociationsDirectory({ locale, data, items }) {

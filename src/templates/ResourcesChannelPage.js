@@ -10,8 +10,6 @@ import PageFooter from "../components/PageFooter";
 import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";
 
-import 'swiper/swiper-bundle.min.css';
-
 function ChannelSlider({ category }) {
   const container = useRef(null);
 
