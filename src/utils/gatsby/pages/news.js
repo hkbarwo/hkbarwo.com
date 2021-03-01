@@ -1,4 +1,8 @@
+const { Remarkable } = require('remarkable');
+
 exports.createNewsPages = async ({ actions, graphql }, context) => {
+  const md = new Remarkable();
+
   const { locale, defaultLocale, newsCategories } = context;
 
   const newsPageTemplate = require.resolve('../../../templates/NewsPage.js');
@@ -41,6 +45,7 @@ exports.createNewsPages = async ({ actions, graphql }, context) => {
     const news = fields[locale];
     const categoryKey = news.category;
     news.category = categoriesData[categoryKey];
+    news.content = md.render(news.content);
     allNews.push(news);
     categorizedNews[categoryKey].push(news);
 
