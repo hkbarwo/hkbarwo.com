@@ -23,17 +23,17 @@ import SiteLogo from "./SiteLogo";
 //   </div>;
 // }
 
-function LanguageButton({ path, locale, targetLocale, children }) {
-  return (
-    <Link
-      className={classNames(
-        'mx-10 py-2 hover:opacity-100',
-        locale === targetLocale ? 'border-b' : 'opacity-40'
-      )}
-      to={path.replace(locale, targetLocale)}
-    >{children}</Link>
-  )
-}
+// function LanguageButton({ path, locale, targetLocale, children }) {
+//   return (
+//     <Link
+//       className={classNames(
+//         'mx-10 py-2 hover:opacity-100',
+//         locale === targetLocale ? 'border-b' : 'opacity-40'
+//       )}
+//       to={path.replace(locale, targetLocale)}
+//     >{children}</Link>
+//   )
+// }
 
 function SubMenu({ item, pageContext, className }) {
   const { locale } = pageContext;
@@ -229,7 +229,7 @@ export default function PageNav({ pageContext, pageTitle, path }) {
                   >{pageContext.general.themeSettings.dark}</label>
                 </button> */}
 
-                <LanguageButton
+                {/* <LanguageButton
                   path={path}
                   locale={locale}
                   targetLocale="zh"
@@ -238,7 +238,7 @@ export default function PageNav({ pageContext, pageTitle, path }) {
                   path={path}
                   locale={locale}
                   targetLocale="en"
-                >ENG</LanguageButton>
+                >ENG</LanguageButton> */}
 
                 <button
                   className="dark:bg-text-primary ml-10 md:ml-32 md:-mr-20"
