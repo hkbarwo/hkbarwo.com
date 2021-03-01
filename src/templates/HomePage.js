@@ -247,6 +247,7 @@ export default function HomePageTemplate({ pageContext, path }) {
 
   const { slideWidth, slidesPerPage } = useSlideSize(sliderSection);
 
+  const [detailsIndex, setDetailsIndex] = useState(0);
   const [preciseSlideIndex, setPreciseSlideIndex] = useState(0);
   const slideIndex = Math.round(preciseSlideIndex);
 
@@ -293,12 +294,6 @@ export default function HomePageTemplate({ pageContext, path }) {
     window.scrollTo(0, scrollY);
   }, [preciseSlideIndex, maxSlideIndex, slidesPerPage]);
 
-  const goToSlide = useCallback((index) => {
-    const scrollHeight = document.body.scrollHeight - window.innerHeight;
-    const scrollY = scrollHeight / maxSlideIndex * index;
-    window.scrollTo(0, scrollY);
-  }, [maxSlideIndex])
-
   function nextPage() {
     goToPage(1);
   }
@@ -309,7 +304,7 @@ export default function HomePageTemplate({ pageContext, path }) {
 
   function onClickSlide(e, index) {
     e.preventDefault();
-    goToSlide(index);
+    setDetailsIndex(index);
     setIsShowDetail(true);
   }
 
@@ -496,12 +491,20 @@ export default function HomePageTemplate({ pageContext, path }) {
         >
           <FullScreenSlide
             pages={pageContext.pages}
-            slide={pageContext.slides[slideIndex]}
-            i={slideIndex}
+            slide={pageContext.slides[detailsIndex]}
+            i={detailsIndex}
             total={maxSlideIndex}
             onClose={() => setIsShowDetail(false)}
-            onNext={() => goToSlide(slideIndex + 1)}
-            onPrev={() => goToSlide(slideIndex - 1)}
+            onPrev={() => {
+              if (detailsIndex > 0) {
+                setDetailsIndex(detailsIndex - 1);
+              }
+            }}
+            onNext={() => {
+              if (detailsIndex < maxSlideIndex) {
+                setDetailsIndex(detailsIndex + 1);
+              }
+            }}
           />
           <div className="hidden absolute right-0 inset-y-0 w-60 md:flex items-center justify-center">
             <ul>
@@ -511,7 +514,7 @@ export default function HomePageTemplate({ pageContext, path }) {
                   className={classNames(
                     'w-10 h-10 my-8 border border-white rounded-full transition-colors',
                     {
-                      'bg-white': i === slideIndex,
+                      'bg-white': i === detailsIndex,
                     },
                   )}
                 />
