@@ -1,8 +1,8 @@
-import React, { useCallback, useLayoutEffect, useMemo, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import Modal from 'react-modal';
 import { FormattedDate, FormattedMessage } from "react-intl";
 import { Link } from "gatsby";
-import SwiperCore, { Autoplay } from 'swiper';
+import SwiperCore, { Autoplay, Mousewheel } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import classNames from "classnames";
 
@@ -13,22 +13,7 @@ import PageNav from "../components/PageNav";
 import PageFooter from "../components/PageFooter";
 import SiteLogo from "../components/SiteLogo";
 
-SwiperCore.use([Autoplay]);
-
-function useSlideSize(slider) {
-  const { width = 0 } = useResize(slider);
-  let slidesPerPage = 1;
-  if (width >= 320 * 3) {
-    slidesPerPage = 3;
-  } else if (width >= 320 * 2) {
-    slidesPerPage = 2;
-  }
-
-  return {
-    slideWidth: Math.max(320, width / slidesPerPage),
-    slidesPerPage
-  };
-}
+SwiperCore.use([Autoplay, Mousewheel]);
 
 function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
   return (
@@ -258,63 +243,12 @@ export default function HomePageTemplate({ pageContext, path }) {
   const maxSlideIndex = slideCount - 1;
 
   const sliderSection = useRef(null);
-
-  const { slideWidth, slidesPerPage } = useSlideSize(sliderSection);
+  const { width: sliderWidth } = useResize(sliderSection);
+  const [slideIndex, setSlideIndex] = useState(0);
+  const [controlledSwiper, setControlledSwiper] = useState(null);
 
   const [detailsIndex, setDetailsIndex] = useState(0);
-  const [preciseSlideIndex, setPreciseSlideIndex] = useState(0);
-  const slideIndex = Math.round(preciseSlideIndex);
-
   const [isShowDetail, setIsShowDetail] = useState(false);
-
-  const clampedSlideIndex = useMemo(() => {
-    return Math.min(preciseSlideIndex, maxSlideIndex - slidesPerPage + 1);
-  }, [maxSlideIndex, slidesPerPage, preciseSlideIndex]);
-  const sliderOffset = clampedSlideIndex * slideWidth;
-
-  useLayoutEffect(() => {
-    function handleScroll() {
-      window.requestAnimationFrame(() => {
-        const scrollHeight = document.body.scrollHeight - window.innerHeight;
-        const scrollY = window.scrollY;
-        setPreciseSlideIndex(scrollY / scrollHeight * maxSlideIndex);
-      });
-    }
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [maxSlideIndex]);
-
-  useLayoutEffect(() => {
-    let timerID;
-    if (preciseSlideIndex !== slideIndex) {
-      timerID = setTimeout(() => {
-        setPreciseSlideIndex(slideIndex);
-      }, 500);
-    }
-    return () => {
-      if (timerID) {
-        clearTimeout(timerID);
-      }
-    }
-  }, [preciseSlideIndex, slideIndex])
-
-  const goToPage = useCallback((direction) => {
-    const scrollHeight = document.body.scrollHeight - window.innerHeight;
-    const pageIndex = Math.floor(preciseSlideIndex / slidesPerPage) + slidesPerPage * direction;
-    const scrollY = scrollHeight / maxSlideIndex * pageIndex;
-    window.scrollTo(0, scrollY);
-  }, [preciseSlideIndex, maxSlideIndex, slidesPerPage]);
-
-  function nextPage() {
-    goToPage(1);
-  }
-
-  function prevPage() {
-    goToPage(-1);
-  }
 
   function onClickSlide(e, index) {
     e.preventDefault();
@@ -343,18 +277,37 @@ export default function HomePageTemplate({ pageContext, path }) {
             />
           </section>
           <section ref={sliderSection} className="relative flex-grow overflow-hidden">
-            <ul
-              className="absolute flex items-stretch left-0 inset-y-0"
-              style={{
-                transition: 'transform 0.5s ease',
-                transform: `translateX(-${sliderOffset}px)`,
+            <Swiper
+              className="h-full"
+              spaceBetween={0}
+              slidesPerView={1}
+              autoplay={{
+                delay: 5000,
               }}
+              mousewheel={true}
+              breakpoints={{
+                1024: {
+                  slidesPerView: 2,
+                },
+                1366: {
+                  slidesPerView: 3,
+                },
+              }}
+              loop={true}
+              observer={true}
+              onSlideChange={(swiper) => {
+                setSlideIndex(swiper.realIndex);
+              }}
+              onSwiper={(swiper) => {
+                setControlledSwiper(swiper);
+                setSlideIndex(swiper.realIndex);
+              }}
+              style={{ width: sliderWidth }}
             >
               {pageContext.slides.map((slide, i) => (
-                <li
+                <SwiperSlide
                   key={slide.slug}
                   className="text-white group"
-                  style={{ width: slideWidth }}
                 >
                   <a
                     className={classNames('flex h-full', i % 2 === 0 ? 'flex-col-reverse' : 'flex-col')}
@@ -385,12 +338,15 @@ export default function HomePageTemplate({ pageContext, path }) {
                       </div>
                     </div>
                   </a>
-                </li>
+                </SwiperSlide>
               ))}
-            </ul>
+            </Swiper>
+
             <button
-              className="absolute left-20 top-1/2 w-44 h-44 -mt-22 p-16 bg-black rounded-full group"
-              onClick={prevPage}
+              className="absolute z-10 left-20 top-1/2 w-44 h-44 -mt-22 p-16 bg-black rounded-full group"
+              onClick={() => {
+                controlledSwiper.slidePrev();
+              }}
             >
               <svg
                 className="w-12 h-12 transform group-hover:-translate-x-4 transition-transform"
@@ -406,8 +362,10 @@ export default function HomePageTemplate({ pageContext, path }) {
               </svg>
             </button>
             <button
-              className="absolute right-20 top-1/2 w-44 h-44 -mt-22 p-16 bg-black rounded-full group"
-              onClick={nextPage}
+              className="absolute z-10 right-20 top-1/2 w-44 h-44 -mt-22 p-16 bg-black rounded-full group"
+              onClick={() => {
+                controlledSwiper.slideNext();
+              }}
             >
               <svg
                 className="w-12 h-12 transform group-hover:translate-x-4 transition-transform"
@@ -439,11 +397,7 @@ export default function HomePageTemplate({ pageContext, path }) {
             </ul>
           </section>
         </div>
-        <ul className="hidden md:block opacity-0 pointer-events-none">
-          {pageContext.slides.map((slide, i) => (
-            <li key={slide.slug} style={{ height: '33.33vh' }} />
-          ))}
-        </ul>
+
         <ul className="md:hidden">
           {pageContext.slides.map((slide, i) => (
             <li
