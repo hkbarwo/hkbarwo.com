@@ -7,5 +7,6 @@ zh:
   coverImage: /images/uploads/resources/channel/epi20_2.jpg
   slug: class-20
   category: cantonese-opera-online-course
-en: {}
+en:
+  category: cantonese-opera-online-course
 ---
