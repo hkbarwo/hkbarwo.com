@@ -1,6 +1,6 @@
 ---
 zh:
-  title: 八和會員
+  title: 會員專區
   slug: member
   subPages:
     - membership-events
