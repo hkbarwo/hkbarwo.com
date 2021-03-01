@@ -483,7 +483,10 @@ export default function HomePageTemplate({ pageContext, path }) {
           style={{
             content: {
               zIndex: 50,
-              inset: 0,
+              top: 0,
+              left: 0,
+              bottom: 0,
+              right: 0,
               padding: 0,
               borderRadius: 0,
               display: "flex",
