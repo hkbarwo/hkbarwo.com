@@ -3,6 +3,13 @@ zh:
   date: 2021-02-28T16:00:00.000Z
   title: 《八和頻道：粵劇網上學堂》 啟動禮順利舉行
   content: >-
+    
+
+    ![](/images/uploads/f-mar_2255.jpg)
+
+
+
+
     香港八和會館在2020年疫症期間，籌劃了大型線上推廣計劃《八和頻道：粵劇網上學堂》，動員了超過350位業界從業員參與製作。現時，40集以「唱、做、唸、打」為主要內容的粵劇導賞節目已完成製作。今日（2021年3月1日）上午11時，本計劃假油麻地戲院舉行啟動禮，由四位主禮嘉賓（八和主席[汪明荃](<>)博士、民政事務局常任秘書長謝凌潔貞太平紳士、《八和頻道：粵劇網上學堂》藝術製作小組代表龍貫天先生和新劍郎先生）主持啓動禮。
 
 
@@ -16,8 +23,9 @@ zh:
 
 
     最後，在四位主禮嘉賓即席為頻道輸入啓動密碼後，頻道正式啟播，啟動禮亦在一片歡樂的氣氛下完滿結束。由即日起，全世界的觀眾均可隨時登入香港八和會館網址： [www.hkbarwo.com](http://www.hkbarwo.com)、[八和頻道Youtube Channel](https://www.youtube.com/channel/UC2ICDbA_GaKY1Y9k9I2q5bg/featured)，免費觀賞 《八和頻道：粵劇網上學堂》40集粵劇導賞節目。節目內容包括：粵劇音樂演唱示範、古曲、古老排劇、南派程式和穿戴示範等，是初步認識粵劇藝術的不二之選。
-  images: /images/uploads/news/f-mar_2255.jpg
-  slug: barwochannel
+  images: ""
+  slug: barwo-channel-press-conference
   category: event
-en: {}
+en:
+  category: event
 ---
