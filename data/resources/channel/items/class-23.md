@@ -9,5 +9,7 @@ zh:
   coverImage: /images/uploads/resources/channel/epi23.jpg
   slug: class-23
   category: cantonese-opera-online-course
-en: {}
+  youtubeVideoID: NvuBwWuBS1I
+en:
+  category: cantonese-opera-online-course
 ---
