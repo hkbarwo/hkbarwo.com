@@ -136,7 +136,7 @@ function NewsSection({ pageContext, className }) {
           observer={true}
           loop={true}
           autoplay={{
-            delay: 5000,
+            delay: 4000,
             disableOnInteraction: true,
           }}
           onSlideChange={(swiper) => {
@@ -282,7 +282,7 @@ export default function HomePageTemplate({ pageContext, path }) {
               spaceBetween={0}
               slidesPerView={1}
               autoplay={{
-                delay: 5000,
+                delay: 4000,
               }}
               mousewheel={true}
               breakpoints={{
