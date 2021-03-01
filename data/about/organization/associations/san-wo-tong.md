@@ -12,16 +12,8 @@ zh:
     事務部曾於一九八三年四月假座大會堂舉辦「紅伶名流閏秀粵曲歌唱晚會」籌款義演，時黃炎為理事長；後在一九八五年，即成立有限公司那一年，又為買會址事宜舉行籌款義演。事務部擁有的物業包括有現今的會址，即九龍油麻地寧波街21號嘉泰大廈四樓及一收租單位，位於九龍佐敦道偉澄街偉澄商場229室。
 
     慎和堂會員大部份為班政家、戲班經理，現今會員人數不足一百人，於2003年理事長馬國超的開放政策下(他認為所有願意發展粵劇，投資粵劇的人都應予以入會)，相信會員人數會有所增加。
-  commitieesTitle: 第三十七屆理事會名單 (2016年4月10日至今)
-  commitiees:
-    - name: "新羅品超 "
-      title: 會長
-    - name: 何日明
-      title: 名譽會長
-    - name: 何奕錩
-      title: 名譽會長
-    - name: 李淑嫻
-      title: 名譽會長
+  commitieesTitle: ""
+  commitiees: []
   logo: /images/uploads/organization/associations/san-wo-tong-g.svg
   logoWhite: /images/uploads/organization/associations/group-1144.svg
 en:
