@@ -1,11 +1,10 @@
-exports.createContactPage = async ({ actions, graphql }, context) => {
+exports.createContactPage = async ({ actions }, context) => {
   const { locale, defaultLocale, pages: { contact: pageItem } } = context;
 
-  const path = '/contact';
-  const localizedPath = `/${locale}${path}`;
+  console.log(pageItem);
 
   actions.createPage({
-    path: localizedPath,
+    path: pageItem.localizedPath,
     component: require.resolve('../../../templates/ContactPage.js'),
     context: {
       ...context,
@@ -15,8 +14,8 @@ exports.createContactPage = async ({ actions, graphql }, context) => {
 
   if (locale === defaultLocale) {
     actions.createRedirect({
-      fromPath: path,
-      toPath: localizedPath,
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
     });
   }
 };

@@ -3,13 +3,16 @@ zh:
   title: 會員專區
   slug: member
   subPages:
-    - membership-events
-    - membership-members
-  page: membership-events
+    - member-events
+    - member-directory
+    - member-memorial
+    - member-apply
+  page: member-events
 en:
   title: Members
   subPages:
-    - membership-events
-    - membership-members
-  page: membership-events
+    - member-directory
+    - member-events
+    - member-apply
+  page: member-events
 ---
