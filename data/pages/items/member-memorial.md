@@ -1,7 +1,7 @@
 ---
 zh:
   wip: true
-  title: 仙游
+  title: 仙遊
   slug: member-memorial
   url: /member/memorial
 en:
