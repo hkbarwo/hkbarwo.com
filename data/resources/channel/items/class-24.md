@@ -11,6 +11,7 @@ zh:
   coverImage: /images/uploads/resources/channel/epi24.jpg
   slug: class-24
   category: cantonese-opera-online-course
-  youtubeVideoID: ""
-en: {}
+  youtubeVideoID: vLni3Y__DHY
+en:
+  category: cantonese-opera-online-course
 ---
