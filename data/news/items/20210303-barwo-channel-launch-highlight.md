@@ -5,5 +5,6 @@ zh:
   slug: barwo-channel-launch-highlight
   category: event
   youtubeVideoID: https://www.youtube.com/watch?v=6aNrs7-QuQ0
-en: {}
+en:
+  category: event
 ---
