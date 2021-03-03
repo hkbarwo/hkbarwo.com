@@ -11,6 +11,7 @@ zh:
   coverImage: /images/uploads/resources/channel/epi03.jpg
   category: cantonese-opera-online-course
   slug: class-03
-  youtubeVideoID: R12fsrFrGwE
-en: {}
+  youtubeVideoID: IXd9q9vJiVg
+en:
+  category: cantonese-opera-online-course
 ---
