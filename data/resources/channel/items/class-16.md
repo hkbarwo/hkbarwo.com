@@ -6,6 +6,7 @@ zh:
   slug: class-16
   category: cantonese-opera-online-course
   coverImage: /images/uploads/resources/channel/epi16.jpg
-  youtubeVideoID: zflVMB6nNx8
-en: {}
+  youtubeVideoID: 47S04Ibe34g
+en:
+  category: cantonese-opera-online-course
 ---
