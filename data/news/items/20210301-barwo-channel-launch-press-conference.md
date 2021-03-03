@@ -1,7 +1,7 @@
 ---
 zh:
   date: 2021-03-01T11:29:15.479Z
-  title: 【香港八和會館】「八和頻道」啟動禮順利舉行
+  title: 「八和頻道」啟動禮順利舉行
   slug: barwo-channel-launch-press-conference
   category: event
   content: >-
