@@ -8,9 +8,10 @@ zh:
      
 
     本集動作須由專業導師指導，敬請觀眾切勿模仿。
-  youtubeVideoID: ZXxCOnnEz7U
+  youtubeVideoID: ea28J11Isp4
   slug: class-21
   category: cantonese-opera-online-course
   coverImage: /images/uploads/resources/channel/epi21.jpg
-en: {}
+en:
+  category: cantonese-opera-online-course
 ---
