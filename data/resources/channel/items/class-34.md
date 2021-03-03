@@ -12,7 +12,7 @@ zh:
     搭着兩名手下亮相，像擔著擔挑一樣。
 
     〈拜壽〉是粵劇傳統例戲之一，亦是是粵劇初學者必學排場，家丁和梅香會向老爺賀壽。
-  youtubeVideoID: GH-RSD7Vbws
+  youtubeVideoID: LJ_I51KKV8c
   slug: class-34
   category: cantonese-opera-online-course
   coverImage: /images/uploads/resources/channel/epi34.jpg
