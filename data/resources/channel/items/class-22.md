@@ -9,6 +9,7 @@ zh:
     腰腿功是戲曲演員的基本功夫，在戲曲舞台上，程式、身段和武打功架都要運用腰腿功。
 
     本集動作須由專業導師指導，敬請觀眾切勿模仿。
-  youtubeVideoID: dD5RGVwDNl4
-en: {}
+  youtubeVideoID: C_f68Yfq4Eo
+en:
+  category: cantonese-opera-online-course
 ---
