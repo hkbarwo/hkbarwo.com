@@ -8,6 +8,7 @@ import classNames from "classnames";
 
 import useResize from "../utils/react-hooks/useResize";
 
+import ClientOnly from "../components/ClientOnly";
 import IntlProvider from "../components/IntlProvider";
 import PageNav from "../components/PageNav";
 import PageFooter from "../components/PageFooter";
@@ -130,57 +131,59 @@ function NewsSection({ pageContext, className }) {
       </h2>
 
       <div className="relative flex-grow w-full mt-16">
-        <Swiper
-          spaceBetween={0}
-          slidesPerView={1}
-          observer={true}
-          loop={true}
-          autoplay={{
-            delay: 4000,
-            disableOnInteraction: true,
-          }}
-          onSlideChange={(swiper) => {
-            setSlideIndex(swiper.realIndex);
-          }}
-          onSwiper={setControlledSwiper}
-        >
-          {pageContext.news.map(news => (
-            <SwiperSlide key={news.slug}>
-              <div className="px-28 py-16">
-                <h3>{news.title}</h3>
-                <footer className="flex justify-between items-center mt-16 text-14">
-                  <div className="flex items-center">
-                    <svg className="w-16 h-16 mr-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                      <path
-                        d="M10.44,11.19l-3-3v-5H8.53V7.78l2.66,2.66ZM8,15.44A7.44,7.44,0,1,1,15.44,8,7.44,7.44,0,0,1,8,15.44ZM8,1.62A6.38,6.38,0,1,0,14.38,8,6.38,6.38,0,0,0,8,1.62Z"
-                        fill="currentColor"
-                      />
-                    </svg>
-                    <FormattedDate value={news.date} />
-                  </div>
-                  <Link
-                    className="flex items-center px-12 py-4 border border-current rounded-full font-light group"
-                    to={`/${pageContext.locale}/news/${news.slug}`}
-                  >
-                    <FormattedMessage id="know.more" />
-                    <svg
-                      className="w-12 h-12 ml-8 transform group-hover:translate-x-4 transition-transform"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 12 12"
+        <ClientOnly>
+          <Swiper
+            spaceBetween={0}
+            slidesPerView={1}
+            observer={true}
+            loop={true}
+            autoplay={{
+              delay: 4000,
+              disableOnInteraction: true,
+            }}
+            onSlideChange={(swiper) => {
+              setSlideIndex(swiper.realIndex);
+            }}
+            onSwiper={setControlledSwiper}
+          >
+            {pageContext.news.map(news => (
+              <SwiperSlide key={news.slug}>
+                <div className="px-28 py-16">
+                  <h3>{news.title}</h3>
+                  <footer className="flex justify-between items-center mt-16 text-14">
+                    <div className="flex items-center">
+                      <svg className="w-16 h-16 mr-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                        <path
+                          d="M10.44,11.19l-3-3v-5H8.53V7.78l2.66,2.66ZM8,15.44A7.44,7.44,0,1,1,15.44,8,7.44,7.44,0,0,1,8,15.44ZM8,1.62A6.38,6.38,0,1,0,14.38,8,6.38,6.38,0,0,0,8,1.62Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <FormattedDate value={news.date} />
+                    </div>
+                    <Link
+                      className="flex items-center px-12 py-4 border border-current rounded-full font-light group"
+                      to={`/${pageContext.locale}/news/${news.slug}`}
                     >
-                      <path
-                        d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                  </Link>
-                </footer>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+                      <FormattedMessage id="know.more" />
+                      <svg
+                        className="w-12 h-12 ml-8 transform group-hover:translate-x-4 transition-transform"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 12 12"
+                      >
+                        <path
+                          d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                        />
+                      </svg>
+                    </Link>
+                  </footer>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </ClientOnly>
       </div>
 
       <footer className="flex justify-between items-center p-32 text-14 w-full">
@@ -277,70 +280,72 @@ export default function HomePageTemplate({ pageContext, path }) {
             />
           </section>
           <section ref={sliderSection} className="relative flex-grow overflow-hidden">
-            <Swiper
-              className="h-full"
-              spaceBetween={0}
-              slidesPerView={1}
-              autoplay={{
-                delay: 4000,
-              }}
-              mousewheel={true}
-              breakpoints={{
-                1024: {
-                  slidesPerView: 2,
-                },
-                1366: {
-                  slidesPerView: 3,
-                },
-              }}
-              loop={true}
-              observer={true}
-              onSlideChange={(swiper) => {
-                setSlideIndex(swiper.realIndex);
-              }}
-              onSwiper={(swiper) => {
-                setControlledSwiper(swiper);
-                setSlideIndex(swiper.realIndex);
-              }}
-              style={{ width: sliderWidth }}
-            >
-              {pageContext.slides.map((slide, i) => (
-                <SwiperSlide
-                  key={slide.slug}
-                  className="text-white group"
-                >
-                  <a
-                    className={classNames('flex h-full', i % 2 === 0 ? 'flex-col-reverse' : 'flex-col')}
-                    href={`#${slide.slug}`}
-                    onClick={(e) => onClickSlide(e, i)}
+            <ClientOnly>
+              <Swiper
+                className="h-full"
+                spaceBetween={0}
+                slidesPerView={1}
+                autoplay={{
+                  delay: 4000,
+                }}
+                mousewheel={true}
+                breakpoints={{
+                  1024: {
+                    slidesPerView: 2,
+                  },
+                  1366: {
+                    slidesPerView: 3,
+                  },
+                }}
+                loop={true}
+                observer={true}
+                onSlideChange={(swiper) => {
+                  setSlideIndex(swiper.realIndex);
+                }}
+                onSwiper={(swiper) => {
+                  setControlledSwiper(swiper);
+                  setSlideIndex(swiper.realIndex);
+                }}
+                style={{ width: sliderWidth }}
+              >
+                {pageContext.slides.map((slide, i) => (
+                  <SwiperSlide
+                    key={slide.slug}
+                    className="text-white group"
                   >
-                    <div className="relative flex-grow overflow-hidden">   
-                      <img
-                        className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform ease-out duration-300"
-                        src={`${slide.bgImage}`} alt={slide.title}
-                      />
-                    </div>
-                    <div className="flex-shrink-0 aspect-w-1 aspect-h-1">
-                      <div
-                        className="p-20"
-                        style={{
-                          backgroundImage:
-                            `linear-gradient(to bottom, ${slide.gradient.color1} 0% , ${slide.gradient.color2} 100%)`,
-                        }}
-                      >
-                        <div>
-                          <span className="text-22 font-light tracking-widest">{`${i < 9 ? '0' : ''}${i + 1}`}</span>
-                          <span className="ml-10 text-18 tracking-wide">{slide.shortTitle}</span>
-                        </div>
-                        <h1 className="mt-40 text-36 font-bold font-serif tracking-widest">{slide.title}</h1>
-                        <h2 className="mt-4 text-28 font-light font-serif tracking-widest">{slide.subtitle}</h2>
-                        <p className="mt-8 text-14 leading-5 whitespace-pre-wrap line-clamp-2">{slide.description}</p>
+                    <a
+                      className={classNames('flex h-full', i % 2 === 0 ? 'flex-col-reverse' : 'flex-col')}
+                      href={`#${slide.slug}`}
+                      onClick={(e) => onClickSlide(e, i)}
+                    >
+                      <div className="relative flex-grow overflow-hidden">
+                        <img
+                          className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform ease-out duration-300"
+                          src={`${slide.bgImage}`} alt={slide.title}
+                        />
                       </div>
-                    </div>
-                  </a>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+                      <div className="flex-shrink-0 aspect-w-1 aspect-h-1">
+                        <div
+                          className="p-20"
+                          style={{
+                            backgroundImage:
+                              `linear-gradient(to bottom, ${slide.gradient.color1} 0% , ${slide.gradient.color2} 100%)`,
+                          }}
+                        >
+                          <div>
+                            <span className="text-22 font-light tracking-widest">{`${i < 9 ? '0' : ''}${i + 1}`}</span>
+                            <span className="ml-10 text-18 tracking-wide">{slide.shortTitle}</span>
+                          </div>
+                          <h1 className="mt-40 text-36 font-bold font-serif tracking-widest">{slide.title}</h1>
+                          <h2 className="mt-4 text-28 font-light font-serif tracking-widest">{slide.subtitle}</h2>
+                          <p className="mt-8 text-14 leading-5 whitespace-pre-wrap line-clamp-2">{slide.description}</p>
+                        </div>
+                      </div>
+                    </a>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </ClientOnly>
 
             <button
               className="absolute z-10 left-20 top-1/2 w-44 h-44 -mt-22 p-16 bg-black rounded-full group"
