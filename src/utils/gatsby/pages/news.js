@@ -23,6 +23,8 @@ exports.createNewsPages = async ({ actions, graphql }, context) => {
               content
               category
               youtubeVideoID
+              pdfFile
+              images
             }
           }
         }
