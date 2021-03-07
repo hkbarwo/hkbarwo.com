@@ -1257,6 +1257,72 @@ collections:
                 default: ""
                 media_folder: "/static/uploads/images/support/souvenirs"
                 public_folder: "/uploads/images/support/souvenirs"
+  - name: "member"
+    label: "📄 會員專區頁面"
+    i18n: true
+    files:
+      - name: "apply"
+        label: "申請入會頁面"
+        i18n: true
+        file: "/data/member/apply.yml"
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+          - name: "description"
+            label: "簡介"
+            i18n: true
+            widget: text
+            required: false
+            default: ""
+          - name: "image"
+            label: "圖片"
+            widget: image
+            required: false
+            default: ""
+            media_folder: "/static/uploads/member"
+            public_folder: "/uploads/member"
+          - name: "registration"
+            label: "申請辦法"
+            widget: object
+            i18n: true
+            fields:
+              - name: "title"
+                label: "標題"
+                i18n: true
+                widget: string
+              - name: "description"
+                label: "簡介"
+                i18n: true
+                widget: markdown
+                required: false
+                default: ""
+              - name: "steps"
+                label: "步驟"
+                i18n: true
+                widget: list
+                required: false
+                default: "[]"
+                fields:
+                  - name: "title"
+                    label: "標題"
+                    i18n: true
+                    widget: string
+                    required: false
+                    default: ""
+                  - name: "icon"
+                    label: "圖示"
+                    widget: image
+                    required: false
+                    default: ""
+                    media_folder: "/static/uploads/member/apply"
+                    public_folder: "/uploads/member/apply"
+          - name: "pdf"
+            label: "入會表格"
+            widget: file
+            media_folder: "/static/uploads/member/apply"
+            public_folder: "/uploads/member/apply"
   - name: "site"
     label: "全站設定"
     i18n: true

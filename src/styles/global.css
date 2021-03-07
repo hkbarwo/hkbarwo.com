@@ -3,3 +3,31 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&family=Noto+Serif+TC:wght@500;700&display=swap');
+
+.markdown ul {
+  @apply list-disc;
+  @apply ml-24;
+}
+.markdown li:not(:first-child) {
+  @apply mt-8;
+}
+
+.markdown h1 {
+  @apply text-primary;
+  @apply font-bold;
+  @apply font-serif;
+}
+
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  @apply text-secondary;
+  @apply font-bold;
+  @apply mb-10;
+}
+
+.markdown h3 {
+  @apply text-20
+}
