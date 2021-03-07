@@ -24,18 +24,15 @@ exports.onCreateNode = ({ node, actions }) => {
         node,
       });
       
-      const isMenuItem = node.fileAbsolutePath.indexOf('data/menu/items') !== -1;
 
       locales.forEach((locale) => {
         actions.createNodeField({
           name: locale,
           value: locale === defaultLocale
             ? frontmatter[defaultLocale]
-            : isMenuItem
-              ? merge(frontmatter[defaultLocale], frontmatter[locale], {
-                arrayMerge: (_, source) => source,
-              })
-              : merge(frontmatter[defaultLocale], frontmatter[locale]),
+            : merge(frontmatter[defaultLocale], frontmatter[locale], {
+              arrayMerge: (_, source) => source,
+            }),
           node,
         });
       });
@@ -47,7 +44,9 @@ exports.onCreateNode = ({ node, actions }) => {
           name: locale,
           value: locale === defaultLocale
             ? node[defaultLocale]
-            : merge(node[defaultLocale], node[locale]),
+            : merge(node[defaultLocale], node[locale], {
+              arrayMerge: (_, source) => source,
+            }),
           node,
         });
       });

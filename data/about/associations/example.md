@@ -13,7 +13,9 @@ zh:
 en:
   description: ""
   commitieesTitle: ""
-  commitiees: []
+  commitiees:
+    - title: Example
+      name: Example
   title: Example
   shortTitle: Example
 ---

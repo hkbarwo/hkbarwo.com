@@ -345,6 +345,7 @@ collections:
                 required: false
               - name: "image"
                 label: "圖片"
+                i18n: duplicate
                 widget: image
                 media_folder: "/static/images/uploads/about"
                 public_folder: "/images/uploads/about"
