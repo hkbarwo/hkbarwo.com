@@ -9,6 +9,7 @@ const { createHomePage } = require('./src/utils/gatsby/pages/home');
 const { createNewsPages } = require('./src/utils/gatsby/pages/news');
 const { createResourcesPages } = require('./src/utils/gatsby/pages/resources');
 const { createContactPage } = require('./src/utils/gatsby/pages/contact');
+const { createSupportPage } = require('./src/utils/gatsby/pages/support');
 
 const defaultLocale = 'zh';
 const locales = ['zh', 'en'];
@@ -86,6 +87,7 @@ exports.createPages = async (params) => {
       createAboutPages(params, context),
       createResourcesPages(params, context),
       createContactPage(params, context),
+      createSupportPage(params, context),
     ]);
 
     Object.keys(pages).forEach(slug => {

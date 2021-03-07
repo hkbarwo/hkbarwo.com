@@ -9,7 +9,7 @@ backend:
     uploadMedia: 🍱 Upload “{{path}}”
     deleteMedia: 🔥 Delete “{{path}}”
     openAuthoring: '🚧 {{message}}'
-local_backend: false
+local_backend: true
 publish_mode: editorial_workflow
 media_folder: "/static/images/uploads"
 public_folder: "/images/uploads"
@@ -1130,6 +1130,132 @@ collections:
         label: "YouTube 影片 ID"
         widget: string
         required: false
+  - name: "support"
+    label: "📄 支持我們頁面"
+    i18n: true
+    files:
+      - name: "intro"
+        label: "介紹"
+        i18n: true
+        file: "/data/support/intro.yml"
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+          - name: "description"
+            label: "簡介"
+            i18n: true
+            widget: text
+            required: false
+            default: ""
+          - name: "image"
+            label: "圖片"
+            widget: image
+            required: false
+            default: ""
+            media_folder: "/static/uploads/images/support"
+            public_folder: "/uploads/images/support"
+      - name: "offering"
+        label: "捐款辦法"
+        i18n: true
+        file: "/data/support/offering.yml"
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+          - name: "methods"
+            label: "方法"
+            i18n: true
+            widget: list
+            required: false
+            default: "[]"
+            fields:
+              - name: "title"
+                label: "標題"
+                i18n: true
+                widget: string
+                required: false
+                default: ""
+              - name: "content"
+                label: "內容"
+                i18n: true
+                widget: text
+                required: false
+                default: ""
+              - name: "icon"
+                label: "圖示"
+                widget: image
+                required: false
+                default: ""
+                media_folder: "/static/uploads/images/support/offering"
+                public_folder: "/uploads/images/support/offering"
+              - name: "iconDark"
+                label: "圖示（夜間模式）"
+                widget: image
+                required: false
+                default: ""
+                media_folder: "/static/uploads/images/support/offering"
+                public_folder: "/uploads/images/support/offering"
+      - name: "credits"
+        label: "嗚謝"
+        i18n: true
+        file: "/data/support/credits.yml"
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+          - name: "logos"
+            label: "標誌"
+            widget: list
+            required: false
+            default: "[]"
+            field:
+              name: "image"
+              label: "圖示"
+              widget: image
+              required: false
+              default: ""
+              media_folder: "/static/uploads/images/support/credits"
+              public_folder: "/uploads/images/support/credits"
+      - name: "souvenirs"
+        label: "紀念品"
+        i18n: true
+        file: "/data/support/souvenirs.yml"
+        fields:
+          - name: "title"
+            label: "標題"
+            i18n: true
+            widget: string
+          - name: "content"
+            label: "內容"
+            i18n: true
+            widget: text
+            required: false
+            default: ""
+          - name: "items"
+            label: "項目"
+            widget: list
+            required: false
+            default: "[]"
+            fields:
+              - name: "title"
+                label: "標題"
+                i18n: true
+                widget: string
+              - name: "slug"
+                label: "Slug"
+                widget: string
+                pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+              - name: "image"
+                label: "圖片"
+                widget: image
+                required: false
+                default: ""
+                media_folder: "/static/uploads/images/support/souvenirs"
+                public_folder: "/uploads/images/support/souvenirs"
   - name: "site"
     label: "全站設定"
     i18n: true

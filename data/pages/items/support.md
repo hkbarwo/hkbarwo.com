@@ -3,8 +3,8 @@ zh:
   title: 支持我們
   slug: support
   url: /support
-  wip: true
+  wip: false
 en:
   title: Support
-  wip: true
+  wip: false
 ---

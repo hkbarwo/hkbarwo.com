@@ -1,0 +1,46 @@
+zh:
+  title: 捐款辦法
+  methods:
+    - title: 銀行轉帳
+      content: |-
+        銀行名稱：恆生銀行
+        帳戶號碼*：284-015831-001
+        [*請註明帳戶名稱：「香港八和會館」或「THE CHINESE ARTISTS ASSN OF HK」]
+      icon: /uploads/images/support/offering/bank.svg
+      iconDark: ""
+    - title: 郵寄支票
+      content: |-
+        收款人：「香港八和會館」或「THE CHINESE ARTISTS ASSN OF HK
+        地址：香港油麻地彌敦道493號展望大廈4字樓A室
+      icon: /uploads/images/support/offering/mail.svg
+      iconDark: ""
+    - title: ""
+      content: |-
+        所有捐款可憑正式收據申請稅務減免，有關捐助事宜及資料，請聯絡阮小姐。
+        電話：2384-2929 
+        電郵：enquiry@hkbarwo.com
+      icon: ""
+      iconDark: ""
+en:
+  title: 捐款辦法
+  methods:
+    - title: 銀行轉帳
+      content: |-
+        銀行名稱：恆生銀行
+        帳戶號碼*：284-015831-001
+        [*請註明帳戶名稱：「香港八和會館」或「THE CHINESE ARTISTS ASSN OF HK」]
+      icon: ""
+      iconDark: /uploads/images/support/offering/bank.svg
+    - title: 郵寄支票
+      content: |-
+        收款人：「香港八和會館」或「THE CHINESE ARTISTS ASSN OF HK
+        地址：香港油麻地彌敦道493號展望大廈4字樓A室
+      icon: /uploads/images/support/offering/mail.svg
+      iconDark: ""
+    - title: ""
+      content: |-
+        所有捐款可憑正式收據申請稅務減免，有關捐助事宜及資料，請聯絡阮小姐。
+        電話：2384-2929 
+        電郵：enquiry@hkbarwo.com
+      icon: ""
+      iconDark: ""
