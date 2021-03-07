@@ -1323,6 +1323,42 @@ collections:
             widget: file
             media_folder: "/static/uploads/member/apply"
             public_folder: "/uploads/member/apply"
+  - name: "memberEvents"
+    label: "🗃 會員活動"
+    i18n: true
+    create: true
+    folder: "/data/member/events"
+    sortable_fields: ["title", "slug", "date"]
+    slug: "{{fields.slug}}"
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        hint: "例：20210326-spring-festival"
+      - name: "date"
+        label: "日期"
+        hint: "只用作排序"
+        widget: datetime
+        i18n: duplicate
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        required: false
+      - name: "metadata"
+        label: "資料"
+        widget: list
+        i18n: true
+        fields:
+          - name: "label"
+            label: "標籤"
+            widget: string
+          - name: "content"
+            label: "內容"
+            widget: markdown
   - name: "site"
     label: "全站設定"
     i18n: true
