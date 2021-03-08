@@ -44,8 +44,8 @@ export default function PerformancesOthersPage({ path, pageContext }) {
               <ul className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-y-60 lg:gap-x-96 my-96">
                 {pageData.others.map((event, i) => (
                   <li key={event.slug}>
-                    <img className="w-full" src={event.coverImage} alt="" />
-                    <h1 className="text-24 font-black mt-20">{event.title}</h1>
+                    {!!event.coverImage && <img className="w-full mb-20" src={event.coverImage} alt={event.title} />}
+                    <h1 className="text-24 font-black">{event.title}</h1>
                     <div className="line-clamp-2" dangerouslySetInnerHTML={{ __html: event.content }} />
                     <ul className="mt-20">
                       {event.metadata.filter((({ isShowInList }) => isShowInList)).map((data, i) => (

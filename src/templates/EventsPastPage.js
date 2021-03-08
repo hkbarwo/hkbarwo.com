@@ -53,7 +53,7 @@ export default function EventsPastPage({ path, pageContext }) {
                 {events.map((event, i) => (
                   <li key={event.slug} className={classNames('md:flex', { 'mt-96': i > 0 })}>
                     <div className="max-w-md w-full flex-shrink-0">
-                      <img src={event.coverImage} alt={event.title} />
+                      {!!event.coverImage && <img src={event.coverImage} alt={event.title} />}
                     </div>
                     <div className="md:ml-120 flex-grow">
                       <h1 className="text-24 font-black mt-20">{event.title}</h1>

@@ -52,8 +52,8 @@ export default function PerformancesPage({ path, pageContext }) {
               <ul className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-120 gap-y-96 lg:gap-y-0 my-96">
                 {events.map((event, i) => (
                   <li key={event.slug} className={classNames('mx-auto text-center', { 'lg:mt-96': i % 2 === 1 })}>
-                    <img src={event.coverImage} alt={event.title} />
-                    <h1 className="text-24 font-black mt-20">{event.title}</h1>
+                    {!!event.coverImage && <img className="mb-20" src={event.coverImage} alt={event.title} />}
+                    <h1 className="text-24 font-black">{event.title}</h1>
                     <ul className="mt-20">
                       {event.metadata.filter((({ isShowInList }) => isShowInList)).map((data, i) => (
                         <li key={data.label} className={classNames({ 'mt-12': i > 0 })}>
