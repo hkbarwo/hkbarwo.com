@@ -1,9 +1,7 @@
 ---
 zh:
-  photos:
-    - /uploads/images/events/防疫基金01.jpg
-    - /uploads/images/events/防疫基金02.jpg
-  coverImage: /uploads/images/events/防疫基金01.jpg
+  photos: []
+  coverImage: ""
   slug: pandemic-prevention-and-anti-epidemic-fund-3
   date: 2020-11-23T17:34:51.130Z
   metadata:
