@@ -1,12 +1,7 @@
 ---
 zh:
-  photos:
-    - /uploads/images/events/第三十九屆理事會就職典禮01.jpg
-    - /uploads/images/events/第三十九屆理事會就職典禮02.jpg
-    - /uploads/images/events/第三十九屆理事會就職典禮03.jpg
-    - /uploads/images/events/第三十九屆理事會就職典禮04.jpg
-    - /uploads/images/events/第三十九屆理事會就職典禮05.jpg
-  coverImage: /uploads/images/events/第三十九屆理事會就職典禮01.jpg
+  photos: []
+  coverImage: ""
   slug: inauguration-ceremony-of-the-39th-council
   date: 2020-11-12T17:39:24.751Z
   metadata:
