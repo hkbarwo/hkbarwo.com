@@ -17,6 +17,7 @@ zh:
   type: performance
   tel: "23456789"
   email: hello@example.com
+  sessions: 1
 en:
   date: 1999-12-31T19:07:01.895Z
   metadata:

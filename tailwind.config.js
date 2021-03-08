@@ -92,7 +92,10 @@ module.exports = {
       }),
       transitionProperty: {
         'height': 'height',
-      }
+      },
+      boxShadow: {
+        outline: '0 0 8px 0 rgba(0, 0, 0, 0.1)',
+      },
     },
   },
   variants: {

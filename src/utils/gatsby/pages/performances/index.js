@@ -24,6 +24,7 @@ exports.createPerformancesPages = async (params, context) => {
                 content
                 isShowInList
               }
+              sessions
               type
               tel
               email
@@ -39,6 +40,7 @@ exports.createPerformancesPages = async (params, context) => {
 
   const performances = [];
   const events = [];
+  const celebrations = [];
   const others = [];
 
   result.data.events.nodes.forEach(({ fields: { [locale]: event } }) => {
@@ -63,6 +65,9 @@ exports.createPerformancesPages = async (params, context) => {
         break;
       case 'activity':
         events.push(event);
+        break;
+      case 'celebration':
+        celebrations.push(event);
         break;
       case 'other':
         others.push(event);
@@ -191,6 +196,27 @@ exports.createPerformancesPages = async (params, context) => {
       pageItem,
       pageData: {
         others
+      },
+    },
+  });
+
+  pageItem = pages['performances-celebrations'];
+
+  if (locale === defaultLocale) {
+    actions.createRedirect({
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
+    });
+  }
+
+  actions.createPage({
+    path: pageItem.localizedPath,
+    component: require.resolve('../../../../templates/PerformancesCelebrationsPage.js'),
+    context: {
+      ...context,
+      pageItem,
+      pageData: {
+        celebrations
       },
     },
   });

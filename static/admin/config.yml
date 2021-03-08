@@ -1045,6 +1045,9 @@ collections:
       - label: "活動"
         field: type
         pattern: 'activity'
+      - label: "神功戲"
+        field: type
+        pattern: 'celebration'
       - label: "其他團體演出"
         field: type
         pattern: 'other'
@@ -1066,6 +1069,8 @@ collections:
             value: "performance"
           - label: "活動"
             value: "activity"
+          - label: "神功戲"
+            value: "celebration"
           - label: "其他團體演出"
             value: "other"
       - name: "date"
@@ -1087,6 +1092,13 @@ collections:
         media_folder: "/static/uploads/images/events"
         public_folder: "/uploads/images/events"
         required: false
+      - name: "sessions"
+        label: "場數"
+        widget: number
+        default: 1
+        value_type: "int"
+        min: 1
+        step: 1
       - name: "metadata"
         label: "資料"
         i18n: true
