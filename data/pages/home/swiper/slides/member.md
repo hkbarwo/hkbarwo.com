@@ -3,7 +3,7 @@ zh:
   buttonTitle: " 了解更多"
   slug: member
   buttonLink:
-    page: membership-events
+    page: member-events
   gradient:
     color1: "#2930d7"
     color2: "#ffa5fc"
