@@ -1,12 +1,13 @@
 exports.createPerformancesPages = async (params, context) => {
   const { actions, graphql, md } = params;
-  const { locale, defaultLocale } = context;
+  const { locale, defaultLocale, pages } = context;
 
   const result = await graphql(`
     {
       events: allMarkdownRemark(
         filter: {
           fileAbsolutePath: {regex: "/data/events/items/"}
+          fields: { slug: { ne: "example" }}
         },
         sort: { fields: [fields___${locale}___date, fields___${locale}___slug], order: DESC }
       ) {
@@ -15,11 +16,13 @@ exports.createPerformancesPages = async (params, context) => {
             ${locale} {
               slug
               title
+              date
               content
               coverImage
               metadata {
                 label
                 content
+                isShowInList
               }
               type
               tel
@@ -33,6 +36,10 @@ exports.createPerformancesPages = async (params, context) => {
       }
     }
   `);
+
+  const performances = [];
+  const events = [];
+  const others = [];
 
   result.data.events.nodes.forEach(({ fields: { [locale]: event } }) => {
     const path = `/${event.type === 'event' ? 'events' : 'performances'}/${event.slug}`;
@@ -50,6 +57,20 @@ exports.createPerformancesPages = async (params, context) => {
     event.path = path;
     event.localizedPath = localizedPath;
 
+    switch (event.type) {
+      case 'performance':
+        performances.push(event);
+        break;
+      case 'event':
+        events.push(event);
+        break;
+      case 'other':
+        others.push(event);
+        break;
+      default:
+        break;
+    }
+
     if (locale === defaultLocale) {
       actions.createRedirect({
         fromPath: path,
@@ -65,5 +86,89 @@ exports.createPerformancesPages = async (params, context) => {
         pageData: event,
       },
     });
+  });
+
+  let pageItem = pages['performances-upcoming'];
+
+  if (locale === defaultLocale) {
+    actions.createRedirect({
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
+    });
+  }
+
+  actions.createPage({
+    path: pageItem.localizedPath,
+    component: require.resolve('../../../../templates/PerformancesPage.js'),
+    context: {
+      ...context,
+      pageItem,
+      pageData: {
+        performances
+      },
+    },
+  });
+
+  pageItem = pages['performances-past'];
+
+  if (locale === defaultLocale) {
+    actions.createRedirect({
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
+    });
+  }
+
+  actions.createPage({
+    path: pageItem.localizedPath,
+    component: require.resolve('../../../../templates/PerformancesPastPage.js'),
+    context: {
+      ...context,
+      pageItem,
+      pageData: {
+        performances
+      },
+    },
+  });
+
+  pageItem = pages['events-latest'];
+
+  if (locale === defaultLocale) {
+    actions.createRedirect({
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
+    });
+  }
+
+  actions.createPage({
+    path: pageItem.localizedPath,
+    component: require.resolve('../../../../templates/EventsPage.js'),
+    context: {
+      ...context,
+      pageItem,
+      pageData: {
+        events
+      },
+    },
+  });
+
+  pageItem = pages['events-past'];
+
+  if (locale === defaultLocale) {
+    actions.createRedirect({
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
+    });
+  }
+
+  actions.createPage({
+    path: pageItem.localizedPath,
+    component: require.resolve('../../../../templates/EventsPastPage.js'),
+    context: {
+      ...context,
+      pageItem,
+      pageData: {
+        events
+      },
+    },
   });
 }

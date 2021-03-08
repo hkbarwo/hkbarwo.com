@@ -66,7 +66,9 @@ export default function PerformancesDetailsPage({ path, pageContext }) {
             <ul>
               {pageData.metadata.map((data, i) => (
                 <li key={data.label} className={classNames({ 'mt-12': i > 0 })}>
-                  <div className="text-secondary text-14 font-bold">{data.label}</div>
+                  <div className={classNames('text-secondary text-14 font-bold', { 'text-tertiary': data.isShowInList })}>
+                    {data.label}
+                  </div>
                   <div className="markdown" dangerouslySetInnerHTML={{ __html: data.content }} />
                 </li>
               ))}

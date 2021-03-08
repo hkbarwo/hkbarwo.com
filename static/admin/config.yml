@@ -1070,6 +1070,7 @@ collections:
             value: "other"
       - name: "date"
         label: "日期"
+        i18n: duplicate
         widget: datetime
         date_format: "YYYY-MM-DD"
         time_format: false
