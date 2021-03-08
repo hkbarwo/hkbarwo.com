@@ -6,7 +6,7 @@ zh:
     - performances-upcoming
     - performances-past
     - events-latest
-    - past-events
+    - events-past
     - performances-celebrations
     - performances-others
   page: performances-upcoming
@@ -17,7 +17,7 @@ en:
     - performances-upcoming
     - performances-past
     - events-latest
-    - past-events
+    - events-past
     - performances-celebrations
     - performances-others
 ---

@@ -1113,7 +1113,7 @@ collections:
         widget: string
         required: false
       - name: "email"
-        label: "電話"
+        label: "電郵"
         widget: string
         required: false
       - name: "location"
@@ -1123,10 +1123,14 @@ collections:
         required: false
       - name: "photos"
         label: "相片"
-        widget: image
-        media_folder: "/static/uploads/images/events"
-        public_folder: "/uploads/images/events"
-        required: false
+        widget: list
+        field:
+          name: "image"
+          label: "圖片"
+          widget: image
+          media_folder: "/static/uploads/images/events"
+          public_folder: "/uploads/images/events"
+          required: false
       - name: "youtubeVideoID"
         label: "YouTube 影片 ID"
         widget: string
