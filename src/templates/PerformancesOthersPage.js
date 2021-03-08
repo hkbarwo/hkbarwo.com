@@ -1,0 +1,79 @@
+import React, { useMemo } from "react";
+import classNames from "classnames";
+import { Link } from "gatsby";
+import { FormattedMessage } from "react-intl";
+
+import IntlProvider from "../components/IntlProvider";
+import PageFooter from "../components/PageFooter";
+import PageNav from "../components/PageNav";
+import PageHeader from "../components/PageHeader";
+
+export default function PerformancesPage({ path, pageContext }) {
+  const { locale, menus, pageItem, pageData } = pageContext;
+  const menuItem = menus.secondary.find(({ slug }) => slug === 'events');
+
+  return (
+    <IntlProvider language={locale}>
+      <main className="flex flex-col min-h-screen tracking-wide">
+        <PageNav
+          {...{ path, pageContext }}
+          pageTitle={menuItem.title}
+        />
+
+        <PageHeader
+          locale={locale}
+          menuItems={menuItem.subPages.map((item) => ({
+            path: `/${locale}${item.url}`,
+            key: item.slug,
+            title: item.title,
+          }))}
+          getActive={({ key }) => key === pageItem.slug}
+        />
+
+        <article className="max-w-screen-xl mx-auto w-full p-14 md:px-96 pb-56 flex-grow">
+          <section>
+            <h1 className="flex items-center justify-center max-w-sm mx-auto text-primary text-24 text-center font-bold font-serif">
+              <span className="bg-current h-1 flex-grow" />
+              <span className="mx-20">
+                {pageItem.title}
+              </span>
+              <span className="bg-current h-1 flex-grow" />
+            </h1>
+
+            {pageData.others.length > 0 ? (
+              <ul className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-y-60 lg:gap-x-96 my-96">
+                {pageData.others.map((event, i) => (
+                  <li key={event.slug}>
+                    <img className="w-full" src={event.coverImage} />
+                    <h1 className="text-24 font-black mt-20">{event.title}</h1>
+                    <div className="line-clamp-2" dangerouslySetInnerHTML={{ __html: event.content }} />
+                    <ul className="mt-20">
+                      {event.metadata.filter((({ isShowInList }) => isShowInList)).map((data, i) => (
+                        <li key={data.label} className={classNames({ 'mt-12': i > 0 })}>
+                          <div className="text-secondary text-14 font-bold">{data.label}</div>
+                          <div className="markdown text-tertiary" dangerouslySetInnerHTML={{ __html: data.content }} />
+                        </li>
+                      ))}
+                    </ul>
+                    <Link
+                      className="inline-flex items-center rounded-full text-white bg-secondary px-40 py-12 mt-20"
+                      to={`/${locale}/performances/${event.slug}`}
+                    >
+                      <FormattedMessage id="know.more" />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p
+                className="py-72 text-36 text-gray-bc text-center font-serif font-light"
+              ><FormattedMessage id="events.list.empty" /></p>
+            )}
+          </section>
+        </article>
+
+        <PageFooter {...{ pageContext }} />
+      </main>
+    </IntlProvider>
+  )
+}

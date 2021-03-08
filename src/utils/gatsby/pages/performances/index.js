@@ -171,4 +171,27 @@ exports.createPerformancesPages = async (params, context) => {
       },
     },
   });
+
+  pageItem = pages['performances-others'];
+
+  console.log(pageItem);
+
+  if (locale === defaultLocale) {
+    actions.createRedirect({
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
+    });
+  }
+
+  actions.createPage({
+    path: pageItem.localizedPath,
+    component: require.resolve('../../../../templates/PerformancesOthersPage.js'),
+    context: {
+      ...context,
+      pageItem,
+      pageData: {
+        others
+      },
+    },
+  });
 }
