@@ -1,6 +1,8 @@
 ---
 zh:
-  sessions: 1
+  slug: xinxinghui-2021
+  purchaseURL: test
+  date: 2021-12-05T16:28:19.513Z
   metadata:
     - isShowInList: true
       label: 演出日期
@@ -11,10 +13,12 @@ zh:
     - isShowInList: false
       label: 演出地點(待定)
       content: 香港沙田大會堂(12月6至7日)
-  date: 2021-12-05T16:28:19.513Z
+  location: test
   title: 新星匯
-  slug: xinxinghui-2021
   type: performance
+  tel: test
+  email: test
+  sessions: 1
 en:
   date: 2021-12-05T16:28:19.513Z
 ---
