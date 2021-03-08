@@ -16,6 +16,9 @@
   @apply text-primary;
   @apply font-bold;
   @apply font-serif;
+  @apply text-28;
+  @apply mt-24;
+  @apply mb-12;
 }
 
 .markdown h2,
@@ -25,6 +28,7 @@
 .markdown h6 {
   @apply text-secondary;
   @apply font-bold;
+  @apply mt-20;
   @apply mb-10;
 }
 
