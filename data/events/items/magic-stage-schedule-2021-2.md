@@ -10,7 +10,7 @@ zh:
         正月十九至正月廿二
     - isShowInList: false
       label: 主辦機構
-      content: 澳恭祝福德宮寶誕主會
+      content: 大埔舊墟天后宮社區活動管理委員會
     - isShowInList: false
       label: 演出劇團
       content: 鴻運粵劇團
