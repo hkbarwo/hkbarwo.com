@@ -1,7 +1,7 @@
 ---
 zh:
   slug: xinxinghui-2021
-  purchaseURL: test
+  purchaseURL: http://www.test.com
   date: 2021-12-05T16:28:19.513Z
   metadata:
     - isShowInList: true
@@ -10,14 +10,12 @@ zh:
     - isShowInList: false
       label: 演出名單(待定)
       content: 梁非同、芯融、梁心怡、吳立熙、陳玉卿、黃鈺華
-    - isShowInList: false
-      label: 演出地點(待定)
-      content: 香港沙田大會堂(12月6至7日)
-  location: test
+  youtubeVideoID: yl3JfmeT2Ks
+  location: 香港沙田大會堂(12月6至7日)(待定)
   title: 新星匯
   type: performance
-  tel: test
-  email: test
+  tel: ""
+  email: ""
   sessions: 1
 en:
   date: 2021-12-05T16:28:19.513Z
