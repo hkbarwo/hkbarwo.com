@@ -6,7 +6,7 @@ zh:
   coverImage: /images/uploads/resources/channel/epi38.jpg
   category: cantonese-opera-online-course
   slug: class-38
-  youtubeVideoID: w01p050Pwi4
+  youtubeVideoID: Zyl8e73pNUs
 en:
   date: 2021-02-28T18:34:10.897Z
   category: cantonese-opera-online-course
