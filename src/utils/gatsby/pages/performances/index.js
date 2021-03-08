@@ -61,7 +61,7 @@ exports.createPerformancesPages = async (params, context) => {
       case 'performance':
         performances.push(event);
         break;
-      case 'event':
+      case 'activity':
         events.push(event);
         break;
       case 'other':
