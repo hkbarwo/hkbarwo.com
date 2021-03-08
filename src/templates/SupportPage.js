@@ -64,7 +64,7 @@ export default function SupportPage({ path, pageContext }) {
                   className="mt-48 md:flex"
                 >
                   <div className={classNames('mx-auto w-96 h-96 md:mr-32 mb-16 md:mb-0 flex-shrink-0', { 'hidden md:block': !method.icon  })}>
-                    <img src={method.icon} />
+                    <img src={method.icon} alt="" />
                   </div>
                   <div className="flex-grow">
                     {!!method.title && (

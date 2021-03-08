@@ -1,5 +1,4 @@
 import React from "react";
-import { FormattedMessage } from "react-intl";
 
 import IntlProvider from "../components/IntlProvider";
 import PageFooter from "../components/PageFooter";
@@ -101,6 +100,7 @@ export default function ContactPage({ path, pageContext }) {
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1990.7373046906212!2d114.16962245501601!3d22.31155875758884!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf6d51a3625a730cd!2z6aaZ5riv5YWr5ZKM5pyD6aSo!5e0!3m2!1sen!2shk!4v1614613985675!5m2!1sen!2shk"
                   allowFullScreen
                   loading="lazy"
+                  title={pageItem.title}
                 />
               </div>
             </div>

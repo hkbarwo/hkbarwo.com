@@ -40,7 +40,7 @@ export default function MemberEventsPage({ path, pageContext }) {
           <section className="mt-96 px-14 md:px-48 lg:px-96">
             <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-48">
               {pageData.events.map(event => (
-                <li key={event.slug} className="rounded-xl shadow-md p-32">
+                <li key={event.slug} className="rounded-xl shadow-outline p-32">
                   <h2 className="text-20 font-bold">{event.title}</h2>
                   {event.metadata.map(data => (
                     <div key={data.label} className="mt-12">

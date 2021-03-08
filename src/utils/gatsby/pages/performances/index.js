@@ -179,8 +179,6 @@ exports.createPerformancesPages = async (params, context) => {
 
   pageItem = pages['performances-others'];
 
-  console.log(pageItem);
-
   if (locale === defaultLocale) {
     actions.createRedirect({
       fromPath: pageItem.url,

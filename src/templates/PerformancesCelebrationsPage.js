@@ -1,6 +1,5 @@
 import React from "react";
 import classNames from "classnames";
-import { Link } from "gatsby";
 import { FormattedMessage } from "react-intl";
 
 import IntlProvider from "../components/IntlProvider";

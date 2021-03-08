@@ -75,7 +75,7 @@ export default function MemberApplyPage({ path, pageContext }) {
               {pageData.registration.steps.map(((step, i) => (
                 <li key={i} className="mt-40 md:mt-0">
                   <div className="mx-auto w-212 h-212 mb-16">
-                    <img src={step.icon} />
+                    <img src={step.icon} alt={step.title} />
                   </div>
                   <div className="text-20 tracking-wide text-center">{step.title}</div>
                 </li>

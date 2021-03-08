@@ -57,7 +57,7 @@ export default function PerformancesDetailsPage({ path, pageContext }) {
             <div className="markdown mt-20" dangerouslySetInnerHTML={{ __html: pageData.content }}/>
             {pageData.coverImage && (
               <div className="mt-48">
-                <img src={pageData.coverImage} />
+                <img src={pageData.coverImage} alt={pageData.title} />
               </div>
             )}
           </section>

@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React from "react";
 import classNames from "classnames";
 import { Link } from "gatsby";
 import { FormattedMessage } from "react-intl";
@@ -8,7 +8,7 @@ import PageFooter from "../components/PageFooter";
 import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";
 
-export default function PerformancesPage({ path, pageContext }) {
+export default function PerformancesOthersPage({ path, pageContext }) {
   const { locale, menus, pageItem, pageData } = pageContext;
   const menuItem = menus.secondary.find(({ slug }) => slug === 'events');
 
@@ -44,7 +44,7 @@ export default function PerformancesPage({ path, pageContext }) {
               <ul className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-y-60 lg:gap-x-96 my-96">
                 {pageData.others.map((event, i) => (
                   <li key={event.slug}>
-                    <img className="w-full" src={event.coverImage} />
+                    <img className="w-full" src={event.coverImage} alt="" />
                     <h1 className="text-24 font-black mt-20">{event.title}</h1>
                     <div className="line-clamp-2" dangerouslySetInnerHTML={{ __html: event.content }} />
                     <ul className="mt-20">
