@@ -19,7 +19,7 @@ zh:
 
 
     本會動員了粵劇界台前幕後共約350位從業員，並聘用了專業的製作團隊，多月來努力拍攝和製作，40集節目已順利完成。為了讓廣大的社會人士，了解這項饒具文化傳承意義的計劃，本會定於2021年3月1日上午11時正，假座油麻地戲院，舉行〈八和頻道〉啟動禮。
-  coverImage: /uploads/images/events/barwo-channel-logo.svg
+  coverImage: /uploads/images/events/barwochannel-logo.jpg
 en:
   date: 2021-02-28T16:35:55.173Z
 ---
