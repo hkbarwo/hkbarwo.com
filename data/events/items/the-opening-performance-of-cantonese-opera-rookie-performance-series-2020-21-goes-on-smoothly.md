@@ -7,7 +7,7 @@ zh:
   slug: the-opening-performance-of-cantonese-opera-rookie-performance-series-2020-21-goes-on-smoothly
   date: 2020-10-10T09:26:49.845Z
   metadata:
-    - isShowInList: false
+    - isShowInList: true
       label: 活動日期
       content: 2020年10月10日
   location: 油麻地戲院
