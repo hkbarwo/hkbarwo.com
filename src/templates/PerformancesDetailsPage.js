@@ -49,7 +49,7 @@ export default function PerformancesDetailsPage({ path, pageContext }) {
           getActive={({ key }) => key === pageKey}
         />
 
-        <article className="max-w-screen-2xl mx-auto w-full grid grid-cols-1 xl:grid-cols-3 lg:gap-x-48 xl:gap-x-120 gap-y-48 p-14 md:px-96 pb-56">
+        <article className="flex-grow max-w-screen-2xl mx-auto w-full grid grid-cols-1 xl:grid-cols-3 lg:gap-x-48 xl:gap-x-120 gap-y-48 p-14 md:px-96 pb-56">
           <section className="xl:col-span-2">
             <h1 className="text-primary text-36 font-bold font-serif">
               {pageData.title}
