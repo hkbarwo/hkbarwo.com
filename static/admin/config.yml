@@ -9,10 +9,10 @@ backend:
     uploadMedia: 🍱 Upload “{{path}}”
     deleteMedia: 🔥 Delete “{{path}}”
     openAuthoring: '🚧 {{message}}'
-local_backend: true
+local_backend: false
 publish_mode: editorial_workflow
-media_folder: "/static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "/static/uploads"
+public_folder: "/uploads"
 i18n:
   structure: single_file
   locales: [zh, en]

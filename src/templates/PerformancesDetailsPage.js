@@ -124,8 +124,8 @@ export default function PerformancesDetailsPage({ path, pageContext }) {
 
             {!!pageData.photos && pageData.photos.length > 0 && (
               <ul className="mt-56 max-w-screen-lg mx-auto">
-                {pageData.photos.map((image) => (
-                  <li key={image}>
+                {pageData.photos.map((image, i) => (
+                  <li key={image} className={classNames({ 'mt-40': i > 0 })}>
                     <img className="w-full" src={image} alt="" />
                   </li>
                 ))}
