@@ -18,7 +18,7 @@ export default function PerformancesDetailsPage({ path, pageContext }) {
           ? 'performances-upcoming'
           : 'performances-past';
   
-      case 'event':
+      case 'activity':
         return new Date(pageData.date).getTime() > Date.now()
           ? 'events-latest'
           : 'events-past';
