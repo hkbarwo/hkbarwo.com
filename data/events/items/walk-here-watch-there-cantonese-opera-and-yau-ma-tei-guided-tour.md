@@ -10,7 +10,7 @@ zh:
   slug: walk-here-watch-there-cantonese-opera-and-yau-ma-tei-guided-tour
   type: activity
   content: 為了讓觀眾更全面認識粵劇文化，本計劃特別主辦「這邊走，那邊看」油麻地導賞團，由專業導賞員帶領參加者親自走遍與粵劇息息相關的地點，如榕樹頭（油麻地天后廟前廣場）、前身為普慶戲院的逸東酒店及首度展示的香港八和會館音樂部—普福堂。完成戶外導賞後，大隊折返油麻地戲院，一起欣賞折子戲《楊門女將》之〈攔馬〉。
-  coverImage: /uploads/images/events/過往活動10.這邊走，那邊看-.jpg
+  coverImage: /uploads/images/events/過往活動10.這邊走，那邊看-2.jpg
 en:
   date: 2020-01-11T04:25:43.384Z
 ---
