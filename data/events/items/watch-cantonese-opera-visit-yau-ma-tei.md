@@ -2,7 +2,7 @@
 zh:
   coverImage: /uploads/images/events/看看粵劇，遊油麻地.jpg
   slug: watch-cantonese-opera-visit-yau-ma-tei
-  date: 2021-03-11T04:37:30.525Z
+  date: 2020-10-31T04:37:30.525Z
   metadata:
     - isShowInList: true
       label: 活動日期
@@ -13,5 +13,5 @@ zh:
   type: activity
   sessions: 1
 en:
-  date: 2021-03-11T04:37:30.525Z
+  date: 2020-10-31T04:37:30.525Z
 ---
