@@ -1,6 +1,6 @@
 ---
 zh:
-  coverImage: /uploads/images/events/看看粵劇，遊油麻地.jpg
+  coverImage: ""
   slug: watch-cantonese-opera-visit-yau-ma-tei
   date: 2020-10-31T09:22:28.174Z
   metadata:
