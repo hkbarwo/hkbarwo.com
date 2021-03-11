@@ -7,9 +7,9 @@ zh:
     - /uploads/images/events/八和頻道開拍06.jpg
     - /uploads/images/events/八和頻道開拍07.jpg
     - /uploads/images/events/八和頻道開拍08.jpg
-  coverImage: ""
+  coverImage: /uploads/images/events/八和頻道開拍01.jpg
   slug: bahe-channel-cantonese-opera-online-school-starts-shooting
-  date: 2020-09-15T09:32:46.715Z
+  date: 2021-03-11T04:31:04.279Z
   metadata:
     - isShowInList: true
       label: 活動日期
@@ -26,5 +26,5 @@ zh:
   type: activity
   sessions: 1
 en:
-  date: 2020-09-15T09:32:46.715Z
+  date: 2021-03-11T04:31:04.279Z
 ---
