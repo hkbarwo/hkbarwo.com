@@ -1,9 +1,9 @@
 ---
 zh:
   photos:
-    - /uploads/images/events/「粵劇新秀演出系列2020-21」開幕演出01.jpg
+    - /uploads/images/events/「粵劇新秀演出系列2020-21」開幕演出02.jpg
     - /uploads/images/events/「粵劇新秀演出系列2020-21」開幕演出03.jpg
-  coverImage: /uploads/images/events/「粵劇新秀演出系列2020-21」開幕演出02.jpg
+  coverImage: /uploads/images/events/「粵劇新秀演出系列2020-21」開幕演出01.jpg
   slug: the-opening-performance-of-cantonese-opera-rookie-performance-series-2020-21-goes-on-smoothly
   date: 2020-10-10T09:26:49.845Z
   metadata:
