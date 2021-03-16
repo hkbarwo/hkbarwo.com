@@ -1,10 +1,10 @@
 import React from "react";
 
+import ChannelDetailsArticle from "../components/ChannelDetailsArticle";
 import IntlProvider from "../components/IntlProvider";
 import PageFooter from "../components/PageFooter";
 import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";
-import YouTubePlayer from "../components/YouTubePlayer";
 
 export default function ResourcesChannelDetailsPage({ path, pageContext }) {
   const { pageData, locale, menus } = pageContext;
@@ -27,22 +27,7 @@ export default function ResourcesChannelDetailsPage({ path, pageContext }) {
           getActive={({ key }) => key === 'channel'}
         />
 
-        <article className="flex-grow p-14 pb-32">
-          <section className="max-w-screen-md mx-auto">
-            <h1 className="text-primary text-24 md:text-36 font-serif font-bold tracking-wide">{pageData.title}</h1>
-            {!!pageData.content && (
-              <div
-                className="mt-24 text-16 tracking-wide leading-8 whitespace-pre-line"
-                dangerouslySetInnerHTML={{ __html: pageData.content }}
-              />
-            )}
-          </section>
-          {!!pageData.youtubeVideoID && (
-            <section className="mt-56 max-w-screen-lg mx-auto">
-              <YouTubePlayer id={pageData.youtubeVideoID} />
-            </section>
-          )}
-        </article>
+        <ChannelDetailsArticle {...pageData} />
 
         <PageFooter {...{ pageContext }} />
       </main>
