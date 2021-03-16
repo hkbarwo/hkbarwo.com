@@ -6,7 +6,12 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-netlify",
-    "gatsby-plugin-netlify-cms",
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+        modulePath: `${__dirname}/src/cms/index.js`,
+      },
+    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-mdx",
     "gatsby-plugin-postcss",
