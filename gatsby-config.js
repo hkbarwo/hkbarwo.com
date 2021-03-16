@@ -5,16 +5,16 @@ module.exports = {
     title: "hkbarwo.com",
   },
   plugins: [
+    "gatsby-plugin-postcss",
     "gatsby-plugin-netlify",
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
-        modulePath: `${__dirname}/src/cms/index.js`,
+        modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-mdx",
-    "gatsby-plugin-postcss",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

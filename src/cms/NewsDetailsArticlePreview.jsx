@@ -1,6 +1,7 @@
 import React from "react";
 import { Remarkable } from "remarkable";
 
+import IntlProvider from "../components/IntlProvider";
 import NewsDetailsArticle from "../components/NewsDetailsArticle";
 
 export default function NewsDetailsArticlePreview({ entry }) {
@@ -10,12 +11,14 @@ export default function NewsDetailsArticlePreview({ entry }) {
   const images = entry.getIn(["data", "images"]);
   const youtubeVideoID = entry.getIn(["data", "youtubeVideoID"]);
   return (
-    <NewsDetailsArticle
-      title={title}
-      content={content}
-      pdfFile={pdfFile}
-      images={images}
-      youtubeVideoID={youtubeVideoID}
-    />
+    <IntlProvider language="zh">
+      <NewsDetailsArticle
+        title={title}
+        content={content}
+        pdfFile={pdfFile}
+        images={images}
+        youtubeVideoID={youtubeVideoID}
+      />
+    </IntlProvider>
   );
 }
