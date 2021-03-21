@@ -1,11 +1,9 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import IntlProvider from "../components/IntlProvider";
 import PageFooter from "../components/PageFooter";
 import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";
-import { FormattedMessage } from "react-intl";
 
 export default function AboutPage({ path, pageContext }) {
   const { locale, menus } = pageContext;

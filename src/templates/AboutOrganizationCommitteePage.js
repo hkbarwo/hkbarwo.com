@@ -1,5 +1,4 @@
 import React from "react";
-import { FormattedMessage } from "react-intl";
 import { Link } from "gatsby";
 import classNames from "classnames";
 
@@ -59,9 +58,9 @@ export default function AboutOrganizationCommitteePage({ path, pageContext }) {
               </h1>
               <div className="mt-18 leading-8">{committee.period}</div>
             </div>
-            <div className="mt-10 text-right sm:mt-0 sm:text-left">
+            {/* <div className="mt-10 text-right sm:mt-0 sm:text-left">
               <a
-                className="hidden inline-flex items-center rounded-full text-white bg-secondary px-16 py-12"
+                className="inline-flex items-center rounded-full text-white bg-secondary px-16 py-12"
                 href="#"
                 rel="noopener noreferrer"
                 target="blank"
@@ -74,7 +73,7 @@ export default function AboutOrganizationCommitteePage({ path, pageContext }) {
                 </svg>
                 <FormattedMessage id="committee.past" />
               </a>
-            </div>
+            </div> */}
           </section>
 
           <section className="mt-48 tracking-wide leading-8">
