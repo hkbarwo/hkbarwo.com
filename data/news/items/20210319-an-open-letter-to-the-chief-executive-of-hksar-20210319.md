@@ -68,7 +68,7 @@ zh:
 
     民政事務局局長徐英偉先生
   title: 【公開信】搶救世界級非物質文化遺產  挽救傳統粵劇 (「神功戲」演出)中斷的危機
-  pdfFile: /uploads/open-letter_save-the-traditional-cantonese-opera-crisis-of-interruption_scanned.pdf
+  pdfFile: /uploads/open-letter_save-the-traditional-cantonese-opera-crisis-of-interruption.pdf
   slug: an-open-letter-to-the-chief-executive-of-hksar-20210319
   category: notice
 en: {}
