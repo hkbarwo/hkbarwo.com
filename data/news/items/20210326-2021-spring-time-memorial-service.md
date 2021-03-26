@@ -5,7 +5,7 @@ zh:
   slug: 2021-spring-time-memorial-service
   category: event
   content: >-
-    ![理事會代表理事事陳鴻進、王潔清向先人拜祭](/uploads/b5f11b09-5f18-465a-97c9-75aca0c6efe6.jpg
+    ![理事會代表理事陳鴻進、王潔清向先人拜祭](/uploads/b5f11b09-5f18-465a-97c9-75aca0c6efe6.jpg
     "理事會代表理事事陳鴻進、王潔清向先人拜祭")
 
 
