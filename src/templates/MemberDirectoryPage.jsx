@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FormattedMessage } from "react-intl";
 import Modal from 'react-modal';
 
+import MemberDetailsView from "../components/MemberDetailsView";
 import Page from "../components/Page";
 
 export default function MemberDirectoryPage(props) {
@@ -67,83 +68,12 @@ export default function MemberDirectoryPage(props) {
           }}
         >
           {!!activeMember && (
-            <div
-              className="relative shadow-outline md:flex items-start w-full mx-auto bg-white"
+            <MemberDetailsView
+              className="relative shadow-outline w-full mx-auto bg-white"
+              {...activeMember}
               style={{ marginTop: 144, maxWidth: 800 }}
-            >
-              <div className="p-20 sm:p-40">
-                <img
-                  src={activeMember.photo}
-                  alt={activeMember.title}
-                  style={{ width: 190 }}
-                />
-              </div>
-              <div className="grid grid-cols-2 flex-grow p-20 sm:p-40 gap-x-10 gap-y-32">
-                <div className="col-span-1">
-                  <h3 className="text-secondary text-14 font-bold">
-                    <FormattedMessage id="member.directory.name" />
-                  </h3>
-                  <div>{activeMember.title}</div>
-                </div>
-                <div className="col-span-1">
-                  <h3 className="text-secondary text-14 font-bold">
-                    <FormattedMessage id="member.directory.gender" />
-                  </h3>
-                  <div>
-                    <FormattedMessage
-                      id={activeMember.gender === 'm'
-                        ? 'member.directory.gender.male'
-                        : 'member.directory.gender.female'
-                      }
-                    />
-                  </div>
-                </div>
-                {activeMember.alias && (
-                  <div className="col-span-1">
-                    <h3 className="text-secondary text-14 font-bold">
-                      <FormattedMessage id="member.directory.alias" />
-                    </h3>
-                    <div>{activeMember.alias}</div>
-                  </div>
-                )}
-                <div className="col-span-1">
-                  <h3 className="text-secondary text-14 font-bold">
-                    <FormattedMessage id="member.directory.role" />
-                  </h3>
-                  <div>{activeMember.role}</div>
-                </div>
-                <div className="col-span-full">
-                  <h3 className="text-secondary text-14 font-bold">
-                    <FormattedMessage id="member.directory.position" />
-                  </h3>
-                  <div>{activeMember.position}</div>
-                </div>
-                {activeMember.description && (
-                  <div className="col-span-full">
-                    <h3 className="text-secondary text-14 font-bold">
-                      <FormattedMessage id="member.directory.description" />
-                    </h3>
-                    <div>{activeMember.description}</div>
-                  </div>
-                )}
-                {activeMember.thoughts && (
-                  <div className="col-span-full">
-                    <h3 className="text-secondary text-14 font-bold">
-                      <FormattedMessage id="member.directory.thoughts" />
-                    </h3>
-                    <div>{activeMember.thoughts}</div>
-                  </div>
-                )}
-              </div>
-              <button
-                className="absolute top-20 right-20 sm:top-36 sm:right-36 block w-28 h-28"
-                onClick={() => setActiveMember(null)}
-              >
-                <svg className="inset-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28">
-                  <path d="M27,1,1,27M1,1,27,27" fill="none" stroke="currentColor"/>
-                </svg>
-              </button>
-            </div>
+              onClose={() => setActiveMember(null)}
+            />
           )}
         </Modal>
       </div>
