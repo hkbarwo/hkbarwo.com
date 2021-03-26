@@ -14,7 +14,7 @@ export default function MemberDirectoryPage(props) {
 
   return (
     <Page {...props}>
-      <ul>
+      <ul className="mt-48">
         {directory.map(group => (
           <li key={group.key}>
             <h2 className="font-bold text-secondary mb-12">
