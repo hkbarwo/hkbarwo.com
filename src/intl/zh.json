@@ -20,6 +20,7 @@
 
   "member.apply": "加入我們",
 
+  "member.directory.header": "{stroke1}至{stroke2}劃",
   "member.directory.alias": "藝名",
   "member.directory.gender": "性別",
   "member.directory.gender.female": "女",

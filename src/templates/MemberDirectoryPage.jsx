@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { FormattedMessage } from "react-intl";
-// import { Link } from "gatsby";
 import Modal from 'react-modal';
 
 import Page from "../components/Page";
-// import classNames from "classnames";
 
 export default function MemberDirectoryPage(props) {
   const { pageContext } = props;
@@ -18,7 +16,18 @@ export default function MemberDirectoryPage(props) {
       <ul>
         {directory.map(group => (
           <li key={group.key}>
-            <h2 className="font-bold text-secondary mb-12">{group.key}</h2>
+            <h2 className="font-bold text-secondary mb-12">
+              {!Number.isNaN(Number(group.key)) ? (
+                <FormattedMessage
+                  id="member.directory.header"
+                  values={{
+                    key: group.key,
+                    stroke1: group.key,
+                    stroke2: Number(group.key) + 4,
+                  }}
+                />
+              ) : group.key}
+            </h2>
             <ul className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-x-40 gap-y-20 font-serif">
               {group.members.map(memberSlug => {
                 const member = members[memberSlug];

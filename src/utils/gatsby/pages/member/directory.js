@@ -1,4 +1,8 @@
-exports.createMemberDirectoryPage = async ({ actions, graphql, md }, context) => {
+const cnchar = require('cnchar');
+const trad = require('cnchar-trad');
+cnchar.use(trad);
+
+exports.createMemberDirectoryPage = async ({ actions, graphql }, context) => {
   const { locale, defaultLocale, pages: { 'member-directory': pageItem } } = context;
 
   const result = await graphql(`
@@ -30,18 +34,53 @@ exports.createMemberDirectoryPage = async ({ actions, graphql, md }, context) =>
   
   const directory = {};
   const members = {};
-  result.data.members.nodes.forEach(({ fields: { [locale]: member }}) => {
-    const directoryIndex = member.slug[0].toUpperCase();
+  let currentStroke = 1;
+  const memberList = result.data.members.nodes.map(({ fields: { [locale]: member }}) => {
+    const data = { ...member };
+    if (locale === 'zh' && member.title) {
+      data.stroke = cnchar.stroke(member.title[0]);
+    }
+    if (data.stroke) {
+    }
+    return data;
+  });
+  if (locale === 'zh') {
+    memberList.sort((m1, m2) => m1.stroke - m2.stroke);
+  }
+  memberList.forEach((member) => {
+    let directoryIndex;
+    if (member.stroke) {
+      if (currentStroke - 1 + 5 < member.stroke) {
+        currentStroke += 5;
+      }
+
+      directoryIndex = currentStroke;
+    } else {
+      directoryIndex = member.slug[0].toUpperCase();
+    }
+
     if (!directory[directoryIndex]) {
       directory[directoryIndex] = [];
     }
+
     directory[directoryIndex].push(member.slug);
     members[member.slug] = member;
   });
 
   const pageData = {
     members,
-    directory: Object.keys(directory).sort().map(key => ({
+    directory: Object.keys(directory).sort((a, b) => {
+      if (typeof a === 'number' && typeof b === 'number') {
+        return Number(a) - Number(b);
+      }
+      if (typeof a === 'number') {
+        return -1;
+      }
+      if (typeof b === 'number') {
+        return 1;
+      }
+      return a - b;
+    }).map(key => ({
       key,
       members: directory[key],
     })),
