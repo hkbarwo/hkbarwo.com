@@ -22,6 +22,16 @@
 
   "member.apply": "Join Us",
 
+  "member.directory.alias": "Alias",
+  "member.directory.gender": "Gender",
+  "member.directory.gender.female": "Female",
+  "member.directory.gender.male": "Male",
+  "member.directory.name": "Name",
+  "member.directory.position": "Position",
+  "member.directory.role": "Role",
+  "member.directory.description": "Description",
+  "member.directory.thoughts": "Thoughts",
+
   "news": "News",
 
   "wip": "Work in progress"

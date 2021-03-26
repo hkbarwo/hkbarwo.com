@@ -1,0 +1,19 @@
+---
+zh:
+  gender: f
+  position: 演
+  slug: pang-chiu-mei
+  alias: 東凌
+  photo: /uploads/member/photos/default.png
+  role: 會友
+  title: 彭照湄
+  thoughts: ""
+  description: ""
+en:
+  role: 會友
+  position: 演
+  title: Pang Chiu Mei
+  alias: 東凌
+  description: ""
+  thoughts: ""
+---

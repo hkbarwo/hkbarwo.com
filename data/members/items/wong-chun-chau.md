@@ -1,0 +1,19 @@
+---
+zh:
+  gender: m
+  position: 音
+  slug: wong-chun-chau
+  alias: 黃煒唐
+  photo: /uploads/member/photos/default.png
+  role: 會友
+  title: 黃鎮洲
+  thoughts: ""
+  description: ""
+en:
+  role: 會友
+  position: 音
+  title: Wong Chun Chau
+  alias: 黃煒唐
+  description: ""
+  thoughts: ""
+---

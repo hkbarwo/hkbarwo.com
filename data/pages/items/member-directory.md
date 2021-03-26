@@ -1,10 +1,10 @@
 ---
 zh:
-  wip: true
+  wip: false
   title: 會員列表
   slug: member-directory
   url: /member/directory
 en:
-  wip: true
+  wip: false
   title: 會員列表
 ---

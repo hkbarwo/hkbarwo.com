@@ -1,0 +1,19 @@
+---
+zh:
+  gender: m
+  position: 音
+  slug: chan-siu-choy-simon
+  alias: 陳俊材
+  photo: /uploads/member/photos/default.png
+  role: 會友
+  title: 陳兆材
+  thoughts: ""
+  description: ""
+en:
+  role: 會友
+  position: 音
+  title: Chan Siu Choy Simon
+  alias: 陳俊材
+  description: ""
+  thoughts: ""
+---

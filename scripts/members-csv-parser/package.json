@@ -1,0 +1,14 @@
+{
+  "name": "members-csv-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ng Wing Tat, David",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

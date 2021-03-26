@@ -1340,6 +1340,67 @@ collections:
             widget: file
             media_folder: "/static/uploads/member/apply"
             public_folder: "/uploads/member/apply"
+  - name: "members"
+    label: "🗃 會員列表"
+    i18n: true
+    folder: "/data/members/items"
+    slug: "{{fields.slug}}"
+    create: true
+    delete: false
+    view_filters:
+      - label: "男"
+        field: "gender"
+        pattern: 'm'
+      - label: "女"
+        field: "gender"
+        pattern: 'f'
+    sortable_fields: ["title", "slug", "alias"]
+    fields:
+      - name: "title"
+        label: "姓名"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "alias"
+        label: "藝名"
+        i18n: true
+        widget: string
+      - name: "gender"
+        label: "性別"
+        widget: select
+        required: false
+        options:
+          - label: "男"
+            value: "m"
+          - label: "女"
+            value: "f"
+      - name: "role"
+        label: "職稱"
+        i18n: true
+        widget: string
+        default: ""
+      - name: "position"
+        label: "位置"
+        i18n: true
+        widget: string
+        default: ""
+      - name: "photo"
+        label: "照片"
+        widget: image
+        media_folder: "/static/uploads/member/photos"
+        public_folder: "/uploads/member/photos"
+        required: false
+      - name: "description"
+        label: "簡介"
+        i18n: true
+        widget: text
+      - name: "thoughts"
+        label: "心聲"
+        i18n: true
+        widget: text
   - name: "memberEvents"
     label: "🗃 會員活動"
     i18n: true

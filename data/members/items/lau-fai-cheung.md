@@ -1,0 +1,19 @@
+---
+zh:
+  gender: m
+  position: 演
+  slug: lau-fai-cheung
+  alias: 劉祥
+  photo: /uploads/member/photos/default.png
+  role: 會友
+  title: 劉輝祥
+  thoughts: ""
+  description: ""
+en:
+  role: 會友
+  position: 演
+  title: Lau Fai Cheung
+  alias: 劉祥
+  description: ""
+  thoughts: ""
+---

@@ -1,0 +1,19 @@
+---
+zh:
+  gender: f
+  position: 演
+  slug: leung-yee-man
+  alias: 艷影虹
+  photo: /uploads/member/photos/default.png
+  role: 會友
+  title: 梁綺雯
+  thoughts: ""
+  description: ""
+en:
+  role: 會友
+  position: 演
+  title: Leung Yee Man
+  alias: 艷影虹
+  description: ""
+  thoughts: ""
+---

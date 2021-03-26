@@ -1,0 +1,19 @@
+---
+zh:
+  gender: m
+  position: 音
+  slug: tam-kwok-kwong
+  alias: 
+  photo: /uploads/member/photos/default.png
+  role: 會友
+  title: 譚國光
+  thoughts: ""
+  description: ""
+en:
+  role: 會友
+  position: 音
+  title: Tam Kwok Kwong
+  alias: 
+  description: ""
+  thoughts: ""
+---

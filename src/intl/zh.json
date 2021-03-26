@@ -20,6 +20,16 @@
 
   "member.apply": "加入我們",
 
+  "member.directory.alias": "藝名",
+  "member.directory.gender": "性別",
+  "member.directory.gender.female": "女",
+  "member.directory.gender.male": "男",
+  "member.directory.name": "姓名（本名）",
+  "member.directory.position": "位置",
+  "member.directory.role": "職稱",
+  "member.directory.description": "簡介",
+  "member.directory.thoughts": "心聲",
+
   "menu": "目錄",
 
   "news": "最新消息",
