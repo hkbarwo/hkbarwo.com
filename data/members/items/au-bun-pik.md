@@ -9,6 +9,7 @@ zh:
   title: 區品璧
   thoughts: ""
   description: ""
+  isDead: false
 en:
   role: 會友
   position: 演

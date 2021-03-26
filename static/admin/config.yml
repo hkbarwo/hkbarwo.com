@@ -1354,6 +1354,9 @@ collections:
       - label: "女"
         field: "gender"
         pattern: 'f'
+      - label: "仙遊"
+        field: "isDead"
+        pattern: true
     sortable_fields: ["title", "slug", "alias"]
     fields:
       - name: "title"
@@ -1377,6 +1380,10 @@ collections:
             value: "m"
           - label: "女"
             value: "f"
+      - name: "isDead"
+        label: "仙遊"
+        widget: boolean
+        default: false
       - name: "role"
         label: "職稱"
         i18n: true
