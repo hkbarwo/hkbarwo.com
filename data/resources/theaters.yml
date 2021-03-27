@@ -1,0 +1,100 @@
+zh:
+  list:
+    - title: "香港大會堂"
+      type: 劇院
+      seats: "463"
+      tel: "29212821"
+    - title: "香港大會堂"
+      type: 音樂廳
+      seats: "1430"
+      tel: "29212840"
+    - title: "香港文化中心"
+      type: 大劇院
+      seats: "1734"
+      tel: "27342849"
+    - title: "香港文化中心"
+      type: 音樂廳
+      seats: "2019"
+      tel: "27342009"
+    - title: "葵青劇院"
+      type: 演藝廳
+      seats: "905"
+      tel: "24067505"
+    - title: "高山劇場"
+      type: 劇院
+      seats: "1031"
+      tel: "23305261"
+    - title: "沙田大會堂"
+      type: 演奏廳
+      seats: "1372"
+      tel: "26942550"
+    - title: "西灣河文娛中心"
+      type: 劇院
+      seats: "1424"
+      tel: "31845777"
+    - title: "荃灣大會堂"
+      type: 演奏廳
+      seats: "1424"
+      tel: "24937463"
+    - title: "上環文娛中心"
+      type: 演奏廳
+      seats: "480"
+      tel: "28532678"
+    - title: "大埔文娛中心"
+      type: 演奏廳
+      seats: "梳化椅 53 / 膠椅 760"
+      tel: "26654477"
+    - title: "屯門大會堂"
+      type: 演奏廳
+      seats: "1372"
+      tel: "24507875"
+en:
+  list:
+    - title: "香港大會堂"
+      type: 劇院
+      seats: "463"
+      tel: "29212821"
+    - title: "香港大會堂"
+      type: 音樂廳
+      seats: "1430"
+      tel: "29212840"
+    - title: "香港文化中心"
+      type: 大劇院
+      seats: "1734"
+      tel: "27342849"
+    - title: "香港文化中心"
+      type: 音樂廳
+      seats: "2019"
+      tel: "27342009"
+    - title: "葵青劇院"
+      type: 演藝廳
+      seats: "905"
+      tel: "24067505"
+    - title: "高山劇場"
+      type: 劇院
+      seats: "1031"
+      tel: "23305261"
+    - title: "沙田大會堂"
+      type: 演奏廳
+      seats: "1372"
+      tel: "26942550"
+    - title: "西灣河文娛中心"
+      type: 劇院
+      seats: "1424"
+      tel: "31845777"
+    - title: "荃灣大會堂"
+      type: 演奏廳
+      seats: "1424"
+      tel: "24937463"
+    - title: "上環文娛中心"
+      type: 演奏廳
+      seats: "480"
+      tel: "28532678"
+    - title: "大埔文娛中心"
+      type: 演奏廳
+      seats: "梳化椅 53 / 膠椅 760"
+      tel: "26654477"
+    - title: "屯門大會堂"
+      type: 演奏廳
+      seats: "1372"
+      tel: "24507875"

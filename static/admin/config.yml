@@ -1031,6 +1031,60 @@ collections:
         i18n: true
         widget: file
         required: false
+  - name: "info"
+    label: "📄 網站連結頁面"
+    i18n: true
+    files:
+      - name: "websites"
+        label: "網站連結"
+        i18n: true
+        file: "/data/resources/websites.yml"
+        fields:
+          - name: "list"
+            label: "連結分類"
+            i18n: true
+            widget: list
+            fields:
+              - name: "title"
+                label: "分類名稱"
+                i18n: true
+                widget: string
+              - name: "links"
+                widget: list
+                fields:
+                  - name: "title"
+                    label: "名稱"
+                    i18n: true
+                    widget: string
+                  - name: "url"
+                    label: "連結"
+                    widget: string
+      - name: "theaters"
+        label: "劇場"
+        i18n: true
+        file: "/data/resources/theaters.yml"
+        fields:
+          - name: "list"
+            label: "劇場"
+            i18n: true
+            widget: list
+            fields:
+              - name: "title"
+                label: "劇場名稱"
+                i18n: true
+                widget: string
+              - name: "type"
+                label: "場地名稱"
+                i18n: true
+                widget: string
+              - name: "seats"
+                label: "座位數目"
+                i18n: true
+                widget: string
+              - name: "tel"
+                label: "電話"
+                i18n: true
+                widget: string
   - name: "events"
     label: "🗃 演出及活動項目"
     i18n: true

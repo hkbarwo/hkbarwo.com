@@ -8,6 +8,8 @@ import NewsDetailsArticlePreview from "./NewsDetailsArticlePreview";
 import EventsDetailsArticlePreview from "./EventsDetailsArticlePreview";
 import ChannelDetailsArticlePreview from "./ChannelDetailsArticlePreview";
 import MemberDetailsViewPreview from "./MemberDetailsViewPreview";
+import WebsitesPreview from "./WebsitesPreview";
+import TheatersPreview from "./TheatersPreview";
 
 CMS.registerPreviewStyle(swiperStyles.toString(), { raw: true });
 CMS.registerPreviewStyle(styles.toString(), { raw: true });
@@ -16,3 +18,5 @@ CMS.registerPreviewTemplate('news', NewsDetailsArticlePreview);
 CMS.registerPreviewTemplate('events', EventsDetailsArticlePreview);
 CMS.registerPreviewTemplate('channelItems', ChannelDetailsArticlePreview);
 CMS.registerPreviewTemplate('members', MemberDetailsViewPreview);
+CMS.registerPreviewTemplate('websites', WebsitesPreview);
+CMS.registerPreviewTemplate('theaters', TheatersPreview);

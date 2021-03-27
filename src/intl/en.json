@@ -35,5 +35,14 @@
 
   "news": "News",
 
-  "wip": "Work in progress"
+  "resources.gov": "government Information",
+  "theater.list.header.title": "Name",
+  "theater.list.header.type": "Type",
+  "theater.list.header.seats": "Seats",
+  "theater.list.header.tel": "Telephone",
+
+  "wip": "Work in progress",
+
+  "website.link": "Link",
+  "website.list.header": "Website"
 }

@@ -35,5 +35,14 @@
 
   "news": "最新消息",
 
-  "wip": "製作中"
+  "resources.gov": "政府資料",
+  "theater.list.header.title": "劇場名稱",
+  "theater.list.header.type": "場地名稱",
+  "theater.list.header.seats": "座位數目",
+  "theater.list.header.tel": "電話",
+
+  "wip": "製作中",
+
+  "website.link": "網址",
+  "website.list.header": "網站名稱"
 }
