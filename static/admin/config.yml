@@ -103,6 +103,11 @@ collections:
         label: "名稱"
         i18n: true
         widget: string
+      - name: "description"
+        label: "簡介"
+        i18n: true
+        widget: string
+        default: ""
       - name: "slug"
         label: "Slug"
         widget: string

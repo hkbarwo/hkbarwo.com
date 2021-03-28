@@ -34,8 +34,11 @@ export default function Page({ path, pageContext, children }) {
           getActive={({ key }) => key === pageItem.slug}
         />
 
-        <article className="flex-grow p-14 pb-32 md:px-60">
+        <article className="flex-grow p-14 pb-96 md:px-60">
           <StrikethroughHeading>{pageItem.title}</StrikethroughHeading>
+          {pageItem.description && (
+            <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center">{pageItem.description}</p>
+          )}
 
           {children}
         </article>

@@ -7,6 +7,7 @@ exports.fetchPageItems = async ({ graphql, actions }, { locale, context }) => {
           fields {
             ${locale} {
               title
+              description
               slug
               url
               wip
