@@ -1567,3 +1567,21 @@ collections:
             label: "按鈕"
             i18n: true
             widget: string
+      - name: "tnc"
+        label: "使用條款及細則"
+        i18n: true
+        file: "/data/site/tnc.yml"
+        fields:
+          - name: "content"
+            label: "內容"
+            i18n: true
+            widget: markdown
+      - name: "privacy"
+        label: "私隱政策"
+        i18n: true
+        file: "/data/site/privacy.yml"
+        fields:
+          - name: "content"
+            label: "內容"
+            i18n: true
+            widget: markdown
