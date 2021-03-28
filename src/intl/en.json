@@ -8,6 +8,8 @@
   "committee.past": "Past Committees",
   "download.pdf": "Download PDF",
 
+  "empty": "No content",
+
   "events.list.empty": "Coming soon",
   "events.sessions": "Sessions",
 
@@ -35,7 +37,10 @@
 
   "news": "News",
 
-  "resources.gov": "government Information",
+  "publication.date": "Publication Date",
+  "publications.list.empty": "Coming soon",
+
+  "resources.gov": "Government Information",
   "theater.list.header.title": "Name",
   "theater.list.header.type": "Type",
   "theater.list.header.seats": "Seats",

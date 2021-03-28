@@ -13,8 +13,8 @@ export default function MemberDirectoryPage(props) {
   const [activeMember, setActiveMember] = useState(null);
 
   return (
-    <Page {...props}>
-      <ul className="mt-48">
+    <Page {...props} isEmpty={!directory.length}>
+      <ul>
         {directory.map(group => (
           <li key={group.key}>
             <h2 className="font-bold text-secondary mb-12">
@@ -46,37 +46,35 @@ export default function MemberDirectoryPage(props) {
           </li>
         ))}
       </ul>
-      <div>
-        <Modal
-          isOpen={!!activeMember}
-          style={{
-            content: {
-              zIndex: 100,
-              top: 0,
-              left: 0,
-              bottom: 0,
-              right: 0,
-              padding: 16,
-              border: 'none',
-              borderRadius: 0,
-              backgroundColor: 'transparent',
-            },
-            overlay: {
-              zIndex: 20,
-              backgroundColor: "rgba(36, 36 ,36 , 0.8)",
-            },
-          }}
-        >
-          {!!activeMember && (
-            <MemberDetailsView
-              className="relative shadow-outline w-full mx-auto bg-white"
-              {...activeMember}
-              style={{ marginTop: 144, maxWidth: 800 }}
-              onClose={() => setActiveMember(null)}
-            />
-          )}
-        </Modal>
-      </div>
+      <Modal
+        isOpen={!!activeMember}
+        style={{
+          content: {
+            zIndex: 100,
+            top: 0,
+            left: 0,
+            bottom: 0,
+            right: 0,
+            padding: 16,
+            border: 'none',
+            borderRadius: 0,
+            backgroundColor: 'transparent',
+          },
+          overlay: {
+            zIndex: 20,
+            backgroundColor: "rgba(36, 36 ,36 , 0.8)",
+          },
+        }}
+      >
+        {!!activeMember && (
+          <MemberDetailsView
+            className="relative shadow-outline w-full mx-auto bg-white"
+            {...activeMember}
+            style={{ marginTop: 144, maxWidth: 800 }}
+            onClose={() => setActiveMember(null)}
+          />
+        )}
+      </Modal>
     </Page>
   );
 }

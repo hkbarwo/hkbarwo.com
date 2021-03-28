@@ -8,6 +8,8 @@
   "committee.past": "歷屆理事會",
   "download.pdf": "下載 PDF",
 
+  "empty": "沒有內容",
+
   "events.list.empty": "陸續推出",
   "events.sessions": "場數",
 
@@ -34,6 +36,9 @@
   "menu": "目錄",
 
   "news": "最新消息",
+
+  "publication.date": "出版日期",
+  "publications.list.empty": "陸續推出",
 
   "resources.gov": "政府資料",
   "theater.list.header.title": "劇場名稱",

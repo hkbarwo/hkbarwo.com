@@ -1,4 +1,5 @@
 import React,{ useMemo } from "react";
+import { FormattedMessage } from "react-intl";
 
 import IntlProvider from "./IntlProvider";
 import PageFooter from "./PageFooter";
@@ -6,7 +7,7 @@ import PageNav from "./PageNav";
 import PageHeader from "./PageHeader";
 import StrikethroughHeading from "./StrikethroughHeading";
 
-export default function Page({ path, pageContext, children }) {
+export default function Page({ path, pageContext, isEmpty = false, emptyText, ...props }) {
   const { locale, pageItem, parentPage } = pageContext;
 
   const menuItems = useMemo(() => {
@@ -19,6 +20,14 @@ export default function Page({ path, pageContext, children }) {
       title: item.title,
     }));
   }, [parentPage]);
+
+  const children = isEmpty || !props.children ? (
+    <div className="py-72 text-36 text-gray-bc text-center font-serif font-light">
+      {emptyText || <FormattedMessage id="empty" />}
+    </div>
+  ) : (
+    props.children
+  );
 
   return (
     <IntlProvider language={locale}>
