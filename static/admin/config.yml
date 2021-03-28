@@ -107,6 +107,7 @@ collections:
         label: "簡介"
         i18n: true
         widget: string
+        required: false
         default: ""
       - name: "slug"
         label: "Slug"
@@ -989,15 +990,17 @@ collections:
         pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
       - name: "date"
         label: "日期"
+        i18n: duplicate
         widget: datetime
         date_format: "YYYY-MM-DD"
         time_format: false
         required: false
       - name: "image"
         label: "圖片"
+        i18n: duplicate
         widget: image
-        media_folder: "/static/images/uploads/resources/photos"
-        public_folder: "/images/uploads/resources/photos"
+        media_folder: "/static/uploads/resources/photos"
+        public_folder: "/uploads/resources/photos"
         required: false
       - name: "description"
         i18n: true

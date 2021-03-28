@@ -11,6 +11,7 @@ import MemberDetailsViewPreview from "./MemberDetailsViewPreview";
 import WebsitesPreview from "./WebsitesPreview";
 import TheatersPreview from "./TheatersPreview";
 import MarkdownPagePreview from "./MarkdownPagePreview";
+import PhotoDetailsViewPreview from "./PhotoDetailsViewPreview";
 import PublicationItemPreview from "./PublicationItemPreview";
 
 CMS.registerPreviewStyle(swiperStyles.toString(), { raw: true });
@@ -24,4 +25,5 @@ CMS.registerPreviewTemplate('websites', WebsitesPreview);
 CMS.registerPreviewTemplate('theaters', TheatersPreview);
 CMS.registerPreviewTemplate('tnc', MarkdownPagePreview);
 CMS.registerPreviewTemplate('privacy', MarkdownPagePreview);
+CMS.registerPreviewTemplate('photoGallaryItems', PhotoDetailsViewPreview);
 CMS.registerPreviewTemplate('publicationsItems', PublicationItemPreview);

@@ -5,7 +5,7 @@ zh:
   page: channel
   subPages:
     - channel
-    - photo-archive
+    - photo-gallery
     - publications
     - bookmarks
 en:
@@ -13,7 +13,7 @@ en:
   page: channel
   subPages:
     - channel
-    - photo-archive
+    - photo-gallery
     - publications
     - bookmarks
 ---

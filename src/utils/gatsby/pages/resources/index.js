@@ -1,5 +1,6 @@
 const { createResourcesBookmarksPage } = require("./bookmarks");
 const { createResourcesChannelPages } = require("./channel");
+const { createResourcesPhotoGalleryPage } = require("./photo-gallery");
 const { createResourcesPublicationsPage } = require("./publications");
 
 exports.createResourcesPages = async (params, { ...context }) => {
@@ -8,6 +9,7 @@ exports.createResourcesPages = async (params, { ...context }) => {
   await Promise.all([
     createResourcesChannelPages(params, context),
     createResourcesPublicationsPage(params, context),
+    createResourcesPhotoGalleryPage(params, context),
     createResourcesBookmarksPage(params, context),
   ]);
 }
