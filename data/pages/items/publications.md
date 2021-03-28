@@ -1,10 +1,12 @@
 ---
 zh:
-  url: /resource/publications
+  url: /resources/publications
   title: 出版刊物
+  description: ''
   slug: publications
-  wip: true
+  wip: false
 en:
   title: 出版刊物
+  description: ''
   wip: true
 ---
