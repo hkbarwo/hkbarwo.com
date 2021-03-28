@@ -4,7 +4,10 @@ exports.createResourcesPublicationsPage = async ({ actions, graphql }, context) 
   const result = await graphql(`
     {
       items: allMarkdownRemark(
-        filter: {fileAbsolutePath: {regex: "/data/resources/publications/items/"}},
+        filter: {
+          fileAbsolutePath: {regex: "/data/resources/publications/items/"},
+          fields: { slug: { ne: "example" } }
+        },
         sort: {fields: fields___zh___date, order: DESC}
       ) {
         nodes {
