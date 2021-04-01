@@ -71,7 +71,7 @@ export default function AboutAssociationPage({ path, pageContext }) {
               <div className="mt-24 whitespace-pre-line">{description}</div>
             </div>
           </section>
-          {!!commitiees && commitiees.length && (
+          {!!commitiees && !!commitiees.length && (
             <section className="mt-96">
               <h2 className="font-bold">{commitieesTitle}</h2>
               <ul className="mt-56 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-40 gap-y-20">

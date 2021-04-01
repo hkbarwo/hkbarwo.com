@@ -3,6 +3,7 @@ const { Remarkable } = require('remarkable');
 const { createAboutOrganizationPages } = require('./organization');
 const { createAboutChroniclePage } = require('./chronicle');
 const { createAboutAssociationPages } = require('./associations');
+const { createInterviewsPages } = require('./interviews');
 
 const createAboutIndexPage = async (params, context) => {
   const { actions, graphql } = params;
@@ -70,12 +71,15 @@ const createAboutIndexPage = async (params, context) => {
   });
 }
 
-exports.createAboutPages = async (params, context) => {
+exports.createAboutPages = async (params, { ...context }) => {
+  const parentPage = context.menus.secondary.find(({ slug }) => slug === 'about');
+  context.parentPage = parentPage;
   await Promise.all([
     createAboutAssociationPages(params, context).then(({ menus }) => {
       return createAboutIndexPage(params, { ...context, associations: menus });
     }),
     createAboutOrganizationPages(params, context),
     createAboutChroniclePage(params, context),
+    createInterviewsPages(params, context),
   ]);
 }

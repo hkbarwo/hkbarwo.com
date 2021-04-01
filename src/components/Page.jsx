@@ -7,7 +7,7 @@ import PageNav from "./PageNav";
 import PageHeader from "./PageHeader";
 import StrikethroughHeading from "./StrikethroughHeading";
 
-export default function Page({ path, pageContext, isEmpty = false, emptyText, ...props }) {
+export default function Page({ path, pageContext, isEmpty = false, emptyText, isShowTitle = true, prepend, ...props }) {
   const { locale, pageItem, parentPage } = pageContext;
 
   const menuItems = useMemo(() => {
@@ -44,10 +44,12 @@ export default function Page({ path, pageContext, isEmpty = false, emptyText, ..
         />
 
         <article className="flex-grow p-14 pb-96 md:px-60">
-          <StrikethroughHeading>{pageItem.title}</StrikethroughHeading>
+          {isShowTitle && <StrikethroughHeading>{pageItem.title}</StrikethroughHeading>}
           {pageItem.description && (
             <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center">{pageItem.description}</p>
           )}
+
+          {prepend}
 
           {children}
         </article>

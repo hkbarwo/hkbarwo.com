@@ -745,7 +745,7 @@ collections:
             required: false
             default: ""
   - name: "interviewCategories"
-    label: "訪問分類"
+    label: "🔖 訪問分類"
     folder: "/data/about/interviews/categories"
     create: true
     delete: false
@@ -761,8 +761,29 @@ collections:
         label: "Slug"
         widget: string
         pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "color"
+        label: "顏色"
+        widget: color
+  - name: "interviewCategoriesOrder"
+    label: "🔀 最新消息分類排序"
+    files:
+      - name: "list"
+        label: "列表"
+        file: "/data/about/interviews/categories/order.yml"
+        fields:
+          - name: "item"
+            label: "項目"
+            widget: list
+            field:
+              name: "category"
+              label: "分類"
+              widget: relation
+              collection: "interviewCategories"
+              search_fields: ["title", "slug"]
+              value_field: "slug"
+              display_fields: ["title"]
   - name: "interviewItems"
-    label: "訪問項目"
+    label: "🗃 訪問項目"
     folder: "/data/about/interviews/items"
     create: true
     i18n: true
@@ -777,6 +798,11 @@ collections:
         label: "Slug"
         widget: string
         pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "description"
+        label: "簡介"
+        i18n: true
+        widget: text
+        required: false
       - name: "date"
         label: "日期"
         widget: datetime
@@ -790,29 +816,44 @@ collections:
         search_fields: ["title", "slug"]
         value_field: "slug"
         display_fields: ["title"]
-      - name: "biographic"
-        label: "人物簡介"
-        widget: object
+      - name: "coverImage"
+        label: "封面"
+        widget: image
+        media_folder: "/static/uploads/interviews"
+        public_folder: "/uploads/interviews"
+        required: false
+      - name: "sections"
+        label: "段落"
+        widget: list
+        summary: "{{fields.content}}"
         i18n: true
         fields:
-          - name: "title"
-            label: "標題"
+          - name: "content"
+            label: "內文"
             i18n: true
-            widget: string
-          - name: "description"
-            label: "內容"
-            i18n: true
-            widget: text
-          - name: "image"
-            label: "相片"
-            widget: image
-            media_folder: "/static/images/uploads/about/interviews"
-            public_folder: "/images/uploads/about/interviews"
-            required: false
-      - name: "body"
-        label: "內文"
-        i18n: true
-        widget: markdown
+            widget: markdown
+          - name: "layout"
+            label: "圖片排版"
+            widget: select
+            default: "grid"
+            options:
+              - label: "並排"
+                value: "grid"
+              - label: "左方"
+                value: "left"
+              - label: "幻燈片"
+                value: "slideshow"
+          - name: "images"
+            label: "圖片"
+            widget: list
+            default: []
+            summary: "{{fields.image}}"
+            field:
+              name: "image"
+              label: "圖片"
+              widget: image
+              media_folder: "/static/uploads/interviews"
+              public_folder: "/uploads/interviews"
   - name: "contact"
     label: "📄 聯絡我們頁面"
     i18n: true

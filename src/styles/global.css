@@ -23,26 +23,50 @@
   @apply font-bold;
   @apply font-serif;
   @apply text-28;
+  @apply mb-16;
+}
+.markdown h1:not(:first-child) {
   @apply mt-24;
-  @apply mb-12;
 }
 
 .markdown h2,
-.markdown h3,
-.markdown h4,
-.markdown h5,
-.markdown h6 {
+.markdown h3 {
   @apply text-secondary;
   @apply font-bold;
   @apply mt-20;
-  @apply mb-10;
+  @apply mb-14;
+}
+.markdown h2:not(:first-child),
+.markdown h3:not(:first-child) {
+  @apply mt-20;
 }
 
-.markdown h3 {
-  @apply text-20
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  @apply mb-12;
 }
+.markdown h4:not(:first-child),
+.markdown h5:not(:first-child),
+.markdown h6:not(:first-child) {
+  @apply mt-16;
+}
+
+.markdown h2 {
+  @apply text-20;
+}
+
+.markdown h3,
+.markdown h4 {
+  @apply text-18;
+}
+
 .markdown p:not(:first-child),
 .markdown ul:not(:first-child),
 .markdown ol:not(:first-child) {
   @apply mt-20;
+}
+
+.interview-content section:not(:first-child) {
+  @apply mt-40;
 }
