@@ -14,7 +14,7 @@ export default function InterviewCategoryPage(props) {
       {...props}
       prepend={(
         <ul className="flex flex-wrap items-center justify-center my-16">
-        {interviewCategories.map(category => (
+          {interviewCategories.map(category => (
             <li key={category.slug} className="m-10">
               <Link
                 className={classNames(

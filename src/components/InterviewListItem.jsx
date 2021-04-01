@@ -1,8 +1,7 @@
 import React from "react";
 import { FormattedDate, FormattedMessage } from "react-intl";
+import { Link } from "gatsby";
 import classNames from "classnames";
-
-import BlueButton from "./BlueButton";
 
 export default function InterviewListItem(props) {
   return (
@@ -43,9 +42,12 @@ export default function InterviewListItem(props) {
           <div className="mt-12">{props.description}</div>
         )}
         <footer className="mt-20">
-          <BlueButton className="px-32" to={props.localizedPath}>
+          <Link
+            className="inline-flex items-center rounded-full text-white bg-secondary px-32 py-12"
+            to={props.localizedPath}
+          >
             <FormattedMessage id="know.more" />
-          </BlueButton>
+          </Link>
         </footer>
       </div>
     </div>
