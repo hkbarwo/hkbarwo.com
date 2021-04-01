@@ -125,6 +125,10 @@ exports.createInterviewsPages = async ({ actions, graphql, md }, context) => {
         fromPath: pageItem.url,
         toPath: category.localizedPath,
       });
+      actions.createRedirect({
+        fromPath: pageItem.localizedPath,
+        toPath: category.localizedPath,
+      });
     }
   });
 }
