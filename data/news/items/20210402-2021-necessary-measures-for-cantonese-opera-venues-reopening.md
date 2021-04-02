@@ -23,7 +23,7 @@ zh:
     *(請點擊以下附件連結閱覽有關附件)*
 
 
-    附件一：[「預防及控制疾病（規定及指引）（業務及處所）規例—關於表列處所的指示」內有關「公眾娛樂場所」的條文節錄](https://drive.google.com/file/d/1dciUyNMkAdyOy8PuISQT8EN2ZFA4PUSm/view?usp=sharing) 
+    附件一：[「預防及控制疾病（規定及指引）（業務及處所）規例—關於表列處所的指示」內有關「公眾娛樂場所」的條文節錄 ](https://drive.google.com/file/d/1j_Fl8LIN4yP3BofXyJ_Cxk4DVUs5drMG/view?usp=sharing)
 
 
     附件二：[「預防及控制疾病（規定及指引）（業務及處所）規例全文](https://www.gld.gov.hk/egazette/pdf/20212588e/cgn20212588193.pdf)
