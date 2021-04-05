@@ -1,15 +1,27 @@
 import React from "react";
 import classNames from "classnames";
 
-export default function BlueButton(props) {
+export default function BlueButton({ tagName = 'a', ...props}) {
+  const className = classNames("inline-flex items-center rounded-full text-white bg-secondary px-16 py-12", props.className);
+  const prepend = props.prepend ? (
+    <div className="w-24 h-24 mr-10">{props.prepend}</div>
+  ) : null;
+  if (tagName === 'button') {
+    return (
+      <button className={className}>
+        {prepend} 
+        {props.children}
+      </button>
+    );
+  }
   return (
     <a
-      className={classNames("inline-flex items-center rounded-full text-white bg-secondary px-16 py-12", props.classNames)}
+      className={className}
       href={props.href}
       rel="noopener noreferrer"
       target="blank"
     >
-      {props.prepend && <div className="w-24 h-24 mr-10">{props.prepend}</div>} 
+      {prepend} 
       {props.children}
     </a>
   );

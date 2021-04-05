@@ -4,7 +4,14 @@
   "channel.subscribe": "Subscribe to our YouTube channel",
   "channel.videos.more": "More Videos",
   "channel.list.empty": "Coming soon",
-  
+
+  "contact.form.title": "Question and share",
+  "contact.placeholder.name": "Name",
+  "contact.placeholder.email": "Email",
+  "contact.placeholder.tel": "Tel",
+  "contact.placeholder.content": "Content",
+  "contact.thankyou": "Thank you for your comments and sharing, if necessary, we will reply to you!",
+
   "committee.past": "Past Committees",
   "download.pdf": "Download PDF",
 
@@ -44,6 +51,9 @@
   "publications.list.empty": "Coming soon",
 
   "resources.gov": "Government Information",
+
+  "send": "Send",
+
   "theater.list.header.title": "Name",
   "theater.list.header.type": "Type",
   "theater.list.header.seats": "Seats",

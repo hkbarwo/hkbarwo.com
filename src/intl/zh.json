@@ -5,6 +5,13 @@
   "channel.videos.more": "更多影片",
   "channel.list.empty": "陸續推出",
 
+  "contact.form.title": "查詢及分享",
+  "contact.placeholder.name": "名稱",
+  "contact.placeholder.email": "電郵",
+  "contact.placeholder.tel": "電話",
+  "contact.placeholder.content": "內容",
+  "contact.thankyou": "感謝你的的意見及分享，如有需要，我們會回覆你！",
+
   "committee.past": "歷屆理事會",
   "download.pdf": "下載 PDF",
 
@@ -44,6 +51,9 @@
   "publications.list.empty": "陸續推出",
 
   "resources.gov": "政府資料",
+
+  "send": "送出",
+
   "theater.list.header.title": "劇場名稱",
   "theater.list.header.type": "場地名稱",
   "theater.list.header.seats": "座位數目",
