@@ -24,6 +24,14 @@ exports.createSupportPage = async ({ actions, graphql }, context) => {
           }
         }
       }
+      credits: yamlSupportCredits {
+        fields {
+          ${locale} {
+            title
+            items
+          }
+        }
+      }
       souvenir: yamlSupportSouvenirs {
         fields {
           ${locale} {
@@ -49,6 +57,7 @@ exports.createSupportPage = async ({ actions, graphql }, context) => {
       pageData: {
         intro: result.data.intro.fields[locale],
         offering: result.data.offering.fields[locale],
+        credits: result.data.credits.fields[locale],
         souvenir: result.data.souvenir.fields[locale],
       },
     },

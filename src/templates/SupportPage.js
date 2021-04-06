@@ -1,6 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 
+import CreditsSection from "../components/CreditsSection";
 import Page from "../components/Page";
 import SouvenirsSection from "../components/SouvenirsSection";
 
@@ -56,6 +57,13 @@ export default function SupportPage(props) {
           )))}
         </ul>
       </section>
+
+      {!!(pageData.credits && pageData.credits.items && pageData.credits.items.length) && (
+        <CreditsSection
+          className="mt-96"
+          {...pageData.credits}
+        />
+      )}
 
       <SouvenirsSection
         className="mt-128"

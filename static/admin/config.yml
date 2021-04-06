@@ -1328,9 +1328,10 @@ collections:
             label: "標題"
             i18n: true
             widget: string
-          - name: "logos"
+          - name: "items"
             label: "標誌"
             widget: list
+            i18n: true
             required: false
             default: "[]"
             field:
@@ -1339,8 +1340,8 @@ collections:
               widget: image
               required: false
               default: ""
-              media_folder: "/static/uploads/images/support/credits"
-              public_folder: "/uploads/images/support/credits"
+              media_folder: "/static/uploads/credits"
+              public_folder: "/uploads/credits"
       - name: "souvenirs"
         label: "紀念品"
         i18n: true

@@ -15,6 +15,7 @@ import MarkdownPagePreview from "./MarkdownPagePreview";
 import PhotoDetailsViewPreview from "./PhotoDetailsViewPreview";
 import PublicationItemPreview from "./PublicationItemPreview";
 import SouvenirsSectionPreview from "./SouvenirsSectionPreview";
+import CreditsSectionPreview from "./CreditsSectionPreview";
 
 CMS.registerPreviewStyle(swiperStyles.toString(), { raw: true });
 CMS.registerPreviewStyle(styles.toString(), { raw: true });
@@ -31,3 +32,4 @@ CMS.registerPreviewTemplate('photoGallaryItems', PhotoDetailsViewPreview);
 CMS.registerPreviewTemplate('publicationsItems', PublicationItemPreview);
 CMS.registerPreviewTemplate('interviewItems', InterviewDetailsArticlePreview);
 CMS.registerPreviewTemplate('souvenirs', SouvenirsSectionPreview);
+CMS.registerPreviewTemplate('credits', CreditsSectionPreview);

@@ -19,6 +19,21 @@ const { createTncPage } = require('./src/utils/gatsby/pages/tnc');
 const defaultLocale = 'zh';
 const locales = ['zh', 'en'];
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type yamlSupportCreditsFieldsZh implements Node {
+      title: String
+      items: [String]
+    }
+    type yamlSupportCreditsFieldsEn implements Node {
+      title: String
+      items: [String]
+    }
+  `;
+  createTypes(typeDefs);
+};
+
 exports.onCreateNode = ({ node, actions }) => {
   if (node.internal.type === `MarkdownRemark`) {
     const { frontmatter } = node;
