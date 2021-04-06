@@ -24,6 +24,19 @@ exports.createSupportPage = async ({ actions, graphql }, context) => {
           }
         }
       }
+      souvenir: yamlSupportSouvenirs {
+        fields {
+          ${locale} {
+            title
+            content
+            items {
+              code
+              image
+              title
+            }
+          }
+        }
+      }
     }
   `);
 
@@ -36,6 +49,7 @@ exports.createSupportPage = async ({ actions, graphql }, context) => {
       pageData: {
         intro: result.data.intro.fields[locale],
         offering: result.data.offering.fields[locale],
+        souvenir: result.data.souvenir.fields[locale],
       },
     },
   });

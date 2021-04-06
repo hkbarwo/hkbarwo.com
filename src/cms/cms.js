@@ -14,6 +14,7 @@ import TheatersPreview from "./TheatersPreview";
 import MarkdownPagePreview from "./MarkdownPagePreview";
 import PhotoDetailsViewPreview from "./PhotoDetailsViewPreview";
 import PublicationItemPreview from "./PublicationItemPreview";
+import SouvenirsSectionPreview from "./SouvenirsSectionPreview";
 
 CMS.registerPreviewStyle(swiperStyles.toString(), { raw: true });
 CMS.registerPreviewStyle(styles.toString(), { raw: true });
@@ -29,3 +30,4 @@ CMS.registerPreviewTemplate('privacy', MarkdownPagePreview);
 CMS.registerPreviewTemplate('photoGallaryItems', PhotoDetailsViewPreview);
 CMS.registerPreviewTemplate('publicationsItems', PublicationItemPreview);
 CMS.registerPreviewTemplate('interviewItems', InterviewDetailsArticlePreview);
+CMS.registerPreviewTemplate('souvenirs', SouvenirsSectionPreview);

@@ -1359,6 +1359,7 @@ collections:
           - name: "items"
             label: "項目"
             widget: list
+            i18n: true
             required: false
             default: "[]"
             fields:
@@ -1366,17 +1367,16 @@ collections:
                 label: "標題"
                 i18n: true
                 widget: string
-              - name: "slug"
-                label: "Slug"
+              - name: "code"
+                label: "編號"
                 widget: string
-                pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
               - name: "image"
                 label: "圖片"
                 widget: image
                 required: false
                 default: ""
-                media_folder: "/static/uploads/images/support/souvenirs"
-                public_folder: "/uploads/images/support/souvenirs"
+                media_folder: "/static/uploads/souvenirs"
+                public_folder: "/uploads/souvenirs"
   - name: "member"
     label: "📄 會員專區頁面"
     i18n: true

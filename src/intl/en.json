@@ -54,6 +54,13 @@
 
   "send": "Send",
 
+  "souvenir.code": "Souvenir Number: {code}",
+  "souvenir.placeholder.name": "Name",
+  "souvenir.placeholder.email": "Email",
+  "souvenir.placeholder.tel": "Tel",
+  "souvenir.placeholder.address": "Shipping Address",
+  "souvenir.placeholder.item": "Please select item",
+
   "theater.list.header.title": "Name",
   "theater.list.header.type": "Type",
   "theater.list.header.seats": "Seats",
