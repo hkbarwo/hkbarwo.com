@@ -1,5 +1,5 @@
 exports.createAboutOrganizationAdvisorsPage = async ({ actions, graphql }, context) => {
-  const { locale, defaultLocale } = context;
+  const { locale, defaultLocale, pages: { advisors: pageItem } } = context;
 
   const result = await graphql(`
     {
@@ -21,22 +21,21 @@ exports.createAboutOrganizationAdvisorsPage = async ({ actions, graphql }, conte
   `);
 
   const pageData = result.data.page.fields[locale];
-  
-  const path = '/about/organization/advisors';
 
   if (locale === defaultLocale) {
     actions.createRedirect({
-      fromPath: path,
-      toPath: `/${locale}${path}`,
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
     });
   }
 
   actions.createPage({
-    path: `/${locale}${path}`,
+    path: pageItem.localizedPath,
     component: require.resolve('../../../../../templates/AboutOrganizationAdvisorsPage.js'),
     context: {
       ...context,
       pageData,
+      pageItem,
     },
   });
 }

@@ -91,6 +91,10 @@ module.exports = {
         '180': '11.25rem',
         '144': '144px',
       },
+      maxHeight: {
+        '720': '720px',
+        '1080': '1080px',
+      },
       backgroundImage: theme => ({
         'pattern-light': "url('/images/bg/pattern-light.svg')",
         'pattern-white': "url('/images/bg/pattern-white.svg')",
@@ -100,6 +104,9 @@ module.exports = {
       },
       boxShadow: {
         outline: '0 0 8px 0 rgba(0, 0, 0, 0.1)',
+      },
+      listStyleType: {
+        'circle': 'circle',
       },
     },
   },

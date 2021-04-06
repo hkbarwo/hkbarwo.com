@@ -131,4 +131,6 @@ exports.createInterviewsPages = async ({ actions, graphql, md }, context) => {
       });
     }
   });
+
+  return Promise.resolve({ categories });
 }

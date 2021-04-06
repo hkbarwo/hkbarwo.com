@@ -11,6 +11,7 @@ exports.fetchPageItems = async ({ graphql, actions }, { locale, context }) => {
               slug
               url
               wip
+              subPages
             }
           }
         }
@@ -25,6 +26,22 @@ exports.fetchPageItems = async ({ graphql, actions }, { locale, context }) => {
       ...page,
       localizedPath,
     };
+  });
+
+  Object.keys(pages).forEach(slug => {
+    if (pages[slug].subPages && pages[slug].subPages.length) {
+      pages[slug].subPages.forEach(subSlug => {
+        if (pages[subSlug]) {
+          pages[subSlug].parentPage = slug;
+        }
+      });
+    }
+  });
+
+  Object.keys(pages).forEach(slug => {
+    if (pages[slug].subPages && pages[slug].subPages.length) {
+      pages[slug].subPages = pages[slug].subPages.map(subSlug => pages[subSlug]);
+    }
   });
 
   return pages;

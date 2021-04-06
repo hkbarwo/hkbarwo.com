@@ -72,14 +72,20 @@ const createAboutIndexPage = async (params, context) => {
 }
 
 exports.createAboutPages = async (params, { ...context }) => {
+  let associations;
+  let interviewCategories;
   const parentPage = context.menus.secondary.find(({ slug }) => slug === 'about');
   context.parentPage = parentPage;
   await Promise.all([
     createAboutAssociationPages(params, context).then(({ menus }) => {
+      associations = menus;
       return createAboutIndexPage(params, { ...context, associations: menus });
+    }),
+    createInterviewsPages(params, context).then(({ categories }) => {
+      interviewCategories = categories;
     }),
     createAboutOrganizationPages(params, context),
     createAboutChroniclePage(params, context),
-    createInterviewsPages(params, context),
   ]);
+  return { associations, interviewCategories };
 }

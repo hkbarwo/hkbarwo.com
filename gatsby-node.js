@@ -13,6 +13,7 @@ const { createContactPage } = require('./src/utils/gatsby/pages/contact');
 const { createSupportPage } = require('./src/utils/gatsby/pages/support');
 const { createMemberPages } = require('./src/utils/gatsby/pages/member');
 const { createPerformancesPages } = require('./src/utils/gatsby/pages/performances');
+const { createSitemapPage } = require('./src/utils/gatsby/pages/sitemap');
 const { createPrivacyPage } = require('./src/utils/gatsby/pages/privacy');
 const { createTncPage } = require('./src/utils/gatsby/pages/tnc');
 
@@ -102,18 +103,29 @@ exports.createPages = async (params) => {
       newsCategories,
       ...siteData,
     };
-    await Promise.all([
-      createHomePage(params, context),
-      createNewsPages(params, context),
+    const [
+      { associations, interviewCategories },
+      { channelCategories },
+    ] = await Promise.all([
       createAboutPages(params, context),
       createResourcesPages(params, context),
-      createContactPage(params, context),
-      createSupportPage(params, context),
-      createMemberPages(params, context),
-      createPerformancesPages(params, context),
-      createPrivacyPage(params, context),
-      createTncPage(params, context),
+      Promise.all([
+        createHomePage(params, context),
+        createNewsPages(params, context),
+        createContactPage(params, context),
+        createSupportPage(params, context),
+        createMemberPages(params, context),
+        createPerformancesPages(params, context),
+        createPrivacyPage(params, context),
+        createTncPage(params, context),
+      ]),
     ]);
+    await createSitemapPage(params, {
+      ...context,
+      associations,
+      channelCategories,
+      interviewCategories,
+    });
 
     Object.keys(pages).forEach(slug => {
       const page = pages[slug];

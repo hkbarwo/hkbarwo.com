@@ -8,7 +8,7 @@ import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";
 
 export default function AboutOrganizationCommitteePage({ path, pageContext }) {
-  const { locale, committee, menus, pages } = pageContext;
+  const { locale, committee, menus, pages, pageItem } = pageContext;
   const menuItem = menus.secondary.find(({ slug }) => slug === 'about');
   return (
     <IntlProvider language={locale}>
@@ -35,14 +35,14 @@ export default function AboutOrganizationCommitteePage({ path, pageContext }) {
             <span className="bg-current h-1 flex-grow" />
           </h1>
           <ul className="flex flex-wrap items-center justify-center my-16">
-            {[pages.committee, pages.presidents, pages.advisors].map(page => (
+            {pages[pageItem.parentPage].subPages.map(page => (
               <li key={page.slug} className="m-10">
                 <Link
                   className={classNames(
                     'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary transition-colors duration-200',
-                    page.slug === 'committee' ? 'bg-tertiary text-white hover:bg-opacity-50' : 'text-tertiary hover:bg-opacity-20'
+                    page.slug === pageItem.slug ? 'bg-tertiary text-white hover:bg-opacity-50' : 'text-tertiary hover:bg-opacity-20'
                   )}
-                  to={page.url}
+                  to={page.localizedPath}
                 >
                   {page.title}
                 </Link>

@@ -128,4 +128,6 @@ exports.createResourcesChannelPages = async (params, context) => {
       pageData: common,
     },
   });
+
+  return Promise.resolve({ categories });
 }

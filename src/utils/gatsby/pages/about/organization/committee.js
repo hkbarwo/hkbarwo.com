@@ -1,5 +1,5 @@
 exports.createAboutOrganizationCommitteePage = async ({ actions, graphql }, context) => {
-  const { locale, defaultLocale } = context;
+  const { locale, defaultLocale, pages: { committee: pageItem } } = context;
 
   const result = await graphql(`
     {
@@ -41,12 +41,10 @@ exports.createAboutOrganizationCommitteePage = async ({ actions, graphql }, cont
 
   const parentPath = '/about/organization';
   
-  const path = `${parentPath}/committee`;
-
   if (locale === defaultLocale) {
     actions.createRedirect({
-      fromPath: path,
-      toPath: `/${locale}${path}`,
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
     });
 
     actions.createRedirect({
@@ -61,19 +59,20 @@ exports.createAboutOrganizationCommitteePage = async ({ actions, graphql }, cont
 
   actions.createRedirect({
     fromPath: `/${locale}${parentPath}`,
-    toPath: `/${locale}${path}`,
+    toPath: pageItem.localizedPath,
   });
 
   actions.createRedirect({
     fromPath: `/${locale}${parentPath}/`,
-    toPath: `/${locale}${path}`,
+    toPath: pageItem.localizedPath,
   });
 
   actions.createPage({
-    path: `/${locale}${path}`,
+    path: pageItem.localizedPath,
     component: require.resolve('../../../../../templates/AboutOrganizationCommitteePage.js'),
     context: {
       ...context,
+      pageItem,
       committee: result.data.committee.nodes[0].fields[locale],
     },
   });

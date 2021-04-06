@@ -116,10 +116,23 @@ collections:
       - name: "url"
         label: "連結"
         widget: string
+      - name: "subPages"
+        label: "頁面"
+        widget: list
+        summary: "{{fields.page}}"
+        field:
+          name: "page"
+          label: "頁面"
+          widget: relation
+          collection: "pages"
+          search_fields: ["title", "slug"]
+          value_field: "slug"
+          display_fields: ["title"]
       - name: "wip"
         label: "製作中"
         widget: boolean
         default: false
+        required: false
   - name: "home"
     label: "首頁"
     files:
