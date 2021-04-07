@@ -1,6 +1,6 @@
 exports.createAboutAssociationPages = async (params, context) => {
   const { actions, graphql } = params;
-  const { locale, defaultLocale } = context;
+  const { locale, defaultLocale, pages: { associations: pageItem } } = context;
 
   const result = await graphql(`
     {
@@ -37,12 +37,10 @@ exports.createAboutAssociationPages = async (params, context) => {
     }
   `);
 
-  const indexPath = '/about/associations';
-
   const associations = {};
   result.data.items.nodes.forEach(({ fields: { [locale]: association } }) => {
-    const path =`${indexPath}/${association.slug}`;
-    const localizedPath = `/${locale}${path}`;
+    const path =`${pageItem.url}/${association.slug}`;
+    const localizedPath = `${pageItem.localizedPath}${path}`;
     associations[association.slug] = {
       ...association,
       path,
@@ -78,13 +76,14 @@ exports.createAboutAssociationPages = async (params, context) => {
         ...context,
         subMenus: menus,
         pageData: associations[slug],
+        pageItem,
       },
     });
   });
 
   if (menus.length) {
     actions.createRedirect({
-      fromPath: `/${locale}${indexPath}`,
+      fromPath: pageItem.url,
       toPath: menus[0].localizedPath,
     });
   }
