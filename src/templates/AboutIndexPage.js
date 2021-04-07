@@ -10,7 +10,7 @@ import PageHeader from "../components/PageHeader";
 
 import useResize from "../utils/react-hooks/useResize";
 
-function AssociationsDirectory({ locale, data, items }) {
+function AssociationsDirectory({ ctaTo, data, items }) {
   const [slideIndex, setSlideIndex] = useState(0);
   const [controlledSwiper, setControlledSwiper] = useState(null);
   const container = useRef(null);
@@ -49,7 +49,7 @@ function AssociationsDirectory({ locale, data, items }) {
         </ul>
         <Link
           className="mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
-          to={`${locale}/about/associations`}
+          to={ctaTo}
         >
           {data.buttonTitle}
         </Link>
@@ -148,7 +148,13 @@ function AssociationsDirectory({ locale, data, items }) {
 }
 
 export default function AboutPage({ path, pageContext }) {
-  const { locale, pageData, menus, associations: associationItems } = pageContext;
+  const {
+    locale,
+    pageData,
+    pages: { associations: associationsPageItem },
+    menus,
+    associations: associationItems,
+  } = pageContext;
   const menuItem = menus.secondary.find(({ slug }) => slug === 'about');
   const {
     excerpt,
@@ -196,9 +202,9 @@ export default function AboutPage({ path, pageContext }) {
             </div>
           </section>
           <AssociationsDirectory
-            locale={locale}
             data={associations}
             items={associationItems}
+            ctaTo={associationsPageItem.localizedPath}
           />
           <section className="mt-48 px-14 max-w-2xl w-full mx-auto">
             <h1 className="flex items-center justify-center max-w-sm mx-auto text-primary text-24 text-center font-bold font-serif">
