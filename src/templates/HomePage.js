@@ -348,7 +348,7 @@ export default function HomePageTemplate({ pageContext, path }) {
             </ClientOnly>
 
             <button
-              className="absolute z-10 left-20 top-1/2 w-44 h-44 -mt-22 p-16 bg-black rounded-full group"
+              className="absolute z-10 left-20 top-1/2 w-44 h-44 -mt-22 p-16 bg-black bg-opacity-10 rounded-full group backdrop-filter backdrop-blur-md"
               onClick={() => {
                 controlledSwiper.slidePrev();
               }}
@@ -367,7 +367,7 @@ export default function HomePageTemplate({ pageContext, path }) {
               </svg>
             </button>
             <button
-              className="absolute z-10 right-20 top-1/2 w-44 h-44 -mt-22 p-16 bg-black rounded-full group"
+              className="absolute z-10 right-20 top-1/2 w-44 h-44 -mt-22 p-16 bg-black bg-opacity-10 rounded-full group backdrop-filter backdrop-blur-md"
               onClick={() => {
                 controlledSwiper.slideNext();
               }}

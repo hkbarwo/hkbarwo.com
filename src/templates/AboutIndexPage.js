@@ -85,7 +85,7 @@ function AssociationsDirectory({ ctaTo, data, items }) {
             ))}
           </Swiper>
           <button
-            className="absolute z-10 left-10 top-1/2 w-44 h-44 -mt-22 p-16 border border-white bg-white bg-opacity-20 rounded-full group"
+            className="absolute z-10 left-10 top-1/2 w-44 h-44 -mt-22 p-16 border border-white bg-black bg-opacity-10 rounded-full group backdrop-filter backdrop-blur-md"
             onClick={(e) => {
               e.preventDefault();
               controlledSwiper.slidePrev();
@@ -105,7 +105,7 @@ function AssociationsDirectory({ ctaTo, data, items }) {
             </svg>
           </button>
           <button
-            className="absolute z-10 right-10 top-1/2 w-44 h-44 -mt-22 p-16 border border-white bg-white bg-opacity-20 rounded-full group"
+            className="absolute z-10 right-10 top-1/2 w-44 h-44 -mt-22 p-16 border border-white bg-black bg-opacity-10 rounded-full group backdrop-filter backdrop-blur-md"
             onClick={(e) => {
               e.preventDefault();
               controlledSwiper.slideNext();
