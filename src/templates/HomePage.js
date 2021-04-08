@@ -293,7 +293,7 @@ export default function HomePageTemplate({ pageContext, path }) {
                   1024: {
                     slidesPerView: 2,
                   },
-                  1366: {
+                  1280: {
                     slidesPerView: 3,
                   },
                 }}
@@ -336,7 +336,7 @@ export default function HomePageTemplate({ pageContext, path }) {
                             <span className="text-22 font-light tracking-widest">{`${i < 9 ? '0' : ''}${i + 1}`}</span>
                             <span className="ml-10 text-18 tracking-wide">{slide.shortTitle}</span>
                           </div>
-                          <h1 className="mt-40 text-36 font-bold font-serif tracking-widest">{slide.title}</h1>
+                          <h1 className="mt-24 text-36 font-bold font-serif tracking-widest">{slide.title}</h1>
                           <h2 className="mt-4 text-28 font-light font-serif tracking-widest">{slide.subtitle}</h2>
                           <p className="mt-8 text-14 leading-5 whitespace-pre-wrap line-clamp-2">{slide.description}</p>
                         </div>
