@@ -7,7 +7,17 @@ import PageNav from "./PageNav";
 import PageHeader from "./PageHeader";
 import StrikethroughHeading from "./StrikethroughHeading";
 
-export default function Page({ path, pageContext, isEmpty = false, emptyText, isShowTitle = true, prepend, ...props }) {
+export default function Page({
+  path,
+  pageContext,
+  pageTitle,
+  pageDescription,
+  isEmpty = false,
+  emptyText,
+  isShowTitle = true,
+  prepend,
+  ...props
+}) {
   const { locale, pageItem, parentPage } = pageContext;
 
   const menuItems = useMemo(() => {
@@ -29,6 +39,9 @@ export default function Page({ path, pageContext, isEmpty = false, emptyText, is
     props.children
   );
 
+  const title = pageTitle || pageItem.title;
+  const description = pageDescription || pageItem.description;
+
   return (
     <IntlProvider language={locale}>
       <main className="flex flex-col min-h-screen">
@@ -44,9 +57,9 @@ export default function Page({ path, pageContext, isEmpty = false, emptyText, is
         />
 
         <article className="flex-grow p-14 pb-96 md:px-60">
-          {isShowTitle && <StrikethroughHeading>{pageItem.title}</StrikethroughHeading>}
-          {pageItem.description && (
-            <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center">{pageItem.description}</p>
+          {isShowTitle && <StrikethroughHeading>{title}</StrikethroughHeading>}
+          {description && (
+            <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center">{description}</p>
           )}
 
           {prepend}
