@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   repo: caahk/hkbarwo.com
   branch: main
+  squash_merges: true
   commit_messages:
     create: 💬 Create {{collection}} “{{slug}}”
     update: 💬 Update {{collection}} “{{slug}}”
