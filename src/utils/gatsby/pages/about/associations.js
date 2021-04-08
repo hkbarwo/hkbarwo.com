@@ -41,7 +41,7 @@ exports.createAboutAssociationPages = async (params, context) => {
   const associations = {};
   result.data.items.nodes.forEach(({ fields: { [locale]: association } }) => {
     const path =`${pageItem.url}/${association.slug}`;
-    const localizedPath = `${pageItem.localizedPath}${path}`;
+    const localizedPath = `${pageItem.localizedPath}/${association.slug}`;
     associations[association.slug] = {
       ...association,
       path,
@@ -85,6 +85,10 @@ exports.createAboutAssociationPages = async (params, context) => {
   if (menus.length) {
     actions.createRedirect({
       fromPath: pageItem.url,
+      toPath: menus[0].localizedPath,
+    });
+    actions.createRedirect({
+      fromPath: pageItem.localizedPath,
       toPath: menus[0].localizedPath,
     });
   }
