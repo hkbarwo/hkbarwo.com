@@ -233,6 +233,8 @@ collections:
     create: true
     slug: "{{year}}{{month}}{{day}}-{{fields.slug}}"
     i18n: true
+    summary: "{{fields.title}} - {{fields.date}}"
+    sortable_fields: ["date", "title", "slug"]
     fields:
       - name: "title"
         label: "標題"
