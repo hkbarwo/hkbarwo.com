@@ -734,6 +734,11 @@ collections:
         widget: markdown
         required: false
         default: ""
+      - name: "website"
+        label: "網站"
+        widget: string
+        required: false
+        default: ""
       - name: "commitieesTitle"
         label: "名單標題"
         i18n: true
