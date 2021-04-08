@@ -1,9 +1,5 @@
-const { Remarkable } = require('remarkable');
-
-exports.createNewsPages = async ({ actions, graphql }, context) => {
-  const md = new Remarkable();
-
-  const { locale, defaultLocale, newsCategories } = context;
+exports.createNewsPages = async ({ actions, graphql, md }, context) => {
+  const { locale, defaultLocale, newsCategories, pages: { news: pageItem } } = context;
 
   const newsPageTemplate = require.resolve('../../../templates/NewsPage.js');
   const newsDetailsPageTemplate = require.resolve('../../../templates/NewsDetailsPage.js');
@@ -51,20 +47,22 @@ exports.createNewsPages = async ({ actions, graphql }, context) => {
     allNews.push(news);
     categorizedNews[categoryKey].push(news);
 
-    const path = `/news/${news.slug}`;
+    const path = `${pageItem.url}/${news.slug}`;
+    const localizedPath = `${pageItem.localizedPath}/${news.slug}`;
 
     if (locale === defaultLocale) {
       actions.createRedirect({
         fromPath: path,
-        toPath: `/${locale}${path}`,
+        toPath: localizedPath,
       });
     }
 
     actions.createPage({
-      path: `/${locale}${path}`,
+      path: localizedPath,
       component: newsDetailsPageTemplate,
       context: {
         ...context,
+        pageItem,
         newsItem: news,
         newsCategories,
       },
@@ -72,20 +70,21 @@ exports.createNewsPages = async ({ actions, graphql }, context) => {
   });
 
   newsCategories.forEach((category) => {
-    const path = `/news/${category.slug}`;
-
+    const path = `${pageItem.url}/${category.slug}`;
+    const localizedPath = `${pageItem.localizedPath}/${category.slug}`;
     if (locale === defaultLocale) {
       actions.createRedirect({
         fromPath: path,
-        toPath: `/${locale}${path}`,
+        toPath: localizedPath,
       });
     }
 
     actions.createPage({
-      path: `/${locale}${path}`,
+      path: localizedPath,
       component: newsPageTemplate,
       context: {
         ...context,
+        pageItem,
         newsItems: categorizedNews[category.slug],
         newsCategory: category,
         newsCategories,
@@ -93,20 +92,19 @@ exports.createNewsPages = async ({ actions, graphql }, context) => {
     });
   });
 
-  const path = '/news';
-
   if (locale === defaultLocale) {
     actions.createRedirect({
-      fromPath: path,
-      toPath: `/${locale}${path}`,
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
     });
   }
 
   actions.createPage({
-    path: `/${locale}${path}`,
+    path: pageItem.localizedPath,
     component: newsPageTemplate,
     context: {
       ...context,
+      pageItem,
       newsItems: allNews,
       newsCategories,
     },
