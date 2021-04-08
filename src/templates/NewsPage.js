@@ -43,9 +43,12 @@ export default function NewsPage({ path, pageContext }) {
           {newsItems.length > 0 ? (
             <ul className="md:px-60">
               {newsItems.map((news) => {
-                const { category } = news;
+                const { category, slug } = news;
                 return (
-                  <li className="py-20 border-b border-gray-e5">
+                  <li
+                    key={slug}
+                    className="py-20 border-b border-gray-e5"
+                  >
                     <div className="flex justify-between items-center mb-20">
                       <div
                         className="px-16 py-2 rounded-full text-white text-16"
