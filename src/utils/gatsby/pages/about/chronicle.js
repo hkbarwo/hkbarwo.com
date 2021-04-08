@@ -1,5 +1,5 @@
 exports.createAboutChroniclePage = async ({ actions, graphql }, context) => {
-  const { locale, defaultLocale } = context;
+  const { locale, defaultLocale, pages: { chronicle: pageItem } } = context;
 
   const result = await graphql(`
     {
@@ -68,21 +68,20 @@ exports.createAboutChroniclePage = async ({ actions, graphql }, context) => {
   
 
   const pageData = result.data.page.fields[locale];
-  
-  const path = '/about/chronicle';
 
   if (locale === defaultLocale) {
     actions.createRedirect({
-      fromPath: path,
-      toPath: `/${locale}${path}`,
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
     });
   }
 
   actions.createPage({
-    path: `/${locale}${path}`,
+    path: pageItem.localizedPath,
     component: require.resolve('../../../../templates/AboutChroniclePage.js'),
     context: {
       ...context,
+      pageItem,
       pageData,
       chronicle,
     },
