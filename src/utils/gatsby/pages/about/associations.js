@@ -30,6 +30,7 @@ exports.createAboutAssociationPages = async (params, context) => {
               }
               logo
               logoWhite
+              website
             }
           }
         }
