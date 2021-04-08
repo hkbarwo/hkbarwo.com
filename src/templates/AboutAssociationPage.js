@@ -56,11 +56,11 @@ export default function AboutAssociationPage(props) {
                   <svg
                     className="flex-shrink-0 fill-current w-18 mr-8"
                     xmlns="http://www.w3.org/2000/svg"
-                    <FormattedMessage id="website" />
                     viewBox="0 0 18 18"
                   >
                     <path d="M14.2,17.66H1.5A1.16,1.16,0,0,1,.34,16.51V3.8A1.16,1.16,0,0,1,1.5,2.65H7.27V3.8H1.5V16.5H14.2V10.73h1.15V16.5A1.16,1.16,0,0,1,14.2,17.66ZM9,.34a.57.57,0,0,0-.57.58A.57.57,0,0,0,9,1.5h6.69l-8,8a.58.58,0,0,0,.76.87l.06-.06,8-8V9a.58.58,0,1,0,1.15,0V.34Z"/>
                   </svg>
+                  <FormattedMessage id="website" />
                 </a>
               )}
             </div>
