@@ -80,6 +80,7 @@ export default function ResourcesPublicationsPage(props) {
 
       <Modal
         isOpen={!!activeItem}
+        closeTimeoutMS={200}
         style={{
           content: {
             zIndex: 100,

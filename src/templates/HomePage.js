@@ -448,6 +448,7 @@ export default function HomePageTemplate({ pageContext, path }) {
         </ul>
         <Modal
           isOpen={isShowDetail}
+          closeTimeoutMS={200}
           style={{
             content: {
               zIndex: 50,

@@ -48,6 +48,7 @@ export default function MemberDirectoryPage(props) {
       </ul>
       <Modal
         isOpen={!!activeMember}
+        closeTimeoutMS={200}
         style={{
           content: {
             zIndex: 100,
