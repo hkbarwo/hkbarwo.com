@@ -12,6 +12,11 @@ zh:
 
 
     *(請點擊以下「PDF」檔案連結，下載「粵劇界支援計劃 第五輪 保基層就業計劃-申請表及資助準則v0331」)*
+
+
+    另可於以下連結下載相關表格EXCEL檔︰
+
+    <https://bit.ly/supportcantonopera>
   title: 「粵劇界支援計劃 - 第五輪資助︰保基層就業項目」申請資料
   slug: the-5th-cantonese-opera-sector-subsidy-scheme-application
   category: notice
