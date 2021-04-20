@@ -80,7 +80,7 @@ export default function AboutOrganizationCommitteePage({ path, pageContext }) {
             <ul>
               <li className="md:flex mb-32">
                 <div className="flex-1 p-8">
-                  <img src={committee.president.image} alt={committee.president.name} />
+                  <img class="mx-auto md:mx-0 block" src={committee.president.image} alt={committee.president.name} />
                 </div>
                 <div className="flex-1 flex justify-center items-center px-8 py-12">
                   <div className="md:p-14">
@@ -112,7 +112,7 @@ export default function AboutOrganizationCommitteePage({ path, pageContext }) {
                   {committee.groups.map((group) => (
                     <li
                       key={group.title}
-                      className="w-1/2 sm:w-1/4 md:w-1/8"
+                      className="w-1/2 md:w-1/4 lg:w-1/8"
                     >
                       <ul>
                         {group.commitiees.map(member => (
