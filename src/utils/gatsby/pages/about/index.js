@@ -1,13 +1,11 @@
-const { Remarkable } = require('remarkable');
-
 const { createAboutOrganizationPages } = require('./organization');
 const { createAboutChroniclePage } = require('./chronicle');
 const { createAboutAssociationPages } = require('./associations');
 const { createInterviewsPages } = require('./interviews');
 
 const createAboutIndexPage = async (params, context) => {
-  const { actions, graphql } = params;
-  const { locale, defaultLocale } = context;
+  const { actions, graphql, md } = params;
+  const { locale, defaultLocale, pages: { introduction: pageItem } } = context;
 
   const aboutPageTemplate = require.resolve('../../../../templates/AboutIndexPage.js');
 
@@ -49,23 +47,21 @@ const createAboutIndexPage = async (params, context) => {
 
   const pageData = result.data.page.fields[locale];
 
-  const md = new Remarkable();
   pageData.developmentStrategy = md.render(pageData.developmentStrategy);
-  
-  const path = '/about';
 
   if (locale === defaultLocale) {
     actions.createRedirect({
-      fromPath: path,
-      toPath: `/${locale}${path}`,
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
     });
   }
 
   actions.createPage({
-    path: `/${locale}${path}`,
+    path: pageItem.localizedPath,
     component: aboutPageTemplate,
     context: {
       ...context,
+      pageItem,
       pageData,
     },
   });

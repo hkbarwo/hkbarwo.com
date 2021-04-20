@@ -1,5 +1,6 @@
 import React,{ useMemo } from "react";
 import { FormattedMessage } from "react-intl";
+import classNames from "classnames";
 
 import IntlProvider from "./IntlProvider";
 import PageFooter from "./PageFooter";
@@ -16,6 +17,7 @@ export default function Page({
   isEmpty = false,
   emptyText,
   isShowTitle = true,
+  isNoHorizontalPadding = false,
   prepend,
   ...props
 }) {
@@ -58,11 +60,18 @@ export default function Page({
           getActive={({ key }) => key === pageItem.slug}
         />
 
-        <article className="flex-grow p-14 pb-96 md:px-60">
-          {isShowTitle && <StrikethroughHeading>{title}</StrikethroughHeading>}
-          {description && (
-            <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center">{description}</p>
+        <article
+          className={classNames(
+            "flex-grow pb-96",
+            isNoHorizontalPadding ? 'py-14' : 'p-14 md:px-60'
           )}
+        >
+          <section className={classNames({ 'px-14': isNoHorizontalPadding })}>
+            {isShowTitle && <StrikethroughHeading>{title}</StrikethroughHeading>}
+            {description && (
+              <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center">{description}</p>
+            )}
+          </section>
 
           {prepend}
 
