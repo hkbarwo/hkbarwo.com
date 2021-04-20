@@ -22,7 +22,7 @@ export default function AboutChroniclePage(props) {
           {chronicle.map(yearGroup => (
             <li
               key={yearGroup.range}
-              className="mt-8"
+              className="mt-8 transition-all duration-200"
             >
               <a
                 href={`#${yearGroup.range}`}
