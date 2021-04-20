@@ -11,6 +11,7 @@ export default function Page({
   path,
   pageContext,
   pageTitle,
+  appendPageTitle,
   pageDescription,
   isEmpty = false,
   emptyText,
@@ -44,10 +45,11 @@ export default function Page({
 
   return (
     <IntlProvider language={locale}>
-      <main className="flex flex-col min-h-screen">
+      <main className="flex flex-col min-h-screen overflow-x-hidden">
         <PageNav
           {...{ path, pageContext }}
           pageTitle={parentPage ? parentPage.title : pageItem.title}
+          appendPageTitle={appendPageTitle}
         />
 
         <PageHeader

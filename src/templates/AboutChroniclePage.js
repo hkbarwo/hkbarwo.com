@@ -1,5 +1,7 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
+import Scrollspy from "react-scrollspy";
+
 import BlueButton from "../components/BlueButton";
 
 import Page from "../components/Page";
@@ -11,9 +13,27 @@ export default function AboutChroniclePage(props) {
     <Page
       {...props}
       pageTitle={excerpt.title}
+      appendPageTitle={
+        <Scrollspy
+          className="hidden md:block absolute right-0 mt-24 mr-20 text-right text-14 font-500 text-gray-bc"
+          items={chronicle.map(yearGroup => yearGroup.range)}
+          currentClassName="text-secondary text-18 font-bold underline"
+        >
+          {chronicle.map(yearGroup => (
+            <li
+              key={yearGroup.range}
+              className="mt-8"
+            >
+              <a
+                href={`#${yearGroup.range}`}
+              >{yearGroup.range.split('-')[0]}</a>
+            </li>
+          ))}
+        </Scrollspy>
+      }
       pageDescription={excerpt.content}
     >
-      <section className="w-full max-w-screen-xl mx-auto mt-48 tracking-wide leading-8">
+      <section className="w-full max-w-screen-xl mx-auto mt-48 md:px-20 tracking-wide leading-8">
         <header className="text-right">
           <BlueButton
             href={pdf}
@@ -30,7 +50,10 @@ export default function AboutChroniclePage(props) {
         </header>
         <ul>
           {chronicle.map(yearGroup => (
-            <li key={yearGroup.range}>
+            <li
+              key={yearGroup.range}
+              id={yearGroup.range}
+            >
               <h1 className="mt-40 text-primary text-36 font-bold font-serif">{yearGroup.range}</h1>
               <ul>
                 {yearGroup.items.map(item => (

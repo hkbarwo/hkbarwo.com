@@ -137,7 +137,7 @@ function ExpandableSubMenu({ locale, item, pageContext, onClose }) {
   )
 }
 
-export default function PageNav({ pageContext, pageTitle, isHideMenuButton = false }) {
+export default function PageNav({ pageContext, pageTitle, isHideMenuButton = false, appendPageTitle }) {
   const { locale } = pageContext;
   const [isOpen, setOpen] = useState(false)
   return (
@@ -178,6 +178,9 @@ export default function PageNav({ pageContext, pageTitle, isHideMenuButton = fal
               {pageTitle}
             </div>
           </div>
+        )}
+        {!!appendPageTitle && (
+          <div>{appendPageTitle}</div>
         )}
       </div>
       
