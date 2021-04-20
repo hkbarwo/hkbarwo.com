@@ -1,5 +1,6 @@
 import React,{ useMemo } from "react";
 import { FormattedMessage } from "react-intl";
+import { Helmet } from "react-helmet";
 import classNames from "classnames";
 
 import IntlProvider from "./IntlProvider";
@@ -47,6 +48,13 @@ export default function Page({
 
   return (
     <IntlProvider language={locale}>
+      <Helmet>
+        <title>{title}</title>
+        {!!description && <meta name="description" content={description} />}
+        <meta property="og:type" content="website" />  
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+      </Helmet>
       <main className="flex flex-col min-h-screen overflow-x-hidden">
         <PageNav
           {...{ path, pageContext }}
