@@ -1,5 +1,5 @@
 import React,{ useMemo } from "react";
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, useIntl } from "react-intl";
 import { Helmet } from "react-helmet";
 import classNames from "classnames";
 
@@ -8,6 +8,23 @@ import PageFooter from "./PageFooter";
 import PageNav from "./PageNav";
 import PageHeader from "./PageHeader";
 import StrikethroughHeading from "./StrikethroughHeading";
+
+export function PageMeta({
+  title,
+  description,
+}) {
+  const intl = useIntl();
+  const normalizedTitle = `${title ? `${title} | ` : ''}${intl.formatMessage({ id: 'meta.title' })}`;
+  return (
+    <Helmet>
+      <title>{normalizedTitle}</title>
+      {!!description && <meta name="description" content={description} />}
+      <meta property="og:type" content="website" />  
+      <meta property="og:title" content={normalizedTitle} />
+      <meta property="og:description" content={description} />
+    </Helmet>
+  );
+}
 
 export default function Page({
   path,
@@ -48,13 +65,10 @@ export default function Page({
 
   return (
     <IntlProvider language={locale}>
-      <Helmet>
-        <title>{title}</title>
-        {!!description && <meta name="description" content={description} />}
-        <meta property="og:type" content="website" />  
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-      </Helmet>
+      <PageMeta
+        title={pageItem.title}
+        description={description}
+      />
       <main className="flex flex-col min-h-screen overflow-x-hidden">
         <PageNav
           {...{ path, pageContext }}
