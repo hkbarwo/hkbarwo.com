@@ -1,5 +1,4 @@
 const merge = require('deepmerge');
-const { Remarkable } = require('remarkable');
 
 const { fetchSiteData } = require('./src/utils/gatsby/general');
 const { fetchMenus } = require('./src/utils/gatsby/menus');
@@ -16,6 +15,7 @@ const { createPerformancesPages } = require('./src/utils/gatsby/pages/performanc
 const { createSitemapPage } = require('./src/utils/gatsby/pages/sitemap');
 const { createPrivacyPage } = require('./src/utils/gatsby/pages/privacy');
 const { createTncPage } = require('./src/utils/gatsby/pages/tnc');
+const { createRemarkable } = require('./src/utils/gatsby/markdown');
 
 const defaultLocale = 'zh';
 const locales = ['zh', 'en'];
@@ -77,7 +77,7 @@ exports.onCreateNode = ({ node, actions }) => {
 
 exports.createPages = async (params) => {
   const { actions } = params;
-  params.md = new Remarkable();
+  params.md = createRemarkable();
 
   for (let i = 0; i < locales.length; i++) {
     const locale = locales[i];
