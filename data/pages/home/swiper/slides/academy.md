@@ -3,8 +3,8 @@ zh:
   buttonTitle: " 了解更多"
   slug: academy
   buttonLink:
-    page: ""
-    url: http://www.hkbarwocoa.com
+    page: channel
+    url: ""
   gradient:
     color1: "#fc4786"
     color2: "#ffa7a7"
