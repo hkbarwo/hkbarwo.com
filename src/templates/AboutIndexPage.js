@@ -148,7 +148,6 @@ export default function AboutPage(props) {
   const {
     pageData,
     pages: { associations: associationsPageItem },
-    menus,
     associations: associationItems,
   } = pageContext;
   const {

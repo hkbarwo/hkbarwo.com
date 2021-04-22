@@ -10,6 +10,7 @@ import useResize from "../utils/react-hooks/useResize";
 
 import ClientOnly from "../components/ClientOnly";
 import IntlProvider from "../components/IntlProvider";
+import { PageMeta } from "../components/Page";
 import PageNav from "../components/PageNav";
 import PageFooter from "../components/PageFooter";
 import SiteLogo from "../components/SiteLogo";
@@ -262,6 +263,10 @@ export default function HomePageTemplate({ pageContext, path }) {
   return (
     <IntlProvider language={pageContext.locale}>
       <main className="font-sans">
+        <PageMeta
+          title={pageContext.pageItem.title}
+          description={pageContext.pageItem.description}
+        />
         <PageNav {...{ path, pageContext }} isHideMenuButton={isShowDetail} />
         <header className="p-20 pt-16 bg-white md:hidden">
           <SiteLogo className="mx-auto" style={{ maxWidth: 140 }} />

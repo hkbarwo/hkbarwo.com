@@ -1,5 +1,5 @@
 exports.createHomePage = async ({ actions, graphql }, context) => {
-  const { locale, defaultLocale } = context;
+  const { locale, defaultLocale, pages: { index: pageItem } } = context;
 
   const homePageTemplate = require.resolve('../../../templates/HomePage.js');
 
@@ -61,13 +61,12 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
 
   const news = result.data.news.nodes.map(({ fields }) => fields[locale]);
 
-  const path = '/';
-
   actions.createPage({
-    path: `/${locale}${path}`,
+    path: pageItem.localizedPath,
     component: homePageTemplate,
     context: {
       ...context,
+      pageItem,
       slides,
       news,
     },
@@ -75,8 +74,8 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
 
   if (locale === defaultLocale) {
     actions.createRedirect({
-      fromPath: path,
-      toPath: `/${locale}${path}`,
+      fromPath: pageItem.url,
+      toPath: pageItem.localizedPath,
     });
   }
 };
