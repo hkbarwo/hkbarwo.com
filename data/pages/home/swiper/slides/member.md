@@ -8,7 +8,7 @@ zh:
     color1: "#2930d7"
     color2: "#ffa5fc"
   bgImage: /images/uploads/home/swiper/slides/landing-img-6-2x.jpg
-  subtitle: 同業聯誼
+  subtitle: 關懷‧回饋
   title: 會員活動
   bgImageFillStyle: contain
   shortTitle: 會員專區
@@ -20,5 +20,5 @@ en:
   title: 會員活動
   subtitle: 聯誼與交流
   buttonLink:
-    page: membership-events
+    page: member-events
 ---
