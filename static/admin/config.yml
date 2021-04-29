@@ -1061,7 +1061,7 @@ collections:
         label: "圖片"
         i18n: duplicate
         widget: image
-        media_folder: "/static/uploads/resources/photos"
+        media_folder: "static/uploads/resources/photos"
         public_folder: "/uploads/resources/photos"
         required: false
       - name: "description"
