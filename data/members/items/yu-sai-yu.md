@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yu-sai-yu
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 余世裕
   thoughts: ""

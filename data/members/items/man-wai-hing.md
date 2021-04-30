@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: man-wai-hing
   alias: 文嘉麗
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 文惠卿
   thoughts: ""

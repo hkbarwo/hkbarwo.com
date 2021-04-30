@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lo-pang-hon
   alias: 盧漢
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 盧鵬漢
   thoughts: ""

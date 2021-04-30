@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chow-wah-lee
   alias: 艷影儂
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 周華利
   thoughts: ""

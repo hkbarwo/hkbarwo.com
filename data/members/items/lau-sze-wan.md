@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lau-sze-wan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉詩韻
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chiu-mei-chun
   alias: 趙杏嫦
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 趙美真
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: choi-yuet-wan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蔡月雲
   thoughts: ""

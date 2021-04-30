@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: mok-siu-wo
   alias: 莫少光
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 莫少戈
   thoughts: ""

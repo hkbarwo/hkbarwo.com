@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: wang-chun-kang
   alias: 大康
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 王均康
   thoughts: ""

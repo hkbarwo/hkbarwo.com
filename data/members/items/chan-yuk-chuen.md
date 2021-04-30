@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: chan-yuk-chuen
   alias: 跛全
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳玉全
   thoughts: ""

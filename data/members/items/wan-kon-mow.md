@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: wan-kon-mow
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 溫幹謀
   thoughts: ""

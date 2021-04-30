@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lee-chung-foon
   alias: 李頌
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李頌歡
   thoughts: ""

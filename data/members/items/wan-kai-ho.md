@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wan-kai-ho
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 溫啟豪
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: kong-man-wing
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄺萬榮
   thoughts: ""

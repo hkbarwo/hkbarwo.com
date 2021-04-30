@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: choi-lung-chuen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蔡龍川
   thoughts: ""

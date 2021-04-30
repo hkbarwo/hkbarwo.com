@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ho-hung-chuen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何洪泉
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-siu-pui
   alias: 陳駿輝
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳小佩
   thoughts: ""

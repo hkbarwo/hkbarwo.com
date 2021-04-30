@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-chi-wai
   alias: 鳳綺綾
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 吳志慧
   thoughts: ""

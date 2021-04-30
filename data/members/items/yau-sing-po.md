@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yau-sing-po
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 尤聲普
   thoughts: ""

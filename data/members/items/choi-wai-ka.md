@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: choi-wai-ka
   alias: 芯嘉
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蔡惠嘉
   thoughts: ""

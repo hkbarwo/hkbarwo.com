@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chiu-shuk-han
   alias: 趙劍虹
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 趙淑嫻
   thoughts: ""

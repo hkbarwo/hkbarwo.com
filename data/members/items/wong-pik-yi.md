@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wong-pik-yi
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃碧怡
   thoughts: ""

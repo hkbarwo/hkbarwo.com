@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-fung-yu-bertha
   alias: 梁雁風
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁鳳如
   thoughts: ""

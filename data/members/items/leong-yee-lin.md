@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leong-yee-lin
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁綺蓮
   thoughts: ""

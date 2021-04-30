@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: mok-cham-kwong
   alias: 莫醒麟
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 莫湛光
   thoughts: ""

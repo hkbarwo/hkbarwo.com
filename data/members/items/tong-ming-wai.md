@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tong-ming-wai
   alias: 江雪鷺
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 湯明慧
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chung-siu-chun
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鍾紹椿
   thoughts: ""

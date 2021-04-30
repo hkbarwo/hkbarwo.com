@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: keung-hak-shing
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 姜克誠
   thoughts: ""

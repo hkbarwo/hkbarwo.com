@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chen-hui-jian
   alias: 一点鴻
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳惠堅
   thoughts: ""

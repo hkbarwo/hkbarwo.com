@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: chan-hin-yung-latco
   alias: 勇
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳顯戎
   thoughts: ""

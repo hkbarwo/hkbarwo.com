@@ -4,7 +4,7 @@ zh:
   position: 
   slug: lee-ting-fung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李延𩆨
   thoughts: ""

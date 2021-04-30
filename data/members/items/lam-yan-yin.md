@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lam-yan-yin
   alias: 林群翎
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 林欣賢
   thoughts: ""

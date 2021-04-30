@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: siu-wing-chi-pamela
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蕭穎芝
   thoughts: ""

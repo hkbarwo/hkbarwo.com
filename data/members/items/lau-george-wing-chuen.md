@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lau-george-wing-chuen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉永全
   thoughts: ""

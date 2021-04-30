@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ye-yaolian
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 葉要蓮
   thoughts: ""

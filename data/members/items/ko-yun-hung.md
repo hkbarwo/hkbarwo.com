@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ko-yun-hung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 高潤鴻
   thoughts: ""

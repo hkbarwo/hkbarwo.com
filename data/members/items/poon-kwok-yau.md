@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: poon-kwok-yau
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 潘國鈾
   thoughts: ""

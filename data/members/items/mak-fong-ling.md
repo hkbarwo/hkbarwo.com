@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: mak-fong-ling
   alias: 麥嘉紅
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 麥芳玲
   thoughts: ""

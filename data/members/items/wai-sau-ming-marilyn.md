@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: wai-sau-ming-marilyn
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 韋秀明
   thoughts: ""

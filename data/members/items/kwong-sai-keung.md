@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: kwong-sai-keung
   alias: 江玉龍
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 江世強
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: shin-kai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 單佳
   thoughts: ""

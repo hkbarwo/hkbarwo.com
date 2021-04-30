@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tang-mi-mi
   alias: 鄧碧影
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄧美媚
   thoughts: ""

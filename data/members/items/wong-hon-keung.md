@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wong-hon-keung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 王漢強
   thoughts: ""

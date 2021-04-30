@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chen-zhuorong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳焯榮
   thoughts: ""

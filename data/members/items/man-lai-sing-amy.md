@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: man-lai-sing-amy
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 文禮星
   thoughts: ""

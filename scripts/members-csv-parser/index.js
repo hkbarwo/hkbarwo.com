@@ -46,7 +46,7 @@ zh:
   position: ${position}
   slug: ${slug}
   alias: ${alias}
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: ${role}
   title: ${nameZh || nameEn}
   thoughts: ""

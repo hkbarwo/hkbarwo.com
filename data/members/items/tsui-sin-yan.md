@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tsui-sin-yan
   alias: 御玲瓏
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐倩殷
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: fok-yuk-sim-lily
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 霍玉嬋
   thoughts: ""

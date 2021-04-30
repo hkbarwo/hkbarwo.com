@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: kwan-wai-sham-juliana
   alias: 瓊花女
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 關惠心
   thoughts: ""

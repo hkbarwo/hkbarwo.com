@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: fung-wai-mo
   alias: 馮偉
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮偉武
   thoughts: ""

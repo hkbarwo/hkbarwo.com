@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: fung-lai-man
   alias: 梅雪詩
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮麗雯
   thoughts: ""

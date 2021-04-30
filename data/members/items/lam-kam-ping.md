@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: lam-kam-ping
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 林錦平
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: ling-chi-hung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 凌志雄
   thoughts: ""

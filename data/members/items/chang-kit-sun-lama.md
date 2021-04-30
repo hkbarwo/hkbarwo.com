@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chang-kit-sun-lama
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張潔新
   thoughts: ""

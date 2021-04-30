@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-shui-kwan
   alias: 王超群
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 王瑞群
   thoughts: ""

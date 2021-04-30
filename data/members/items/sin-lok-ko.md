@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: sin-lok-ko
   alias: 高少聲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 單樂高
   thoughts: ""

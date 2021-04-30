@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-kam-sing
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳金成
   thoughts: ""

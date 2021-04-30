@@ -3,6 +3,7 @@ import { FormattedMessage } from "react-intl";
 import classNames from "classnames";
 
 export default function MemberDetailsView(props) {
+  const photo = props.photo || (`/images/${props.gender === 'm' ? 'male' : 'female'}.svg`)
   return (
     <div
       className={classNames('md:flex items-start', props.className)}
@@ -10,7 +11,7 @@ export default function MemberDetailsView(props) {
     >
       <div className="p-20 sm:p-40">
         <img
-          src={props.photo}
+          src={photo}
           alt={props.title}
           style={{ width: 190 }}
         />

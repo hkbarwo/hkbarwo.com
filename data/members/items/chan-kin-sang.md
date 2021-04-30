@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: chan-kin-sang
   alias: 陳健一
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳建生
   thoughts: ""

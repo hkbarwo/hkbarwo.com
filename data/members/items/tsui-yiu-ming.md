@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tsui-yiu-ming
   alias: 徐小明
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐耀明
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: huang-yong-jie
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃永杰
   thoughts: ""

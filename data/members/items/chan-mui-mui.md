@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-mui-mui
   alias: 陳玉琼
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳妹妹
   thoughts: ""

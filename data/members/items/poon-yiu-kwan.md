@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: poon-yiu-kwan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 潘耀坤
   thoughts: ""

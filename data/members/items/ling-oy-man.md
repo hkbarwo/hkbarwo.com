@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ling-oy-man
   alias: 凌劍初
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 凌愛文
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: fung-chi-ming
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮志明
   thoughts: ""

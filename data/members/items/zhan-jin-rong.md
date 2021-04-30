@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: zhan-jin-rong
   alias: 詹浩鋒
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 詹錦榮
   thoughts: ""

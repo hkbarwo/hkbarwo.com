@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wang-ming-chun-elizabeth
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 主席
   title: 汪明荃
   thoughts: ""

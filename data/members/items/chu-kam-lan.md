@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: chu-kam-lan
   alias: 元菊
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 朱金蘭
   thoughts: ""

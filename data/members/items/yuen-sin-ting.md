@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yuen-sin-ting
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 袁善婷
   thoughts: ""

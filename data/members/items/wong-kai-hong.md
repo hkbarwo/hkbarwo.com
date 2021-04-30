@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: wong-kai-hong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃啟康
   thoughts: ""

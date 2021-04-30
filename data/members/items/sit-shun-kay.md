@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: sit-shun-kay
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 薛純基
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ip-chiu-sheung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 葉昭嫦
   thoughts: ""

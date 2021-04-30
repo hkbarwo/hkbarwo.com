@@ -4,7 +4,7 @@ zh:
   position: 運輸
   slug: tso-tai-wai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 曹大偉
   thoughts: ""

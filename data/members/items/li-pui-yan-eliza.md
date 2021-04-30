@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: li-pui-yan-eliza
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 李沛妍
   thoughts: ""

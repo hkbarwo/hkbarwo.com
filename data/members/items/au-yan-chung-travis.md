@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: au-yan-chung-travis
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 區人中
   thoughts: ""

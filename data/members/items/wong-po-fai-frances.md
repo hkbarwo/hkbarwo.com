@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-po-fai-frances
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃葆輝
   thoughts: ""

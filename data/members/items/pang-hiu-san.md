@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: pang-hiu-san
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 彭曉新
   thoughts: ""

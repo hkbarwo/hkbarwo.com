@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chen-shi-hong
   alias: 白雪紅
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳石紅
   thoughts: ""

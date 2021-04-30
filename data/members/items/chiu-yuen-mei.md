@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chiu-yuen-mei
   alias: 鑾佳聲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 趙婉媚
   thoughts: ""

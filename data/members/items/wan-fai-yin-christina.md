@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wan-fai-yin-christina
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 副會長
   title: 尹飛燕
   thoughts: ""

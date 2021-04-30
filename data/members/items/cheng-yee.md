@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: cheng-yee
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄭義
   thoughts: ""

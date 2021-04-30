@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-siu-yung
   alias: 陳少聲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳笑容
   thoughts: ""

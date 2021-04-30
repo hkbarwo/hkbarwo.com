@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: law-mei-lin
   alias: 蓉海璇
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 羅美蓮
   thoughts: ""

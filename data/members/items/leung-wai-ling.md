@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-wai-ling
   alias: 芳燕芬
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁慧玲
   thoughts: ""

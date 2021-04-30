@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-kwok-sai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃國勢
   thoughts: ""

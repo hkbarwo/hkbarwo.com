@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: fung-wai-choy
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮偉才
   thoughts: ""

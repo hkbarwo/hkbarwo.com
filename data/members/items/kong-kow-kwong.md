@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: kong-kow-kwong
   alias: 鄺邦
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄺球光
   thoughts: ""

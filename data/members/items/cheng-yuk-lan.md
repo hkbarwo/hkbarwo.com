@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheng-yuk-lan
   alias: 玄悅仙
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄭玉蘭
   thoughts: ""

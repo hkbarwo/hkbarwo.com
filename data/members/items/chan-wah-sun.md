@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-wah-sun
   alias: 陳培甡
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳華新
   thoughts: ""

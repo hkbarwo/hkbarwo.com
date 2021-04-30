@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: lau-pui-kit
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉培傑
   thoughts: ""

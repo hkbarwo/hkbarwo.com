@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-ting-sim
   alias: 蟾宮女
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃定蟾
   thoughts: ""

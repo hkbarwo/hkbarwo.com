@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chun-wai-king
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 秦惠琼
   thoughts: ""

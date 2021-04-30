@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: wai-shui-kwan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 韋瑞群
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: au-yan-shan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 區人山
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lee-tak-ching-serena
   alias: 李鳳
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李德貞
   thoughts: ""

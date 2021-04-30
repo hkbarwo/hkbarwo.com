@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: nim-cam-tin
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 嚴錦信
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ng-shun-yiu
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 吳信堯
   thoughts: ""

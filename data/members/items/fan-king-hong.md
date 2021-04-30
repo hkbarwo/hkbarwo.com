@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: fan-king-hong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 范敬康
   thoughts: ""

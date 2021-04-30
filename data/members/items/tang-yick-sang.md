@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tang-yick-sang
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄧奕生
   thoughts: ""

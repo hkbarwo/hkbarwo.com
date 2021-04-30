@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-tak-mei-simy
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳德美
   thoughts: ""

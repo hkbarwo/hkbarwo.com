@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chow-lai-hing-vicky
   alias: 莊婉仙
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 周麗卿
   thoughts: ""

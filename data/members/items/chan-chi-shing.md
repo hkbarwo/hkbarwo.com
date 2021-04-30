@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-chi-shing
   alias: 陳藥風
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳志誠
   thoughts: ""

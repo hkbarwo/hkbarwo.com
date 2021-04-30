@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: mok-ming
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 莫   明
   thoughts: ""

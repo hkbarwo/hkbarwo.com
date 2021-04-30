@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheung-fung-yee-penny
   alias: 鳳儀婷
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張鳳儀
   thoughts: ""

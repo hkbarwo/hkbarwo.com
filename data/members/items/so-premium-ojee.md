@@ -4,7 +4,7 @@ zh:
   position: 武+演
   slug: so-premium-ojee
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蘇鈺子
   thoughts: ""

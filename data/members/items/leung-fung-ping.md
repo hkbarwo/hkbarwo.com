@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-fung-ping
   alias: 梁鳳裘
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁鳳萍
   thoughts: ""

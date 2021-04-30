@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-kam-pui
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳錦培
   thoughts: ""

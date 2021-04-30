@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-sau-fong-miranda
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳秀芳
   thoughts: ""

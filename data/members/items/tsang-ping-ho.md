@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: tsang-ping-ho
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 曾秉豪
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: li-yuk-wan
   alias: 李雁飛
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李玉雲
   thoughts: ""

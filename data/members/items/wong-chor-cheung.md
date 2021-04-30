@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-chor-cheung
   alias: 黃志祥
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃佐祥
   thoughts: ""

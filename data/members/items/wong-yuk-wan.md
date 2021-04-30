@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wong-yuk-wan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 王玉雲
   thoughts: ""

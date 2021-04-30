@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chow-ling
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 周凌
   thoughts: ""

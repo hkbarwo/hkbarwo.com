@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: hui-sheung
   alias: 許寶玉
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 許湘
   thoughts: ""

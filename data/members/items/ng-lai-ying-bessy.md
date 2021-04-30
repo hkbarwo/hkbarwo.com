@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-lai-ying-bessy
   alias: 伍艷紅
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 伍麗英
   thoughts: ""

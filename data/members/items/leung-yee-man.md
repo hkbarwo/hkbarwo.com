@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-yee-man
   alias: 艷影虹
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁綺雯
   thoughts: ""

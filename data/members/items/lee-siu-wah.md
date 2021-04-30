@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: lee-siu-wah
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李少華
   thoughts: ""

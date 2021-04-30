@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-ping-sum
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 伍炳森
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lo-pik-lan
   alias: 羅詠蘭
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 羅碧蘭
   thoughts: ""

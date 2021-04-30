@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: siu-chui-wan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蕭翠雲
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lo-wai-see
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 盧慧斯
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chu-kwai-chun
   alias: 朱劍丹
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 朱桂珍
   thoughts: ""

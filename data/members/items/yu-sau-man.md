@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yu-sau-man
   alias: 朝陽
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 余秀文
   thoughts: ""

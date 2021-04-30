@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-tung-kui
   alias: 陳順
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳東駒
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: kwong-hon
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄺漢
   thoughts: ""

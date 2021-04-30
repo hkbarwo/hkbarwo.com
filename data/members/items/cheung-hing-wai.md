@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheung-hing-wai
   alias: 張偉
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張慶偉
   thoughts: ""

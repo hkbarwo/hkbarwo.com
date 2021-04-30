@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-wing-kwei
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 陳榮貴
   thoughts: ""

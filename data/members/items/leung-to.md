@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: leung-to
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁陶
   thoughts: ""

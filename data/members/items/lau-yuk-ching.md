@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lau-yuk-ching
   alias: 劉艷盈
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉玉清
   thoughts: ""

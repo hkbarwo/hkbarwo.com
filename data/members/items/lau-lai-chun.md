@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: lau-lai-chun
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉麗珍
   thoughts: ""

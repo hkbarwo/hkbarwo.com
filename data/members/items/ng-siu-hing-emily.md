@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-siu-hing-emily
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 伍少卿
   thoughts: ""

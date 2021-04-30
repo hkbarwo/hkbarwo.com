@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lee-po-to
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李普道
   thoughts: ""

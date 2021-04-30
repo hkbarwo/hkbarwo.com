@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-chi-kwong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 黃志光
   thoughts: ""

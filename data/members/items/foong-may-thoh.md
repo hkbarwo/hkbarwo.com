@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: foong-may-thoh
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮美桃
   thoughts: ""

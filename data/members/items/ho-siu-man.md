@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ho-siu-man
   alias: 何詩敏
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何小敏
   thoughts: ""

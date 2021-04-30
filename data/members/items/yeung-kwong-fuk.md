@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yeung-kwong-fuk
   alias: 楊鴻
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 楊廣福
   thoughts: ""

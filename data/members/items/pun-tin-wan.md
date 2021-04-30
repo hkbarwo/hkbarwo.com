@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: pun-tin-wan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 潘殿雲
   thoughts: ""

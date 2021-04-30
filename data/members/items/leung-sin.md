@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-sin
   alias: 梁晉鳴
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁仙
   thoughts: ""

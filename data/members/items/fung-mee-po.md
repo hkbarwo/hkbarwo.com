@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: fung-mee-po
   alias: 小桃紅
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮美寶
   thoughts: ""

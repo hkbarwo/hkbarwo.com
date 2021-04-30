@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ruan-dewen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 阮德文
   thoughts: ""

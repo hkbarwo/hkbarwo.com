@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tam-iok-lin
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 談玉蓮
   thoughts: ""

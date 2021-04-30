@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lau-wai-ming
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 劉惠鳴
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: pong-yuen-kan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 龐元根
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wu-may-lai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 胡美麗
   thoughts: ""

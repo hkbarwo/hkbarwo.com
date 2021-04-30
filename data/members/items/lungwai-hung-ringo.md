@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lungwai-hung-ringo
   alias: 梁十一
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁威熊
   thoughts: ""

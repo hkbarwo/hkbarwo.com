@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: tsai-chih-wei
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 蔡之崴
   thoughts: ""

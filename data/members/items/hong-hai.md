@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: hong-hai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 洪海
   thoughts: ""

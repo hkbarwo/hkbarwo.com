@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chung-kam
   alias: 鍾健春
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鍾衿
   thoughts: ""

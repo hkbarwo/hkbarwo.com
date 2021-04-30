@@ -4,7 +4,7 @@ zh:
   position: 音+演
   slug: lo-ming-cheung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 盧銘章
   thoughts: ""

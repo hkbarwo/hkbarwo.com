@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: wong-fung
   alias: 王少明
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃嵐
   thoughts: ""

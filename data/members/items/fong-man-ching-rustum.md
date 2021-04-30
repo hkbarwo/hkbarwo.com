@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: fong-man-ching-rustum
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 方文正
   thoughts: ""

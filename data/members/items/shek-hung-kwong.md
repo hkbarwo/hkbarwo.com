@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: shek-hung-kwong
   alias: 洪劍棠
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 石鴻光
   thoughts: ""

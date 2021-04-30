@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-hoi-kee
   alias: 梁俊英
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁海琪
   thoughts: ""

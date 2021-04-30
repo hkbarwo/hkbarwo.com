@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yeung-kwok-yuen
   alias: 楊振聲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 楊國源
   thoughts: ""

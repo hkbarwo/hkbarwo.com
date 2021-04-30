@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: au-choi-sing
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 歐才勝
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: ko-dip-ngor
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 高蝶娥
   thoughts: ""

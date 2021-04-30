@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tam-yee-man-vriginia
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 譚綺文
   thoughts: ""

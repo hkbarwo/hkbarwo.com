@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chau-xi-giai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 周熾楷
   thoughts: ""

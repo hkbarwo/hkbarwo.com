@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lo-chun
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 盧珍
   thoughts: ""

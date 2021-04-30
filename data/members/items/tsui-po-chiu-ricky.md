@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: tsui-po-chiu-ricky
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐寶照
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chong-ching-chuen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 莊清泉
   thoughts: ""

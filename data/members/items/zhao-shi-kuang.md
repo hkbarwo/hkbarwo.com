@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: zhao-shi-kuang
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 趙師曠
   thoughts: ""

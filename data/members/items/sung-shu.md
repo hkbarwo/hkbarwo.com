@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: sung-shu
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 宋    樞
   thoughts: ""

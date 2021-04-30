@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chui-yuen
   alias: 徐浩然
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐源
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yip-sun-sun
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 葉新新
   thoughts: ""

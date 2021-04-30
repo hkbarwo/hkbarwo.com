@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: chen-lang-feng
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳朗峰
   thoughts: ""

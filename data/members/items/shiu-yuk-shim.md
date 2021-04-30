@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: shiu-yuk-shim
   alias: 邵麗君
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 邵玉嬋
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yu-pak-hop
   alias: 余茂
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 余伯洽
   thoughts: ""

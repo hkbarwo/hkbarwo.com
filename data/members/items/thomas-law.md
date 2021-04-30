@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: thomas-law
   alias: 龍玉聲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 羅德名
   thoughts: ""

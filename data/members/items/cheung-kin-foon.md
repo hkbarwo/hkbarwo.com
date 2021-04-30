@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheung-kin-foon
   alias: 花映彤
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張見歡
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: au-bun-pik
   alias: 區品峰
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 區品璧
   thoughts: ""

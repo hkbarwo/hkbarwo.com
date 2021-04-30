@@ -4,7 +4,7 @@ zh:
   position: 音﹑演﹑事
   slug: tsui-lun-tong
   alias: 新羅品超
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐麟堂
   thoughts: ""

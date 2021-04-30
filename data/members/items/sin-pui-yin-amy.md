@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: sin-pui-yin-amy
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 冼佩賢
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: kwok-kar-keung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 郭家強
   thoughts: ""

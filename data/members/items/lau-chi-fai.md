@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lau-chi-fai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉子輝
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chum-chuen-wai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 覃尊威
   thoughts: ""

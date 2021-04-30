@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: soong-yiu-kei-keith
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 宋耀基
   thoughts: ""

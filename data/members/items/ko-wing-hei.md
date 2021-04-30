@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ko-wing-hei
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 高永熙
   thoughts: ""

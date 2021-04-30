@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: fung-yun-yuen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮潤源
   thoughts: ""

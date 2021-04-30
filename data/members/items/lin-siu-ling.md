@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lin-siu-ling
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 連小玲
   thoughts: ""

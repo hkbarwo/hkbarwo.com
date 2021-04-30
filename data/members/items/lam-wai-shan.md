@@ -4,7 +4,7 @@ zh:
   position: 
   slug: lam-wai-shan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 林惠珊
   thoughts: ""

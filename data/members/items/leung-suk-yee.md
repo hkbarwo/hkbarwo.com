@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-suk-yee
   alias: 龍嘉麒
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁淑兒
   thoughts: ""

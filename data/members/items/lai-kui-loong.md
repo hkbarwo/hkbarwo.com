@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: lai-kui-loong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黎鉅隆
   thoughts: ""

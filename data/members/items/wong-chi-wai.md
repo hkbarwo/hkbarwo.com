@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: wong-chi-wai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃志偉
   thoughts: ""

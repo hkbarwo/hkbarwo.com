@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yeung-chui-mui
   alias: 楊紅梅
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 楊翠梅
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chiu-yuen-nei-themis
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 招婉妮
   thoughts: ""

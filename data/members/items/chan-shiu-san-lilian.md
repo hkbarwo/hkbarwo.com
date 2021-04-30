@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-shiu-san-lilian
   alias: 陳楚湘
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳少珊
   thoughts: ""

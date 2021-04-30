@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: siu-kwei-sim
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蕭桂蟬
   thoughts: ""

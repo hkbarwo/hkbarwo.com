@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chau-kwok-cheong-christopher
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 周國昌
   thoughts: ""

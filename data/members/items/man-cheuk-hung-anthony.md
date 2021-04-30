@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: man-cheuk-hung-anthony
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 文卓鴻
   thoughts: ""

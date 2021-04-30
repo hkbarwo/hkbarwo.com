@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ho-hung-kong
   alias: 何洪廣
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何洪港
   thoughts: ""

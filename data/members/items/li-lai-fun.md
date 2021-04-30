@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: li-lai-fun
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李麗芬
   thoughts: ""

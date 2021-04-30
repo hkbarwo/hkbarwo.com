@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: huang-wei-kun
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃偉坤
   thoughts: ""

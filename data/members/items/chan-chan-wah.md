@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-chan-wah
   alias: 陳小龍
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳燦華
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: choi-wai-shan
   alias: 千珊
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蔡蔚珊
   thoughts: ""

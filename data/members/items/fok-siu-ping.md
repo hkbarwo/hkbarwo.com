@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: fok-siu-ping
   alias: 金麗玲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 霍小萍
   thoughts: ""

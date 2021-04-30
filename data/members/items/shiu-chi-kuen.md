@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: shiu-chi-kuen
   alias: 蕭萬強
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蕭梓權
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: li-kok-wah
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李菊華
   thoughts: ""

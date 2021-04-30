@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wo-ho-chi
   alias: 裴駿軒
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 胡可志
   thoughts: ""

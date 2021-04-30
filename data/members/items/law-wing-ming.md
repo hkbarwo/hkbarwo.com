@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: law-wing-ming
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 羅永明
   thoughts: ""

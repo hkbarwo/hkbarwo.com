@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lam-lai-bing
   alias: 林汶聲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 林麗冰
   thoughts: ""

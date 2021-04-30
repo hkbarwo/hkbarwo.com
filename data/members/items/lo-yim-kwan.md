@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lo-yim-kwan
   alias: 楚江楓
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 盧艷群
   thoughts: ""

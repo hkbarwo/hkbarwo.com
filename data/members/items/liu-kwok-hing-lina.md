@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: liu-kwok-hing-lina
   alias: 言雪芬
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 廖國馨
   thoughts: ""

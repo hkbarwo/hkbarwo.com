@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: shem-pak-chuen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 沈栢銓
   thoughts: ""

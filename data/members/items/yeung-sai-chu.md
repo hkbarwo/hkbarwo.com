@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yeung-sai-chu
   alias: 楊麗紅
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 楊細珠
   thoughts: ""

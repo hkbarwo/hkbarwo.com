@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-yan-alica
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁茵
   thoughts: ""

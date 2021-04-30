@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yu-kam-chu
   alias: 余金枝
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 余金珠
   thoughts: ""

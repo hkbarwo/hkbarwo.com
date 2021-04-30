@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yu-chun-kit
   alias: 雷文
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 余俊傑
   thoughts: ""

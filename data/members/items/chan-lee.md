@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-lee
   alias: 陳楚君
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳莉
   thoughts: ""

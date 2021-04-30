@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chiu-yu-hsin
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 趙汝炘
   thoughts: ""

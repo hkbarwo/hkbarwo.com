@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yau-shui-ying
   alias: 紫雲英
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 邱瑞英
   thoughts: ""

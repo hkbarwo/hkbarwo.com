@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tsang-cheung-tai
   alias: 曾錦華
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 曾長大
   thoughts: ""

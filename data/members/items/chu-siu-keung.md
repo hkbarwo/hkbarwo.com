@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chu-siu-keung
   alias: 丁一龍
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 朱少強
   thoughts: ""

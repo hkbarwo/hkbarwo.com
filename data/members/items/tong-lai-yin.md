@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: tong-lai-yin
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 唐禮賢
   thoughts: ""

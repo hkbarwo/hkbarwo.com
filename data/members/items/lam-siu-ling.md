@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lam-siu-ling
   alias: 林姨姨
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 林笑玲
   thoughts: ""

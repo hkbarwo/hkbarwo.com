@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: tang-pong-chiu-carpen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄧幫照
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: poon-ka-pik
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 潘家璧
   thoughts: ""

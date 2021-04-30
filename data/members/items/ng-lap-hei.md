@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-lap-hei
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 吳立熙
   thoughts: ""

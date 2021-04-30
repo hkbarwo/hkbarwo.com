@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chow-lin-yau
   alias: 陸綺雲.艷芳
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 周蓮有
   thoughts: ""

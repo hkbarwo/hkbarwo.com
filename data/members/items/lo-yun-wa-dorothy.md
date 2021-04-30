@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lo-yun-wa-dorothy
   alias: 楚令欣
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 盧潤華
   thoughts: ""

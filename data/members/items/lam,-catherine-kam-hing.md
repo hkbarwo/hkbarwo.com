@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lam,-catherine-kam-hing
   alias: 花居冠
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 林曉琪
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: choi-kwan-kit
   alias: 祝如山
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蔡鈞傑
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wu-kwok-leung
   alias: 馬小福
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 胡國良
   thoughts: ""

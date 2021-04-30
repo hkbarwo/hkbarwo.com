@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: li-yu-wai-fun-elissa
   alias: 余蕙芬
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李余蕙芬
   thoughts: ""

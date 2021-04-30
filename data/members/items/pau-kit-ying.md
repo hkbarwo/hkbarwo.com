@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: pau-kit-ying
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鮑潔瑩
   thoughts: ""

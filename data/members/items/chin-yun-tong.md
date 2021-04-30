@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chin-yun-tong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 錢潤棠
   thoughts: ""

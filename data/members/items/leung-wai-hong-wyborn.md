@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-wai-hong-wyborn
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁煒康
   thoughts: ""

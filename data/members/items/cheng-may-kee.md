@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheng-may-kee
   alias: 皇伽冠
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄭美琪
   thoughts: ""

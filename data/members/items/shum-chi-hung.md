@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: shum-chi-hung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 沈志雄
   thoughts: ""

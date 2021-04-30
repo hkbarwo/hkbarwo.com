@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: tam-siu-wai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 譚兆威
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yau-pik-kam
   alias: 楚湘雲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 邱碧琴
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-yune-ping-agnes
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳婉冰
   thoughts: ""

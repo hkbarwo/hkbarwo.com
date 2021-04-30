@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chiu-hing-wan-george
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 趙慶雲
   thoughts: ""

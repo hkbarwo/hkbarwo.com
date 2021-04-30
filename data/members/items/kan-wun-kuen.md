@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: kan-wun-kuen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 簡煥權
   thoughts: ""

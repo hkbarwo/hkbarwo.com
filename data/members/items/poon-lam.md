@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: poon-lam
   alias: 馬丁
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 潘霖
   thoughts: ""

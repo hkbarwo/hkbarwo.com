@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-ting-pong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳定邦
   thoughts: ""

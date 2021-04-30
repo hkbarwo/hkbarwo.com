@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: yeung-mei-yuk
   alias: 楊奕衡
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 楊美玉
   thoughts: ""

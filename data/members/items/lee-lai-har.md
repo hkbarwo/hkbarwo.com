@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lee-lai-har
   alias: 李滴仙
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李麗霞
   thoughts: ""

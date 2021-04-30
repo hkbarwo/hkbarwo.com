@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lam-yin-yi
   alias: 林妹妹
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 林燕儀
   thoughts: ""

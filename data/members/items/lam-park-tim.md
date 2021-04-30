@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lam-park-tim
   alias: 老夫子
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 林栢添
   thoughts: ""

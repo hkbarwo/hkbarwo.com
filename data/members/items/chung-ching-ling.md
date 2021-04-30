@@ -4,7 +4,7 @@ zh:
   position: 
   slug: chung-ching-ling
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鍾清玲
   thoughts: ""

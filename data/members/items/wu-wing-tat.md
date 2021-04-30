@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: wu-wing-tat
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 胡榮達
   thoughts: ""

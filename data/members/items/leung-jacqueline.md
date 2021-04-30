@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-jacqueline
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁寶珠
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: tang-hang-lun
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄧杏麟
   thoughts: ""

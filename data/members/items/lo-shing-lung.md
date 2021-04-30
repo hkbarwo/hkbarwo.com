@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lo-shing-lung
   alias: 鄺成軍
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 盧成龍
   thoughts: ""

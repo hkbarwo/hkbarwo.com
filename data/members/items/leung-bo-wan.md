@@ -4,7 +4,7 @@ zh:
   position: 跌打
   slug: leung-bo-wan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁步雲
   thoughts: ""

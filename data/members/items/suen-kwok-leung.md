@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: suen-kwok-leung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 孫國良
   thoughts: ""

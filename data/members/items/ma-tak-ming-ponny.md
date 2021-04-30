@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ma-tak-ming-ponny
   alias: 馬卓麟
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馬德明
   thoughts: ""

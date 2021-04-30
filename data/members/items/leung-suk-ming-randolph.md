@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-suk-ming-randolph
   alias: 菊盛戎
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁淑明
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lung-yin-fong
   alias: 龍艷芳
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 龍燕芳
   thoughts: ""

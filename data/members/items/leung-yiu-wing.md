@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: leung-yiu-wing
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁耀榮
   thoughts: ""

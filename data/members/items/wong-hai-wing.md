@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-hai-wing
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 王希頴
   thoughts: ""

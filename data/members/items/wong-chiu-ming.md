@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wong-chiu-ming
   alias: 黃一鳴
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃朝明
   thoughts: ""

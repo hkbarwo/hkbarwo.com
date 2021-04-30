@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: choi-lai-kwan
   alias: 蔡丹映
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蔡麗群
   thoughts: ""

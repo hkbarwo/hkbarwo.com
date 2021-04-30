@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ho-lai-mui
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何麗梅
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: fung-ho-sang
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮浩生
   thoughts: ""

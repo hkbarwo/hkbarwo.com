@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-kei-yan
   alias: 任丹楓
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 吳紀茵
   thoughts: ""

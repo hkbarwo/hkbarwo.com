@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: chow-yuen-mo
   alias: 元武
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 周元武
   thoughts: ""

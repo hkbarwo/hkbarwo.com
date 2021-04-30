@@ -4,7 +4,7 @@ zh:
   position: 
   slug: mock-sum-yee
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 莫心兒
   thoughts: ""

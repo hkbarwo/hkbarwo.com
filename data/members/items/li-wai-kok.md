@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: li-wai-kok
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李偉覺
   thoughts: ""

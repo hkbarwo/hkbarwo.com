@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: chau-kin-ming-ming
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 仇健明
   thoughts: ""

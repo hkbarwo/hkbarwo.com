@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: liu-ai-feng
   alias: 小鳳
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉愛鳳
   thoughts: ""

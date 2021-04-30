@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yip-chin-ming
   alias: (原名：葉麗明，舊號：00670)
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 葉千銘
   thoughts: ""

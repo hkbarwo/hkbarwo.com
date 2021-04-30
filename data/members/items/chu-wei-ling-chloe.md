@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chu-wei-ling-chloe
   alias: 劉悅嫣
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 朱慧玲
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: hon-yin-ming
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 韓燕明
   thoughts: ""

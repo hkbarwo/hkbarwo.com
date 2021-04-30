@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: lee-ming-yee
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李明義
   thoughts: ""

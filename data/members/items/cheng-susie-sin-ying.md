@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: cheng-susie-sin-ying
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黎善瑩
   thoughts: ""

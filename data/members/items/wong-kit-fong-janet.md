@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-kit-fong-janet
   alias: 黃寶萱
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃潔芳
   thoughts: ""

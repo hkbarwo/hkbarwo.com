@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wong-chun-chau
   alias: 黃煒唐
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃鎮洲
   thoughts: ""

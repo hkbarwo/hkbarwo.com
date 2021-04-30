@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheung-kam-lan
   alias: 凌鳳
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張錦蘭
   thoughts: ""

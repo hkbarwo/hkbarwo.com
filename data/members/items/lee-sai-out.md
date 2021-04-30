@@ -4,7 +4,7 @@ zh:
   position: 販
   slug: lee-sai-out
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李細牛
   thoughts: ""

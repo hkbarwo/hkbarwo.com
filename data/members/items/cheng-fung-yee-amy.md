@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheng-fung-yee-amy
   alias: 尤鳳儀
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄭鳳儀
   thoughts: ""

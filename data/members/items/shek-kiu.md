@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: shek-kiu
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 石嬌
   thoughts: ""

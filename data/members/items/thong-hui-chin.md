@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: thong-hui-chin
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 唐惠欽
   thoughts: ""

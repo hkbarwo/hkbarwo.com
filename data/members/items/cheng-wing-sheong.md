@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: cheng-wing-sheong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄭詠常
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: nip-kang-tong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 聶鏡棠
   thoughts: ""

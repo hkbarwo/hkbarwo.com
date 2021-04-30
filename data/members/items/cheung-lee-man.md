@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheung-lee-man
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張莉敏
   thoughts: ""

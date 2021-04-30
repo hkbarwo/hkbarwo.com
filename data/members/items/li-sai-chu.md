@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: li-sai-chu
   alias: 李艷珠
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李細珠
   thoughts: ""

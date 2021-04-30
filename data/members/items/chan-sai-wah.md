@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: chan-sai-wah
   alias: 陳劍烽副會長
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 副會長
   title: 陳世華
   thoughts: ""

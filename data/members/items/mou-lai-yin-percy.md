@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: mou-lai-yin-percy
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 繆麗賢
   thoughts: ""

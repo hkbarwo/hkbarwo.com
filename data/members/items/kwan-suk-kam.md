@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: kwan-suk-kam
   alias: 關雪麗
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 關淑琴
   thoughts: ""

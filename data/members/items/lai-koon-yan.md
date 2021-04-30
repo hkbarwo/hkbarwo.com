@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lai-koon-yan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 賴觀仁
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 運輸
   slug: chan-siu-ping
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳少平
   thoughts: ""

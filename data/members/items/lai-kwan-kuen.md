@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lai-kwan-kuen
   alias: 藝青雲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黎群娟
   thoughts: ""

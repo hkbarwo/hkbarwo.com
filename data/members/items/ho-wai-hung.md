@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ho-wai-hung
   alias: 何波
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何惠雄
   thoughts: ""

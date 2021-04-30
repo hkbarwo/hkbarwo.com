@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: tum-ying
   alias: 白雲英
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 譚瑛
   thoughts: ""

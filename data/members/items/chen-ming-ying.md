@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chen-ming-ying
   alias: 陳銘英
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄭銘英
   thoughts: ""

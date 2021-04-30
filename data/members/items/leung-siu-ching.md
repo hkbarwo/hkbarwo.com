@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-siu-ching
   alias: 龍庭生
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁小清
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: yip-kwok-ying-rosetta
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 葉幗英
   thoughts: ""

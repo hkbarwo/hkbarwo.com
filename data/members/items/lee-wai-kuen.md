@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lee-wai-kuen
   alias: 高兆麟
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李惠娟
   thoughts: ""

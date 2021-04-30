@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: li-lai-ha
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李麗霞
   thoughts: ""

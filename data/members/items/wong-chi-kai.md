@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: wong-chi-kai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃志佳
   thoughts: ""

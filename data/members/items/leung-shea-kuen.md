@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: leung-shea-kuen
   alias: 梁權
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁社權
   thoughts: ""

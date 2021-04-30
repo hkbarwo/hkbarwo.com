@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lana-wong-wai-lin
   alias: 黃夏蕙
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃蕙蓮
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: li-kuen
   alias: 李就
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李權
   thoughts: ""

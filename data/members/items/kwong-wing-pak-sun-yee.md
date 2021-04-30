@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: kwong-wing-pak-sun-yee
   alias: 孫紫櫻
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 光永白辛夷
   thoughts: ""

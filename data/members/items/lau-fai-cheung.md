@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lau-fai-cheung
   alias: 劉祥
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉輝祥
   thoughts: ""

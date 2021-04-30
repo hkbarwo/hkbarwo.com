@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: fok-po-lam
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 霍寶林
   thoughts: ""

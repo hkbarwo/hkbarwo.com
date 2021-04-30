@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: leung-tat-hoi
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁達鎧
   thoughts: ""

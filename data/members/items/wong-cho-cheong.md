@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: wong-cho-cheong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃祖昌
   thoughts: ""

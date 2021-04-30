@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: li-cheung-ming
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李章明
   thoughts: ""

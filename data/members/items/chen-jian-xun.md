@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chen-jian-xun
   alias: 陳勛
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳建勛
   thoughts: ""

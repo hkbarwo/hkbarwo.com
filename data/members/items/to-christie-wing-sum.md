@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: to-christie-wing-sum
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 杜詠心
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-mun-ha
   alias: 芳雪瑩
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃敏霞
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yeung-kin-keung-dick
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 楊健強
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tsui-ngai-kong
   alias: 小哪
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐藝剛
   thoughts: ""

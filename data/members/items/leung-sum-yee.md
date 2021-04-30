@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-sum-yee
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁森兒
   thoughts: ""

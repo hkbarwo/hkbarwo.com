@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-siu-but
   alias: 吳嘯天
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 吳小弼
   thoughts: ""

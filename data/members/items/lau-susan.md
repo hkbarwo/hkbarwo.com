@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lau-susan
   alias: 芙小澕
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 符小萍
   thoughts: ""

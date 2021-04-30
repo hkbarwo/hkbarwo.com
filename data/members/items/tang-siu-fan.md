@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tang-siu-fan
   alias: 艷麗群(移居海外)
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄧少芬
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: pun-kwai-mui
   alias: 吳美英
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 潘桂妹
   thoughts: ""

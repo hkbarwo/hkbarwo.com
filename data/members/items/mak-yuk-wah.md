@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: mak-yuk-wah
   alias: 凌安僖
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 麥毓華
   thoughts: ""

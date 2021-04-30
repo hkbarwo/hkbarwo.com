@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: mai-jia-wei
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 麥嘉威
   thoughts: ""

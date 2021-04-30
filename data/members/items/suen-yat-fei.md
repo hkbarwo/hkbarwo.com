@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: suen-yat-fei
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 孫逸飛
   thoughts: ""

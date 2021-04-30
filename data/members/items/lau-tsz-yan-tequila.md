@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: lau-tsz-yan-tequila
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉芷恩
   thoughts: ""

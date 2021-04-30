@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: mak-wai-man
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 副會長
   title: 麥惠文
   thoughts: ""

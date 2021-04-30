@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheng-nga-ki
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄭雅琪
   thoughts: ""

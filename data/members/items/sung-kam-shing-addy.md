@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: sung-kam-shing-addy
   alias: 大細眼
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 宋錦成
   thoughts: ""

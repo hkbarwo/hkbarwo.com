@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-chi-kong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳志江
   thoughts: ""

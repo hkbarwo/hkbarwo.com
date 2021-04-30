@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lau-yuk-fung
   alias: 劉家富
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉玉風
   thoughts: ""

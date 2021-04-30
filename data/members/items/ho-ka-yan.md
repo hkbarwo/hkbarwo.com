@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ho-ka-yan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何嘉茵
   thoughts: ""

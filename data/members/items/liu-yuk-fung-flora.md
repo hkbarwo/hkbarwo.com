@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: liu-yuk-fung-flora
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 廖玉鳳
   thoughts: ""

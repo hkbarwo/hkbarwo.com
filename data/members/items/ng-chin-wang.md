@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-chin-wang
   alias: 吳仟峰
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 副主席
   title: 吳展泓
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: chui-pak-kut
   alias: 徐吉
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐伯吉
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lee-ping-sau
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李屏秀
   thoughts: ""

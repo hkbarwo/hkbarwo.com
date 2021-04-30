@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-ka-hung
   alias: 十仔
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁嘉熊
   thoughts: ""

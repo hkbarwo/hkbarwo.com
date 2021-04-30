@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yuen-yan-pai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 袁恩排
   thoughts: ""

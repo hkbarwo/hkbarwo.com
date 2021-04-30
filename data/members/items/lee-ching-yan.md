@@ -4,7 +4,7 @@ zh:
   position: 唱+演
   slug: lee-ching-yan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李晴茵
   thoughts: ""

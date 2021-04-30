@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tsui-sin-yuen
   alias: 御東昇
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐倩婉
   thoughts: ""

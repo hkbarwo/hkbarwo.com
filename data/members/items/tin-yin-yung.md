@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: tin-yin-yung
   alias: 鈿燕容
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 田燕容
   thoughts: ""

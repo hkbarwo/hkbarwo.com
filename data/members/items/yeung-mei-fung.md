@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yeung-mei-fung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 楊美鳳
   thoughts: ""

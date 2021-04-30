@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: luk-koon-yan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陸冠恩
   thoughts: ""

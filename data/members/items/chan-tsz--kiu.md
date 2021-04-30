@@ -4,7 +4,7 @@ zh:
   position: 佈景
   slug: chan-tsz--kiu
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳子嶠
   thoughts: ""

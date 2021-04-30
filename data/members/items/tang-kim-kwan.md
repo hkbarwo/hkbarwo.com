@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tang-kim-kwan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄧劍群
   thoughts: ""

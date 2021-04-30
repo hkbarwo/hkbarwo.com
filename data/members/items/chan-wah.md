@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: chan-wah
   alias: 陳少華
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳華
   thoughts: ""

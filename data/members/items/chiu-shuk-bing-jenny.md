@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chiu-shuk-bing-jenny
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 趙淑冰
   thoughts: ""

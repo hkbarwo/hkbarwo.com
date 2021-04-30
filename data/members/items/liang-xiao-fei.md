@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: liang-xiao-fei
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁小飛
   thoughts: ""

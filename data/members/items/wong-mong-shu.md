@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-mong-shu
   alias: 紫令秋
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 王望舒
   thoughts: ""

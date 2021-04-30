@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: lee-mee-yee
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李美頤
   thoughts: ""

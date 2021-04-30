@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: liang-yan-xia
   alias: 梁燕飛
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁燕夏
   thoughts: ""

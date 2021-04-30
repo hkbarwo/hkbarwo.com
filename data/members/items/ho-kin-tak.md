@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ho-kin-tak
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何建德
   thoughts: ""

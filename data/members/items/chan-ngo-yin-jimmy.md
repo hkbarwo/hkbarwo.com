@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-ngo-yin-jimmy
   alias: 千言
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳傲賢
   thoughts: ""

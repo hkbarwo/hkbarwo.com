@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: chan-ho-man
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳浩文
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: yuen-shing-chow
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 袁成就
   thoughts: ""

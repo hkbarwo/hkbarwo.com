@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chun-chi-fai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 秦志輝
   thoughts: ""

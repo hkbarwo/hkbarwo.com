@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: mak-king-sing
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 麥景星
   thoughts: ""

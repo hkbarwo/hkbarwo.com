@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-mui-fong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁梅芳
   thoughts: ""

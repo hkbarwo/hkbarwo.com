@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: law-hing-ping
   alias: 羅偉棠
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 羅慶平
   thoughts: ""

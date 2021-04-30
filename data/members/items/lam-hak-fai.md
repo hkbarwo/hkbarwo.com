@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: lam-hak-fai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 林克輝
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yuen-lai-wah
   alias: 袁纓華
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 袁麗華
   thoughts: ""

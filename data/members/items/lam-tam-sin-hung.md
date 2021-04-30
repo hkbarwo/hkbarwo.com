@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lam-tam-sin-hung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 林譚倩紅
   thoughts: ""

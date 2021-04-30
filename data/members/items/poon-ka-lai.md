@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: poon-ka-lai
   alias: 韋重暉
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 潘嘉麗
   thoughts: ""

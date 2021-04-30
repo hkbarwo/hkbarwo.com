@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: li-yuk-tong
   alias: 李棠
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李玉棠
   thoughts: ""

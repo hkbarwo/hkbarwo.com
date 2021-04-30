@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-yik-ming
   alias: 陳韻徽
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳奕明
   thoughts: ""

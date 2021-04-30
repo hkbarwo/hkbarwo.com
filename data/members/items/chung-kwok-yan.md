@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: chung-kwok-yan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鍾國仁
   thoughts: ""

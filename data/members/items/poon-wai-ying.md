@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: poon-wai-ying
   alias: 楚雲玉
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 潘慧瑩
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yiu-suet-ying
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 姚雪英
   thoughts: ""

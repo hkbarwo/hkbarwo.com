@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: poon-ng-ching
   alias: 冷紅梅
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 潘悟晴
   thoughts: ""

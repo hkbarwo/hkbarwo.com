@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: loke-yuen-jean-tak-alice
   alias: 玄天鳳
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陸袁楨德
   thoughts: ""

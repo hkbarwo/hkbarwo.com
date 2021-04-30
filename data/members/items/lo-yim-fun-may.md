@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lo-yim-fun-may
   alias: 菱湘
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 盧艷芬
   thoughts: ""

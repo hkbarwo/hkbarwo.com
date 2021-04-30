@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: yuen-lung-kui
   alias: 七仔
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 袁龍駒
   thoughts: ""

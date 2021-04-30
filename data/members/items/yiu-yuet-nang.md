@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yiu-yuet-nang
   alias: 姚綺雲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 姚月娘
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 戲服
   slug: chan-kwok-yuen
   alias: 陳燕榮
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳國源
   thoughts: ""

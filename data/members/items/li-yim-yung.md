@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: li-yim-yung
   alias: 賀婉詩
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李艷容
   thoughts: ""

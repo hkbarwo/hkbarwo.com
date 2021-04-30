@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-man-yee
   alias: 祁彩鳳
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃敏儀
   thoughts: ""

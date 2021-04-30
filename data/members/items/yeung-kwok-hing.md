@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yeung-kwok-hing
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 楊國慶
   thoughts: ""

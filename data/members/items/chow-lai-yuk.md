@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chow-lai-yuk
   alias: 唐宛瑩
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄒麗玉
   thoughts: ""

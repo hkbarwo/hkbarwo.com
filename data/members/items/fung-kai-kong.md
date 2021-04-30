@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: fung-kai-kong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮啟剛
   thoughts: ""

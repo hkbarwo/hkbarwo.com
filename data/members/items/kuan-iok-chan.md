@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: kuan-iok-chan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 關玉珍
   thoughts: ""

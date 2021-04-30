@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yeung-allen
   alias: 楊雅雲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 楊雅雲
   thoughts: ""

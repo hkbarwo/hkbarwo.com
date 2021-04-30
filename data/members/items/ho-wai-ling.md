@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ho-wai-ling
   alias: 何惠玲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何偉凌
   thoughts: ""

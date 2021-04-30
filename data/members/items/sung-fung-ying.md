@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: sung-fung-ying
   alias: 白鳳英
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 宋鳳英
   thoughts: ""

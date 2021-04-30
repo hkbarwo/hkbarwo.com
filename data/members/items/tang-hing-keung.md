@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: tang-hing-keung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄧慶強
   thoughts: ""

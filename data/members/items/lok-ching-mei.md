@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lok-ching-mei
   alias: 顧青峰
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 駱青媚
   thoughts: ""

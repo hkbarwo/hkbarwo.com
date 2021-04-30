@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: leong-sio-wa-alias-lok-kan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁少華
   thoughts: ""

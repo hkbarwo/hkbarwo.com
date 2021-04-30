@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wong-ho-kie
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃浩祺
   thoughts: ""

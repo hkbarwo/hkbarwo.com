@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: zeng-juyuan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 曾鉅源
   thoughts: ""

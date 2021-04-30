@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: sze-to-shiu
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 司徒紹
   thoughts: ""

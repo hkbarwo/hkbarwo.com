@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ng-yuet-wan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 吳月雲
   thoughts: ""

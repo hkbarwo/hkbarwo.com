@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: wong-kin-man
   alias: 游龍
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃健文
   thoughts: ""

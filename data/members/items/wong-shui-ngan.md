@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-shui-ngan
   alias: 雁海寧
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃瑞顏
   thoughts: ""

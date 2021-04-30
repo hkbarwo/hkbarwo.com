@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ma-lai-ngor
   alias: 英麗虹
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馬麗娥
   thoughts: ""

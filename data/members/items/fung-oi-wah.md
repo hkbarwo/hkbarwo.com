@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: fung-oi-wah
   alias: 華雲鳳
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮愛華
   thoughts: ""

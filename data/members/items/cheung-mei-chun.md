@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: cheung-mei-chun
   alias: 張思情
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張美珍
   thoughts: ""

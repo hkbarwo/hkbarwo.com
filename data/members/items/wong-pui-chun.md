@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wong-pui-chun
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃佩珍
   thoughts: ""

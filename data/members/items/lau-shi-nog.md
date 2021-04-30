@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: lau-shi-nog
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉仕娥
   thoughts: ""

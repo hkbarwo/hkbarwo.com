@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ip-lau-cheong
   alias: 江綺霜
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 葉柳璋
   thoughts: ""

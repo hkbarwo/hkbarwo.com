@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-yung-ging
   alias: 陳用根
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳容根
   thoughts: ""

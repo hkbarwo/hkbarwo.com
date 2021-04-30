@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-kwan-lam
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃君林
   thoughts: ""

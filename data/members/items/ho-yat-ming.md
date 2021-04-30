@@ -4,7 +4,7 @@ zh:
   position: 
   slug: ho-yat-ming
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何日明
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ma-man-fai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馬文輝
   thoughts: ""

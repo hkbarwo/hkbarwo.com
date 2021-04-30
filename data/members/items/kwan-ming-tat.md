@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: kwan-ming-tat
   alias: 關國鋒馬師峯
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 關明達
   thoughts: ""

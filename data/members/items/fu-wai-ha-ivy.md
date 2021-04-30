@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: fu-wai-ha-ivy
   alias: 傅麗霞
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 傅惠霞
   thoughts: ""

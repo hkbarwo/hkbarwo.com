@@ -4,7 +4,7 @@ zh:
   position: 商
   slug: ho-bo-yok
   alias: 白玉屏
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何寶玉
   thoughts: ""

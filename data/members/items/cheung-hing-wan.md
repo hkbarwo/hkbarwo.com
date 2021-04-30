@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheung-hing-wan
   alias: 張宛雲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張慶雲
   thoughts: ""

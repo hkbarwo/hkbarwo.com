@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lau-martin-kwok-ying
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉國瑛
   thoughts: ""

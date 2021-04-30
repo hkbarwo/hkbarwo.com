@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: kam-sai-hoe
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 金世浩
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: mang-kam-hung
   alias: 石燕雄
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 孟錦雄
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: nam-yuet-yu
   alias: 蔚劍菁
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 藍月如
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-tan-tung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳玬橦
   thoughts: ""

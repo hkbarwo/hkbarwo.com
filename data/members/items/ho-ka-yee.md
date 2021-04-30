@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ho-ka-yee
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何嘉兒
   thoughts: ""

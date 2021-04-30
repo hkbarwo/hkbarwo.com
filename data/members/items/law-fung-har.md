@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: law-fung-har
   alias: 羅舜琴
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 羅鳳霞
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-frank-woon-lun
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳煥麟
   thoughts: ""

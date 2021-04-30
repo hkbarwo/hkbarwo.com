@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yum-bing-yee
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 任冰兒
   thoughts: ""

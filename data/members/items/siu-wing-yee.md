@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: siu-wing-yee
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蕭詠儀
   thoughts: ""

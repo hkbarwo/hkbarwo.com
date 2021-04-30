@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wong-sau-shan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃秀珊
   thoughts: ""

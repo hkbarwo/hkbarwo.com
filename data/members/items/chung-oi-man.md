@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: chung-oi-man
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鍾愛民
   thoughts: ""

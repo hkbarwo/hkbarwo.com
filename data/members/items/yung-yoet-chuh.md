@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yung-yoet-chuh
   alias: 高軍翔
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 翁月珍
   thoughts: ""

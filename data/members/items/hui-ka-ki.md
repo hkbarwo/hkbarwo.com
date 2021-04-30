@@ -4,7 +4,7 @@ zh:
   position: 唱+演
   slug: hui-ka-ki
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 許家琪
   thoughts: ""

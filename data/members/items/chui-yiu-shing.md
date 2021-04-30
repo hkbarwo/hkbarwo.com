@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chui-yiu-shing
   alias: 徐三牛
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐耀成
   thoughts: ""

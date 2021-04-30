@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wu
   alias: 龍肖影
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 胡業
   thoughts: ""

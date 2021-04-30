@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: fung-chi-kuen
   alias: 白靈芝
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮芝娟
   thoughts: ""

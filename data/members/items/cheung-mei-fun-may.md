@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheung-mei-fun-may
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張美芬
   thoughts: ""

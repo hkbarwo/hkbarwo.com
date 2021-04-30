@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chau-lai-fung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 周麗鳳
   thoughts: ""

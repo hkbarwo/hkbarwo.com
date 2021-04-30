@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: li-shuk-yiu
   alias: 俏冰兒
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李淑瑤
   thoughts: ""

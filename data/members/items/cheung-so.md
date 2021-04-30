@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: cheung-so
   alias: 張偉雄
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張蘇
   thoughts: ""

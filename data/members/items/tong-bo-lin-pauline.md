@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tong-bo-lin-pauline
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 唐寶蓮
   thoughts: ""

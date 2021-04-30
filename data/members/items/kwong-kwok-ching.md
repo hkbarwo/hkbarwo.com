@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: kwong-kwok-ching
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄺國澄
   thoughts: ""

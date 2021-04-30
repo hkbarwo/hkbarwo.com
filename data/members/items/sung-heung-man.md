@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: sung-heung-man
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 宋向民
   thoughts: ""

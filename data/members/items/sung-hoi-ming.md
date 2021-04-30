@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: sung-hoi-ming
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 宋海明
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: chui-chung-wai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐仲偉
   thoughts: ""

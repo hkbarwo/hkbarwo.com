@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: yoon-chui-kam
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 阮翠金
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chiu-suk-fong
   alias: 趙官楓
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 趙淑芳
   thoughts: ""

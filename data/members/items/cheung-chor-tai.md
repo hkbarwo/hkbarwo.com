@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: cheung-chor-tai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張楚弟
   thoughts: ""

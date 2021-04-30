@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lai-yee-wah-eva
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黎綺華
   thoughts: ""

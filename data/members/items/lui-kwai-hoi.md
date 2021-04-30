@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lui-kwai-hoi
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 雷桂開
   thoughts: ""

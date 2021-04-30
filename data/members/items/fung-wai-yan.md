@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: fung-wai-yan
   alias: 鄒思凡
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮惠欣
   thoughts: ""

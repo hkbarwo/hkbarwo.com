@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-siu-man-margaret
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃小敏
   thoughts: ""

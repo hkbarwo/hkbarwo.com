@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yuen-siu-fai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 副主席
   title: 阮兆輝
   thoughts: ""

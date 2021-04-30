@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: law-wai-wa
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 羅惠華
   thoughts: ""

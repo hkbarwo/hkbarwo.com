@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ko-yun-kuen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 高潤權
   thoughts: ""

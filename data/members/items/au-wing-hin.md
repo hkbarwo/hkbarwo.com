@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: au-wing-hin
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 區榮顯
   thoughts: ""

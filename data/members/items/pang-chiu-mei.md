@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: pang-chiu-mei
   alias: 東凌
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 彭照湄
   thoughts: ""

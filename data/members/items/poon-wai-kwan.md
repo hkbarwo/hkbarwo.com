@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: poon-wai-kwan
   alias: 潘明珠
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 潘煒坤
   thoughts: ""

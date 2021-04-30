@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-ho
   alias: 梁劍鳴
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁好
   thoughts: ""

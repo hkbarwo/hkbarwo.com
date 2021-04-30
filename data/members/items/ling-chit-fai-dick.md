@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: ling-chit-fai-dick
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 寧哲輝
   thoughts: ""

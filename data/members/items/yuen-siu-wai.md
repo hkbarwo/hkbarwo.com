@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yuen-siu-wai
   alias: 袁偉棠
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 袁少偉
   thoughts: ""

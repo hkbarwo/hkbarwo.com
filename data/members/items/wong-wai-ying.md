@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-wai-ying
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 王慧英
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-chung-kui
   alias: 黃金堂
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃仲渠
   thoughts: ""

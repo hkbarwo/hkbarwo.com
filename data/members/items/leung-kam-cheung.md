@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: leung-kam-cheung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁鑑章
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: wong-kwok-wa
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃國華
   thoughts: ""

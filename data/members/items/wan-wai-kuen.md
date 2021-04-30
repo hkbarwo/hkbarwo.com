@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: wan-wai-kuen
   alias: 元輝
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 尹威權
   thoughts: ""

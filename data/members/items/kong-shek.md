@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: kong-shek
   alias: 鄺一笑
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄺碩
   thoughts: ""

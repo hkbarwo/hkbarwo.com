@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ching-weng-sung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 曾榮生
   thoughts: ""

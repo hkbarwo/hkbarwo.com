@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lam-ching-yee
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 林靜儀
   thoughts: ""

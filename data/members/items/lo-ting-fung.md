@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lo-ting-fung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 盧挺豐
   thoughts: ""

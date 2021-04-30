@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chong-mee-yuk
   alias: 鍾鳳慈
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鍾美玉
   thoughts: ""

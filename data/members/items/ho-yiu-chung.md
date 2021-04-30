@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ho-yiu-chung
   alias: 何文宗
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何耀宗
   thoughts: ""

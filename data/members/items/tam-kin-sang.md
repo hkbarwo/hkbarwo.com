@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: tam-kin-sang
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 譚健生
   thoughts: ""

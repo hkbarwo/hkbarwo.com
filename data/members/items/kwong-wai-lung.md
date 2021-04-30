@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: kwong-wai-lung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄺偉龍
   thoughts: ""

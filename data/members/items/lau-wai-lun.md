@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lau-wai-lun
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉偉倫
   thoughts: ""

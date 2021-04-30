@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: leung-sum-yee-angel
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 梁心怡
   thoughts: ""

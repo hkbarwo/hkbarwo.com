@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: jam-kwok-ping
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 詹國平
   thoughts: ""

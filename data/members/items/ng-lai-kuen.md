@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-lai-kuen
   alias: 高文謙
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 伍麗娟
   thoughts: ""

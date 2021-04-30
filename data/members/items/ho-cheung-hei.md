@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: ho-cheung-hei
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何長喜
   thoughts: ""

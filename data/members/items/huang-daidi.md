@@ -4,7 +4,7 @@ zh:
   position: 
   slug: huang-daidi
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 未查明
   title: 黃帶娣
   thoughts: ""

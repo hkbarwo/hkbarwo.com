@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: chan-wai-to
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳偉滔
   thoughts: ""

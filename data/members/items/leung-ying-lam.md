@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: leung-ying-lam
   alias: 梁瑛林
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁渶林
   thoughts: ""

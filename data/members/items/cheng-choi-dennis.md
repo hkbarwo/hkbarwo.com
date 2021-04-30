@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheng-choi-dennis
   alias: 白雲龍
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄭財
   thoughts: ""

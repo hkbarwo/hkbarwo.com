@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chiu-men-kwong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 趙文光
   thoughts: ""

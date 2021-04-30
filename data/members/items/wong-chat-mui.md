@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: wong-chat-mui
   alias: 黃美娟
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃七妹
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yip-sim
   alias: 葉蕙嬋.嫩劍輝
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 葉嬋
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: leung-luen-ying
   alias: 梁依華
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁聯英
   thoughts: ""

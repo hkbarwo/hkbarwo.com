@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yuen-wai-leung
   alias: 小湘雲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 袁羅偉娘
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 提場
   slug: wong-siu-fung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 王小鳳
   thoughts: ""

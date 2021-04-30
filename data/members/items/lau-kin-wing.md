@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lau-kin-wing
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉建榮
   thoughts: ""

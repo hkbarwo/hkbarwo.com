@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: leung-koon-lin
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁觀蓮
   thoughts: ""

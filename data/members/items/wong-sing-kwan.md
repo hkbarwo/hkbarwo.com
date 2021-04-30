@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wong-sing-kwan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 王勝焜
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: au-kuan-cheong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 區均祥
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: chun-kwai-po
   alias: 小寶
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 秦貴寶
   thoughts: ""

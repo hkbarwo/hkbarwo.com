@@ -4,7 +4,7 @@ zh:
   position: 畫
   slug: kwong-bing-chuen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 鄺炳全
   thoughts: ""

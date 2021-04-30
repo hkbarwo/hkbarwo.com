@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: huang-jiansheng
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃健生
   thoughts: ""

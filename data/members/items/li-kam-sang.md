@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: li-kam-sang
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李錦生
   thoughts: ""

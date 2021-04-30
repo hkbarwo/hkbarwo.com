@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-po-lin-ancid
   alias: 韋俊郎
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳寶蓮
   thoughts: ""

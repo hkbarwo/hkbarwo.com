@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tse-kwok-cheung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 謝國章
   thoughts: ""

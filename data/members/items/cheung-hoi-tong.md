@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheung-hoi-tong
   alias: 沙厘棠
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張海棠
   thoughts: ""

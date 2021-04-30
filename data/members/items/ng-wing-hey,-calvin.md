@@ -4,7 +4,7 @@ zh:
   position: 班主
   slug: ng-wing-hey,-calvin
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 伍永熙
   thoughts: ""

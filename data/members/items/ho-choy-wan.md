@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ho-choy-wan
   alias: 牛蘭
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何楚雲
   thoughts: ""

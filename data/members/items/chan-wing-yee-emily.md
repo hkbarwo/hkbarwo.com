@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-wing-yee-emily
   alias: 陳咏儀
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 陳詠儀
   thoughts: ""

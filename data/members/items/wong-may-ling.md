@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-may-ling
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃美苓
   thoughts: ""

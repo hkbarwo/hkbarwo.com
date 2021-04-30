@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-siu-choy-simon
   alias: 陳俊材
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳兆材
   thoughts: ""

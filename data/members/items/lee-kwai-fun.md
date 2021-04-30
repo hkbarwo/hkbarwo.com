@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lee-kwai-fun
   alias: 李明姬
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李桂芬
   thoughts: ""

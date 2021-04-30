@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: poon-chi-ming
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 潘志明
   thoughts: ""

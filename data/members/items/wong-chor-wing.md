@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-chor-wing
   alias: 黃志榮
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃佐榮
   thoughts: ""

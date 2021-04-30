@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: mai-wen-jie
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 麥文潔
   thoughts: ""

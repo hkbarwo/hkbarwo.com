@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: kuk-man-yu
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 曲敏瑜
   thoughts: ""

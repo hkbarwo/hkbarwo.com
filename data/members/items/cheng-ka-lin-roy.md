@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: cheng-ka-lin-roy
   alias: 鄭家年
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄭嘉年
   thoughts: ""

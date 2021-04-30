@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: li-mei-ling
   alias: 鳳影虹
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李美玲
   thoughts: ""

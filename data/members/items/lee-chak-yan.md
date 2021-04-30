@@ -4,7 +4,7 @@ zh:
   position: 
   slug: lee-chak-yan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李澤恩
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: lee-ship
   alias: 文華
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李曄
   thoughts: ""

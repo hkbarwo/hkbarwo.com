@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: li-oi-yee
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李藹儀
   thoughts: ""

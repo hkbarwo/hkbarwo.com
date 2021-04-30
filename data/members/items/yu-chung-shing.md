@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: yu-chung-shing
   alias: 余大鵬
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 余宗成
   thoughts: ""

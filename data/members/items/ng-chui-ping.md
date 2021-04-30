@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-chui-ping
   alias: 韋卓安
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 吳翠屏
   thoughts: ""

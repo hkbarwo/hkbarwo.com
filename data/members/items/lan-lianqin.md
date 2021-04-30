@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lan-lianqin
   alias: 藍天佑
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 藍練欽
   thoughts: ""

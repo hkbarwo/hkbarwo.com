@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lui-chi-ming
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 呂志明
   thoughts: ""

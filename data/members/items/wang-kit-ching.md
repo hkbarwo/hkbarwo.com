@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wang-kit-ching
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 王潔清
   thoughts: ""

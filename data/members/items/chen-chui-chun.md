@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chen-chui-chun
   alias: 小翠珍
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 謝翠珍
   thoughts: ""

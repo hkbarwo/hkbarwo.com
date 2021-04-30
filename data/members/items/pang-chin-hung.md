@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: pang-chin-hung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 彭展雄
   thoughts: ""

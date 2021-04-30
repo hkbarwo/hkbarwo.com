@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: woo-sau-chun
   alias: 小明珠
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 胡秀珍
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: liang-xiao-ming
   alias: 梁兆明
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 梁小明
   thoughts: ""

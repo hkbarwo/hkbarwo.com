@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: leung-fung-lin
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁鳳蓮
   thoughts: ""

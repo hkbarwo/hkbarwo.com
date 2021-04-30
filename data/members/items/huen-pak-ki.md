@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: huen-pak-ki
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 禤伯岐
   thoughts: ""

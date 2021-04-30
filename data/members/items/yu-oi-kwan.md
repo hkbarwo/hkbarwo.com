@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yu-oi-kwan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 余靄群
   thoughts: ""

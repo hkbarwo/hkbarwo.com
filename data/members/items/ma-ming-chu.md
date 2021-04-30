@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ma-ming-chu
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馬明珠
   thoughts: ""

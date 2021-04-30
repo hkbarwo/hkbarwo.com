@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: kwok-wing-yan-tiffany
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 郭穎欣
   thoughts: ""

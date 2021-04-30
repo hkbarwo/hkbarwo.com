@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: fung-ling-yan
   alias: 靈音
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮靈音
   thoughts: ""

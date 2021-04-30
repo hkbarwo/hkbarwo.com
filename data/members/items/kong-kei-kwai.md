@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: kong-kei-kwai
   alias: 江素心
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 江紀葵
   thoughts: ""

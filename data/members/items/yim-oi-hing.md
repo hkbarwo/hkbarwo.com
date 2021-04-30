@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: yim-oi-hing
   alias: 嚴鳳飛
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 嚴愛卿
   thoughts: ""

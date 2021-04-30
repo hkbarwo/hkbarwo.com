@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: fan-kam-wah
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 樊錦華
   thoughts: ""

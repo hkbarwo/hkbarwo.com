@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: au-ping-nam
   alias: 沙鷗
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 區炳南
   thoughts: ""

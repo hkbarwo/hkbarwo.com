@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: au-shuet-fong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 區雪芳
   thoughts: ""

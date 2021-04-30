@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: tsui-sung-yuen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐嵩元
   thoughts: ""

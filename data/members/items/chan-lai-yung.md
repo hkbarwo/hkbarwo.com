@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-lai-yung
   alias: 蓉藝聲
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳麗蓉
   thoughts: ""

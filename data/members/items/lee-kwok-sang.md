@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lee-kwok-sang
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 利國生
   thoughts: ""

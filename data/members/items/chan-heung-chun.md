@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-heung-chun
   alias: 元心
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳香珍
   thoughts: ""

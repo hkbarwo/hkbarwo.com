@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ho-pik-wah-joyce
   alias: 鳳翛何
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何碧華
   thoughts: ""

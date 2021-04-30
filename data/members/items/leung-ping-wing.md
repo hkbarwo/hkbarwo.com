@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: leung-ping-wing
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁炳榮
   thoughts: ""

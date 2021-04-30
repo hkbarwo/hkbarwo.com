@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: song-yi-min
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 宋益民
   thoughts: ""

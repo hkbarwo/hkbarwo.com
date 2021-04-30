@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lau-chan-ming
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉燦明
   thoughts: ""

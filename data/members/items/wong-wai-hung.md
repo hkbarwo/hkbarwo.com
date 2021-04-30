@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-wai-hung
   alias: 牛奶叔
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃偉雄
   thoughts: ""

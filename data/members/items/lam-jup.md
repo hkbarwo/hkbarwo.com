@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: lam-jup
   alias: 羅載而
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 林赭
   thoughts: ""

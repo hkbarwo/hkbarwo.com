@@ -4,7 +4,7 @@ zh:
   position: 事
   slug: wong-siu-sang
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 副會長
   title: 黃肇生
   thoughts: ""

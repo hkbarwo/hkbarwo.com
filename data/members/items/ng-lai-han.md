@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-lai-han
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 吳麗嫻
   thoughts: ""

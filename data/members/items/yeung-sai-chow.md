@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yeung-sai-chow
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 楊西就
   thoughts: ""

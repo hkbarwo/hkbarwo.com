@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: wong-sau-fong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃秀芳
   thoughts: ""

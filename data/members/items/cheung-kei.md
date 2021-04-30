@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: cheung-kei
   alias: 張杰
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張驥
   thoughts: ""

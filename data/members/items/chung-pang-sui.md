@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chung-pang-sui
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鍾鵬瑞
   thoughts: ""

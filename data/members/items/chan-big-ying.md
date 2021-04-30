@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-big-ying
   alias: 文劍斐
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳碧英
   thoughts: ""

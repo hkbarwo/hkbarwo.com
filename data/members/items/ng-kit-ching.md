@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-kit-ching
   alias: 苗丹青
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 伍潔貞
   thoughts: ""

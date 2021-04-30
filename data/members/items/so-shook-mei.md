@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: so-shook-mei
   alias: 南紅
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蘇淑眉
   thoughts: ""

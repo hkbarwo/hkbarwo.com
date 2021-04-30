@@ -4,7 +4,7 @@ zh:
   position: 掌板
   slug: u-ka-long
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 余家龍
   thoughts: ""

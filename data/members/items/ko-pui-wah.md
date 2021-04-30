@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ko-pui-wah
   alias: 南鳳
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 高佩華
   thoughts: ""

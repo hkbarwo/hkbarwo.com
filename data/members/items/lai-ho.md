@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lai-ho
   alias: 白雪芳
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黎好
   thoughts: ""

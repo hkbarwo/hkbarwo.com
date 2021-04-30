@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chung-lai-mei
   alias: 鍾焯華
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鍾麗美
   thoughts: ""

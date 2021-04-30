@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: share-ka-lok
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 佘嘉樂
   thoughts: ""

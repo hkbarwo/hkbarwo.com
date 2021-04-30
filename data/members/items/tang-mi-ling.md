@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tang-mi-ling
   alias: 玲瓏粵劇團，玉玲瓏藝萃會
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 鄧美玲
   thoughts: ""

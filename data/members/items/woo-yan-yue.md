@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: woo-yan-yue
   alias: 鄔曉鋒
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄔欣餘
   thoughts: ""

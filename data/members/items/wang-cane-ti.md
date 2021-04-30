@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: wang-cane-ti
   alias: 元瑛
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 王根娣
   thoughts: ""

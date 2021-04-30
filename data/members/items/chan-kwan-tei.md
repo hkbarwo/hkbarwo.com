@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-kwan-tei
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳群娣
   thoughts: ""

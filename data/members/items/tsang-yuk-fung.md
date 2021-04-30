@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tsang-yuk-fung
   alias: 施影嘉
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 曾玉鳳
   thoughts: ""

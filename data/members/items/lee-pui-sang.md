@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lee-pui-sang
   alias: 龍劍笙
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李菩生
   thoughts: ""

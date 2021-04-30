@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: hon-kwan
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 韓坤
   thoughts: ""

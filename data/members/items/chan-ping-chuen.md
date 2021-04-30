@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-ping-chuen
   alias: 陳泉
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳炳泉
   thoughts: ""

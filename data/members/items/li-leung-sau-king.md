@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: li-leung-sau-king
   alias: 梁紅玉
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李梁秀琼
   thoughts: ""

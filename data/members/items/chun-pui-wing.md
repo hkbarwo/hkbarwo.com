@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chun-pui-wing
   alias: 秦榮
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 秦沛榮
   thoughts: ""

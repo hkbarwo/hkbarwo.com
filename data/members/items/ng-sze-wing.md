@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-sze-wing
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 吳思頴
   thoughts: ""

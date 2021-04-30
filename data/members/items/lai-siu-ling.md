@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lai-siu-ling
   alias: 凌兆
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黎少玲
   thoughts: ""

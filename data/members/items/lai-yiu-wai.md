@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lai-yiu-wai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 黎耀威
   thoughts: ""

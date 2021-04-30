@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: law-hang-tong
   alias: 羅家英
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 理事
   title: 羅行堂
   thoughts: ""

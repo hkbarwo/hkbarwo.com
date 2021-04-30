@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: au-kim-hang-kelvin
   alias: 劍英
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 歐劍衡
   thoughts: ""

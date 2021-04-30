@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chak-yu-kai
   alias: 羽佳
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 翟羽佳
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tam-wai-chu
   alias: 楚艷儂
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 譚慧珠
   thoughts: ""

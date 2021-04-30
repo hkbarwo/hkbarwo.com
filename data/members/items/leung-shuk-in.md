@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: leung-shuk-in
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁淑妍
   thoughts: ""

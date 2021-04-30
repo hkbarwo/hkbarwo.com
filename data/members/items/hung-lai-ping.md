@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: hung-lai-ping
   alias: 楊小雪
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 孔麗萍
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ho-siu-ling-chris
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何少玲
   thoughts: ""

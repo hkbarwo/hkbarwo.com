@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: tam-wai-chiu
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 譚惠超
   thoughts: ""

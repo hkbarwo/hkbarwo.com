@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: sung-ngok
   alias: 宋岳
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 宋    鍔
   thoughts: ""

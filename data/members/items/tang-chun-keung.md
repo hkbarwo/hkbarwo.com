@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: tang-chun-keung
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 鄧振強
   thoughts: ""

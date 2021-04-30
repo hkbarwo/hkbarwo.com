@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: ling-siu-fong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 凌少芳
   thoughts: ""

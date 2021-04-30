@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: chan-oi-chun
   alias: 陳鳴軒
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳愛珍
   thoughts: ""

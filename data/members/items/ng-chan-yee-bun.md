@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-chan-yee-bun
   alias: 陳雪艷
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 吳陳儀斌
   thoughts: ""

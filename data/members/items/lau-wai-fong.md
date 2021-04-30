@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lau-wai-fong
   alias: 賈玉堂
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉惠芳
   thoughts: ""

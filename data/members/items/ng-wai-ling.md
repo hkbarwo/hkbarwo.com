@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ng-wai-ling
   alias: 南燕
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 伍惠玲
   thoughts: ""

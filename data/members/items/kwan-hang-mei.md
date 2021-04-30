@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: kwan-hang-mei
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 關杏美
   thoughts: ""

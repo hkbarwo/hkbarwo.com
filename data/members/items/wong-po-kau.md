@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wong-po-kau
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃寶球
   thoughts: ""

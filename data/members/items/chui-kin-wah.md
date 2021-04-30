@@ -4,7 +4,7 @@ zh:
   position: 衣
   slug: chui-kin-wah
   alias: 徐劍華
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐建華
   thoughts: ""

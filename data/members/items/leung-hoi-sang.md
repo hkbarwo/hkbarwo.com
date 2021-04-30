@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: leung-hoi-sang
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 梁海生
   thoughts: ""

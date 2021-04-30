@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: ho-chi-shing
   alias: 何志成
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何致誠
   thoughts: ""

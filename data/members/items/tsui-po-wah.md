@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: tsui-po-wah
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐寶華
   thoughts: ""

@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: mak-lai-shan-lisa
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 麥麗珊
   thoughts: ""

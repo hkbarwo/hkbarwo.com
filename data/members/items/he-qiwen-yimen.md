@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: he-qiwen-yimen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 何綺雯
   thoughts: ""

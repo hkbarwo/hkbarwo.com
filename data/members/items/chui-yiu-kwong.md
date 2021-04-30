@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: chui-yiu-kwong
   alias: 徐二牛
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐耀光
   thoughts: ""

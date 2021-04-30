@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lam-suk-jan
   alias: 林珍兒
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 林淑珍
   thoughts: ""

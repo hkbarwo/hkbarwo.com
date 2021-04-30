@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: cheung-yuk-pui
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 張育培
   thoughts: ""

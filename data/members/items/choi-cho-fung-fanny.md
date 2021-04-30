@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: choi-cho-fung-fanny
   alias: 賽鳳仙
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 蔡灶鳳
   thoughts: ""

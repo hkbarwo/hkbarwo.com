@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lui-hung-kwong
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 呂洪廣
   thoughts: ""

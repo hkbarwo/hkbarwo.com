@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: lin-jin-ping
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 林錦屏
   thoughts: ""

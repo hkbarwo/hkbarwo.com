@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: luk-yuen-han
   alias: 江穎紅
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陸婉嫻
   thoughts: ""

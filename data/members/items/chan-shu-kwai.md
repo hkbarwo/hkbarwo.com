@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: chan-shu-kwai
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 陳樹桂
   thoughts: ""

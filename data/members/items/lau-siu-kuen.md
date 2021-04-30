@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lau-siu-kuen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 劉少娟
   thoughts: ""

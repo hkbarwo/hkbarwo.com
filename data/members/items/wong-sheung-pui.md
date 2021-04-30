@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: wong-sheung-pui
   alias: 黃培
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 黃相培
   thoughts: ""

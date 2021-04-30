@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: tsui-tong
   alias: 徐堂
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 徐棠
   thoughts: ""

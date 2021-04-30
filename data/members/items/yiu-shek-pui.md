@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yiu-shek-pui
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 姚石培
   thoughts: ""

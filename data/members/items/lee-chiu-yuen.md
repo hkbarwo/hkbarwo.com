@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: lee-chiu-yuen
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李釗源
   thoughts: ""

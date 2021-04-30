@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: li-ming-hang
   alias: 李明亨
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 李明鏗
   thoughts: ""

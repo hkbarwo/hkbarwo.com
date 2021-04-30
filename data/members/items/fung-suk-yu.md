@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: fung-suk-yu
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 馮淑娛
   thoughts: ""

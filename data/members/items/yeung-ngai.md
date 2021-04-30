@@ -4,7 +4,7 @@ zh:
   position: 武
   slug: yeung-ngai
   alias: 楊劍華
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 楊毅
   thoughts: ""

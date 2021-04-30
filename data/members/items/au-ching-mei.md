@@ -4,7 +4,7 @@ zh:
   position: 演
   slug: au-ching-mei
   alias: 
-  photo: /uploads/member/photos/default.png
+  photo: ""
   role: 會友
   title: 歐靜美
   thoughts: ""
