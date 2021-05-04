@@ -8,7 +8,7 @@ zh:
     color1: "#24b7c9"
     color2: "#ebd4a3"
   bgImage: /images/uploads/home/swiper/slides/landing-img-2-2x.jpg
-  subtitle: 粵劇導賞
+  subtitle: 導賞‧回顧
   title: 八和頻道
   bgImageFillStyle: cover
   shortTitle: 推廣
