@@ -3,8 +3,8 @@ zh:
   title: 粵劇新秀演出系列
   shortTitle: 粵劇新秀演出系列
   slug: cantonese-opera-young-talent-showcase
-  logo: /images/uploads/associations/coyt-g.svg
-  logoWhite: /images/uploads/associations/coyt-w.svg
+  logo: /images/uploads/associations/group-1236.svg
+  logoWhite: /images/uploads/associations/group-1241.svg
   commitieesTitle: ""
   commitiees: []
   description: >-
