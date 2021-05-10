@@ -68,8 +68,8 @@ zh:
 
 
     由2012學年開始，學院與保良局成為合作伙伴，攜手推行初中粵劇課程，分別於李城璧中學及唐乃勤初中書院中一級實行。此外，學院陸續舉辦不同的粵劇專業課程，提升各個範疇粵劇從業員的藝術技藝。
-  logo: /images/uploads/associations/coahk-g.svg
-  logoWhite: /images/uploads/associations/coahk-w.svg
+  logo: /images/uploads/associations/group-1240.svg
+  logoWhite: /images/uploads/associations/group-1242.svg
   commitieesTitle: ""
   commitiees: []
 en:
