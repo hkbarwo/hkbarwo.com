@@ -8,6 +8,4 @@ items:
     item: sitemap
   - style: secondary
     item: tnc
-  - style: secondary
-    item: privacy
 ---
