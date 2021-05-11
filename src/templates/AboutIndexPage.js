@@ -5,6 +5,7 @@ import classNames from "classnames";
 
 import useResize from "../utils/react-hooks/useResize";
 import Page from "../components/Page";
+import StrikethroughHeading from "../components/StrikethroughHeading";
 
 function AssociationsDirectory({ ctaTo, data, items }) {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -181,14 +182,8 @@ export default function AboutPage(props) {
         ctaTo={associationsPageItem.localizedPath}
       />
       <section className="max-w-screen-xl w-full mx-auto mt-48 px-14 max-w-2xl w-full mx-auto">
-        <h1 className="flex items-center justify-center max-w-sm mx-auto text-primary text-24 text-center font-bold font-serif">
-          <span className="bg-current h-1 flex-grow" />
-          <span className="mx-20">
-            {excerpt2.title}
-          </span>
-          <span className="bg-current h-1 flex-grow" />
-        </h1>
-        <p className="mt-20 whitespace-pre-line leading-8">{excerpt2.content}</p>
+        <StrikethroughHeading>{excerpt2.title}</StrikethroughHeading>
+        <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center leading-8">{excerpt2.content}</p>
       </section>
       <section className="max-w-screen-xl w-full mx-auto mt-48 md:flex md:mt-60 xl:mt-120">
         <div

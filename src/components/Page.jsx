@@ -91,7 +91,7 @@ export default function Page({
           <section className={classNames({ 'px-14': isNoHorizontalPadding })}>
             {isShowTitle && <StrikethroughHeading>{title}</StrikethroughHeading>}
             {description && (
-              <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center">{description}</p>
+              <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center leading-8">{description}</p>
             )}
           </section>
 
