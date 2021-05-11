@@ -27,5 +27,9 @@ exports.fetchNewsCategories = async ({ graphql }, { locale }) => {
     categoriesData[key] = fields[locale];
   });
 
-  return result.data.categoryOrder.nodes[0].item.map((item) => categoriesData[item]);
+  result.data.categoryOrder.nodes[0].item.forEach((key, order) => {
+    categoriesData[key].order = order;
+  })
+
+  return Object.keys(categoriesData).map(key => categoriesData[key]).sort(({ order: aOrder }, { order: bOrder }) => aOrder - bOrder);
 }
