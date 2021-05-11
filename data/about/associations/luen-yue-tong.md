@@ -1,6 +1,7 @@
 ---
 zh:
-  title: 香港八和會館鑾輿堂有限公司(武打演員會)
+  title: 香港八和會館鑾輿堂有限公司
+  title2: (武打演員會)
   shortTitle: 鑾輿堂
   slug: luen-yue-tong
   logo: /images/uploads/associations/luen-yue-tong-g.svg

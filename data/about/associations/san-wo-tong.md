@@ -1,6 +1,7 @@
 ---
 zh:
-  title: 香港粤劇慎和堂有限公司(事務部)
+  title: 香港粤劇慎和堂有限公司
+  title2: (事務部)
   shortTitle: 事務部
   slug: san-wo-tong
   description: >-
@@ -17,7 +18,8 @@ zh:
   logo: /images/uploads/associations/san-wo-tong-g.svg
   logoWhite: /images/uploads/associations/group-1144.svg
 en:
-  title: 香港粤劇慎和堂有限公司(事務部)
+  title: 香港粤劇慎和堂有限公司
+  title2: (事務部)
   shortTitle: 事務部
   description: >-
     一九五三年香港八和會館成立不久，藉福堂、全福堂、慎成堂三堂提議合併，便成為八和屬下的事務部，至一九八五年香港粵劇慎和堂有限公司正式註冊成立，事務部才獨立起來成為八和屬會之一，理事會兩年一屆。

@@ -39,7 +39,10 @@ function AssociationsDirectory({ ctaTo, data, items }) {
                     alt={item.title}
                   />
                 </div>
-                <div className="mt-44">{item.title}</div>
+                <div className="mt-44">
+                  <div>{item.title}</div>
+                  {!!item.title2 && <div>{item.title2}</div>}
+                </div>
               </Link>
             </li>
           ))}

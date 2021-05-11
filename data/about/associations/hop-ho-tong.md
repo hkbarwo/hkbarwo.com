@@ -1,7 +1,8 @@
 ---
 zh:
   shortTitle: 合和堂
-  title: 香港粤劇合和堂有限公司(服裝道具部)
+  title: 香港粤劇合和堂有限公司
+  title2: (服裝道具部)
   slug: hop-ho-tong
   logo: /images/uploads/associations/hop-ho-tong-g.svg
   logoWhite: /images/uploads/associations/hop-ho-tong-w.svg
@@ -21,5 +22,6 @@ en:
 
     服裝道具部理事會由會員產生。兩年一屆，至今已是第十七屆。理事會會派代表成為八和會館理事，參與八和會館理事會各項決策。每逢八和集會及慶祝華光誕，服務道具成員即可自由報效參與，為母會效力。
   shortTitle: 合和堂
-  title: 香港粤劇合和堂有限公司(服裝道具部)
+  title: 香港粤劇合和堂有限公司
+  title2: (服裝道具部)
 ---

@@ -21,6 +21,7 @@ exports.createAboutAssociationPages = async (params, context) => {
             ${locale} {
               slug
               title
+              title2
               shortTitle
               description
               commitieesTitle
@@ -50,10 +51,11 @@ exports.createAboutAssociationPages = async (params, context) => {
   });
 
   const menus = result.data.order.zh.list.map(slug => {
-    const { title, shortTitle, path, localizedPath, logoWhite } = associations[slug];
+    const { title, title2, shortTitle, path, localizedPath, logoWhite } = associations[slug];
     return {
       slug,
       title,
+      title2,
       shortTitle,
       path,
       localizedPath,

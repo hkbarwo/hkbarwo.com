@@ -10,6 +10,7 @@ export default function AboutAssociationPage(props) {
   const { pageData, subMenus } = pageContext;
   const {
     title,
+    title2 = '',
     description,
     logo,
     commitiees,
@@ -44,7 +45,7 @@ export default function AboutAssociationPage(props) {
           </div>
           <div className="flex-grow mt-48 lg:mt-0">
             <div className="lg:flex items-center justify-between">
-              <h1 className="flex text-primary text-36 font-bold font-serif">{title}</h1>
+              <h1 className="flex text-primary text-36 font-bold font-serif tracking-wide">{title}{title2}</h1>
               {!!website && (
                 <a
                   className="mt-8 lg:mt-0 flex whitespace-nowrap items-center text-tertiary font-medium"

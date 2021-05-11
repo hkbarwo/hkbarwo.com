@@ -1,6 +1,7 @@
 ---
 zh:
-  title: 香港戲劇舞台燈光佈景職工會有限公司(燈光佈景部)
+  title: 香港戲劇舞台燈光佈景職工會有限公司
+  title2: (燈光佈景部)
   shortTitle: 燈光佈景部
   slug: theatre-lighting-and-scenic-artists-association
   logo: /images/uploads/associations/lighting-set-g.svg
@@ -25,7 +26,8 @@ zh:
 en:
   commitieesTitle: ""
   commitiees: []
-  title: 香港戲劇舞台燈光佈景職工會有限公司(燈光佈景部)
+  title: 香港戲劇舞台燈光佈景職工會有限公司
+  title2: (燈光佈景部)
   shortTitle: 燈光佈景部
   description: >-
     「香港八和會館燈光佈景部」(簡稱「畫部工會」)前身隸屬「廣東機器工會」(第三特別區分會)即「佈景燈光工會」。「機器工會」行業包括：汽車、內河船、電工及機械。由於範圍廣，會員多，處事團結，所以有一定的約束力及影響力。

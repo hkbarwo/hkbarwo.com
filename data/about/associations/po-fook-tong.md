@@ -1,6 +1,7 @@
 ---
 zh:
-  title: 香港普福堂粤劇樂師會有限公司(音樂部)
+  title: 香港普福堂粤劇樂師會有限公司
+  title2: (音樂部)
   shortTitle: 普福堂
   slug: po-fook-tong
   logo: /images/uploads/associations/po-fook-tong-g.svg
@@ -36,7 +37,8 @@ zh:
 en:
   commitieesTitle: ""
   commitiees: []
-  title: 香港普福堂粤劇樂師會有限公司(音樂部)
+  title: 香港普福堂粤劇樂師會有限公司
+  title2: (音樂部)
   shortTitle: 普福堂
   description: >-
     一九四九年解放前，香港已有一雁班經常來往港穗的打鑼鼓(主要是八手)從業聚集來往，聚會地點在廟街八十三號公仔友(下手，原名江友)家中；而常在此落腳的有：譚桂華、長人耀(本姓簡)、打鑼樹(羅家樹)、容彰業(打鑼王)、梁金(金鳳凰樂器店東主)等人。
