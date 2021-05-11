@@ -1,6 +1,6 @@
 ---
 zh:
-  title: 顧問
+  title: 贊助人/顧問
   slug: advisors
   url: /about/organization/advisors
 en:
