@@ -213,8 +213,8 @@ collections:
       - name: "bgImage"
         label: "圖片"
         widget: image
-        media_folder: "/static/images/uploads/home/swiper/slides"
-        public_folder: "/images/uploads/home/swiper/slides"
+        # media_folder: "/static/images/uploads/home/swiper/slides"
+        # public_folder: "/images/uploads/home/swiper/slides"
         required: false
       - name: "bgImageFillStyle"
         label: "圖片填滿"
@@ -270,8 +270,8 @@ collections:
         media_library:
           config:
             multiple: true
-        media_folder: "/static/images/uploads/news"
-        public_folder: "/images/uploads/news"
+        # media_folder: "/static/images/uploads/news"
+        # public_folder: "/images/uploads/news"
       - name: "pdfFile"
         label: "PDF 檔案"
         i18n: true
@@ -369,8 +369,8 @@ collections:
                 label: "圖片"
                 i18n: duplicate
                 widget: image
-                media_folder: "/static/images/uploads/about"
-                public_folder: "/images/uploads/about"
+                # media_folder: "/static/images/uploads/about"
+                # public_folder: "/images/uploads/about"
                 required: false
           - name: "associations"
             label: "屬會"
@@ -412,8 +412,8 @@ collections:
             label: "發展策略圖片"
             widget: image
             i18n: true
-            media_folder: "/static/images/uploads/about"
-            public_folder: "/images/uploads/about"
+            # media_folder: "/static/images/uploads/about"
+            # public_folder: "/images/uploads/about"
             required: false
           - name: "sections"
             label: "段落"
@@ -434,8 +434,8 @@ collections:
               - name: "image"
                 label: "圖片"
                 widget: image
-                media_folder: "/static/images/uploads/about"
-                public_folder: "/images/uploads/about"
+                # media_folder: "/static/images/uploads/about"
+                # public_folder: "/images/uploads/about"
                 required: false
       - name: "chronicle"
         label: "歷年大事表"
@@ -563,8 +563,8 @@ collections:
       - name: "image"
         label: "圖片"
         widget: image
-        media_folder: "/static/images/uploads/about/chronicle"
-        public_folder: "/images/uploads/about/chronicle"
+        # media_folder: "/static/images/uploads/about/chronicle"
+        # public_folder: "/images/uploads/about/chronicle"
         required: false
         default: ""
   - name: "commitiees"
@@ -598,8 +598,8 @@ collections:
           - name: "image"
             label: "相片"
             widget: image
-            media_folder: "/static/images/uploads/organization/commitiees"
-            public_folder: "/images/uploads/organization/commitiees"
+            # media_folder: "/static/images/uploads/organization/commitiees"
+            # public_folder: "/images/uploads/organization/commitiees"
             required: false
       - name: "vicePresidents"
         label: "副主席"
@@ -613,8 +613,8 @@ collections:
           - name: "image"
             label: "相片"
             widget: image
-            media_folder: "/static/images/uploads/organization/commitiees"
-            public_folder: "/images/uploads/organization/commitiees"
+            # media_folder: "/static/images/uploads/organization/commitiees"
+            # public_folder: "/images/uploads/organization/commitiees"
             required: false
       - name: "groups"
         label: "組"
@@ -642,8 +642,8 @@ collections:
               - name: "image"
                 label: "相片"
                 widget: image
-                media_folder: "/static/images/uploads/organization/commitiees"
-                public_folder: "/images/uploads/organization/commitiees"
+                # media_folder: "/static/images/uploads/organization/commitiees"
+                # public_folder: "/images/uploads/organization/commitiees"
                 required: false
   - name: "commitieePresidents"
     label: "理事會會長"
@@ -670,8 +670,8 @@ collections:
               - name: "image"
                 label: "相片"
                 widget: image
-                media_folder: "/static/images/uploads/organization/commitiees"
-                public_folder: "/images/uploads/organization/commitiees"
+                # media_folder: "/static/images/uploads/organization/commitiees"
+                # public_folder: "/images/uploads/organization/commitiees"
                 required: false
       - name: "vicePresidents"
         label: "副會長"
@@ -694,8 +694,8 @@ collections:
               - name: "image"
                 label: "相片"
                 widget: image
-                media_folder: "/static/images/uploads/organization/commitiees"
-                public_folder: "/images/uploads/organization/commitiees"
+                # media_folder: "/static/images/uploads/organization/commitiees"
+                # public_folder: "/images/uploads/organization/commitiees"
                 required: false
   - name: "associations"
     label: "屬會"
@@ -720,15 +720,15 @@ collections:
       - name: "logo"
         label: "圖示"
         widget: image
-        media_folder: "/static/images/uploads/associations"
-        public_folder: "/images/uploads/associations"
+        # media_folder: "/static/images/uploads/associations"
+        # public_folder: "/images/uploads/associations"
         required: false
         default: ""
       - name: "logoWhite"
         label: "圖示（反白）"
         widget: image
-        media_folder: "/static/images/uploads/associations"
-        public_folder: "/images/uploads/associations"
+        # media_folder: "/static/images/uploads/associations"
+        # public_folder: "/images/uploads/associations"
         required: false
         default: ""
       - name: "description"
@@ -840,8 +840,8 @@ collections:
       - name: "coverImage"
         label: "封面"
         widget: image
-        media_folder: "/static/uploads/interviews"
-        public_folder: "/uploads/interviews"
+        # media_folder: "/static/uploads/interviews"
+        # public_folder: "/uploads/interviews"
         required: false
       - name: "sections"
         label: "段落"
@@ -873,8 +873,8 @@ collections:
               name: "image"
               label: "圖片"
               widget: image
-              media_folder: "/static/uploads/interviews"
-              public_folder: "/uploads/interviews"
+              # media_folder: "/static/uploads/interviews"
+              # public_folder: "/uploads/interviews"
   - name: "contact"
     label: "📄 聯絡我們頁面"
     i18n: true
@@ -928,8 +928,8 @@ collections:
           - name: "logo"
             label: "標誌"
             widget: image
-            media_folder: "/static/images/uploads/resources/channel"
-            public_folder: "/images/uploads/resources/channel"
+            # media_folder: "/static/images/uploads/resources/channel"
+            # public_folder: "/images/uploads/resources/channel"
           - name: "youtubeLink"
             label: "YouTube 連結"
             widget: string
@@ -1023,8 +1023,8 @@ collections:
       - name: "coverImage"
         label: "圖片"
         widget: image
-        media_folder: "/static/images/uploads/resources/channel"
-        public_folder: "/images/uploads/resources/channel"
+        # media_folder: "/static/images/uploads/resources/channel"
+        # public_folder: "/images/uploads/resources/channel"
         required: false
       - name: "content"
         i18n: true
@@ -1061,8 +1061,8 @@ collections:
         label: "圖片"
         i18n: duplicate
         widget: image
-        media_folder: "static/uploads/resources/photos"
-        public_folder: "/uploads/resources/photos"
+        # media_folder: "static/uploads/resources/photos"
+        # public_folder: "/uploads/resources/photos"
         required: false
       - name: "description"
         i18n: true
@@ -1093,8 +1093,8 @@ collections:
       - name: "image"
         label: "封面"
         widget: image
-        media_folder: "/static/uploads/resources/publications"
-        public_folder: "/uploads/resources/publications"
+        # media_folder: "/static/uploads/resources/publications"
+        # public_folder: "/uploads/resources/publications"
         required: false
       - name: "pdf"
         label: "PDF 檔案"
@@ -1213,8 +1213,8 @@ collections:
         label: "封面"
         widget: image
         allow_multiple: false
-        media_folder: "/static/uploads/images/events"
-        public_folder: "/uploads/images/events"
+        # media_folder: "/static/uploads/images/events"
+        # public_folder: "/uploads/images/events"
         required: false
       - name: "sessions"
         label: "場數"
@@ -1265,8 +1265,8 @@ collections:
           name: "image"
           label: "圖片"
           widget: image
-          media_folder: "/static/uploads/images/events"
-          public_folder: "/uploads/images/events"
+          # media_folder: "/static/uploads/images/events"
+          # public_folder: "/uploads/images/events"
           required: false
       - name: "youtubeVideoID"
         label: "YouTube 影片 ID"
@@ -1296,8 +1296,8 @@ collections:
             widget: image
             required: false
             default: ""
-            media_folder: "/static/uploads/images/support"
-            public_folder: "/uploads/images/support"
+            # media_folder: "/static/uploads/images/support"
+            # public_folder: "/uploads/images/support"
       - name: "offering"
         label: "捐款辦法"
         i18n: true
@@ -1331,15 +1331,15 @@ collections:
                 widget: image
                 required: false
                 default: ""
-                media_folder: "/static/uploads/images/support/offering"
-                public_folder: "/uploads/images/support/offering"
+                # media_folder: "/static/uploads/images/support/offering"
+                # public_folder: "/uploads/images/support/offering"
               - name: "iconDark"
                 label: "圖示（夜間模式）"
                 widget: image
                 required: false
                 default: ""
-                media_folder: "/static/uploads/images/support/offering"
-                public_folder: "/uploads/images/support/offering"
+                # media_folder: "/static/uploads/images/support/offering"
+                # public_folder: "/uploads/images/support/offering"
       - name: "credits"
         label: "嗚謝"
         i18n: true
@@ -1361,8 +1361,8 @@ collections:
               widget: image
               required: false
               default: ""
-              media_folder: "/static/uploads/credits"
-              public_folder: "/uploads/credits"
+              # media_folder: "/static/uploads/credits"
+              # public_folder: "/uploads/credits"
       - name: "souvenirs"
         label: "紀念品"
         i18n: true
@@ -1397,8 +1397,8 @@ collections:
                 widget: image
                 required: false
                 default: ""
-                media_folder: "/static/uploads/souvenirs"
-                public_folder: "/uploads/souvenirs"
+                # media_folder: "/static/uploads/souvenirs"
+                # public_folder: "/uploads/souvenirs"
   - name: "member"
     label: "📄 會員專區頁面"
     i18n: true
@@ -1423,8 +1423,8 @@ collections:
             widget: image
             required: false
             default: ""
-            media_folder: "/static/uploads/member"
-            public_folder: "/uploads/member"
+            # media_folder: "/static/uploads/member"
+            # public_folder: "/uploads/member"
           - name: "registration"
             label: "申請辦法"
             widget: object
@@ -1458,13 +1458,13 @@ collections:
                     widget: image
                     required: false
                     default: ""
-                    media_folder: "/static/uploads/member/apply"
-                    public_folder: "/uploads/member/apply"
+                    # media_folder: "/static/uploads/member/apply"
+                    # public_folder: "/uploads/member/apply"
           - name: "pdf"
             label: "入會表格"
             widget: file
-            media_folder: "/static/uploads/member/apply"
-            public_folder: "/uploads/member/apply"
+            # media_folder: "/static/uploads/member/apply"
+            # public_folder: "/uploads/member/apply"
   - name: "members"
     label: "🗃 會員列表"
     i18n: true
@@ -1522,8 +1522,8 @@ collections:
       - name: "photo"
         label: "照片"
         widget: image
-        media_folder: "/static/uploads/member/photos"
-        public_folder: "/uploads/member/photos"
+        # media_folder: "/static/uploads/member/photos"
+        # public_folder: "/uploads/member/photos"
         required: false
       - name: "description"
         label: "簡介"
