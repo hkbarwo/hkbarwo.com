@@ -1,6 +1,6 @@
 ---
 zh:
-  date: 2021-01-28T19:57:06.304Z
+  date: 2021-02-15T19:57:06.304Z
   title: 防疫抗疫基金4.0「藝術文化界資助計劃」
   slug: winter-outbreak-prevention
   category: notice
