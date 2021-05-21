@@ -10,6 +10,6 @@ zh:
 
 
     在二零二一年二月十一日（農曆年三十晚）子時，第三十九屆理事會代表成員和會館職員出席新春祭禮。
-  images: /images/uploads/news/210217172840.event.1.jpg
+  images: ""
 en: {}
 ---
