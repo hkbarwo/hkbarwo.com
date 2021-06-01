@@ -31,6 +31,6 @@ zh:
   pdfFile: /uploads/104.-「粵劇界支援計劃」第二輪及補遺資助發放通告.pdf
   category: notice
   title: 「防疫抗疫基金．粵劇界支援計劃」第二輪及補遺資助派發安排
-  slug: coronavirus-2nd-addendum
+  slug: the-2nd-cantonese-opera-sector-subsidy-scheme-application
 en: {}
 ---
