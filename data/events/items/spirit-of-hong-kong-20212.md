@@ -17,6 +17,11 @@ zh:
     - isShowInList: false
       label: 演員名單
       content: 龍貫天、衛駿輝、陳鴻進、廖國森、李沛姸、裴駿軒、陳紀婷、梁非同、陳禧瑜、一点鴻、杜詠心、龍玉聲、袁善婷、勞雲龍、李廷𩆨、陳玬橦、韋俊郎
+    - isShowInList: false
+      label: 時間
+      content: |-
+        日場：下午2時30分；
+        夜場：晚上7時30分
   location: 西九龍文化區戲曲中心大劇院
   title: 香江號
   type: other
