@@ -9,6 +9,11 @@ zh:
       label: 演出日期
       content: 2021年5月22日至6月13日
     - isShowInList: false
+      label: 時間
+      content: |-
+        日場：下午2時30分；
+        夜場：晚上7時30分
+    - isShowInList: false
       label: 主辦單位
       content: "\r\n青年同行基金"
     - isShowInList: false
