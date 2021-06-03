@@ -28,5 +28,6 @@ zh:
 
 
     如有任何疑問，可致電 2384 2929，或電郵 rockychan@hkbarwo.com 查詢。
+  pdfFile: /uploads/83.-「防疫抗疫基金」及「八和頻道薪津」支票發放最新安排.pdf
 en: {}
 ---
