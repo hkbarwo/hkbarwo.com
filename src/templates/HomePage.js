@@ -67,7 +67,7 @@ function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
             <div className="md:hidden mt-32 text-18 tracking-wide text-center">{slide.shortTitle}</div>
             <h1 className="mt-16 md:mt-40 text-36 font-bold font-serif tracking-widest text-center md:text-left">{slide.title}</h1>
             <h2 className="mt-4 text-28 font-light font-serif tracking-widest text-center md:text-left">{slide.subtitle}</h2>
-            <p className="mt-44 text-14 leading-8 whitespace-pre-wrap">{slide.description}</p>
+            <p className="mt-44 text-14 leading-8 tracking-wide whitespace-pre-wrap">{slide.description}</p>
             
             {!!slide.buttonLink && (
               slide.buttonLink.page ? (

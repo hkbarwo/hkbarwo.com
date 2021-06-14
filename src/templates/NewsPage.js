@@ -71,7 +71,7 @@ export default function NewsPage({ path, pageContext }) {
                       </div>
                     </div>
                     <div className="flex items-center">
-                      <h2 className="flex-grow text-20">{news.title}</h2>
+                      <h2 className="flex-grow text-20 tracking-wide">{news.title}</h2>
                       <Link
                         className="rounded-full text-white ml-32 px-24 py-10 bg-secondary"
                         to={`/${locale}/news/${news.slug}`}

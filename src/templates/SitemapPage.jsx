@@ -32,7 +32,7 @@ export default function SitemapPage(props) {
 
   return (
     <Page {...props}>
-      <nav className="md:flex flex-grow flex-row-reverse mt-40 leading-8 max-w-screen-lg w-full mx-auto">
+      <nav className="md:flex flex-grow flex-row-reverse mt-40 leading-8 tracking-wide max-w-screen-lg w-full mx-auto">
         <ul className="flex-shrink-0 md:ml-20 mr-48 md:text-right mt-36">
           {sitemap['primary'].map((item) => (
             <li

@@ -73,7 +73,8 @@ module.exports = {
     },
     letterSpacing: {
       normal: '0',
-      wide: '.1em',
+      wide: '.075em',
+      wider: '.1em',
       widest: '.25em',
     },
     aspectRatio: {

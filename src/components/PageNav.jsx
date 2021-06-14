@@ -44,7 +44,7 @@ function SubMenu({ item, pageContext, className }) {
     case 'news': {
       const { newsCategories = [] } = pageContext;
       return (
-        <ul className={classNames('text-18 mt-16', className)}>
+        <ul className={classNames('text-18 mt-16 tracking-wide', className)}>
           {newsCategories.map(({ slug, title }, i) => (
             <li
               key={slug}
@@ -62,7 +62,7 @@ function SubMenu({ item, pageContext, className }) {
     default: {
       if (item.subPages && item.subPages.length) {
         return (
-          <ul className={classNames('text-18 mt-16', className)}>
+          <ul className={classNames('text-18 mt-16 tracking-wide', className)}>
             {item.subPages.map(({ slug, url = '', title }, i) => (
               <li
                 key={slug}

@@ -65,7 +65,7 @@ export default function AboutAssociationPage(props) {
                 </a>
               )}
             </div>
-            <div className="mt-24 whitespace-pre-line leading-8">{description}</div>
+            <div className="mt-24 whitespace-pre-line leading-8 tracking-wide">{description}</div>
           </div>
         </section>
         {!!commitiees && !!commitiees.length && (

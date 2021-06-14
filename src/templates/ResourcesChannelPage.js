@@ -138,7 +138,7 @@ export default function ResourcesChannelPage({ path, pageContext }) {
               </span>
               <span className="bg-current h-1 flex-grow" />
             </h1>
-            <p className="mt-20 whitespace-pre-line leading-8 text-center">{pageData.description}</p>
+            <p className="mt-20 whitespace-pre-line leading-8 tracking-wide text-center">{pageData.description}</p>
             <img className="my-64 mx-auto" src={pageData.logo} alt={pageData.title} style={{ width: 212 }} />
           </section>
           <section>

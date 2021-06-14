@@ -173,7 +173,7 @@ export default function AboutPage(props) {
       <section className="max-w-screen-xl w-full mx-auto mt-48 md:flex md:my-60 xl:mt-120">
         <div className="flex-1 pt-0 p-14 md:ml-48 xl:ml-96 md:mr-60 xl:mr-120">
           <h1 className="text-primary text-36 font-serif font-bold">{introduction.title}</h1>
-          <p className="mt-10 whitespace-pre-line leading-8">{introduction.content}</p>
+          <p className="mt-10 whitespace-pre-line leading-8 tracking-wide">{introduction.content}</p>
         </div>
         <div className="flex-1">
           <img src={introduction.image} alt="" />
@@ -186,11 +186,11 @@ export default function AboutPage(props) {
       />
       <section className="max-w-screen-xl w-full mx-auto mt-48 px-14 max-w-2xl w-full mx-auto">
         <StrikethroughHeading>{excerpt2.title}</StrikethroughHeading>
-        <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center leading-8">{excerpt2.content}</p>
+        <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center leading-8 tracking-wide">{excerpt2.content}</p>
       </section>
       <section className="max-w-screen-xl w-full mx-auto mt-48 md:flex md:mt-60 xl:mt-120">
         <div
-          className="flex-1 mt-10 pt-0 p-14 md:ml-48 xl:ml-96 md:mr-60 xl:mr-120 leading-8"
+          className="flex-1 mt-10 pt-0 p-14 md:ml-48 xl:ml-96 md:mr-60 xl:mr-120 leading-8 tracking-wide"
           dangerouslySetInnerHTML={{ __html: developmentStrategy }}
         />
         <div className="flex-1">
@@ -216,7 +216,7 @@ export default function AboutPage(props) {
             )}
           >
             <h1 className="text-primary text-36 font-serif font-bold">{section.title}</h1>
-            <p className="mt-10 whitespace-pre-line leading-8">{section.content}</p>
+            <p className="mt-10 whitespace-pre-line leading-8 tracking-wide">{section.content}</p>
           </div>
           <div className="flex-1">
             <img src={section.image} alt={section.title} />

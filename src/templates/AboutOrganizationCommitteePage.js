@@ -56,7 +56,7 @@ export default function AboutOrganizationCommitteePage({ path, pageContext }) {
               <h1 className="flex text-primary text-36 font-bold font-serif">
                 {committee.title}
               </h1>
-              <div className="mt-18 leading-8">{committee.period}</div>
+              <div className="mt-18 leading-8 tracking-wide">{committee.period}</div>
             </div>
             {/* <div className="mt-10 text-right sm:mt-0 sm:text-left">
               <a
