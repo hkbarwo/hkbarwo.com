@@ -4,6 +4,14 @@ exports.createPerformancesPages = async (params, context) => {
 
   const result = await graphql(`
     {
+      yts: yamlEventsYts {
+        fields {
+          ${locale} {
+            url
+            title
+          }
+        }
+      }
       events: allMarkdownRemark(
         filter: {
           fileAbsolutePath: {regex: "/data/events/items/"}
@@ -109,7 +117,8 @@ exports.createPerformancesPages = async (params, context) => {
       ...context,
       pageItem,
       pageData: {
-        performances
+        performances,
+        yts: result.data.yts.fields[locale],
       },
     },
   });

@@ -1104,6 +1104,23 @@ collections:
                 label: "電話"
                 i18n: true
                 widget: string
+  - name: "eventsPage"
+    label: "📄 演出及活動頁面"
+    i18n: true
+    files:
+      - name: "youngTalentShowcase"
+        label: "油麻地新秀演出"
+        i18n: true
+        file: "/data/events/yts.yml"
+        fields:
+          - name: "title"
+            label: "名稱"
+            i18n: true
+            widget: string
+          - name: "url"
+            label: "連結"
+            i18n: true
+            widget: string
   - name: "events"
     label: "🗃 演出及活動項目"
     i18n: true

@@ -37,11 +37,14 @@ export default function Page({
   isShowTitle = true,
   isNoHorizontalPadding = false,
   prepend,
+  menuItems: menuItemsProps,
   ...props
 }) {
   const { locale, pageItem, parentPage } = pageContext;
 
   const menuItems = useMemo(() => {
+    if (menuItemsProps) return menuItemsProps;
+
     if (!parentPage || !parentPage.subPages || parentPage.subPages.length === 0) {
       return [];
     }
@@ -50,7 +53,7 @@ export default function Page({
       key: item.slug,
       title: item.title,
     }));
-  }, [parentPage]);
+  }, [parentPage, menuItemsProps]);
 
   const children = isEmpty || !props.children ? (
     <div className="py-72 text-36 text-gray-bc text-center font-serif font-light">
