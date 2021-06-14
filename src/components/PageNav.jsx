@@ -23,17 +23,20 @@ import SiteLogo from "./SiteLogo";
 //   </div>;
 // }
 
-// function LanguageButton({ path, locale, targetLocale, children }) {
-//   return (
-//     <Link
-//       className={classNames(
-//         'mx-10 py-2 hover:opacity-100',
-//         locale === targetLocale ? 'border-b' : 'opacity-40'
-//       )}
-//       to={path.replace(locale, targetLocale)}
-//     >{children}</Link>
-//   )
-// }
+function LanguageButton({ path, locale, targetLocale, children, isDisabled = false }) {
+  return (
+    <Link
+      className={classNames(
+        'mx-10 py-2 hover:opacity-100',
+        locale === targetLocale ? 'border-b' : 'opacity-40',
+        {
+          'pointer-events-none': isDisabled,
+        },
+      )}
+      to={path.replace(locale, targetLocale)}
+    >{children}</Link>
+  )
+}
 
 function SubMenu({ item, pageContext, className }) {
   const { locale } = pageContext;
@@ -78,7 +81,7 @@ function SubMenu({ item, pageContext, className }) {
   return null;
 }
 
-function ExpandableSubMenu({ locale, item, pageContext, onClose }) {
+function ExpandableSubMenu({ item, pageContext, onClose }) {
   const menu = useRef(null);
   const { height: menuHeight } = useResize(menu);
   const [isShowMenu, setIsShowMenu] = useState(false);
@@ -137,7 +140,7 @@ function ExpandableSubMenu({ locale, item, pageContext, onClose }) {
   )
 }
 
-export default function PageNav({ pageContext, pageTitle, isHideMenuButton = false, appendPageTitle }) {
+export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton = false, appendPageTitle }) {
   const { locale } = pageContext;
   const [isOpen, setOpen] = useState(false)
   return (
@@ -241,7 +244,7 @@ export default function PageNav({ pageContext, pageTitle, isHideMenuButton = fal
                 >{pageContext.general.themeSettings.dark}</label>
               </button> */}
 
-              {/* <LanguageButton
+              <LanguageButton
                 path={path}
                 locale={locale}
                 targetLocale="zh"
@@ -250,7 +253,8 @@ export default function PageNav({ pageContext, pageTitle, isHideMenuButton = fal
                 path={path}
                 locale={locale}
                 targetLocale="en"
-              >ENG</LanguageButton> */}
+                isDisabled={true}
+              >ENG</LanguageButton>
 
               <button
                 className="dark:bg-text-primary ml-10 md:ml-32 md:-mr-20"
