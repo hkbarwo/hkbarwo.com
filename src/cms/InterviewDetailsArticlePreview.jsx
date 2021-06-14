@@ -4,18 +4,18 @@ import { Remarkable } from "remarkable";
 import InterviewDetailsArticle from "../components/InterviewDetailsArticle";
 import IntlProvider from "../components/IntlProvider";
 
-export default function InterviewDetailsArticlePreview({ entry, widgetsFor, getAsset }) {
+export default function InterviewDetailsArticlePreview({ entry, widgetsFor }) {
   const md = new Remarkable();
-  const title = entry.getIn(["data", "title"]);
-
-  const sections = widgetsFor("sections").map(section => {
+  const title = entry.getIn(["data", "articleTitle"]);
+  const content = md.render(entry.getIn(["data", "articleContent"]));
+  const photosTitle = entry.getIn(["data", "articlePhotosTitle"]);
+    
+  const photos = widgetsFor("articlePhotos").map(section => {
     const { data } = section.toJS();
-    const content = md.render(data.content);
-    const { images, layout } = data;
+    const { image, caption } = data;
     return {
-      content,
-      layout,
-      images,
+      image,
+      caption,
     };
   });
 
@@ -23,7 +23,9 @@ export default function InterviewDetailsArticlePreview({ entry, widgetsFor, getA
     <IntlProvider language="zh">
       <InterviewDetailsArticle
         title={title}
-        sections={sections}
+        content={content}
+        photosTitle={photosTitle}
+        photos={photos}
       />
     </IntlProvider>
   );

@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "gatsby";
 import classNames from "classnames";
 
-import InterviewListItem from "../components/InterviewListItem";
+import InterviewDetailsArticle from "../components/InterviewDetailsArticle";
 import Page from "../components/Page";
 
 export default function InterviewCategoryPage(props) {
   const { pageContext } = props;
   const { pageData } = pageContext;
-  const { interviewCategory, interviewCategories, interviews } = pageData;
+  const { interviewCategory, interviewCategories } = pageData;
   return (
     <Page
       {...props}
@@ -29,20 +29,14 @@ export default function InterviewCategoryPage(props) {
           ))}
         </ul>
       )}
-      isEmpty={!interviews || !interviews.length}
     >
-      {!!(interviews && interviews.length) && (
-        <ul className="w-full max-w-screen-lg mx-auto">
-          {interviews.map(interview => (
-            <li
-              key={interview.slug}
-              className="mt-40"
-            >
-              <InterviewListItem {...interview} />
-            </li>
-          ))}
-        </ul>
-      )}
+      <InterviewDetailsArticle
+        className="mt-64"
+        title={interviewCategory.articleTitle}
+        content={interviewCategory.articleContent}
+        photosTitle={interviewCategory.articlePhotosTitle}
+        photos={interviewCategory.articlePhotos}
+      />
     </Page>
   );
 }
