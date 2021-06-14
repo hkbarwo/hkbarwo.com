@@ -13,8 +13,28 @@ export default function EventsDetailsArticle(props) {
         <div className="markdown mt-20" dangerouslySetInnerHTML={{ __html: props.content }}/>
         {props.coverImage && (
           <div className="mt-48">
-            <img src={props.coverImage} alt={props.title} />
+            <img
+              className="max-h-1080"
+              src={props.coverImage}
+              alt={props.title}
+            />
           </div>
+        )}
+
+        {!!props.youtubeVideoID && (
+          <div className="mt-56">
+            <YouTubePlayer id={props.youtubeVideoID} />
+          </div>
+        )}
+
+        {!!props.photos && props.photos.length > 0 && (
+          <ul className="mt-56">
+            {props.photos.map((image, i) => (
+              <li key={image} className={classNames({ 'mt-40': i > 0 })}>
+                <img className="w-full max-h-1080" src={image} alt="" />
+              </li>
+            ))}
+          </ul>
         )}
       </section>
 
@@ -69,24 +89,6 @@ export default function EventsDetailsArticle(props) {
             </li>
           )}
         </ul>
-      </section>
-      
-      <section className="xl:col-span-3">
-        {!!props.youtubeVideoID && (
-          <div className="mt-56 max-w-screen-lg mx-auto">
-            <YouTubePlayer id={props.youtubeVideoID} />
-          </div>
-        )}
-
-        {!!props.photos && props.photos.length > 0 && (
-          <ul className="mt-56 max-w-screen-lg mx-auto">
-            {props.photos.map((image, i) => (
-              <li key={image} className={classNames({ 'mt-40': i > 0 })}>
-                <img className="w-full" src={image} alt="" />
-              </li>
-            ))}
-          </ul>
-        )}
       </section>
     </article>
   )
