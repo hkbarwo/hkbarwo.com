@@ -4,5 +4,7 @@ zh:
   title: 香港八和會館陸拾週年特刊
   slug: 60th-anniversary-special-issue
   image: /uploads/screenshot-2021-06-28-at-12.33.29-pm.png
-en: {}
+  pdf: /uploads/131231170507.publish.1.pdf
+en:
+  title: 香港八和會館陸拾週年特刊
 ---
