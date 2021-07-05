@@ -50,6 +50,8 @@ zh:
           url: http://www.utopia.org.hk/
         - title: 天馬音樂藝術團
           url: http://www.tinma.hk/
+        - title: 靈宵・戲曲總會主頁
+          url: http://www.hkxiqu.com/
     - title: 粤劇資訊網站
       links:
         - title: 香港中文大學戲曲資料中心
@@ -70,7 +72,6 @@ zh:
       links:
         - title: 慧妍雅集
           url: http://www.waiyin.org.hk/
-
 en:
   list:
     - title: 政府網頁
