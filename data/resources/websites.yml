@@ -38,6 +38,8 @@ zh:
           url: http://www.muisuetsee.com
     - title: 劇團資訊網頁
       links:
+        - title: 靈宵・戲曲總會主頁
+          url: http://www.hkxiqu.com/
         - title: 粵劇合士上
           url: http://resources.edb.gov.hk/~chiopera/
         - title: 良辰美景仙鳳鳴
@@ -70,7 +72,6 @@ zh:
       links:
         - title: 慧妍雅集
           url: http://www.waiyin.org.hk/
-
 en:
   list:
     - title: 政府網頁
