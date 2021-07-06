@@ -1,6 +1,6 @@
 ---
 zh:
-  date: 2021-07-05T01:52:32.300Z
+  date: 2021-06-26T01:52:32.300Z
   title: 2021會員周年大會通知
   slug: 2021-general-meeting
   category: notice
