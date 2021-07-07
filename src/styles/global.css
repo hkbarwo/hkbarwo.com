@@ -83,3 +83,8 @@
 .ReactModal__Overlay--before-close{
   opacity: 0;
 }
+
+.ais-Highlight-highlighted {
+  color: #FF0000;
+  font-style: unset;
+}

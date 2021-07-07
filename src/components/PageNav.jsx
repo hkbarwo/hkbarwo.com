@@ -6,6 +6,7 @@ import classNames from "classnames";
 
 import useResize from "../utils/react-hooks/useResize";
 
+import { SearchBox } from "./SearchBox";
 import SiteLogo from "./SiteLogo";
 
 // function NewsletterSection(props) {
@@ -207,7 +208,13 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
         <div className="flex flex-col min-h-screen p-16 md:p-40 bg-primary bg-pattern-light bg-repeat">
           <header className="flex items-start">
             <SiteLogo className="w-logo-sm md:w-logo" locale={pageContext.locale} />
-            <div className="flex-grow" />
+            <div className="flex-grow flex justify-center">
+              <SearchBox
+                className="hidden md:block"
+                locale={pageContext.locale}
+                onSearch={() => setOpen(false)}
+              />
+            </div>
             <div className="flex items-center">
               {/* <button
                 className={classNames('flex items-center mx-10 hover:opacity-100', { 'opacity-40': false })}
@@ -276,6 +283,13 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
               </button>
             </div>
           </header>
+          
+          <SearchBox
+            className="mt-24 md:hidden"
+            locale={pageContext.locale}
+            onSearch={() => setOpen(false)}
+          />
+
           <nav className="hidden md:flex flex-grow flex-row-reverse mt-40">
             <ul className="flex-shrink-0 ml-20 mr-48 text-right">
               {pageContext.menus['primary'].map((item, i) => (

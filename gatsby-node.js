@@ -1,5 +1,6 @@
 const merge = require('deepmerge');
 
+const { createAlgoliaSearchAdminClient } = require('./src/utils/algolia');
 const { fetchSiteData } = require('./src/utils/gatsby/general');
 const { fetchMenus } = require('./src/utils/gatsby/menus');
 const { fetchPageItems } = require('./src/utils/gatsby/pages');
@@ -16,6 +17,7 @@ const { createSitemapPage } = require('./src/utils/gatsby/pages/sitemap');
 const { createPrivacyPage } = require('./src/utils/gatsby/pages/privacy');
 const { createTncPage } = require('./src/utils/gatsby/pages/tnc');
 const { createRemarkable } = require('./src/utils/gatsby/markdown');
+const { createSearchPage } = require('./src/utils/gatsby/pages/search');
 
 const defaultLocale = 'zh';
 const locales = ['zh', 'en'];
@@ -78,6 +80,7 @@ exports.onCreateNode = ({ node, actions }) => {
 exports.createPages = async (params) => {
   const { actions } = params;
   params.md = createRemarkable();
+  params.algolia = await createAlgoliaSearchAdminClient();
 
   for (let i = 0; i < locales.length; i++) {
     const locale = locales[i];
@@ -119,6 +122,7 @@ exports.createPages = async (params) => {
         createPrivacyPage(params, context),
         createTncPage(params, context),
       ]),
+      createSearchPage(params, context),
     ]);
     await createSitemapPage(params, {
       ...context,

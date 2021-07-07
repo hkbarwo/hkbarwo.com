@@ -1,4 +1,6 @@
-exports.createNewsPages = async ({ actions, graphql, md }, context) => {
+const cheerio = require('cheerio');
+
+exports.createNewsPages = async ({ actions, graphql, md, algolia }, context) => {
   const { locale, defaultLocale, newsCategories, pages: { news: pageItem } } = context;
 
   const newsPageTemplate = require.resolve('../../../templates/NewsPage.js');
@@ -38,6 +40,8 @@ exports.createNewsPages = async ({ actions, graphql, md }, context) => {
 
   const allNews = [];
 
+  const algoliaObjects = [];
+
   // Build news details page
   result.data.news.nodes.forEach(({ fields }) => {
     const news = fields[locale];
@@ -66,8 +70,23 @@ exports.createNewsPages = async ({ actions, graphql, md }, context) => {
         newsItem: news,
         newsCategories,
       },
-    }); 
+    });
+
+    const $ = cheerio.load(news.content, null, false);
+    const paragraphs = $('p');
+    for (let i = 0; i < paragraphs.length; i++) {
+      algoliaObjects.push({
+        objectID: `${locale}-news-${news.slug}-${i}`,
+        pageName: pageItem.title,
+        name: news.title,
+        content: $(paragraphs[i]).text(),
+        permalink: localizedPath,
+        locale: locale,
+      });
+    }
   });
+
+  await algolia.saveObjects(algoliaObjects);
 
   newsCategories.forEach((category) => {
     const path = `${pageItem.url}/${category.slug}`;
