@@ -49,7 +49,8 @@ function SubMenu({ item, pageContext, className }) {
           {newsCategories.map(({ slug, title }, i) => (
             <li
               key={slug}
-              className={classNames({ 'mt-16': i !== 0 })}
+              className={classNames(['menu-item', { 'mt-16': i !== 0 }])}
+              style={{ animationDelay: `${i * 0.1}s` }}
             >
               <Link to={`/${locale}/news/${slug}`}>
                 {title}
@@ -67,7 +68,8 @@ function SubMenu({ item, pageContext, className }) {
             {item.subPages.map(({ slug, url = '', title }, i) => (
               <li
                 key={slug}
-                className={classNames({ 'mt-16': i !== 0 })}
+                className={classNames(['menu-item', { 'mt-16': i !== 0 }])}
+                style={{ animationDelay: `${i * 0.1}s` }}
               >
                 <Link to={`/${locale}${url}`}>
                   {title}
@@ -82,14 +84,15 @@ function SubMenu({ item, pageContext, className }) {
   return null;
 }
 
-function ExpandableSubMenu({ item, pageContext, onClose }) {
+function ExpandableSubMenu({ item, pageContext, onClose, style }) {
   const menu = useRef(null);
   const { height: menuHeight } = useResize(menu);
   const [isShowMenu, setIsShowMenu] = useState(false);
   return (
     <li
-      className="text-center"
+      className="text-center menu-item"
       key={item.slug}
+      style={style}
     >
       <div className="relative w-full flex items-center justify-center py-4 border-b border-current text-20 text-center font-bold font-serif tracking-wide">
         <Link
@@ -190,7 +193,8 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
       
       <Modal
         isOpen={isOpen}
-        closeTimeoutMS={200}
+        closeTimeoutMS={500}
+        ariaHideApp={false}
         style={{
           overlay: {
             zIndex: 50,
@@ -294,8 +298,9 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
             <ul className="flex-shrink-0 ml-20 mr-48 text-right">
               {pageContext.menus['primary'].map((item, i) => (
                 <li
-                  className={classNames({ 'mt-20': i > 0 })}
                   key={item.slug}
+                  className={classNames(['menu-item', { 'mt-20': i > 0 }])}
+                  style={{ animationDelay: `${i * 0.1}s` }}
                 >
                   <Link
                     className={classNames(
@@ -328,12 +333,13 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
           </nav>
           <nav className="md:hidden mt-32">
             <ul>
-              {pageContext.menus['primary-mobile'].map(item => (
+              {pageContext.menus['primary-mobile'].map((item, i) => (
                 <ExpandableSubMenu
                   key={item.slug}
                   item={item}
                   locale={locale}
                   pageContext={pageContext}
+                  style={{ animationDelay: `${i * 0.1}s` }}
                   onClose={() => { setOpen(false) }}
                 />
               ))}

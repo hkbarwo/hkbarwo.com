@@ -73,18 +73,41 @@
 
 .ReactModal__Overlay {
   opacity: 0;
-  transition: opacity 200ms ease-in-out;
+  transform: translateY(-100%);
+  transition-property: opacity, transform;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.ReactModal__Overlay--after-open{
+.ReactModal__Overlay--after-open {
   opacity: 1;
+  transform: translateY(0);
 }
 
-.ReactModal__Overlay--before-close{
-  opacity: 0;
+.ReactModal__Overlay--before-close {
+  transform: translateY(-100%);
+  transition-timing-function: ease-in;
 }
 
 .ais-Highlight-highlighted {
   color: #FF0000;
   font-style: unset;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.menu-item {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
 }
