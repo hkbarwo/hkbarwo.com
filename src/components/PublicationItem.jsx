@@ -5,7 +5,7 @@ import BlueButton from "./BlueButton";
 export default function PublicationItem(props) {
   return (
     <div>
-      <div className="bg-gray-e5 mb-20 aspect-w-4 aspect-h-3">
+      <div className="bg-gray-e5 mb-20 aspect-w-3 aspect-h-4">
         <img className="object-cover" src={props.image} alt={props.title} />
       </div>
       <div className="mb-20 text-20 font-600">{props.title}</div>
