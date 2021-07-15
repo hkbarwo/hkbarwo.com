@@ -251,7 +251,7 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
                 >{pageContext.general.themeSettings.dark}</label>
               </button> */}
 
-              <LanguageButton
+              {/* <LanguageButton
                 path={path}
                 locale={locale}
                 targetLocale="zh"
@@ -261,7 +261,7 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
                 locale={locale}
                 targetLocale="en"
                 isDisabled={true}
-              >ENG</LanguageButton>
+              >ENG</LanguageButton> */}
 
               <button
                 className="dark:bg-text-primary ml-10 md:ml-32 md:-mr-20"
