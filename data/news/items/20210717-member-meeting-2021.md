@@ -8,9 +8,6 @@ zh:
     ![](/uploads/whatsapp-image-2021-07-17-at-3.15.47-pm.jpeg)
 
 
-    新聞公佈
-
-
     致：各大傳媒編輯、編採主任
 
 
