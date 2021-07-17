@@ -37,7 +37,8 @@ zh:
 
     香港八和會館2021會員周年大會相片：
 
-    https://drive.google.com/drive/folders/1Uq-HYj0HttH7CEXzEZnh4J181VrAhuQd?usp=sharing
+    <https://drive.google.com/drive/folders/1Uq-HYj0HttH7CEXzEZnh4J181VrAhuQd?usp=sharing>
   images: ""
+  pdfFile: /uploads/2021會員周年大會順利舉行.pdf
 en: {}
 ---
