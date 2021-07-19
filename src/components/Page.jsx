@@ -38,6 +38,7 @@ export default function Page({
   isNoHorizontalPadding = false,
   prepend,
   menuItems: menuItemsProps,
+  menuItemGetActive,
   ...props
 }) {
   const { locale, pageItem, parentPage } = pageContext;
@@ -63,26 +64,26 @@ export default function Page({
     props.children
   );
 
-  const title = pageTitle || pageItem.title;
-  const description = pageDescription || pageItem.description;
+  const title = pageTitle || (pageItem && pageItem.title) || '';
+  const description = pageDescription || (pageItem && pageItem.description) || '';
 
   return (
     <IntlProvider language={locale}>
       <PageMeta
-        title={pageItem.title}
+        title={title}
         description={description}
       />
       <main className="flex flex-col min-h-screen overflow-x-hidden">
         <PageNav
           {...{ path, pageContext }}
-          pageTitle={parentPage ? parentPage.title : pageItem.title}
+          pageTitle={parentPage ? parentPage.title : title}
           appendPageTitle={appendPageTitle}
         />
 
         <PageHeader
           locale={locale}
           menuItems={menuItems}
-          getActive={({ key }) => key === pageItem.slug}
+          getActive={menuItemGetActive || (({ key }) => key === pageItem.slug)}
         />
 
         <article

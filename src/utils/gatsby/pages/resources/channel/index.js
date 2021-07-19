@@ -51,7 +51,6 @@ exports.createResourcesChannelPages = async (params, context) => {
   const common = result.data.common.fields[locale];
 
   const indexPath = '/resources/channel';
-  const localizedIndexPath = `/${locale}${indexPath}`
 
   const categoryData = {};
   result.data.categories.nodes.forEach(({ fields: { [locale]: category }}) => {
@@ -93,7 +92,7 @@ exports.createResourcesChannelPages = async (params, context) => {
 
   const categories = common.categories.map(slug => categoryData[slug]);
 
-  categories.forEach(category => {
+  categories.forEach((category, i) => {
     if (locale === defaultLocale) {
       actions.createRedirect({
         fromPath: category.path,
@@ -101,32 +100,37 @@ exports.createResourcesChannelPages = async (params, context) => {
       });
     }
 
+    if (i === 0) {
+      actions.createRedirect({
+        fromPath: indexPath,
+        toPath: category.localizedPath,
+      });
+    }
+
+    const isChannel = category.slug === 'cantonese-opera-online-course';
+
+    category.items.sort((a, b) => {
+      if (isChannel) {
+        return a.slug.localeCompare(b.slug);
+      }
+      return b.date.localeCompare(a.date);
+    });
+
+    const pageContext = {
+      ...context,
+      categories,
+      pageData: category,
+    }
+
+    if (isChannel) {
+      pageContext.channel = common;
+    }
+
     actions.createPage({
       path: category.localizedPath,
       component: require.resolve('../../../../../templates/ResourcesChannelCategoryPage.js'),
-      context: {
-        ...context,
-        categories,
-        pageData: category,
-      },
+      context: pageContext,
     });
-  });
-
-  if (locale === defaultLocale) {
-    actions.createRedirect({
-      fromPath: indexPath,
-      toPath: localizedIndexPath,
-    });
-  }
-
-  actions.createPage({
-    path: localizedIndexPath,
-    component: require.resolve('../../../../../templates/ResourcesChannelPage.js'),
-    context: {
-      ...context,
-      categories,
-      pageData: common,
-    },
   });
 
   return Promise.resolve({ categories });
