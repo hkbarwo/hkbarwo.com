@@ -4,7 +4,7 @@ zh:
   title: 「第六輪資助：保基層就業項目」申請資料及資助準則
   slug: the-6th-cantonese-opera-sector-subsidy-scheme-application
   category: notice
-  content: >-
+  content: >
     **「第六輪資助：保基層就業項目」可能是最後一輪資助 實質資助額須視乎申請數量 有機會少於2萬元**
 
 
@@ -160,5 +160,11 @@ zh:
 
 
     *逾期提交或資料不足者，資助將不獲處理*
+
+
+    「粵劇界支援計劃 第六輪 保基層就業計劃 - 申請表 v0720」Excel檔案，可從以下連結下載：<https://drive.google.com/file/d/1qEnG-hLlUb8ZVXvSK0nAxfKyRToqwFuW/view?usp=sharing>
+
+
+    「第六輪資助：保基層就業項目」公告全文、「粵劇界支援計劃 第六輪保基層就業計劃-資助準則」、「粵劇界支援計劃 第六輪保基層就業計劃-申請表」之PDF檔，可點擊連結下載：
 en: {}
 ---
