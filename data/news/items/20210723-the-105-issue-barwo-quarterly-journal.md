@@ -5,23 +5,28 @@ zh:
   slug: the-105-issue-barwo-quarterly-journal
   category: report
   pdfFile: /uploads/105_compressed.pdf
-  content: |-
-    
+  content: >-
+    ![經典例戲《玉皇登殿》圓滿演出](/uploads/105_compressed-page-001.jpg)
 
-    ![](/uploads/105_compressed-page-001.jpg)
 
-    ![](/uploads/105_compressed-page-002.jpg)
+    ![《仙姬大送子》](/uploads/105_compressed-page-002.jpg)
 
-    ![](/uploads/105_compressed-page-003.jpg)
 
-    ![](/uploads/105_compressed-page-004.jpg)
+    ![「 粵港澳粵劇群星匯」《胡不歸》澳門站演出](/uploads/105_compressed-page-003.jpg)
 
-    ![](/uploads/105_compressed-page-005.jpg)
 
-    ![](/uploads/105_compressed-page-006.jpg)
+    ![上海「香港文化周」崑粵聯合演出《白蛇傳》 | 慶祝華光先師寶誕聯歡晚宴](/uploads/105_compressed-page-004.jpg)
 
-    ![](/uploads/105_compressed-page-007.jpg)
 
-    ![](/uploads/105_compressed-page-008.jpg)
+    ![華光先師寶誕 《香花山大賀壽》](/uploads/105_compressed-page-005.jpg)
+
+
+    ![粵劇新秀演出系列2019-20——重點劇目劇照回顧｜副主席新劍郎出席授勳典禮](/uploads/105_compressed-page-006.jpg)
+
+
+    ![粵劇新秀·八和粵劇學院交流演出｜理事拜訪新加坡八和會館｜八和粵劇學員參加「兒童青少年粵劇 折子戲大賽｜香港演員會理事就職禮｜會館賀壽](/uploads/105_compressed-page-007.jpg)
+
+
+    ![發放任白基金會利是｜粵劇日2019｜2019大事回顧｜香港八和會館辦公室報告及會議議程](/uploads/105_compressed-page-008.jpg)
 en: {}
 ---
