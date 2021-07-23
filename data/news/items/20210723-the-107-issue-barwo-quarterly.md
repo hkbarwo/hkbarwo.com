@@ -1,6 +1,6 @@
 ---
 zh:
-  date: 2021-08-20T07:36:00.708Z
+  date: 2020-08-21T08:15:58.707Z
   title: 第107期《八和匯報》
   slug: the-107-issue-barwo-quarterly
   category: report
