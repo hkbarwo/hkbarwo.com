@@ -92,17 +92,20 @@ exports.createResourcesChannelPages = async (params, context) => {
 
   const categories = common.categories.map(slug => categoryData[slug]);
 
-  categories.forEach((category, i) => {
-    if (locale === defaultLocale) {
+  categories.forEach((category, i) => {  
+    if (i === 0) {
+      if (locale === defaultLocale) {
+        actions.createRedirect({
+          fromPath: '/resources',
+          toPath: category.localizedPath,
+        });
+      }
       actions.createRedirect({
-        fromPath: category.path,
+        fromPath: `/${locale}/resources`,
         toPath: category.localizedPath,
       });
-    }
-
-    if (i === 0) {
       actions.createRedirect({
-        fromPath: indexPath,
+        fromPath: `/${locale}${indexPath}`,
         toPath: category.localizedPath,
       });
     }
@@ -116,20 +119,16 @@ exports.createResourcesChannelPages = async (params, context) => {
       return b.date.localeCompare(a.date);
     });
 
-    const pageContext = {
-      ...context,
-      categories,
-      pageData: category,
-    }
-
-    if (isChannel) {
-      pageContext.channel = common;
-    }
-
     actions.createPage({
       path: category.localizedPath,
       component: require.resolve('../../../../../templates/ResourcesChannelCategoryPage.js'),
-      context: pageContext,
+      context: {
+        ...context,
+        categories,
+        pageData: category,
+        channel: common,
+        isChannel,
+      },
     });
   });
 
