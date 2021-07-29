@@ -1,7 +1,7 @@
 ---
 zh:
   date: 2021-08-02T16:00:00.000Z
-  title: 八和足球隊
+  title: 八和足球隊會員練習賽（8月）
   slug: barwo-football-team-august-2021-training
   metadata:
     - label: 活動日期
