@@ -1,7 +1,7 @@
 ---
 zh:
   date: 2021-07-05T08:00:11.432Z
-  title: 八和足球隊會員對賽（7月）
+  title: 八和足球隊練習賽（7月）
   slug: barwo-soccer-team-july-2021
   metadata:
     - label: 活動日期
