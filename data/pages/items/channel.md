@@ -4,5 +4,5 @@ zh:
   slug: channel
   url: /resources/channel
 en:
-  title: 八和頻道
+  title: Barwo Channel
 ---
