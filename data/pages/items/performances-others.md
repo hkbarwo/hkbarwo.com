@@ -5,6 +5,6 @@ zh:
   url: /performances/others
   wip: false
 en:
-  title: 其他團體演出
+  title: Performances of Local Troupes
   wip: false
 ---
