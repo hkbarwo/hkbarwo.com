@@ -4,5 +4,5 @@ zh:
   slug: introduction
   url: /about
 en:
-  title: 八和會館
+  title: BARWO
 ---
