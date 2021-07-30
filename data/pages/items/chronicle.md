@@ -4,5 +4,5 @@ zh:
   slug: chronicle
   url: /about/chronicle
 en:
-  title: 歷年大事表
+  title: History and Milestones
 ---
