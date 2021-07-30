@@ -5,6 +5,6 @@ zh:
   url: /performances/upcoming
   wip: false
 en:
-  title: 即將上演
+  title: UpComing Performances
   wip: false
 ---
