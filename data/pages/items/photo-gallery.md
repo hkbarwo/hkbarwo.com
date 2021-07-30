@@ -5,6 +5,6 @@ zh:
   slug: photo-gallery
   wip: false
 en:
-  title: 圖片珍藏
+  title: Photo Album
   wip: false
 ---
