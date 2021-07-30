@@ -5,6 +5,6 @@ zh:
   url: /events/past
   wip: false
 en:
-  title: 過往活動
+  title: Past Events
   wip: false
 ---
