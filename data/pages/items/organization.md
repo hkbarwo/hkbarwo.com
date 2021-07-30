@@ -9,5 +9,9 @@ zh:
     - advisors
   wip: false
 en:
-  title: 組織架構
+  title: Structure
+  subPages:
+    - committee
+    - presidents
+    - advisors
 ---
