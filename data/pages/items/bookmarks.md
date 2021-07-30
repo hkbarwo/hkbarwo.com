@@ -5,6 +5,6 @@ zh:
   url: /resources/bookmarks
   wip: false
 en:
-  title: 網站連結
+  title: External Link
   wip: true
 ---
