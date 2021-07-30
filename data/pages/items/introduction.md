@@ -4,5 +4,5 @@ zh:
   slug: introduction
   url: /about
 en:
-  title: BARWO
+  title: Barwo
 ---
