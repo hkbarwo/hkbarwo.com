@@ -5,6 +5,6 @@ zh:
   url: /performances/celebrations
   wip: false
 en:
-  title: 神功戲資訊
+  title: Ritual Performances Information
   wip: false
 ---
