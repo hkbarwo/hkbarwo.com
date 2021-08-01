@@ -26,5 +26,6 @@ zh:
 
     二零二一年七月二十三日\r\n"
   pdfFile: /uploads/陳好逑辭世＿公告.pdf
-en: {}
+en:
+  category: notice
 ---
