@@ -6,8 +6,7 @@ zh:
   category: report
   pdfFile: /uploads/the-108-issue-barwo-quarterly-journal.pdf
   content: |-
-    ![](/uploads/108_compressed-page-001.jpg)
-
+    
     ![第108期《八和匯報》第一頁](/uploads/108_compressed-page-001.jpg "第108期《八和匯報》第一頁")
 
     ![第108期《八和匯報》第二頁](/uploads/108_compressed-page-002.jpg "第108期《八和匯報》第二頁")
