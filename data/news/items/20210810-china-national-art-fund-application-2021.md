@@ -2,7 +2,7 @@
 zh:
   date: 2021-08-10T07:39:36.805Z
   title: 國家藝術基金現正接受本港藝術團體及人士申請
-  slug: china-national-art-fund-application-2021
+  slug: china-national-art-fund-application-2022
   category: notice
   content: >-
     國家藝術基金現正接受本港藝術團體及人士申請，按基金申報指南的資料，粵劇表演團體或青年編劇可考慮申請以下項目：
