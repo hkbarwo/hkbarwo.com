@@ -34,6 +34,6 @@ zh:
     香港八和會館
 
     2021年8月10日
-  pdfFile: /uploads/國家藝術基金.pdf
+  pdfFile: /uploads/國家藝術基金_rev.pdf
 en: {}
 ---
