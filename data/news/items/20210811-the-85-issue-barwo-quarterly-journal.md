@@ -1,6 +1,6 @@
 ---
 zh:
-  date: 2021-12-20T16:00:00.000Z
+  date: 2014-12-20T16:00:00.000Z
   title: 第85期《八和匯報》
   slug: the-85-issue-barwo-quarterly-journal
   category: report
