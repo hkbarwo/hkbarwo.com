@@ -20,10 +20,10 @@ zh:
     - isShowInList: false
       label: 地點
       content: 上水古洞村
-  date: 2021-04-26T06:24:42.251Z
+  date: 2022-03-17T06:24:42.251Z
   title: 2022年（壬寅年）表演三
   type: celebration
   slug: 2022-cantonese-opera-performence-kwu-tung
 en:
-  date: 2021-04-26T06:24:42.251Z
+  date: 2022-03-17T06:24:42.251Z
 ---
