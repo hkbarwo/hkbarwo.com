@@ -20,10 +20,10 @@ zh:
     - isShowInList: false
       label: 地點
       content: 糧船灣
-  date: 2021-04-19T04:41:14.422Z
+  date: 2022-04-20T04:41:14.422Z
   title: 2022年（壬寅年）表演二
   slug: 2022-cantonese-opera-performence-high-island
   type: celebration
 en:
-  date: 2021-04-19T04:41:14.422Z
+  date: 2022-04-20T04:41:14.422Z
 ---
