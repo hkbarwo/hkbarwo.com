@@ -20,10 +20,10 @@ zh:
     - isShowInList: false
       label: 地點
       content: 坑口區、將軍澳
-  date: 2021-04-14T01:47:50.336Z
+  date: 2022-05-06T01:47:50.336Z
   title: 2022年（壬寅年）表演一
   slug: 2022-cantonese-opera-performence-hang-hau
   type: celebration
 en:
-  date: 2021-04-14T01:47:50.336Z
+  date: 2022-05-06T01:47:50.336Z
 ---
