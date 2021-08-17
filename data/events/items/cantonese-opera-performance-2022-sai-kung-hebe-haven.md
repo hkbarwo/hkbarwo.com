@@ -1,6 +1,6 @@
 ---
 zh:
-  sessions: 1
+  sessions: 9
   metadata:
     - isShowInList: true
       label: 演出日期
