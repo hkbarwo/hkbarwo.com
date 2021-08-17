@@ -4,7 +4,7 @@ zh:
   logo: /images/uploads/associations/san-wo-tong-g.svg
   slug: san-wo-tong
   commitieesTitle: ""
-  title: 香港粤劇慎和堂有限公司
+  title: 香港粵劇慎和堂有限公司
   title2: (事務部)
   shortTitle: 慎和堂
   description: >-
