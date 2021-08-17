@@ -1,6 +1,6 @@
 ---
 zh:
-  sessions: 1
+  sessions: 9
   metadata:
     - isShowInList: true
       label: 演出日期
@@ -18,7 +18,7 @@ zh:
       label: 演員
       content: 龍貫天、鄭詠梅、梁煒康、符樹旺、黎耀威、王潔清
     - isShowInList: false
-      label: 地回
+      label: 地點
       content: 東涌
   date: 2021-09-22T10:26:36.645Z
   slug: magic-stage-schedule-2021-5
