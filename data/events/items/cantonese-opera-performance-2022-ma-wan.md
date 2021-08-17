@@ -20,10 +20,10 @@ zh:
     - isShowInList: false
       label: 地點
       content: 馬灣
-  date: 2021-06-08T06:04:01.375Z
+  date: 2022-04-20T01:28:56.047Z
   type: celebration
   title: 2022年（壬寅年）表演四
   slug: cantonese-opera-performance-2022-ma-wan
 en:
-  date: 2021-06-08T06:04:01.375Z
+  date: 2022-04-20T01:28:56.047Z
 ---
