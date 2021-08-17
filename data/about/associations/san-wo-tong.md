@@ -1,9 +1,12 @@
 ---
 zh:
+  commitiees: []
+  logo: /images/uploads/associations/san-wo-tong-g.svg
+  slug: san-wo-tong
+  commitieesTitle: ""
   title: 香港粤劇慎和堂有限公司
   title2: (事務部)
-  shortTitle: 事務部
-  slug: san-wo-tong
+  shortTitle: 慎和堂
   description: >-
     一九五三年香港八和會館成立不久，藉福堂、全福堂、慎成堂三堂提議合併，便成為八和屬下的事務部，至一九八五年香港粵劇慎和堂有限公司正式註冊成立，事務部才獨立起來成為八和屬會之一，理事會兩年一屆。
 
@@ -13,9 +16,6 @@ zh:
     事務部曾於一九八三年四月假座大會堂舉辦「紅伶名流閏秀粵曲歌唱晚會」籌款義演，時黃炎為理事長；後在一九八五年，即成立有限公司那一年，又為買會址事宜舉行籌款義演。事務部擁有的物業包括有現今的會址，即九龍油麻地寧波街21號嘉泰大廈四樓及一收租單位，位於九龍佐敦道偉澄街偉澄商場229室。
 
     慎和堂會員大部份為班政家、戲班經理，現今會員人數不足一百人，於2003年理事長馬國超的開放政策下(他認為所有願意發展粵劇，投資粵劇的人都應予以入會)，相信會員人數會有所增加。
-  commitieesTitle: ""
-  commitiees: []
-  logo: /images/uploads/associations/san-wo-tong-g.svg
   logoWhite: /images/uploads/associations/group-1144.svg
 en:
   title: 香港粤劇慎和堂有限公司
