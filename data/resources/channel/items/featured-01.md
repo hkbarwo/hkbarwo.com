@@ -9,4 +9,5 @@ zh:
   youtubeVideoID: https://www.youtube.com/watch?v=NFWYprnLNcQ&list=PLI1E8yYXaEaefKn29LTgJau6aibynaLn5&index=3&ab_channel=%E5%85%AB%E5%92%8C%E9%A0%BB%E9%81%93
 en:
   date: 2021-08-18T03:44:08.906Z
+  category: featured-performances
 ---
