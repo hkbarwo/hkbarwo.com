@@ -1,6 +1,6 @@
 ---
 zh:
-  title: 香港粤劇演員會有限公司
+  title: 香港粵劇演員會有限公司
   title2: (演員組)
   shortTitle: 演員組
   slug: cantonese-opera-artists-club
