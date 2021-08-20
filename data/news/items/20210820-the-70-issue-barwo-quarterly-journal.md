@@ -22,5 +22,6 @@ zh:
 
     ![八和粵劇學院結業演出](/uploads/70_compressed_page-0006.jpg "八和粵劇學院結業演出")
   pdfFile: /uploads/70_compressed.pdf
-en: {}
+en:
+  category: report
 ---
