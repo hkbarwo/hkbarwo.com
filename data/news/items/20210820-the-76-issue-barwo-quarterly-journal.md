@@ -28,5 +28,7 @@ zh:
 
 
     ![四位新進演員開始進修及實習 | 讓我們懷念的粤劇工作者](/uploads/76_page-0008.jpg "四位新進演員開始進修及實習 | 讓我們懷念的粤劇工作者")
-en: {}
+  pdfFile: /uploads/76.pdf
+en:
+  category: report
 ---
