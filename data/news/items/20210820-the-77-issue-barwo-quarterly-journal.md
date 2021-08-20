@@ -29,5 +29,6 @@ zh:
 
     ![八和足球隊節目精彩連場 | 香港八和會館2012籌款演出記者招待會 | 2012年八和粵劇學院匯報演出](/uploads/77-compressed_compressed-page-008.jpg "八和足球隊節目精彩連場 | 香港八和會館2012籌款演出記者招待會 | 2012年八和粵劇學院匯報演出")
   pdfFile: /uploads/77-compressed_compressed.pdf
-en: {}
+en:
+  category: report
 ---
