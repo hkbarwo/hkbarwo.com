@@ -29,5 +29,6 @@ zh:
 
     ![最新消息：捐款與餽贈 陳少棠親筆來函：「粵劇之魂、行家歸心」 | 鄭文雅贈支票、攝影集 | 譚初贈書（泥印本：開山曲）](/uploads/75_compressed_page-0008.jpg "最新消息：捐款與餽贈 陳少棠親筆來函：「粵劇之魂、行家歸心」 | 鄭文雅贈支票、攝影集 | 譚初贈書（泥印本：開山曲）")
   pdfFile: /uploads/75_compressed.pdf
-en: {}
+en:
+  category: report
 ---
