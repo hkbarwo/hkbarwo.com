@@ -29,5 +29,6 @@ zh:
 
     ![2010年度會員週年大會](/uploads/71_compressed_page-0008.jpg "2010年度會員週年大會")
   pdfFile: /uploads/71_compressed.pdf
-en: {}
+en:
+  category: report
 ---
