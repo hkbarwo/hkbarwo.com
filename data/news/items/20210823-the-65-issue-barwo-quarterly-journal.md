@@ -29,5 +29,6 @@ zh:
 
     ![葉紹德「心底的話」 | 香港八和會館春祭  | 讓我們懷念的粵劇工作者](/uploads/65_compressed_page-0008.jpg "葉紹德「心底的話」 | 香港八和會館春祭  | 讓我們懷念的粵劇工作者")
   pdfFile: /uploads/65_compressed.pdf
-en: {}
+en:
+  category: report
 ---
