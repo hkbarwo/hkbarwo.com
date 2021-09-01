@@ -28,5 +28,6 @@ zh:
 
 
     ![](/uploads/110_compressed-1-page-008.jpg)
+  pdfFile: /uploads/110.pdf
 en: {}
 ---
