@@ -1,7 +1,7 @@
 ---
 zh:
   date: 2021-09-01T07:38:55.940Z
-  title: 招聘公告—行政主任／行政助理（合約）
+  title: 招聘告示—行政主任／行政助理（合約）
   slug: 2021-recruitment-administration-officer-administration-assistant
   category: job
   content: >-
