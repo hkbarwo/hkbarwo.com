@@ -21,6 +21,7 @@ zh:
 
 
     ![近百年香港粵劇回顧與前瞻 梁漢威出錢又出力](/uploads/42_compressed_page-0006.jpg "近百年香港粵劇回顧與前瞻 梁漢威出錢又出力")
+  pdfFile: /uploads/42_compressed.pdf
 en:
   category: report
 ---
