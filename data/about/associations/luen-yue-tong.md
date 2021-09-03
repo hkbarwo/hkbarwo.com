@@ -1,7 +1,7 @@
 ---
 zh:
   commitiees: []
-  logo: /uploads/luen-yue-tong-g.svg
+  logo: /uploads/luen-yue-tong-g_v3.svg
   slug: luen-yue-tong
   commitieesTitle: ""
   title: 香港八和會館鑾輿堂有限公司
@@ -24,7 +24,7 @@ zh:
 
 
     一九九三年九月初廣州鑾輿堂新廈落成開幕，香港的鑾輿堂理事會發起旅遊親善訪問團回廣州參加盛況，使兩地同業又一再聚集，除了有紀念價值外，還可算是藝術交流會。
-  logoWhite: /uploads/luen-yue-tong-w.svg
+  logoWhite: /uploads/luen-yue-tong-w_v3.svg
 en:
   commitieesTitle: ""
   commitiees: []
