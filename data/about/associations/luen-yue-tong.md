@@ -1,13 +1,12 @@
 ---
 zh:
+  commitiees: []
+  logo: /uploads/luen-yue-tong-g.svg
+  slug: luen-yue-tong
+  commitieesTitle: ""
   title: 香港八和會館鑾輿堂有限公司
   title2: (武打演員會)
   shortTitle: 鑾輿堂
-  slug: luen-yue-tong
-  logo: /images/uploads/associations/luen-yue-tong-g.svg
-  logoWhite: /images/uploads/associations/luen-yue-tong-w.svg
-  commitieesTitle: ""
-  commitiees: []
   description: >-
     「鑾輿堂」原屬「德和堂」的私伙堂，即現時附屬的分堂。演員多在此堂內學習武打功夫，有了基礎才開始演戲。「鑾輿堂」的名稱來源據文獻及資深武師演員林蛟及顧鴻見所說，是每逢華光師傅神像離座出遊時，均有武師抬著「鑾輿」，故而得名。
 
@@ -25,6 +24,7 @@ zh:
 
 
     一九九三年九月初廣州鑾輿堂新廈落成開幕，香港的鑾輿堂理事會發起旅遊親善訪問團回廣州參加盛況，使兩地同業又一再聚集，除了有紀念價值外，還可算是藝術交流會。
+  logoWhite: /uploads/luen-yue-tong-w.svg
 en:
   commitieesTitle: ""
   commitiees: []
