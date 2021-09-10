@@ -5,8 +5,8 @@ zh:
     - isShowInList: true
       label: 演出日期
       content: |-
-        2021年9月17日(星期五)   至
-        2021年9月18日(星期六)
+        2021年9月17日至
+        2021年9月18日
     - isShowInList: false
       label: 時間
       content: 晚上7時30分
