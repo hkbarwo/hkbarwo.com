@@ -927,7 +927,7 @@ collections:
   - name: "channelCategories"
     label: "八和頻道項目分類"
     folder: "/data/resources/channel/categories"
-    create: true
+    create: false
     delete: false
     i18n: true
     slug: "{{fields.slug}}"
