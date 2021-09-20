@@ -1127,8 +1127,8 @@ collections:
     folder: "/data/events/items"
     slug: "{{fields.slug}}"
     create: true
-    delete: true
-    view_filters:
+    delete: true 
+    view_groups:
       - label: "演出"
         field: type
         pattern: 'performance'
@@ -1439,15 +1439,16 @@ collections:
     create: true
     delete: false
     view_filters:
+      - label: "仙遊"
+        field: "isDead"
+        pattern: true
+    view_groups:
       - label: "男"
         field: "gender"
         pattern: 'm'
       - label: "女"
         field: "gender"
         pattern: 'f'
-      - label: "仙遊"
-        field: "isDead"
-        pattern: true
     sortable_fields: ["title", "slug", "alias"]
     fields:
       - name: "title"
@@ -1506,6 +1507,7 @@ collections:
     folder: "/data/member/events"
     sortable_fields: ["title", "slug", "date"]
     slug: "{{fields.slug}}"
+    summary: "{{date | date('YYYY-MM-DD')}} - {{fields.title}}"
     fields:
       - name: "title"
         label: "名稱"

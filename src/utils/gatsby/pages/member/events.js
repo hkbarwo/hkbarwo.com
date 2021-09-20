@@ -5,7 +5,7 @@ exports.createMemberEventsPage = async ({ actions, graphql, md }, context) => {
     {
       events: allMarkdownRemark(
         filter: {fileAbsolutePath: {regex: "/data/member/events/"}},
-        sort: { fields: [fields___${locale}___date, fields___${locale}___slug], order: ASC }
+        sort: { fields: [fields___${locale}___date, fields___${locale}___slug], order: DESC }
       ) {
         nodes {
           fields {
