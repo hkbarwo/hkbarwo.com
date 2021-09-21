@@ -28,7 +28,7 @@ zh:
 
     香港八和會館 謹啟
     二零二零年十一月十八日
-  title: 八和足球隊與光輝旅遊友誼賽
+  title: 八和足球隊與光輝旅遊友誼賽(2020年10月23日)
   slug: barwo-footballclub-competition-2020
   pdfFile: /uploads/86a.-康樂組-八和足球-10月23日-友誼賽花絮.pdf
 en: {}
