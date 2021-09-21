@@ -5,7 +5,7 @@ zh:
   category: notice
   pdfFile: /uploads/2.-「八和頻道」啟動禮—傳媒採訪邀請.pdf
   slug: barwo-channel-opening-ceremony-press-invitation
-  content: "\\    [](<>)**新聞通告**
+  content: "**新聞通告**
 
 
     致：各大傳媒編輯、採編主任
