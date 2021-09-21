@@ -1,7 +1,7 @@
 ---
 zh:
   date: 2020-10-22T16:00:00.000Z
-  category: notice
+  category: event
   content: |-
     各位會友：
 
