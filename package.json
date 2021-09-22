@@ -16,6 +16,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.1",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "@react-hook/resize-observer": "^1.2.0",

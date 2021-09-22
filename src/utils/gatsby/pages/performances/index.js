@@ -1,3 +1,12 @@
+function getYearList(items) {
+  const yearSet = new Set()
+  items.forEach(item => {
+    const date = new Date(item.date)
+    yearSet.add(date.getFullYear())
+  })
+  return [...yearSet].sort()
+} 
+
 exports.createPerformancesPages = async (params, context) => {
   const { actions, graphql, md } = params;
   const { locale, defaultLocale, pages } = context;
@@ -202,7 +211,8 @@ exports.createPerformancesPages = async (params, context) => {
       ...context,
       pageItem,
       pageData: {
-        others
+        performances: others,
+        years: getYearList(others),
       },
     },
   });
@@ -223,7 +233,8 @@ exports.createPerformancesPages = async (params, context) => {
       ...context,
       pageItem,
       pageData: {
-        celebrations
+        performances: celebrations,
+        years: getYearList(celebrations),
       },
     },
   });
