@@ -1,11 +1,11 @@
 import React, { useRef, useMemo, useState } from "react";
 import { FormattedMessage } from "react-intl";
-import { Link } from "gatsby";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import useResize from "../utils/react-hooks/useResize";
 
 import ChannelVideoItem from "../components/ChannelVideoItem";
 import IntlProvider from "../components/IntlProvider";
+import Link from "../components/Link";
 import PageFooter from "../components/PageFooter";
 import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";
@@ -34,9 +34,9 @@ function ChannelSlider({ category }) {
   return (
     <div
       key={category.slug}
-      className="my-20 py-20 border-b border-gray-bc"
+      className="py-20 my-20 border-b border-gray-bc"
     >
-      <h2 className="mb-20 text-primary text-36 font-bold font-serif">{category.title}</h2>
+      <h2 className="mb-20 font-serif font-bold text-primary text-36">{category.title}</h2>
       <div ref={container}>
         <Swiper
           spaceBetween={20}
@@ -55,7 +55,7 @@ function ChannelSlider({ category }) {
           ))}
         </Swiper>
       </div>
-      <footer className="mt-40 flex justify-end items-center text-14 font-light">
+      <footer className="flex items-center justify-end mt-40 font-light text-14">
         <button
           className="group"
           onClick={() => {
@@ -63,7 +63,7 @@ function ChannelSlider({ category }) {
           }}
         >
           <svg
-            className="w-12 h-12 transform group-hover:-translate-x-2 transition-transform"
+            className="w-12 h-12 transition-transform transform group-hover:-translate-x-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 12 12"
           >
@@ -75,7 +75,7 @@ function ChannelSlider({ category }) {
             />
           </svg>
         </button>
-        <span className="tracking-widest mx-8">
+        <span className="mx-8 tracking-widest">
           {pageIndex + 1}/{6 / slidesPerView}
         </span>
         <button
@@ -85,7 +85,7 @@ function ChannelSlider({ category }) {
           }}
         >
           <svg
-            className="w-12 h-12 transform group-hover:translate-x-2 transition-transform"
+            className="w-12 h-12 transition-transform transform group-hover:translate-x-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 12 12"
           >
@@ -98,7 +98,7 @@ function ChannelSlider({ category }) {
           </svg>
         </button>
         <Link
-          className="ml-16 border-b border-current hover:text-primary transition-colors"
+          className="ml-16 transition-colors border-b border-current hover:text-primary"
           to={category.localizedPath}
         >
           <FormattedMessage id="channel.videos.more" />
@@ -129,17 +129,17 @@ export default function ResourcesChannelPage({ path, pageContext }) {
           getActive={({ key }) => key === 'channel'}
         />
 
-        <article className="flex-grow max-w-screen-xl w-full mx-auto p-14 sm:px-60 md:px-96 pb-48 md:pb-96">
-          <section className="max-w-2xl w-full mx-auto">
-            <h1 className="flex items-center justify-center max-w-sm mx-auto text-primary text-24 text-center font-bold font-serif">
-              <span className="bg-current h-1 flex-grow" />
+        <article className="flex-grow w-full max-w-screen-xl pb-48 mx-auto p-14 sm:px-60 md:px-96 md:pb-96">
+          <section className="w-full max-w-2xl mx-auto">
+            <h1 className="flex items-center justify-center max-w-sm mx-auto font-serif font-bold text-center text-primary text-24">
+              <span className="flex-grow h-1 bg-current" />
               <span className="mx-20">
                 {pageData.title}
               </span>
-              <span className="bg-current h-1 flex-grow" />
+              <span className="flex-grow h-1 bg-current" />
             </h1>
-            <p className="mt-20 whitespace-pre-line leading-8 tracking-wide text-center">{pageData.description}</p>
-            <img className="my-64 mx-auto" src={pageData.logo} alt={pageData.title} style={{ width: 212 }} />
+            <p className="mt-20 leading-8 tracking-wide text-center whitespace-pre-line">{pageData.description}</p>
+            <img className="mx-auto my-64" src={pageData.logo} alt={pageData.title} style={{ width: 212 }} />
           </section>
           <section>
             <header className="text-right">
@@ -151,7 +151,7 @@ export default function ResourcesChannelPage({ path, pageContext }) {
                 rel="noopener noreferrer"
               >
                 <svg
-                  className="w-36 h-32 mr-16"
+                  className="h-32 mr-16 w-36"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 29.241 20.56"
                 >

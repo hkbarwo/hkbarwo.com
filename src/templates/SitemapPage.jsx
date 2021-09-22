@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "gatsby";
 import classNames from "classnames";
 
+import Link from "../components/Link";
 import Page from "../components/Page";
 
 export default function SitemapPage(props) {
@@ -32,8 +32,8 @@ export default function SitemapPage(props) {
 
   return (
     <Page {...props}>
-      <nav className="md:flex flex-grow flex-row-reverse mt-40 leading-8 tracking-wide max-w-screen-lg w-full mx-auto">
-        <ul className="flex-shrink-0 md:ml-20 mr-48 md:text-right mt-36">
+      <nav className="flex-row-reverse flex-grow w-full max-w-screen-lg mx-auto mt-40 leading-8 tracking-wide md:flex">
+        <ul className="flex-shrink-0 mr-48 md:ml-20 md:text-right mt-36">
           {sitemap['primary'].map((item) => (
             <li
               key={item.slug}
@@ -46,11 +46,11 @@ export default function SitemapPage(props) {
             </li>
           ))}
         </ul>
-        <ul className="lg:max-h-720 md:max-h-1080 md:flex flex-col flex-wrap flex-grow -m-10">
+        <ul className="flex-col flex-wrap flex-grow -m-10 lg:max-h-720 md:max-h-1080 md:flex">
           {sitemap['secondary'].map(item => (
             <li key={item.slug} className="mx-10 mt-48">
               <Link
-                className="text-20 font-bold"
+                className="font-bold text-20"
                 to={item.url}
               >{item.title}</Link>
               {createSubMenu({ items: item.subPages })}

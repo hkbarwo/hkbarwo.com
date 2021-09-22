@@ -1,9 +1,9 @@
 import React, { Fragment, useMemo, useState } from "react";
 import classNames from "classnames";
-import { Link } from "gatsby";
 import { FormattedMessage } from "react-intl";
 import { Listbox, Transition } from '@headlessui/react';
 
+import Link from "../components/Link";
 import Page from "../components/Page";
 
 export default function PerformancesOthersPage(props) {

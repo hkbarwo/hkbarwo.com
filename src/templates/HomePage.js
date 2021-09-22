@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 import Modal from 'react-modal';
 import { FormattedDate, FormattedMessage } from "react-intl";
-import { Link } from "gatsby";
 import SwiperCore, { Autoplay, Mousewheel } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Link } from "gatsby";
 import classNames from "classnames";
 
 import useResize from "../utils/react-hooks/useResize";

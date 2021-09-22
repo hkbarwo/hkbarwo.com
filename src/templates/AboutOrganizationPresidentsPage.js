@@ -1,8 +1,8 @@
 import React from "react";
-import { Link } from "gatsby";
 import classNames from "classnames";
 
 import IntlProvider from "../components/IntlProvider";
+import Link from "../components/Link";
 import PageFooter from "../components/PageFooter";
 import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";

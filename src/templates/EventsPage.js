@@ -1,8 +1,8 @@
 import React, { useMemo } from "react";
 import classNames from "classnames";
-import { Link } from "gatsby";
 import { FormattedMessage } from "react-intl";
 
+import Link from "../components/Link";
 import Page from "../components/Page";
 
 export default function EventsPage(props) {

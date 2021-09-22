@@ -1,9 +1,9 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
-import { Link } from "gatsby";
 import classNames from "classnames";
 
 import ChannelVideoItem from "../components/ChannelVideoItem";
+import Link from "../components/Link";
 import Page from "../components/Page";
 
 export default function ResourcesChannelCategoryPage(props) {

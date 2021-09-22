@@ -57,7 +57,7 @@ export default function Page({
   }, [parentPage, menuItemsProps]);
 
   const children = isEmpty || !props.children ? (
-    <div className="py-72 text-36 text-gray-bc text-center font-serif font-light">
+    <div className="font-serif font-light text-center py-72 text-36 text-gray-bc">
       {emptyText || <FormattedMessage id="empty" />}
     </div>
   ) : (
@@ -73,7 +73,7 @@ export default function Page({
         title={title}
         description={description}
       />
-      <main className="flex flex-col min-h-screen overflow-x-hidden">
+      <main className="flex flex-col min-h-screen overflow-x-hidden bg-white">
         <PageNav
           {...{ path, pageContext }}
           pageTitle={parentPage ? parentPage.title : title}
@@ -95,7 +95,7 @@ export default function Page({
           <section className={classNames({ 'px-14': isNoHorizontalPadding })}>
             {isShowTitle && <StrikethroughHeading>{title}</StrikethroughHeading>}
             {description && (
-              <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center leading-8 tracking-wide">{description}</p>
+              <p className="w-full max-w-screen-sm mx-auto mt-20 leading-8 tracking-wide text-center mb-72">{description}</p>
             )}
           </section>
 

@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "gatsby";
 import classNames from "classnames";
+
+import Link from "./Link";
 
 export default function SiteLogo({ locale, className, style }) {
   return (

@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react"
 import { FormattedMessage } from "react-intl";
 import Modal from "react-modal";
-import { Link } from 'gatsby';
+import { Link } from "gatsby";
 import classNames from "classnames";
 
 import useResize from "../utils/react-hooks/useResize";
@@ -10,15 +10,15 @@ import { SearchBox } from "./SearchBox";
 import SiteLogo from "./SiteLogo";
 
 // function NewsletterSection(props) {
-//   return <div className="mb-24 p-8 text-center">
-//     <div className="mb-20 text-16 font-bold">{props.cta}</div>
+//   return <div className="p-8 mb-24 text-center">
+//     <div className="mb-20 font-bold text-16">{props.cta}</div>
 //     <div className="flex justify-center -m-8">
 //       <input
-//         className="m-8 px-20 lg:px-32 py-12 lg:py-16 text-14 lg:text-18 text-center bg-white rounded-full max-w-sm w-full"
+//         className="w-full max-w-sm px-20 py-12 m-8 text-center bg-white rounded-full lg:px-32 lg:py-16 text-14 lg:text-18"
 //         placeholder={props.placeholder}
 //       ></input>
 //       <button
-//         className="flex-shrink-0 m-8 px-20 lg:px-32 py-12 lg:py-16 text-18 text-white bg-black rounded-full"
+//         className="flex-shrink-0 px-20 py-12 m-8 text-white bg-black rounded-full lg:px-32 lg:py-16 text-18"
 //       >{props.buttonTitle}</button>
 //     </div>
 //   </div>;
@@ -94,7 +94,7 @@ function ExpandableSubMenu({ item, pageContext, onClose, style }) {
       key={item.slug}
       style={style}
     >
-      <div className="relative w-full flex items-center justify-center py-4 border-b border-current text-20 text-center font-bold font-serif tracking-wide">
+      <div className="relative flex items-center justify-center w-full py-4 font-serif font-bold tracking-wide text-center border-b border-current text-20">
         <Link
           className="tracking-wide"
           to={item.url}
@@ -126,7 +126,7 @@ function ExpandableSubMenu({ item, pageContext, onClose, style }) {
         )}
       </div>
       <div
-        className="relative transition-height duration-300 overflow-hidden"
+        className="relative overflow-hidden duration-300 transition-height"
         style={{ height: isShowMenu ? menuHeight : 0 }}
       >
         <div
@@ -175,13 +175,13 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
               <rect width="3" height="3" transform="translate(13 198.143)" />
             </g>
           </svg>
-          <div className="mt-16 mx-auto break-all w-16 uppercase">
+          <div className="w-16 mx-auto mt-16 uppercase break-all">
             <FormattedMessage id="menu" />
           </div>
         </button>
         {!!pageTitle && (
-          <div className="hidden md:block p-20">
-            <div className="mx-auto break-all w-16 uppercase font-serif text-black font-black text-center">
+          <div className="hidden p-20 md:block">
+            <div className="w-16 mx-auto font-serif font-black text-center text-black uppercase break-all">
               {pageTitle}
             </div>
           </div>
@@ -209,10 +209,10 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
           },
         }}
       >
-        <div className="flex flex-col min-h-screen p-16 md:p-40 bg-primary bg-pattern-light bg-repeat">
+        <div className="flex flex-col min-h-screen p-16 bg-repeat md:p-40 bg-primary bg-pattern-light">
           <header className="flex items-start">
             <SiteLogo className="w-logo-sm md:w-logo" locale={pageContext.locale} />
-            <div className="flex-grow flex justify-center">
+            <div className="flex justify-center flex-grow">
               <SearchBox
                 className="hidden md:block"
                 locale={pageContext.locale}
@@ -268,7 +268,7 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
               >ENG</LanguageButton> */}
 
               <button
-                className="dark:bg-text-primary ml-10 md:ml-32 md:-mr-20"
+                className="ml-10 dark:bg-text-primary md:ml-32 md:-mr-20"
                 onClick={() => setOpen(false)}
               >
                 <svg
@@ -294,7 +294,7 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
             onSearch={() => setOpen(false)}
           />
 
-          <nav className="hidden md:flex flex-grow flex-row-reverse mt-40">
+          <nav className="flex-row-reverse flex-grow hidden mt-40 md:flex">
             <ul className="flex-shrink-0 ml-20 mr-48 text-right">
               {pageContext.menus['primary'].map((item, i) => (
                 <li
@@ -314,14 +314,14 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
                 </li>
               ))}
             </ul>
-            <ul className="flex flex-grow flex-wrap justify-center -m-10">
+            <ul className="flex flex-wrap justify-center flex-grow -m-10">
               {pageContext.menus['secondary'].map(item => (
                 <li
                   key={item.slug}
-                  className="m-10 min-w-180 text-center"
+                  className="m-10 text-center min-w-180"
                 >
                   <Link
-                    className="text-24 font-bold font-serif"
+                    className="font-serif font-bold text-24"
                     to={item.url}
                     onClick={() => { setOpen(false) }}
                   >{item.title}</Link>
@@ -331,7 +331,7 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
               ))}
             </ul>
           </nav>
-          <nav className="md:hidden mt-32">
+          <nav className="mt-32 md:hidden">
             <ul>
               {pageContext.menus['primary-mobile'].map((item, i) => (
                 <ExpandableSubMenu
@@ -345,14 +345,14 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
               ))}
             </ul>
         
-            <ul className="mt-16 flex items-center justify-center">
+            <ul className="flex items-center justify-center mt-16">
               {pageContext.menus['secondary-mobile'].map(item => (
                 <li
                   key={item.slug}
                   className="mx-8"
                 >
                   <Link
-                    className="text-14 underline"
+                    className="underline text-14"
                     to={item.url}
                     onClick={() => { setOpen(false) }}
                   >
@@ -363,7 +363,7 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
             </ul>
           </nav>
           <footer className="flex flex-wrap items-end text-14">
-            <ul className="hidden md:block mt-32 flex-grow">
+            <ul className="flex-grow hidden mt-32 md:block">
               <li className="flex items-center">
                 <span className="flex items-center justify-center w-24 h-24 mr-8">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18.712" height="18.298" viewBox="0 0 18.712 18.298">
@@ -419,13 +419,13 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
                 <span>{pageContext.contact.address}</span>
               </li>
             </ul>
-            <div className="mx-auto md:mx-0 mt-20">
+            <div className="mx-auto mt-20 md:mx-0">
               {/* <NewsletterSection {...pageContext.newsletter} /> */}
               <div className="md:flex">
-                <div className="text-right mb-16 md:mb-0 md:mr-16">
+                <div className="mb-16 text-right md:mb-0 md:mr-16">
                   {(pageContext.general.copyright || '').replace('{year}', new Date().getFullYear())}
                 </div>
-                <ul className="flex justify-center items-center -m-8">
+                <ul className="flex items-center justify-center -m-8">
                   {/* <li className="m-8">
                     <a
                       href={pageContext.general.socialAccounts.facebook}

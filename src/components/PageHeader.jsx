@@ -1,10 +1,10 @@
 import React, { Fragment, useRef, useState } from "react";
 import { Transition } from "@headlessui/react";
 import classNames from 'classnames';
-import { Link } from "gatsby";
 
 import useResize from "../utils/react-hooks/useResize";
 
+import Link from "./Link";
 import SiteLogo from "./SiteLogo";
 
 function PageSubNav({ menuItems = [], getActive }) {

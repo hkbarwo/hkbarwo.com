@@ -1,9 +1,9 @@
 import React, { useState, useRef } from "react";
-import { Link } from "gatsby";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import classNames from "classnames";
 
 import useResize from "../utils/react-hooks/useResize";
+import Link from "../components/Link";
 import Page from "../components/Page";
 import StrikethroughHeading from "../components/StrikethroughHeading";
 
@@ -22,10 +22,10 @@ function AssociationsDirectory({ ctaTo, data, items }) {
           `linear-gradient(to bottom, #CC153D 0% , #F79D5E 100%)`,
       }}
     >
-      <div className="hidden md:flex flex-col items-center pt-36 pb-48 px-32 md:px-60">
+      <div className="flex-col items-center hidden px-32 pb-48 md:flex pt-36 md:px-60">
         <h1>{data.title}</h1>
 
-        <ul className="mt-56 max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-20 gap-y-72">
+        <ul className="grid max-w-screen-xl grid-cols-1 mx-auto mt-56 sm:grid-cols-2 lg:grid-cols-4 gap-x-20 gap-y-72">
           {items.map(item => (
             <li key={item.slug}>
               <Link
@@ -33,7 +33,7 @@ function AssociationsDirectory({ ctaTo, data, items }) {
                 to={item.localizedPath}
                 alt={item.title}
               >
-                <div className="flex justify-center items-center w-150 h-150 mx-auto">
+                <div className="flex items-center justify-center mx-auto w-150 h-150">
                   <img
                     src={item.logoWhite}
                     alt={item.title}
@@ -48,7 +48,7 @@ function AssociationsDirectory({ ctaTo, data, items }) {
           ))}
         </ul>
         <Link
-          className="mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
+          className="flex items-center px-24 py-10 mx-auto bg-white bg-opacity-25 border border-white rounded-full mt-60 group"
           to={ctaTo}
         >
           {data.buttonTitle}
@@ -57,7 +57,7 @@ function AssociationsDirectory({ ctaTo, data, items }) {
 
       <div
         ref={container}
-        className="md:hidden pt-56 pb-32 text-center"
+        className="pt-56 pb-32 text-center md:hidden"
       >
         <div className="relative">
           <Swiper
@@ -73,7 +73,7 @@ function AssociationsDirectory({ ctaTo, data, items }) {
             {items.map(item => (
               <SwiperSlide key={item.slug}>
                 <div className="text-center px-14">
-                  <div className="flex justify-center items-center mx-auto">
+                  <div className="flex items-center justify-center mx-auto">
                     <img
                       src={item.logoWhite}
                       alt={item.title}
@@ -85,14 +85,14 @@ function AssociationsDirectory({ ctaTo, data, items }) {
             ))}
           </Swiper>
           <button
-            className="absolute z-10 left-10 top-1/2 w-44 h-44 -mt-22 p-16 border border-white bg-black bg-opacity-10 rounded-full group backdrop-filter backdrop-blur-md"
+            className="absolute z-10 p-16 bg-black border border-white rounded-full left-10 top-1/2 w-44 h-44 -mt-22 bg-opacity-10 group backdrop-filter backdrop-blur-md"
             onClick={(e) => {
               e.preventDefault();
               controlledSwiper.slidePrev();
             }}
           >
             <svg
-              className="w-12 h-12 transform group-hover:-translate-x-4 transition-transform"
+              className="w-12 h-12 transition-transform transform group-hover:-translate-x-4"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 12 12"
             >
@@ -105,14 +105,14 @@ function AssociationsDirectory({ ctaTo, data, items }) {
             </svg>
           </button>
           <button
-            className="absolute z-10 right-10 top-1/2 w-44 h-44 -mt-22 p-16 border border-white bg-black bg-opacity-10 rounded-full group backdrop-filter backdrop-blur-md"
+            className="absolute z-10 p-16 bg-black border border-white rounded-full right-10 top-1/2 w-44 h-44 -mt-22 bg-opacity-10 group backdrop-filter backdrop-blur-md"
             onClick={(e) => {
               e.preventDefault();
               controlledSwiper.slideNext();
             }}
           >
             <svg
-              className="w-12 h-12 transform group-hover:translate-x-4 transition-transform"
+              className="w-12 h-12 transition-transform transform group-hover:translate-x-4"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 12 12"
             >
@@ -125,7 +125,7 @@ function AssociationsDirectory({ ctaTo, data, items }) {
             </svg>
           </button>
         </div>
-        <ul className="mt-24 flex justify-center items-center">
+        <ul className="flex items-center justify-center mt-24">
           {items.map((item, i) => (
             <li
               key={item.slug}
@@ -137,7 +137,7 @@ function AssociationsDirectory({ ctaTo, data, items }) {
           ))}
         </ul>
         <Link
-          className="mt-40 mx-auto inline-flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
+          className="inline-flex items-center px-24 py-10 mx-auto mt-40 bg-white bg-opacity-25 border border-white rounded-full group"
           to={items[slideIndex].localizedPath}
         >
           {data.buttonTitle}
@@ -170,10 +170,10 @@ export default function AboutPage(props) {
       pageDescription={excerpt.content}
       isNoHorizontalPadding={true}
     >
-      <section className="max-w-screen-xl w-full mx-auto mt-48 md:flex md:my-60 xl:mt-120">
+      <section className="w-full max-w-screen-xl mx-auto mt-48 md:flex md:my-60 xl:mt-120">
         <div className="flex-1 pt-0 p-14 md:ml-48 xl:ml-96 md:mr-60 xl:mr-120">
-          <h1 className="text-primary text-36 font-serif font-bold">{introduction.title}</h1>
-          <p className="mt-10 whitespace-pre-line leading-8 tracking-wide">{introduction.content}</p>
+          <h1 className="font-serif font-bold text-primary text-36">{introduction.title}</h1>
+          <p className="mt-10 leading-8 tracking-wide whitespace-pre-line">{introduction.content}</p>
         </div>
         <div className="flex-1">
           <img src={introduction.image} alt="" />
@@ -184,13 +184,13 @@ export default function AboutPage(props) {
         items={associationItems}
         ctaTo={associationsPageItem.localizedPath}
       />
-      <section className="max-w-screen-xl w-full mx-auto mt-48 px-14 max-w-2xl w-full mx-auto">
+      <section className="w-full max-w-2xl max-w-screen-xl mx-auto mt-48 px-14">
         <StrikethroughHeading>{excerpt2.title}</StrikethroughHeading>
-        <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center leading-8 tracking-wide">{excerpt2.content}</p>
+        <p className="w-full max-w-screen-sm mx-auto mt-20 leading-8 tracking-wide text-center mb-72">{excerpt2.content}</p>
       </section>
-      <section className="max-w-screen-xl w-full mx-auto mt-48 md:flex md:mt-60 xl:mt-120">
+      <section className="w-full max-w-screen-xl mx-auto mt-48 md:flex md:mt-60 xl:mt-120">
         <div
-          className="flex-1 mt-10 pt-0 p-14 md:ml-48 xl:ml-96 md:mr-60 xl:mr-120 leading-8 tracking-wide"
+          className="flex-1 pt-0 mt-10 leading-8 tracking-wide p-14 md:ml-48 xl:ml-96 md:mr-60 xl:mr-120"
           dangerouslySetInnerHTML={{ __html: developmentStrategy }}
         />
         <div className="flex-1">
@@ -215,8 +215,8 @@ export default function AboutPage(props) {
                 : 'md:mr-60 xl:mr-120 md:ml-48 xl:ml-96'
             )}
           >
-            <h1 className="text-primary text-36 font-serif font-bold">{section.title}</h1>
-            <p className="mt-10 whitespace-pre-line leading-8 tracking-wide">{section.content}</p>
+            <h1 className="font-serif font-bold text-primary text-36">{section.title}</h1>
+            <p className="mt-10 leading-8 tracking-wide whitespace-pre-line">{section.content}</p>
           </div>
           <div className="flex-1">
             <img src={section.image} alt={section.title} />

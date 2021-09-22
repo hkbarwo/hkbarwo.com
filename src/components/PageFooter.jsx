@@ -1,7 +1,7 @@
 import React from "react"
-
 import classNames from "classnames";
-import { Link } from "gatsby";
+
+import Link from "./Link";
 
 export default function PageFooter({ pageContext, className }) {
   const { locale } = pageContext;
@@ -11,20 +11,20 @@ export default function PageFooter({ pageContext, className }) {
       style={{ backgroundColor: '#6fcdd4' }}
     >
       <div className="max-w-sm mx-auto lg:max-w-full">
-        <div className="lg:flex flex-row-reverse -m-8">
-          {/* <div className="mb-24 p-8 text-center">
-            <div className="mb-20 lg:mb-24 text-16 lg:text-24 font-bold">{pageContext.newsletter.cta}</div>
+        <div className="flex-row-reverse -m-8 lg:flex">
+          {/* <div className="p-8 mb-24 text-center">
+            <div className="mb-20 font-bold lg:mb-24 text-16 lg:text-24">{pageContext.newsletter.cta}</div>
             <div className="flex justify-center -m-8">
               <input
-                className="m-8 px-20 lg:px-32 py-12 lg:py-16 text-14 lg:text-18 text-center bg-white rounded-full max-w-sm w-full"
+                className="w-full max-w-sm px-20 py-12 m-8 text-center bg-white rounded-full lg:px-32 lg:py-16 text-14 lg:text-18"
                 placeholder={pageContext.newsletter.placeholder}
               ></input>
               <button
-                className="flex-shrink-0 m-8 px-20 lg:px-32 py-12 lg:py-16 text-18 text-white bg-black rounded-full"
+                className="flex-shrink-0 px-20 py-12 m-8 text-white bg-black rounded-full lg:px-32 lg:py-16 text-18"
               >{pageContext.newsletter.buttonTitle}</button>
             </div>
           </div> */}
-          <nav className="hidden lg:block p-8">
+          <nav className="hidden p-8 lg:block">
             <ul className="flex flex-wrap -m-8">
               {pageContext.menus['footer-primary'].map((item, i) => {
                 const page = item.page || {};
@@ -40,7 +40,7 @@ export default function PageFooter({ pageContext, className }) {
             </ul>
           </nav>
           <div className="flex-grow p-8">
-            <h5 className="text-24 font-bold font-serif">{pageContext.contact.title}</h5>
+            <h5 className="font-serif font-bold text-24">{pageContext.contact.title}</h5>
             <ul className="mt-32">
               <li className="flex items-center">
                 <span className="flex items-center justify-center w-24 h-24 mr-8">
@@ -99,9 +99,9 @@ export default function PageFooter({ pageContext, className }) {
             </ul>
           </div>
         </div>
-        <div className="mt-36 -m-8">
-          <div className="lg:flex items-end -m-8 p-8">
-            <nav className="hidden lg:block flex-grow">
+        <div className="-m-8 mt-36">
+          <div className="items-end p-8 -m-8 lg:flex">
+            <nav className="flex-grow hidden lg:block">
               <ul className="flex flex-wrap">
                 {pageContext.menus['footer-secondary'].map((item, i) => (
                   <li
@@ -109,17 +109,17 @@ export default function PageFooter({ pageContext, className }) {
                     className="m-8"
                   >
                     <a
-                      className="text-14 underline"
+                      className="underline text-14"
                       href={`#${item.slug}`}
                     >{item.title}</a>
                   </li>
                 ))}
               </ul>
             </nav>
-            <div className="text-center lg:text-right m-8">
+            <div className="m-8 text-center lg:text-right">
               {(pageContext.general.copyright || '').replace('{year}', new Date().getFullYear())}
             </div>
-            <ul className="flex justify-center items-center">
+            <ul className="flex items-center justify-center">
               {/* <li className="m-8">
                 <a
                   href={pageContext.general.socialAccounts.facebook}
