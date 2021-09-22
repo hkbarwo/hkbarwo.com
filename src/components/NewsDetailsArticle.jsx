@@ -7,17 +7,17 @@ export default function NewsDetailsArticle(props) {
   return (
     <article className="flex-grow p-14 pb-96">
       <section className="max-w-screen-md mx-auto">
-        <h1 className="text-primary text-24 md:text-36 font-serif font-bold tracking-wide">{props.title}</h1>
+        <h1 className="font-serif font-bold tracking-wide text-primary text-24 md:text-36">{props.title}</h1>
         {!!props.content && (
           <div
-            className="mt-24 text-16 tracking-wide leading-8 whitespace-pre-line"
+            className="mt-24 leading-8 tracking-wide whitespace-pre-line text-16"
             dangerouslySetInnerHTML={{ __html: props.content }}
           />
         )}
         
         {!!props.pdfFile && (
           <a
-            className="inline-flex items-center rounded-full text-white bg-secondary px-16 py-12"
+            className="inline-flex items-center px-16 py-12 text-white transition-colors duration-300 rounded-full bg-secondary hover:bg-secondary-dark"
             href={props.pdfFile}
             rel="noopener noreferrer"
             target="blank"
@@ -44,7 +44,7 @@ export default function NewsDetailsArticle(props) {
       </section>
 
       {!!props.youtubeVideoID && (
-        <section className="mt-56 max-w-screen-lg mx-auto">
+        <section className="max-w-screen-lg mx-auto mt-56">
           <YouTubePlayer id={props.youtubeVideoID} />
         </section>
       )}

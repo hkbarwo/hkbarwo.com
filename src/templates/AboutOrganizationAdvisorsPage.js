@@ -36,20 +36,20 @@ export default function AboutOrganizationAdvisorsPage({ path, pageContext }) {
         />
 
         <nav className="px-14">
-          <h1 className="flex items-center justify-center max-w-sm mx-auto text-primary text-24 font-bold font-serif">
-            <span className="bg-current h-1 flex-grow" />
+          <h1 className="flex items-center justify-center max-w-sm mx-auto font-serif font-bold text-primary text-24">
+            <span className="flex-grow h-1 bg-current" />
             <span className="mx-20">
               {pages.organization.title}
             </span>
-            <span className="bg-current h-1 flex-grow" />
+            <span className="flex-grow h-1 bg-current" />
           </h1>
           <ul className="flex flex-wrap items-center justify-center my-16">
             {pages[pageItem.parentPage].subPages.map(page => (
               <li key={page.slug} className="m-10">
                 <Link
                   className={classNames(
-                    'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary transition-colors duration-200',
-                    page.slug === pageItem.slug ? 'bg-tertiary text-white hover:bg-opacity-50' : 'text-tertiary hover:bg-opacity-20'
+                    'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
+                    page.slug === pageItem.slug ? 'bg-tertiary text-white hover:bg-tertiary-light' : 'text-tertiary'
                   )}
                   to={page.localizedPath}
                 >
@@ -60,9 +60,9 @@ export default function AboutOrganizationAdvisorsPage({ path, pageContext }) {
           </ul>
         </nav>
 
-        <article className="flex-grow w-full max-w-screen-xl mx-auto mt-32 pb-48 md:pb-96 px-14 md:px-60">
-          <section ref={list} className="mt-48 tracking-wide leading-8">
-            <h1 className="flex text-primary text-36 font-bold font-serif">
+        <article className="flex-grow w-full max-w-screen-xl pb-48 mx-auto mt-32 md:pb-96 px-14 md:px-60">
+          <section ref={list} className="mt-48 leading-8 tracking-wide">
+            <h1 className="flex font-serif font-bold text-primary text-36">
               {title}
             </h1>
 
@@ -82,7 +82,7 @@ export default function AboutOrganizationAdvisorsPage({ path, pageContext }) {
                   <ul>
                     {group.list.map(item => (
                       <li key={item.name}>
-                        <div className="text-18 font-bold font-serif">{item.name}</div>
+                        <div className="font-serif font-bold text-18">{item.name}</div>
                         <div>{item.title}</div>
                       </li>
                     ))}

@@ -27,7 +27,7 @@ function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
           `linear-gradient(to bottom, ${slide.gradient.color1} 0% , ${slide.gradient.color2} 100%)`,
       }}
     >
-      <div className="hidden lg:block relative flex-1 overflow-hidden">
+      <div className="relative flex-1 hidden overflow-hidden lg:block">
         <img
           className={classNames('w-full h-full', slide.bgImageFillStyle === 'contain' ? 'object-contain' : 'object-cover')}
           src={`${slide.bgImage}`}
@@ -35,10 +35,10 @@ function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
         />
       </div>
       <div className="flex-1 text-white">
-        <div className="p-10 sm:p-32 md:p-64 w-full">
+        <div className="w-full p-10 sm:p-32 md:p-64">
           <div className="flex items-center justify-between">
-            <div className="hidden lg:block mr-24 text-18 tracking-wide flex-grow">{slide.shortTitle}</div>
-            <div className="mr-24 flex items-center">
+            <div className="flex-grow hidden mr-24 tracking-wide lg:block text-18">{slide.shortTitle}</div>
+            <div className="flex items-center mr-24">
               <button
                 className="w-20 h-20"
                 onClick={onPrev}
@@ -47,7 +47,7 @@ function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
                   <path d="M18.45,10.13H1.76m8.59-8.8L1.68,10l8.68,8.67" fill="none" stroke="currentColor" strokeWidth="1"/>
                 </svg>
               </button>
-              <span className="mx-8 text-22 font-light tracking-widest leading-none">{`${i < 9 ? '0' : ''}${i + 1}/${total < 9 ? '0' : ''}${total + 1}`}</span>
+              <span className="mx-8 font-light leading-none tracking-widest text-22">{`${i < 9 ? '0' : ''}${i + 1}/${total < 9 ? '0' : ''}${total + 1}`}</span>
               <button
                 className="w-20 h-20"
                 onClick={onNext}
@@ -64,21 +64,21 @@ function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
             </button>
           </div>
           <div className="flex flex-col md:mr-48">
-            <div className="md:hidden mt-32 text-18 tracking-wide text-center">{slide.shortTitle}</div>
-            <h1 className="mt-16 md:mt-40 text-36 font-bold font-serif tracking-widest text-center md:text-left">{slide.title}</h1>
-            <h2 className="mt-4 text-28 font-light font-serif tracking-widest text-center md:text-left">{slide.subtitle}</h2>
-            <p className="mt-44 text-14 leading-8 tracking-wide whitespace-pre-wrap">{slide.description}</p>
+            <div className="mt-32 tracking-wide text-center md:hidden text-18">{slide.shortTitle}</div>
+            <h1 className="mt-16 font-serif font-bold tracking-widest text-center md:mt-40 text-36 md:text-left">{slide.title}</h1>
+            <h2 className="mt-4 font-serif font-light tracking-widest text-center text-28 md:text-left">{slide.subtitle}</h2>
+            <p className="leading-8 tracking-wide whitespace-pre-wrap mt-44 text-14">{slide.description}</p>
             
             {!!slide.buttonLink && (
               slide.buttonLink.page ? (
                 <Link
-                  className="my-32 md:mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
+                  className="flex items-center px-24 py-10 mx-auto my-32 bg-white bg-opacity-25 border border-white rounded-full md:mt-60 group"
                   to={pages[slide.buttonLink.page].localizedPath}
                   alt={slide.buttonTitle}
                 >
                   {slide.buttonTitle}
                   <svg
-                    className="ml-12 w-12 h-12 transform group-hover:translate-x-4 transition-transform"
+                    className="w-12 h-12 ml-12 transition-transform transform group-hover:translate-x-4"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 12 12"
                   >
@@ -92,7 +92,7 @@ function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
                 </Link>
               ) : (
                 <a
-                  className="my-32 md:mt-60 mx-auto flex items-center py-10 px-24 rounded-full border border-white bg-white bg-opacity-25 group"
+                  className="flex items-center px-24 py-10 mx-auto my-32 bg-white bg-opacity-25 border border-white rounded-full md:mt-60 group"
                   href={slide.buttonLink.url}
                   alt={slide.buttonTitle}
                   target="_blank"
@@ -100,7 +100,7 @@ function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
                 >
                   {slide.buttonTitle}
                   <svg
-                    className="ml-12 w-12 h-12 transform group-hover:translate-x-4 transition-transform"
+                    className="w-12 h-12 ml-12 transition-transform transform group-hover:translate-x-4"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 12 12"
                   >
@@ -127,7 +127,7 @@ function NewsSection({ pageContext, className }) {
 
   return (
     <div className={classNames('flex flex-col items-start', className)}>
-      <h2 className="text-white bg-secondary rounded-full mx-28 p-8 px-16">
+      <h2 className="p-8 px-16 text-white rounded-full bg-secondary mx-28">
         <FormattedMessage id="home.news.title" />
       </h2>
 
@@ -149,9 +149,9 @@ function NewsSection({ pageContext, className }) {
           >
             {pageContext.news.map(news => (
               <SwiperSlide key={news.slug}>
-                <div className="px-28 py-16">
+                <div className="py-16 px-28">
                   <h3>{news.title}</h3>
-                  <footer className="flex justify-between items-center mt-16 text-14">
+                  <footer className="flex items-center justify-between mt-16 text-14">
                     <div className="flex items-center">
                       <svg className="w-16 h-16 mr-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
                         <path
@@ -162,12 +162,12 @@ function NewsSection({ pageContext, className }) {
                       <FormattedDate value={news.date} />
                     </div>
                     <Link
-                      className="flex items-center px-12 py-4 border border-current rounded-full font-light group"
+                      className="flex items-center px-12 py-4 font-light border border-current rounded-full group"
                       to={`/${pageContext.locale}/news/${news.slug}`}
                     >
                       <FormattedMessage id="know.more" />
                       <svg
-                        className="w-12 h-12 ml-8 transform group-hover:translate-x-4 transition-transform"
+                        className="w-12 h-12 ml-8 transition-transform transform group-hover:translate-x-4"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 12 12"
                       >
@@ -187,12 +187,12 @@ function NewsSection({ pageContext, className }) {
         </ClientOnly>
       </div>
 
-      <footer className="flex justify-between items-center p-32 text-14 w-full">
+      <footer className="flex items-center justify-between w-full p-32 text-14">
         <Link
-          className="border-b border-current pb-2 group"
+          className="pb-2 border-b border-current group"
           to={`/${pageContext.locale}/news`}
         >
-          <div className="transform group-hover:-translate-y-2 transition-transform">
+          <div className="transition-transform transform group-hover:-translate-y-2">
             <FormattedMessage id="home.news.more" />
           </div>
         </Link>
@@ -204,7 +204,7 @@ function NewsSection({ pageContext, className }) {
             }}
           >
             <svg
-              className="w-12 h-12 transform group-hover:-translate-x-2 transition-transform"
+              className="w-12 h-12 transition-transform transform group-hover:-translate-x-2"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 12 12"
             >
@@ -216,7 +216,7 @@ function NewsSection({ pageContext, className }) {
               />
             </svg>
           </button>
-          <span className="tracking-widest mx-8">{slideIndex + 1}/{pageContext.news.length}</span>
+          <span className="mx-8 tracking-widest">{slideIndex + 1}/{pageContext.news.length}</span>
           <button
             className="group"
             onClick={() => {
@@ -224,7 +224,7 @@ function NewsSection({ pageContext, className }) {
             }}
           >
             <svg
-              className="w-12 h-12 transform group-hover:translate-x-2 transition-transform"
+              className="w-12 h-12 transition-transform transform group-hover:translate-x-2"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 12 12"
             >
@@ -271,9 +271,9 @@ export default function HomePageTemplate({ pageContext, path }) {
         <header className="p-20 pt-16 bg-white md:hidden">
           <SiteLogo className="mx-auto" style={{ maxWidth: 140 }} />
         </header>
-        <div className="fixed inset-0 hidden md:flex items-stretch">
+        <div className="fixed inset-0 items-stretch hidden md:flex">
           <section
-            className="flex flex-col flex-shrink-0 bg-gray-f4 bg-pattern-white h-full"
+            className="flex flex-col flex-shrink-0 h-full bg-gray-f4 bg-pattern-white"
             style={{ width: 346 }}
           >
             <header className="p-28">
@@ -325,7 +325,7 @@ export default function HomePageTemplate({ pageContext, path }) {
                     >
                       <div className="relative flex-grow overflow-hidden">
                         <img
-                          className="absolute inset-0 w-full h-full object-cover transform group-hover:scale-110 transition-transform ease-out duration-300"
+                          className="absolute inset-0 object-cover w-full h-full transition-transform duration-300 ease-out transform group-hover:scale-110"
                           src={`${slide.bgImage}`} alt={slide.title}
                         />
                       </div>
@@ -338,12 +338,12 @@ export default function HomePageTemplate({ pageContext, path }) {
                           }}
                         >
                           <div>
-                            <span className="text-22 font-light tracking-widest">{`${i < 9 ? '0' : ''}${i + 1}`}</span>
-                            <span className="ml-10 text-18 tracking-wide">{slide.shortTitle}</span>
+                            <span className="font-light tracking-widest text-22">{`${i < 9 ? '0' : ''}${i + 1}`}</span>
+                            <span className="ml-10 tracking-wide text-18">{slide.shortTitle}</span>
                           </div>
-                          <h1 className="mt-24 text-36 font-bold font-serif tracking-widest">{slide.title}</h1>
-                          <h2 className="mt-4 text-28 font-light font-serif tracking-widest">{slide.subtitle}</h2>
-                          <p className="mt-8 text-14 leading-5 whitespace-pre-wrap line-clamp-2">{slide.description}</p>
+                          <h1 className="mt-24 font-serif font-bold tracking-widest text-36">{slide.title}</h1>
+                          <h2 className="mt-4 font-serif font-light tracking-widest text-28">{slide.subtitle}</h2>
+                          <p className="mt-8 leading-5 whitespace-pre-wrap text-14 line-clamp-2">{slide.description}</p>
                         </div>
                       </div>
                     </a>
@@ -353,13 +353,13 @@ export default function HomePageTemplate({ pageContext, path }) {
             </ClientOnly>
 
             <button
-              className="absolute z-10 left-20 top-1/2 w-44 h-44 -mt-22 p-16 bg-black bg-opacity-10 rounded-full group backdrop-filter backdrop-blur-md"
+              className="absolute z-10 p-16 bg-black rounded-full left-20 top-1/2 w-44 h-44 -mt-22 bg-opacity-10 group backdrop-filter backdrop-blur-md"
               onClick={() => {
                 controlledSwiper.slidePrev();
               }}
             >
               <svg
-                className="w-12 h-12 transform group-hover:-translate-x-4 transition-transform"
+                className="w-12 h-12 transition-transform transform group-hover:-translate-x-4"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 12 12"
               >
@@ -372,13 +372,13 @@ export default function HomePageTemplate({ pageContext, path }) {
               </svg>
             </button>
             <button
-              className="absolute z-10 right-20 top-1/2 w-44 h-44 -mt-22 p-16 bg-black bg-opacity-10 rounded-full group backdrop-filter backdrop-blur-md"
+              className="absolute z-10 p-16 bg-black rounded-full right-20 top-1/2 w-44 h-44 -mt-22 bg-opacity-10 group backdrop-filter backdrop-blur-md"
               onClick={() => {
                 controlledSwiper.slideNext();
               }}
             >
               <svg
-                className="w-12 h-12 transform group-hover:translate-x-4 transition-transform"
+                className="w-12 h-12 transition-transform transform group-hover:translate-x-4"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 12 12"
               >
@@ -422,7 +422,7 @@ export default function HomePageTemplate({ pageContext, path }) {
                   />
                 </div>
                 <div
-                  className="p-20 flex"
+                  className="flex p-20"
                   style={{
                     backgroundImage:
                       `linear-gradient(to bottom, ${slide.gradient.color1} 0% , ${slide.gradient.color2} 100%)`,
@@ -433,8 +433,8 @@ export default function HomePageTemplate({ pageContext, path }) {
                       <span className="font-light tracking-widest">{`${i < 9 ? '0' : ''}${i + 1}`}</span>
                       <span className="ml-10 tracking-wide">{slide.shortTitle}</span>
                     </div>
-                    <h1 className="mt-4 text-36 font-serif font-bold tracking-widest">{slide.title}</h1>
-                    <h2 className="text-28 font-serif font-light tracking-widest">{slide.subtitle}</h2>
+                    <h1 className="mt-4 font-serif font-bold tracking-widest text-36">{slide.title}</h1>
+                    <h2 className="font-serif font-light tracking-widest text-28">{slide.subtitle}</h2>
                   </div>
                   <svg
                     className="w-32"
@@ -485,7 +485,7 @@ export default function HomePageTemplate({ pageContext, path }) {
               }
             }}
           />
-          <div className="hidden absolute right-0 inset-y-0 w-60 md:flex items-center justify-center">
+          <div className="absolute inset-y-0 right-0 items-center justify-center hidden w-60 md:flex">
             <ul>
               {pageContext.slides.map((slide, i) => (
                 <li

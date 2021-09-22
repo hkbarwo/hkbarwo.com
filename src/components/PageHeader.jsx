@@ -1,4 +1,5 @@
-import React, { useRef, useState } from "react";
+import React, { Fragment, useRef, useState } from "react";
+import { Transition } from "@headlessui/react";
 import classNames from 'classnames';
 import { Link } from "gatsby";
 
@@ -13,12 +14,12 @@ function PageSubNav({ menuItems = [], getActive }) {
 
   return (
     <nav
-      className="relative mb-28 flex-grow mt-40 -mx-16 lg:mt-0 h-40 md:h-auto overflow-hidden transition-height duration-300"
+      className="relative flex-grow h-40 mt-40 -mx-16 overflow-hidden duration-300 md:overflow-visible mb-28 lg:mt-0 md:h-auto transition-height"
       style={{ height: isShowMenu ? menuHeight : undefined }}
     >
-      <div className="relative flex justify-end items-center w-full h-40 px-4 md:hidden">
+      <div className="relative flex items-center justify-end w-full h-40 px-4 md:hidden">
         <button
-          className="p-8 hover:text-primary transition-colors"
+          className="p-8 transition-colors hover:text-primary"
           onClick={() => setIsShowMenu(!isShowMenu)}
         >
           <svg
@@ -40,7 +41,7 @@ function PageSubNav({ menuItems = [], getActive }) {
       </div>
       <ul
         ref={menu}
-        className="absolute md:relative inset-x-0 top-0 flex flex-col md:flex-row items-center justify-center lg:mr-logo mx-32 font-serif font-bold"
+        className="absolute inset-x-0 top-0 flex flex-col items-center justify-center mx-32 font-serif font-bold md:relative md:flex-row lg:mr-logo"
       >
         {menuItems.map(({ key, path = false, title }, i) => {
           const isActive = getActive({ key, path });
@@ -48,17 +49,35 @@ function PageSubNav({ menuItems = [], getActive }) {
             <li
               key={key}
               className={classNames(
-                'border-gray-bc px-20 text-center w-full md:w-auto',
-                isActive ? 'order-first md:order-none py-8' : 'border-t md:border-t-0 py-4',
+                'border-gray-bc px-20 text-center w-full md:w-auto py-8 md:py-0',
+                isActive ? 'order-first md:order-none' : 'border-t md:border-t-0',
                 {
                   'border-l-0 md:border-l': i !== 0,
                 }
               )}
             >
               <Link
-                className={classNames('hover:text-primary transition-colors whitespace-nowrap', { 'text-secondary': isActive })}
+                className={classNames(
+                  'relative hover:text-secondary-dark group transition-colors whitespace-nowrap md:py-8 transition-colors duration-300',
+                  { 'text-secondary': isActive }
+                )}
                 to={path}
-              >{title}</Link>
+              >
+                {title}
+                <Transition
+                  as={Fragment}
+                  show={isActive}
+                  appear={true}
+                  enter="transition duration-300 ease-out"
+                  enterFrom="transform translate-y-4 opacity-0"
+                  enterTo="transform translate-y-0 opacity-100"
+                  leave="transition duration-300 ease-out"
+                  leaveFrom="transform translate-y-0 opacity-100"
+                  leaveTo="transform translate-y-4 opacity-0"
+                >
+                  <span className="absolute inset-x-0 bottom-0 hidden h-1 transition duration-300 md:block bg-secondary group-hover:bg-secondary-dark" />
+                </Transition>
+              </Link>
             </li>
           )
         })}
@@ -69,8 +88,8 @@ function PageSubNav({ menuItems = [], getActive }) {
 
 export default function PageHeader({ menuItems = [], getActive, locale }) {
   return (
-    <header className="lg:flex items-start p-16 md:p-40">
-      <SiteLogo className="w-logo-sm lg:w-logo mx-auto lg:m-0" locale={locale} />
+    <header className="items-start p-16 lg:flex md:p-40">
+      <SiteLogo className="mx-auto w-logo-sm lg:w-logo lg:m-0" locale={locale} />
 
       {menuItems.length > 0 && (
         <PageSubNav menuItems={menuItems} getActive={getActive} />

@@ -27,20 +27,20 @@ export default function AboutOrganizationPresidentsPage({ path, pageContext }) {
           getActive={({ key }) => key === 'organization'}
         />
         <nav className="px-14">
-          <h1 className="flex items-center justify-center max-w-sm mx-auto text-primary text-24 font-bold font-serif">
-            <span className="bg-current h-1 flex-grow" />
+          <h1 className="flex items-center justify-center max-w-sm mx-auto font-serif font-bold text-primary text-24">
+            <span className="flex-grow h-1 bg-current" />
             <span className="mx-20">
               {pages.organization.title}
             </span>
-            <span className="bg-current h-1 flex-grow" />
+            <span className="flex-grow h-1 bg-current" />
           </h1>
           <ul className="flex flex-wrap items-center justify-center my-16">
             {pages[pageItem.parentPage].subPages.map(page => (
               <li key={page.slug} className="m-10">
                 <Link
                   className={classNames(
-                    'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary transition-colors duration-200',
-                    page.slug === pageItem.slug ? 'bg-tertiary text-white hover:bg-opacity-50' : 'text-tertiary hover:bg-opacity-20'
+                    'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
+                    page.slug === pageItem.slug ? 'bg-tertiary text-white hover:bg-tertiary-light' : 'text-tertiary'
                   )}
                   to={page.localizedPath}
                 >
@@ -50,30 +50,30 @@ export default function AboutOrganizationPresidentsPage({ path, pageContext }) {
             ))}
           </ul>
         </nav>
-        <article className="flex-grow w-full max-w-screen-xl mx-auto mt-32 pb-48 md:pb-96 px-14 md:px-60">
-          <section className="px-14 sm:flex items-center">
+        <article className="flex-grow w-full max-w-screen-xl pb-48 mx-auto mt-32 md:pb-96 px-14 md:px-60">
+          <section className="items-center px-14 sm:flex">
             <div className="flex-grow">
-              <h1 className="flex text-primary text-36 font-bold font-serif">
+              <h1 className="flex font-serif font-bold text-primary text-36">
                 {pages.presidents.title}
               </h1>
             </div>
           </section>
 
-          <section className="mt-48 tracking-wide leading-8">
+          <section className="mt-48 leading-8 tracking-wide">
             <ul>
               <li className="mb-32">
                 <ul className="flex flex-wrap">
                   {presidents.map((p) => (
                     <li
                       key={p.name}
-                      className="w-1/2 sm:w-1/4 px-8 py-12"
+                      className="w-1/2 px-8 py-12 sm:w-1/4"
                     >
                       <div>
                         <img className="w-full" src={p.image} alt={p.name} />
                       </div>
                       <div>
                         <div className="text-12 md:text-14 text-secondary">{p.title}</div>
-                        <div className="text-14 md:text-16 font-bold font-serif">{p.name}</div>
+                        <div className="font-serif font-bold text-14 md:text-16">{p.name}</div>
                       </div>
                     </li>
                   ))}
@@ -84,14 +84,14 @@ export default function AboutOrganizationPresidentsPage({ path, pageContext }) {
                   {vicePresidents.map(vp => (
                     <li
                     key={vp.name}
-                      className="w-1/2 sm:w-1/4 md:w-1/6 px-8 py-12"
+                      className="w-1/2 px-8 py-12 sm:w-1/4 md:w-1/6"
                     >
                       <div>
                         <img className="w-full" src={vp.image} alt={vp.name} />
                       </div>
                       <div>
                         <div className="text-12 md:text-14 text-secondary">{vp.title}</div>
-                        <div className="text-14 md:text-16 font-bold font-serif">{vp.name}</div>
+                        <div className="font-serif font-bold text-14 md:text-16">{vp.name}</div>
                       </div>
                     </li>
                   ))}

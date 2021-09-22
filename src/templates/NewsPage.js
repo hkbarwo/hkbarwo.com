@@ -32,13 +32,13 @@ export default function NewsPage({ path, pageContext }) {
           ]}
           getActive={({ key }) => newsCategory ? newsCategory.slug === key : key === 'index'}
         />
-        <section className="flex-grow w-full max-w-screen-xl mx-auto p-14 pb-48 md:pb-96">
-          <h1 className="flex items-center justify-center max-w-sm mx-auto text-primary text-24 text-center font-bold font-serif">
-            <span className="bg-current h-1 flex-grow" />
+        <section className="flex-grow w-full max-w-screen-xl pb-48 mx-auto p-14 md:pb-96">
+          <h1 className="flex items-center justify-center max-w-sm mx-auto font-serif font-bold text-center text-primary text-24">
+            <span className="flex-grow h-1 bg-current" />
             <span className="mx-20">
               {newsCategory ? newsCategory.title : <FormattedMessage id="all" />}
             </span>
-            <span className="bg-current h-1 flex-grow" />
+            <span className="flex-grow h-1 bg-current" />
           </h1>
           {newsItems.length > 0 ? (
             <ul className="md:px-60">
@@ -49,9 +49,9 @@ export default function NewsPage({ path, pageContext }) {
                     key={slug}
                     className="py-20 border-b border-gray-e5"
                   >
-                    <div className="flex justify-between items-center mb-20">
+                    <div className="flex items-center justify-between mb-20">
                       <div
-                        className="px-16 py-2 rounded-full text-white text-16"
+                        className="px-16 py-2 text-white rounded-full text-16"
                         style={{ backgroundColor: category.color }}
                       >{category.title}</div>
                       <div className="flex items-center">
@@ -71,9 +71,9 @@ export default function NewsPage({ path, pageContext }) {
                       </div>
                     </div>
                     <div className="flex items-center">
-                      <h2 className="flex-grow text-20 tracking-wide">{news.title}</h2>
+                      <h2 className="flex-grow tracking-wide text-20">{news.title}</h2>
                       <Link
-                        className="rounded-full text-white ml-32 px-24 py-10 bg-secondary"
+                        className="px-24 py-10 ml-32 text-white transition-colors duration-300 rounded-full bg-secondary hover:bg-secondary-dark"
                         to={`/${locale}/news/${news.slug}`}
                       >
                         <FormattedMessage id="know.more" />
@@ -85,7 +85,7 @@ export default function NewsPage({ path, pageContext }) {
             </ul>
           ) : (
             <p
-              className="py-72 text-36 text-gray-bc text-center font-serif font-light"
+              className="font-serif font-light text-center py-72 text-36 text-gray-bc"
             ><FormattedMessage id="list.empty" /></p>
           )}
         </section>

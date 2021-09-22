@@ -20,13 +20,13 @@ export default function AboutAssociationPage(props) {
   return (
     <Page {...props}>
       <nav className="px-14">
-        <ul className="flex flex-wrap items-center justify-center my-16 max-w-screen-lg mx-auto">
+        <ul className="flex flex-wrap items-center justify-center max-w-screen-lg mx-auto my-16">
           {subMenus.map(m => (
             <li key={m.slug} className="m-10">
               <Link
                 className={classNames(
-                  'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary transition-colors duration-200',
-                  m.slug === pageData.slug ? 'bg-tertiary text-white hover:bg-opacity-50' : 'text-tertiary hover:bg-opacity-20'
+                  'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
+                  m.slug === pageData.slug ? 'bg-tertiary text-white hover:bg-tertiary-light' : 'text-tertiary'
                 )}
                 to={m.localizedPath}
                 alt={m.title}
@@ -39,23 +39,23 @@ export default function AboutAssociationPage(props) {
       </nav>
 
       <div className="w-full max-w-screen-xl mx-auto">
-        <section className="lg:flex mt-48 tracking-wide">
+        <section className="mt-48 tracking-wide lg:flex">
           <div className="flex-shrink-0 px-14 lg:mr-120">
             <img className="mx-auto" src={logo} alt={title} style={{ width: 260 }} />
           </div>
           <div className="flex-grow mt-48 lg:mt-0">
-            <div className="lg:flex items-center justify-between">
-              <h1 className="flex text-primary text-36 font-bold font-serif tracking-wide">{title}{title2}</h1>
+            <div className="items-center justify-between lg:flex">
+              <h1 className="flex font-serif font-bold tracking-wide text-primary text-36">{title}{title2}</h1>
               {!!website && (
                 <a
-                  className="mt-8 lg:mt-0 flex whitespace-nowrap items-center text-tertiary font-medium"
+                  className="flex items-center mt-8 font-medium lg:mt-0 whitespace-nowrap text-tertiary"
                   href={website}
                   alt={title}
                   rel="noreferrer noopener"
                   target="_blank"
                 >
                   <svg
-                    className="flex-shrink-0 fill-current w-18 mr-8"
+                    className="flex-shrink-0 mr-8 fill-current w-18"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 18 18"
                   >
@@ -65,17 +65,17 @@ export default function AboutAssociationPage(props) {
                 </a>
               )}
             </div>
-            <div className="mt-24 whitespace-pre-line leading-8 tracking-wide">{description}</div>
+            <div className="mt-24 leading-8 tracking-wide whitespace-pre-line">{description}</div>
           </div>
         </section>
         {!!commitiees && !!commitiees.length && (
           <section className="mt-96">
             <h2 className="font-bold">{commitieesTitle}</h2>
-            <ul className="mt-56 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-40 gap-y-20">
+            <ul className="grid grid-cols-1 mt-56 sm:grid-cols-2 lg:grid-cols-4 gap-x-40 gap-y-20">
               {commitiees.map(committee => (
-                <li className="text-center rounded-full border border-gray-bc p-10">
+                <li className="p-10 text-center border rounded-full border-gray-bc">
                   <div className="text-secondary">{committee.title}</div>
-                  <div className="text-18 font-serif font-bold">{committee.name}</div>
+                  <div className="font-serif font-bold text-18">{committee.name}</div>
                 </li>
               ))}
             </ul>

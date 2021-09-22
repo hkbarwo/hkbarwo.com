@@ -31,7 +31,7 @@ export default function ResourcesChannelCategoryPage(props) {
       menuItemGetActive={({ key }) => key === 'channel'}
       {...props}
     >
-      <img className="my-64 mx-auto" src={channel.logo} alt={channel.title} style={{ width: 212 }} />
+      <img className="mx-auto my-64" src={channel.logo} alt={channel.title} style={{ width: 212 }} />
       <header className="text-right">
       <a
         className="inline-flex items-center justify-end"
@@ -41,7 +41,7 @@ export default function ResourcesChannelCategoryPage(props) {
         rel="noopener noreferrer"
       >
         <svg
-          className="w-36 h-32 mr-16"
+          className="h-32 mr-16 w-36"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 29.241 20.56"
         >
@@ -60,8 +60,8 @@ export default function ResourcesChannelCategoryPage(props) {
             <li key={c.slug} className="m-10">
               <Link
                 className={classNames(
-                  'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary transition-colors duration-200',
-                  c.slug === pageData.slug ? 'bg-tertiary text-white hover:bg-opacity-50' : 'text-tertiary hover:bg-opacity-20'
+                  'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
+                  c.slug === pageData.slug ? 'bg-tertiary text-white hover:bg-tertiary-light' : 'text-tertiary'
                 )}
                 to={c.localizedPath}
               >
@@ -73,18 +73,18 @@ export default function ResourcesChannelCategoryPage(props) {
       </nav>
 
       {isChannelPage && (
-        <p className="w-full max-w-screen-sm mt-20 mx-auto mb-72 text-center leading-8 tracking-wide">
+        <p className="w-full max-w-screen-sm mx-auto mt-20 leading-8 tracking-wide text-center mb-72">
           {channel.description}
         </p>
       )}
 
-      <nav className="flex-grow max-w-screen-xl p-14 pb-32 md:px-60 mx-auto">
+      <nav className="flex-grow max-w-screen-xl pb-32 mx-auto p-14 md:px-60">
         {!!pageData.items && pageData.items.length ? (
           <ul className="flex flex-wrap -mx-10 -my-20">
             {pageData.items.map(item => (
               <li
                 key={item.slug}
-                className="w-full sm:w-1/2 lg:w-1/3 px-10 py-20"
+                className="w-full px-10 py-20 sm:w-1/2 lg:w-1/3"
               >
                 <ChannelVideoItem item={item} />
               </li>
@@ -92,7 +92,7 @@ export default function ResourcesChannelCategoryPage(props) {
           </ul>
         ) : (
           <p
-            className="py-72 text-36 text-gray-bc text-center font-serif font-light"
+            className="font-serif font-light text-center py-72 text-36 text-gray-bc"
           ><FormattedMessage id="channel.list.empty" /></p>
         )}
       </nav>
