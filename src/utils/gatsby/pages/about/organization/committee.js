@@ -66,22 +66,37 @@ exports.createAboutOrganizationCommitteePage = async ({ actions, graphql }, cont
     toPath: pageItem.localizedPath,
   });
 
-  result.data.committee.nodes.forEach(({ fields: { [locale]: committee } }, index) => {
-    const committeePagePath = `${pageItem.localizedPath}/${committee.slug}`
+  const committeePages = [];
+  const committeePageMenuItems = [];
+  result.data.committee.nodes.map(({ fields: { [locale]: data } }) => {
+    const path = `${pageItem.localizedPath}/${data.slug}`
+    committeePages.push({
+      data,
+      path,
+    });
+    committeePageMenuItems.push({
+      key: data.slug,
+      title: data.title,
+      path,
+    });
+  });
+
+  committeePages.forEach((page, index) => {
     if (index === 0) {
       actions.createRedirect({
         fromPath: pageItem.localizedPath,
-        toPath: committeePagePath,
+        toPath: page.path,
       });
     }
     actions.createPage({
-      path: committeePagePath,
+      path: page.path,
       component: require.resolve('../../../../../templates/AboutOrganizationCommitteePage.js'),
       context: {
         ...context,
         pageItem,
-        committee,
+        committee: page.data,
+        menuItems: committeePageMenuItems,
       },
     });
-  })
+  });
 }

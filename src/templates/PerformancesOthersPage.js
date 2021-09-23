@@ -26,16 +26,17 @@ export default function PerformancesOthersPage(props) {
         key: item.slug,
         title: item.title,
       }))}
+      articleClassName="max-w-screen-xl mx-auto"
     >
       {filteredPerformances.length > 0 ? (
-        <div className="max-w-screen-xl mx-auto mt-30 mb-96">
-          <aside className="flex justify-end">
+        <Fragment>
+          <aside className="flex justify-center pt-32 md:justify-end">
             <Listbox value={selectedYear} onChange={setSelectedYear}>
               {({ open }) => (
-                <div className="relative">
+                <div className="relative z-20">
                   <Listbox.Button
                     className={classNames(
-                      'flex items-center px-16 py-10 text-white rounded-full',
+                      'flex items-center px-24 py-8 text-white rounded-full',
                       open ? 'bg-secondary-dark' : 'bg-secondary',
                       'hover:bg-secondary-dark',
                       'transition',
@@ -44,7 +45,7 @@ export default function PerformancesOthersPage(props) {
                     )}
                   >
                     <svg
-                      className="mr-8"
+                      className="mr-16"
                       xmlns="http://www.w3.org/2000/svg"
                       width="22"
                       viewBox="0 0 22.84 22.68"
@@ -88,7 +89,7 @@ export default function PerformancesOthersPage(props) {
               )}
             </Listbox>
           </aside>
-          <ul className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-y-60 lg:gap-x-96">
+          <ul className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-y-60 lg:gap-x-96 mt-60">
             {filteredPerformances.map((event, i) => (
               <li key={event.slug}>
                 {!!event.coverImage && <img className="w-full mb-20" src={event.coverImage} alt={event.title} />}
@@ -111,7 +112,7 @@ export default function PerformancesOthersPage(props) {
               </li>
             ))}
           </ul>
-        </div>
+        </Fragment>
       ) : (
         <p
           className="font-serif font-light text-center py-72 text-36 text-gray-bc"

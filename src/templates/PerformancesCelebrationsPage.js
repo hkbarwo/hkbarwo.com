@@ -25,16 +25,17 @@ export default function PerformancesCelebrationsPage(props) {
         key: item.slug,
         title: item.title,
       }))}
+      articleClassName="max-w-screen-xl mx-auto"
     >
       {filteredPerformances.length > 0 ? (
-        <div className="max-w-screen-xl mx-auto mt-30">
-          <aside className="flex justify-end">
+        <Fragment>
+          <aside className="flex justify-center pt-32 md:justify-end">
             <Listbox value={selectedYear} onChange={setSelectedYear}>
               {({ open }) => (
                 <div className="relative z-20">
                   <Listbox.Button
                     className={classNames(
-                      'flex items-center px-16 py-10 text-white rounded-full',
+                      'flex items-center px-24 py-8 text-white rounded-full',
                       open ? 'bg-secondary-dark' : 'bg-secondary',
                       'hover:bg-secondary-dark',
                       'transition',
@@ -43,7 +44,7 @@ export default function PerformancesCelebrationsPage(props) {
                     )}
                   >
                     <svg
-                      className="mr-8"
+                      className="mr-16"
                       xmlns="http://www.w3.org/2000/svg"
                       width="22"
                       viewBox="0 0 22.84 22.68"
@@ -114,7 +115,7 @@ export default function PerformancesCelebrationsPage(props) {
               </li>
             ))}
           </ul>
-        </div>
+        </Fragment>
       ) : (
         <p
           className="font-serif font-light text-center py-72 text-36 text-gray-bc"

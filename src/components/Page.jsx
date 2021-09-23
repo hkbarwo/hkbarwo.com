@@ -30,6 +30,7 @@ export default function Page({
   path,
   pageContext,
   pageTitle,
+  articleClassName,
   appendPageTitle,
   pageDescription,
   isEmpty = false,
@@ -89,7 +90,8 @@ export default function Page({
         <article
           className={classNames(
             "flex-grow pb-96",
-            isNoHorizontalPadding ? 'py-14' : 'p-14 md:px-60'
+            isNoHorizontalPadding ? 'py-14' : 'p-14 md:px-60',
+            articleClassName,
           )}
         >
           <section className={classNames({ 'px-14': isNoHorizontalPadding })}>
