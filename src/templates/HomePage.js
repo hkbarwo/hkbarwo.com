@@ -455,8 +455,10 @@ export default function HomePageTemplate({ pageContext, path }) {
           isOpen={isShowDetail}
           closeTimeoutMS={200}
           style={{
-            content: {
+            overlay: {
               zIndex: 50,
+            },
+            content: {
               top: 0,
               left: 0,
               bottom: 0,
@@ -465,7 +467,8 @@ export default function HomePageTemplate({ pageContext, path }) {
               borderRadius: 0,
               display: "flex",
               flexDirection: "column",
-            }
+              height: '100%',
+            },
           }}
         >
           <FullScreenSlide
