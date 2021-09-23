@@ -1,13 +1,13 @@
 import React from "react"
 import classNames from "classnames";
 
-export function HomePageSlide({ slide, i, isVisible, onClickSlide }) {
+export function HomePageSlide({ slide, i, num, isVisible, onClickSlide }) {
   const isHidden = !isVisible;
   return (
     <a
       className={classNames('flex h-full', i % 2 === 0 ? 'flex-col-reverse' : 'flex-col')}
       href={`#${slide.slug}`}
-      onClick={(e) => onClickSlide(e, i)}
+      onClick={(e) => onClickSlide(e, num)}
     >
       <div className="relative flex-grow overflow-hidden">
         <img
@@ -36,7 +36,7 @@ export function HomePageSlide({ slide, i, isVisible, onClickSlide }) {
               }
             )}
           >
-            <span className="font-light tracking-widest text-22">{`${i < 9 ? '0' : ''}${i + 1}`}</span>
+            <span className="font-light tracking-widest text-22">{`${num < 9 ? '0' : ''}${num + 1}`}</span>
             <span className="ml-10 tracking-wide text-18">{slide.shortTitle}</span>
           </div>
           <h1

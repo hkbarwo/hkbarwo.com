@@ -279,6 +279,8 @@ export default function HomePageTemplate({ pageContext, path }) {
 
   // HACK: To fix loop animation
   const slides = useMemo(() => extendArray(pageContext.slides, 10), [pageContext.slides])
+  const slidesCount = useMemo(() => pageContext.slides.length, [pageContext.slides])
+
   function onClickSlide(e, index) {
     e.preventDefault();
     setDetailsIndex(index);
@@ -350,6 +352,7 @@ export default function HomePageTemplate({ pageContext, path }) {
                         isVisible={isVisible}
                         slide={slide}
                         i={i}
+                        num={i % slidesCount}
                         onClickSlide={onClickSlide}
                       />
                     ))}
