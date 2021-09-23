@@ -80,7 +80,11 @@ export default function AboutOrganizationCommitteePage({ path, pageContext }) {
             <ul>
               <li className="mb-32 md:flex">
                 <div className="flex-1 p-8">
-                  <img class="mx-auto md:mx-0 block" src={committee.president.image} alt={committee.president.name} />
+                  <img
+                    className="block mx-auto md:mx-0"
+                    src={committee.president.image}
+                    alt={committee.president.name}
+                  />
                 </div>
                 <div className="flex items-center justify-center flex-1 px-8 py-12">
                   <div className="md:p-14">

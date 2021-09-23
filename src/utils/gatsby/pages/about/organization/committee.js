@@ -6,7 +6,6 @@ exports.createAboutOrganizationCommitteePage = async ({ actions, graphql }, cont
       committee: allMarkdownRemark(
         filter: { fileAbsolutePath: {regex: "/data/about/organization/commitiees/" }},
         sort: { fields: fields___${locale}___slug, order: DESC }
-        limit: 1
       ) {
         nodes {
           fields {
@@ -67,13 +66,22 @@ exports.createAboutOrganizationCommitteePage = async ({ actions, graphql }, cont
     toPath: pageItem.localizedPath,
   });
 
-  actions.createPage({
-    path: pageItem.localizedPath,
-    component: require.resolve('../../../../../templates/AboutOrganizationCommitteePage.js'),
-    context: {
-      ...context,
-      pageItem,
-      committee: result.data.committee.nodes[0].fields[locale],
-    },
-  });
+  result.data.committee.nodes.forEach(({ fields: { [locale]: committee } }, index) => {
+    const committeePagePath = `${pageItem.localizedPath}/${committee.slug}`
+    if (index === 0) {
+      actions.createRedirect({
+        fromPath: pageItem.localizedPath,
+        toPath: committeePagePath,
+      });
+    }
+    actions.createPage({
+      path: committeePagePath,
+      component: require.resolve('../../../../../templates/AboutOrganizationCommitteePage.js'),
+      context: {
+        ...context,
+        pageItem,
+        committee,
+      },
+    });
+  })
 }
