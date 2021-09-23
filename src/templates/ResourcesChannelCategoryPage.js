@@ -18,7 +18,6 @@ export default function ResourcesChannelCategoryPage(props) {
     isChannel: isChannelPage,
   } = pageContext;
   const menuItem = menus.secondary.find(({ slug }) => slug === 'resources');
-  console.log(channel);
   return (
     <Page
       pageTitle={pages.channel.title}
