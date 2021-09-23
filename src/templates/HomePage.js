@@ -1,7 +1,7 @@
-import React, { useRef, useState } from "react";
+import React, { useMemo, useRef, useState } from "react";
 import Modal from 'react-modal';
 import { FormattedDate, FormattedMessage } from "react-intl";
-import SwiperCore, { Autoplay, Mousewheel } from 'swiper';
+import SwiperCore, { Autoplay, Mousewheel, EffectFade } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import classNames from "classnames";
 
@@ -14,8 +14,13 @@ import { PageMeta } from "../components/Page";
 import PageNav from "../components/PageNav";
 import PageFooter from "../components/PageFooter";
 import SiteLogo from "../components/SiteLogo";
+import { HomePageSlide } from "../components/HomePageSlide";
 
-SwiperCore.use([Autoplay, Mousewheel]);
+SwiperCore.use([Autoplay, Mousewheel, EffectFade]);
+
+function extendArray(array, i) {
+  return i > 1 ? [...array, ...extendArray(array, i - 1)] : array
+}
 
 function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
   return (
@@ -138,6 +143,10 @@ function NewsSection({ pageContext, className }) {
             slidesPerView={1}
             observer={true}
             loop={true}
+            effect="fade"
+            fadeEffect={{ crossFade: true }}
+            watchSlidesProgress={true}
+            watchSlidesVisibility={true}
             autoplay={{
               delay: 4000,
               disableOnInteraction: true,
@@ -149,38 +158,52 @@ function NewsSection({ pageContext, className }) {
           >
             {pageContext.news.map(news => (
               <SwiperSlide key={news.slug}>
-                <div className="py-16 px-28">
-                  <h3>{news.title}</h3>
-                  <footer className="flex items-center justify-between mt-16 text-14">
-                    <div className="flex items-center">
-                      <svg className="w-16 h-16 mr-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                        <path
-                          d="M10.44,11.19l-3-3v-5H8.53V7.78l2.66,2.66ZM8,15.44A7.44,7.44,0,1,1,15.44,8,7.44,7.44,0,0,1,8,15.44ZM8,1.62A6.38,6.38,0,1,0,14.38,8,6.38,6.38,0,0,0,8,1.62Z"
-                          fill="currentColor"
-                        />
-                      </svg>
-                      <FormattedDate value={news.date} />
-                    </div>
-                    <Link
-                      className="flex items-center px-12 py-4 font-light border border-current rounded-full group"
-                      to={`/${pageContext.locale}/news/${news.slug}`}
-                    >
-                      <FormattedMessage id="know.more" />
-                      <svg
-                        className="w-12 h-12 ml-8 transition-transform transform group-hover:translate-x-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 12 12"
+                {({ isNext, isPrev }) => (
+                  <div
+                    className={classNames(
+                      'py-16 px-28',
+                      'transform',
+                      'transition',
+                      'duration-300',
+                      'ease-out',
+                      {
+                        'translate-x-1/4': isNext,
+                        '-translate-x-1/4': isPrev,
+                      }
+                    )}
+                  >
+                    <h3>{news.title}</h3>
+                    <footer className="flex items-center justify-between mt-16 text-14">
+                      <div className="flex items-center">
+                        <svg className="w-16 h-16 mr-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                          <path
+                            d="M10.44,11.19l-3-3v-5H8.53V7.78l2.66,2.66ZM8,15.44A7.44,7.44,0,1,1,15.44,8,7.44,7.44,0,0,1,8,15.44ZM8,1.62A6.38,6.38,0,1,0,14.38,8,6.38,6.38,0,0,0,8,1.62Z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                        <FormattedDate value={news.date} />
+                      </div>
+                      <Link
+                        className="flex items-center px-12 py-4 font-light border border-current rounded-full group"
+                        to={`/${pageContext.locale}/news/${news.slug}`}
                       >
-                        <path
-                          d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeLinecap="round"
-                        />
-                      </svg>
-                    </Link>
-                  </footer>
-                </div>
+                        <FormattedMessage id="know.more" />
+                        <svg
+                          className="w-12 h-12 ml-8 transition-transform transform group-hover:translate-x-4"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 12 12"
+                        >
+                          <path
+                            d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                          />
+                        </svg>
+                      </Link>
+                    </footer>
+                  </div>
+                )}
               </SwiperSlide>
             ))}
           </Swiper>
@@ -254,6 +277,8 @@ export default function HomePageTemplate({ pageContext, path }) {
   const [detailsIndex, setDetailsIndex] = useState(0);
   const [isShowDetail, setIsShowDetail] = useState(false);
 
+  // HACK: To fix loop animation
+  const slides = useMemo(() => extendArray(pageContext.slides, 10), [pageContext.slides])
   function onClickSlide(e, index) {
     e.preventDefault();
     setDetailsIndex(index);
@@ -304,6 +329,8 @@ export default function HomePageTemplate({ pageContext, path }) {
                 }}
                 loop={true}
                 observer={true}
+                watchSlidesProgress={true}
+                watchSlidesVisibility={true}
                 onSlideChange={(swiper) => {
                   setSlideIndex(swiper.realIndex);
                 }}
@@ -313,40 +340,19 @@ export default function HomePageTemplate({ pageContext, path }) {
                 }}
                 style={{ width: sliderWidth }}
               >
-                {pageContext.slides.map((slide, i) => (
+                {slides.map((slide, i) => (
                   <SwiperSlide
-                    key={slide.slug}
+                    key={i}
                     className="text-white group"
                   >
-                    <a
-                      className={classNames('flex h-full', i % 2 === 0 ? 'flex-col-reverse' : 'flex-col')}
-                      href={`#${slide.slug}`}
-                      onClick={(e) => onClickSlide(e, i)}
-                    >
-                      <div className="relative flex-grow overflow-hidden">
-                        <img
-                          className="absolute inset-0 object-cover w-full h-full transition-transform duration-300 ease-out transform group-hover:scale-110"
-                          src={`${slide.bgImage}`} alt={slide.title}
-                        />
-                      </div>
-                      <div className="flex-shrink-0 aspect-w-1 aspect-h-1">
-                        <div
-                          className="p-20"
-                          style={{
-                            backgroundImage:
-                              `linear-gradient(to bottom, ${slide.gradient.color1} 0% , ${slide.gradient.color2} 100%)`,
-                          }}
-                        >
-                          <div>
-                            <span className="font-light tracking-widest text-22">{`${i < 9 ? '0' : ''}${i + 1}`}</span>
-                            <span className="ml-10 tracking-wide text-18">{slide.shortTitle}</span>
-                          </div>
-                          <h1 className="mt-24 font-serif font-bold tracking-widest text-36">{slide.title}</h1>
-                          <h2 className="mt-4 font-serif font-light tracking-widest text-28">{slide.subtitle}</h2>
-                          <p className="mt-8 leading-5 whitespace-pre-wrap text-14 line-clamp-2">{slide.description}</p>
-                        </div>
-                      </div>
-                    </a>
+                    {(({ isVisible }) => (
+                      <HomePageSlide
+                        isVisible={isVisible}
+                        slide={slide}
+                        i={i}
+                        onClickSlide={onClickSlide}
+                      />
+                    ))}
                   </SwiperSlide>
                 ))}
               </Swiper>

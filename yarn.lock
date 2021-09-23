@@ -15353,9 +15353,9 @@ swap-case@^1.1.0:
     upper-case "^1.1.1"
 
 swiper@^6.4.15:
-  version "6.4.15"
-  resolved "https://registry.yarnpkg.com/swiper/-/swiper-6.4.15.tgz#0fb153b3000c0dd26ab21ea9e8d1ab0ebe9e33cb"
-  integrity sha512-FuURJ7hE9lCxPnXIJRKu2QCe+roE8CZV2WYsZxz+dcEd3kebgK0JRvV32HpM3LmFOz7UW+k2Dkdfxekk2kTfMg==
+  version "6.8.4"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-6.8.4.tgz#938fed4144f4d7952fbf9c44e5832d133a4de794"
+  integrity sha512-O+buF9Q+sMA0H7luMS8R59hCaJKlpo8PXhQ6ZYu6Rn2v9OsFd4d1jmrv14QvxtQpKAvL/ZiovEeANI/uDGet7g==
   dependencies:
     dom7 "^3.0.0"
     ssr-window "^3.0.0"
