@@ -3,13 +3,13 @@ import Modal from 'react-modal';
 import { FormattedDate, FormattedMessage } from "react-intl";
 import SwiperCore, { Autoplay, Mousewheel } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Link } from "gatsby";
 import classNames from "classnames";
 
 import useResize from "../utils/react-hooks/useResize";
 
 import ClientOnly from "../components/ClientOnly";
 import IntlProvider from "../components/IntlProvider";
+import Link from "../components/Link";
 import { PageMeta } from "../components/Page";
 import PageNav from "../components/PageNav";
 import PageFooter from "../components/PageFooter";
