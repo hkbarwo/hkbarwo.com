@@ -1,17 +1,63 @@
-import React from "react"
+import React, { useMemo } from "react"
 import classNames from "classnames";
 
-export function HomePageSlide({ slide, i, num, isVisible, onClickSlide }) {
-  const isHidden = !isVisible;
+export function HomePageSlide({
+  slide,
+  i,
+  num,
+  isPrev,
+  isNext,
+  isVisible,
+  initialSlide,
+  onClickSlide
+}) {
+  const isHidden = !isVisible && !isPrev && !isNext;
+  const isEven = i % 2 === 0
+  const delayClass = useMemo(() => {
+    switch (i) {
+      case 1 + initialSlide:
+        return 'delay-300'
+    
+      case 2 + initialSlide:
+        return 'delay-700'
+
+      default:
+        return ''
+    }
+  }, [i])
+
+  const imageClassNames = useMemo(() => classNames([
+    'absolute',
+    'inset-0',
+    'object-cover',
+    'w-full',
+    'h-full',
+    'transition',
+    'duration-1000',
+    'ease-out',
+    'transform',
+    'group-hover:scale-110',
+    isHidden ? 'duration-300' : 'duration-1000',
+    delayClass,
+    {
+      [isEven ? 'translate-y-1/4' : '-translate-y-1/4']: isHidden,
+      'opacity-0': isHidden,
+    },
+  ]), [i, isHidden])
   return (
     <a
-      className={classNames('flex h-full', i % 2 === 0 ? 'flex-col-reverse' : 'flex-col')}
+      className={classNames('flex h-full', isEven ? 'flex-col-reverse' : 'flex-col')}
       href={`#${slide.slug}`}
       onClick={(e) => onClickSlide(e, num)}
     >
-      <div className="relative flex-grow overflow-hidden">
+      <div
+        className="relative flex-grow overflow-hidden"
+        style={{
+          backgroundColor: isEven ? slide.gradient.color2 : slide.gradient.color1,
+        }}
+      >
         <img
-          className="absolute inset-0 object-cover w-full h-full transition-transform duration-300 ease-out transform group-hover:scale-110"
+          className={imageClassNames}
           src={`${slide.bgImage}`} alt={slide.title}
         />
       </div>
@@ -32,7 +78,7 @@ export function HomePageSlide({ slide, i, num, isVisible, onClickSlide }) {
               'ease-out',
               {
                 'opacity-0': isHidden,
-                'translate-x-full': isHidden,
+                'translate-x-1/4': isHidden,
               }
             )}
           >
@@ -49,7 +95,7 @@ export function HomePageSlide({ slide, i, num, isVisible, onClickSlide }) {
               'ease-out',
               {
                 'opacity-0': isHidden,
-                'translate-x-full': isHidden,
+                'translate-x-1/4': isHidden,
               }
             )}
           >{slide.title}</h1>
@@ -63,7 +109,7 @@ export function HomePageSlide({ slide, i, num, isVisible, onClickSlide }) {
               'ease-out',
               {
                 'opacity-0': isHidden,
-                'translate-x-full': isHidden,
+                'translate-x-1/4': isHidden,
               }
             )}
           >{slide.subtitle}</h2>
@@ -77,7 +123,7 @@ export function HomePageSlide({ slide, i, num, isVisible, onClickSlide }) {
               'ease-out',
               {
                 'opacity-0': isHidden,
-                'translate-x-full': isHidden,
+                'translate-x-1/4': isHidden,
               }
             )}
           >{slide.description}</p>

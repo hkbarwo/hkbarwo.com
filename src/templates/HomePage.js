@@ -278,8 +278,10 @@ export default function HomePageTemplate({ pageContext, path }) {
   const [isShowDetail, setIsShowDetail] = useState(false);
 
   // HACK: To fix loop animation
-  const slides = useMemo(() => extendArray(pageContext.slides, 10), [pageContext.slides])
+  const extendMultiplier = 20
+  const slides = useMemo(() => extendArray(pageContext.slides, extendMultiplier), [pageContext.slides])
   const slidesCount = useMemo(() => pageContext.slides.length, [pageContext.slides])
+  const initialSlide = pageContext.slides.length * extendMultiplier / 2
 
   function onClickSlide(e, index) {
     e.preventDefault();
@@ -329,6 +331,7 @@ export default function HomePageTemplate({ pageContext, path }) {
                     slidesPerView: 3,
                   },
                 }}
+                initialSlide={initialSlide}
                 loop={true}
                 observer={true}
                 watchSlidesProgress={true}
@@ -347,12 +350,13 @@ export default function HomePageTemplate({ pageContext, path }) {
                     key={i}
                     className="text-white group"
                   >
-                    {(({ isVisible }) => (
+                    {((params) => (
                       <HomePageSlide
-                        isVisible={isVisible}
                         slide={slide}
                         i={i}
+                        initialSlide={initialSlide}
                         num={i % slidesCount}
+                        {...params}
                         onClickSlide={onClickSlide}
                       />
                     ))}
