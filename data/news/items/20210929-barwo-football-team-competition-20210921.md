@@ -31,8 +31,14 @@ zh:
     外援球員：7名
 
 
+    ![](/uploads/img_3437.jpg)
+
+
+    ![](/uploads/img_3434.jpg)
+
 
     香港八和會館 謹啟
   slug: barwo-football-team-competition-20210921
-en: {}
+en:
+  category: event
 ---
