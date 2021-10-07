@@ -3,7 +3,7 @@ zh:
   date: 2021-01-03T16:00:00.000Z
   category: xianyou
   title: 仙遊通告-李香蘭女士
-  slug: barwo-news-notice
+  slug: barwo-news-notice0104
   content: >-
     本會會員李香琴女士（演員部）已於2021年1月4日仙遊，享壽88歲，現請各位會員按規定交付福壽金每位港幣貳拾元正（HK$20），此是528份，請各屬會協助收集為盼！ 
 
