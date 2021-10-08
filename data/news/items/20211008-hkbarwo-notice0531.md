@@ -22,5 +22,6 @@ zh:
 
     八和福壽金基金會 謹啟
   slug: hkbarwo-notice0531
+  pdfFile: /uploads/檔案編號ca2021-536_鄭詠常仙遊通告.pdf
 en: {}
 ---
