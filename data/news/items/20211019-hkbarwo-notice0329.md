@@ -1,7 +1,7 @@
 ---
 zh:
   date: 2021-03-28T16:00:00.000Z
-  title: 仙遊通告-陳妙風女士
+  title: 仙遊通告-陳妙風先生
   slug: hkbarwo-notice0329
   category: xianyou
   content: >-
@@ -23,5 +23,6 @@ zh:
     八和福壽金基金會
 
     謹啟
-en: {}
+en:
+  category: xianyou
 ---
