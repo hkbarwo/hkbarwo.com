@@ -5,9 +5,6 @@ zh:
   slug: barwo-perfomance
   category: notice
   content: >-
-    **新聞公佈**
-
-
     致：各大傳媒編輯、編採主任
 
 
@@ -27,6 +24,9 @@ zh:
 
 
     香港八和會館
+
+
+    2021年11月2日
 
 
      2021年華光先師寶誕慶祝活動相片：
