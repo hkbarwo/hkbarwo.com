@@ -53,6 +53,18 @@ zh:
     ![7](/uploads/mar_5527.jpg)
 
 
+    ![8](/uploads/mar_5559.jpg)
+
+
+    ![9](/uploads/mar_5565.jpg)
+
+
+    ![10](/uploads/mar_5607.jpg)
+
+
+    ![11](/uploads/mar_5821.jpg)
+
+
 
 
     香港八和會館
