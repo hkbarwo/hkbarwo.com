@@ -1,7 +1,7 @@
 ---
 zh:
   date: 2021-11-02T10:43:04.940Z
-  title: 2021華光先師寶誕香花山大賀壽演出圓滿完成
+  title: 2021華光先師寶誕《香花山大賀壽》演出圓滿完成
   slug: barwo-perfomance
   category: notice
   content: >-
