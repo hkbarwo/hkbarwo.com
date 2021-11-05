@@ -14,6 +14,12 @@ zh:
     - image: /uploads/souvenirs/example.jpg
       title: 八和帽
       code: "03"
+    - image: /uploads/whatsapp-image-2021-11-05-at-4.49.17-pm.jpeg
+      title: 帆布袋
+      code: "04"
+    - image: /uploads/whatsapp-image-2021-11-05-at-4.48.52-pm.jpeg
+      title: 保溫瓶
+      code: "05"
 en:
   title: 訂購八和紀念品
   content: |-
