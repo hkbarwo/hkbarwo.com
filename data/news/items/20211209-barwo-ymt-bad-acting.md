@@ -1,7 +1,7 @@
 ---
 zh:
   date: 2021-12-09T07:43:28.004Z
-  title: 粵劇新秀培訓活動—《Bad Acting》電影放映暨座談會
+  title: 粵劇新秀培訓活動——《Bad Acting》電影放映暨座談會
   youtubeVideoID: https://www.youtube.com/watch?v=HHrJh7Yw1oE&list=PLtxWEcrdHl-2FRZvzPxZcqi63A_kW0cEx
   content: 本計劃於十一月十日舉辦了《Bad
     Acting》電影放映暨座談會，邀請到藝術總監羅家英先生和著名舞台劇工作者兼戲劇導師甄詠蓓，分享各種表演經驗以及演繹技巧。《Bad
