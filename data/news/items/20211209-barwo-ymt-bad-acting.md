@@ -1,6 +1,6 @@
 ---
 zh:
-  date: 2021-12-09T07:43:28.004Z
+  date: 2021-11-10T07:43:28.004Z
   title: 粵劇新秀培訓活動——《Bad Acting》電影放映暨座談會(1)
   youtubeVideoID: HHrJh7Yw1oE
   content: 本計劃於十一月十日舉辦了《Bad
