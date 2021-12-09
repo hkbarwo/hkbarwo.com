@@ -3,7 +3,7 @@ zh:
   date: 2021-11-01T16:00:00.000Z
   image: ""
   category: event
-  title: 2021年華光先師寶誕慶祝活動
+  title: 2021年11月2日，華光先師寶誕慶祝活動
   slug: barwo-celebrate-hua-guang-2021
 en: {}
 ---
