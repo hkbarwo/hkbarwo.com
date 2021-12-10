@@ -1,6 +1,6 @@
 ---
 zh:
-  date: 2021-11-09T16:00:00.000Z
+  date: 2021-10-29T01:18:50.339Z
   title: 八和團體足球賽 紅隊以比數8：4勝出
   slug: barwo-news-notice1029
   category: event
