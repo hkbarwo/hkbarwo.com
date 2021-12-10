@@ -1,6 +1,6 @@
 ---
 zh:
-  date: 2021-10-01T16:00:00.000Z
+  date: 2021-11-01T16:00:00.000Z
   title: 2021年華光誕慶祝活動小訪談——香港演藝學院校長蔡敏志教授及副校長(學術)艾祖華博士
   slug: barwo-performance-huaguang-202111021
   category: event
