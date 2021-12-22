@@ -1,6 +1,6 @@
 ---
 zh:
-  sessions: 1
+  sessions: 3
   metadata:
     - isShowInList: false
       label: 演出日期
@@ -11,10 +11,11 @@ zh:
     - isShowInList: false
       label: 時間
       content: 晚上7時半(6月2日)、下午2時半(6月3日、7月23日)
-  date: 2021-12-22T13:14:35.582Z
+  date: 2022-07-23T13:14:35.582Z
   type: performance
   title: 2022年中國戲曲節《七賢眷》 演出
   slug: barwo-perfomace-seven-filial-kin
+  content: ""
 en:
-  date: 2021-12-22T13:14:35.582Z
+  date: 2022-07-23T13:14:35.582Z
 ---
