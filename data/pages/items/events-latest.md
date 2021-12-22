@@ -4,6 +4,8 @@ zh:
   slug: events-latest
   url: /events/latest
   wip: false
+  subPages:
+    - events-latest
 en:
   title: Latest Events
   wip: false
