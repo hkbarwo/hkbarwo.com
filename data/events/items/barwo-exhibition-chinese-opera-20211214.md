@@ -37,7 +37,7 @@ zh:
 
     ![](/uploads/whatsapp-image-2021-12-23-at-08.01.30-1-.jpeg)
 
-    ![]()
+    ![](/uploads/whatsapp-image-2021-12-23-at-08.01.27.jpeg)
 en:
   date: 2022-01-13T16:00:00.000Z
 ---
