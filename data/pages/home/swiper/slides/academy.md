@@ -8,7 +8,7 @@ zh:
   gradient:
     color1: "#fc4786"
     color2: "#ffa7a7"
-  bgImage: /images/uploads/home/swiper/slides/landing-img-4-2x.jpg
+  bgImage: /uploads/img_20171223_1402250.jpg
   subtitle: 傳承・教育
   title: 八和粵劇學院
   bgImageFillStyle: cover
