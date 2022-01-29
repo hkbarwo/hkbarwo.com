@@ -1050,6 +1050,40 @@ collections:
         i18n: true
         widget: file
         required: false
+  - name: "ebookItems"
+    label: "電子書項目"
+    folder: "/data/resources/ebook/items"
+    i18n: true
+    create: true
+    slug: "{{fields.slug}}"
+    sortable_fields: ["title", "slug"]
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+      - name: "date"
+        label: "出版日期"
+        widget: datetime
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        required: true
+      - name: "image"
+        label: "封面"
+        widget: image
+        # media_folder: "/static/uploads/resources/publications"
+        # public_folder: "/uploads/resources/publications"
+        required: true
+      - name: "url"
+        label: "eBook 連結"
+        i18n: false
+        widget: string
+        required: true
+        hint: 'e.g. https://indd.adobe.com/view/6b83afb3-19cd-40eb-a652-d0d196e5511f'
   - name: "info"
     label: "📄 網站連結頁面"
     i18n: true

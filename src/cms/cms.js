@@ -16,6 +16,7 @@ import PhotoDetailsViewPreview from "./PhotoDetailsViewPreview";
 import PublicationItemPreview from "./PublicationItemPreview";
 import SouvenirsSectionPreview from "./SouvenirsSectionPreview";
 import CreditsSectionPreview from "./CreditsSectionPreview";
+import EbookItemPreview from "./EbookItemPreview";
 
 CMS.registerPreviewStyle(swiperStyles.toString(), { raw: true });
 CMS.registerPreviewStyle(styles.toString(), { raw: true });
@@ -30,6 +31,7 @@ CMS.registerPreviewTemplate('tnc', MarkdownPagePreview);
 CMS.registerPreviewTemplate('privacy', MarkdownPagePreview);
 CMS.registerPreviewTemplate('photoGallaryItems', PhotoDetailsViewPreview);
 CMS.registerPreviewTemplate('publicationsItems', PublicationItemPreview);
+CMS.registerPreviewTemplate('ebookItems', EbookItemPreview);
 CMS.registerPreviewTemplate('interviewCategories', InterviewCategoryPreview);
 CMS.registerPreviewTemplate('souvenirs', SouvenirsSectionPreview);
 CMS.registerPreviewTemplate('credits', CreditsSectionPreview);

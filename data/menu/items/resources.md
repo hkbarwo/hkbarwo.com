@@ -5,8 +5,9 @@ zh:
   page: channel
   subPages:
     - channel
-    - photo-gallery
     - publications
+    - ebook
+    - photo-gallery
     - bookmarks
 en:
   title: Resources
