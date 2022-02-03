@@ -323,7 +323,7 @@ function SouvenirSection({ pageContext, className }) {
       <footer className="flex items-center justify-between w-full p-32 pt-0 text-14">
         <Link
           className="pb-2 border-b border-current group"
-          to={`/${pageContext.locale}/support`}
+          to={`/${pageContext.locale}/support/donation`}
         >
           <div className="transition-transform transform group-hover:-translate-y-2">
             <FormattedMessage id="home.souvenir.more" />

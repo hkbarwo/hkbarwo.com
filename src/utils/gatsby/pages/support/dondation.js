@@ -1,11 +1,12 @@
-exports.createSupportPage = async ({ actions, graphql }, context) => {
-  const { locale, defaultLocale, pages: { support: pageItem } } = context;
+exports.createSupportDonationPage = async ({ actions, graphql }, context) => {
+  const { locale, defaultLocale, pages: { donation: pageItem } } = context;
 
   const result = await graphql(`
     {
       intro: yamlSupportIntro {
         fields {
           ${locale} {
+            heading
             description
             image
             title
@@ -32,25 +33,12 @@ exports.createSupportPage = async ({ actions, graphql }, context) => {
           }
         }
       }
-      souvenir: yamlSupportSouvenirs {
-        fields {
-          ${locale} {
-            title
-            content
-            items {
-              code
-              image
-              title
-            }
-          }
-        }
-      }
     }
   `);
 
   actions.createPage({
     path: pageItem.localizedPath,
-    component: require.resolve('../../../templates/SupportPage.js'),
+    component: require.resolve('../../../../templates/SupportIndexPage.jsx'),
     context: {
       ...context,
       pageItem,
@@ -58,12 +46,20 @@ exports.createSupportPage = async ({ actions, graphql }, context) => {
         intro: result.data.intro.fields[locale],
         offering: result.data.offering.fields[locale],
         credits: result.data.credits.fields[locale],
-        souvenir: result.data.souvenir.fields[locale],
       },
     },
   });
 
+  actions.createRedirect({
+    fromPath: `/${locale}/support`,
+    toPath: pageItem.localizedPath,
+  });
+
   if (locale === defaultLocale) {
+    actions.createRedirect({
+      fromPath: '/support',
+      toPath: pageItem.localizedPath,
+    });
     actions.createRedirect({
       fromPath: pageItem.url,
       toPath: pageItem.localizedPath,

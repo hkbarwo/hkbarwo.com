@@ -1280,7 +1280,11 @@ collections:
         label: "介紹"
         i18n: true
         file: "/data/support/intro.yml"
-        fields:
+        fields: 
+          - name: "heading"
+            label: "主標題"
+            i18n: true
+            widget: string
           - name: "title"
             label: "標題"
             i18n: true

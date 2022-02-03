@@ -10,7 +10,7 @@ const { createHomePage } = require('./src/utils/gatsby/pages/home');
 const { createNewsPages } = require('./src/utils/gatsby/pages/news');
 const { createResourcesPages } = require('./src/utils/gatsby/pages/resources');
 const { createContactPage } = require('./src/utils/gatsby/pages/contact');
-const { createSupportPage } = require('./src/utils/gatsby/pages/support');
+const { createSupportPages } = require('./src/utils/gatsby/pages/support');
 const { createMemberPages } = require('./src/utils/gatsby/pages/member');
 const { createPerformancesPages } = require('./src/utils/gatsby/pages/performances');
 const { createSitemapPage } = require('./src/utils/gatsby/pages/sitemap');
@@ -116,7 +116,7 @@ exports.createPages = async (params) => {
         createHomePage(params, context),
         createNewsPages(params, context),
         createContactPage(params, context),
-        createSupportPage(params, context),
+        createSupportPages(params, context),
         createMemberPages(params, context),
         createPerformancesPages(params, context),
         createPrivacyPage(params, context),

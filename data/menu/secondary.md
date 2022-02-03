@@ -12,4 +12,6 @@ items:
     item: member
   - style: primary
     item: resources
+  - style: primary
+    item: support
 ---

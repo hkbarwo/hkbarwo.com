@@ -3,14 +3,14 @@ import classNames from "classnames";
 
 import CreditsSection from "../components/CreditsSection";
 import Page from "../components/Page";
-import SouvenirsSection from "../components/SouvenirsSection";
 import StrikethroughHeading from "../components/StrikethroughHeading";
 
 export default function SupportPage(props) {
   const { pageContext } = props;
   const { pageData } = pageContext;
   return (
-    <Page {...props}>
+    <Page {...props} isShowTitle={false}>
+      <StrikethroughHeading>{pageData.intro.heading}</StrikethroughHeading>
       <section className="mb-32 mt-96 lg:flex px-14 md:pr-0 lg:pl-60 lg:pl-120">
         <div className="flex-shrink-0 w-full lg:mr-48 lg:max-w-sm">
           {pageData.intro.title && (
@@ -58,11 +58,6 @@ export default function SupportPage(props) {
           {...pageData.credits}
         />
       )}
-
-      <SouvenirsSection
-        className="mt-128"
-        {...pageData.souvenir}
-      />
     </Page>
   )
 }

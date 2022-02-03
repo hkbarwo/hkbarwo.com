@@ -1,8 +1,8 @@
 ---
 zh:
-  title: 支持我們
-  slug: support
-  url: /support
+  title: 捐款辦法
+  slug: donation
+  url: /support/donation
   wip: false
 en:
   title: Support

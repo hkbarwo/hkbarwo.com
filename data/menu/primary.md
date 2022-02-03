@@ -5,8 +5,6 @@ items:
   - style: primary
     item: home
   - style: primary
-    item: support
-  - style: primary
     item: contact
   - style: secondary
     item: sitemap

@@ -2,7 +2,10 @@
 zh:
   title: 支持我們
   slug: support
-  page: support
+  page: donation
+  subPages:
+    - donation
+    - souvenirs
 en:
   title: Support
 ---
