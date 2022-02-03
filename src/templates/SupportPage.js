@@ -4,16 +4,17 @@ import classNames from "classnames";
 import CreditsSection from "../components/CreditsSection";
 import Page from "../components/Page";
 import SouvenirsSection from "../components/SouvenirsSection";
+import StrikethroughHeading from "../components/StrikethroughHeading";
 
 export default function SupportPage(props) {
   const { pageContext } = props;
   const { pageData } = pageContext;
   return (
     <Page {...props}>
-      <section className="mt-96 mb-32 lg:flex px-14 md:pr-0 lg:pl-60 lg:pl-120">
-        <div className="lg:mr-48 lg:max-w-sm	w-full flex-shrink-0">
+      <section className="mb-32 mt-96 lg:flex px-14 md:pr-0 lg:pl-60 lg:pl-120">
+        <div className="flex-shrink-0 w-full lg:mr-48 lg:max-w-sm">
           {pageData.intro.title && (
-            <h1 className="mb-32 text-primary text-36 font-bold font-serif">
+            <h1 className="mb-32 font-serif font-bold text-primary text-36">
               {pageData.intro.title}
             </h1>
           )}
@@ -29,15 +30,8 @@ export default function SupportPage(props) {
         </div>
       </section>
 
-      <section className="px-14 max-w-3xl w-full mx-auto">
-        <h1 className="flex items-center justify-center max-w-sm mx-auto text-primary text-24 text-center font-bold font-serif">
-          <span className="bg-current h-1 flex-grow" />
-          <span className="mx-20">
-            {pageData.offering.title}
-          </span>
-          <span className="bg-current h-1 flex-grow" />
-        </h1>
-
+      <section className="w-full max-w-3xl mx-auto px-14">
+        <StrikethroughHeading>{pageData.offering.title}</StrikethroughHeading>
         <ul>
           {pageData.offering.methods.map(((method, i) => (
             <li
@@ -49,7 +43,7 @@ export default function SupportPage(props) {
               </div>
               <div className="flex-grow">
                 {!!method.title && (
-                  <h2 className="text-20 text-secondary mb-8">{method.title}</h2>
+                  <h2 className="mb-8 text-20 text-secondary">{method.title}</h2>
                 )}
                 <div className="whitespace-pre-line">{method.content}</div>
               </div>

@@ -54,9 +54,9 @@ function SouvenirsForm(props) {
           placeholder={`${intl.formatMessage({ id: 'souvenir.placeholder.address' })}*`}
           required
         />
-        <div className="mt-20 relative w-full block border border-gray-70 p-12 px-24 text-14 rounded-3xl text-center">
+        <div className="relative block w-full p-12 px-24 mt-20 text-center border border-gray-70 text-14 rounded-3xl">
           <svg
-            className="absolute right-16 top-16 w-12 h-12 transform transition-transform duration-300"
+            className="absolute w-12 h-12 transition-transform duration-300 transform right-16 top-16"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 12 12"
           >
@@ -94,7 +94,7 @@ function SouvenirsForm(props) {
           </select>
         </div>
         <BlueButton
-          className="mt-20 px-24 w-full text-center justify-center"
+          className="justify-center w-full px-24 mt-20 text-center"
           tagName="button"
         >
           <FormattedMessage id="send" />
@@ -109,7 +109,7 @@ function SouvenirGridItem({ code, title, image }) {
     <div>
       <div className="aspect-w-1 aspect-h-1">
         <img
-          className="w-full h-full object-cover"
+          className="object-cover w-full h-full"
           src={image}
           alt={title}
         />
@@ -120,7 +120,7 @@ function SouvenirGridItem({ code, title, image }) {
           values={{ code }}
         />
       </div>
-      <div className="mt-8 text-20 font-bold">{title}</div>
+      <div className="mt-8 font-bold text-20">{title}</div>
 
     </div>
   );
@@ -150,17 +150,17 @@ function SouvenirGrid(props) {
 export default function SouvenirsSection(props) {
   return (
     <section className={props.className}>
-      <StrikethroughHeading className="mb-72">{props.title}</StrikethroughHeading>
+      <StrikethroughHeading id="souvenirs" className="mb-72">{props.title}</StrikethroughHeading>
 
       <SouvenirGrid
-        className="max-w-screen-lg w-full mx-auto"
+        className="w-full max-w-screen-lg mx-auto"
         items={props.items}
       />
 
-      <div className="max-w-sm w-full mx-auto my-60 whitespace-pre-wrap">{props.content}</div>
+      <div className="w-full max-w-sm mx-auto whitespace-pre-wrap my-60">{props.content}</div>
 
       <SouvenirsForm
-        className="max-w-sm w-full mx-auto"
+        className="w-full max-w-sm mx-auto"
         items={props.items}
       />
     </section>

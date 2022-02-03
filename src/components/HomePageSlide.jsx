@@ -24,7 +24,7 @@ export function HomePageSlide({
       default:
         return ''
     }
-  }, [i])
+  }, [i, initialSlide])
 
   const imageClassNames = useMemo(() => classNames([
     'absolute',
@@ -43,7 +43,7 @@ export function HomePageSlide({
       [isEven ? 'translate-y-1/4' : '-translate-y-1/4']: isHidden,
       'opacity-0': isHidden,
     },
-  ]), [i, isHidden])
+  ]), [isHidden, isEven, delayClass])
   return (
     <a
       className={classNames('flex h-full', isEven ? 'flex-col-reverse' : 'flex-col')}

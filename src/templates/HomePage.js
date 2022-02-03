@@ -136,7 +136,7 @@ function NewsSection({ pageContext, className }) {
         <FormattedMessage id="home.news.title" />
       </h2>
 
-      <div className="relative flex-grow w-full mt-16">
+      <div className="relative w-full mt-16">
         <ClientOnly>
           <Swiper
             spaceBetween={0}
@@ -210,13 +210,123 @@ function NewsSection({ pageContext, className }) {
         </ClientOnly>
       </div>
 
-      <footer className="flex items-center justify-between w-full p-32 text-14">
+      <footer className="flex items-center justify-between w-full p-32 pt-0 text-14">
         <Link
           className="pb-2 border-b border-current group"
           to={`/${pageContext.locale}/news`}
         >
           <div className="transition-transform transform group-hover:-translate-y-2">
             <FormattedMessage id="home.news.more" />
+          </div>
+        </Link>
+        <div className="flex items-center">
+          <button
+            className="group"
+            onClick={() => {
+              controlledSwiper.slidePrev();
+            }}
+          >
+            <svg
+              className="w-12 h-12 transition-transform transform group-hover:-translate-x-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 12 12"
+            >
+              <path
+                d="M10.69 6h-9.3m4.83 4.83L1.39 6l4.84-4.84"
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+              />
+            </svg>
+          </button>
+          <span className="mx-8 tracking-widest">{slideIndex + 1}/{pageContext.news.length}</span>
+          <button
+            className="group"
+            onClick={() => {
+              controlledSwiper.slideNext();
+            }}
+          >
+            <svg
+              className="w-12 h-12 transition-transform transform group-hover:translate-x-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 12 12"
+            >
+              <path
+                d="M1.39 6h9.3M5.86 1.16L10.69 6l-4.84 4.83"
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </footer>
+    </div>
+  )
+}
+
+function SouvenirSection({ pageContext, className }) {
+  const [slideIndex, setSlideIndex] = useState(0);
+  const [controlledSwiper, setControlledSwiper] = useState(null);
+
+  return (
+    <div className={classNames('flex flex-col items-start', className)}>
+      <h2 className="p-8 px-16 border-2 rounded-lg text-primary border-primary mx-28">
+        <FormattedMessage id="home.souvenir.title" />
+      </h2>
+
+      <div className="relative w-full mt-16">
+        <ClientOnly>
+          <Swiper
+            spaceBetween={0}
+            slidesPerView={1}
+            observer={true}
+            loop={true}
+            effect="fade"
+            fadeEffect={{ crossFade: true }}
+            watchSlidesProgress={true}
+            watchSlidesVisibility={true}
+            autoplay={{
+              delay: 4000,
+              disableOnInteraction: true,
+            }}
+            onSlideChange={(swiper) => {
+              setSlideIndex(swiper.realIndex);
+            }}
+            onSwiper={setControlledSwiper}
+          >
+            {pageContext.souvenir.map(souvenir => (
+              <SwiperSlide key={souvenir.code}>
+                {({ isNext, isPrev }) => (
+                  <div
+                    className={classNames(
+                      'py-16 px-28',
+                      'transform',
+                      'transition',
+                      'duration-300',
+                      'ease-out',
+                      {
+                        'translate-x-1/4': isNext,
+                        '-translate-x-1/4': isPrev,
+                      }
+                    )}
+                  >
+                    <h3>{souvenir.title}</h3>
+                  </div>
+                )}
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </ClientOnly>
+      </div>
+
+      <footer className="flex items-center justify-between w-full p-32 pt-0 text-14">
+        <Link
+          className="pb-2 border-b border-current group"
+          to={`/${pageContext.locale}/support`}
+        >
+          <div className="transition-transform transform group-hover:-translate-y-2">
+            <FormattedMessage id="home.souvenir.more" />
           </div>
         </Link>
         <div className="flex items-center">
@@ -312,6 +422,7 @@ export default function HomePageTemplate({ pageContext, path }) {
               className="flex-grow mt-60"
               pageContext={pageContext}
             />
+            <SouvenirSection pageContext={pageContext} />
           </section>
           <section ref={sliderSection} className="relative flex-grow overflow-hidden">
             <ClientOnly>
