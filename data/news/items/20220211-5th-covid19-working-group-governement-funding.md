@@ -33,6 +33,6 @@ zh:
     二零二二年二月十日
   slug: 5th-covid19-working-group-governement-funding
   title: 疫情惡化、閉館停工、業界水深火熱 八和組成專責小組盡力為業界爭取政府支援
-  pdfFile: /uploads/公告＿疫情＿成立專責小組（revised）.pdf
+  pdfFile: ""
 en: {}
 ---
