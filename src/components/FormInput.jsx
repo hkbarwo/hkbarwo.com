@@ -8,7 +8,7 @@ export default function FormInput({
 }) {
   return (
     <TagName
-      className={classNames('w-full block border border-gray-70 p-12 px-24 text-14 rounded-3xl', className)}
+      className={classNames('w-full block border border-gray-70 p-12 px-24 text-14 rounded-8', className)}
       {...props}
     />
   );

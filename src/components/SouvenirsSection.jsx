@@ -54,7 +54,7 @@ function SouvenirsForm(props) {
           placeholder={`${intl.formatMessage({ id: 'souvenir.placeholder.address' })}*`}
           required
         />
-        <div className="relative block w-full p-12 px-24 mt-20 text-center border border-gray-70 text-14 rounded-3xl">
+        <div className="relative block w-full p-12 px-24 mt-20 text-center border border-gray-70 text-14 rounded-8">
           <svg
             className="absolute w-12 h-12 transition-transform duration-300 transform right-16 top-16"
             xmlns="http://www.w3.org/2000/svg"

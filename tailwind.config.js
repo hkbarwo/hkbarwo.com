@@ -102,6 +102,9 @@ module.exports = {
         '720': '720px',
         '1080': '1080px',
       },
+      borderRadius: {
+        '8': '8px',
+      },
       backgroundImage: theme => ({
         'pattern-light': "url('/images/bg/pattern-light.svg')",
         'pattern-white': "url('/images/bg/pattern-white.svg')",
