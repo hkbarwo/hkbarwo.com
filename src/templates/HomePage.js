@@ -316,7 +316,7 @@ export default function HomePageTemplate({ pageContext, path }) {
 
   return (
     <IntlProvider language={pageContext.locale}>
-      <main className="font-sans">
+      <main className="h-screen font-sans">
         <PageMeta
           title={pageContext.pageItem.title}
           description={pageContext.pageItem.description}
