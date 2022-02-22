@@ -308,6 +308,11 @@ export default function HomePageTemplate({ pageContext, path }) {
   const slidesCount = useMemo(() => pageContext.slides.length, [pageContext.slides])
   const initialSlide = pageContext.slides.length * extendMultiplier / 2
 
+  function setRealSlideIndex(index) {
+    const realIndex = index % pageContext.slides.length
+    setSlideIndex(realIndex)
+  }
+
   function onClickSlide(e, index) {
     e.preventDefault();
     setDetailsIndex(index);
@@ -363,11 +368,11 @@ export default function HomePageTemplate({ pageContext, path }) {
                 watchSlidesProgress={true}
                 watchSlidesVisibility={true}
                 onSlideChange={(swiper) => {
-                  setSlideIndex(swiper.realIndex);
+                  setRealSlideIndex(swiper.realIndex);
                 }}
                 onSwiper={(swiper) => {
                   setControlledSwiper(swiper);
-                  setSlideIndex(swiper.realIndex);
+                  setRealSlideIndex(swiper.realIndex);
                 }}
                 style={{ width: sliderWidth }}
               >
