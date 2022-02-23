@@ -6,7 +6,7 @@ import BlueButton from "./BlueButton";
 import FormInput from "./FormInput";
 import StrikethroughHeading from "./StrikethroughHeading";
 
-function SouvenirSelectRow({ className, items, index }) {
+function SouvenirSelectRow({ className, items, index, isHidden }) {
   const intl = useIntl();
   const [selectedItemCode, setSelectedItemCode] = useState('');
   const selectedItem = useMemo(
@@ -18,7 +18,7 @@ function SouvenirSelectRow({ className, items, index }) {
     setSelectedItemCode(event.target.value);
   };
   return (
-    <div className={classNames("flex items-stretch mt-20", className)}>
+    <div className={classNames("flex items-stretch", className, isHidden ? 'h-0 overflow-hidden' : 'mt-20')}>
       <div className="relative flex-grow block w-full p-12 pl-24 text-center border pr-36 border-gray-70 text-14 rounded-8">
         <svg
           className="absolute w-12 h-12 transition-transform duration-300 transform right-16 top-16"
@@ -42,7 +42,7 @@ function SouvenirSelectRow({ className, items, index }) {
           className="absolute inset-0 w-full h-full opacity-0"
           name={`item-${index}`}
           placeholder={`${intl.formatMessage({ id: 'souvenir.placeholder.item' })}*`}
-          required
+          required={index === 0}
           value={selectedItemCode}
           onChange={handleSelectItemChange}
           onBlur={handleSelectItemChange}
@@ -65,7 +65,7 @@ function SouvenirSelectRow({ className, items, index }) {
         type="number"
         min="1"
         placeholder={`${intl.formatMessage({ id: 'souvenir.placeholder.quantity' })}*`}
-        required
+        required={!!selectedItemCode}
         style={{ maxWidth: 120 }}
       />
     </div>
@@ -117,9 +117,9 @@ function SouvenirsForm(props) {
         {items.map((item, index) => (
           <SouvenirSelectRow
             key={item.slug}
-            className={index > visibleInputCount - 1 ? 'hidden' : ''}
-            index={index}
             items={items}
+            index={index}
+            isHidden={index > visibleInputCount - 1}
           />
         ))}
         <div className={classNames("flex justify-start mt-10", { 'opacity-0 pointer-events-none': visibleInputCount === items.length })}>
