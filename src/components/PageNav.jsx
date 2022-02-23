@@ -144,7 +144,7 @@ function ExpandableSubMenu({ item, pageContext, onClose, style }) {
   )
 }
 
-export default function PageNav({ pageContext, pageTitle, isHideMenuButton = false, appendPageTitle }) {
+export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton = false, appendPageTitle }) {
   const { locale } = pageContext;
   const [isOpen, setOpen] = useState(false)
   return (
@@ -255,17 +255,16 @@ export default function PageNav({ pageContext, pageTitle, isHideMenuButton = fal
                 >{pageContext.general.themeSettings.dark}</label>
               </button> */}
 
-              {/* <LanguageButton
+              <LanguageButton
                 path={path}
                 locale={locale}
                 targetLocale="zh"
-              >中文</LanguageButton>
+              >繁中</LanguageButton>
               <LanguageButton
                 path={path}
                 locale={locale}
                 targetLocale="en"
-                isDisabled={true}
-              >ENG</LanguageButton> */}
+              >ENG</LanguageButton>
 
               <button
                 className="ml-10 dark:bg-text-primary md:ml-32 md:-mr-20"

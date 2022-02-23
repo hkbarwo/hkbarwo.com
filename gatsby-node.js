@@ -46,14 +46,13 @@ exports.onCreateNode = ({ node, actions }) => {
         value: frontmatter[defaultLocale].slug,
         node,
       });
-      
 
       locales.forEach((locale) => {
         actions.createNodeField({
           name: locale,
           value: locale === defaultLocale
             ? frontmatter[defaultLocale]
-            : merge(frontmatter[defaultLocale], frontmatter[locale], {
+            : merge(frontmatter[defaultLocale], frontmatter[locale] || {}, {
               arrayMerge: (_, source) => source,
             }),
           node,
@@ -67,7 +66,7 @@ exports.onCreateNode = ({ node, actions }) => {
           name: locale,
           value: locale === defaultLocale
             ? node[defaultLocale]
-            : merge(node[defaultLocale], node[locale], {
+            : merge(node[defaultLocale], node[locale] || {}, {
               arrayMerge: (_, source) => source,
             }),
           node,
