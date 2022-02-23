@@ -16,7 +16,7 @@ media_folder: "/static/uploads"
 public_folder: "/uploads"
 i18n:
   structure: single_file
-  locales: [zh, en]
+  locales: [cn, zh, en]
   default_locale: zh
 collections:
   - name: "menu"

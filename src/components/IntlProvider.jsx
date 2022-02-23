@@ -5,7 +5,7 @@ import messages from "../intl";
 
 export default function IntlProvider({ language, children }) {
   return (
-    <ReactIntlProvider messages={messages[language]} locale={language} defaultLocale="en">
+    <ReactIntlProvider messages={messages[language]} locale={language} defaultLocale="zh">
       {children}
     </ReactIntlProvider>
   );

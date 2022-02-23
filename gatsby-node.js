@@ -20,7 +20,7 @@ const { createRemarkable } = require('./src/utils/gatsby/markdown');
 const { createSearchPage } = require('./src/utils/gatsby/pages/search');
 
 const defaultLocale = 'zh';
-const locales = ['zh', 'en'];
+const locales = ['zh', 'en', 'cn'];
 
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
@@ -30,6 +30,10 @@ exports.createSchemaCustomization = ({ actions }) => {
       items: [String]
     }
     type yamlSupportCreditsFieldsEn implements Node {
+      title: String
+      items: [String]
+    }
+    type yamlSupportCreditsFieldsCn implements Node {
       title: String
       items: [String]
     }

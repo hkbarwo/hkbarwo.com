@@ -1,0 +1,84 @@
+{
+  "all": "全部",
+
+  "channel.subscribe": "订阅我们的 YouTube 频道",
+  "channel.videos.more": "更多影片",
+  "channel.list.empty": "陆续推出",
+
+  "chronicle.download.pdf": "下载历年大事表",
+
+  "contact.form.title": "查询及分享",
+  "contact.placeholder.name": "名称",
+  "contact.placeholder.email": "电邮",
+  "contact.placeholder.tel": "电话",
+  "contact.placeholder.content": "内容",
+  "contact.thankyou": "感谢你的的意见及分享，如有需要，我们会回覆你！",
+
+  "committee.past": "历届理事会",
+  "download.pdf": "下载 PDF",
+
+  "empty": "没有内容",
+
+  "events.list.empty": "陆续推出",
+  "events.sessions": "场数",
+
+  "home.news.title": "最新消息",
+  "home.news.more": "更多消息",
+  "home.souvenir.title": "订购八和纪念品",
+  "home.souvenir.more": "立即订购",
+  
+  "know.more": "了解更多",
+
+  "list.empty": "没有项目",
+
+  "member.apply": "加入我们",
+
+  "member.directory.header": "{stroke1}至{stroke2}划",
+  "member.directory.alias": "艺名",
+  "member.directory.gender": "性别",
+  "member.directory.gender.female": "女",
+  "member.directory.gender.male": "男",
+  "member.directory.name": "姓名（本名）",
+  "member.directory.position": "位置",
+  "member.directory.role": "职称",
+  "member.directory.description": "简介",
+  "member.directory.thoughts": "心声",
+
+  "menu": "目录",
+
+  "meta.title": "香港八和会馆",
+
+  "news": "最新消息",
+
+  "photo.gallery.list.empty": "陆续推出",
+  "photo.gallery.search.placeholder": "搜索珍藏图片",
+
+  "publication.date": "出版日期",
+  "publications.list.empty": "陆续推出",
+
+  "resources.gov": "政府资料",
+
+  "search.box.placeholder": "搜索更多内容",
+
+  "send": "送出",
+
+  "souvenir.code": "纪念品编号：{code}",
+  "souvenir.button.add": "增加项目",
+  "souvenir.placeholder.name": "名称",
+  "souvenir.placeholder.email": "电邮",
+  "souvenir.placeholder.tel": "电话",
+  "souvenir.placeholder.address": "邮寄地址",
+  "souvenir.placeholder.item": "请选择纪念品编号",
+  "souvenir.placeholder.quantity": "数量",
+
+  "theater.list.header.title": "剧场名称",
+  "theater.list.header.type": "场地名称",
+  "theater.list.header.seats": "座位数目",
+  "theater.list.header.tel": "电话",
+
+  "wip": "制作中",
+
+  "website": "网站",
+  "website.link": "网址",
+  "website.list.header": "网站名称"
+}

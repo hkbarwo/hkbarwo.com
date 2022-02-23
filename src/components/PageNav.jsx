@@ -263,6 +263,11 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
               <LanguageButton
                 path={path}
                 locale={locale}
+                targetLocale="cn"
+              >簡中</LanguageButton>
+              <LanguageButton
+                path={path}
+                locale={locale}
                 targetLocale="en"
               >ENG</LanguageButton>
 
