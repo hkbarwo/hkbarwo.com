@@ -123,14 +123,14 @@ function SouvenirsForm(props) {
           />
         ))}
         <div className={classNames("flex justify-start mt-10", { 'opacity-0 pointer-events-none': visibleInputCount === items.length })}>
-          <div
+          <button
             className="flex cursor-pointer text-14 text-primary"
-            role="button"
+            type="button"
             onClick={() => setVisibleInputCount(Math.min(visibleInputCount + 1, items.length))}
           >
             +{' '}
             <FormattedMessage id="souvenir.button.add" />
-          </div>
+          </button>
         </div>
         <div className="justify-end mt-20 md:flex">
           <BlueButton
@@ -200,7 +200,7 @@ export default function SouvenirsSection(props) {
         items={props.items}
       />
 
-      <div className="md:flex mt-96">
+      <div className="w-full max-w-screen-lg mx-auto md:flex mt-96">
         <div className="flex-grow w-full p-24 whitespace-pre-wrap">
           <h3 className="max-w-sm font-serif font-bold text-primary text-32">{props.contentTitle}</h3>
           <div className="mt-24">{props.content}</div>
