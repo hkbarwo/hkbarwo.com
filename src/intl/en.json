@@ -61,11 +61,13 @@
   "send": "Send",
 
   "souvenir.code": "Souvenir Number: {code}",
+  "souvenir.button.add": "Add item",
   "souvenir.placeholder.name": "Name",
   "souvenir.placeholder.email": "Email",
   "souvenir.placeholder.tel": "Tel",
   "souvenir.placeholder.address": "Shipping Address",
   "souvenir.placeholder.item": "Please select item",
+  "souvenir.placeholder.quantity": "Quantity",
 
   "theater.list.header.title": "Name",
   "theater.list.header.type": "Type",

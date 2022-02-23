@@ -6,17 +6,77 @@ import BlueButton from "./BlueButton";
 import FormInput from "./FormInput";
 import StrikethroughHeading from "./StrikethroughHeading";
 
-function SouvenirsForm(props) {
+function SouvenirSelectRow({ className, items, index }) {
   const intl = useIntl();
-  const items = props.items || [];
   const [selectedItemCode, setSelectedItemCode] = useState('');
   const selectedItem = useMemo(
-    () => items.find(item => item.code === selectedItemCode),
+    () => items.find(item => item.slug === selectedItemCode),
     [items, selectedItemCode]
   );
+
   const handleSelectItemChange = (event) => {
     setSelectedItemCode(event.target.value);
   };
+  return (
+    <div className={classNames("flex items-stretch mt-20", className)}>
+      <div className="relative flex-grow block w-full p-12 pl-24 text-center border pr-36 border-gray-70 text-14 rounded-8">
+        <svg
+          className="absolute w-12 h-12 transition-transform duration-300 transform right-16 top-16"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 12 12"
+        >
+          <path
+            d="M10.83 5.84L6 10.67 1.17 5.83M6 1.33v9.3"
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        {selectedItem ? (
+          `${selectedItem.title} (${selectedItem.slug})`
+        ) : (
+          <FormattedMessage id="souvenir.placeholder.item" />
+        )}
+        <select
+          className="absolute inset-0 w-full h-full opacity-0"
+          name={`item-${index}`}
+          placeholder={`${intl.formatMessage({ id: 'souvenir.placeholder.item' })}*`}
+          required
+          value={selectedItemCode}
+          onChange={handleSelectItemChange}
+          onBlur={handleSelectItemChange}
+        >
+          <option value="" disabled>
+            {intl.formatMessage({ id: 'souvenir.placeholder.item' })}
+          </option>
+          {items.map(item => (
+            <option
+              key={item.slug}
+              value={item.slug}
+            >{item.title} ({item.slug})</option>
+          ))}
+        </select>
+      </div>
+      <FormInput
+        className="ml-12"
+        name={`quantity-${index}`}
+        rows={6}
+        type="number"
+        min="1"
+        placeholder={`${intl.formatMessage({ id: 'souvenir.placeholder.quantity' })}*`}
+        required
+        style={{ maxWidth: 120 }}
+      />
+    </div>
+  )
+}
+
+function SouvenirsForm(props) {
+  const intl = useIntl();
+  const items = props.items || [];
+  const [visibleInputCount, setVisibleInputCount] = useState(1)
+
   return (
     <form
       className={props.className}
@@ -54,57 +114,39 @@ function SouvenirsForm(props) {
           placeholder={`${intl.formatMessage({ id: 'souvenir.placeholder.address' })}*`}
           required
         />
-        <div className="relative block w-full p-12 px-24 mt-20 text-center border border-gray-70 text-14 rounded-8">
-          <svg
-            className="absolute w-12 h-12 transition-transform duration-300 transform right-16 top-16"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 12 12"
+        {items.map((item, index) => (
+          <SouvenirSelectRow
+            key={item.slug}
+            className={index > visibleInputCount - 1 ? 'hidden' : ''}
+            index={index}
+            items={items}
+          />
+        ))}
+        <div className={classNames("flex justify-start mt-10", { 'opacity-0 pointer-events-none': visibleInputCount === items.length })}>
+          <div
+            className="flex cursor-pointer text-14 text-primary"
+            role="button"
+            onClick={() => setVisibleInputCount(Math.min(visibleInputCount + 1, items.length))}
           >
-            <path
-              d="M10.83 5.84L6 10.67 1.17 5.83M6 1.33v9.3"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-          {selectedItem ? (
-            `${selectedItem.title} (${selectedItem.code})`
-          ) : (
-            <FormattedMessage id="souvenir.placeholder.item" />
-          )}
-          <select
-            className="absolute inset-0 w-full h-full opacity-0"
-            name="item"
-            placeholder={`${intl.formatMessage({ id: 'souvenir.placeholder.item' })}*`}
-            required
-            value={selectedItemCode}
-            onChange={handleSelectItemChange}
-            onBlur={handleSelectItemChange}
-          >
-            <option value="" disabled>
-              {intl.formatMessage({ id: 'souvenir.placeholder.item' })}
-            </option>
-            {items.map(item => (
-              <option
-                key={item.code}
-                value={item.code}
-              >{item.title} ({item.code})</option>
-            ))}
-          </select>
+            +{' '}
+            <FormattedMessage id="souvenir.button.add" />
+          </div>
         </div>
-        <BlueButton
-          className="justify-center w-full px-24 mt-20 text-center"
-          tagName="button"
-        >
-          <FormattedMessage id="send" />
-        </BlueButton>
+        <div className="justify-end mt-20 md:flex">
+          <BlueButton
+            className="justify-center w-full px-64 text-center md:w-auto"
+            tagName="button"
+            type="submit"
+          >
+            <FormattedMessage id="send" />
+          </BlueButton>
+        </div>
       </div>
     </form>
   );
 }
 
-function SouvenirGridItem({ code, title, image }) {
+function SouvenirGridItem({ code, title, image, price }) {
   return (
     <div>
       <div className="aspect-w-1 aspect-h-1">
@@ -114,14 +156,14 @@ function SouvenirGridItem({ code, title, image }) {
           alt={title}
         />
       </div>
-      <div className="mt-30 text-14">
+      <div className="flex items-center justify-between mt-16 text-14">
         <FormattedMessage
           id="souvenir.code"
           values={{ code }}
         />
+        <span className="font-bold text-primary text-24">${price}</span>
       </div>
-      <div className="mt-8 font-bold text-20">{title}</div>
-
+      <div className="mt-8 font-bold text-18">{title}</div>
     </div>
   );
 }
@@ -131,16 +173,17 @@ function SouvenirGrid(props) {
   return (
     <div
       className={classNames(
-        'grid sm:grid-cols-2 lg:grid-cols-3 gap-x-24 gap-y-24',
+        'grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-40',
         props.className
       )}
     >
-      {items.map(({ code, title, image }) => (
+      {items.map(({ slug, title, thumbnail, price }) => (
         <SouvenirGridItem
-          key={code}
+          key={slug}
           title={title}
-          code={code}
-          image={image}
+          code={slug}
+          image={thumbnail}
+          price={price}
         />
       ))}
     </div>
@@ -157,12 +200,18 @@ export default function SouvenirsSection(props) {
         items={props.items}
       />
 
-      <div className="w-full max-w-sm mx-auto whitespace-pre-wrap my-60">{props.content}</div>
+      <div className="md:flex mt-96">
+        <div className="flex-grow w-full p-24 whitespace-pre-wrap">
+          <h3 className="max-w-sm font-serif font-bold text-primary text-32">{props.contentTitle}</h3>
+          <div className="mt-24">{props.content}</div>
+        </div>
 
-      <SouvenirsForm
-        className="w-full max-w-sm mx-auto"
-        items={props.items}
-      />
+        <SouvenirsForm
+          className="w-full max-w-lg mx-auto"
+          items={props.items}
+        />
+      </div>
+
     </section>
   );
 }

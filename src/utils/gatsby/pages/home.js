@@ -48,19 +48,6 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
           }
         }
       }
-      souvenir: yamlSupportSouvenirs {
-        fields {
-          ${locale} {
-            title
-            content
-            items {
-              code
-              image
-              title
-            }
-          }
-        }
-      }
     }
   `);
 
@@ -82,7 +69,6 @@ exports.createHomePage = async ({ actions, graphql }, context) => {
       pageItem,
       slides,
       news,
-      souvenir: result.data.souvenir.fields[locale].items,
     },
   });
 

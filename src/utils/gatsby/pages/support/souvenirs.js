@@ -3,15 +3,29 @@ exports.createSupportSouvenirsPage = async ({ actions, graphql }, context) => {
 
   const result = await graphql(`
     {
-      souvenir: yamlSupportSouvenirs {
+      page: yamlSupportSouvenirs {
         fields {
           ${locale} {
             title
+            contentTitle
             content
-            items {
-              code
-              image
+          }
+        }
+      }
+      items: allMarkdownRemark(
+        filter: {fileAbsolutePath: {regex: "/data/support/souvenirs/"}},
+        limit: 1000,
+        sort: {order: ASC, fields: frontmatter___zh___slug}
+      ) {
+        nodes {
+          fields {
+            ${locale} {
+              slug
               title
+              thumbnail
+              banner
+              images
+              price
             }
           }
         }
@@ -19,15 +33,18 @@ exports.createSupportSouvenirsPage = async ({ actions, graphql }, context) => {
     }
   `);
 
+  const pageData = {
+    ...result.data.page.fields[locale],
+    items: result.data.items.nodes.map(({ fields: { [locale]: item } }) => item)
+  };
+
   actions.createPage({
     path: pageItem.localizedPath,
     component: require.resolve('../../../../templates/SupportSouvenirsPage.jsx'),
     context: {
       ...context,
       pageItem,
-      pageData: {
-        souvenir: result.data.souvenir.fields[locale],
-      },
+      pageData,
     },
   });
 

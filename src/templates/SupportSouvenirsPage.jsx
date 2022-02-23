@@ -8,7 +8,7 @@ export default function SupportSouvenirsPage(props) {
   const { pageData } = pageContext;
   return (
     <Page {...props} isShowTitle={false}>
-      <SouvenirsSection {...pageData.souvenir} />
+      <SouvenirsSection {...pageData} />
     </Page>
   )
 }

@@ -1376,33 +1376,48 @@ collections:
             label: "標題"
             i18n: true
             widget: string
+          - name: "contentTitle"
+            label: "標題"
+            i18n: true
+            widget: string
           - name: "content"
             label: "內容"
             i18n: true
             widget: text
             required: false
             default: ""
-          - name: "items"
-            label: "項目"
-            widget: list
-            i18n: true
-            required: false
-            default: "[]"
-            fields:
-              - name: "title"
-                label: "標題"
-                i18n: true
-                widget: string
-              - name: "code"
-                label: "編號"
-                widget: string
-              - name: "image"
-                label: "圖片"
-                widget: image
-                required: false
-                default: ""
-                # media_folder: "/static/uploads/souvenirs"
-                # public_folder: "/uploads/souvenirs"
+  - name: "souvenirItems"
+    label: "🗃 紀念品"
+    i18n: true
+    create: true
+    folder: "/data/support/souvenirs"
+    sortable_fields: ["title", "slug", "date"]
+    fields:
+      - name: "title"
+        label: "名稱"
+        i18n: true
+        widget: string
+      - name: "slug"
+        label: "Slug"
+        widget: string
+        pattern: ['^[a-z0-9\-]+$', "必需為英文小寫、數字或「-」組成"]
+        hint: "例：01"
+      - name: "thumbnail"
+        label: "縮圖"
+        widget: image
+      - name: "price"
+        label: "價錢"
+        widget: number
+      - name: "banner"
+        label: "橫幅"
+        widget: image
+        required: false
+        default: ""
+      - name: "images"
+        label: "圖片"
+        widget: image
+        required: false
+        default: ""
   - name: "member"
     label: "📄 會員專區頁面"
     i18n: true

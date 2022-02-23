@@ -63,11 +63,13 @@
   "send": "送出",
 
   "souvenir.code": "紀念品編號：{code}",
+  "souvenir.button.add": "增加項目",
   "souvenir.placeholder.name": "名稱",
   "souvenir.placeholder.email": "電郵",
   "souvenir.placeholder.tel": "電話",
   "souvenir.placeholder.address": "郵寄地址",
   "souvenir.placeholder.item": "請選擇紀念品編號",
+  "souvenir.placeholder.quantity": "數量",
 
   "theater.list.header.title": "劇場名稱",
   "theater.list.header.type": "場地名稱",
