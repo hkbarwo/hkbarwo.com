@@ -44,5 +44,5 @@ zh:
   pdfFile: /uploads/公告＿疫情＿成立專責小組_final.pdf
 en:
   category: notice
-  content: Only available in Chinese version.
+  content: "> ### Only available in Chinese version."
 ---
