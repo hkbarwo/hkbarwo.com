@@ -113,4 +113,5 @@ zh:
 en:
   category: notice
   content: "### Only available in Chinese version"
+  title: Special arrangement for Lunar Year-End Welfare Day 2021
 ---
