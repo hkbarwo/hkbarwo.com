@@ -8,5 +8,8 @@ zh:
   slug: barwo-ymt-bad-acting-5
   category: event
   youtubeVideoID: Euz3EZ8leIM
-en: {}
+en:
+  title: Cantonese Opera Young Talent Showcase Workshop—''Bad Acting'' Screening
+    and Q&A of Apprentice(5)
+  category: event
 ---
