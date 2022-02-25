@@ -110,5 +110,7 @@ zh:
   pdfFile: /uploads/20220105_取消歲晚福利活動公告.pdf
   title: 取消（1月7至9日）派發歲晚福利活動、免收2022年會員年費 及 郵遞歲晚利是
   slug: barwo-covid19-member-activity
-en: {}
+en:
+  category: notice
+  content: "### Only available in Chinese version"
 ---
