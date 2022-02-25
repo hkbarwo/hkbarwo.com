@@ -1,4 +1,7 @@
 ---
+cn:
+  category: event
+  title: 粤剧新秀培训活动——《Bad Acting》电影放映暨座谈会(3)
 zh:
   date: 2021-11-09T16:00:00.000Z
   slug: barwo-ymt-bad-acting-3
