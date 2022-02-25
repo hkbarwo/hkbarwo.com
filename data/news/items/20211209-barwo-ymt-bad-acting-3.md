@@ -8,5 +8,8 @@ zh:
   category: event
   title: 粵劇新秀培訓活動——《Bad Acting》電影放映暨座談會(3)
   youtubeVideoID: LJi5q9Ng2aM
-en: {}
+en:
+  title: Cantonese Opera Young Talent Showcase Workshop—''Bad Acting'' Screening
+    and Q&A of Apprentice(3)
+  category: event
 ---
