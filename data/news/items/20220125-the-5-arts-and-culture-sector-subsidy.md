@@ -78,4 +78,6 @@ en:
     
 
     ### Only available in Chinese version
+  title: Relief measures of Arts and Culture Sector Subsidy Scheme under Fifth
+    Round of Anti-epidemic Fund
 ---
