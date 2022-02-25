@@ -1,4 +1,7 @@
 ---
+cn:
+  category: notice
+  title: 第五轮「防疫抗疫基金」——「艺术文化界资助计划 — 向个人艺术从业者及自由职业者提供资助」
 zh:
   date: 2022-01-25T01:14:24.174Z
   category: notice
