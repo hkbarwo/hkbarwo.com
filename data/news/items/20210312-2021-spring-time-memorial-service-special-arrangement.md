@@ -26,6 +26,6 @@ zh:
   pdfFile: /uploads/春祭_活動安排變動通告＿rev.pdf
 en:
   category: notice
-  title: "Special arrangement by Spring Worship "
+  title: "Special arrangement for Spring Worship "
   content: "### Only available in Chinese version"
 ---
