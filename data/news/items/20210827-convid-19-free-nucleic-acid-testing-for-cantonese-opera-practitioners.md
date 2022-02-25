@@ -81,6 +81,6 @@ zh:
   pdfFile: /uploads/新冠狀病毒病的免費檢測安排_連附件一和二.pdf
 en:
   category: notice
-  title: ""
-  content: ""
+  title: Free COVID-19 testing arrangement
+  content: "**Only available in Chinese version**"
 ---
