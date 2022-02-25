@@ -57,6 +57,6 @@ zh:
 en:
   category: notice
   content: "### Only available in Chinese version"
-  title: " Special arrangement by the celebration of Wah Kwong Festival (華光誕)2020
+  title: " Special arrangement for the celebration of Wah Kwong Festival (華光誕)2020
     cum Inauguration Ceremony of the 39th Board of Directors"
 ---
