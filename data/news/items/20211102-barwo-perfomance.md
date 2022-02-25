@@ -1,4 +1,6 @@
 ---
+cn:
+  category: notice
 zh:
   date: 2021-11-02T10:43:04.940Z
   title: 2021年華光先師寶誕《香花山大賀壽》演出圓滿完成
@@ -96,5 +98,9 @@ zh:
 
 
     電郵： annieyuen@hkbarwo.com
-en: {}
+en:
+  category: notice
+  title: The performance "Grand Birthday Celebration at Mount Heung  Fa" for the
+    celebration of Wah Kwong Festival in 2021ended with complete success
+  content: "### Only available in Chinese version"
 ---
