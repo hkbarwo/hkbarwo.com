@@ -1,4 +1,12 @@
 ---
+cn:
+  category: event
+  content: >-
+    各位会友：
+
+
+    12月14日下午，八和足球队于黄大仙摩士公园3号足球场举行练习赛，成员包括来自主会及属会（六属会），并各分成红、绿两队对垒。最终由主会（红）队胜出，比数为11：6。
+  title: 八和足球队练习赛 主会队以比数11：6胜出
 zh:
   date: 2021-12-15T16:00:00.000Z
   title: 八和足球隊練習賽 主會隊以比數11：6勝出
@@ -32,5 +40,7 @@ zh:
 
     二零二一年十二月十七日
   images: ""
-en: {}
+en:
+  category: event
+  content: "### Only available in Chinese version"
 ---
