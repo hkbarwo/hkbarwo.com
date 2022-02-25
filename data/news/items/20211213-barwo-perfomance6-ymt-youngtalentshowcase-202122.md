@@ -141,4 +141,6 @@ en:
     
 
     ### Only available in Chinese version
+  title: Venue Partner of Yau Ma Tei Theatre Scheme—— Cantonese Opera Young Talent
+    Showcase 2021-22 The sixth performance ticket offer for sale
 ---
