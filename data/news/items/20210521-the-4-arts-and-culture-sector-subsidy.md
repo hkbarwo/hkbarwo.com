@@ -80,4 +80,8 @@ en:
   category: notice
   title: Relief measures of Arts and Culture Sector Subsidy Scheme under fourth
     Round of Anti-epidemic Fund
+  content: |-
+    
+
+    ### Only available in Chinese version
 ---
