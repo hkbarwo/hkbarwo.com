@@ -11,5 +11,5 @@ zh:
 en:
   category: event
   title: Cantonese Opera Young Talent Showcase Workshop—''Bad Acting'' Screening
-    and Q&A of Apprentice(1)
+    and Q&A of Apprentice(6)
 ---
