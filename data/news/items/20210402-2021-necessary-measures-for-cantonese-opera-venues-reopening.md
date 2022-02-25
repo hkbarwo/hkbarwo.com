@@ -58,4 +58,5 @@ en:
   category: notice
   title: The Home Affairs Bureau promulgated the epidemic prevention measures to
     be followed upon resumption of  San Gung Hei（神功戲）
+  content: "### Only available in Chinese version"
 ---
