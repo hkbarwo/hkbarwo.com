@@ -61,5 +61,10 @@ zh:
 
     ![](/uploads/img_4090.jpg "八和副主席新劍郎先生、羅家英理事、總幹事岑金倩小姐及團結香港基金總裁鄭李錦芬女士合照")
   slug: barwo-exhibition-chinese-opera
-en: {}
+en:
+  category: event
+  content: |-
+    
+
+    ### Only available in Chinese version
 ---
