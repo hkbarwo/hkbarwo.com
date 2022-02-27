@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: ng-lut-kwong
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 吳聿光
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Ng Lut Kwong
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: ng-lut-kwong
+  gender: m
+  position: 音
+  role: 会友
+  title: 吴聿光
 ---

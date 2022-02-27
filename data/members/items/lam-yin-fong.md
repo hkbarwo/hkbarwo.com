@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 演
   slug: lam-yin-fong
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 林燕芳
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Lam Yin Fong
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: lam-yin-fong
+  gender: m
+  position: 演
+  role: 会友
+  title: 林燕芳
 ---

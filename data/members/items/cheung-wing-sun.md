@@ -16,4 +16,11 @@ en:
   alias: 張楚雲
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-wing-sun
+  gender: f
+  position: 演
+  alias: 张楚云
+  role: 会友
+  title: 张永新
 ---

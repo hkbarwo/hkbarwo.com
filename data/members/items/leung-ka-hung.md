@@ -16,4 +16,11 @@ en:
   alias: 十仔
   description: ""
   thoughts: ""
+cn:
+  slug: leung-ka-hung
+  gender: m
+  position: 演
+  alias: 十仔
+  role: 会友
+  title: 梁嘉熊
 ---

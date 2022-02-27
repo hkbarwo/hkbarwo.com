@@ -16,4 +16,11 @@ en:
   alias: 陳咏儀
   description: ""
   thoughts: ""
+cn:
+  slug: chan-wing-yee-emily
+  gender: f
+  position: 演
+  alias: 陈咏仪
+  role: 理事
+  title: 陈咏仪
 ---

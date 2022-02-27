@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 演
   slug: lee-yuen-yee
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 李婉誼
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Lee Yuen Yee
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: lee-yuen-yee
+  gender: f
+  position: 演
+  role: 会友
+  title: 李婉谊
 ---

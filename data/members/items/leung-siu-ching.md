@@ -16,4 +16,11 @@ en:
   alias: 龍庭生
   description: ""
   thoughts: ""
+cn:
+  slug: leung-siu-ching
+  gender: f
+  position: 演
+  alias: 龙庭生
+  role: 会友
+  title: 梁小清
 ---

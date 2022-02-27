@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: cheung-yee-kin
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 張意堅
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Cheung Yee Kin
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-yee-kin
+  gender: m
+  position: 音
+  role: 会友
+  title: 张意坚
 ---

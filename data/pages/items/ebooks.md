@@ -7,4 +7,8 @@ zh:
   wip: false
 en:
   title: eBooks
+cn:
+  url: /resources/ebooks
+  slug: ebook
+  title: 电子书
 ---

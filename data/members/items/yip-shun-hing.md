@@ -16,4 +16,11 @@ en:
   alias: 葉家明
   description: ""
   thoughts: ""
+cn:
+  slug: yip-shun-hing
+  gender: f
+  position: 演
+  alias: 叶家明
+  role: 会友
+  title: 叶顺兴
 ---

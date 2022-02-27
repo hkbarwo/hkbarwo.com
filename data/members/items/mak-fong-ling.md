@@ -16,4 +16,11 @@ en:
   alias: 麥嘉紅
   description: ""
   thoughts: ""
+cn:
+  slug: mak-fong-ling
+  gender: f
+  position: 演
+  alias: 麦嘉红
+  role: 会友
+  title: 麦芳玲
 ---

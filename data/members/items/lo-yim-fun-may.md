@@ -16,4 +16,11 @@ en:
   alias: 菱湘
   description: ""
   thoughts: ""
+cn:
+  slug: lo-yim-fun-may
+  gender: f
+  position: 演
+  alias: 菱湘
+  role: 会友
+  title: 卢艳芬
 ---

@@ -11,4 +11,13 @@ zh:
 en:
   date: 2021-05-13T09:31:50.086Z
   image: /uploads/舊照攝於八和會館.jpg
+cn:
+  date: 2021-05-13T09:31:50.086Z
+  image: /uploads/舊照攝於八和會館.jpg
+  slug: historical-images-the-chinese-artists-association-of-hong-kong-old-photo
+  title: 旧照摄于八和会馆
+  description: |+
+    旧照摄于八和会馆。
+    (前排右起：郑炳光、苏少棠、梁醒波、金山和、徐时、陈皮梅、祈筱英；后排右起：陈醒棠、万里游、华云峰、黄滔、麦少康)
+
 ---

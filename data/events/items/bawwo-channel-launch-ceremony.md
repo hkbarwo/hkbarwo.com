@@ -22,4 +22,24 @@ zh:
   coverImage: /uploads/images/events/barwochannel-logo.jpg
 en:
   date: 2021-02-28T16:35:55.173Z
+cn:
+  date: 2021-02-28T16:35:55.173Z
+  slug: barwo-channel-launch-ceremony
+  coverImage: /uploads/images/events/barwochannel-logo.jpg
+  metadata:
+    - isShowInList: "true"
+      label: 活动日期
+      content: 2021年3月1日
+    - label: 活动地点
+      content: 油麻地戏院
+  sessions: "1"
+  type: activity
+  title: 八和频道启动礼
+  content: >-
+    为了向更多世界不同地区的观众，推广粤剧艺术和文化，八和会馆在香港特区政府民政事务局的支持下，在2020年制作了《八和频道：粤剧网上学堂》，共40集粤剧导赏教材。通用无远弗届的互联网，不同地区的观众可随时免费选看40集深入浅出的粤剧导赏节目。在监制汪明荃的带领下，由制作小组七位成员 (罗家英、龙贯天、新剑郎、王超群、陈鸿进、温玉瑜、黎耀威) 负责构思、规划整体的节目内容，再由多位艺术总监分别负责每集节目的选材、选角和示范内容。
+
+
+
+
+    本会动员了粤剧界台前幕后共约350位从业员，并聘用了专业的制作团队，多月来努力拍摄和制作，40集节目已顺利完成。为了让广大的社会人士，了解这项饶具文化传承意义的计划，本会定于2021年3月1日上午11时正，假座油麻地戏院，举行〈八和频道〉启动礼。
 ---

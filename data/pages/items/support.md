@@ -7,4 +7,8 @@ zh:
 en:
   title: Support
   wip: false
+cn:
+  slug: donation
+  url: /support/donation
+  title: 捐款办法
 ---

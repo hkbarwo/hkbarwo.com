@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 演
   slug: leung-sui-ching
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 梁穗貞
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Leung Sui Ching
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: leung-sui-ching
+  gender: f
+  position: 演
+  role: 会友
+  title: 梁穗贞
 ---

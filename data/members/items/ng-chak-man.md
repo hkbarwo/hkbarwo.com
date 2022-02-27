@@ -16,4 +16,11 @@ en:
   alias: 文少烽
   description: ""
   thoughts: ""
+cn:
+  slug: ng-chak-man
+  gender: m
+  position: 演
+  alias: 文少烽
+  role: 会友
+  title: 吴泽文
 ---

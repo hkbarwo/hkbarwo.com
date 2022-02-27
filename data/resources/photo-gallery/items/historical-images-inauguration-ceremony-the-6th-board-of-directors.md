@@ -10,4 +10,12 @@ zh:
 en:
   date: 2021-04-27T03:42:51.627Z
   image: /uploads/resources/photos/香港八和會館第六屆理事會就職典禮1960年照片.jpg
+cn:
+  date: 2021-04-27T03:42:51.627Z
+  slug: historical-images-inauguration-ceremony-the-6th-board-of-directors
+  image: /uploads/resources/photos/香港八和會館第六屆理事會就職典禮1960年照片.jpg
+  title: 香港八和会馆第六届理事会就职典礼（摄于1960年）
+  description: |
+    香港八和会馆第六届理事会就职典礼；摄于1960年。 
+    (前排右起：陈皮梅、祈筱英、白雪仙、金山和、关德兴、郑炳光、麦炳荣、徐时；后排右起：华云峰、黄滔、麦少康、林家声、陈醒棠、万里游)
 ---

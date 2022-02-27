@@ -10,4 +10,12 @@ zh:
 en:
   date: 2021-02-28T18:14:54.075Z
   category: cantonese-opera-online-course
+cn:
+  date: 2021-02-28T18:14:54.068Z
+  category: cantonese-opera-online-course
+  slug: class-30
+  coverImage: /images/uploads/resources/channel/epi30.jpg
+  title: 第三十集 打：南派程式（一）手桥
+  youtubeVideoID: Hc-yst9jCRM
+  content: 今集会示范手桥，南派手桥是徒手搏击的招式，讲求桥手、腰马要刚劲有力，动作招式到位、干净俐落，对拆时互相配合，拳拳到肉，展现出凌厉的武打场面，它转化运用到舞台上作为表演，是传统粤剧武场的特色之一。
 ---

@@ -16,4 +16,11 @@ en:
   alias: 余金枝
   description: ""
   thoughts: ""
+cn:
+  slug: yu-kam-chu
+  gender: f
+  position: 演
+  alias: 余金枝
+  role: 会友
+  title: 余金珠
 ---

@@ -16,4 +16,11 @@ en:
   alias: 黃湫萍
   description: ""
   thoughts: ""
+cn:
+  slug: wong-mee-lee
+  gender: f
+  position: 演
+  alias: 黄湫萍
+  role: 会友
+  title: 黄美利
 ---

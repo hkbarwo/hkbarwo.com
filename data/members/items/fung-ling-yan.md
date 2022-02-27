@@ -16,4 +16,11 @@ en:
   alias: 靈音
   description: ""
   thoughts: ""
+cn:
+  slug: fung-ling-yan
+  gender: f
+  position: 演
+  alias: 灵音
+  role: 会友
+  title: 冯灵音
 ---

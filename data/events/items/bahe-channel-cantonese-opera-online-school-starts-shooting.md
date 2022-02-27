@@ -27,4 +27,30 @@ zh:
   sessions: 1
 en:
   date: 2020-09-14T04:31:04.279Z
+cn:
+  photos:
+    - /uploads/images/events/八和頻道開拍02.jpg
+    - /uploads/images/events/八和頻道開拍03.jpg
+    - /uploads/images/events/八和頻道開拍04.jpg
+    - /uploads/images/events/八和頻道開拍06.jpg
+    - /uploads/images/events/八和頻道開拍07.jpg
+    - /uploads/images/events/八和頻道開拍08.jpg
+  coverImage: /uploads/images/events/八和頻道開拍01.jpg
+  slug: bahe-channel-cantonese-opera-online-school-starts-shooting
+  date: 2020-09-14T04:31:04.279Z
+  metadata:
+    - isShowInList: "true"
+      label: 活动日期
+      content: 2020年9月14至30日
+  location: 香港理工大学赛马会综艺馆
+  type: activity
+  title: 〈八和频道：粤剧网上学堂〉开拍
+  sessions: "1"
+  content: >-
+    〈八和频道：粤剧网上学堂〉在香港理工大学赛马会综艺馆正式开镜拍摄，一连拍摄16日，以「唱、做、念、打」为主题，制作共40集网上粤剧节目，是自新型冠状病毒疫症爆发以来，首个大型粤剧推广项目，动员近400位工作人员参与。
+
+
+
+
+    是次由罗家英、龙贯天、新剑郎、黎耀威、陈鸿进、王超群和温玉 瑜担任艺术制作小组兼艺术总监，构思内容，拍摄影片和分配演出人选等等。另外还邀请了李龙、吴仟峰、吕洪广、李秋元、邓美玲、南凤、吴美英、盖鸣晖等出任艺术总监，与一众年青新秀演员携手制作节目，阵容鼎盛。
 ---

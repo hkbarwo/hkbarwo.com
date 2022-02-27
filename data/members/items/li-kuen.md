@@ -16,4 +16,11 @@ en:
   alias: 李就
   description: ""
   thoughts: ""
+cn:
+  slug: li-kuen
+  gender: m
+  position: 音
+  alias: 李就
+  role: 会友
+  title: 李权
 ---

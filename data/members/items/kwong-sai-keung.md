@@ -16,4 +16,11 @@ en:
   alias: 江玉龍
   description: ""
   thoughts: ""
+cn:
+  slug: kwong-sai-keung
+  gender: m
+  position: 演
+  role: 会友
+  alias: 江玉龙
+  title: 江世强
 ---

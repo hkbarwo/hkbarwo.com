@@ -1,0 +1,17 @@
+{
+  "name": "sc-translate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cd": "^0.3.3",
+    "flat": "^5.0.2",
+    "gray-matter": "^4.0.3",
+    "opencc": "^1.1.3",
+    "sc-translate": "/Users/nwingt/Repos/hkbarwo.com/scripts/sc-translate",
+    "yaml": "^1.10.2"
+  }
+}

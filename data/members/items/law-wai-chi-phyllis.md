@@ -16,4 +16,11 @@ en:
   alias: 羅紫紅
   description: ""
   thoughts: ""
+cn:
+  slug: law-wai-chi-phyllis
+  gender: f
+  position: 演
+  alias: 罗紫红
+  role: 会友
+  title: 罗惠芝
 ---

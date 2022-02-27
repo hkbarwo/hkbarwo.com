@@ -10,4 +10,12 @@ zh:
 en:
   date: 2021-05-13T06:46:56.876Z
   image: /uploads/1959年1月6日香港八和會館於利舞台義演《玉皇登殿》單張一.jpg
+cn:
+  date: 2021-05-13T06:46:56.876Z
+  image: /uploads/1959年1月6日香港八和會館於利舞台義演《玉皇登殿》單張一.jpg
+  slug: historical-images-lee-theatre-show-in-1959-leaflet-1
+  title: "1959年1月6日香港八和会馆于利舞台义演《玉皇登殿》单张一 "
+  description: |+
+    1959年1月6日香港八和会馆于利舞台义演《玉皇登殿》演出单张一。
+
 ---

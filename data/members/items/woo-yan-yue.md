@@ -16,4 +16,11 @@ en:
   alias: 鄔曉鋒
   description: ""
   thoughts: ""
+cn:
+  slug: woo-yan-yue
+  gender: f
+  position: 演
+  alias: 邬晓锋
+  role: 会友
+  title: 邬欣余
 ---

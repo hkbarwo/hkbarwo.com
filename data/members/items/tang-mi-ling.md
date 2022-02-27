@@ -16,4 +16,11 @@ en:
   alias: 玲瓏粵劇團，玉玲瓏藝萃會
   description: ""
   thoughts: ""
+cn:
+  slug: tang-mi-ling
+  gender: f
+  position: 演
+  alias: 玲珑粤剧团，玉玲珑艺萃会
+  role: 理事
+  title: 邓美玲
 ---

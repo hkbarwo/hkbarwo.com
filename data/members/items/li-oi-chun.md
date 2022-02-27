@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 衣
   slug: li-oi-chun
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 李愛珍
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 衣
   title: Li Oi Chun
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: li-oi-chun
+  gender: f
+  position: 衣
+  role: 会友
+  title: 李爱珍
 ---

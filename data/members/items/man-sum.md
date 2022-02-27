@@ -16,4 +16,11 @@ en:
   alias: 文寶森
   description: ""
   thoughts: ""
+cn:
+  slug: man-sum
+  gender: m
+  position: 演
+  alias: 文宝森
+  role: 会友
+  title: 文森
 ---

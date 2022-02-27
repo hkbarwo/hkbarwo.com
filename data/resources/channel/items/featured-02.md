@@ -10,4 +10,12 @@ zh:
 en:
   date: 2021-08-18T03:48:58.376Z
   category: featured-performances
+cn:
+  date: 2021-08-18T03:48:58.367Z
+  slug: featured-02
+  category: featured-performances
+  coverImage: /uploads/featured-02.jpg
+  content: 一点鸿在《香花山大贺寿》中大演「降龙架」。
+  title: 2020年华光诞《香花山大贺寿》演出片段〈降龙〉 – 一点鸿
+  youtubeVideoID: https://www.youtube.com/watch?v=_f3elqbxGtY&list=PLI1E8yYXaEaefKn29LTgJau6aibynaLn5&index=1&ab_channel=%E5%85%AB%E5%92%8C%E9%A0%BB%E9%81%93
 ---

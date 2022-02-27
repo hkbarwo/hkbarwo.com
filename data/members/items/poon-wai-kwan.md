@@ -16,4 +16,11 @@ en:
   alias: 潘明珠
   description: ""
   thoughts: ""
+cn:
+  slug: poon-wai-kwan
+  gender: f
+  position: 演
+  alias: 潘明珠
+  role: 会友
+  title: 潘炜坤
 ---

@@ -16,4 +16,11 @@ en:
   alias: 李龍
   description: ""
   thoughts: ""
+cn:
+  slug: lee-tak-kwong
+  gender: m
+  position: 演
+  alias: 李龙
+  role: 会友
+  title: 李德光
 ---

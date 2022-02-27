@@ -16,4 +16,11 @@ en:
   alias: 楊麗紅
   description: ""
   thoughts: ""
+cn:
+  slug: yeung-sai-chu
+  gender: f
+  position: 演
+  alias: 杨丽红
+  role: 会友
+  title: 杨细珠
 ---

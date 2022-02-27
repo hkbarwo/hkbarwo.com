@@ -16,4 +16,11 @@ en:
   alias: 葉家聲
   description: ""
   thoughts: ""
+cn:
+  slug: yip-sum-wa
+  gender: m
+  position: 演
+  role: 会友
+  alias: 叶家声
+  title: 叶森华
 ---

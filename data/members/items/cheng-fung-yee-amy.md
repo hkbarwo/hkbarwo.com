@@ -16,4 +16,11 @@ en:
   alias: 尤鳳儀
   description: ""
   thoughts: ""
+cn:
+  slug: cheng-fung-yee-amy
+  gender: f
+  position: 演
+  alias: 尤凤仪
+  role: 会友
+  title: 郑凤仪
 ---

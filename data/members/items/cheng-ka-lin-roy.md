@@ -16,4 +16,11 @@ en:
   alias: 鄭家年
   description: ""
   thoughts: ""
+cn:
+  slug: cheng-ka-lin-roy
+  gender: m
+  position: 演
+  role: 会友
+  alias: 郑家年
+  title: 郑嘉年
 ---

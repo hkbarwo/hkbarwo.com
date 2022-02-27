@@ -9,4 +9,12 @@ zh:
   category: cantonese-opera-online-course
 en:
   category: cantonese-opera-online-course
+cn:
+  date: 2021-02-28T19:18:16.205Z
+  coverImage: /images/uploads/resources/channel/epi20.jpg
+  slug: class-20
+  category: cantonese-opera-online-course
+  title: 第二十集 念：念白（二）
+  youtubeVideoID: Hd83XnTYTuk
+  content: 粤剧行内有一句话：「千斤口白四両唱」，可见念白十分重要，演员会透过强、弱、快、慢的节奏来表达情绪，今集会示范锣鼓口白、口古、有韵口白、白榄和读状。
 ---

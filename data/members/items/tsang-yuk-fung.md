@@ -16,4 +16,11 @@ en:
   alias: 施影嘉
   description: ""
   thoughts: ""
+cn:
+  slug: tsang-yuk-fung
+  gender: f
+  position: 演
+  alias: 施影嘉
+  role: 会友
+  title: 曾玉凤
 ---

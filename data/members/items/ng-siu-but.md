@@ -16,4 +16,11 @@ en:
   alias: 吳嘯天
   description: ""
   thoughts: ""
+cn:
+  slug: ng-siu-but
+  gender: m
+  position: 演
+  alias: 吴啸天
+  role: 会友
+  title: 吴小弼
 ---

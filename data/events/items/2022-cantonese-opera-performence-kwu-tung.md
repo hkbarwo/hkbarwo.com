@@ -26,4 +26,25 @@ zh:
   slug: 2022-cantonese-opera-performence-kwu-tung
 en:
   date: 2022-03-17T06:24:42.251Z
+cn:
+  date: 2022-03-17T06:24:42.251Z
+  slug: 2022-cantonese-opera-performence-kwu-tung
+  sessions: "5"
+  metadata:
+    - isShowInList: "true"
+      label: 演出日期
+      content: |-
+        3月17日至3月19日
+
+        二月十五日至二月十七日
+    - label: 主办机构
+      content: 新界上水区古洞村公所
+    - label: 演出剧团
+      content: 金龙凤剧团
+    - label: 演员
+      content: 梁兆明、郑咏梅、郭启辉、梁小飞、林子青、杜咏心
+    - label: 地点
+      content: 上水古洞村
+  type: celebration
+  title: 2022年（壬寅年）表演三
 ---

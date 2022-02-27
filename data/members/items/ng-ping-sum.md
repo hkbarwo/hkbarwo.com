@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 演
   slug: ng-ping-sum
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 伍炳森
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Ng Ping Sum
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: ng-ping-sum
+  position: 演
+  role: 会友
+  title: 伍炳森
+  gender: m
 ---

@@ -16,4 +16,11 @@ en:
   alias: 馮偉
   description: ""
   thoughts: ""
+cn:
+  slug: fung-wai-mo
+  gender: m
+  position: 音
+  alias: 冯伟
+  role: 会友
+  title: 冯伟武
 ---

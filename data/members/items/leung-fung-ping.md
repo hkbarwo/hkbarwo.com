@@ -16,4 +16,11 @@ en:
   alias: 梁鳳裘
   description: ""
   thoughts: ""
+cn:
+  slug: leung-fung-ping
+  gender: f
+  position: 演
+  role: 会友
+  title: 梁凤萍
+  alias: 梁凤裘
 ---

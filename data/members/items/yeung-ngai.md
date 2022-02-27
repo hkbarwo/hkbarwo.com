@@ -16,4 +16,11 @@ en:
   alias: 楊劍華
   description: ""
   thoughts: ""
+cn:
+  slug: yeung-ngai
+  gender: m
+  position: 武
+  alias: 杨剑华
+  role: 会友
+  title: 杨毅
 ---

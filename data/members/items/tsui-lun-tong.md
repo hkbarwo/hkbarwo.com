@@ -16,4 +16,11 @@ en:
   alias: 新羅品超
   description: ""
   thoughts: ""
+cn:
+  slug: tsui-lun-tong
+  gender: m
+  position: 音﹑演﹑事
+  alias: 新罗品超
+  role: 会友
+  title: 徐麟堂
 ---

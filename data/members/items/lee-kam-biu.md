@@ -16,4 +16,11 @@ en:
   alias: 李文標
   description: ""
   thoughts: ""
+cn:
+  slug: lee-kam-biu
+  gender: m
+  position: 演
+  alias: 李文标
+  role: 会友
+  title: 李锦标
 ---

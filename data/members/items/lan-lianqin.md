@@ -16,4 +16,11 @@ en:
   alias: 藍天佑
   description: ""
   thoughts: ""
+cn:
+  slug: lan-lianqin
+  gender: m
+  position: 演
+  role: 会友
+  alias: 蓝天佑
+  title: 蓝练钦
 ---

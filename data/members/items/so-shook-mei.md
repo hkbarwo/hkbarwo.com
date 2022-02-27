@@ -16,4 +16,11 @@ en:
   alias: 南紅
   description: ""
   thoughts: ""
+cn:
+  slug: so-shook-mei
+  gender: f
+  position: 演
+  alias: 南红
+  role: 会友
+  title: 苏淑眉
 ---

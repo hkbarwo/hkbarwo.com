@@ -16,4 +16,11 @@ en:
   alias: 莫少光
   description: ""
   thoughts: ""
+cn:
+  slug: mok-siu-wo
+  gender: m
+  position: 音
+  alias: 莫少光
+  role: 会友
+  title: 莫少戈
 ---

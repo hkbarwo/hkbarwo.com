@@ -8,4 +8,12 @@ zh:
   category: cantonese-opera-online-course
   coverImage: /images/uploads/resources/channel/epi28.jpg
 en: {}
+cn:
+  date: 2021-02-28T19:26:14.899Z
+  slug: class-28
+  category: cantonese-opera-online-course
+  coverImage: /images/uploads/resources/channel/epi28.jpg
+  title: 第二十八集 做：上场（一）
+  youtubeVideoID: -PDpEwCIw20
+  content: 「上场」是演员出场亮相的固定程式，今集会示范多个上场程式，包括大相思上场、中板大撞点上场、老鼠尾上场、南音板面上场和醉酒上场等。
 ---

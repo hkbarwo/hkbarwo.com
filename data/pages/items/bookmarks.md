@@ -6,5 +6,9 @@ zh:
   wip: false
 en:
   title: External Link
-  wip: true
+  wip: false
+cn:
+  slug: bookmarks
+  url: /resources/bookmarks
+  title: 网站连结
 ---

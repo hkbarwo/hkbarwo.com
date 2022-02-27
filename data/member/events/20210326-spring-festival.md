@@ -16,4 +16,13 @@ en:
       content: 2021年3月26日(待定)
     - content: 大口環東華三院義莊
       label: 地點
+cn:
+  date: 2021-03-25T18:22:34.934Z
+  slug: 20210326-spring-festival
+  title: 春祭
+  metadata:
+    - label: 活动日期
+      content: 2021年3月26日(圆满完成)
+    - label: 地点
+      content: 大口环东华三院义庄
 ---

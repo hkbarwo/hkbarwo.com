@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 音
   slug: ng-wing-lam
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 吳泳霖
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Ng Wing Lam
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: ng-wing-lam
+  gender: f
+  position: 音
+  role: 会友
+  title: 吴泳霖
 ---

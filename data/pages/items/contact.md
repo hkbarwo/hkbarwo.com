@@ -7,4 +7,8 @@ zh:
 en:
   title: Contact
   wip: false
+cn:
+  slug: contact
+  url: /contact
+  title: 联络我们
 ---

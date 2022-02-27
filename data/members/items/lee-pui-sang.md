@@ -16,4 +16,11 @@ en:
   alias: 龍劍笙
   description: ""
   thoughts: ""
+cn:
+  slug: lee-pui-sang
+  gender: f
+  position: 演
+  alias: 龙剑笙
+  role: 会友
+  title: 李菩生
 ---

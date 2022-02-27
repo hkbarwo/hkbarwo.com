@@ -16,4 +16,11 @@ en:
   alias: 鍾鳳慈
   description: ""
   thoughts: ""
+cn:
+  slug: chong-mee-yuk
+  gender: f
+  position: 演
+  alias: 钟凤慈
+  role: 会友
+  title: 钟美玉
 ---

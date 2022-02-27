@@ -16,4 +16,11 @@ en:
   alias: 阮眉
   description: ""
   thoughts: ""
+cn:
+  slug: wong-yuen-may
+  gender: f
+  position: 演
+  alias: 阮眉
+  role: 会友
+  title: 王婉美
 ---

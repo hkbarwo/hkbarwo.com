@@ -16,4 +16,11 @@ en:
   alias: 文千歲
   description: ""
   thoughts: ""
+cn:
+  slug: wong-fu-wah
+  gender: m
+  position: 演
+  alias: 文千岁
+  role: 会友
+  title: 黄富华
 ---

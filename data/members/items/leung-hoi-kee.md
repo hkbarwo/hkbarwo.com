@@ -16,4 +16,11 @@ en:
   alias: 梁俊英
   description: ""
   thoughts: ""
+cn:
+  slug: leung-hoi-kee
+  gender: f
+  position: 演
+  role: 会友
+  alias: 梁俊英
+  title: 梁海琪
 ---

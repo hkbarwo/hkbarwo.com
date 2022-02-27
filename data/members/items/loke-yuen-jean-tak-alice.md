@@ -16,4 +16,11 @@ en:
   alias: 玄天鳳
   description: ""
   thoughts: ""
+cn:
+  slug: loke-yuen-jean-tak-alice
+  gender: f
+  position: 演
+  alias: 玄天凤
+  role: 会友
+  title: 陆袁桢德
 ---

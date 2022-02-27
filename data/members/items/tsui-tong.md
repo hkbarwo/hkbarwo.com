@@ -16,4 +16,11 @@ en:
   alias: 徐堂
   description: ""
   thoughts: ""
+cn:
+  slug: tsui-tong
+  gender: m
+  position: 演
+  alias: 徐堂
+  role: 会友
+  title: 徐棠
 ---

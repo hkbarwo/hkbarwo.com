@@ -16,4 +16,11 @@ en:
   alias: 任丹楓
   description: ""
   thoughts: ""
+cn:
+  slug: ng-kei-yan
+  gender: f
+  position: 演
+  alias: 任丹枫
+  role: 会友
+  title: 吴纪茵
 ---

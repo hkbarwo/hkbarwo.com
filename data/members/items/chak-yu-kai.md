@@ -16,4 +16,11 @@ en:
   alias: 羽佳
   description: ""
   thoughts: ""
+cn:
+  slug: chak-yu-kai
+  gender: m
+  position: 演
+  role: 会友
+  alias: 羽佳
+  title: 翟羽佳
 ---

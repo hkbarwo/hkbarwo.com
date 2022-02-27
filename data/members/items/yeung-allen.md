@@ -16,4 +16,11 @@ en:
   alias: 楊雅雲
   description: ""
   thoughts: ""
+cn:
+  slug: yeung-allen
+  gender: f
+  position: 音
+  alias: 杨雅云
+  role: 会友
+  title: 杨雅云
 ---

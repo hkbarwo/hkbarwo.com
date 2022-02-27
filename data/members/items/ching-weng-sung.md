@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: ching-weng-sung
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 曾榮生
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Ching Weng Sung
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: ching-weng-sung
+  gender: m
+  position: 音
+  role: 会友
+  title: 曾荣生
 ---

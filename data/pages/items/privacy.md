@@ -6,5 +6,8 @@ zh:
   wip: false
 en:
   title: Privacy
-  wip: true
+cn:
+  slug: privacy
+  url: /privacy
+  title: 私隐政策
 ---

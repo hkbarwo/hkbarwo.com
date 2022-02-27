@@ -16,4 +16,11 @@ en:
   alias: 鄺成軍
   description: ""
   thoughts: ""
+cn:
+  slug: lo-shing-lung
+  gender: m
+  position: 演
+  alias: 邝成军
+  role: 会友
+  title: 卢成龙
 ---

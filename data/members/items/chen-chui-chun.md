@@ -16,4 +16,11 @@ en:
   alias: 小翠珍
   description: ""
   thoughts: ""
+cn:
+  slug: chen-chui-chun
+  gender: f
+  position: 演
+  role: 会友
+  alias: 小翠珍
+  title: 谢翠珍
 ---

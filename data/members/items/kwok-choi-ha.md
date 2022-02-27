@@ -16,4 +16,11 @@ en:
   alias: 郭俊聲
   description: ""
   thoughts: ""
+cn:
+  slug: kwok-choi-ha
+  gender: f
+  position: 演
+  alias: 郭俊声
+  role: 会友
+  title: 郭彩霞
 ---

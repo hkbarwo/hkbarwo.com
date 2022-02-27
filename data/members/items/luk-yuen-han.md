@@ -16,4 +16,11 @@ en:
   alias: 江穎紅
   description: ""
   thoughts: ""
+cn:
+  slug: luk-yuen-han
+  gender: f
+  position: 演
+  alias: 江颖红
+  role: 会友
+  title: 陆婉娴
 ---

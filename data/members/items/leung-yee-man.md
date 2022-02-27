@@ -16,4 +16,11 @@ en:
   alias: 艷影虹
   description: ""
   thoughts: ""
+cn:
+  slug: leung-yee-man
+  gender: f
+  position: 演
+  alias: 艳影虹
+  role: 会友
+  title: 梁绮雯
 ---

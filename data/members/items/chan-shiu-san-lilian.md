@@ -16,4 +16,11 @@ en:
   alias: 陳楚湘
   description: ""
   thoughts: ""
+cn:
+  slug: chan-shiu-san-lilian
+  gender: f
+  position: 演
+  role: 会友
+  alias: 陈楚湘
+  title: 陈少珊
 ---

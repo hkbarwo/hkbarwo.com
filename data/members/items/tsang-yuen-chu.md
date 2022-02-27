@@ -16,4 +16,11 @@ en:
   alias: 白海棠
   description: ""
   thoughts: ""
+cn:
+  slug: tsang-yuen-chu
+  gender: f
+  position: 演
+  alias: 白海棠
+  role: 会友
+  title: 曾婉珠
 ---

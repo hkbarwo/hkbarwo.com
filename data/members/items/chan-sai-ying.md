@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 音
   slug: chan-sai-ying
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 陳世瑛
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Chan Sai Ying
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: chan-sai-ying
+  gender: f
+  position: 音
+  role: 会友
+  title: 陈世瑛
 ---

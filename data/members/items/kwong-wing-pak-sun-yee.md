@@ -16,4 +16,11 @@ en:
   alias: 孫紫櫻
   description: ""
   thoughts: ""
+cn:
+  slug: kwong-wing-pak-sun-yee
+  gender: f
+  position: 演
+  role: 会友
+  alias: 孙紫樱
+  title: 光永白辛夷
 ---

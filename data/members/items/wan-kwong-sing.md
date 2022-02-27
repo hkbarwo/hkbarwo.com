@@ -16,4 +16,11 @@ en:
   alias: 溫玉瑜
   description: ""
   thoughts: ""
+cn:
+  slug: wan-kwong-sing
+  gender: m
+  position: 演
+  alias: 温玉瑜
+  role: 理事
+  title: 温广成
 ---

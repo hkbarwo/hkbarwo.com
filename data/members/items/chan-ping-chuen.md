@@ -16,4 +16,11 @@ en:
   alias: 陳泉
   description: ""
   thoughts: ""
+cn:
+  slug: chan-ping-chuen
+  gender: m
+  position: 音
+  alias: 陈泉
+  role: 会友
+  title: 陈炳泉
 ---

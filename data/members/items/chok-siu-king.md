@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 演
   slug: chok-siu-king
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 左笑琼
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Chok Siu King
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: chok-siu-king
+  gender: f
+  role: 会友
+  position: 演
+  title: 左笑琼
 ---

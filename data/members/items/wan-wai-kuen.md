@@ -16,4 +16,11 @@ en:
   alias: 元輝
   description: ""
   thoughts: ""
+cn:
+  slug: wan-wai-kuen
+  gender: m
+  position: 武
+  alias: 元辉
+  role: 会友
+  title: 尹威权
 ---

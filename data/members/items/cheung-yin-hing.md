@@ -16,4 +16,11 @@ en:
   alias: 小燕子
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-yin-hing
+  gender: f
+  position: 演
+  role: 会友
+  title: 张燕卿
+  alias: 小燕子
 ---

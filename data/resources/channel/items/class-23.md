@@ -12,4 +12,15 @@ zh:
   youtubeVideoID: XhrQj_cB4EY
 en:
   category: cantonese-opera-online-course
+cn:
+  date: 2021-02-28T19:20:44.481Z
+  coverImage: /images/uploads/resources/channel/epi23.jpg
+  slug: class-23
+  category: cantonese-opera-online-course
+  title: 第二十三集 做：手法
+  youtubeVideoID: XhrQj_cB4EY
+  content: |-
+    手法是手与手臂的动作，包括拉山和指法等等，当中的指法是会按照
+
+    不同的行当、性别、服饰、身份和穿戴而有不同的指法。
 ---

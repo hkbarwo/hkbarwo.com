@@ -16,4 +16,11 @@ en:
   alias: 陳小龍
   description: ""
   thoughts: ""
+cn:
+  slug: chan-chan-wah
+  gender: m
+  position: 音
+  alias: 陈小龙
+  role: 会友
+  title: 陈灿华
 ---

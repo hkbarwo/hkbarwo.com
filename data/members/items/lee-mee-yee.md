@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 衣
   slug: lee-mee-yee
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 李美頤
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 衣
   title: Lee Mee Yee
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: lee-mee-yee
+  gender: f
+  position: 衣
+  role: 会友
+  title: 李美颐
 ---

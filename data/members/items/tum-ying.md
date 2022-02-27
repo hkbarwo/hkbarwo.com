@@ -16,4 +16,11 @@ en:
   alias: 白雲英
   description: ""
   thoughts: ""
+cn:
+  slug: tum-ying
+  gender: f
+  position: 事
+  alias: 白云英
+  role: 会友
+  title: 谭瑛
 ---

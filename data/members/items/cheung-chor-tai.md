@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 武
   slug: cheung-chor-tai
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 張楚弟
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 武
   title: Cheung Chor Tai
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-chor-tai
+  gender: m
+  position: 武
+  role: 会友
+  title: 张楚弟
 ---

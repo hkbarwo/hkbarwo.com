@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 演
   slug: tsoi-kwok-hing
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 蔡國慶
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Tsoi Kwok Hing
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: tsoi-kwok-hing
+  gender: m
+  position: 演
+  role: 会友
+  title: 蔡国庆
 ---

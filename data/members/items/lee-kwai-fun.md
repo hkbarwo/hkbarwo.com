@@ -16,4 +16,11 @@ en:
   alias: 李明姬
   description: ""
   thoughts: ""
+cn:
+  slug: lee-kwai-fun
+  gender: f
+  position: 演
+  alias: 李明姬
+  role: 会友
+  title: 李桂芬
 ---

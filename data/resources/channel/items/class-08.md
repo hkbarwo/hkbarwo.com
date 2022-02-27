@@ -8,4 +8,12 @@ zh:
   category: cantonese-opera-online-course
   youtubeVideoID: Vuziwvlw6Sc
 en: {}
+cn:
+  date: 2021-02-28T19:08:41.154Z
+  coverImage: /images/uploads/resources/channel/epi08.jpg
+  slug: class-08
+  category: cantonese-opera-online-course
+  title: 第八集 唱：二黄散板（一）
+  youtubeVideoID: Vuziwvlw6Sc
+  content: 「打赢唱梆子，打输唱二黄」，粤剧唱腔两大体系之一的二黄，旋律比较苍凉、郁结，今集会介绍及示范二黄散板的首板、煞板和倒板：首板通常出现于一场戏开首，为一句「上句」；煞板通常用于一场戏结束句，为一句「下句」。
 ---

@@ -16,4 +16,11 @@ en:
   alias: 游龍
   description: ""
   thoughts: ""
+cn:
+  slug: wong-kin-man
+  gender: m
+  position: 武
+  alias: 游龙
+  role: 会友
+  title: 黄健文
 ---

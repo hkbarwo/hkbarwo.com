@@ -16,4 +16,11 @@ en:
   alias: 羅詠蘭
   description: ""
   thoughts: ""
+cn:
+  slug: lo-pik-lan
+  gender: f
+  position: 演
+  alias: 罗咏兰
+  role: 会友
+  title: 罗碧兰
 ---

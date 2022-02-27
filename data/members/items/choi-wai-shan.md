@@ -16,4 +16,11 @@ en:
   alias: 千珊
   description: ""
   thoughts: ""
+cn:
+  slug: choi-wai-shan
+  gender: f
+  position: 演
+  alias: 千珊
+  role: 会友
+  title: 蔡蔚珊
 ---

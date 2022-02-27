@@ -16,4 +16,11 @@ en:
   alias: 楚雲玉
   description: ""
   thoughts: ""
+cn:
+  slug: poon-wai-ying
+  gender: f
+  position: 演
+  alias: 楚云玉
+  role: 会友
+  title: 潘慧莹
 ---

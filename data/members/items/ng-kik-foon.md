@@ -16,4 +16,11 @@ en:
   alias: 伍少安
   description: ""
   thoughts: ""
+cn:
+  slug: ng-kik-foon
+  gender: m
+  position: 演
+  alias: 伍少安
+  role: 会友
+  title: 伍极欢
 ---

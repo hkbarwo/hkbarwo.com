@@ -19,4 +19,22 @@ zh:
   pdfFile: /uploads/52_compressed.pdf
 en:
   category: report
+cn:
+  date: 2006-03-30T16:00:00.000Z
+  category: report
+  slug: the-52-issue-barwo-quarterly-journal
+  pdfFile: /uploads/52_compressed.pdf
+  title: 第52期《八和汇报》
+  content: >-
+    ![主席重申意愿盼设永久演出场地 向何志平局长反映诉求](/uploads/52_compressed_page-0001.jpg
+    "主席重申意愿盼设永久演出场地 向何志平局长反映诉求")
+
+
+    ![香港文化汇温城 | 粤剧发展基金接受申请](/uploads/52_compressed_page-0002.jpg "香港文化汇温城 | 粤剧发展基金接受申请")
+
+
+    ![香港八和会馆第三十二届理事会第六至七次会议议程及办公室报告（2005年12月至2006年2月） | 陈剑声、陈剑烽获服务奖状](/uploads/52_compressed_page-0003.jpg "香港八和会馆第三十二届理事会第六至七次会议议程及办公室报告（2005年12月至2006年2月） | 陈剑声、陈剑烽获服务奖状")
+
+
+    ![粤剧发展基金暨粤咨会会议](/uploads/52_compressed_page-0004.jpg "粤剧发展基金暨粤咨会会议")
 ---

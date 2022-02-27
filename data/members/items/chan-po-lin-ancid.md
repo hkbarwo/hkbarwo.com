@@ -16,4 +16,11 @@ en:
   alias: 韋俊郎
   description: ""
   thoughts: ""
+cn:
+  slug: chan-po-lin-ancid
+  gender: f
+  position: 演
+  role: 会友
+  alias: 韦俊郎
+  title: 陈宝莲
 ---

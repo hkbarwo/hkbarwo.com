@@ -16,4 +16,11 @@ en:
   alias: 黃寶萱
   description: ""
   thoughts: ""
+cn:
+  slug: wong-kit-fong-janet
+  gender: f
+  position: 演
+  alias: 黄宝萱
+  role: 会友
+  title: 黄洁芳
 ---

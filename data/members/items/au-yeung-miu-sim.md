@@ -12,4 +12,14 @@ zh:
 en:
   role: ""
   position: ""
+cn:
+  slug: au-yeung-miu-sim
+  gender: f
+  position: 退休
+  isDead: "true"
+  alias: 欧阳妙
+  role: 演员
+  description: " "
+  thoughts: " "
+  title: 欧阳妙禅
 ---

@@ -5,4 +5,8 @@ zh:
   url: /
 en:
   title: Home
+cn:
+  slug: index
+  url: /
+  title: 主页
 ---

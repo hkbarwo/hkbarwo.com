@@ -16,4 +16,11 @@ en:
   alias: 文劍斐
   description: ""
   thoughts: ""
+cn:
+  slug: chan-big-ying
+  gender: f
+  position: 演
+  alias: 文剑斐
+  role: 会友
+  title: 陈碧英
 ---

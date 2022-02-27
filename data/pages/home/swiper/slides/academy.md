@@ -22,4 +22,18 @@ en:
   buttonTitle: " 了解更多"
   buttonLink:
     page: channel
+cn:
+  slug: academy
+  bgImage: /uploads/img_20171223_1402042.jpg
+  buttonLink:
+    page: channel
+  buttonTitle: " 了解更多"
+  gradient:
+    color1: "#fc4786"
+    color2: "#ffa7a7"
+  subtitle: 传承・教育
+  bgImageFillStyle: cover
+  title: 八和粤剧学院
+  shortTitle: 传承
+  description: 八和粤剧学院为香港专业粤剧教育机构，是香港八和会馆的教育分支，目标为粤剧培育新一代的人才，促进粤剧艺术的持续发展。学院于二零零九年按市场的客观环境和需要，重新组合课程，主要课程包括：以青少年为对象的「青少年粤剧演员训练班」、与合作伙伴合办不同的在职演员培训课程、以及与不同中、小学及大专院校合办的粤剧艺术普及课程。学院毕业生的成绩亦为业内人士所认同，不少已毕业或学习中的学员，已为商业班所聘用。
 ---

@@ -16,4 +16,11 @@ en:
   alias: 梁依華
   description: ""
   thoughts: ""
+cn:
+  slug: leung-luen-ying
+  gender: f
+  position: 音
+  role: 会友
+  alias: 梁依华
+  title: 梁联英
 ---

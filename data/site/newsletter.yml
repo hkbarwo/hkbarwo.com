@@ -6,3 +6,7 @@ en:
   placeholder: Enter your email
   buttonTitle: Subscribe
   cta: Subscribe our newsletter and follow us!
+cn:
+  buttonTitle: 订阅
+  placeholder: 输入你的电邮
+  cta: 订阅我们的电子通讯，紧贴八和的最新动态！

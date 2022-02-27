@@ -1,9 +1,9 @@
 ---
 zh:
-  gender: 
+  gender: null
   position: 音
   slug: wong-kwok-hing
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 王國慶
@@ -13,7 +13,12 @@ en:
   role: 會友
   position: 音
   title: Wong Kwok Hing
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: wong-kwok-hing
+  position: 音
+  role: 会友
+  title: 王国庆
 ---

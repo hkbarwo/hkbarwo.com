@@ -16,4 +16,11 @@ en:
   alias: 祁彩鳳
   description: ""
   thoughts: ""
+cn:
+  slug: wong-man-yee
+  gender: f
+  position: 演
+  alias: 祁彩凤
+  role: 会友
+  title: 黄敏仪
 ---

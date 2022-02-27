@@ -12,4 +12,15 @@ zh:
   youtubeVideoID: qkY79kv7JQU
 en:
   category: cantonese-opera-online-course
+cn:
+  date: 2021-02-28T19:23:38.755Z
+  slug: class-26
+  category: cantonese-opera-online-course
+  coverImage: /images/uploads/resources/channel/epi26.jpg
+  youtubeVideoID: qkY79kv7JQU
+  title: 第二十六集 做：基本功（二）指法、尘拂、大带
+  content: |-
+    今集会示范指法、尘拂、大带：指法是粤剧表演身段中非常重要的一环
+
+    于指法可以表示到喜怒哀乐；尘拂变化多端，刚柔并重；「大带」又名「板带」，是短打武生常见服饰之一，演员使用大带的过程中必须掌握力度、幅度及角度。
 ---

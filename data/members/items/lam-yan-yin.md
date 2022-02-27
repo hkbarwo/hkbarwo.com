@@ -16,4 +16,11 @@ en:
   alias: 林群翎
   description: ""
   thoughts: ""
+cn:
+  slug: lam-yan-yin
+  gender: f
+  position: 演
+  alias: 林群翎
+  role: 理事
+  title: 林欣贤
 ---

@@ -16,4 +16,11 @@ en:
   alias: 大細眼
   description: ""
   thoughts: ""
+cn:
+  slug: sung-kam-shing-addy
+  gender: m
+  position: 音
+  alias: 大细眼
+  role: 会友
+  title: 宋锦成
 ---

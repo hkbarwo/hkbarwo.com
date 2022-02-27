@@ -14,4 +14,15 @@ zh:
   type: performance
 en:
   date: 2022-05-08T03:01:11.905Z
+cn:
+  date: 2022-05-08T03:01:11.905Z
+  slug: legendofthewhitesnake-guangdong-2022
+  sessions: "3"
+  metadata:
+    - label: 演出日期
+      content: 2022年5月6日至5月8日
+    - label: 地点
+      content: 广州夜、日场（5月6日至7日）、深圳夜场（5月8日）
+  type: performance
+  title: 广东戏剧(戏曲)展：昆粤合演《白蛇传》(大湾区巡演)
 ---

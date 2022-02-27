@@ -16,4 +16,11 @@ en:
   alias: 張杰
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-kei
+  gender: m
+  position: 音
+  alias: 张杰
+  role: 会友
+  title: 张骥
 ---

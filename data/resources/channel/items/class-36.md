@@ -26,4 +26,19 @@ en:
     粵劇很注重排場，演繹戲份重的角色，上場多有眾人演員襯托，今集示範的禾花出水，就可以欣賞到主角更有份量地亮相的場面。
   title: 第三十六集 做：手下教材（二）上轎落轎、祭旗、走蚺蛇、禾花岀水
   category: cantonese-opera-online-course
+cn:
+  date: 2021-02-28T18:11:13.968Z
+  category: cantonese-opera-online-course
+  slug: class-36
+  coverImage: /images/uploads/resources/channel/epi36.jpg
+  youtubeVideoID: -KkH6HGLDAY
+  title: 第三十六集 做：手下教材（二）上轿落轿、祭旗、走蚺蛇、禾花岀水
+  content: >-
+    粤剧有很多虚拟的表演动作，今集会示范上轿、落轿。 
+
+
+    粤剧传统表演上经常有武打大战的场面，乐队会奏出〈点降唇〉牌子和〈小开门〉牌子，配合演员的祭旗排场，祭旗后，众将士会走圆台入衣边，再通过后台衣杂箱，赶从什边复上与敌方应战，这就是粤剧传统走蚺蛇。
+
+
+    粤剧很注重排场，演绎戏份重的角色，上场多有众人演员衬托，今集示范的禾花出水，就可以欣赏到主角更有份量地亮相的场面。
 ---

@@ -16,4 +16,11 @@ en:
   alias: 鳳翛何
   description: ""
   thoughts: ""
+cn:
+  slug: ho-pik-wah-joyce
+  gender: f
+  position: 演
+  role: 会友
+  alias: 凤翛何
+  title: 何碧华
 ---

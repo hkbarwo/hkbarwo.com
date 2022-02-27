@@ -16,4 +16,11 @@ en:
   alias: 陳培甡
   description: ""
   thoughts: ""
+cn:
+  slug: chan-wah-sun
+  gender: m
+  position: 演
+  alias: 陈培甡
+  role: 会友
+  title: 陈华新
 ---

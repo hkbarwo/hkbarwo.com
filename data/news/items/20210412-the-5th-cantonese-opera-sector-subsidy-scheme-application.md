@@ -22,4 +22,26 @@ zh:
   category: notice
   pdfFile: /uploads/粵劇界支援計劃-第五輪-保基層就業計劃-申請表及資助準則-v0331-pdf-.pdf
 en: {}
+cn:
+  date: 2021-04-12T07:51:37.669Z
+  slug: the-5th-cantonese-opera-sector-subsidy-scheme-application
+  category: notice
+  pdfFile: /uploads/粵劇界支援計劃-第五輪-保基層就業計劃-申請表及資助準則-v0331-pdf-.pdf
+  title: 「粤剧界支援计划 - 第五轮资助︰保基层就业项目」申请资料
+  content: >-
+    「粤剧界支援计划 - 第五轮资助︰保基层就业项目」现已接受申请。
+
+
+    资助对象为2021年2月19日至2021年5月18日期间举办，而又未获其他资助的专业长剧演出 （详情请参阅资助准则）。
+
+
+    申请者可于4月30日前将填妥的表格，连同所需资料电邮 (david.chow@hkbarwo.com)、传真 (2770 7956)、或亲身交至八和会馆办公室 (油麻地弥敦道493号展望大厦4字楼A室)。
+
+
+    *(请点击以下「PDF」档案连结，下载「粤剧界支援计划 第五轮 保基层就业计划-申请表及资助准则v0331」)*
+
+
+    另可于以下连结下载相关表格EXCEL档︰
+
+    <https://bit.ly/supportcantonopera>
 ---

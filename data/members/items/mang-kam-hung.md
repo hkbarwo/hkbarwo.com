@@ -16,4 +16,11 @@ en:
   alias: 石燕雄
   description: ""
   thoughts: ""
+cn:
+  slug: mang-kam-hung
+  gender: m
+  position: 演
+  alias: 石燕雄
+  role: 会友
+  title: 孟锦雄
 ---

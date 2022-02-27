@@ -16,4 +16,11 @@ en:
   alias: 龍嘉麒
   description: ""
   thoughts: ""
+cn:
+  slug: leung-suk-yee
+  gender: f
+  position: 演
+  role: 会友
+  alias: 龙嘉麒
+  title: 梁淑儿
 ---

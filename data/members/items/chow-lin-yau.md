@@ -16,4 +16,11 @@ en:
   alias: 陸綺雲.艷芳
   description: ""
   thoughts: ""
+cn:
+  slug: chow-lin-yau
+  gender: f
+  alias: 陆绮云.艳芳
+  position: 演
+  role: 会友
+  title: 周莲有
 ---

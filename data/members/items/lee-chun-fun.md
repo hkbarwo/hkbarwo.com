@@ -16,4 +16,11 @@ en:
   alias: 李沂洛
   description: ""
   thoughts: ""
+cn:
+  slug: lee-chun-fun
+  gender: f
+  position: 演
+  alias: 李沂洛
+  role: 会友
+  title: 李振欢
 ---

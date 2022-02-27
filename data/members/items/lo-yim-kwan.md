@@ -16,4 +16,11 @@ en:
   alias: 楚江楓
   description: ""
   thoughts: ""
+cn:
+  slug: lo-yim-kwan
+  gender: f
+  position: 演
+  alias: 楚江枫
+  role: 会友
+  title: 卢艳群
 ---

@@ -16,4 +16,11 @@ en:
   alias: 龍艷芳
   description: ""
   thoughts: ""
+cn:
+  slug: lung-yin-fong
+  gender: f
+  position: 演
+  alias: 龙艳芳
+  role: 会友
+  title: 龙燕芳
 ---

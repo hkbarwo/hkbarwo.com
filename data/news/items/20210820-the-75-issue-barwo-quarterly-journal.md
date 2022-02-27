@@ -31,4 +31,34 @@ zh:
   pdfFile: /uploads/75_compressed.pdf
 en:
   category: report
+cn:
+  date: 2012-03-31T04:02:16.398Z
+  slug: the-75-issue-barwo-quarterly-journal
+  category: report
+  pdfFile: /uploads/75_compressed.pdf
+  title: 第75期《八和汇报》
+  content: >-
+    ![八和团拜 场面热闹 官绅名流 喜气迎人](/uploads/75_compressed_page-0001.jpg "八和团拜 场面热闹 官绅名流
+    喜气迎人")
+
+
+    ![一年一度 八和会馆及任白慈善基金会派利是](/uploads/75_compressed_page-0002.jpg "一年一度 八和会馆及任白慈善基金会派利是")
+
+
+    ![新春西九棚戏增添喜气 香港八和艺人声色俱备](/uploads/75_compressed_page-0003.jpg "新春西九棚戏增添喜气 香港八和艺人声色俱备")
+
+
+    ![南派大师班蔡艳香 圆满完成香港之旅](/uploads/75_compressed_page-0004.jpg "南派大师班蔡艳香 圆满完成香港之旅")
+
+
+    ![大师班学员 课后热烈有感](/uploads/75_compressed_page-0005.jpg "大师班学员 课后热烈有感")
+
+
+    ![中港两地戏曲交流：「中国戏曲艺术传承与发展 •北京论坛」 | 《粤剧编剧基础教程》正式出版 | 一年一度康文署『粤剧日』](/uploads/75_compressed_page-0006.jpg "中港两地戏曲交流：「中国戏曲艺术传承与发展 •北京论坛」 | 《粤剧编剧基础教程》正式出版 | 一年一度康文署『粤剧日』")
+
+
+    ![香港八和会馆第三十五届理事会第五至第七次会议议程及办公室报告（2011年11月至2012年2月）](/uploads/75_compressed_page-0007.jpg "香港八和会馆第三十五届理事会第五至第七次会议议程及办公室报告（2011年11月至2012年2月）")
+
+
+    ![最新消息：捐款与餽赠 陈少棠亲笔来函：「粤剧之魂、行家归心」 | 郑文雅赠支票、摄影集 | 谭初赠书（泥印本：开山曲）](/uploads/75_compressed_page-0008.jpg "最新消息：捐款与餽赠 陈少棠亲笔来函：「粤剧之魂、行家归心」 | 郑文雅赠支票、摄影集 | 谭初赠书（泥印本：开山曲）")
 ---

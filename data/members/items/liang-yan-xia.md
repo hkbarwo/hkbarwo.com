@@ -16,4 +16,11 @@ en:
   alias: 梁燕飛
   description: ""
   thoughts: ""
+cn:
+  slug: liang-yan-xia
+  gender: f
+  position: 演
+  alias: 梁燕飞
+  role: 会友
+  title: 梁燕夏
 ---

@@ -16,4 +16,11 @@ en:
   alias: 紅艷琴
   description: ""
   thoughts: ""
+cn:
+  slug: huang-bi-xia
+  gender: f
+  position: 演
+  alias: 红艳琴
+  role: 会友
+  title: 黄碧霞
 ---

@@ -15,4 +15,13 @@ en:
     - member-events
     - member-apply
   page: member-events
+cn:
+  slug: member
+  title: 会员专区
+  subPages:
+    - member-events
+    - member-directory
+    - member-memorial
+    - member-apply
+  page: member-events
 ---

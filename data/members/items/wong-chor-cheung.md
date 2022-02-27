@@ -16,4 +16,11 @@ en:
   alias: 黃志祥
   description: ""
   thoughts: ""
+cn:
+  slug: wong-chor-cheung
+  gender: m
+  position: 演
+  role: 会友
+  title: 黄佐祥
+  alias: 黄志祥
 ---

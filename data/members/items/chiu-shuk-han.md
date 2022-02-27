@@ -16,4 +16,11 @@ en:
   alias: 趙劍虹
   description: ""
   thoughts: ""
+cn:
+  slug: chiu-shuk-han
+  gender: f
+  position: 演
+  alias: 赵剑虹
+  title: 赵淑娴
+  role: 会友
 ---

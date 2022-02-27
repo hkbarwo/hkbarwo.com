@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 畫
   slug: ma-cheuk-fai
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 馬焯輝
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 畫
   title: Ma Cheuk Fai
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: ma-cheuk-fai
+  gender: m
+  position: 画
+  role: 会友
+  title: 马焯辉
 ---

@@ -17,4 +17,14 @@ en:
   alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: chan-ho-kau
+  gender: f
+  position: 演
+  isDead: "true"
+  role: 会友
+  alias: 陈好逑
+  title: 陈好逑
+  thoughts: " "
+  description: " "
 ---

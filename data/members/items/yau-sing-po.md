@@ -17,4 +17,14 @@ en:
   alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: yau-sing-po
+  gender: m
+  position: 演
+  isDead: "true"
+  alias: " "
+  role: 会友
+  thoughts: " "
+  description: " "
+  title: 尤声普
 ---

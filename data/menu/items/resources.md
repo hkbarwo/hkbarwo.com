@@ -17,4 +17,14 @@ en:
     - photo-gallery
     - publications
     - bookmarks
+cn:
+  slug: resources
+  title: 资源中心
+  page: channel
+  subPages:
+    - channel
+    - publications
+    - ebook
+    - photo-gallery
+    - bookmarks
 ---

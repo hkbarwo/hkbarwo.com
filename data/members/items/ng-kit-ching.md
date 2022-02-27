@@ -16,4 +16,11 @@ en:
   alias: 苗丹青
   description: ""
   thoughts: ""
+cn:
+  slug: ng-kit-ching
+  gender: f
+  position: 演
+  role: 会友
+  alias: 苗丹青
+  title: 伍洁贞
 ---

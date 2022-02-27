@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: tam-wai-chiu
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 譚惠超
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Tam Wai Chiu
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: tam-wai-chiu
+  gender: m
+  position: 音
+  role: 会友
+  title: 谭惠超
 ---

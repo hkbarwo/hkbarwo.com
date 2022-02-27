@@ -16,4 +16,11 @@ en:
   alias: 陳用根
   description: ""
   thoughts: ""
+cn:
+  slug: chan-yung-ging
+  gender: m
+  position: 音
+  alias: 陈用根
+  role: 会友
+  title: 陈容根
 ---

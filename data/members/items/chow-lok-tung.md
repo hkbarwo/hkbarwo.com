@@ -1,9 +1,9 @@
 ---
 zh:
   gender: f
-  position: 
+  position: null
   slug: chow-lok-tung
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 周洛童
@@ -11,9 +11,14 @@ zh:
   description: ""
 en:
   role: 會友
-  position: 
+  position: null
   title: Chow Lok Tung
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: chow-lok-tung
+  gender: f
+  role: 会友
+  title: 周洛童
 ---

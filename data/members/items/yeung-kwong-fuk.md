@@ -16,4 +16,11 @@ en:
   alias: 楊鴻
   description: ""
   thoughts: ""
+cn:
+  slug: yeung-kwong-fuk
+  gender: m
+  position: 音
+  alias: 杨鸿
+  role: 会友
+  title: 杨广福
 ---

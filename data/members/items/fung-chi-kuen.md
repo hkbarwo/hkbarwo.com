@@ -16,4 +16,11 @@ en:
   alias: 白靈芝
   description: ""
   thoughts: ""
+cn:
+  slug: fung-chi-kuen
+  gender: f
+  position: 演
+  alias: 白灵芝
+  role: 会友
+  title: 冯芝娟
 ---

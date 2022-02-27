@@ -16,4 +16,11 @@ en:
   alias: 楊振聲
   description: ""
   thoughts: ""
+cn:
+  slug: yeung-kwok-yuen
+  gender: m
+  position: 演
+  alias: 杨振声
+  role: 会友
+  title: 杨国源
 ---

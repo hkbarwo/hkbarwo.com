@@ -16,4 +16,11 @@ en:
   alias: 菊盛戎
   description: ""
   thoughts: ""
+cn:
+  slug: leung-suk-ming-randolph
+  gender: f
+  position: 演
+  alias: 菊盛戎
+  role: 会友
+  title: 梁淑明
 ---

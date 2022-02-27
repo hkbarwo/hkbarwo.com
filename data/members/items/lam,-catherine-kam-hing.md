@@ -16,4 +16,11 @@ en:
   alias: 花居冠
   description: ""
   thoughts: ""
+cn:
+  slug: lam,-catherine-kam-hing
+  gender: f
+  position: 演
+  role: 会友
+  alias: 花居冠
+  title: 林晓琪
 ---

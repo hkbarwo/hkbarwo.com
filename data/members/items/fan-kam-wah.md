@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 演
   slug: fan-kam-wah
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 樊錦華
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Fan Kam Wah
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: fan-kam-wah
+  gender: m
+  position: 演
+  role: 会友
+  title: 樊锦华
 ---

@@ -16,4 +16,11 @@ en:
   alias: 韋卓安
   description: ""
   thoughts: ""
+cn:
+  slug: ng-chui-ping
+  gender: f
+  position: 演
+  alias: 韦卓安
+  role: 会友
+  title: 吴翠屏
 ---

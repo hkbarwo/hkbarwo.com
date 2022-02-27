@@ -25,4 +25,28 @@ zh:
   pdfFile: /uploads/67_compressed.pdf
 en:
   category: report
+cn:
+  date: 2009-12-30T16:00:00.000Z
+  slug: the-67-issue-barwo-quarterly-journal
+  category: report
+  pdfFile: /uploads/67_compressed.pdf
+  title: 第67期《八和汇报》
+  content: >-
+    ![第三十四届理事会就职 民政事务局局长曾德成主礼](/uploads/67_compressed_page-0001.jpg "第三十四届理事会就职
+    民政事务局局长曾德成主礼")
+
+
+    ![香港八和会馆办公室报告（2009年8月至2010年10月）](/uploads/67_compressed_page-0002.jpg "香港八和会馆办公室报告（2009年8月至2010年10月）")
+
+
+    ![香港八和会馆第三十四届理事会第四至五次会议议程 | 2009年华光先师宝诞 竞技圣物筹75万](/uploads/67_compressed_page-0003.jpg "香港八和会馆第三十四届理事会第四至五次会议议程 | 2009年华光先师宝诞 竞技圣物筹75万")
+
+
+    ![2009年华光先师宝诞例戏《香花山大贺寿》](/uploads/67_compressed_page-0004.jpg "2009年华光先师宝诞例戏《香花山大贺寿》")
+
+
+    ![学生眼中的粤剧 | 演员会贺华光诞 | 普福堂第11届 音乐部第31届(2009-2012)理事会](/uploads/67_compressed_page-0005.jpg "学生眼中的粤剧 | 演员会贺华光诞 | 普福堂第11届 音乐部第31届(2009-2012)理事会")
+
+
+    ![粤剧成功列入联合国《人类非物质文化遗产代表作名录》新闻发布会| 2009粤剧日 粤曲演唱会 | 一月派岁晚利是 | 八和拜会佛山](/uploads/67_compressed_page-0006.jpg "粤剧成功列入联合国《人类非物质文化遗产代表作名录》新闻发布会| 2009粤剧日 粤曲演唱会 | 一月派岁晚利是 | 八和拜会佛山")
 ---

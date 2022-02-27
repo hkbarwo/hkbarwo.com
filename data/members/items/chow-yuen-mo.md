@@ -16,4 +16,11 @@ en:
   alias: 元武
   description: ""
   thoughts: ""
+cn:
+  slug: chow-yuen-mo
+  gender: m
+  position: 武
+  alias: 元武
+  role: 会友
+  title: 周元武
 ---

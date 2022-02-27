@@ -16,4 +16,11 @@ en:
   alias: 李滴仙
   description: ""
   thoughts: ""
+cn:
+  slug: lee-lai-har
+  gender: f
+  position: 演
+  alias: 李滴仙
+  role: 会友
+  title: 李丽霞
 ---

@@ -16,4 +16,11 @@ en:
   alias: 蔚劍菁
   description: ""
   thoughts: ""
+cn:
+  slug: nam-yuet-yu
+  gender: f
+  position: 演
+  alias: 蔚剑菁
+  role: 会友
+  title: 蓝月如
 ---

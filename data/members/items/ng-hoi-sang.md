@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: ng-hoi-sang
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 吳海生
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Ng Hoi Sang
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: ng-hoi-sang
+  gender: m
+  position: 音
+  role: 会友
+  title: 吴海生
 ---

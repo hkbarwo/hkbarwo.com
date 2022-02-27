@@ -16,4 +16,11 @@ en:
   alias: 金玉龍
   description: ""
   thoughts: ""
+cn:
+  slug: chan-shui-chun
+  gender: f
+  position: 音
+  alias: 金玉龙
+  role: 会友
+  title: 陈瑞珍
 ---

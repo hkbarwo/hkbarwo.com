@@ -7,4 +7,8 @@ zh:
 en:
   title: Ritual Performances Information
   wip: false
+cn:
+  slug: performances-celebrations
+  url: /performances/celebrations
+  title: 神功戏资讯
 ---

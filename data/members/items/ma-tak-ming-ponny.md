@@ -16,4 +16,11 @@ en:
   alias: 馬卓麟
   description: ""
   thoughts: ""
+cn:
+  slug: ma-tak-ming-ponny
+  gender: m
+  position: 演
+  alias: 马卓麟
+  role: 会友
+  title: 马德明
 ---

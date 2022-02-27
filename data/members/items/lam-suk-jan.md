@@ -16,4 +16,11 @@ en:
   alias: 林珍兒
   description: ""
   thoughts: ""
+cn:
+  slug: lam-suk-jan
+  gender: f
+  position: 演
+  alias: 林珍儿
+  role: 会友
+  title: 林淑珍
 ---

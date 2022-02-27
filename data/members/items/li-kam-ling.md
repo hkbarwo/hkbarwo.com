@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 演
   slug: li-kam-ling
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 李金鈴
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Li Kam Ling
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: li-kam-ling
+  gender: f
+  position: 演
+  role: 会友
+  title: 李金铃
 ---

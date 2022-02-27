@@ -16,4 +16,11 @@ en:
   alias: 馬小福
   description: ""
   thoughts: ""
+cn:
+  slug: wu-kwok-leung
+  gender: m
+  position: 音
+  alias: 马小福
+  role: 会友
+  title: 胡国良
 ---

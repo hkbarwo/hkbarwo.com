@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 演
   slug: hong-hai
-  alias: 
+  alias: null
   photo: ""
   role: 理事
   title: 洪海
@@ -13,7 +13,13 @@ en:
   role: 理事
   position: 演
   title: Hong Hai
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: hong-hai
+  gender: m
+  position: 演
+  role: 理事
+  title: 洪海
 ---

@@ -23,4 +23,27 @@ zh:
 
     ![第108期《八和匯報》第八頁](/uploads/108_compressed-page-008.jpg "第108期《八和匯報》第八頁")
 en: {}
+cn:
+  date: 2020-12-30T16:00:00.000Z
+  slug: the-108-issue-barwo-quarterly-journal
+  category: report
+  pdfFile: /uploads/the-108-issue-barwo-quarterly-journal.pdf
+  title: 第108期《八和汇报》
+  content: |-
+    
+    ![第108期《八和汇报》第一页](/uploads/108_compressed-page-001.jpg "第108期《八和汇报》第一页")
+
+    ![第108期《八和汇报》第二页](/uploads/108_compressed-page-002.jpg "第108期《八和汇报》第二页")
+
+    ![第108期《八和汇报》第三页](/uploads/108_compressed-page-004.jpg "第108期《八和汇报》第三页")
+
+    ![第108期《八和汇报》第四页](/uploads/108_compressed-page-003.jpg "第108期《八和汇报》第四页")
+
+    ![第108期《八和汇报》第五页](/uploads/108_compressed-page-005.jpg "第108期《八和汇报》第五页")
+
+    ![第108期《八和汇报》第六页](/uploads/108_compressed-page-006.jpg "第108期《八和汇报》第六页")
+
+    ![第108期《八和汇报》第七页](/uploads/108_compressed-page-007.jpg "第108期《八和汇报》第七页")
+
+    ![第108期《八和汇报》第八页](/uploads/108_compressed-page-008.jpg "第108期《八和汇报》第八页")
 ---

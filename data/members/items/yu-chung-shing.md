@@ -16,4 +16,11 @@ en:
   alias: 余大鵬
   description: ""
   thoughts: ""
+cn:
+  slug: yu-chung-shing
+  gender: m
+  position: 武
+  role: 会友
+  title: 余宗成
+  alias: 余大鹏
 ---

@@ -7,4 +7,8 @@ zh:
 en:
   title: UpComing Performances
   wip: false
+cn:
+  slug: performances-upcoming
+  url: /performances/upcoming
+  title: 即将上演
 ---

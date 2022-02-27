@@ -16,4 +16,11 @@ en:
   alias: 黃湘鳳
   description: ""
   thoughts: ""
+cn:
+  slug: wong-foong-har
+  gender: f
+  position: 演
+  alias: 黄湘凤
+  role: 会友
+  title: 黄凤霞
 ---

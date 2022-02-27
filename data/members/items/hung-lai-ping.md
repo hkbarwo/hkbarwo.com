@@ -16,4 +16,11 @@ en:
   alias: 楊小雪
   description: ""
   thoughts: ""
+cn:
+  slug: hung-lai-ping
+  gender: f
+  position: 衣
+  alias: 杨小雪
+  role: 会友
+  title: 孔丽萍
 ---

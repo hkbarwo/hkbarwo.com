@@ -16,4 +16,11 @@ en:
   alias: 陳楚君
   description: ""
   thoughts: ""
+cn:
+  slug: chan-lee
+  gender: f
+  position: 演
+  alias: 陈楚君
+  role: 会友
+  title: 陈莉
 ---

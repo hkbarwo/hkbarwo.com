@@ -16,4 +16,11 @@ en:
   alias: 唐宛瑩
   description: ""
   thoughts: ""
+cn:
+  slug: chow-lai-yuk
+  gender: f
+  position: 演
+  alias: 唐宛莹
+  role: 会友
+  title: 邹丽玉
 ---

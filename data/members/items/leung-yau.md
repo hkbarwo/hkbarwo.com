@@ -16,4 +16,11 @@ en:
   alias: 何非友
   description: ""
   thoughts: ""
+cn:
+  slug: leung-yau
+  gender: m
+  position: 演
+  alias: 何非友
+  role: 会友
+  title: 梁友
 ---

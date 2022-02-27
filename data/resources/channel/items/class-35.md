@@ -18,4 +18,15 @@ en:
 
     今集亦會示範花開門及鑼邊花岀場亮相和企洞及七槌上場的表演程式。
   category: cantonese-opera-online-course
+cn:
+  date: 2021-02-28T18:10:30.484Z
+  slug: class-35
+  category: cantonese-opera-online-course
+  coverImage: /images/uploads/resources/channel/epi35.jpg
+  youtubeVideoID: PC9pobSJ8lg
+  title: 第三十五集 做：手下教材（一）开堂、一捆三标、夹棍、打棍子、花开门、锣边花、企洞、七槌
+  content: |-
+    大审戏是粤剧独有演岀，今集会示范开堂、一捆三标及主审官严刑迫供时会使用的夹棍、打板子等。
+
+    今集亦会示范花开门及锣边花岀场亮相和企洞及七槌上场的表演程式。
 ---

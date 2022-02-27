@@ -16,4 +16,11 @@ en:
   alias: 千言
   description: ""
   thoughts: ""
+cn:
+  slug: chan-ngo-yin-jimmy
+  gender: m
+  alias: 千言
+  position: 演
+  role: 会友
+  title: 陈傲贤
 ---

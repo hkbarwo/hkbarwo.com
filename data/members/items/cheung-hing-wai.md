@@ -16,4 +16,11 @@ en:
   alias: 張偉
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-hing-wai
+  gender: m
+  position: 演
+  role: 会友
+  alias: 张伟
+  title: 张庆伟
 ---

@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 演
   slug: chan-tan-tung
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 陳玬橦
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Chan Tan Tung
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: chan-tan-tung
+  gender: f
+  position: 演
+  role: 会友
+  title: 陈玬橦
 ---

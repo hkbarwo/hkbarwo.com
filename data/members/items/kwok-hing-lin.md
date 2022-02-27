@@ -16,4 +16,11 @@ en:
   alias: 白雪蓮
   description: ""
   thoughts: ""
+cn:
+  slug: kwok-hing-lin
+  gender: f
+  position: 演
+  alias: 白雪莲
+  role: 会友
+  title: 郭庆莲
 ---

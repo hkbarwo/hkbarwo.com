@@ -16,4 +16,11 @@ en:
   alias: 小桃紅
   description: ""
   thoughts: ""
+cn:
+  slug: fung-mee-po
+  gender: f
+  position: 演
+  alias: 小桃红
+  role: 会友
+  title: 冯美宝
 ---

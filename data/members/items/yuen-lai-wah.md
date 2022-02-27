@@ -16,4 +16,11 @@ en:
   alias: 袁纓華
   description: ""
   thoughts: ""
+cn:
+  slug: yuen-lai-wah
+  gender: f
+  position: 演
+  alias: 袁缨华
+  role: 会友
+  title: 袁丽华
 ---

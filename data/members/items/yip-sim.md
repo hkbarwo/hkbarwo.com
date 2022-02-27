@@ -16,4 +16,11 @@ en:
   alias: 葉蕙嬋.嫩劍輝
   description: ""
   thoughts: ""
+cn:
+  slug: yip-sim
+  gender: f
+  position: 演
+  alias: 叶蕙婵.嫩剑辉
+  role: 会友
+  title: 叶婵
 ---

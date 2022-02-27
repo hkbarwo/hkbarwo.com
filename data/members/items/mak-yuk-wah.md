@@ -16,4 +16,11 @@ en:
   alias: 凌安僖
   description: ""
   thoughts: ""
+cn:
+  slug: mak-yuk-wah
+  gender: f
+  position: 演
+  alias: 凌安僖
+  role: 会友
+  title: 麦毓华
 ---

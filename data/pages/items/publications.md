@@ -9,4 +9,8 @@ en:
   title: Publication
   description: ""
   wip: true
+cn:
+  url: /resources/publications
+  slug: publications
+  title: 出版刊物
 ---

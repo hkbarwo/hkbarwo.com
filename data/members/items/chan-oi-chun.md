@@ -16,4 +16,11 @@ en:
   alias: 陳鳴軒
   description: ""
   thoughts: ""
+cn:
+  slug: chan-oi-chun
+  gender: f
+  position: 演
+  role: 会友
+  alias: 陈鸣轩
+  title: 陈爱珍
 ---

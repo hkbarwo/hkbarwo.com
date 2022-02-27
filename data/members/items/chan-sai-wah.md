@@ -16,4 +16,11 @@ en:
   alias: 陳劍烽副會長
   description: ""
   thoughts: ""
+cn:
+  slug: chan-sai-wah
+  gender: m
+  position: 武
+  role: 副会长
+  alias: 陈剑烽副会长
+  title: 陈世华
 ---

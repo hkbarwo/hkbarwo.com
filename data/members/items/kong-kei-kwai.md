@@ -16,4 +16,11 @@ en:
   alias: 江素心
   description: ""
   thoughts: ""
+cn:
+  slug: kong-kei-kwai
+  gender: f
+  position: 演
+  role: 会友
+  alias: 江素心
+  title: 江纪葵
 ---

@@ -36,3 +36,23 @@ en:
         icon: /uploads/member/apply/02.svg
       - title: 交會員費和領取會員證
         icon: /uploads/member/apply/03.svg
+cn:
+  registration:
+    steps:
+      - icon: /uploads/member/apply/01.svg
+        title: 填写和缴交申请表
+      - icon: /uploads/member/apply/02.svg
+        title: 理事会审批
+      - icon: /uploads/member/apply/03.svg
+        title: 交会员费和领取会员证
+    title: 如何加入
+    description: |-
+      ### 申请入会者需符合以下条件：
+
+      * 曾经受薪参与职业粤剧团的演出工作
+      * 经会员提议、和议及调查组签名确认
+      * 为了让更多粤剧从业员加入八和大家庭，放宽申请入会的年龄条件，不设年龄限制，但超过55岁入会的人士，则未能获取八和会员的所有福利
+  pdf: /uploads/member/apply/入會申請表-2020版.pdf
+  image: /uploads/member/apply.jpg
+  title: 加入成为我们会员
+  description: 会员可以享有八和支援粤剧从业员的特别项目如每年获派岁晚利是、以特惠价购买周年联欢会的席券、住院慰问金(这项津贴属一次性)等。

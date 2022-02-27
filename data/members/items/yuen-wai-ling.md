@@ -16,4 +16,11 @@ en:
   alias: 白玉麒
   description: ""
   thoughts: ""
+cn:
+  slug: yuen-wai-ling
+  gender: f
+  position: 演
+  alias: 白玉麒
+  role: 会友
+  title: 袁惠龄
 ---

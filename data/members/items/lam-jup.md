@@ -16,4 +16,11 @@ en:
   alias: 羅載而
   description: ""
   thoughts: ""
+cn:
+  slug: lam-jup
+  gender: m
+  position: 武
+  alias: 罗载而
+  role: 会友
+  title: 林赭
 ---

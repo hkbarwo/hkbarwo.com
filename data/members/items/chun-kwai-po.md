@@ -16,4 +16,11 @@ en:
   alias: 小寶
   description: ""
   thoughts: ""
+cn:
+  slug: chun-kwai-po
+  gender: m
+  position: 武
+  alias: 小宝
+  role: 会友
+  title: 秦贵宝
 ---

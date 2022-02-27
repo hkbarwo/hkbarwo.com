@@ -16,4 +16,11 @@ en:
   alias: 玉芙蓉
   description: ""
   thoughts: ""
+cn:
+  slug: yu-pik-yuk
+  gender: f
+  position: 演
+  role: 会友
+  alias: 玉芙蓉
+  title: 余碧玉
 ---

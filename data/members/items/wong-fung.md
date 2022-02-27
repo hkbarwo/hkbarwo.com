@@ -1,6 +1,6 @@
 ---
 zh:
-  gender: 
+  gender: null
   position: 武
   slug: wong-fung
   alias: 王少明
@@ -16,4 +16,10 @@ en:
   alias: 王少明
   description: ""
   thoughts: ""
+cn:
+  slug: wong-fung
+  position: 武
+  alias: 王少明
+  role: 会友
+  title: 黄岚
 ---

@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 演
   slug: cheung-yuet-ngor
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 鄭月娥
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Cheung Yuet Ngor
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-yuet-ngor
+  gender: f
+  position: 演
+  role: 会友
+  title: 郑月娥
 ---

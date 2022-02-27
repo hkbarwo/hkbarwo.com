@@ -16,4 +16,11 @@ en:
   alias: 梁劍鳴
   description: ""
   thoughts: ""
+cn:
+  slug: leung-ho
+  gender: f
+  position: 演
+  alias: 梁剑鸣
+  role: 会友
+  title: 梁好
 ---

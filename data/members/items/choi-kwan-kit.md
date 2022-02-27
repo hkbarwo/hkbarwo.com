@@ -16,4 +16,11 @@ en:
   alias: 祝如山
   description: ""
   thoughts: ""
+cn:
+  slug: choi-kwan-kit
+  gender: m
+  position: 演
+  alias: 祝如山
+  role: 会友
+  title: 蔡钧杰
 ---

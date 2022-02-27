@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 畫
   slug: lee-ming-yee
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 李明義
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 畫
   title: Lee Ming Yee
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: lee-ming-yee
+  gender: m
+  position: 画
+  role: 会友
+  title: 李明义
 ---

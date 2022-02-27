@@ -16,4 +16,11 @@ en:
   alias: 沙厘棠
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-hoi-tong
+  gender: m
+  position: 演
+  alias: 沙厘棠
+  role: 会友
+  title: 张海棠
 ---

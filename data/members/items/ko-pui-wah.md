@@ -16,4 +16,11 @@ en:
   alias: 南鳳
   description: ""
   thoughts: ""
+cn:
+  slug: ko-pui-wah
+  position: 演
+  gender: f
+  role: 会友
+  alias: 南凤
+  title: 高佩华
 ---

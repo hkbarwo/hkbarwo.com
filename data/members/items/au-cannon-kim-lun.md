@@ -16,4 +16,11 @@ en:
   alias: 劍麟
   description: ""
   thoughts: ""
+cn:
+  slug: au-cannon-kim-lun
+  gender: m
+  position: 演
+  alias: 剑麟
+  role: 会友
+  title: 欧剑麟
 ---

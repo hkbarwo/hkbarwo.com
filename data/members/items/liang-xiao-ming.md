@@ -16,4 +16,11 @@ en:
   alias: 梁兆明
   description: ""
   thoughts: ""
+cn:
+  slug: liang-xiao-ming
+  gender: m
+  position: 演
+  alias: 梁兆明
+  role: 理事
+  title: 梁小明
 ---

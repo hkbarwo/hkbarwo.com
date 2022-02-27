@@ -16,4 +16,11 @@ en:
   alias: 馮小華
   description: ""
   thoughts: ""
+cn:
+  slug: fung-chuen-wah
+  gender: f
+  position: 演
+  alias: 冯小华
+  role: 会友
+  title: 冯钻华
 ---

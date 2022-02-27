@@ -16,4 +16,11 @@ en:
   alias: 周麗兒
   description: ""
   thoughts: ""
+cn:
+  slug: chow-lai-yee
+  gender: f
+  position: 演
+  alias: 周丽儿
+  role: 会友
+  title: 周丽仪
 ---

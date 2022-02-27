@@ -16,4 +16,11 @@ en:
   alias: 吳美英
   description: ""
   thoughts: ""
+cn:
+  slug: pun-kwai-mui
+  gender: f
+  position: 演
+  alias: 吴美英
+  role: 会友
+  title: 潘桂妹
 ---

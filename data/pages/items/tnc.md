@@ -7,4 +7,8 @@ zh:
 en:
   title: T&C
   wip: true
+cn:
+  slug: tnc
+  url: /tnc
+  title: 网站资讯
 ---

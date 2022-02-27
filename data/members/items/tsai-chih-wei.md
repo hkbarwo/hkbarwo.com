@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 武
   slug: tsai-chih-wei
-  alias: 
+  alias: null
   photo: ""
   role: 理事
   title: 蔡之崴
@@ -13,7 +13,13 @@ en:
   role: 理事
   position: 武
   title: Tsai Chih Wei
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: tsai-chih-wei
+  gender: m
+  position: 武
+  role: 理事
+  title: 蔡之崴
 ---

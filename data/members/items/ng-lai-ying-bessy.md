@@ -16,4 +16,11 @@ en:
   alias: 伍艷紅
   description: ""
   thoughts: ""
+cn:
+  slug: ng-lai-ying-bessy
+  gender: f
+  position: 演
+  alias: 伍艳红
+  role: 会友
+  title: 伍丽英
 ---

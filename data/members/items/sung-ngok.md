@@ -16,4 +16,11 @@ en:
   alias: 宋岳
   description: ""
   thoughts: ""
+cn:
+  slug: sung-ngok
+  gender: m
+  position: 音
+  alias: 宋岳
+  role: 会友
+  title: 宋    锷
 ---

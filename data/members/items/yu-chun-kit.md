@@ -16,4 +16,11 @@ en:
   alias: 雷文
   description: ""
   thoughts: ""
+cn:
+  slug: yu-chun-kit
+  gender: m
+  position: 音
+  alias: 雷文
+  role: 会友
+  title: 余俊杰
 ---

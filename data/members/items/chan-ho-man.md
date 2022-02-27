@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 畫
   slug: chan-ho-man
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 陳浩文
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 畫
   title: Chan Ho Man
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: chan-ho-man
+  gender: m
+  position: 画
+  role: 会友
+  title: 陈浩文
 ---

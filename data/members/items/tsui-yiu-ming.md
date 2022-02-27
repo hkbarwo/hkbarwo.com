@@ -16,4 +16,11 @@ en:
   alias: 徐小明
   description: ""
   thoughts: ""
+cn:
+  slug: tsui-yiu-ming
+  gender: m
+  position: 演
+  alias: 徐小明
+  role: 会友
+  title: 徐耀明
 ---

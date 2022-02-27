@@ -16,4 +16,11 @@ en:
   alias: 楊紅梅
   description: ""
   thoughts: ""
+cn:
+  slug: yeung-chui-mui
+  position: 音
+  gender: f
+  role: 会友
+  alias: 杨红梅
+  title: 杨翠梅
 ---

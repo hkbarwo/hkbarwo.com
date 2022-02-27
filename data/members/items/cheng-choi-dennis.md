@@ -16,4 +16,11 @@ en:
   alias: 白雲龍
   description: ""
   thoughts: ""
+cn:
+  slug: cheng-choi-dennis
+  gender: m
+  position: 演
+  alias: 白云龙
+  role: 会友
+  title: 郑财
 ---

@@ -16,4 +16,11 @@ en:
   alias: 梁權
   description: ""
   thoughts: ""
+cn:
+  slug: leung-shea-kuen
+  gender: m
+  position: 音
+  role: 会友
+  alias: 梁权
+  title: 梁社权
 ---

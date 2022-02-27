@@ -16,4 +16,11 @@ en:
   alias: 何志成
   description: ""
   thoughts: ""
+cn:
+  slug: ho-chi-shing
+  gender: m
+  position: 演
+  role: 会友
+  alias: 何志成
+  title: 何致诚
 ---

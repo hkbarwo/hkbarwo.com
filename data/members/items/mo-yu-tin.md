@@ -16,4 +16,11 @@ en:
   alias: 新劍郎
   description: ""
   thoughts: ""
+cn:
+  slug: mo-yu-tin
+  gender: m
+  position: 演
+  alias: 新剑郎
+  role: 副主席
+  title: 巫雨田
 ---

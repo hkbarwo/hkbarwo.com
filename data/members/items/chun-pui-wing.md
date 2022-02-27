@@ -16,4 +16,11 @@ en:
   alias: 秦榮
   description: ""
   thoughts: ""
+cn:
+  slug: chun-pui-wing
+  gender: m
+  position: 音
+  alias: 秦荣
+  title: 秦沛荣
+  role: 会友
 ---

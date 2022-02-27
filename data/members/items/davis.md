@@ -16,4 +16,11 @@ en:
   alias: 黃嘉恒
   description: ""
   thoughts: ""
+cn:
+  slug: davis
+  gender: m
+  position: 音
+  alias: 黄嘉恒
+  role: 会友
+  title: 黄立恒
 ---

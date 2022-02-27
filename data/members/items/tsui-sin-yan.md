@@ -16,4 +16,11 @@ en:
   alias: 御玲瓏
   description: ""
   thoughts: ""
+cn:
+  slug: tsui-sin-yan
+  gender: f
+  position: 演
+  alias: 御玲珑
+  role: 会友
+  title: 徐倩殷
 ---

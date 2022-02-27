@@ -16,4 +16,11 @@ en:
   alias: 陳藥風
   description: ""
   thoughts: ""
+cn:
+  slug: chan-chi-shing
+  gender: m
+  position: 音
+  alias: 陈药风
+  role: 会友
+  title: 陈志诚
 ---

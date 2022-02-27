@@ -16,4 +16,11 @@ en:
   alias: 曾錦華
   description: ""
   thoughts: ""
+cn:
+  slug: tsang-cheung-tai
+  gender: m
+  position: 演
+  alias: 曾锦华
+  role: 会友
+  title: 曾长大
 ---

@@ -16,4 +16,11 @@ en:
   alias: 鄒思凡
   description: ""
   thoughts: ""
+cn:
+  slug: fung-wai-yan
+  gender: m
+  position: 演
+  role: 会友
+  title: 冯惠欣
+  alias: 邹思凡
 ---

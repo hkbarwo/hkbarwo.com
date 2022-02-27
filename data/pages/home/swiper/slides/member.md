@@ -21,4 +21,18 @@ en:
   subtitle: 聯誼與交流
   buttonLink:
     page: member-events
+cn:
+  slug: member
+  bgImage: /images/uploads/home/swiper/slides/landing-img-6-2x.jpg
+  buttonTitle: " 了解更多"
+  buttonLink:
+    page: member-events
+  gradient:
+    color1: "#2930d7"
+    color2: "#ffa5fc"
+  title: 会员活动
+  subtitle: 关怀‧回馈
+  bgImageFillStyle: contain
+  shortTitle: 会员专区
+  description: 八和会馆的会员，包括粤剧界不同岗位的从业员。八和的会员活动非常多样化，部份是中国传统节庆活动，如：春茗、春祭；也有不少老少咸宜的会员活动，如：春季旅行、岁晚义诊等。每年夏天的七、八月份，八和均会举行会员大会，向会员们简报会馆的全年工作，也同时直接了解会员的诉求和需要。农历九月是师傅诞，每年八和均会筹办大型贺誔活动。此外，为照顾会员的身心健康，也会定期举办足球活动及健体日等。
 ---

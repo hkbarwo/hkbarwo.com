@@ -26,4 +26,25 @@ zh:
   type: celebration
 en:
   date: 2022-07-14T08:51:41.270Z
+cn:
+  date: 2022-07-14T08:51:41.270Z
+  slug: cantonese-opera-performance-2022-sai-kung-hebe-haven
+  sessions: "9"
+  metadata:
+    - isShowInList: "true"
+      label: 演出日期
+      content: |-
+        7月14日至7月18日 
+
+        六月十六日至六月二十日
+    - label: 主办机构
+      content: 西贡白沙湾水陆居民恭祝观音宝诞
+    - label: 演出剧团
+      content: 鸿嘉宝制作有限公司
+    - label: 演员
+      content: 梁兆明、郑咏梅、陈鸿进、一点鸿、陈嘉鸣、黎耀威
+    - label: 地点
+      content: 西贡白沙湾
+  title: 2022年（壬寅年）表演五
+  type: celebration
 ---

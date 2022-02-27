@@ -6,5 +6,9 @@ zh:
   url: /member/memorial
 en:
   title: 仙游
-  wip: true
+  wip: false
+cn:
+  slug: member-memorial
+  url: /member/memorial
+  title: 仙游
 ---

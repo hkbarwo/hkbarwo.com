@@ -6,4 +6,10 @@ zh:
   image: /uploads/barwo-book-1-final.png
   pdf: /uploads/barwo-book-1-final.pdf
 en: {}
+cn:
+  date: 2021-07-06T17:45:11.309Z
+  slug: barwo-of-the-50th-anniversary-booklet
+  image: /uploads/barwo-book-1-final.png
+  pdf: /uploads/barwo-book-1-final.pdf
+  title: 香港八和会馆50周年回顾及前瞻
 ---

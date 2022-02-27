@@ -16,4 +16,11 @@ en:
   alias: 元瑛
   description: ""
   thoughts: ""
+cn:
+  slug: wang-cane-ti
+  gender: f
+  position: 武
+  alias: 元瑛
+  role: 会友
+  title: 王根娣
 ---

@@ -16,4 +16,11 @@ en:
   alias: 江雪鷺
   description: ""
   thoughts: ""
+cn:
+  slug: tong-ming-wai
+  gender: f
+  position: 演
+  alias: 江雪鹭
+  role: 会友
+  title: 汤明慧
 ---

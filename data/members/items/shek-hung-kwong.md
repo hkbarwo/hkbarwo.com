@@ -16,4 +16,11 @@ en:
   alias: 洪劍棠
   description: ""
   thoughts: ""
+cn:
+  slug: shek-hung-kwong
+  gender: m
+  position: 演
+  alias: 洪剑棠
+  role: 会友
+  title: 石鸿光
 ---

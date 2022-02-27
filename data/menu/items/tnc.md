@@ -5,4 +5,8 @@ zh:
   page: tnc
 en:
   title: Terms
+cn:
+  slug: tnc
+  page: tnc
+  title: 网站资讯
 ---

@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: sze-to-shiu
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 司徒紹
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Sze-To Shiu
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: sze-to-shiu
+  gender: m
+  position: 音
+  role: 会友
+  title: 司徒绍
 ---

@@ -16,4 +16,11 @@ en:
   alias: 曾榮業
   description: ""
   thoughts: ""
+cn:
+  slug: tsang-ngan-hung
+  gender: m
+  alias: 曾荣业
+  role: 会友
+  title: 曾雁雄
+  position: 演
 ---

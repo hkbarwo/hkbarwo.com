@@ -4,4 +4,7 @@ zh:
   slug: featured-performances
 en:
   title: Featured Performances
+cn:
+  slug: featured-performances
+  title: 八和节目重温
 ---

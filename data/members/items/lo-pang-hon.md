@@ -16,4 +16,11 @@ en:
   alias: 盧漢
   description: ""
   thoughts: ""
+cn:
+  slug: lo-pang-hon
+  gender: m
+  position: 音
+  alias: 卢汉
+  role: 会友
+  title: 卢鹏汉
 ---

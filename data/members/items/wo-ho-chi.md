@@ -16,4 +16,11 @@ en:
   alias: 裴駿軒
   description: ""
   thoughts: ""
+cn:
+  slug: wo-ho-chi
+  gender: m
+  position: 演
+  alias: 裴骏轩
+  role: 会友
+  title: 胡可志
 ---

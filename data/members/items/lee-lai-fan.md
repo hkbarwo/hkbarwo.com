@@ -16,4 +16,11 @@ en:
   alias: 蓋鳴暉
   description: ""
   thoughts: ""
+cn:
+  slug: lee-lai-fan
+  gender: f
+  position: 演
+  alias: 盖鸣晖
+  role: 会友
+  title: 李丽芬
 ---

@@ -16,4 +16,11 @@ en:
   alias: 元心
   description: ""
   thoughts: ""
+cn:
+  slug: chan-heung-chun
+  gender: f
+  position: 演
+  alias: 元心
+  role: 会友
+  title: 陈香珍
 ---

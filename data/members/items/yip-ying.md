@@ -16,4 +16,11 @@ en:
   alias: 葉沛纓
   description: ""
   thoughts: ""
+cn:
+  slug: yip-ying
+  gender: f
+  position: 演
+  role: 会友
+  alias: 叶沛缨
+  title: 叶英
 ---

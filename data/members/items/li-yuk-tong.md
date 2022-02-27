@@ -16,4 +16,11 @@ en:
   alias: 李棠
   description: ""
   thoughts: ""
+cn:
+  slug: li-yuk-tong
+  gender: m
+  position: 音
+  alias: 李棠
+  role: 会友
+  title: 李玉棠
 ---

@@ -16,4 +16,11 @@ en:
   alias: 徐劍華
   description: ""
   thoughts: ""
+cn:
+  slug: chui-kin-wah
+  gender: m
+  position: 衣
+  alias: 徐剑华
+  role: 会友
+  title: 徐建华
 ---

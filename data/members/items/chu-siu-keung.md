@@ -16,4 +16,11 @@ en:
   alias: 丁一龍
   description: ""
   thoughts: ""
+cn:
+  slug: chu-siu-keung
+  gender: m
+  position: 演
+  alias: 丁一龙
+  role: 会友
+  title: 朱少强
 ---

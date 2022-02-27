@@ -16,4 +16,11 @@ en:
   alias: 李春華
   description: ""
   thoughts: ""
+cn:
+  slug: li-chun-loi
+  gender: m
+  position: 演
+  alias: 李春华
+  role: 会友
+  title: 李春来
 ---

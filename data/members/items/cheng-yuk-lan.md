@@ -16,4 +16,11 @@ en:
   alias: 玄悅仙
   description: ""
   thoughts: ""
+cn:
+  slug: cheng-yuk-lan
+  gender: f
+  position: 演
+  alias: 玄悦仙
+  role: 会友
+  title: 郑玉兰
 ---

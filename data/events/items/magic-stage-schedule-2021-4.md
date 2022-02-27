@@ -26,4 +26,25 @@ zh:
   type: celebration
 en:
   date: 2021-07-13T10:24:24.348Z
+cn:
+  date: 2021-07-13T10:24:24.348Z
+  slug: magic-stage-schedule-2021-4
+  sessions: "11"
+  metadata:
+    - isShowInList: "true"
+      label: 演出日期
+      content: |-
+        7月13日至7月18日
+
+        六月初四至六月初九
+    - label: 主办机构
+      content: 大澳水陆居民庆祝宝珠潭杨公侯王宝诞
+    - label: 演出剧团
+      content: 鸿运粤剧团
+    - label: 演员
+      content: 蓝天佑、黄小凤、王洁清、黎耀威、一点鸿、梁炜康、梁兆明、陈咏仪、林子清
+    - label: 地回
+      content: 大澳
+  type: celebration
+  title: 2021年(辛丑年)表演四
 ---

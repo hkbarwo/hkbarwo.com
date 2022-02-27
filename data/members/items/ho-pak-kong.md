@@ -16,4 +16,11 @@ en:
   alias: 何柏光
   description: ""
   thoughts: ""
+cn:
+  slug: ho-pak-kong
+  gender: m
+  position: 演
+  alias: 何柏光
+  role: 会友
+  title: 何柏江
 ---

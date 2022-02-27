@@ -16,4 +16,11 @@ en:
   alias: 謝艷芬
   description: ""
   thoughts: ""
+cn:
+  slug: tse-pui-shan
+  gender: f
+  position: 演
+  alias: 谢艳芬
+  role: 会友
+  title: 谢佩珊
 ---

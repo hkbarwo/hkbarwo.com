@@ -16,4 +16,11 @@ en:
   alias: 紫令秋
   description: ""
   thoughts: ""
+cn:
+  slug: wong-mong-shu
+  gender: f
+  position: 演
+  alias: 紫令秋
+  role: 会友
+  title: 王望舒
 ---

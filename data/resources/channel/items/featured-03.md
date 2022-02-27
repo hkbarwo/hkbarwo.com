@@ -10,4 +10,12 @@ zh:
 en:
   date: 2021-08-18T03:57:03.625Z
   category: featured-performances
+cn:
+  date: 2021-08-18T03:57:03.605Z
+  slug: featured-03
+  category: featured-performances
+  coverImage: /uploads/featured-03.jpg
+  title: 2020年华光诞《香花山大贺寿》演出片段〈摆花〉
+  content: 八位花旦文雪裘、王希颕、陈纪婷、周洛童、梁非同、司徒凯谊、李晴茵、陈禧瑜演仙女跳字舞，摆出「天下太平」字样。
+  youtubeVideoID: https://www.youtube.com/watch?v=Perh43NHW3s&list=PLI1E8yYXaEaefKn29LTgJau6aibynaLn5&index=2&ab_channel=%E5%85%AB%E5%92%8C%E9%A0%BB%E9%81%93
 ---

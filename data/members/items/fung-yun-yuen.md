@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: fung-yun-yuen
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 馮潤源
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Fung Yun Yuen
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: fung-yun-yuen
+  gender: m
+  position: 音
+  role: 会友
+  title: 冯润源
 ---

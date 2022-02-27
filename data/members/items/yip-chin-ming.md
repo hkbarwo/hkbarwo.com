@@ -16,4 +16,11 @@ en:
   alias: (原名：葉麗明，舊號：00670)
   description: ""
   thoughts: ""
+cn:
+  slug: yip-chin-ming
+  gender: f
+  position: 演
+  alias: (原名：叶丽明，旧号：00670)
+  role: 会友
+  title: 叶千铭
 ---

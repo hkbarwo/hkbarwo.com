@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 武
   slug: pong-yuen-kan
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 龐元根
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 武
   title: Pong Yuen Kan
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: pong-yuen-kan
+  gender: m
+  position: 武
+  role: 会友
+  title: 庞元根
 ---

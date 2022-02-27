@@ -16,4 +16,11 @@ en:
   alias: 梅雪詩
   description: ""
   thoughts: ""
+cn:
+  slug: fung-lai-man
+  gender: f
+  position: 演
+  alias: 梅雪诗
+  role: 会友
+  title: 冯丽雯
 ---

@@ -16,4 +16,11 @@ en:
   alias: 羅舜琴
   description: ""
   thoughts: ""
+cn:
+  slug: law-fung-har
+  gender: f
+  position: 演
+  alias: 罗舜琴
+  role: 会友
+  title: 罗凤霞
 ---

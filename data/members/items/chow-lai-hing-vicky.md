@@ -16,4 +16,11 @@ en:
   alias: 莊婉仙
   description: ""
   thoughts: ""
+cn:
+  slug: chow-lai-hing-vicky
+  gender: f
+  position: 演
+  alias: 庄婉仙
+  role: 会友
+  title: 周丽卿
 ---

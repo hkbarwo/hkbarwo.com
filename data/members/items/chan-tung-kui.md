@@ -16,4 +16,11 @@ en:
   alias: 陳順
   description: ""
   thoughts: ""
+cn:
+  slug: chan-tung-kui
+  gender: m
+  position: 音
+  alias: 陈顺
+  role: 会友
+  title: 陈东驹
 ---

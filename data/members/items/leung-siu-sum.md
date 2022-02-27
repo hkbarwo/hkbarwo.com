@@ -16,4 +16,11 @@ en:
   alias: 梁少芯
   description: ""
   thoughts: ""
+cn:
+  slug: leung-siu-sum
+  gender: f
+  position: 演
+  alias: 梁少芯
+  role: 会友
+  title: 梁少心
 ---

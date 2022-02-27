@@ -16,4 +16,11 @@ en:
   alias: 張思情
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-mei-chun
+  gender: f
+  position: 音
+  alias: 张思情
+  role: 会友
+  title: 张美珍
 ---

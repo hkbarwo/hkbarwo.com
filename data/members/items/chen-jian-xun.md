@@ -16,4 +16,11 @@ en:
   alias: 陳勛
   description: ""
   thoughts: ""
+cn:
+  slug: chen-jian-xun
+  gender: m
+  position: 音
+  alias: 陈勋
+  role: 会友
+  title: 陈建勋
 ---

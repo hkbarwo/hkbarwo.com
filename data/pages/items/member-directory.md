@@ -9,4 +9,8 @@ en:
   wip: false
   title: Members List
   description: ""
+cn:
+  slug: member-directory
+  url: /member/directory
+  title: 会员列表
 ---

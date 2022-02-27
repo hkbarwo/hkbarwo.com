@@ -7,4 +7,11 @@ zh:
   content: '![《粵劇曲藝月刊》新編粵劇劇本創作比賽報導](/uploads/粤劇曲藝月刊3-4月號_傳媒報導_新編粵劇劇本創作比賽.jpg
     "《粵劇曲藝月刊》新編粵劇劇本創作比賽報導")'
 en: {}
+cn:
+  date: 2021-04-23T01:45:51.871Z
+  slug: media-coverage-cantonese-opera-magazine-chinese-opera-script-writing-competition-2020
+  category: media
+  title: 【粤剧曲艺月刊】「新编粤剧创作比赛」圆满完成
+  content: '![《粤剧曲艺月刊》新编粤剧剧本创作比赛报导](/uploads/粤剧曲艺月刊3-4月号_传媒报导_新编粤剧剧本创作比赛.jpg
+    "《粤剧曲艺月刊》新编粤剧剧本创作比赛报导")'
 ---

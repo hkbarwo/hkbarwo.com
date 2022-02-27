@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: chum-chuen-wai
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 覃尊威
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Chum Chuen Wai
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: chum-chuen-wai
+  gender: m
+  position: 音
+  role: 会友
+  title: 覃尊威
 ---

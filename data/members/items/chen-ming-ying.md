@@ -16,4 +16,11 @@ en:
   alias: 陳銘英
   description: ""
   thoughts: ""
+cn:
+  slug: chen-ming-ying
+  gender: f
+  position: 演
+  alias: 陈铭英
+  role: 会友
+  title: 郑铭英
 ---

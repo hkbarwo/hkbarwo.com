@@ -16,4 +16,11 @@ en:
   alias: 花映彤
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-kin-foon
+  gender: f
+  position: 演
+  alias: 花映彤
+  title: 张见欢
+  role: 会友
 ---

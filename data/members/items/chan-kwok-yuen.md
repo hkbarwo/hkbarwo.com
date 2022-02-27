@@ -16,4 +16,11 @@ en:
   alias: 陳燕榮
   description: ""
   thoughts: ""
+cn:
+  slug: chan-kwok-yuen
+  gender: m
+  position: 戏服
+  alias: 陈燕荣
+  title: 陈国源
+  role: 会友
 ---

@@ -16,4 +16,11 @@ en:
   alias: 金麗玲
   description: ""
   thoughts: ""
+cn:
+  slug: fok-siu-ping
+  gender: f
+  position: 演
+  alias: 金丽玲
+  role: 会友
+  title: 霍小萍
 ---

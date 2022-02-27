@@ -16,4 +16,11 @@ en:
   alias: 芳雪瑩
   description: ""
   thoughts: ""
+cn:
+  slug: wong-mun-ha
+  gender: f
+  position: 演
+  alias: 芳雪莹
+  role: 会友
+  title: 黄敏霞
 ---

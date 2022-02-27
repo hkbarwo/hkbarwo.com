@@ -16,4 +16,11 @@ en:
   alias: 李明亨
   description: ""
   thoughts: ""
+cn:
+  slug: li-ming-hang
+  gender: m
+  position: 武
+  alias: 李明亨
+  role: 会友
+  title: 李明铿
 ---

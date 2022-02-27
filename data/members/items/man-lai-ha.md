@@ -16,4 +16,11 @@ en:
   alias: 文雪裘
   description: ""
   thoughts: ""
+cn:
+  slug: man-lai-ha
+  gender: f
+  position: 演
+  alias: 文雪裘
+  role: 会友
+  title: 文丽霞
 ---

@@ -5,4 +5,8 @@ zh:
   url: /about/associations
 en:
   title: Associations
+cn:
+  slug: associations
+  url: /about/associations
+  title: 属会、子机构
 ---

@@ -16,4 +16,11 @@ en:
   alias: 劉家富
   description: ""
   thoughts: ""
+cn:
+  slug: lau-yuk-fung
+  gender: m
+  position: 演
+  alias: 刘家富
+  role: 会友
+  title: 刘玉风
 ---

@@ -16,4 +16,11 @@ en:
   alias: 鳳影虹
   description: ""
   thoughts: ""
+cn:
+  slug: li-mei-ling
+  gender: f
+  position: 演
+  alias: 凤影虹
+  role: 会友
+  title: 李美玲
 ---

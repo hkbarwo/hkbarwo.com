@@ -16,4 +16,11 @@ en:
   alias: 嚴鳳飛
   description: ""
   thoughts: ""
+cn:
+  slug: yim-oi-hing
+  gender: f
+  position: 演
+  role: 会友
+  alias: 严凤飞
+  title: 严爱卿
 ---

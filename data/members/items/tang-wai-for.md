@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 畫
   slug: tang-wai-for
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 鄧偉科
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 畫
   title: Tang Wai For
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: tang-wai-for
+  gender: m
+  position: 画
+  role: 会友
+  title: 邓伟科
 ---

@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 畫
   slug: wong-cho-cheong
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 黃祖昌
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 畫
   title: Wong Cho Cheong
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: wong-cho-cheong
+  gender: m
+  position: 画
+  role: 会友
+  title: 黄祖昌
 ---

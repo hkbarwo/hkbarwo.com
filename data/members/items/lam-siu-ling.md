@@ -16,4 +16,11 @@ en:
   alias: 林姨姨
   description: ""
   thoughts: ""
+cn:
+  slug: lam-siu-ling
+  gender: f
+  position: 演
+  role: 会友
+  alias: 林姨姨
+  title: 林笑玲
 ---

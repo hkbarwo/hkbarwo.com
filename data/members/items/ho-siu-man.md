@@ -16,4 +16,11 @@ en:
   alias: 何詩敏
   description: ""
   thoughts: ""
+cn:
+  slug: ho-siu-man
+  gender: f
+  position: 演
+  alias: 何诗敏
+  role: 会友
+  title: 何小敏
 ---

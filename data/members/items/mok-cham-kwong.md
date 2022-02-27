@@ -16,4 +16,11 @@ en:
   alias: 莫醒麟
   description: ""
   thoughts: ""
+cn:
+  slug: mok-cham-kwong
+  gender: m
+  position: 演
+  alias: 莫醒麟
+  role: 会友
+  title: 莫湛光
 ---

@@ -16,4 +16,11 @@ en:
   alias: 高文謙
   description: ""
   thoughts: ""
+cn:
+  slug: ng-lai-kuen
+  gender: f
+  position: 演
+  alias: 高文谦
+  role: 会友
+  title: 伍丽娟
 ---

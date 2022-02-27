@@ -16,4 +16,11 @@ en:
   alias: 凌鳳
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-kam-lan
+  gender: f
+  position: 演
+  alias: 凌凤
+  role: 会友
+  title: 张锦兰
 ---

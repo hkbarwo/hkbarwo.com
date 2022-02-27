@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: ng-shun-yiu
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 吳信堯
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Ng Shun Yiu
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: ng-shun-yiu
+  gender: m
+  position: 音
+  role: 会友
+  title: 吴信尧
 ---

@@ -16,4 +16,11 @@ en:
   alias: 高軍翔
   description: ""
   thoughts: ""
+cn:
+  slug: yung-yoet-chuh
+  gender: f
+  position: 演
+  alias: 高军翔
+  title: 翁月珍
+  role: 会友
 ---

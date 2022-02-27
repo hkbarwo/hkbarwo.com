@@ -16,4 +16,11 @@ en:
   alias: 余茂
   description: ""
   thoughts: ""
+cn:
+  slug: yu-pak-hop
+  position: 音
+  gender: m
+  alias: 余茂
+  role: 会友
+  title: 余伯洽
 ---

@@ -6,4 +6,10 @@ zh:
   image: /uploads/131231170507.publish.1-low.png
   pdf: /uploads/131231170507.publish.1-low.pdf
 en: {}
+cn:
+  date: 2021-07-06T17:50:22.439Z
+  slug: barwo-50th-anniversary-special-issue
+  image: /uploads/131231170507.publish.1-low.png
+  pdf: /uploads/131231170507.publish.1-low.pdf
+  title: 香港八和会馆60周年特刊
 ---

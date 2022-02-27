@@ -19,4 +19,22 @@ zh:
   location: 逸東酒店
 en:
   date: 2020-07-11T09:42:40.375Z
+cn:
+  date: 2020-07-11T09:42:40.375Z
+  slug: the-39th-council-election-and-the-general-meeting-of-the-hong-kong-eight-harmony-hall-were-successfully-held
+  sessions: "1"
+  metadata:
+    - isShowInList: "true"
+      label: 活动日期
+      content: 2020年7月11日
+  type: activity
+  location: 逸东酒店
+  title: 香港八和会馆第三十九届理事会选举及会员大会顺利举行
+  content: >-
+    本会于2020年7月11日（星期六）假逸东酒店召开会员大会，随后进行第三十九届理事会选举，共有188名会员出席。
+
+
+
+
+    随即举行第三十九届理事会选举，新一届理事会29位成员已顺利选出，并在法律顾问廖成利律师监票下核实点票结果。第三十九届理事会理事名单如下（按姓氏笔划序）：王超群、王洁清、吴仟峰、吴立熙、李沛妍、杜韦秀明、汪明荃、阮兆辉、林克辉、林群翎、洪海、高润鸿、梁心怡、梁兆明、陈咏仪、陈荣贵、陈鸿进、黄志光、新剑郎、温玉瑜、刘惠鸣、蔡之崴、邓美玲、黎耀威、龙贯天、谢雪心、邝炳全、罗家英、谭兆威
 ---

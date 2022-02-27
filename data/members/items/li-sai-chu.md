@@ -16,4 +16,11 @@ en:
   alias: 李艷珠
   description: ""
   thoughts: ""
+cn:
+  slug: li-sai-chu
+  gender: f
+  position: 演
+  alias: 李艳珠
+  role: 会友
+  title: 李细珠
 ---

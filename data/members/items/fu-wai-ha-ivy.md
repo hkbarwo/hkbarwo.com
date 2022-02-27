@@ -16,4 +16,11 @@ en:
   alias: 傅麗霞
   description: ""
   thoughts: ""
+cn:
+  slug: fu-wai-ha-ivy
+  gender: f
+  position: 演
+  alias: 傅丽霞
+  role: 会友
+  title: 傅惠霞
 ---

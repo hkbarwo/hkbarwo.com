@@ -16,4 +16,11 @@ en:
   alias: 張成方
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-sing-fong
+  gender: m
+  position: 演
+  alias: 张成方
+  role: 会友
+  title: 张成芳
 ---

@@ -16,4 +16,11 @@ en:
   alias: 李元甫
   description: ""
   thoughts: ""
+cn:
+  slug: li-kuk-wah
+  gender: f
+  position: 演
+  alias: 李元甫
+  role: 会友
+  title: 李菊华
 ---

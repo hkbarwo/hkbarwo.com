@@ -16,4 +16,11 @@ en:
   alias: 陳駿輝
   description: ""
   thoughts: ""
+cn:
+  slug: chan-siu-pui
+  gender: f
+  position: 音
+  role: 会友
+  alias: 陈骏辉
+  title: 陈小佩
 ---

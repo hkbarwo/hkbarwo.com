@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 事
   slug: leung-to
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 梁陶
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 事
   title: Leung To
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: leung-to
+  gender: m
+  position: 事
+  role: 会友
+  title: 梁陶
 ---

@@ -16,4 +16,11 @@ en:
   alias: 元菊
   description: ""
   thoughts: ""
+cn:
+  slug: chu-kam-lan
+  gender: f
+  position: 武
+  alias: 元菊
+  role: 会友
+  title: 朱金兰
 ---

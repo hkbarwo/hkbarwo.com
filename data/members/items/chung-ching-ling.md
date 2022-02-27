@@ -1,9 +1,9 @@
 ---
 zh:
   gender: f
-  position: 
+  position: null
   slug: chung-ching-ling
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 鍾清玲
@@ -11,9 +11,14 @@ zh:
   description: ""
 en:
   role: 會友
-  position: 
+  position: null
   title: Chung Ching Ling
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: chung-ching-ling
+  gender: f
+  role: 会友
+  title: 钟清玲
 ---

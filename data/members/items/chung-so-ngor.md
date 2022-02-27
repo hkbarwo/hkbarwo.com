@@ -16,4 +16,11 @@ en:
   alias: 金彩珠
   description: ""
   thoughts: ""
+cn:
+  slug: chung-so-ngor
+  gender: f
+  position: 音
+  alias: 金彩珠
+  role: 会友
+  title: 钟素娥
 ---

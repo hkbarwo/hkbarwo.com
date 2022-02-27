@@ -16,4 +16,11 @@ en:
   alias: 許藝華
   description: ""
   thoughts: ""
+cn:
+  slug: hui-wah-tai
+  gender: m
+  position: 音
+  alias: 许艺华
+  role: 会友
+  title: 许华弟
 ---

@@ -16,4 +16,11 @@ en:
   alias: 林鳳儀
   description: ""
   thoughts: ""
+cn:
+  slug: lam-kit-yee
+  gender: f
+  position: 演
+  alias: 林凤仪
+  role: 会友
+  title: 林洁仪
 ---

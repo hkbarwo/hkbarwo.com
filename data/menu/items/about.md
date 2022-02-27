@@ -29,4 +29,20 @@ en:
     - organization
     - associations
     - interviews
+cn:
+  slug: about
+  title: 关于我们
+  pages:
+    - introduction
+    - chronicle
+    - organization
+    - associations
+    - interviews
+  page: introduction
+  subPages:
+    - introduction
+    - chronicle
+    - organization
+    - associations
+    - interviews
 ---

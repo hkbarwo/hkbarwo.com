@@ -14,4 +14,12 @@ en:
     - committee
     - presidents
     - advisors
+cn:
+  slug: organization
+  url: /about/organization
+  title: 组织架构
+  subPages:
+    - committee
+    - presidents
+    - advisors
 ---

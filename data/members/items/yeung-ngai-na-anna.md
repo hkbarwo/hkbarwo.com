@@ -16,4 +16,11 @@ en:
   alias: 楊藝聲
   description: ""
   thoughts: ""
+cn:
+  slug: yeung-ngai-na-anna
+  gender: f
+  position: 演
+  alias: 杨艺声
+  role: 会友
+  title: 杨艺娜
 ---

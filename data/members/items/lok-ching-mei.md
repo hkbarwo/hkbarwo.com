@@ -16,4 +16,11 @@ en:
   alias: 顧青峰
   description: ""
   thoughts: ""
+cn:
+  slug: lok-ching-mei
+  gender: f
+  position: 演
+  alias: 顾青峰
+  role: 会友
+  title: 骆青媚
 ---

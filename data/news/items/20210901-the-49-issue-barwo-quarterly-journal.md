@@ -18,4 +18,21 @@ zh:
   pdfFile: /uploads/49_compressed.pdf
 en:
   category: report
+cn:
+  date: 2005-06-29T16:00:00.000Z
+  category: report
+  slug: the-49-issue-barwo-quarterly-journal
+  pdfFile: /uploads/49_compressed.pdf
+  title: 第49期《八和汇报》
+  content: >-
+    ![仝仁大会勿放弃权利与义务](/uploads/49_compressed_page-0001.jpg "仝仁大会勿放弃权利与义务")
+
+
+    ![香港八和会馆第三十一届理事会第二十至二十二次会议议程及办公室报告（2005年3月至5月）](/uploads/49_compressed_page-0002.jpg "香港八和会馆第三十一届理事会第二十至二十二次会议议程及办公室报告（2005年3月至5月）")
+
+
+    ![演员会筹募发展基金 两晚节目筹得十三万 | 粤剧培训证书课程 王超群敖龙任演出嘉宾](/uploads/49_compressed_page-0003.jpg "演员会筹募发展基金 两晚节目筹得十三万 | 粤剧培训证书课程 王超群敖龙任演出嘉宾")
+
+
+    ![陈剑声主持春祭 | 让我们怀念的粤剧工作者](/uploads/49_compressed_page-0004.jpg "陈剑声主持春祭 | 让我们怀念的粤剧工作者")
 ---

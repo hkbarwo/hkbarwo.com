@@ -7,4 +7,8 @@ zh:
 en:
   title: Past Events
   wip: false
+cn:
+  slug: events-past
+  url: /events/past
+  title: 过往活动
 ---

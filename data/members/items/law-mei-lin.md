@@ -16,4 +16,11 @@ en:
   alias: 蓉海璇
   description: ""
   thoughts: ""
+cn:
+  slug: law-mei-lin
+  gender: f
+  position: 演
+  alias: 蓉海璇
+  role: 会友
+  title: 罗美莲
 ---

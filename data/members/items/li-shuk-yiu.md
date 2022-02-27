@@ -16,4 +16,11 @@ en:
   alias: 俏冰兒
   description: ""
   thoughts: ""
+cn:
+  slug: li-shuk-yiu
+  gender: f
+  position: 演
+  alias: 俏冰儿
+  role: 会友
+  title: 李淑瑶
 ---

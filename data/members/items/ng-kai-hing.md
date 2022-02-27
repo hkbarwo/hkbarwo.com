@@ -1,9 +1,9 @@
 ---
 zh:
   gender: f
-  position: 
+  position: null
   slug: ng-kai-hing
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 伍麗卿
@@ -11,9 +11,14 @@ zh:
   description: ""
 en:
   role: 會友
-  position: 
+  position: null
   title: Ng Kai Hing
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: ng-kai-hing
+  gender: f
+  role: 会友
+  title: 伍丽卿
 ---

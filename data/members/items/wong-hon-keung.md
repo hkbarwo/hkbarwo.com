@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: wong-hon-keung
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 王漢強
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Wong Hon Keung
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: wong-hon-keung
+  gender: m
+  position: 音
+  role: 会友
+  title: 王汉强
 ---

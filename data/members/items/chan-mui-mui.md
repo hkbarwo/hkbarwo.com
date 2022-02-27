@@ -16,4 +16,11 @@ en:
   alias: 陳玉琼
   description: ""
   thoughts: ""
+cn:
+  slug: chan-mui-mui
+  gender: f
+  position: 演
+  role: 会友
+  alias: 陈玉琼
+  title: 陈妹妹
 ---

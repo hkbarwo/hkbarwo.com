@@ -16,4 +16,11 @@ en:
   alias: 大康
   description: ""
   thoughts: ""
+cn:
+  slug: wang-chun-kang
+  gender: m
+  position: 武
+  alias: 大康
+  role: 会友
+  title: 王均康
 ---

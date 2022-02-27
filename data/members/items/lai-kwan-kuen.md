@@ -16,4 +16,11 @@ en:
   alias: 藝青雲
   description: ""
   thoughts: ""
+cn:
+  slug: lai-kwan-kuen
+  gender: f
+  position: 演
+  alias: 艺青云
+  role: 会友
+  title: 黎群娟
 ---

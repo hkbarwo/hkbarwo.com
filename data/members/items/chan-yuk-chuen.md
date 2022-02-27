@@ -16,4 +16,11 @@ en:
   alias: 跛全
   description: ""
   thoughts: ""
+cn:
+  slug: chan-yuk-chuen
+  gender: m
+  position: 画
+  alias: 跛全
+  role: 会友
+  title: 陈玉全
 ---

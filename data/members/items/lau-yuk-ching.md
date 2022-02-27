@@ -16,4 +16,11 @@ en:
   alias: 劉艷盈
   description: ""
   thoughts: ""
+cn:
+  slug: lau-yuk-ching
+  gender: f
+  position: 演
+  alias: 刘艳盈
+  role: 会友
+  title: 刘玉清
 ---

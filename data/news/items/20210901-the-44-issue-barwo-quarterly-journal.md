@@ -25,4 +25,28 @@ zh:
   pdfFile: /uploads/44.pdf
 en:
   category: report
+cn:
+  date: 2004-03-30T16:00:00.000Z
+  category: report
+  slug: the-44-issue-barwo-quarterly-journal
+  pdfFile: /uploads/44.pdf
+  title: 第44期《八和汇报》
+  content: >-
+    ![班主们请自重•勿用非法人士 | 新春团拜喜气洋洋 主席力争建粤剧馆](/uploads/44_compressed_page-0001.jpg
+    "班主们请自重•勿用非法人士 | 新春团拜喜气洋洋 主席力争建粤剧馆")
+
+
+    ![拜访广东八和会馆](/uploads/44_compressed_page-0002.jpg "拜访广东八和会馆")
+
+
+    ![香港八和会馆第三十一届理事会特别会议、第六至八次会议议程及办公室报告（2003年12月至2004年1月）](/uploads/44_compressed_page-0003.jpg "香港八和会馆第三十一届理事会特别会议、第六至八次会议议程及办公室报告（2003年12月至2004年1月）")
+
+
+    ![香港八和会馆办公室报告（2004年2月） | 梁汉威越界领奖 | 中大粤剧研究计划举办香港艺展局资助 戏曲表演研讨会：回顾•现况与前胆 | 祥嫂派六位数字利是 ](/uploads/44_compressed_page-0004.jpg "香港八和会馆办公室报告（2004年2月） | 梁汉威越界领奖 | 中大粤剧研究计划举办香港艺展局资助 戏曲表演研讨会：回顾•现况与前胆 | 祥嫂派六位数字利是 ")
+
+
+    ![粤剧日演出节目丰富](/uploads/44_compressed_page-0005.jpg "粤剧日演出节目丰富")
+
+
+    ![吴君丽珍藏捐文物馆](/uploads/44_compressed_page-0006.jpg "吴君丽珍藏捐文物馆")
 ---

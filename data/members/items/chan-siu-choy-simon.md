@@ -16,4 +16,11 @@ en:
   alias: 陳俊材
   description: ""
   thoughts: ""
+cn:
+  slug: chan-siu-choy-simon
+  gender: m
+  position: 音
+  alias: 陈俊材
+  role: 会友
+  title: 陈兆材
 ---

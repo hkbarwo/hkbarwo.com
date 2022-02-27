@@ -20,4 +20,23 @@ zh:
   pdfFile: /uploads/58_compressed.pdf
 en:
   category: report
+cn:
+  date: 2007-09-29T16:00:00.000Z
+  category: report
+  slug: the-58-issue-barwo-quarterly-journal
+  pdfFile: /uploads/58_compressed.pdf
+  title: 第58期《八和汇报》
+  content: >-
+    ![八和会馆主席汪明荃 以致力保存本士文化为目的 | 拜会民政事务局局长
+    争取永久演出场地](/uploads/58_compressed_page-0001.jpg "八和会馆主席汪明荃 以致力保存本士文化为目的 |
+    拜会民政事务局局长 争取永久演出场地")
+
+
+    ![香港八和会馆第三十二届理事会第二十三次会议议程 | 会员大会选举第三十三届理事会会议议程、第三十三届理事会互选会会议议程、及第三十三届理事会第一次至第二次会议议程及办公室报告（2007年6月至8月）](/uploads/58_compressed_page-0002.jpg "香港八和会馆第三十二届理事会第二十三次会议议程 | 会员大会选举第三十三届理事会会议议程、第三十三届理事会互选会会议议程、及第三十三届理事会第一次至第二次会议议程及办公室报告（2007年6月至8月）")
+
+
+    ![第三十三届理事简介](/uploads/58_compressed_page-0003.jpg "第三十三届理事简介")
+
+
+    ![理事会选举逾四成会员投票 汪明荃得四一六票 | 叶绍德获演艺院士荣誉](/uploads/58_compressed_page-0004.jpg "理事会选举逾四成会员投票 汪明荃得四一六票 | 叶绍德获演艺院士荣誉")
 ---

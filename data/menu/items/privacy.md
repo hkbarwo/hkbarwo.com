@@ -5,4 +5,8 @@ zh:
   page: privacy
 en:
   title: Privacy
+cn:
+  slug: privacy
+  page: privacy
+  title: 私隐政策
 ---

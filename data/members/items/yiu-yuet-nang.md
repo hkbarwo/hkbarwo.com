@@ -16,4 +16,11 @@ en:
   alias: 姚綺雲
   description: ""
   thoughts: ""
+cn:
+  slug: yiu-yuet-nang
+  gender: f
+  position: 演
+  alias: 姚绮云
+  role: 会友
+  title: 姚月娘
 ---

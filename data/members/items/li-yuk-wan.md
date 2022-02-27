@@ -16,4 +16,11 @@ en:
   alias: 李雁飛
   description: ""
   thoughts: ""
+cn:
+  slug: li-yuk-wan
+  gender: f
+  position: 演
+  alias: 李雁飞
+  role: 会友
+  title: 李玉云
 ---

@@ -16,4 +16,11 @@ en:
   alias: 賽鳳仙
   description: ""
   thoughts: ""
+cn:
+  slug: choi-cho-fung-fanny
+  gender: f
+  position: 演
+  alias: 赛凤仙
+  role: 会友
+  title: 蔡灶凤
 ---

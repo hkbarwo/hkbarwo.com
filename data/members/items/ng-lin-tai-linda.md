@@ -16,4 +16,11 @@ en:
   alias: 尹嘉星
   description: ""
   thoughts: ""
+cn:
+  slug: ng-lin-tai-linda
+  gender: f
+  position: 演
+  alias: 尹嘉星
+  role: 会友
+  title: 吴莲娣
 ---

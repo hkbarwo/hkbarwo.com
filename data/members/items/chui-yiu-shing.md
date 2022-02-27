@@ -16,4 +16,11 @@ en:
   alias: 徐三牛
   description: ""
   thoughts: ""
+cn:
+  slug: chui-yiu-shing
+  gender: m
+  position: 音
+  alias: 徐三牛
+  role: 会友
+  title: 徐耀成
 ---

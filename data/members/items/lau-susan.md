@@ -16,4 +16,11 @@ en:
   alias: 芙小澕
   description: ""
   thoughts: ""
+cn:
+  slug: lau-susan
+  gender: f
+  position: 演
+  alias: 芙小澕
+  role: 会友
+  title: 符小萍
 ---

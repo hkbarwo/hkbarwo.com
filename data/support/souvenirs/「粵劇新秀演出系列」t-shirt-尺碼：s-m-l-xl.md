@@ -1,5 +1,6 @@
 ---
-cn: {}
+cn:
+  title: 「粤剧新秀演出系列」T-shirt (尺碼：S/M/L/XL)
 zh:
   banner: ""
   images: ""

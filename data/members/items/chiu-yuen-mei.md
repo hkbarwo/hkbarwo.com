@@ -16,4 +16,11 @@ en:
   alias: 鑾佳聲
   description: ""
   thoughts: ""
+cn:
+  slug: chiu-yuen-mei
+  gender: f
+  position: 演
+  alias: 銮佳声
+  role: 会友
+  title: 赵婉媚
 ---

@@ -4,4 +4,7 @@ zh:
   slug: historic-footages
 en:
   title: Historic Footages
+cn:
+  slug: historic-footages
+  title: 历史珍贵片段
 ---

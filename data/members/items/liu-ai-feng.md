@@ -16,4 +16,11 @@ en:
   alias: 小鳳
   description: ""
   thoughts: ""
+cn:
+  slug: liu-ai-feng
+  gender: f
+  position: 音
+  alias: 小凤
+  role: 会友
+  title: 刘爱凤
 ---

@@ -16,4 +16,11 @@ en:
   alias: 刁喜才
   description: ""
   thoughts: ""
+cn:
+  slug: du-hey-choy
+  gender: m
+  position: 音
+  alias: 刁喜才
+  role: 会友
+  title: 刁喜财
 ---

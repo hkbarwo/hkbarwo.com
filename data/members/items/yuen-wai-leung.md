@@ -16,4 +16,11 @@ en:
   alias: 小湘雲
   description: ""
   thoughts: ""
+cn:
+  slug: yuen-wai-leung
+  gender: f
+  position: 演
+  role: 会友
+  alias: 小湘云
+  title: 袁罗伟娘
 ---

@@ -16,4 +16,11 @@ en:
   alias: 何華
   description: ""
   thoughts: ""
+cn:
+  slug: ho-yee-wah-eva
+  gender: f
+  position: 演
+  alias: 何华
+  role: 会友
+  title: 何绮华
 ---

@@ -16,4 +16,11 @@ en:
   alias: 吳雪儀
   description: ""
   thoughts: ""
+cn:
+  slug: ng-choi-tai
+  gender: f
+  position: 演
+  alias: 吴雪仪
+  role: 会友
+  title: 吴彩娣
 ---

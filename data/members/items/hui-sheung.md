@@ -16,4 +16,11 @@ en:
   alias: 許寶玉
   description: ""
   thoughts: ""
+cn:
+  slug: hui-sheung
+  gender: f
+  alias: 许宝玉
+  position: 演
+  role: 会友
+  title: 许湘
 ---

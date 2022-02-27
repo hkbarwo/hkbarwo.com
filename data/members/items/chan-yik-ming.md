@@ -16,4 +16,11 @@ en:
   alias: 陳韻徽
   description: ""
   thoughts: ""
+cn:
+  slug: chan-yik-ming
+  gender: f
+  position: 演
+  alias: 陈韵徽
+  role: 会友
+  title: 陈奕明
 ---

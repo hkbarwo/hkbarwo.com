@@ -26,4 +26,19 @@ en:
   buttonTitle: 探索我們的故事
   buttonLink:
     page: introduction
+cn:
+  slug: about
+  bgImage: /images/uploads/home/swiper/slides/landing-img-1-2x.jpg
+  buttonTitle: 了解我们更多
+  gradient:
+    color1: "#f11462"
+    color2: "#7785fd"
+  buttonLink:
+    page: introduction
+  subtitle: 保育．传承
+  bgImageFillStyle: contain
+  title: 八和会馆
+  shortTitle: 关于我们
+  description: 香港八和会馆成立于一九五三年，并于二零零九年注册为慈善机构，并发表了「粤剧承传计划」，包括抢救传统技艺、专业培训、拓展巿场/
+    观众、在传统上发展粤剧。本会旨在确立和保护粤剧在香港的生存机制，加固其承传体系及扩展其传播层面，使粤剧能够活态地承传下去。
 ---

@@ -16,4 +16,11 @@ en:
   alias: 趙杏嫦
   description: ""
   thoughts: ""
+cn:
+  slug: chiu-mei-chun
+  gender: f
+  position: 演
+  alias: 赵杏嫦
+  role: 会友
+  title: 赵美真
 ---

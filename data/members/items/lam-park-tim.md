@@ -16,4 +16,11 @@ en:
   alias: 老夫子
   description: ""
   thoughts: ""
+cn:
+  slug: lam-park-tim
+  gender: m
+  position: 音
+  alias: 老夫子
+  role: 会友
+  title: 林栢添
 ---

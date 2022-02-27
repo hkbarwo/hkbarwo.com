@@ -16,4 +16,11 @@ en:
   alias: 郭秀芬
   description: ""
   thoughts: ""
+cn:
+  slug: kok-siew-khim
+  gender: f
+  position: 演
+  role: 会友
+  alias: 郭秀芬
+  title: 郭秀琴
 ---

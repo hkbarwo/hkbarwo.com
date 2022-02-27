@@ -16,4 +16,11 @@ en:
   alias: 陳雪艷
   description: ""
   thoughts: ""
+cn:
+  slug: ng-chan-yee-bun
+  gender: f
+  position: 演
+  alias: 陈雪艳
+  role: 会友
+  title: 吴陈仪斌
 ---

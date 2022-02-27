@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: hon-kwan
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 韓坤
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Hon Kwan
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: hon-kwan
+  gender: m
+  position: 音
+  role: 会友
+  title: 韩坤
 ---

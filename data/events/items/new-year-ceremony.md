@@ -13,4 +13,16 @@ zh:
   location: 會館
 en:
   date: 2020-02-11T10:03:14.250Z
+cn:
+  date: 2020-02-11T10:03:14.250Z
+  slug: new-year-ceremony
+  sessions: "1"
+  metadata:
+    - isShowInList: "true"
+      label: 活动日期
+      content: 2020年2月11日(农历年三十)
+  title: 新春祭礼
+  type: activity
+  location: 会馆
+  content: 二零二一年二月十一日（农历年三十晚）子时，第三十九届理事会代表成员和会馆职员出席新春祭礼。
 ---

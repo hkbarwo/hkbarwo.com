@@ -16,4 +16,11 @@ en:
   alias: 小徐良
   description: ""
   thoughts: ""
+cn:
+  slug: lau-wai-lam
+  gender: m
+  position: 演
+  role: 会友
+  title: 刘伟林
+  alias: 小徐良
 ---

@@ -16,4 +16,11 @@ en:
   alias: 黃志榮
   description: ""
   thoughts: ""
+cn:
+  slug: wong-chor-wing
+  gender: m
+  position: 演
+  alias: 黄志荣
+  role: 会友
+  title: 黄佐荣
 ---

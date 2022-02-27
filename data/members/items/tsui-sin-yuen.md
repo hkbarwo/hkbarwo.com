@@ -16,4 +16,11 @@ en:
   alias: 御東昇
   description: ""
   thoughts: ""
+cn:
+  slug: tsui-sin-yuen
+  gender: f
+  position: 演
+  alias: 御东升
+  role: 会友
+  title: 徐倩婉
 ---

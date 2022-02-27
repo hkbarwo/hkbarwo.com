@@ -16,4 +16,11 @@ en:
   alias: 楚湘雲
   description: ""
   thoughts: ""
+cn:
+  slug: yau-pik-kam
+  gender: f
+  position: 演
+  alias: 楚湘云
+  role: 会友
+  title: 邱碧琴
 ---

@@ -16,4 +16,11 @@ en:
   alias: 高丹凌
   description: ""
   thoughts: ""
+cn:
+  slug: ko-ying-ping
+  gender: f
+  position: 演
+  alias: 高丹凌
+  role: 会友
+  title: 高认萍
 ---

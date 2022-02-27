@@ -16,4 +16,11 @@ en:
   alias: 鄺邦
   description: ""
   thoughts: ""
+cn:
+  slug: kong-kow-kwong
+  gender: m
+  position: 画
+  alias: 邝邦
+  role: 会友
+  title: 邝球光
 ---

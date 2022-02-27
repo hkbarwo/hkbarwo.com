@@ -16,4 +16,11 @@ en:
   alias: 黎家寶
   description: ""
   thoughts: ""
+cn:
+  slug: lai-bing-kuen
+  gender: m
+  position: 演
+  role: 会友
+  alias: 黎家宝
+  title: 黎炳权
 ---

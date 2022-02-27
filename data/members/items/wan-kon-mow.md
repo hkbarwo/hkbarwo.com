@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 衣
   slug: wan-kon-mow
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 溫幹謀
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 衣
   title: Wan Kon Mow
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: wan-kon-mow
+  gender: m
+  position: 衣
+  role: 会友
+  title: 温干谋
 ---

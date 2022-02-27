@@ -16,4 +16,11 @@ en:
   alias: 芳曉虹
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-siu-fong-elsa
+  gender: f
+  position: 演
+  alias: 芳晓虹
+  role: 会友
+  title: 张少芳
 ---

@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 畫
   slug: fan-wai-chun
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 范偉忠
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 畫
   title: Fan Wai Chun
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: fan-wai-chun
+  gender: m
+  position: 画
+  role: 会友
+  title: 范伟忠
 ---

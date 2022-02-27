@@ -118,3 +118,51 @@ en:
       links:
         - title: 慧妍雅集
           url: http://www.waiyin.org.hk/
+cn:
+  list:
+    - title: 政府网页
+      links:
+        - title: 民政事务局
+          url: http://www.hab.gov.hk/
+        - title: 民政事务总署
+          url: http://www.had.gov.hk/
+        - title: 康乐及文化事务署
+          url: http://www.lcsd.gov.hk/
+        - title: 香港艺术发展局
+          url: http://www.hkadc.org.hk/
+        - url: http://www.coac-codf.org.hk/
+          title: 粤剧发展咨询委员会及粤剧发展基金网页
+        - title: 粤港澳文化资讯网
+          url: http://www.prdculture.org/
+    - title: 红伶网页
+      links:
+        - title: Lam Kar Sing - 家声天地
+          url: http://www.lamkarsing.hk/
+        - title: Lau Wai Ming - 刘惠呜网站
+          url: http://www.lauwaiming.hk/
+        - url: http://www.lizawang.com/
+          title: Liza Wang - 汪明荃官方网站
+    - title: 剧团资讯网页
+      links:
+        - title: 灵宵・戏曲总会
+          url: http://www.hkxiqu.com/
+        - title: 桃花源粤剧协会
+          url: http://www.utopia.org.hk/
+        - title: 天马音乐艺术团
+          url: http://www.tinma.hk/
+    - title: 粤剧资讯网站
+      links:
+        - title: 香港中文大学戏曲资料中心
+          url: http://corp.mus.cuhk.edu.hk/corp/
+        - title: 戏曲品味
+          url: http://www.operapreview.com/
+        - url: http://issuu.com/yuejuedu/docs
+          title: 《粤剧编剧基础教程》已全书上网 欢迎连结阅读
+        - url: http://www.cantoneseopera.hk/index.php
+          title: 粤剧营运创新会-The Cantonese Opera Advancement Association
+        - title: 戏曲品味官方facebook专页
+          url: https://www.facebook.com/HongKongOperaPreview
+    - links:
+        - title: 慧妍雅集
+          url: http://www.waiyin.org.hk/
+      title: 粤剧资讯网站

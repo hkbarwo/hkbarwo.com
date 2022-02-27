@@ -16,4 +16,11 @@ en:
   alias: 鈿燕容
   description: ""
   thoughts: ""
+cn:
+  slug: tin-yin-yung
+  gender: f
+  position: 音
+  alias: 钿燕容
+  role: 会友
+  title: 田燕容
 ---

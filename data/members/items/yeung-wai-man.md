@@ -16,4 +16,11 @@ en:
   alias: 文俊聲
   description: ""
   thoughts: ""
+cn:
+  slug: yeung-wai-man
+  gender: m
+  position: 演
+  role: 会友
+  alias: 文俊声
+  title: 杨伟文
 ---

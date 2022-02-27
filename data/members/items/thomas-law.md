@@ -16,4 +16,11 @@ en:
   alias: 龍玉聲
   description: ""
   thoughts: ""
+cn:
+  slug: thomas-law
+  gender: m
+  position: 演
+  alias: 龙玉声
+  role: 会友
+  title: 罗德名
 ---

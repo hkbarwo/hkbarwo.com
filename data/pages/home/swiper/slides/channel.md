@@ -23,4 +23,20 @@ en:
   buttonTitle: 探索我們的頻道
   buttonLink:
     page: channel
+cn:
+  slug: channel
+  bgImage: /images/uploads/home/swiper/slides/landing-img-2-2x.jpg
+  buttonLink:
+    page: channel
+  buttonTitle: 探索我们的频道
+  gradient:
+    color1: "#24b7c9"
+    color2: "#ebd4a3"
+  bgImageFillStyle: cover
+  title: 八和频道
+  subtitle: 导赏‧回顾
+  shortTitle: 推广
+  description: 为了向更多世界不同地区的观众，推广粤剧艺术和文化，八和会馆在香港特区政府民政事务局的支持下，在2020年制作了《八和频道：粤剧网上学堂》，共40集粤剧导赏教材。通用无远弗届的互联网，不同地区的观众可随时免费选看40集深入浅出的粤剧导赏节目。在监制汪明荃的带领下，由制作小组七位成员
+    (罗家英、龙贯天、新剑郎、王超群、陈鸿进、温玉瑜、黎耀威)
+    负责构思、规划整体的节目内容，再由多位艺术总监分别负责每集节目的选材、选角和示范内容。40集节目内容多样化，每集专题介绍唱、做、念、打、化妆及穿戴等不同范畴的内容。《八和频道：粤剧网上学堂》诚为粤剧入门的最佳指南，是有兴趣多认识和了解粤剧人士的不二之选。
 ---

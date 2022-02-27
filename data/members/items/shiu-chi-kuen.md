@@ -16,4 +16,11 @@ en:
   alias: 蕭萬強
   description: ""
   thoughts: ""
+cn:
+  slug: shiu-chi-kuen
+  gender: m
+  position: 音
+  alias: 萧万强
+  role: 会友
+  title: 萧梓权
 ---

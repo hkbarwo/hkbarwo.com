@@ -5,4 +5,8 @@ zh:
   url: /news
 en:
   title: 最新消息
+cn:
+  slug: news
+  url: /news
+  title: 最新消息
 ---

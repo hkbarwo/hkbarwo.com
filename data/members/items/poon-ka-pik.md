@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 演
   slug: poon-ka-pik
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 潘家璧
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Poon Ka Pik
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: poon-ka-pik
+  gender: f
+  position: 演
+  role: 会友
+  title: 潘家璧
 ---

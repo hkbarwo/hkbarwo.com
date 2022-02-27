@@ -16,4 +16,11 @@ en:
   alias: 吳仟峰
   description: ""
   thoughts: ""
+cn:
+  slug: ng-chin-wang
+  gender: m
+  position: 演
+  alias: 吴仟峰
+  role: 副主席
+  title: 吴展泓
 ---

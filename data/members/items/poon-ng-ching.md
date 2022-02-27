@@ -16,4 +16,11 @@ en:
   alias: 冷紅梅
   description: ""
   thoughts: ""
+cn:
+  slug: poon-ng-ching
+  gender: f
+  position: 演
+  alias: 冷红梅
+  role: 会友
+  title: 潘悟晴
 ---

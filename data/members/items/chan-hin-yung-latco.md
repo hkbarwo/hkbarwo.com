@@ -16,4 +16,11 @@ en:
   alias: 勇
   description: ""
   thoughts: ""
+cn:
+  slug: chan-hin-yung-latco
+  gender: m
+  position: 画
+  alias: 勇
+  role: 会友
+  title: 陈显戎
 ---

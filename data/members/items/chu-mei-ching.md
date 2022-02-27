@@ -16,4 +16,11 @@ en:
   alias: 朱兆平
   description: ""
   thoughts: ""
+cn:
+  slug: chu-mei-ching
+  gender: f
+  position: 演
+  alias: 朱兆平
+  role: 会友
+  title: 朱美贞
 ---

@@ -16,4 +16,11 @@ en:
   alias: 林汶聲
   description: ""
   thoughts: ""
+cn:
+  slug: lam-lai-bing
+  gender: f
+  position: 演
+  alias: 林汶声
+  role: 会友
+  title: 林丽冰
 ---

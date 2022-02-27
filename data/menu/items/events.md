@@ -20,4 +20,15 @@ en:
     - events-past
     - performances-celebrations
     - performances-others
+cn:
+  slug: events
+  title: 演出及活动
+  subPages:
+    - performances-upcoming
+    - performances-past
+    - events-latest
+    - events-past
+    - performances-celebrations
+    - performances-others
+  page: performances-upcoming
 ---

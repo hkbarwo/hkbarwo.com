@@ -16,4 +16,11 @@ en:
   alias: 周劍龍
   description: ""
   thoughts: ""
+cn:
+  slug: chow-hon-chung
+  gender: m
+  position: 演
+  role: 会友
+  alias: 周剑龙
+  title: 周汉钟
 ---

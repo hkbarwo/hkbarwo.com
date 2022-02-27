@@ -29,4 +29,27 @@ zh:
   sessions: 25
 en:
   date: 2021-05-22T03:36:26.379Z
+cn:
+  coverImage: /uploads/香江號-_-錦昇輝劇團.jpeg
+  slug: spirit-of-hong-kong-2021
+  date: 2021-05-22T03:36:26.379Z
+  metadata:
+    - isShowInList: "true"
+      label: 演出日期
+      content: 2021年5月22日至6月13日
+    - label: 时间
+      content: |-
+        日场：下午2时30分；
+        夜场：晚上7时30分
+    - label: 主办单位
+      content: "\r\n青年同行基金"
+    - label: 制作单位
+      content: " 锦升辉粤剧团、辉辉舞台有限公司"
+    - label: 演员名单
+      content: 龙贯天、卫骏辉、陈鸿进、廖国森、李沛姸、裴骏轩、陈纪婷、梁非同、陈禧瑜、一点鸿、杜咏心、龙玉声、袁善婷、劳云龙、李廷𩆨、陈玬橦、韦俊郎
+  title: 香江号
+  type: other
+  sessions: "25"
+  location: 西九龙文化区戏曲中心大剧院
+  tel: 节目查询及WhatsApp电话：5282 2322（锦升辉粤剧团）
 ---

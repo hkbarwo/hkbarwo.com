@@ -16,4 +16,11 @@ en:
   alias: 白雪紅
   description: ""
   thoughts: ""
+cn:
+  slug: chen-shi-hong
+  gender: f
+  position: 演
+  alias: 白雪红
+  role: 会友
+  title: 陈石红
 ---

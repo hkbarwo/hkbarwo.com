@@ -44,3 +44,21 @@ en:
         電郵：enquiry@hkbarwo.com
       icon: ""
       iconDark: ""
+cn:
+  methods:
+    - icon: /uploads/images/support/offering/bank.svg
+      title: 银行转帐
+      content: |-
+        银行名称：恒生银行
+        帐户号码*：284-015831-001
+        [*请注明帐户名称：「香港八和会馆」或「THE CHINESE ARTISTS ASSN OF HK」]
+    - icon: /uploads/images/support/offering/mail.svg
+      title: 邮寄支票
+      content: |-
+        收款人：「香港八和会馆」或「THE CHINESE ARTISTS ASSN OF HK
+        地址：香港油麻地弥敦道493号展望大厦4字楼A室
+    - content: |-
+        所有捐款可凭正式收据申请税务减免，有关捐助事宜及资料，请联络阮小姐。
+        电话：2384-2929 
+        电邮：enquiry@hkbarwo.com
+  title: 捐款办法

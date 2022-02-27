@@ -16,4 +16,11 @@ en:
   alias: 何洪廣
   description: ""
   thoughts: ""
+cn:
+  slug: ho-hung-kong
+  gender: m
+  position: 音
+  alias: 何洪广
+  role: 会友
+  title: 何洪港
 ---

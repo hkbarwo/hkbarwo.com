@@ -16,4 +16,11 @@ en:
   alias: 鄭丹屏
   description: ""
   thoughts: ""
+cn:
+  slug: cheng-shun-yuk
+  gender: f
+  position: 演
+  alias: 郑丹屏
+  role: 会友
+  title: 郑纯玉
 ---

@@ -16,3 +16,14 @@ en:
     light: Light Theme
     dark: Dark Theme
   menuTitle: MENU
+cn:
+  siteTitle: 香港八和会馆
+  socialAccounts:
+    instagram: https://example.com
+    facebook: https://zh-hk.facebook.com/hkbarwoymt/
+    youtube: https://www.youtube.com/channel/UC2ICDbA_GaKY1Y9k9I2q5bg
+  themeSettings:
+    light: 浅色模式
+    dark: 深色模式
+  menuTitle: 目录
+  copyright: © 香港八和会馆{year} | 版权所有 不得转载

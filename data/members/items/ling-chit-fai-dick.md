@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 武
   slug: ling-chit-fai-dick
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 寧哲輝
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 武
   title: Ling Chit Fai Dick
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: ling-chit-fai-dick
+  gender: m
+  position: 武
+  role: 会友
+  title: 宁哲辉
 ---

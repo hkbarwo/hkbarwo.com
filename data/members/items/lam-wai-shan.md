@@ -1,9 +1,9 @@
 ---
 zh:
   gender: f
-  position: 
+  position: null
   slug: lam-wai-shan
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 林惠珊
@@ -11,9 +11,14 @@ zh:
   description: ""
 en:
   role: 會友
-  position: 
+  position: null
   title: Lam Wai Shan
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: lam-wai-shan
+  gender: f
+  role: 会友
+  title: 林惠珊
 ---

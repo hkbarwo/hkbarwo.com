@@ -10,4 +10,12 @@ zh:
 en:
   date: 2021-02-28T18:35:20.509Z
   category: cantonese-opera-online-course
+cn:
+  date: 2021-02-28T18:35:20.501Z
+  slug: class-39
+  category: cantonese-opera-online-course
+  coverImage: /images/uploads/resources/channel/epi39.jpg
+  title: 第三十九集 服装穿戴（二）
+  youtubeVideoID: OXnUwBvRERo
+  content: 今集会看看演员是如何戴头饰和穿戏服，行内有俗称「衣箱」的专业戏服穿戴员为演员穿戏服，一同来看看多个不同特色装扮的示范，当中包括韦陀、关公、张飞等，更有郑咏梅为大家示范扎脚！
 ---

@@ -16,4 +16,11 @@ en:
   alias: 梁虹
   description: ""
   thoughts: ""
+cn:
+  slug: leung-miu-ping
+  gender: f
+  position: 演
+  alias: 梁虹
+  role: 会友
+  title: 梁妙萍
 ---

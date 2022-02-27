@@ -8,4 +8,8 @@ zh:
 en:
   description: ""
   title: Search
+cn:
+  slug: search
+  url: /search
+  title: 搜索结果
 ---

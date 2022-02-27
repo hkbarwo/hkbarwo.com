@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: chow-wai-man
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 周偉文
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Chow Wai Man
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: chow-wai-man
+  gender: m
+  position: 音
+  role: 会友
+  title: 周伟文
 ---

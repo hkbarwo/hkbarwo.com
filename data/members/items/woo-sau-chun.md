@@ -16,4 +16,11 @@ en:
   alias: 小明珠
   description: ""
   thoughts: ""
+cn:
+  slug: woo-sau-chun
+  gender: f
+  position: 演
+  alias: 小明珠
+  role: 会友
+  title: 胡秀珍
 ---

@@ -16,4 +16,11 @@ en:
   alias: 李頌
   description: ""
   thoughts: ""
+cn:
+  slug: lee-chung-foon
+  gender: m
+  position: 音
+  alias: 李颂
+  role: 会友
+  title: 李颂欢
 ---

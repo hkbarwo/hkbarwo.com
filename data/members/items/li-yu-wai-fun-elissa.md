@@ -16,4 +16,11 @@ en:
   alias: 余蕙芬
   description: ""
   thoughts: ""
+cn:
+  slug: li-yu-wai-fun-elissa
+  gender: f
+  position: 演
+  alias: 余蕙芬
+  role: 会友
+  title: 李余蕙芬
 ---

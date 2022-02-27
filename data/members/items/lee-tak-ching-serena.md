@@ -16,4 +16,11 @@ en:
   alias: 李鳳
   description: ""
   thoughts: ""
+cn:
+  slug: lee-tak-ching-serena
+  gender: f
+  position: 演
+  alias: 李凤
+  role: 会友
+  title: 李德贞
 ---

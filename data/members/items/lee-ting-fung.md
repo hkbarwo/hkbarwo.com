@@ -1,9 +1,9 @@
 ---
 zh:
   gender: m
-  position: 
+  position: null
   slug: lee-ting-fung
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 李延𩆨
@@ -11,9 +11,14 @@ zh:
   description: ""
 en:
   role: 會友
-  position: 
+  position: null
   title: Lee Ting Fung
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: lee-ting-fung
+  gender: m
+  role: 会友
+  title: 李延𩆨
 ---

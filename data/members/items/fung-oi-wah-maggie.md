@@ -16,4 +16,11 @@ en:
   alias: 藝劍烽
   description: ""
   thoughts: ""
+cn:
+  slug: fung-oi-wah-maggie
+  gender: f
+  position: 演
+  alias: 艺剑烽
+  role: 会友
+  title: 冯爱华
 ---

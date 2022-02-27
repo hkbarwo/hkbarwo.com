@@ -16,4 +16,11 @@ en:
   alias: 梁雁風
   description: ""
   thoughts: ""
+cn:
+  slug: leung-fung-yu-bertha
+  gender: f
+  position: 演
+  role: 会友
+  alias: 梁雁风
+  title: 梁凤如
 ---

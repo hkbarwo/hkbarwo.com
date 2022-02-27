@@ -16,4 +16,11 @@ en:
   alias: 牛奶叔
   description: ""
   thoughts: ""
+cn:
+  slug: wong-wai-hung
+  gender: m
+  position: 演
+  alias: 牛奶叔
+  role: 会友
+  title: 黄伟雄
 ---

@@ -16,4 +16,11 @@ en:
   alias: 趙官楓
   description: ""
   thoughts: ""
+cn:
+  slug: chiu-suk-fong
+  gender: f
+  position: 演
+  alias: 赵官枫
+  role: 会友
+  title: 赵淑芳
 ---

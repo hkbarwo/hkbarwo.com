@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 演
   slug: wong-yuk-wah
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 黃鈺華
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Wong Yuk Wah
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: wong-yuk-wah
+  gender: f
+  position: 演
+  role: 会友
+  title: 黄钰华
 ---

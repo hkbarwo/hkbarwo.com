@@ -1,7 +1,7 @@
 ---
 zh:
   gender: f
-  position: 
+  position: null
   slug: guan-jielian
   alias: 關綺蓮
   photo: ""
@@ -11,9 +11,15 @@ zh:
   description: ""
 en:
   role: 會友
-  position: 
+  position: null
   title: Guan Jielian
   alias: 關綺蓮
   description: ""
   thoughts: ""
+cn:
+  slug: guan-jielian
+  gender: f
+  role: 会友
+  alias: 关绮莲
+  title: 关洁连
 ---

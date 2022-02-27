@@ -16,4 +16,11 @@ en:
   alias: 蔡丹映
   description: ""
   thoughts: ""
+cn:
+  slug: choi-lai-kwan
+  gender: f
+  position: 演
+  alias: 蔡丹映
+  role: 会友
+  title: 蔡丽群
 ---

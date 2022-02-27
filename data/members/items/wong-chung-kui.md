@@ -16,4 +16,11 @@ en:
   alias: 黃金堂
   description: ""
   thoughts: ""
+cn:
+  slug: wong-chung-kui
+  gender: m
+  position: 演
+  alias: 黄金堂
+  role: 会友
+  title: 黄仲渠
 ---

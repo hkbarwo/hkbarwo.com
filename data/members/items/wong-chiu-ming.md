@@ -16,4 +16,11 @@ en:
   alias: 黃一鳴
   description: ""
   thoughts: ""
+cn:
+  slug: wong-chiu-ming
+  gender: m
+  position: 音
+  alias: 黄一鸣
+  role: 会友
+  title: 黄朝明
 ---

@@ -16,4 +16,11 @@ en:
   alias: 羅家英
   description: ""
   thoughts: ""
+cn:
+  slug: law-hang-tong
+  gender: m
+  position: 演
+  alias: 罗家英
+  role: 理事
+  title: 罗行堂
 ---

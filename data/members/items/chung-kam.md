@@ -16,4 +16,11 @@ en:
   alias: 鍾健春
   description: ""
   thoughts: ""
+cn:
+  slug: chung-kam
+  gender: m
+  position: 音
+  alias: 钟健春
+  role: 会友
+  title: 钟衿
 ---

@@ -16,4 +16,11 @@ en:
   alias: (生：楊劍英/ 旦：楊子瑩)
   description: ""
   thoughts: ""
+cn:
+  slug: yeung-may-kuen-sandara
+  gender: f
+  position: 演
+  role: 会友
+  alias: (生：杨剑英/ 旦：杨子莹)
+  title: 杨美娟
 ---

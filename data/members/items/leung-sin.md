@@ -16,4 +16,11 @@ en:
   alias: 梁晉鳴
   description: ""
   thoughts: ""
+cn:
+  slug: leung-sin
+  gender: f
+  position: 演
+  alias: 梁晋鸣
+  role: 会友
+  title: 梁仙
 ---

@@ -16,4 +16,11 @@ en:
   alias: 袁偉棠
   description: ""
   thoughts: ""
+cn:
+  slug: yuen-siu-wai
+  gender: m
+  position: 演
+  alias: 袁伟棠
+  role: 会友
+  title: 袁少伟
 ---

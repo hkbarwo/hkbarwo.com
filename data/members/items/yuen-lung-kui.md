@@ -16,4 +16,11 @@ en:
   alias: 七仔
   description: ""
   thoughts: ""
+cn:
+  slug: yuen-lung-kui
+  gender: m
+  position: 武
+  alias: 七仔
+  role: 会友
+  title: 袁龙驹
 ---

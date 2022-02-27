@@ -16,4 +16,11 @@ en:
   alias: 林妹妹
   description: ""
   thoughts: ""
+cn:
+  slug: lam-yin-yi
+  gender: f
+  position: 音
+  alias: 林妹妹
+  role: 会友
+  title: 林燕仪
 ---

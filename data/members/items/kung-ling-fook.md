@@ -16,4 +16,11 @@ en:
   alias: 謝雪心
   description: ""
   thoughts: ""
+cn:
+  slug: kung-ling-fook
+  gender: f
+  position: 演
+  alias: 谢雪心
+  role: 理事
+  title: 孔令馥
 ---

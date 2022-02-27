@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 音
   slug: ng-yuet-wan
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 吳月雲
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Ng Yuet Wan
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: ng-yuet-wan
+  gender: f
+  position: 音
+  role: 会友
+  title: 吴月云
 ---

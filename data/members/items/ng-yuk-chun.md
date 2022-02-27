@@ -16,4 +16,11 @@ en:
   alias: 白翠鳳
   description: ""
   thoughts: ""
+cn:
+  slug: ng-yuk-chun
+  gender: f
+  position: 演
+  alias: 白翠凤
+  title: 吴玉珍
+  role: 会友
 ---

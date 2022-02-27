@@ -16,4 +16,11 @@ en:
   alias: 紫雲英
   description: ""
   thoughts: ""
+cn:
+  slug: yau-shui-ying
+  gender: f
+  position: 音
+  alias: 紫云英
+  role: 会友
+  title: 邱瑞英
 ---

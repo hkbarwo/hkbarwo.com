@@ -16,4 +16,11 @@ en:
   alias: 徐吉
   description: ""
   thoughts: ""
+cn:
+  slug: chui-pak-kut
+  gender: m
+  position: 武
+  role: 会友
+  alias: 徐吉
+  title: 徐伯吉
 ---

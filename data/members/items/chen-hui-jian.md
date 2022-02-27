@@ -16,4 +16,11 @@ en:
   alias: 一点鴻
   description: ""
   thoughts: ""
+cn:
+  slug: chen-hui-jian
+  gender: m
+  position: 演
+  alias: 一点鸿
+  role: 会友
+  title: 陈惠坚
 ---

@@ -16,4 +16,11 @@ en:
   alias: 高兆麟
   description: ""
   thoughts: ""
+cn:
+  slug: lee-wai-kuen
+  gender: f
+  position: 演
+  role: 会友
+  alias: 高兆麟
+  title: 李惠娟
 ---

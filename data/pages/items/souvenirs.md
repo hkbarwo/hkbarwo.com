@@ -8,4 +8,8 @@ zh:
 en:
   description: ""
   title: Souvenirs
+cn:
+  url: /support/souvenirs
+  slug: souvenirs
+  title: 八和纪念品
 ---

@@ -31,4 +31,34 @@ zh:
   pdfFile: /uploads/65_compressed.pdf
 en:
   category: report
+cn:
+  date: 2009-07-30T16:00:00.000Z
+  slug: the-65-issue-barwo-quarterly-journal
+  category: report
+  pdfFile: /uploads/65_compressed.pdf
+  title: 第65期《八和汇报》
+  content: >-
+    ![汪明荃连任香港八和会馆第三十四届理事会主席](/uploads/65_compressed_page-0001.jpg
+    "汪明荃连任香港八和会馆第三十四届理事会主席")
+
+
+    ![第三十三届理事会（2007-2009）工作报告](/uploads/65_compressed_page-0002.jpg "第三十三届理事会（2007-2009）工作报告")
+
+
+    ![香港八和会馆办公室报告（2009年2月至4月）](/uploads/65_compressed_page-0003.jpg "香港八和会馆办公室报告（2009年2月至4月）")
+
+
+    ![第三十三届理事会第二十一至二十三次会议议程 | 《斩二王》澳门演出](/uploads/65_compressed_page-0004.jpg "第三十三届理事会第二十一至二十三次会议议程 | 《斩二王》澳门演出")
+
+
+    ![《斩二王》新闻花絮 | 「儿童及青少年粤剧教育的可能性」研讨会](/uploads/65_compressed_page-0005.jpg "《斩二王》新闻花絮 | 「儿童及青少年粤剧教育的可能性」研讨会")
+
+
+    ![八和恭贺白雪仙生日 | 汪明荃主席获香港演艺学院颁发院士荣衔 | 八和恭迎红线女到访香江 | 八和贺罗品超百岁大寿](/uploads/65_compressed_page-0006.jpg "八和恭贺白雪仙生日 | 汪明荃主席获香港演艺学院颁发院士荣衔 | 八和恭迎红线女到访香江 | 八和贺罗品超百岁大寿")
+
+
+    ![江成口述历史专访](/uploads/65_compressed_page-0007.jpg "江成口述历史专访")
+
+
+    ![叶绍德「心底的话」 | 香港八和会馆春祭  | 让我们怀念的粤剧工作者](/uploads/65_compressed_page-0008.jpg "叶绍德「心底的话」 | 香港八和会馆春祭  | 让我们怀念的粤剧工作者")
 ---

@@ -16,4 +16,11 @@ en:
   alias: 狄飛龍
   description: ""
   thoughts: ""
+cn:
+  slug: ting-wai-kwong
+  gender: m
+  position: 演
+  alias: 狄飞龙
+  role: 会友
+  title: 丁伟江
 ---

@@ -1,100 +1,150 @@
 zh:
   list:
-    - title: "香港大會堂"
+    - title: 香港大會堂
       type: 劇院
       seats: "463"
       tel: "29212821"
-    - title: "香港大會堂"
+    - title: 香港大會堂
       type: 音樂廳
       seats: "1430"
       tel: "29212840"
-    - title: "香港文化中心"
+    - title: 香港文化中心
       type: 大劇院
       seats: "1734"
       tel: "27342849"
-    - title: "香港文化中心"
+    - title: 香港文化中心
       type: 音樂廳
       seats: "2019"
       tel: "27342009"
-    - title: "葵青劇院"
+    - title: 葵青劇院
       type: 演藝廳
       seats: "905"
       tel: "24067505"
-    - title: "高山劇場"
+    - title: 高山劇場
       type: 劇院
       seats: "1031"
       tel: "23305261"
-    - title: "沙田大會堂"
+    - title: 沙田大會堂
       type: 演奏廳
       seats: "1372"
       tel: "26942550"
-    - title: "西灣河文娛中心"
+    - title: 西灣河文娛中心
       type: 劇院
       seats: "1424"
       tel: "31845777"
-    - title: "荃灣大會堂"
+    - title: 荃灣大會堂
       type: 演奏廳
       seats: "1424"
       tel: "24937463"
-    - title: "上環文娛中心"
+    - title: 上環文娛中心
       type: 演奏廳
       seats: "480"
       tel: "28532678"
-    - title: "大埔文娛中心"
+    - title: 大埔文娛中心
       type: 演奏廳
-      seats: "梳化椅 53 / 膠椅 760"
+      seats: 梳化椅 53 / 膠椅 760
       tel: "26654477"
-    - title: "屯門大會堂"
+    - title: 屯門大會堂
       type: 演奏廳
       seats: "1372"
       tel: "24507875"
 en:
   list:
-    - title: "香港大會堂"
+    - title: 香港大會堂
       type: 劇院
       seats: "463"
       tel: "29212821"
-    - title: "香港大會堂"
+    - title: 香港大會堂
       type: 音樂廳
       seats: "1430"
       tel: "29212840"
-    - title: "香港文化中心"
+    - title: 香港文化中心
       type: 大劇院
       seats: "1734"
       tel: "27342849"
-    - title: "香港文化中心"
+    - title: 香港文化中心
       type: 音樂廳
       seats: "2019"
       tel: "27342009"
-    - title: "葵青劇院"
+    - title: 葵青劇院
       type: 演藝廳
       seats: "905"
       tel: "24067505"
-    - title: "高山劇場"
+    - title: 高山劇場
       type: 劇院
       seats: "1031"
       tel: "23305261"
-    - title: "沙田大會堂"
+    - title: 沙田大會堂
       type: 演奏廳
       seats: "1372"
       tel: "26942550"
-    - title: "西灣河文娛中心"
+    - title: 西灣河文娛中心
       type: 劇院
       seats: "1424"
       tel: "31845777"
-    - title: "荃灣大會堂"
+    - title: 荃灣大會堂
       type: 演奏廳
       seats: "1424"
       tel: "24937463"
-    - title: "上環文娛中心"
+    - title: 上環文娛中心
       type: 演奏廳
       seats: "480"
       tel: "28532678"
-    - title: "大埔文娛中心"
+    - title: 大埔文娛中心
       type: 演奏廳
-      seats: "梳化椅 53 / 膠椅 760"
+      seats: 梳化椅 53 / 膠椅 760
       tel: "26654477"
-    - title: "屯門大會堂"
+    - title: 屯門大會堂
       type: 演奏廳
       seats: "1372"
+      tel: "24507875"
+cn:
+  list:
+    - title: 香港大会堂
+      type: 剧院
+      seats: "463"
+      tel: "29212821"
+    - title: 香港大会堂
+      seats: "1430"
+      type: 音乐厅
+      tel: "29212840"
+    - seats: "1734"
+      type: 大剧院
+      tel: "27342849"
+      title: 香港文化中心
+    - seats: "2019"
+      type: 音乐厅
+      tel: "27342009"
+      title: 香港文化中心
+    - seats: "905"
+      type: 演艺厅
+      title: 葵青剧院
+      tel: "24067505"
+    - type: 剧院
+      seats: "1031"
+      title: 高山剧场
+      tel: "23305261"
+    - seats: "1372"
+      type: 演奏厅
+      title: 沙田大会堂
+      tel: "26942550"
+    - type: 剧院
+      tel: "31845777"
+      seats: "1424"
+      title: 西湾河文娱中心
+    - seats: "1424"
+      type: 演奏厅
+      tel: "24937463"
+      title: 荃湾大会堂
+    - seats: "480"
+      title: 上环文娱中心
+      type: 演奏厅
+      tel: "28532678"
+    - type: 演奏厅
+      tel: "26654477"
+      title: 大埔文娱中心
+      seats: 梳化椅 53 / 胶椅 760
+    - seats: "1372"
+      title: 屯门大会堂
+      type: 演奏厅
       tel: "24507875"

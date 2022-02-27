@@ -16,4 +16,11 @@ en:
   alias: 賈玉堂
   description: ""
   thoughts: ""
+cn:
+  slug: lau-wai-fong
+  gender: f
+  position: 演
+  alias: 贾玉堂
+  role: 会友
+  title: 刘惠芳
 ---

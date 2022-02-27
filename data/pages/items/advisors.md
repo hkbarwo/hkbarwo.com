@@ -5,4 +5,8 @@ zh:
   url: /about/organization/advisors
 en:
   title: 顧問
+cn:
+  slug: advisors
+  url: /about/organization/advisors
+  title: 赞助人/顾问
 ---

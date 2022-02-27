@@ -16,4 +16,11 @@ en:
   alias: 楊柳菁
   description: ""
   thoughts: ""
+cn:
+  slug: yeung-yim-ching
+  gender: f
+  position: 演
+  alias: 杨柳菁
+  role: 会友
+  title: 杨艳清
 ---

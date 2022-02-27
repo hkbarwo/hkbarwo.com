@@ -16,4 +16,11 @@ en:
   alias: 南燕
   description: ""
   thoughts: ""
+cn:
+  slug: ng-wai-ling
+  gender: f
+  position: 演
+  alias: 南燕
+  role: 会友
+  title: 伍惠玲
 ---

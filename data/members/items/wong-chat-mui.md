@@ -16,4 +16,11 @@ en:
   alias: 黃美娟
   description: ""
   thoughts: ""
+cn:
+  slug: wong-chat-mui
+  gender: f
+  position: 衣
+  alias: 黄美娟
+  role: 会友
+  title: 黄七妹
 ---

@@ -16,4 +16,11 @@ en:
   alias: 林芯菱
   description: ""
   thoughts: ""
+cn:
+  slug: lin-xiao-ye
+  gender: f
+  position: 演
+  alias: 林芯菱
+  role: 会友
+  title: 林小叶
 ---

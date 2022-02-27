@@ -16,4 +16,11 @@ en:
   alias: 陳青蔚
   description: ""
   thoughts: ""
+cn:
+  slug: chan-yuk-yin-clare
+  gender: f
+  position: 演
+  alias: 陈青蔚
+  role: 会友
+  title: 陈玉燕
 ---

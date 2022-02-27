@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 音
   slug: chan-sau-fong-miranda
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 陳秀芳
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Chan Sau Fong Miranda
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: chan-sau-fong-miranda
+  gender: f
+  position: 音
+  role: 会友
+  title: 陈秀芳
 ---

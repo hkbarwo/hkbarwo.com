@@ -16,4 +16,11 @@ en:
   alias: 邵麗君
   description: ""
   thoughts: ""
+cn:
+  slug: shiu-yuk-shim
+  gender: f
+  position: 演
+  alias: 邵丽君
+  role: 会友
+  title: 邵玉婵
 ---

@@ -19,4 +19,14 @@ en:
       name: Example
   title: Example
   shortTitle: Example
+cn:
+  slug: example
+  commitiees:
+    - title: Example
+      name: Example
+  title: Example
+  shortTitle: Example
+  website: http://example.com
+  description: Example
+  commitieesTitle: Example
 ---

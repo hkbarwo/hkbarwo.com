@@ -16,4 +16,11 @@ en:
   alias: 江綺霜
   description: ""
   thoughts: ""
+cn:
+  slug: ip-lau-cheong
+  gender: f
+  position: 演
+  alias: 江绮霜
+  role: 会友
+  title: 叶柳璋
 ---

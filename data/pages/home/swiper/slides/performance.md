@@ -23,4 +23,19 @@ en:
   buttonTitle: 查看最新活動
   buttonLink:
     page: events-latest
+cn:
+  slug: performance
+  bgImage: /images/uploads/home/swiper/slides/landing-img-5-2x.jpg
+  buttonTitle: 查看最新活动
+  buttonLink:
+    page: events-latest
+  gradient:
+    color1: "#005bd5"
+    color2: "#98d6c4"
+  subtitle: 节目・活动
+  title: 最新资讯
+  bgImageFillStyle: cover
+  shortTitle: 演出及活动
+  description: 为了推广粤剧艺术和文化，八和会馆经常统筹和举办大型的传承演出，及多样化的推广活动。大型的传承演出，旨在修复和传承一些粤剧的传统例戏、排场戏和仪式，例如：2020年制作「传统粤剧例戏《玉皇登殿》及排场折子戏」、2019年推出「粤港澳群星汇《胡不归》」、2017年统筹「经典粤剧庆回归：《观音得道》、《香花山大贺寿》、《加官》、《天姬送子》」、2010年参与「2010年香港艺术节
+    开幕演出《百年回顾八和鸣》」等。与此同时，八和亦透过筹划多样化的推广活动，包括：大型展览(香港机场展览、时代广场展览等)、「新编粤剧创作比赛」、同乐日(「粤剧日」等)、志庆性(西九戏曲中心开台周演出等)及社区性(「西九大戏棚」「榕树头节」等)的演出等等，提升巿民大众对粤剧艺术的兴趣和认知。有关八和筹划的最新精彩演出和推广活动，敬请留意本栏目。
 ---

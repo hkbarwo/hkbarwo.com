@@ -16,4 +16,11 @@ en:
   alias: 瓊花女
   description: ""
   thoughts: ""
+cn:
+  slug: kwan-wai-sham-juliana
+  gender: f
+  position: 演
+  alias: 琼花女
+  role: 会友
+  title: 关惠心
 ---

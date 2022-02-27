@@ -16,4 +16,11 @@ en:
   alias: 艷麗群(移居海外)
   description: ""
   thoughts: ""
+cn:
+  slug: tang-siu-fan
+  gender: f
+  position: 演
+  alias: 艳丽群(移居海外)
+  role: 会友
+  title: 邓少芬
 ---

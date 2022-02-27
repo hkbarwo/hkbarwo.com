@@ -16,4 +16,11 @@ en:
   alias: 蓉藝聲
   description: ""
   thoughts: ""
+cn:
+  slug: chan-lai-yung
+  gender: f
+  position: 音
+  role: 会友
+  alias: 蓉艺声
+  title: 陈丽蓉
 ---

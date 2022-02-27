@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 演
   slug: leung-ka-hoi
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 梁家開
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Leung Ka Hoi
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: leung-ka-hoi
+  gender: m
+  position: 演
+  role: 会友
+  title: 梁家开
 ---

@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 演
   slug: sham-tsui-hung
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 岑翠紅
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Sham Tsui Hung
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: sham-tsui-hung
+  gender: f
+  position: 演
+  role: 会友
+  title: 岑翠红
 ---

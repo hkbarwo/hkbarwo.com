@@ -16,4 +16,11 @@ en:
   alias: 白雪瑩
   description: ""
   thoughts: ""
+cn:
+  slug: lai-choi
+  gender: f
+  position: 演
+  alias: 白雪莹
+  role: 会友
+  title: 黎彩
 ---

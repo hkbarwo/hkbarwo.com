@@ -8,4 +8,10 @@ zh:
 en:
   date: 2021-05-13T09:22:54.193Z
   image: /uploads/陳年古典照片由羅家英提供2.jpg
+cn:
+  date: 2021-05-13T09:22:54.193Z
+  image: /uploads/陳年古典照片由羅家英提供2.jpg
+  slug: historical-images-classic-photo-2
+  title: 陈年古典照片由罗家英提供2
+  description: 陈年古典照片由罗家英提供。
 ---

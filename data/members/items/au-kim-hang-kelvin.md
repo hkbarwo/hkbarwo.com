@@ -16,4 +16,11 @@ en:
   alias: 劍英
   description: ""
   thoughts: ""
+cn:
+  slug: au-kim-hang-kelvin
+  gender: m
+  position: 演
+  alias: 剑英
+  role: 会友
+  title: 欧剑衡
 ---

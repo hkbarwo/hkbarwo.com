@@ -16,4 +16,11 @@ en:
   alias: 芯嘉
   description: ""
   thoughts: ""
+cn:
+  slug: choi-wai-ka
+  gender: f
+  position: 演
+  alias: 芯嘉
+  role: 会友
+  title: 蔡惠嘉
 ---

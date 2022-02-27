@@ -16,4 +16,11 @@ en:
   alias: 凌劍初
   description: ""
   thoughts: ""
+cn:
+  slug: ling-oy-man
+  gender: f
+  position: 演
+  alias: 凌剑初
+  role: 会友
+  title: 凌爱文
 ---

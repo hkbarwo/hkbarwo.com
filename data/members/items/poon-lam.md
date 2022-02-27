@@ -16,4 +16,11 @@ en:
   alias: 馬丁
   description: ""
   thoughts: ""
+cn:
+  slug: poon-lam
+  gender: m
+  position: 演
+  alias: 马丁
+  role: 会友
+  title: 潘霖
 ---

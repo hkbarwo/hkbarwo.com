@@ -16,4 +16,11 @@ en:
   alias: 朱劍丹
   description: ""
   thoughts: ""
+cn:
+  slug: chu-kwai-chun
+  gender: f
+  position: 演
+  alias: 朱剑丹
+  role: 会友
+  title: 朱桂珍
 ---

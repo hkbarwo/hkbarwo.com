@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 演
   slug: wan-chi-hung
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 溫子雄
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Wan Chi Hung
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: wan-chi-hung
+  gender: m
+  position: 演
+  role: 会友
+  title: 温子雄
 ---

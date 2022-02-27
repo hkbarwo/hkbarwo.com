@@ -16,4 +16,11 @@ en:
   alias: 白雪芳
   description: ""
   thoughts: ""
+cn:
+  slug: lai-ho
+  gender: f
+  position: 演
+  alias: 白雪芳
+  title: 黎好
+  role: 会友
 ---

@@ -16,4 +16,11 @@ en:
   alias: 小哪
   description: ""
   thoughts: ""
+cn:
+  slug: tsui-ngai-kong
+  gender: m
+  position: 演
+  alias: 小哪
+  role: 会友
+  title: 徐艺刚
 ---

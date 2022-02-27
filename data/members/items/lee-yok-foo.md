@@ -16,4 +16,11 @@ en:
   alias: 李英漢
   description: ""
   thoughts: ""
+cn:
+  slug: lee-yok-foo
+  gender: m
+  position: 演
+  alias: 李英汉
+  role: 会友
+  title: 李煜富
 ---

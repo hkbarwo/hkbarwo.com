@@ -16,4 +16,11 @@ en:
   alias: 鳳儀婷
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-fung-yee-penny
+  gender: f
+  position: 演
+  alias: 凤仪婷
+  role: 会友
+  title: 张凤仪
 ---

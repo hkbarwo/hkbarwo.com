@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 演
   slug: kwok-chun-hang
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 郭俊亨
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Kwok Chun Hang
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: kwok-chun-hang
+  gender: m
+  position: 演
+  role: 会友
+  title: 郭俊亨
 ---

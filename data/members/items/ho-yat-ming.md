@@ -1,9 +1,9 @@
 ---
 zh:
   gender: m
-  position: 
+  position: null
   slug: ho-yat-ming
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 何日明
@@ -11,9 +11,14 @@ zh:
   description: ""
 en:
   role: 會友
-  position: 
+  position: null
   title: Ho Yat Ming
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: ho-yat-ming
+  gender: m
+  role: 会友
+  title: 何日明
 ---

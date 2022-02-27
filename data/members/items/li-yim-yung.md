@@ -16,4 +16,11 @@ en:
   alias: 賀婉詩
   description: ""
   thoughts: ""
+cn:
+  slug: li-yim-yung
+  gender: f
+  position: 演
+  alias: 贺婉诗
+  role: 会友
+  title: 李艳容
 ---

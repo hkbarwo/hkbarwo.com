@@ -16,4 +16,11 @@ en:
   alias: 何惠玲
   description: ""
   thoughts: ""
+cn:
+  slug: ho-wai-ling
+  gender: f
+  position: 演
+  role: 会友
+  alias: 何惠玲
+  title: 何伟凌
 ---

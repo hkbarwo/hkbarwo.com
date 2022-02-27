@@ -16,4 +16,11 @@ en:
   alias: 鄺一笑
   description: ""
   thoughts: ""
+cn:
+  slug: kong-shek
+  gender: m
+  position: 音
+  role: 会友
+  alias: 邝一笑
+  title: 邝硕
 ---

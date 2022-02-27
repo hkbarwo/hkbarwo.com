@@ -16,4 +16,11 @@ en:
   alias: 鍾焯華
   description: ""
   thoughts: ""
+cn:
+  slug: chung-lai-mei
+  gender: f
+  position: 演
+  alias: 钟焯华
+  role: 会友
+  title: 钟丽美
 ---

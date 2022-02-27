@@ -16,4 +16,11 @@ en:
   alias: 林瑋婷
   description: ""
   thoughts: ""
+cn:
+  slug: lam-wai-ting
+  gender: f
+  position: 演
+  role: 会友
+  alias: 林玮婷
+  title: 林炜婷
 ---

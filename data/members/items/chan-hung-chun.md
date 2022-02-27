@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 演
   slug: chan-hung-chun
-  alias: 
+  alias: null
   photo: ""
   role: 理事
   title: 陳鴻進
@@ -13,7 +13,13 @@ en:
   role: 理事
   position: 演
   title: Chan Hung Chun
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: chan-hung-chun
+  gender: m
+  position: 演
+  role: 理事
+  title: 陈鸿进
 ---

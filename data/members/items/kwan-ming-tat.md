@@ -16,4 +16,11 @@ en:
   alias: 關國鋒馬師峯
   description: ""
   thoughts: ""
+cn:
+  slug: kwan-ming-tat
+  gender: m
+  position: 演
+  role: 会友
+  title: 关明达
+  alias: 关国锋马师峰
 ---

@@ -16,4 +16,11 @@ en:
   alias: 雲燕伶
   description: ""
   thoughts: ""
+cn:
+  slug: li-kam-chai
+  gender: f
+  position: 演
+  alias: 云燕伶
+  role: 会友
+  title: 李金齐
 ---

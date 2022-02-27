@@ -16,4 +16,11 @@ en:
   alias: 李奇峰
   description: ""
   thoughts: ""
+cn:
+  slug: li-chi-kei
+  gender: m
+  position: 演
+  alias: 李奇峰
+  role: 会友
+  title: 李志奇
 ---

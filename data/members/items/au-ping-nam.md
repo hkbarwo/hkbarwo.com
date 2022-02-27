@@ -16,4 +16,11 @@ en:
   alias: 沙鷗
   description: ""
   thoughts: ""
+cn:
+  slug: au-ping-nam
+  gender: m
+  position: 演
+  alias: 沙鸥
+  role: 会友
+  title: 区炳南
 ---

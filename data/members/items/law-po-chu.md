@@ -16,4 +16,11 @@ en:
   alias: 陸寶珠
   description: ""
   thoughts: ""
+cn:
+  slug: law-po-chu
+  gender: f
+  position: 演
+  alias: 陆宝珠
+  role: 会友
+  title: 罗宝珠
 ---

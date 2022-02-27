@@ -16,4 +16,11 @@ en:
   alias: 梁瑛林
   description: ""
   thoughts: ""
+cn:
+  slug: leung-ying-lam
+  gender: m
+  position: 音
+  role: 会友
+  alias: 梁瑛林
+  title: 梁渶林
 ---

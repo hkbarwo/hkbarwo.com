@@ -16,4 +16,11 @@ en:
   alias: 凌翠鳳
   description: ""
   thoughts: ""
+cn:
+  slug: ling-yuet-kiu
+  gender: f
+  position: 演
+  alias: 凌翠凤
+  role: 会友
+  title: 凌月娇
 ---

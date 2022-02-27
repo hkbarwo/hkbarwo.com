@@ -16,4 +16,11 @@ en:
   alias: 徐二牛
   description: ""
   thoughts: ""
+cn:
+  slug: chui-yiu-kwong
+  gender: m
+  position: 武
+  alias: 徐二牛
+  role: 会友
+  title: 徐耀光
 ---

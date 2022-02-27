@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: shum-chi-hung
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 沈志雄
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Shum Chi Hung
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: shum-chi-hung
+  gender: m
+  position: 音
+  role: 会友
+  title: 沈志雄
 ---

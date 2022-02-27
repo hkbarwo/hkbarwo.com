@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: zhong-bingyao
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 鍾炳耀
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Zhong Bingyao
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: zhong-bingyao
+  gender: m
+  position: 音
+  role: 会友
+  title: 钟炳耀
 ---

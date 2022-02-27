@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 音
   slug: fok-po-lam
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 霍寶林
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Fok Po Lam
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: fok-po-lam
+  gender: m
+  position: 音
+  role: 会友
+  title: 霍宝林
 ---

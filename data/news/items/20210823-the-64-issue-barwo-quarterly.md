@@ -20,4 +20,23 @@ zh:
   pdfFile: /uploads/64_compressed.pdf
 en:
   category: report
+cn:
+  date: 2009-03-31T03:43:50.389Z
+  slug: the-64-issue-barwo-quarterly
+  category: report
+  pdfFile: /uploads/64_compressed.pdf
+  title: 第64期《八和汇报》
+  content: >-
+    ![八和团拜政界出席者众 | 慎和堂祝愿业务兴隆 | 会员福寿金历史 |
+    致信曾特首及新光成功续约告示](/uploads/64_compressed_page-0001.jpg "八和团拜政界出席者众 | 慎和堂祝愿业务兴隆
+    | 会员福寿金历史 | 致信曾特首及新光成功续约告示")
+
+
+    ![香港八和会馆办公室报告（2008年11月至2009年1月）及第三十三届理事会第十八至十九次会议议程](/uploads/64_compressed_page-0002.jpg "香港八和会馆办公室报告（2008年11月至2009年1月）及第三十三届理事会第十八至十九次会议议程")
+
+
+    ![（续）香港八和会馆办公室报告（2009年1月）、第三十三届理事会第二十次会议议程及财务报告](/uploads/64_compressed_page-0003.jpg "（续）香港八和会馆办公室报告（2009年1月）、第三十三届理事会第二十次会议议程及财务报告")
+
+
+    ![开山劈石 奠基八和：陈醒棠口述历史专访](/uploads/64_compressed_page-0004.jpg "开山劈石 奠基八和：陈醒棠口述历史专访")
 ---

@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 畫
   slug: chau-kin-ming-ming
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 仇健明
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 畫
   title: Chau Kin Ming Ming
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: chau-kin-ming-ming
+  gender: m
+  role: 会友
+  title: 仇健明
+  position: 画
 ---

@@ -7,4 +7,8 @@ zh:
 en:
   title: Photo Album
   wip: false
+cn:
+  url: /resources/photo-gallery
+  slug: photo-gallery
+  title: 图片珍藏
 ---

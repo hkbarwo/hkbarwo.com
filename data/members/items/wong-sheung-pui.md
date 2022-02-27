@@ -16,4 +16,11 @@ en:
   alias: 黃培
   description: ""
   thoughts: ""
+cn:
+  slug: wong-sheung-pui
+  gender: m
+  position: 音
+  alias: 黄培
+  role: 会友
+  title: 黄相培
 ---

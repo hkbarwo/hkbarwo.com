@@ -16,4 +16,11 @@ en:
   alias: 陳少華
   description: ""
   thoughts: ""
+cn:
+  slug: chan-wah
+  gender: m
+  position: 武
+  alias: 陈少华
+  role: 会友
+  title: 陈华
 ---

@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 演
   slug: lau-chi-fai
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 劉子輝
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Lau Chi Fai
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: lau-chi-fai
+  gender: m
+  position: 演
+  role: 会友
+  title: 刘子辉
 ---

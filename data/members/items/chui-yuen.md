@@ -16,4 +16,11 @@ en:
   alias: 徐浩然
   description: ""
   thoughts: ""
+cn:
+  slug: chui-yuen
+  position: 音
+  alias: 徐浩然
+  role: 会友
+  title: 徐源
+  gender: m
 ---

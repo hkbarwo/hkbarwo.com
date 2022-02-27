@@ -16,4 +16,11 @@ en:
   alias: 文軒
   description: ""
   thoughts: ""
+cn:
+  slug: ng-chi-lok
+  gender: f
+  position: 演
+  alias: 文轩
+  role: 会友
+  title: 吴祉乐
 ---

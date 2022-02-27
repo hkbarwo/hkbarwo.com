@@ -16,4 +16,11 @@ en:
   alias: 柳御風
   description: ""
   thoughts: ""
+cn:
+  slug: leung-suk-ming
+  gender: f
+  role: 会友
+  position: 演
+  alias: 柳御风
+  title: 梁淑明
 ---

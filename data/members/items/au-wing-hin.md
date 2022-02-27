@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 武
   slug: au-wing-hin
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 區榮顯
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 武
   title: Au Wing Hin
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: au-wing-hin
+  gender: m
+  position: 武
+  role: 会友
+  title: 区荣显
 ---

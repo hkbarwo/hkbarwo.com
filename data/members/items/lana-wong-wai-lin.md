@@ -16,4 +16,11 @@ en:
   alias: 黃夏蕙
   description: ""
   thoughts: ""
+cn:
+  slug: lana-wong-wai-lin
+  gender: f
+  position: 演
+  alias: 黄夏蕙
+  role: 会友
+  title: 黄蕙莲
 ---

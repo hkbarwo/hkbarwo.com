@@ -16,4 +16,11 @@ en:
   alias: 鳳綺綾
   description: ""
   thoughts: ""
+cn:
+  slug: ng-chi-wai
+  gender: f
+  position: 演
+  alias: 凤绮绫
+  role: 会友
+  title: 吴志慧
 ---

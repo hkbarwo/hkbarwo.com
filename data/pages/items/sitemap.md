@@ -6,5 +6,9 @@ zh:
   wip: false
 en:
   title: Sitemap
-  wip: true
+  wip: false
+cn:
+  slug: sitemap
+  url: /sitemap
+  title: 网站地图
 ---

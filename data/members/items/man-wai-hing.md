@@ -16,4 +16,11 @@ en:
   alias: 文嘉麗
   description: ""
   thoughts: ""
+cn:
+  slug: man-wai-hing
+  gender: f
+  position: 演
+  alias: 文嘉丽
+  role: 会友
+  title: 文惠卿
 ---

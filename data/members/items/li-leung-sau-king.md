@@ -16,4 +16,11 @@ en:
   alias: 梁紅玉
   description: ""
   thoughts: ""
+cn:
+  slug: li-leung-sau-king
+  gender: f
+  position: 演
+  alias: 梁红玉
+  role: 会友
+  title: 李梁秀琼
 ---

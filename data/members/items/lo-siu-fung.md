@@ -16,4 +16,11 @@ en:
   alias: 蓋世雄
   description: ""
   thoughts: ""
+cn:
+  slug: lo-siu-fung
+  gender: f
+  position: 演
+  alias: 盖世雄
+  role: 会友
+  title: 卢小凤
 ---

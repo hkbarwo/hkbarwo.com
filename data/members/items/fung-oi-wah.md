@@ -16,4 +16,11 @@ en:
   alias: 華雲鳳
   description: ""
   thoughts: ""
+cn:
+  slug: fung-oi-wah
+  gender: f
+  position: 演
+  alias: 华云凤
+  role: 会友
+  title: 冯爱华
 ---

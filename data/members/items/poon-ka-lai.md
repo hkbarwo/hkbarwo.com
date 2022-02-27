@@ -16,4 +16,11 @@ en:
   alias: 韋重暉
   description: ""
   thoughts: ""
+cn:
+  slug: poon-ka-lai
+  gender: f
+  position: 演
+  alias: 韦重晖
+  role: 会友
+  title: 潘嘉丽
 ---

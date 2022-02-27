@@ -16,4 +16,11 @@ en:
   alias: 英麗虹
   description: ""
   thoughts: ""
+cn:
+  slug: ma-lai-ngor
+  gender: f
+  position: 演
+  alias: 英丽虹
+  role: 会友
+  title: 马丽娥
 ---

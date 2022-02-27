@@ -1,9 +1,9 @@
 ---
 zh:
   gender: f
-  position: 
+  position: null
   slug: lee-chak-yan
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 李澤恩
@@ -11,9 +11,14 @@ zh:
   description: ""
 en:
   role: 會友
-  position: 
+  position: null
   title: Lee Chak Yan
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: lee-chak-yan
+  gender: f
+  role: 会友
+  title: 李泽恩
 ---

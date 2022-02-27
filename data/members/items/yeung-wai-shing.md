@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 武
   slug: yeung-wai-shing
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 楊偉誠
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 武
   title: Yeung Wai Shing
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: yeung-wai-shing
+  gender: m
+  position: 武
+  role: 会友
+  title: 杨伟诚
 ---

@@ -16,4 +16,11 @@ en:
   alias: 雁海寧
   description: ""
   thoughts: ""
+cn:
+  slug: wong-shui-ngan
+  gender: f
+  position: 演
+  alias: 雁海宁
+  role: 会友
+  title: 黄瑞颜
 ---

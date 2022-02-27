@@ -9,4 +9,12 @@ zh:
   coverImage: /images/uploads/resources/channel/epi19.jpg
 en:
   category: cantonese-opera-online-course
+cn:
+  date: 2021-02-28T19:17:33.539Z
+  slug: class-19
+  category: cantonese-opera-online-course
+  coverImage: /images/uploads/resources/channel/epi19.jpg
+  title: 第十九集 念：念白（一）
+  youtubeVideoID: ddSZqa7-R6A
+  content: 粤剧行内有一句话：「千斤口白四両唱」，可见念白十分重要，演员会透过强、弱、快、慢的节奏来表达情绪，今集会示范念白体系中的诗白、打引、英雄白和浪白。
 ---

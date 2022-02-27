@@ -16,4 +16,11 @@ en:
   alias: 張偉雄
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-so
+  gender: m
+  position: 衣
+  alias: 张伟雄
+  role: 会友
+  title: 张苏
 ---

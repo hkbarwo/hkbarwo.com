@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 演
   slug: shem-pak-chuen
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 沈栢銓
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Shem Pak Chuen
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: shem-pak-chuen
+  gender: m
+  position: 演
+  role: 会友
+  title: 沈栢铨
 ---

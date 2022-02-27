@@ -16,4 +16,11 @@ en:
   alias: 白沅縈
   description: ""
   thoughts: ""
+cn:
+  slug: ng-pui-yiu
+  gender: f
+  position: 演
+  alias: 白沅萦
+  role: 会友
+  title: 吴佩瑶
 ---

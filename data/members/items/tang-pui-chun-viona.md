@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 音
   slug: tang-pui-chun-viona
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 鄧佩珍
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 音
   title: Tang Pui Chun Viona
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: tang-pui-chun-viona
+  gender: f
+  position: 音
+  role: 会友
+  title: 邓佩珍
 ---

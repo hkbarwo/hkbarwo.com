@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 演
   slug: wang-kit-ching
-  alias: 
+  alias: null
   photo: ""
   role: 理事
   title: 王潔清
@@ -13,7 +13,13 @@ en:
   role: 理事
   position: 演
   title: Wang Kit Ching
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: wang-kit-ching
+  gender: f
+  position: 演
+  role: 理事
+  title: 王洁清
 ---

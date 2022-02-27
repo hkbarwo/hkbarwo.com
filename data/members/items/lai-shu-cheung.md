@@ -16,4 +16,11 @@ en:
   alias: 孟劍雄
   description: ""
   thoughts: ""
+cn:
+  slug: lai-shu-cheung
+  gender: m
+  position: 演
+  role: 会友
+  title: 黎树祥
+  alias: 孟剑雄
 ---

@@ -5,4 +5,8 @@ zh:
   color: "#6f6f6f"
 en:
   title: Obituaries
+cn:
+  slug: xianyou
+  color: "#6f6f6f"
+  title: 仙游通告
 ---

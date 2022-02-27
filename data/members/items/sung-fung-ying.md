@@ -16,4 +16,11 @@ en:
   alias: 白鳳英
   description: ""
   thoughts: ""
+cn:
+  slug: sung-fung-ying
+  gender: f
+  position: 音
+  alias: 白凤英
+  role: 会友
+  title: 宋凤英
 ---

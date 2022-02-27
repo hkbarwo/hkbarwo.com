@@ -16,4 +16,11 @@ en:
   alias: 東凌
   description: ""
   thoughts: ""
+cn:
+  slug: pang-chiu-mei
+  gender: f
+  position: 演
+  alias: 东凌
+  role: 会友
+  title: 彭照湄
 ---

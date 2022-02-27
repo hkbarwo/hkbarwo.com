@@ -3,7 +3,7 @@ zh:
   gender: f
   position: 演
   slug: cheung-ching-man
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 張靜雯
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Cheung Ching Man
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: cheung-ching-man
+  gender: f
+  position: 演
+  role: 会友
+  title: 张静雯
 ---

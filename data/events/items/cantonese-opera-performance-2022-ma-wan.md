@@ -26,4 +26,25 @@ zh:
   slug: cantonese-opera-performance-2022-ma-wan
 en:
   date: 2022-04-20T01:28:56.047Z
+cn:
+  date: 2022-04-20T01:28:56.047Z
+  slug: cantonese-opera-performance-2022-ma-wan
+  sessions: "9"
+  metadata:
+    - isShowInList: "true"
+      label: 演出日期
+      content: |
+        4月20日至4月24日
+
+        三月二十至三月廿四日
+    - label: 主办机构
+      content: 马湾乡水陆居民庆祝天后宝诞
+    - label: 演出剧团
+      content: 锦升辉剧团
+    - label: 演员
+      content: 卫骏辉、王超群、温玉瑜、钟飓文、裴骏轩、陈纪婷
+    - label: 地点
+      content: 马湾
+  type: celebration
+  title: 2022年（壬寅年）表演四
 ---

@@ -17,4 +17,11 @@ en:
   alias: 區品峰
   description: ""
   thoughts: ""
+cn:
+  slug: au-bun-pik
+  gender: f
+  position: 演
+  alias: 区品峰
+  role: 会友
+  title: 区品璧
 ---

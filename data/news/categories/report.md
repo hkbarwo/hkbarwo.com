@@ -5,4 +5,8 @@ zh:
   color: "#ffc557"
 en:
   title: Report
+cn:
+  slug: report
+  color: "#ffc557"
+  title: 八和汇报
 ---

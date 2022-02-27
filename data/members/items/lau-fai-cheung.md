@@ -16,4 +16,11 @@ en:
   alias: 劉祥
   description: ""
   thoughts: ""
+cn:
+  slug: lau-fai-cheung
+  gender: m
+  position: 演
+  role: 会友
+  alias: 刘祥
+  title: 刘辉祥
 ---

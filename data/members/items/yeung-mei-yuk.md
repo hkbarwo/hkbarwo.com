@@ -16,4 +16,11 @@ en:
   alias: 楊奕衡
   description: ""
   thoughts: ""
+cn:
+  slug: yeung-mei-yuk
+  gender: f
+  position: 衣
+  role: 会友
+  alias: 杨奕衡
+  title: 杨美玉
 ---

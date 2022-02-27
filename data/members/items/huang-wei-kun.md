@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 演
   slug: huang-wei-kun
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 黃偉坤
@@ -13,7 +13,13 @@ en:
   role: 會友
   position: 演
   title: Huang Wei Kun
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: huang-wei-kun
+  gender: m
+  position: 演
+  role: 会友
+  title: 黄伟坤
 ---

@@ -16,4 +16,11 @@ en:
   alias: 關雪麗
   description: ""
   thoughts: ""
+cn:
+  slug: kwan-suk-kam
+  gender: f
+  position: 演
+  alias: 关雪丽
+  role: 会友
+  title: 关淑琴
 ---

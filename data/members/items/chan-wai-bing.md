@@ -16,4 +16,11 @@ en:
   alias: 陳嘉鳴
   description: ""
   thoughts: ""
+cn:
+  slug: chan-wai-bing
+  gender: f
+  position: 演
+  alias: 陈嘉鸣
+  role: 会友
+  title: 陈惠冰
 ---

@@ -16,4 +16,11 @@ en:
   alias: 王超群
   description: ""
   thoughts: ""
+cn:
+  slug: wong-shui-kwan
+  gender: f
+  position: 演
+  alias: 王超群
+  role: 理事
+  title: 王瑞群
 ---

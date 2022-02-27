@@ -16,4 +16,11 @@ en:
   alias: 陳雪雁
   description: ""
   thoughts: ""
+cn:
+  slug: chan-mai-kuen
+  gender: f
+  position: 演
+  alias: 陈雪雁
+  role: 会友
+  title: 陈美娟
 ---

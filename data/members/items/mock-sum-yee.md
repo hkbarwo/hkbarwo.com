@@ -1,9 +1,9 @@
 ---
 zh:
   gender: f
-  position: 
+  position: null
   slug: mock-sum-yee
-  alias: 
+  alias: null
   photo: ""
   role: 會友
   title: 莫心兒
@@ -11,9 +11,14 @@ zh:
   description: ""
 en:
   role: 會友
-  position: 
+  position: null
   title: Mock Sum Yee
-  alias: 
+  alias: null
   description: ""
   thoughts: ""
+cn:
+  slug: mock-sum-yee
+  gender: f
+  role: 会友
+  title: 莫心儿
 ---

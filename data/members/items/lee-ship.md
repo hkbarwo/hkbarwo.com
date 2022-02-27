@@ -16,4 +16,11 @@ en:
   alias: 文華
   description: ""
   thoughts: ""
+cn:
+  slug: lee-ship
+  gender: f
+  position: 武
+  role: 会友
+  alias: 文华
+  title: 李晔
 ---

@@ -16,4 +16,11 @@ en:
   alias: 高少聲
   description: ""
   thoughts: ""
+cn:
+  slug: sin-lok-ko
+  gender: m
+  position: 演
+  alias: 高少声
+  role: 会友
+  title: 单乐高
 ---
