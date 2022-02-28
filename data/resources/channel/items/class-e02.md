@@ -16,6 +16,7 @@ zh:
 
 
     Gwanfa got its name by its unique arrangement. The actor will first sing freely with a melody that fits the atmosphere, then the music would mimic the melody he sung, making an echoing effect.
+  youtubeVideoID: yH9uiMth3kE
 en:
   category: cantonese-opera-online-course
   title: "Barwo Channel: Online Class of Cantonese Opera - Episode 2 Singing:
