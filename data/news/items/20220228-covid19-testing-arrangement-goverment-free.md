@@ -129,6 +129,7 @@ zh:
   category: notice
   slug: covid19-testing-arrangement-goverment-free
   title: 8月份新冠狀病毒病的檢疫安排 及 本會要求政府提供免費測試
+  pdfFile: /uploads/8月份新冠狀病毒病的檢疫安排-及-本會要求政府提供免費測試_rev20210825.pdf
 en:
   content: "**Only available in Chinese version**"
   title: Testing COVID-19 arrangements in August and requesting the government for
