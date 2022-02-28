@@ -5,7 +5,7 @@ cn:
 zh:
   date: 2022-02-28T04:02:30.349Z
   title: 第一集：唱：梆子散板（一）英語字幕版
-  slug: class-01
+  slug: class-e01
   category: cantonese-opera-online-course
   youtubeVideoID: AZp5sJ_Ftzw
   content: |-
