@@ -1,4 +1,26 @@
 ---
+cn:
+  date: 2020-12-16T16:00:00.000Z
+  slug: member-suggestion-box-whatsapp
+  category: notice
+  title: 「会员事务工作小组」设立「八和会员意见箱」WhatsApp 专线
+  content: >-
+    各位会员,
+
+
+    八和会馆一向十分重视与会员的沟通及意见，因此第 39 届理事会成立「会员事 务工作小组」，旨在加强与会员的沟通，收集意见改善会务工作。
+
+
+    ![](/images/uploads/whatsapp-hotline.jpg)
+
+
+    「会员事务工作小组」成员包括:杜韦秀明、陈鸿进、刘惠鸣、王洁清、洪海、 黎耀威、蔡之崴、吴立熙。
+
+
+    小组现正设立「八和会员意见箱」WhatsApp 专线，专缐号码:5249 2874。
+
+
+    由即日起至 2021 年 1 月 31 日，欢迎各位会员透过 WhatsApp 发表对八和会务的 意见。留言时(文字或录音)，各位可选择不记名留言或者留下会员姓名及联络电 话号码，以便小组作出回复及跟进。
 zh:
   date: 2020-12-16T16:00:00.000Z
   title: 「會員事務工作小組」設立「八和會員意見箱」WhatsApp 專線
@@ -22,27 +44,12 @@ zh:
 
     由即日起至 2021 年 1 月 31 日，歡迎各位會員透過 WhatsApp 發表對八和會務的 意見。留言時(文字或錄音)，各位可選擇不記名留言或者留下會員姓名及聯絡電 話號碼，以便小組作出回覆及跟進。
   images: ""
-en: {}
-cn:
-  date: 2020-12-16T16:00:00.000Z
-  slug: member-suggestion-box-whatsapp
+en:
   category: notice
-  title: 「会员事务工作小组」设立「八和会员意见箱」WhatsApp 专线
-  content: >-
-    各位会员,
+  title: Set up a dedicated WhatsApp hotline of suggestion box by Working Group on
+    Membership
+  content: |-
+    
 
-
-    八和会馆一向十分重视与会员的沟通及意见，因此第 39 届理事会成立「会员事 务工作小组」，旨在加强与会员的沟通，收集意见改善会务工作。
-
-
-    ![](/images/uploads/whatsapp-hotline.jpg)
-
-
-    「会员事务工作小组」成员包括:杜韦秀明、陈鸿进、刘惠鸣、王洁清、洪海、 黎耀威、蔡之崴、吴立熙。
-
-
-    小组现正设立「八和会员意见箱」WhatsApp 专线，专缐号码:5249 2874。
-
-
-    由即日起至 2021 年 1 月 31 日，欢迎各位会员透过 WhatsApp 发表对八和会务的 意见。留言时(文字或录音)，各位可选择不记名留言或者留下会员姓名及联络电 话号码，以便小组作出回复及跟进。
+    ### Only available in Chinese version
 ---
