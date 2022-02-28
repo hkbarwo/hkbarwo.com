@@ -18,6 +18,7 @@ zh:
     粵劇很注重排場，演繹戲份重的角色，上場多有眾人演員襯托，今集示範的禾花出水，就可以欣賞到主角更有份量地亮相的場面。
   slug: class-e36
   youtubeVideoID: " fG9xK2LOK9U"
+  coverImage: https://hkbarwo.com/images/uploads/resources/channel/epi36.jpg
 en:
   category: cantonese-opera-online-course
   title: "Barwo Channel: Online Class of Cantonese Opera Episode 36: Acrobatics:
