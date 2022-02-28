@@ -11,7 +11,7 @@ zh:
   title: 第四十二集 唱：牌子 (四) 英語字幕版
   slug: class-e42
   coverImage: /uploads/c42.png
-  youtubeVideoID: " 6LFZsHxPjmg"
+  youtubeVideoID: qFmrshRRMII
 en:
   category: cantonese-opera-online-course
   content: >-
