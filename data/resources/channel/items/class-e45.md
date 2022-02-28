@@ -1,13 +1,8 @@
 ---
 cn:
   date: 2022-02-28T07:56:34.842Z
-  title: "Barwo Channel: Online Class of Cantonese Opera - Episode 45
-    Others:  Guangdong music (1)"
-  content: >-
-    Guangdong music is an instrumental music that popularized in the Pearl River
-    Delta.
-
-    It is also one of the iconic music of the Hans, crispy and bright, fluent and elegant, with a bouncy yet delightful beat.
+  title: ""
+  content: ""
   category: cantonese-opera-online-course
 zh:
   date: 2022-02-28T07:56:34.890Z
@@ -17,5 +12,13 @@ zh:
   category: cantonese-opera-online-course
   slug: class-e45
   coverImage: https://hkbarwo.com/uploads/c45.png
-en: {}
+en:
+  category: cantonese-opera-online-course
+  content: >-
+    Guangdong music is an instrumental music that popularized in the Pearl River
+    Delta.
+
+    It is also one of the iconic music of the Hans, crispy and bright, fluent and elegant, with a bouncy yet delightful beat.
+  title: "Barwo Channel: Online Class of Cantonese Opera - Episode 45
+    Others:  Guangdong music (1)"
 ---
