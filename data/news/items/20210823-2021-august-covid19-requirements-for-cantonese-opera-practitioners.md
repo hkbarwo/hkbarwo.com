@@ -130,8 +130,7 @@ zh:
     食衞局於**8月20日**口頭回覆本會，該局仍考慮如何回應本會的建議，如有決定，該局會盡快回覆本會。
   pdfFile: /uploads/8月份新冠狀病毒病的檢疫安排-及-本會要求政府提供免費測試_rev20210825.pdf
 en:
-  title: Testing COVID-19 arrangements in August and requesting the government for
-    Free
+  title: ""
   category: notice
   content: |-
     
