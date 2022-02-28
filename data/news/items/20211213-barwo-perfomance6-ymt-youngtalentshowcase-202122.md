@@ -142,5 +142,5 @@ en:
 
     ### Only available in Chinese version
   title: Yau Ma Tei Theatre Venue Partnership Scheme Programme - Cantonese Opera
-    Young Talent Showcase 2021/22 (Phase 6) :Tickets will be on sale soon
+    Young Talent Showcase 2021/22 (Phase 6) Tickets will be on sale soon
 ---
