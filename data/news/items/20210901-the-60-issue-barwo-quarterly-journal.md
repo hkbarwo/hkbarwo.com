@@ -24,7 +24,7 @@ zh:
     ![拜會民政事務局 局長曾德成接見 | 觀賞演藝演出 | 陳劍聲來會館開緊急會議](/uploads/60_compressed_page-0006.jpg "拜會民政事務局 局長曾德成接見 | 觀賞演藝演出 | 陳劍聲來會館開緊急會議")
   pdfFile: /uploads/60_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2008-03-30T16:00:00.000Z
   category: report

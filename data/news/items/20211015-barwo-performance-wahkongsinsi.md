@@ -71,7 +71,6 @@ zh:
     香港八和會館謹啟
   pdfFile: /uploads/2021華光誕-傳媒採訪邀請.pdf
 en:
-  category: notice
   title: Press invitation—Set Pieces "Grand Birthday Celebration at Mount Heung
     Fa" for the celebration of Wah Kwong Festival in 2021
   content: "### Only available in Chinese version"

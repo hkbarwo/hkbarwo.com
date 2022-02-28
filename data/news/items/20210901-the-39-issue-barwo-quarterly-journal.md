@@ -24,7 +24,7 @@ zh:
     ![「戲曲資料中心」獲資助服務市民](/uploads/39_compressed_page-0006.jpg "「戲曲資料中心」獲資助服務市民")
   pdfFile: /uploads/39_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2002-12-30T16:00:00.000Z
   slug: the-39-issue-barwo-quarterly-journal

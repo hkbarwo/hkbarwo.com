@@ -24,7 +24,7 @@ zh:
     ![八和愛心獻南亞二作表及演出花絮](/uploads/48_compressed_page-0006.jpg "八和愛心獻南亞二作表及演出花絮")
   pdfFile: /uploads/48_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2005-03-30T16:00:00.000Z
   category: report

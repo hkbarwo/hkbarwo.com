@@ -30,7 +30,7 @@ zh:
     ![華光師傅誕聯歡晚宴 競投福物得主](/uploads/59_compressed_page-0008.jpg "華光師傅誕聯歡晚宴 競投福物得主")
   pdfFile: /uploads/59_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2007-12-30T16:00:00.000Z
   category: report

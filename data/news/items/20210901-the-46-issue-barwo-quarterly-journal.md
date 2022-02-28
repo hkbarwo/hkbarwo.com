@@ -19,7 +19,7 @@ zh:
     ![演藝界女性第一人 汪明荃獲頒銀紫荊星章](/uploads/46_compressed_page-0004.jpg "演藝界女性第一人 汪明荃獲頒銀紫荊星章")
   pdfFile: /uploads/46_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2004-09-29T16:00:00.000Z
   category: report

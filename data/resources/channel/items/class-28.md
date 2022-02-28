@@ -7,7 +7,14 @@ zh:
   slug: class-28
   category: cantonese-opera-online-course
   coverImage: /images/uploads/resources/channel/epi28.jpg
-en: {}
+en:
+  title: "Episode 28  Action: Sheung Cheung 上場 (The appearence) (1)"
+  content: Sheung Cheung (上場) is the set action for an actor to appear on stage.
+    In this episode, we will demonstrate several ways of Sheung Cheung,
+    including "Tai Sheung See Sheung Cheung " (大相思上場), "Chungban Tai Jong Dim
+    Sheung Cheung" (中板大撞點上場), "Lo Shu Mei Sheung Cheung (老鼠尾上場) ", " Sheung
+    Cheung in Naamyam Banmin " (南音板面上場), " Sheung Cheung in the style of Drunken
+    Beauty " (醉酒上場).
 cn:
   date: 2021-02-28T19:26:14.899Z
   slug: class-28

@@ -5,7 +5,7 @@ zh:
   url: /performances/others
   wip: false
 en:
-  title: Performances of Local Troupes
+  title: Performances by Other Groups
   wip: false
 cn:
   slug: performances-others

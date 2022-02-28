@@ -9,7 +9,7 @@ zh:
     - advisors
   wip: false
 en:
-  title: Structure
+  title: Organization Chart
   subPages:
     - committee
     - presidents

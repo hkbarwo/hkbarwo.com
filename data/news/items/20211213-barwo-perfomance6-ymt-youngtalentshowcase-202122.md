@@ -136,7 +136,6 @@ zh:
     電郵：[](mailto:hazelcheung@hkbarwo.com)[hazelcheung@hkbarwo.com](mailto:hazelcheung@hkbarwo.com)
   pdfFile: /uploads/press-release_粵劇新秀演出系列2021-22-演期六.pdf
 en:
-  category: notice
   content: |-
     
 

@@ -11,10 +11,16 @@ zh:
   youtubeVideoID: NHx0fO6MKPI
   coverImage: /images/uploads/resources/channel/epi33.jpg
 en:
-  date: 2021-02-28T06:59:59.180Z
-  title: 第三十三集 做：南派程式（四）配馬排場、點翰排場
-  content: 配馬是粵劇傳統排場做功，通過虛擬動作表演配馬過程，黎耀威、梁非同會分別示範男、女配馬。
-  category: cantonese-opera-online-course
+  title: "Episode 33  Acrobatics: Nampai (Southern) Style (4) Pui Ma (Horse
+    Matching 配馬) Pai coeng, Dim Hon (點翰) Pai coeng"
+  content: >-
+    Pui Ma (horse matching) is is a performance set piece of traditional
+    Cantonese Opera, through which the horse is matched to the actor through
+    virtual actions. Lai Yiu-wai and Leung Fei-tung will demonstrate Pui Ma for
+    the male and female role respectively.
+
+
+    Dimhon (點翰) is one of the traditional set piece in Cantonese Opera. The story  described the emperor conferring the titles of championship[ Chong Yuen (狀元) ],  second  place[ Bong Ngan (榜眼) ] and third place [Tam Fa (探花)]in the golden palace.
 cn:
   date: 2021-02-28T18:07:30.978Z
   slug: class-33

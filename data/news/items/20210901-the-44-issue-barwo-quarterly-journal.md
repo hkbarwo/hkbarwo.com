@@ -24,7 +24,7 @@ zh:
     ![吳君麗珍藏捐文物館](/uploads/44_compressed_page-0006.jpg "吳君麗珍藏捐文物館")
   pdfFile: /uploads/44.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2004-03-30T16:00:00.000Z
   category: report

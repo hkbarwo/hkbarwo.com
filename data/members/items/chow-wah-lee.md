@@ -21,7 +21,7 @@ cn:
   slug: chow-wah-lee
   gender: f
   position: 演
-  isDead: "true"
+  isDead: true
   role: 会友
   alias: 艳影侬
   title: 周华利

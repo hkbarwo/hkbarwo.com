@@ -55,7 +55,6 @@ zh:
     二零二零年十月十九日
   pdfFile: /uploads/91.-2020年華光寶誕暨第卅九屆理事會就職典禮活動安排.pdf
 en:
-  category: notice
   content: "### Only available in Chinese version"
   title: " Special arrangement for the celebration of Wah Kwong Festival (華光誕)2020
     cum Inauguration Ceremony of the 39th Board of Directors"

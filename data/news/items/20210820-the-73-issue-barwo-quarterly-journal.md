@@ -30,7 +30,7 @@ zh:
     ![2010-11年度粵劇教學協作計劃匯報習作暨交流分享會 | 香港八和會館到佛山交流 | 新進戲曲演員進修及實習計劃 | 2011春祭 | 讓我們懷念的粵劇工作者](/uploads/73_compressed_page-0008.jpg "2010-11年度粵劇教學協作計劃匯報習作暨交流分享會 | 香港八和會館到佛山交流 | 新進戲曲演員進修及實習計劃 | 2011春祭 | 讓我們懷念的粵劇工作者")
   pdfFile: /uploads/73_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2011-08-30T16:00:00.000Z
   slug: the-73-issue-barwo-quarterly-journal

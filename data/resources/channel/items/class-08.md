@@ -7,7 +7,15 @@ zh:
   slug: class-08
   category: cantonese-opera-online-course
   youtubeVideoID: Vuziwvlw6Sc
-en: {}
+en:
+  title: "Episode 8  Singing: Yiwong Sanban (二黃散板) (1)"
+  content: ' "You sing Bongzi (梆子) when you win, you sing Yiwong when you lose"
+    .Being one of the two major systems of singing styles in Cantonese opera,
+    Yiwong is featured with a relatively bleak and desolate melody. In this
+    episode, we will introduce and demonstrate "Souban" (首板), "Shakban" (煞板),
+    and "Doban" (倒板) of the "Yiwong Sanban". While "Souban" (首板) often usually
+    appears  at the very beginning of a play, as a "First Sentence". "Shakban"
+    (煞板) is. a second sentence that is usually used in the end of a scene.'
 cn:
   date: 2021-02-28T19:08:41.154Z
   coverImage: /images/uploads/resources/channel/epi08.jpg

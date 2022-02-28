@@ -77,7 +77,6 @@ zh:
   category: notice
   pdfFile: /uploads/防疫抗疫基金4.0_資助發放安排及名單.pdf
 en:
-  category: notice
   title: Relief measures of Arts and Culture Sector Subsidy Scheme under fourth
     Round of Anti-epidemic Fund
   content: |-

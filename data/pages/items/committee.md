@@ -4,7 +4,7 @@ zh:
   slug: committee
   url: /about/organization/committee
 en:
-  title: 理事會
+  title: Board of Directors
 cn:
   slug: committee
   url: /about/organization/committee

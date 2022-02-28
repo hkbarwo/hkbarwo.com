@@ -17,7 +17,7 @@ en:
 cn:
   date: 2022-05-08T03:01:11.905Z
   slug: legendofthewhitesnake-guangdong-2022
-  sessions: "3"
+  sessions: 3
   metadata:
     - label: 演出日期
       content: 2022年5月6日至5月8日

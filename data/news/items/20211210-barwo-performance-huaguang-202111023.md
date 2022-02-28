@@ -60,7 +60,6 @@ zh:
 
     今次新秀演出落力，值得嘉許。
 en:
-  category: event
   content: |-
     
 

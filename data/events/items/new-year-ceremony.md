@@ -16,9 +16,9 @@ en:
 cn:
   date: 2020-02-11T10:03:14.250Z
   slug: new-year-ceremony
-  sessions: "1"
+  sessions: 1
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 活动日期
       content: 2020年2月11日(农历年三十)
   title: 新春祭礼

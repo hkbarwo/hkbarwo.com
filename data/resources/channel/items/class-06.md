@@ -11,7 +11,15 @@ zh:
   slug: class-06
   youtubeVideoID: PwfSTMZeXEg
 en:
-  category: cantonese-opera-online-course
+  title: "Episode 6  Singing: Bongzi Manban (梆子慢板) (1)"
+  content: >-
+    The Banhong Style (板腔體) in Cantonese opera is divided into two major
+    categories of "Bongzi" (梆子) and "Yiwong" (二黃). In this episode, we will
+    introduce and demonstrate "Bongzi Manban" (梆子慢板), including "Manban" in Male
+    Voice (平喉), Female Voice (子喉), and"Bahong" (霸腔). 
+
+
+    "Bongzi Manban" is also known as  "Shigong Manban". this style can be sung in Male Voice, Female Voice, Bahong (霸腔), "Yuktaijor" (肉帶左), and "Hodiu" (河調). In "Bongzi Manban", we could add in an extra sentence between the 2nd and 3rd pause, usually a 1 ban 3 dings sentence.
 cn:
   date: 2021-02-28T19:04:40.034Z
   coverImage: /images/uploads/resources/channel/epi06.jpg

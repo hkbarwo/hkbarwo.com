@@ -111,7 +111,6 @@ zh:
   title: 取消（1月7至9日）派發歲晚福利活動、免收2022年會員年費 及 郵遞歲晚利是
   slug: barwo-covid19-member-activity
 en:
-  category: notice
   content: "### Only available in Chinese version"
   title: Special arrangement for Lunar Year-End Welfare Day 2021
 ---

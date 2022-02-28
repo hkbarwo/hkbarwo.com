@@ -41,7 +41,7 @@ zh:
     ![](/images/uploads/宋洪波、阮德文、洪海、黃成彬示範水髮功.jpg "宋洪波、阮德文、洪海、黃成彬示範水髮功")
   images: /images/uploads/news/四位主禮嘉賓主持八和頻道啟動儀式（由左至右：龍貫天、謝凌潔貞太平紳士、汪明荃和新劍郎）.jpg
 en:
-  category: event
+  title: event
 cn:
   date: 2021-03-01T11:29:15.479Z
   slug: barwo-channel-launch-press-conference

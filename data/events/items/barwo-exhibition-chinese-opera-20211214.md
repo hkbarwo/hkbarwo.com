@@ -43,7 +43,7 @@ en:
 cn:
   date: 2022-01-13T16:00:00.000Z
   slug: barwo-exhibition-chinese-opera-20211214
-  sessions: "1"
+  sessions: 1
   metadata:
     - label: 展期：
       content: 2021年12月13日至2022年1月8日

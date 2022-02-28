@@ -18,7 +18,7 @@ zh:
     ![八和團拜陳劍聲主席傳喜訊](/uploads/56_compressed_page-0004.jpg "八和團拜陳劍聲主席傳喜訊")
   pdfFile: /uploads/56_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2007-03-30T16:00:00.000Z
   category: report

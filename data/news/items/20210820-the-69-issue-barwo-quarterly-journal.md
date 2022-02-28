@@ -19,7 +19,7 @@ zh:
     ![八和與西九候任行政總裁會面 | 八和春祭 | 讓我們懷念的粵劇工作者](/uploads/69_compressed_page-0004.jpg "八和與西九候任行政總裁會面 | 八和春祭 | 讓我們懷念的粵劇工作者")
   pdfFile: /uploads/69_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2010-07-30T16:00:00.000Z
   slug: the-69-issue-barwo-quarterly-journal

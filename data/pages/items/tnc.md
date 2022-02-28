@@ -5,8 +5,8 @@ zh:
   url: /tnc
   wip: false
 en:
-  title: T&C
-  wip: true
+  title: Website Information
+  wip: false
 cn:
   slug: tnc
   url: /tnc

@@ -19,7 +19,7 @@ zh:
     ![理事會選舉逾四成會員投票 汪明荃得四一六票 | 葉紹德獲演藝院士榮譽](/uploads/58_compressed_page-0004.jpg "理事會選舉逾四成會員投票 汪明荃得四一六票 | 葉紹德獲演藝院士榮譽")
   pdfFile: /uploads/58_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2007-09-29T16:00:00.000Z
   category: report

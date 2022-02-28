@@ -17,7 +17,7 @@ zh:
     ![春和日麗好踏春 陳劍聲主席主祭 | 讓我們懷念的粵劇工作者](/uploads/45_compressed_page-0004.jpg "春和日麗好踏春 陳劍聲主席主祭 | 讓我們懷念的粵劇工作者")
   pdfFile: /uploads/45_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2004-06-29T16:00:00.000Z
   category: report

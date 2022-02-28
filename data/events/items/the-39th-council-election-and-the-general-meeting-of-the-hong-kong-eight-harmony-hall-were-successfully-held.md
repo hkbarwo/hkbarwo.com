@@ -22,9 +22,9 @@ en:
 cn:
   date: 2020-07-11T09:42:40.375Z
   slug: the-39th-council-election-and-the-general-meeting-of-the-hong-kong-eight-harmony-hall-were-successfully-held
-  sessions: "1"
+  sessions: 1
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 活动日期
       content: 2020年7月11日
   type: activity

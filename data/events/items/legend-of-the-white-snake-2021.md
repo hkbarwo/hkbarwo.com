@@ -53,59 +53,59 @@ zh:
   location: 廣東藝術劇院(8月20至21日)\ 順德容桂文化藝術中心(8月22日)
   sessions: 1
 en:
+  title: Legend of the White Snake
   date: 2021-08-21T19:07:01.895Z
   metadata:
     - isShowInList: true
-      label: 演出日期
-      content: 2021年8月20至22日
+      label: Date of Performance
+      content: 20-22 August 2021
     - isShowInList: false
-      label: 演出名單
-      content: 林貝嘉、詹浩鋒(8月20至21日)、阮德文、梁非同、蘇鈺子、鄺成軍、鍾一鳴、梁心怡
+      label: List of Performers
+      content: Ms. Kali Lam, Mr. Zhan Haofeng (20-21 August), Mr. Ruan Dewen, Ms. Leung Fei-tung, Ms. So Premium Ojee, Mr. Kwong Shing-kwan, Mr. Chung Yat-ming, Ms. Leung Sum-yee 
     - isShowInList: false
-      label: 演出地點
+      label: Venues of Performance
       content: |-
-        廣東藝術劇院(8月20至21日)\
-        順德容桂文化藝術中心(8月22日)
+        Guangdong Arts Theatre (20-21 August)\
+        Shunde Ronggui Cultural Center (22 August)
     - isShowInList: false
-      label: 演出時間
+      label: Time of Performance
       content: |-
-        晚上8時 及 下午2時30分(廣東藝術劇院)\
-        晚上8時 (順德容桂文化藝術中心)
+        8:00pm and 2:30pm (Guangdong Arts Theatre)\
+        8:00pm (Shunde Ronggui Cultural Center)
     - isShowInList: false
-      label: 藝術總監
-      content: 新劍郎
+      label: Artistic Director
+      content: Mr. Sun Kim-long
   content: >-
-    香港八和會館與上海崑劇團在「上海藝術節」期間合作，滬港兩地的年輕演員合作演出《白蛇傳》。香港的年輕演員將演出《驚變》、《盜仙草》、《斷橋》三折，簡介如下:
+    While the Chinese Artist Association of Hong Kong (CAAHK) and Shanghai Kunqu Opera Troupe collaborated during the "Shanghai Arts Festival", young actors from Shanghai and Hong Kong performed "The Legend of the White Snake", in which young actors from Hong Kong performed the 3 excerpts of "Frightful Incident", "Stealing the Magic Herbs" and "On Broken Bridge". The synopsis of the excerpts are as follows:
 
 
-    《驚變》: 許仙與白素貞夫婦二人居於西湖畔，贈醫施藥，兩人生活平靜安好。金山寺的法海禪師知道素貞乃蛇妖化身，教唆許仙用雄黃酒，使素貞現出原形，許仙受驚嚇至死。
+    "Frightful Incident" - Xu Xian and Bai Suzhen lived peacefully by the West Lake. The romantic couple looked after the ill and generously gave them free medicines. Their lives were peaceful and well. Zen Master Fahai of Jinshan Temple, after knowing that Suzhen was the incarnation of a snake demon, instigated Xu Xian to use realgar wine to make Suzhen show her original form as a snake. Sadly, Xu Xian was frightened to death.
 
 
-    《盜仙草》: 為救活許仙，素貞冒死盜取靈芝仙草，力戰鶴童及鹿童，終從南極仙翁手上取得靈芝救夫。
+    "Stealing the Magic Herbs" - In order to save Xu Xian, her husband, Suzhen risked her life stealing the magic herbs of Lingzhi. After fighting against Hetong (Crane Elves) and Lutong (Deer Elves), she finally got the magic herbs from Nanji Xianweng (Old Man of the South Pole) and saved her husband.
 
 
-    《斷橋》:水漫金山後，素貞與小青敗走斷橋，與許仙相遇。兩人經幾番解釋及互訴衷情以後，終於冰釋前嫌。
+    "On Broken Bridge" - After the flood in the Jinshan Mountains, Suzhen and Xiaoqing walked down the broken bridge and met Xu Xian. After a long explanation and gaining mutual understanding, the couple finally let bygones be bygones.
 
 
-    # 節目特色
+    **Features of the Programme**
 
 
-    是次演出的幾段折子戲，體現了粵劇這個廣東戲種的特色。粵劇藝術是嶺南文化的載體，充份表現了嶺南文化靈活多變、海納百川的特色。粵劇在發展的途中，不斷吸收不同劇種及地方音樂的養份，形成獨有的表演風格。
+    The several excerpts performed in this round of collaboration embodied the characteristics of Cantonese opera as a specialized genre in the Guangdong region. In fact, the art of Cantonese opera is the carrier of Lingnan culture that fully expresses the characteristics of the culture as being flexible and inclusive. In order to form a unique performance style of itself, Cantonese opera has continuously integrated the essences of various types of opera and local music throughout its entire process of development.
 
 
-    音樂方面，除通用的板腔體外(梆黃、大調小調、牌子等)，還加入了廣東音樂、小曲，甚至廣東的說唱，如:南音、木魚、龍舟、粵謳等。此外，粵劇的大鑼鼓更是粵劇最顯著的特色，粵劇獨有的文鑼和高邊鑼，更善於為劇情營做氣氛。京劇名演員裴艷玲，對粵劇的鑼鼓極為推崇，更指出廣東鑼鼓讓演員的亮相最為威武。除粵劇獨有的大鑼鼓，也引入了京鑼鼓，令擊樂部份更加豐富。除了中式樂器外，粵劇音樂亦會按需要加入西洋樂器，如:小提琴、色士風等，增加了粵劇音樂的變化。
+    In terms of music, Guangdong music, Xiaoqu (folk tunes), and even Guangdong rap, such as: Nanyin, Muyu, Dragon Boat, Yueju, etc. were also added on top of the general Banqiang Style (Banghuang, Dadiao and Xiaodiao, Paizi, etc.). In addition, big gongs and drums are the most distinctive feature of Cantonese opera. The unique gongs and high-side gongs of Cantonese opera are great instruments at creating the atmosphere in different scenes. Ms. Pei Yanling, famous Peking opera actor, highly recommends the gongs and drums of Cantonese opera. She pointed out that Guangdong gongs and drums have boosted the powerful energy at the actors' appearance on stage. In addition to the unique big gongs and drums, Beijing gongs and drums have also been introduced to Cantonese opera in order to enrich the percussion part. Apart from all the Chinese musical instruments, Western musical instruments such as violin, saxophone, etc., have also been used in Cantonese opera as needed. The fusion of East and West has certainly enriched the diversity of Cantonese opera music.
 
 
-    粵劇音樂的靈活多變，亦可體現於唱腔。粵劇有專為個別情節度製的「專腔」，如:罪子腔(《六郎罪子》中楊六郎的專有唱腔)，也有不少粵劇名演員按照自己的演繹特色，自創個人的「專腔」，因而形成了活潑繁多的流派。這次演出的《斷橋》，在花旦的唱段中，由二黃體系的「反線二黃」連接過渡至梆子體系的「反線中板」，充份表現了粵劇音樂的靈活變化。
+    The flexibility of Cantonese opera music can also be shown in singing. In particular, "special tunes" have been specifically designed to fit the individual plots in Cantonese opera, such as Guizi (Reprimanding the Son) tune (the exclusive tune of Yang Liulang in "Luk-long Reprimands His Son"). In fact, many famous Cantonese opera actors also created their own personal singing styles according to their own deductive characteristics. Hence, the "special tunes" have formed lively and diverse genres. In the Huadan's (female role) singing part during this performance of "On Broken Bridge", the transition from Fanxian Erhuang in the Erhuang system to Fanxian Zhongban in the Bangzi System has fully demonstrated the flexibility and diversity of Cantonese opera music.
 
 
-    此外，除了既定的身段、做手和程式，粵劇搬演故事內容時，有較強的彈性，演繹的方法比較活潑和生活化。是次演出的《驚變》，小夫妻兩人的閒話家常片段，就表現了粵劇較生活化的演繹方式。
-  title: 白蛇傳
+    Apart from the pre-defined movement, hand gestures and styles, Cantonese opera has a strong flexibility when reproducing the content of the story, in which the interpretation is often more lively and life-oriented. In the performance of "Frightful Incident", the scenes of the little couple's daily conversation have shown the more life-oriented interpretation of Cantonese opera.
 cn:
   date: 2021-08-21T19:07:01.895Z
   slug: legend-of-the-white-snake-2021
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 演出日期
       content: 2021年8月20至22日
     - label: 演出名单
@@ -122,7 +122,7 @@ cn:
       content: 新剑郎
   title: 白蛇传
   type: performance
-  sessions: "1"
+  sessions: 1
   location: 广东艺术剧院(8月20至21日)\ 顺德容桂文化艺术中心(8月22日)
   content: >-
     香港八和会馆与上海昆剧团在「上海艺术节」期间合作，沪港两地的年轻演员合作演出《白蛇传》。香港的年轻演员将演出《惊变》、《盗仙草》、《断桥》三折，简介如下:

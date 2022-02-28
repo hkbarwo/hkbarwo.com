@@ -25,12 +25,12 @@ cn:
   slug: the-opening-performance-of-cantonese-opera-rookie-performance-series-2020-21-goes-on-smoothly
   date: 2020-10-10T09:26:49.845Z
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 活动日期
       content: 2020年10月10日
   location: 油麻地戏院
   title: 「粤剧新秀演出系列2020-21」开幕演出顺利进行
-  sessions: "1"
+  sessions: 1
   type: activity
   content: 本年度（2020-21年度）「粤剧新秀演出系列」原定于7月开锣，惟由于疫情肆虐，演出暂缓至表演场地重开，开幕演出于2020年10月10日顺利举行。开幕演出当日下午进行了开幕拜神仪式，艺术总监尹飞燕女士、阮兆辉先生、本计划督导委员会主席谢雪心女士，以及一众新秀演员皆出席仪式，祈求演出顺利。晚上的演出也吸引了不少期待已久的观众入场欣赏剧目《活命金牌》，主要演员包括：高文谦、芳映雪、黄钰华、李沂洛、袁缨华等。
 ---

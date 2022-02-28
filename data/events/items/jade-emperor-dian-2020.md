@@ -31,12 +31,12 @@ cn:
   slug: jade-emperor-dian-2020
   date: 2020-08-17T17:16:49.650Z
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 演出日期
       content: 2020年10月8至9日 、16至18日
   title: 玉皇登殿
   type: performance
-  sessions: "1"
+  sessions: 1
   location: 屯门大会堂(10月8至9日)、香港文化中心(10月16至18日)
   content: >-
     本会获康乐及文化事务署邀请，假屯门大会堂及香港文化中心献演传统粤剧例戏《玉皇登殿》、《八仙贺寿》、《加官》和《仙姬送子》及排场折子戏《平贵别窰》、《困谷》、《打洞结拜》、《关公守华容》、《白门楼之陈宫骂曹》、《金莲戏叔》和《刘金定斩四门》，并由新剑郎、罗家英和龙贯天出任艺术总监。

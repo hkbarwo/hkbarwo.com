@@ -30,7 +30,7 @@ zh:
     ![2010年度會員週年大會](/uploads/71_compressed_page-0008.jpg "2010年度會員週年大會")
   pdfFile: /uploads/71_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2010-12-30T16:00:00.000Z
   slug: the-71-issue-barwo-quarterly-journal

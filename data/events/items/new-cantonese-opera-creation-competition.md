@@ -21,7 +21,7 @@ en:
 cn:
   date: 2021-03-09T09:49:38.463Z
   slug: new-cantonese-opera-creation-competition
-  sessions: "1"
+  sessions: 1
   metadata:
     - label: 报名时间
       content: 6月30日截止

@@ -21,7 +21,7 @@ cn:
   slug: chan-miu-fung
   gender: m
   position: 演
-  isDead: "true"
+  isDead: true
   alias: " "
   role: 会友
   title: 陈妙风

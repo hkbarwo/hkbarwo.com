@@ -66,7 +66,6 @@ zh:
 
     左起：總幹事岑金倩小姐、副主席新劍郎先生、主席汪明荃博士、蔡敏志教授及艾祖華博士
 en:
-  category: event
   content: "### Only available in Chinese version"
   title: " An interview by the Celebration of Wah Kwong Festival (華光誕) in
     2021—  Prof Choa Gillian and Dr Abrams Joshua, HKAPA"

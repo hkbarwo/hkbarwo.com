@@ -29,9 +29,9 @@ en:
 cn:
   date: 2022-03-17T06:24:42.251Z
   slug: 2022-cantonese-opera-performence-kwu-tung
-  sessions: "5"
+  sessions: 5
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 演出日期
       content: |-
         3月17日至3月19日

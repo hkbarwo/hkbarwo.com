@@ -11,7 +11,5 @@ zh:
   category: event
   youtubeVideoID: Perh43NHW3s
 en:
-  category: event
-  title: Performance Clip of Floral Arrangement from the Grand Birthday
-    Celebration at Mount Heung  Fa 2020
+  title: Performance Clip of Floral Arrangement from the Grand Birthday Celebration at Mount Heung  Fa 2020
 ---

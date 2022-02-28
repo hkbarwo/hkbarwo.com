@@ -4,7 +4,7 @@ zh:
   slug: development
   color: "#ffc557"
 en:
-  title: 會務發展
+  title: Council Development
 cn:
   slug: development
   color: "#ffc557"

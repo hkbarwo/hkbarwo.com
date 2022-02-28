@@ -25,7 +25,7 @@ zh:
     ![羊城國際粵劇節《斬二王》](/uploads/63_compressed_page-0006.jpg "羊城國際粵劇節《斬二王》")
   pdfFile: /uploads/63_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2008-12-30T16:00:00.000Z
   slug: the-63-issue-barwo-quarterly-journal

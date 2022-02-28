@@ -8,8 +8,16 @@ zh:
   slug: class-38
   youtubeVideoID: Zyl8e73pNUs
 en:
-  date: 2021-02-28T18:34:10.897Z
-  category: cantonese-opera-online-course
+  title: Episode 38  Wearing of Costumes (1)
+  content: In this episode, we will look at how the performers wear their head
+    accessories and costumes. In fact, there are professional costume assistants
+    in the industry commonly known as The Wardrobes are responsible for helping
+    the performers wear their costumes. Let’s have a look at the demonstrations
+    of different costumes! Wan Yuk-yu will demonstrate how to wear Fu Ji Gan
+    (夫子巾) and Male Mong 男蟒, Chui Yuet-ming will demonstrates Phoenix Crown and
+    Female Mong- costume and accessories of   Fadan(花旦), and Chan Hung-chun will
+    demonstrate the outfits for Small Officer – costume and accessories of the
+    Clown Role (丑生).
 cn:
   date: 2021-02-28T18:34:10.889Z
   coverImage: /images/uploads/resources/channel/epi38.jpg

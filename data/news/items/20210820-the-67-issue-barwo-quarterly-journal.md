@@ -24,7 +24,7 @@ zh:
     ![粵劇成功列入聯合國《人類非物質文化遺產代表作名錄》新聞發佈會| 2009粵劇日 粵曲演唱會 | 一月派歲晚利是 | 八和拜會佛山](/uploads/67_compressed_page-0006.jpg "粵劇成功列入聯合國《人類非物質文化遺產代表作名錄》新聞發佈會| 2009粵劇日 粵曲演唱會 | 一月派歲晚利是 | 八和拜會佛山")
   pdfFile: /uploads/67_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2009-12-30T16:00:00.000Z
   slug: the-67-issue-barwo-quarterly-journal

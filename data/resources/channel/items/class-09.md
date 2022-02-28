@@ -10,7 +10,16 @@ zh:
 
     二黃滾花，又名「合尺滾花」，分有七字和十字句，亦可有活動句。滾花的特色是有旋律、無叮板，演員先唱出曲詞，音樂按照所唱音階再伴奏，形成先唱後奏的效果。
   youtubeVideoID: 1Y5MQi46Rww
-en: {}
+en:
+  title: "Episode 9  Singing: Yiwong Sanban (二黃散板) (2)"
+  content: >-
+    "You sing Bongzi (梆子) when you win, you sing Yiwong when you lose" .Being
+    one of the two major systems of singing styles in Cantonese opera, "Yiwong"
+    is featured with a relatively bleak and desolate melody. In this episode, we
+    will introduce and demonstrate "Yiwong Sanban".
+
+
+    Yiwong Gwanfa is also known as  "So-Re Gwanfa  " (合尺滾花). The sentences can be in seven or ten words. Action sentences can also be added in this kind of singing style. "Gwanfa" is characterized by its melody without "Dingban" (叮板) and the singing before music.  The actor will sing first, then the music would mimic the melody he sung, making an echoing effect.
 cn:
   date: 2021-02-28T19:09:33.120Z
   slug: class-09

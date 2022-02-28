@@ -37,35 +37,27 @@ zh:
 en:
   commitieesTitle: ""
   commitiees: []
-  title: 香港普福堂粤劇樂師會有限公司
-  title2: (音樂部)
-  shortTitle: 普福堂
+  title: Hong Kong Po Fook Tong Cantonese Opera Musicians’ Association Limited
+  title2: (Music Department)
+  shortTitle: Po Fook Tong
   description: >-
-    一九四九年解放前，香港已有一雁班經常來往港穗的打鑼鼓(主要是八手)從業聚集來往，聚會地點在廟街八十三號公仔友(下手，原名江友)家中；而常在此落腳的有：譚桂華、長人耀(本姓簡)、打鑼樹(羅家樹)、容彰業(打鑼王)、梁金(金鳳凰樂器店東主)等人。
+    Before the liberation in 1949, there were already groups of professional gong and drum players [mainly Pak Sau (cymbal players)] who frequently traveled to and from Hong Kong and Guangzhou. Their meeting place was at the house of their peer at 83 Temple Street (formerly known as Kong Yau). Musicians who often settled there included: Tam Kwai-wah, Cheung Yan Yiu (original surname - Kan), Da Lor Shu (Law Ka-shu), Yung Cheung-yip (King of Gongs), Leung Kam (owner of Golden Phoenix Musical Instrument Store), and others.
 
+    Because of the associations with Mr. Wong Yuet-sang and Mr. Lam Siu-lau who played Western music, the group of gong and drum players developed the idea of organizing a musicians' union. In 1951, under the arrangement of Mr. Ho Hoi-ki, the rooftop of the Seamen's Union School in Sai Kung Street was lent to them as a temporary office for their Music Department in Hong Kong. Since then, a union-like organization of Cantonese opera musicians appeared. Back then, there were about 18 members.
 
-    因為與玩西樂的王粵生、林兆鎏等交往，所以漸有組織樂師工會的念頭。一九五一年，在何海琪的安排下，商借西貢街「海員工會學校」天台，作為香港「音樂部」的臨時辦事處，一個帶工會性質的粵劇樂師懼型組織便出現了，當時成員約有十八人。
+    In 1952, the Music Group of Hong Kong Barwo Association was formally established, with Mr. Wan Chi-chung appointed as the first group leader. Since the CAAHK was not formally established back then, the Music Group was in fact an independent organization. However, the Group was still dependent upon the Guangzhou Barwo Opera Professional Trade Union - Hong Kong Branch.
 
+    In 1953, the CAAHK was formally established. Since the Music Department was related to the Association and there is no official club-house, it was necessary to arrange a desk in the CAAHK for handling official matters. Meanwhile, the application was made for members to officially join the Music Department to the CAAHK.
 
-    一九五二年，「香港八和會館音樂組」正式成立，由尹自重出任首屆組長，由於當時未正式成立「香港八和會館」，所以「音樂組」實屬一獨立組織，但仍以「廣州省八和粵劇職業工會香港分會」為依附對象。
+    After years of borrowing the venue at the CAAHK, the directors of the Music Department decided to purchase their own club-house through fundraising. While requesting those who worked in major troupes to donate two days of salary, other members were welcome to help at their own will. Unfortunately, there was still insufficient fund for purchasing a premise. Finally, Mr. Lam Siu-lau, the then vice-chairman of the Board of Directors, borrow two $2,000 from Ms. Ng Kwan-lai, his protégé, and was able to purchase one of the units at the current site at the Alhambra Building in 1966/67. The Board of Directors once leased out the unit for generating profits. However, since the tenants were unable to afford the rent, the directors decided to use the unit as an official club-house of the group. Meanwhile, the venue was also opened for recreational activities, such as Mahjong, in order to increase income.
 
+    As the Department continued to develop and generate more income, the Board of Directors once again asked members to raise funds in 1958 for the purpose to purchase and merge the adjacent unit for expansion of the club-house. The Department was later formally registered as the Hong Kong Po Fook Tong Cantonese Opera Musicians’ Association Limited on November 15, shortly known as Po Fook Tong.
 
-    一九五三年，「香港八和會館」正式成立，由於「音樂部」與會館有統屬關係，且無正式會址，遂得在會館安排一張寫字枱辦公，並重新辦理加入「八和」及「音樂部」的手續。
+    The welfare offered by Po Fook Tong is roughly the same as that of the CAAHK, which distributes welfare payments at lunar year end to members as well as condolence money for relatives of those members who have passed away. In order to protect the rights and interests of its members, there is a rule set to prohibit cooperation with non-members for opera performances. Meanwhile, the troupes must also hire 16 musicians for large, public performances, 12 for medium-sized performances, and 9 for performances of small-scale. In the past, there was also a system to put unemployed musicians on the list to assign work for them. With the revival of Cantonese opera and music shows in the past ten years, it has been not necessary for members to be listed anymore. Thus, the system nowadays exists in name only.
 
+    There are currently about 280 members in the Music Department. Except for some retired musicians or those who have migrated, most of the members are full-time musicians, while some work on a part-time basis or are engaged in other industries. The current Directors are full of ambitions to expand the size and bring more benefits for its members.
 
-    經過多年借用會館地方後，「音樂部」各理事便決定用集資形式購買會址，要求在大班工作的報效兩天工資，其他會員隨緣樂助，但仍不能籌得足夠款項，終於由當屆副理事長林兆鎏向其徒吳君麗商借兩千元，方能買下平安大廈現會址其中一單位，時為六六、六七年間。而當時的理事會曾出租該單位，由於住客欠租，遂收回作正式會址作用，並開設麻雀耍樂等康樂活動增加收入。
-
-
-    一九五八年，因會務發展，經濟比較充裕，理事會再次發動會員集資，購買相鄰另一單位，打通相連，並於十一月十五日正式註冊成為「香港普福堂粵劇樂師會有限公司」，簡稱「普福堂」 。
-
-
-    「普福堂」的福利大致與會館相同，設有歲晚派發的福利金及會員仙遊的福壽金。此外，為保障會員權益，定演出時不能與非會員合作；劇團公演時亦按現定大班聘用十六人、中班十二人、細班九人。以前也有會派(失業的樂師掛牌輪候工作)的制度，但近十年因粵劇、曲藝的復興，已沒有會員掛牌，使這個制度名存實亡。
-
-
-    目前會員約二百八十人，除了部份退休或移民外，大部份為全職樂師，部分為兼職或從事其他行業。而現屆理事，仍充滿雄心壯志，拓展會務，為會員謀福利。
-
-
-    而據「音樂部」提供的書面資料，一九五五年為第一屆「八和會館音樂部」(一般慣稱「音樂部」或「音樂組」) 。到一九八四年第廿一屆商議註冊，一九八五年正式註冊，現屆理事長麥惠文在一九九四年正式接任。
+    According to the written information provided by the Music Department, the first council for the CAAHK Music Department (usually called the Music Department or Music Group) was formed in 1955. By the 24th session in 1984, members started to discuss about the possibility of registration, which was formally realized in 1985. Mr. Mak Wai-man, the current Chairman of the Board of Direction, formally took over the role since 1994.
 cn:
   logo: /images/uploads/associations/po-fook-tong-g.svg
   slug: po-fook-tong

@@ -15,7 +15,6 @@ zh:
   slug: barwo-ymt-bad-acting
   category: event
 en:
-  category: event
   content: |-
     
 

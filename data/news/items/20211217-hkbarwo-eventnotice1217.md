@@ -41,6 +41,5 @@ zh:
     二零二一年十二月十七日
   images: ""
 en:
-  category: event
   content: "### Only available in Chinese version"
 ---

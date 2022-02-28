@@ -29,9 +29,9 @@ en:
 cn:
   date: 2022-04-20T04:41:14.422Z
   slug: 2022-cantonese-opera-performence-high-island
-  sessions: "9"
+  sessions: 9
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 演出日期
       content: |-
         4月20日至4月24日

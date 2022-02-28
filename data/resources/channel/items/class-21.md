@@ -13,7 +13,15 @@ zh:
   category: cantonese-opera-online-course
   coverImage: /images/uploads/resources/channel/epi21.jpg
 en:
-  category: cantonese-opera-online-course
+  title: "Episode 21  Action: Somersaults"
+  content: >-
+    Somersaults are usually performed on the carpet.It could be categorized into
+    hard and soft carpet skills. The skills involve tumbling, swooping ( Dit
+    Pok跌撲), and  wrestlingas the training items. Somersaults performed on the
+    carpet are called "rolling", whereas somersaults in the air are called
+    "tumbling". 
+
+     The following stunts are performed by professionals under expert supervision, please do not try this at home
 cn:
   date: 2021-02-28T19:19:09.009Z
   slug: class-21

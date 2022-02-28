@@ -15,14 +15,14 @@ zh:
   description: 香港八和會館成立於一九五三年，並於二零零九年註冊為慈善機構，並發表了「粵劇承傳計劃」，包括搶救傳統技藝、專業培訓、拓展巿場/
     觀眾、在傳統上發展粵劇。本會旨在確立和保護粵劇在香港的生存機制，加固其承傳體系及擴展其傳播層面，使粵劇能夠活態地承傳下去。
 en:
-  title: 八和會館
-  shortTitle: 關於我們
-  subtitle: 創意與傳承
+  title: Chinese Artists Association of Hong Kong (CAAHK) 
+  shortTitle: About Us
+  subtitle: Inheritance
   description: >-
-    香港八和會館成立於滿清光緒年間，至今已有一百三十餘年歷史，一直是廣東粵劇從業員的專業組織。會館曾經多次改組，前身分別為八和劇員總公會、八和粵劇協進會、廣東八和粵劇職業工會。
+    Established during the reign of the Emperor Guangxu (1875-1908) in the Qing Dynasty, the Chinese Artists Association of Hong Kong (CAAHK) has a history of more than 130 years. Being a professional organization for Cantonese Opera practitioners in the Guangdong Province, the CAAHK has undergone several changes and restructuring since its establishment and was previously known as The Chinese Actors’ Association (八和劇員總公會), Association for the Development of Cantonese Opera (八和粵劇協進會), and Guangdong Professional Union for Cantonese Opera Performers (廣東八和粵劇職業工會).
 
 
-    一九五三年，在廣東八和粵劇職業工會香港分會的基礎上，重新註冊成立香港八和會館，作為香港粵劇工作者的團體組織。
+    On the basis of the Hong Kong branch of the Guangdong Professional Union for Cantonese Opera Performers, the CAAHK was re-registered as a professional organization for Cantonese Opera performers Hong Kong in 1953.
   buttonTitle: 探索我們的故事
   buttonLink:
     page: introduction

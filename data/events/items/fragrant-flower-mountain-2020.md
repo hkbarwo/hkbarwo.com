@@ -33,12 +33,12 @@ cn:
   slug: fragrant-flower-mountain-2020
   date: 2020-11-12T16:33:04.452Z
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 演出日期：
       content: 2020年11月13日
   location: 高山剧场
   title: 香花山大贺寿
-  sessions: "1"
+  sessions: 1
   type: performance
   content: >-
     二零二零年华光诞《香花山大贺寿》演出阵容鼎盛，制作阵容鼎盛，由本会与六大属会倾力合作，还有多位资深演员和戏坛新秀携手同台演出，当中包括由李龙饰韦驮、温玉瑜饰曹宝、邓美玲饰观音、一点鸿饰降龙、吴立熙饰伏虎、沈栢铨饰大头佛。传统粤剧功架如「韦驮架」、「降龙架」、「伏虎架」和「观音十八变」是全剧焦点所在。《仙姬送子》则由黎耀威和庄婉仙饰演董永和七姐。今年演出受疫情影响，本会为配合政府防疫措施，开放五成座位，只邀请理事会成员和演职员

@@ -13,7 +13,14 @@ zh:
   category: cantonese-opera-online-course
   youtubeVideoID: jCRTm5zJngo
 en:
-  category: cantonese-opera-online-course
+  title: "Episode 24  Action: Steps"
+  content: >-
+    According to many experts,"Steps come before one's singing."A clear
+    statement of how much steps help to represent a charcter steps would vary
+    according to different characters, roles, and even costumes.
+
+
+    As the saying goes, "The body is moved by steps, and steps follow the body." This describes how inseparable the body gesture and steps are.  In fact, all steps movement are started from the waist. Hence, how the waist is used is very important to steps.
 cn:
   date: 2021-02-28T19:22:07.149Z
   coverImage: /images/uploads/resources/channel/epi24.jpg

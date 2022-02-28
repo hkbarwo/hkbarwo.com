@@ -131,7 +131,6 @@ zh:
   slug: an-open-letter-to-the-chief-executive-of-hksar-20210319
   category: notice
 en:
-  category: notice
   content: "### Only available in Chinese version"
   title: "【Open letter】 Rescue World-Class Intangible Cultural Heritage - Save
     Traditional Cantonese opera (San Gung Hei)from the Crisis of Interruption  "

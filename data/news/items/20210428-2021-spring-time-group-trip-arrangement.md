@@ -32,7 +32,6 @@ zh:
     特此通告，敬希垂注。
   pdfFile: /uploads/2021春季旅行_活動安排變動通告_rev_20210428.pdf
 en:
-  category: notice
   content: |-
     
 

@@ -21,7 +21,7 @@ cn:
   slug: chan-ho-kau
   gender: f
   position: 演
-  isDead: "true"
+  isDead: true
   role: 会友
   alias: 陈好逑
   title: 陈好逑

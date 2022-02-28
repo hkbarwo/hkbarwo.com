@@ -23,7 +23,7 @@ zh:
     ![陳劍聲梁漢威獲鑪峰贈興](/uploads/55_compressed_page-0006.jpg "陳劍聲梁漢威獲鑪峰贈興")
   pdfFile: /uploads/55_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2006-12-30T16:00:00.000Z
   category: report

@@ -29,9 +29,9 @@ en:
 cn:
   date: 2022-04-20T01:28:56.047Z
   slug: cantonese-opera-performance-2022-ma-wan
-  sessions: "9"
+  sessions: 9
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 演出日期
       content: |
         4月20日至4月24日

@@ -11,7 +11,9 @@ zh:
     於指法可以表示到喜怒哀樂；塵拂變化多端，剛柔並重；「大帶」又名「板帶」，是短打武生常見服飾之一，演員使用大帶的過程中必須掌握力度、幅度及角度。
   youtubeVideoID: qkY79kv7JQU
 en:
-  category: cantonese-opera-online-course
+  title: "Episode 26  Action: Basic Skills (2) Finger Gestures,  Chan Fut 塵拂 (Fly
+    Whisks), Tai Tai 大帶 (Long Belt)"
+  content: In this episode, we will introduce and demonstrate the Finger  Gestures
 cn:
   date: 2021-02-28T19:23:38.755Z
   slug: class-26

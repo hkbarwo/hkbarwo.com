@@ -21,7 +21,7 @@ cn:
   slug: yau-sing-po
   gender: m
   position: 演
-  isDead: "true"
+  isDead: true
   alias: " "
   role: 会友
   thoughts: " "

@@ -9,7 +9,6 @@ zh:
   category: event
   youtubeVideoID: _f3elqbxGtY
 en:
-  category: event
   title: Performance Clip of Dragon Tamer from the Grand Birthday Celebration at
     Mount Heung  Fa 2020 – Yat Dim-hung
 ---

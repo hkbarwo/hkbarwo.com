@@ -37,9 +37,9 @@ cn:
   date: 2021-09-10T03:33:39.844Z
   slug: performances-prosperifyopera-2021
   coverImage: /uploads/0ba94925-c306-4a71-9961-c3194d419501.jpg
-  sessions: "1"
+  sessions: 1
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 演出日期
       content: |-
         2021年9月17日至

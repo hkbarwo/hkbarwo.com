@@ -16,11 +16,12 @@ zh:
     (羅家英、龍貫天、新劍郎、王超群、陳鴻進、溫玉瑜、黎耀威)
     負責構思、規劃整體的節目內容，再由多位藝術總監分別負責每集節目的選材、選角和示範內容。40集節目內容多樣化，每集專題介紹唱、做、唸、打、化妝及穿戴等不同範疇的內容。《八和頻道：粵劇網上學堂》誠為粵劇入門的最佳指南，是有興趣多認識和了解粵劇人士的不二之選。
 en:
-  shortTitle: 推廣
-  title: 八和頻道
-  subtitle: 粵劇教育及賞析
-  description: 八和會館於2020年在民政局的支持下，製作了《八和頻道：粵劇網上學堂》共40集教材視頻，七位製作小組成員：羅家英、龍貫天、新劍郎、王超群、陳鴻進、溫玉瑜、黎耀威精心設計每條視頻主題，內容囊括唱、做、唸、打、化妝及穿戴等，並由多位藝術總監負責執行及選取教材，所有視頻於2021年3月起上載至八和頻道，供世界各地觀眾觀看，藉此機會，通過網絡的無遠弗屆，向全世界的觀眾，有系統地介紹如何賞析粵劇。
-  buttonTitle: 探索我們的頻道
+  shortTitle: Promotion
+  title: Barwo Channel
+  subtitle: Promote the art and culture of Cantonese opera
+  description: >-
+    In order to promote the art and culture of Cantonese opera to more audiences in different parts of the world, the Chinese Artist Association of Hong Kong (CAAHK), with the support of the Home Affairs Bureau of the Government of the Hong Kong Special Administrative Region, has produced the series of Barwo Channel: Cantonese Online Classes in 2020. A total of 40 episodes of guided teaching materials in Cantonese opera were produced. Through good use of the far-reaching Internet, viewers from all over the world can watch 40 episodes of Cantonese opera guided tours for free at any time and grasp useful simplification of the theories. Under the leadership of Dr. Wang Ming-chuen liza, producer of the series, the production team consisted of seven members (Dr. Law Ka-ying, Mr. Lung Koon-tin, Mr. Sun Kim-long, Ms. Wong Chiu-kwan, Mr. Chan Hung-chun, Mr. Wan Yuk-yu, Mr. Lai Yiu-wai) was responsible for the themes and planning of the overall programme contents. Meanwhile, several art directors were responsible for the selection, casting and content demonstration in each episode. The contents in the 40 episodes were diversified, with each episode focusing different elements of Cantonese opera such as singing, acting, recitation and acrobatics, makeup, costumes, etc. As the best guide for introductory Cantonese opera, the Barwo Channel: Cantonese Online Classes is surely the best choice for people who are interested in knowing more about Cantonese opera.
+  buttonTitle: Browse our channel
   buttonLink:
     page: channel
 cn:

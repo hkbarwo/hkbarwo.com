@@ -19,7 +19,7 @@ zh:
     ![口述歷史（五）胡九口述歷史專訪 | 拜訪油尖旺區議會 | 汪主席訪問美西八和](/uploads/66_compressed_page-0004.jpg "口述歷史（五）胡九口述歷史專訪 | 拜訪油尖旺區議會 | 汪主席訪問美西八和")
   pdfFile: /uploads/66_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2009-10-30T16:00:00.000Z
   slug: the-66-issue-barwo-quarterly-journal

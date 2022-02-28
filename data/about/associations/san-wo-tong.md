@@ -18,18 +18,19 @@ zh:
     慎和堂會員大部份為班政家、戲班經理，現今會員人數不足一百人，於2003年理事長馬國超的開放政策下(他認為所有願意發展粵劇，投資粵劇的人都應予以入會)，相信會員人數會有所增加。
   logoWhite: /images/uploads/associations/group-1144.svg
 en:
-  title: 香港粤劇慎和堂有限公司
-  title2: (事務部)
-  shortTitle: 事務部
+  title: The Hong Kong Cantonese Opera Sun Wo Tong Company Limited
+  title2: (General Affairs Department)
+  shortTitle: General Affairs Department
   description: >-
-    一九五三年香港八和會館成立不久，藉福堂、全福堂、慎成堂三堂提議合併，便成為八和屬下的事務部，至一九八五年香港粵劇慎和堂有限公司正式註冊成立，事務部才獨立起來成為八和屬會之一，理事會兩年一屆。
+    Shortly after the establishment of the Chinese Artist Association of Hong Kong (CAAHK) in 1953, it was proposed to merge the three halls of Chik Fook Tong, Chuen Fook Tong, and Shen Shing Tong and form the General Affairs Department of the CAAHK. By 1985, The Hong Kong Cantonese Opera Sun Wo Tong Company Limited was formally registered, and it was not until then that the General Affairs Department became independent as one of the Affiliated Associations of CAAHK. The Board of Directors is held once every two years.
 
+    Before becoming a limited company, the General Affairs Department did not offer any welfare to its members. Since 1985, the Department started to offer benefits and distribute $200 to each member at the end of the year, while each member has to pay a monthly membership fee of $2.
 
-    事務部未成立有限公司之前，並無派發任何福利，一九八五年之後方有設福利，主要是年終發給各位會員二百元，而每位會員則須繳付每月二元的會費。
+    In April 1983, the General Affairs Department organized a fundraising performance entitled Cantonese Opera Evening by Renowned Performers and Celebrities (紅伶名流閏秀粵曲歌唱晚會) in the City Hall and the then Chairman was Mr. Wong Yim.
 
-    事務部曾於一九八三年四月假座大會堂舉辦「紅伶名流閏秀粵曲歌唱晚會」籌款義演，時黃炎為理事長；後在一九八五年，即成立有限公司那一年，又為買會址事宜舉行籌款義演。事務部擁有的物業包括有現今的會址，即九龍油麻地寧波街21號嘉泰大廈四樓及一收租單位，位於九龍佐敦道偉澄街偉澄商場229室。
+    In 1985 (the year when the limited company was established), another fundraising performance was held in order to raise funds for purchasing a new club-house. The properties owned by the General Affairs Department include the current club-house (i.e. 4/F of Agatha House, 21 Ning Po Street, Yau Ma Tei, Kowloon), and a leased out unit located at Room 229, Wai Ching Shopping Centre, Wai Ching Street, Jordan Road, Kowloon.
 
-    慎和堂會員大部份為班政家、戲班經理，現今會員人數不足一百人，於2003年理事長馬國超的開放政策下(他認為所有願意發展粵劇，投資粵劇的人都應予以入會)，相信會員人數會有所增加。
+    Most of the members of Sun Wo Tong are social elites and troupe managers. Currently, the number of members is less than 100. Under the opening policy of Mr. Ma Kwok-chiu, the then Chairman in 2003, who believed that all those who are willing to develop and invest in Cantonese opera should join Sun Wo Tong, the number of members is expected to increase.
   commitieesTitle: ""
   commitiees: []
 cn:

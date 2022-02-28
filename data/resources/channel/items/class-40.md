@@ -11,8 +11,14 @@ zh:
   slug: class-40
   youtubeVideoID: jtNLx_OUsw4
 en:
-  date: 2021-02-28T18:36:54.684Z
-  category: cantonese-opera-online-course
+  title: Episode 40  Three Tables and Six Chairs
+  content: >-
+    In the stage of Cantonese opera, there are many virtual arrangements, and
+    many different sceneries can be created by using just one table and two
+    chairs.
+
+
+    In this episode, some stage technicians of Cantonese opera (known as Toi Hau (台口) will demonstrate set up different scenes according to specific needs. 
 cn:
   date: 2021-02-28T18:36:54.677Z
   coverImage: /images/uploads/resources/channel/epi40.jpg

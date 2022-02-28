@@ -4,7 +4,7 @@ zh:
   slug: advisors
   url: /about/organization/advisors
 en:
-  title: 顧問
+  title: Patrons/Advisors
 cn:
   slug: advisors
   url: /about/organization/advisors

@@ -7,7 +7,7 @@ zh:
   url: /member/directory
 en:
   wip: false
-  title: Members List
+  title: Members’ List
   description: ""
 cn:
   slug: member-directory

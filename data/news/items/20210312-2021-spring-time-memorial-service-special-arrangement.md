@@ -25,7 +25,6 @@ zh:
   slug: 2021-spring-time-memorial-service-special-arrangement
   pdfFile: /uploads/春祭_活動安排變動通告＿rev.pdf
 en:
-  category: notice
   title: "Special arrangement for Spring Worship "
   content: "### Only available in Chinese version"
 ---

@@ -23,7 +23,7 @@ zh:
     ![華光先師寶誕香花山賀壽演員表 | 紅線女獲頒榮譽博士](/uploads/51_compressed_page-0006.jpg "華光先師寶誕香花山賀壽演員表 | 紅線女獲頒榮譽博士")
   pdfFile: /uploads/51_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2005-12-30T16:00:00.000Z
   category: report

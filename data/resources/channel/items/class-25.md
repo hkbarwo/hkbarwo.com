@@ -8,7 +8,15 @@ zh:
   category: cantonese-opera-online-course
   coverImage: /images/uploads/resources/channel/epi25.jpg
 en:
-  category: cantonese-opera-online-course
+  title: "Episode 25 Action: Basic Skills (1) Water Sleeve Techniques, Fan Skills"
+  content: Water Sleeve Techniques, Fan Skills will be presented in this episode.
+    The water sleeve technique requires the coordinated movements of the
+    fingers, wrist, Elbows and shoulders. Through the stage movements and
+    sleeves , the performers can express their emotions and show their beauty to
+    the audience by the water sleeve technique . Meanwhile, fan skills are a
+    basic technique of Cantonese Opera. With the help of fans, the performers
+    could excute movements that expressthe character’h of feelings,
+    personalities and emotions.
 cn:
   date: 2021-02-28T19:22:53.346Z
   slug: class-25

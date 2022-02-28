@@ -39,13 +39,13 @@ cn:
   slug: bahe-channel-cantonese-opera-online-school-starts-shooting
   date: 2020-09-14T04:31:04.279Z
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 活动日期
       content: 2020年9月14至30日
   location: 香港理工大学赛马会综艺馆
   type: activity
   title: 〈八和频道：粤剧网上学堂〉开拍
-  sessions: "1"
+  sessions: 1
   content: >-
     〈八和频道：粤剧网上学堂〉在香港理工大学赛马会综艺馆正式开镜拍摄，一连拍摄16日，以「唱、做、念、打」为主题，制作共40集网上粤剧节目，是自新型冠状病毒疫症爆发以来，首个大型粤剧推广项目，动员近400位工作人员参与。
 

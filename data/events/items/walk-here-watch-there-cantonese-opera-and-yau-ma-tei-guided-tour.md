@@ -17,9 +17,9 @@ cn:
   date: 2020-01-11T04:25:43.384Z
   slug: walk-here-watch-there-cantonese-opera-and-yau-ma-tei-guided-tour
   coverImage: /uploads/images/events/過往活動10.這邊走，那邊看-2.jpg
-  sessions: "1"
+  sessions: 1
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 活动日期
       content: 2020年1月11至12日
   type: activity

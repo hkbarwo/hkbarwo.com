@@ -22,26 +22,24 @@ zh:
       icon: ""
       iconDark: ""
 en:
-  title: 捐款辦法
+  title: Donation Methods
   methods:
-    - title: 銀行轉帳
+    - title: Bank Transfer
       content: |-
-        銀行名稱：恆生銀行
-        帳戶號碼*：284-015831-001
-        [*請註明帳戶名稱：「香港八和會館」或「THE CHINESE ARTISTS ASSN OF HK」]
+        Name of the Bank: Hang Seng Bank
+        Account number*：284-015831-001
+        [*Please specify the account name: "香港八和會館" or "THE CHINESE ARTISTS ASSOCIATION OF HK"]
       icon: /uploads/images/support/offering/bank.svg
       iconDark: /uploads/images/support/offering/bank.svg
-    - title: 郵寄支票
+    - title: Send a Cheque by Mail
       content: |-
-        收款人：「香港八和會館」或「THE CHINESE ARTISTS ASSN OF HK
-        地址：香港油麻地彌敦道493號展望大廈4字樓A室
+        Payee: 香港八和會館 or THE CHINESE ARTISTS ASSOCIATION OF HK
+        Address: Unit A, 4/F, Prospect Building, 493 Nathan Road, Yau Ma Tei, Hong Kong
       icon: /uploads/images/support/offering/mail.svg
       iconDark: /uploads/images/support/offering/mail.svg
     - title: ""
       content: |-
-        所有捐款可憑正式收據申請稅務減免，有關捐助事宜及資料，請聯絡阮小姐。
-        電話：2384-2929 
-        電郵：enquiry@hkbarwo.com
+        All donations are tax deductible with official receipts. For donation and enquiries information, please contact Ms. Yuen at 2384 2929 or email: enquiry@hkbarwo.com 
       icon: ""
       iconDark: ""
 cn:

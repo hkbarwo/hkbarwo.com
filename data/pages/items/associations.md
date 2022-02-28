@@ -4,7 +4,7 @@ zh:
   slug: associations
   url: /about/associations
 en:
-  title: Associations
+  title: Affiliated Associations, Sub-Organizations
 cn:
   slug: associations
   url: /about/associations

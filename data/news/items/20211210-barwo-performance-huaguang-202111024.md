@@ -60,7 +60,6 @@ zh:
     ![](/uploads/mar_5793.jpg)
   category: event
 en:
-  category: event
   content: |-
     
 

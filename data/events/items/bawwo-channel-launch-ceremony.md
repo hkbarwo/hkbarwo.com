@@ -27,12 +27,12 @@ cn:
   slug: barwo-channel-launch-ceremony
   coverImage: /uploads/images/events/barwochannel-logo.jpg
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 活动日期
       content: 2021年3月1日
     - label: 活动地点
       content: 油麻地戏院
-  sessions: "1"
+  sessions: 1
   type: activity
   title: 八和频道启动礼
   content: >-

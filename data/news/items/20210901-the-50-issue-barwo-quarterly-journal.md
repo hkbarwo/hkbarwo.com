@@ -19,7 +19,7 @@ zh:
     ![康文署新訂租場措施 | 新光接受續約 接受預訂演期](/uploads/50_compressed_page-0004.jpg "康文署新訂租場措施 | 新光接受續約 接受預訂演期")
   pdfFile: /uploads/50_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2005-09-29T16:00:00.000Z
   category: report

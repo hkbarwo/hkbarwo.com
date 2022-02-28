@@ -24,7 +24,7 @@ zh:
     ![師父誕競投福物得款九十三萬 | 廣州振興粵劇十周年慶典 本港紅伶參與交流演出](/uploads/43_compressed_page-0006.jpg "師父誕競投福物得款九十三萬 | 廣州振興粵劇十周年慶典 本港紅伶參與交流演出")
   pdfFile: /uploads/43_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2003-12-30T16:00:00.000Z
   category: report

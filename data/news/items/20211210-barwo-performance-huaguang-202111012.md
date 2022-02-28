@@ -34,7 +34,6 @@ zh:
     ![](/uploads/img_1007.jpg)
   images: ""
 en:
-  category: event
   content: |-
     
 

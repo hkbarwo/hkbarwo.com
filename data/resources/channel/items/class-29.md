@@ -7,7 +7,12 @@ zh:
   coverImage: /images/uploads/resources/channel/epi29.jpg
   content: 「上場」是演員出場亮相的固定程式，今集會示範多個上場程式，包括七槌鑼鼓上場、和撞鐘上場等。
   youtubeVideoID: 0KFnOpSrE6U
-en: {}
+en:
+  title: "Episode 29  Action: Sheung Cheung (The appearence上場) (2)"
+  content: Sheung Cheung (上場) is the set action for an actor to appear on stage.
+    In this episode, we will demonstrate several ways of Shenug Cheung,
+    including "Tsat Chui Luo Gu (Seven Hammering of Gongs and Drums) Sheung
+    Cheung" (七槌鑼鼓上場), Chong Chung Sheung Cheung (撞鐘上場), etc.
 cn:
   date: 2021-02-28T19:27:04.425Z
   slug: class-29

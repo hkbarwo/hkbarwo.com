@@ -18,7 +18,7 @@ zh:
     ![粵劇發展基金暨粵諮會會議](/uploads/52_compressed_page-0004.jpg "粵劇發展基金暨粵諮會會議")
   pdfFile: /uploads/52_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2006-03-30T16:00:00.000Z
   category: report

@@ -4,7 +4,7 @@ zh:
   slug: event
   color: "#4cb6dd"
 en:
-  title: 大型活動 (演 出、研 討 會、其他)
+  title: Large-scale Events (Performances, Seminars, Others)
 cn:
   slug: event
   color: "#4cb6dd"

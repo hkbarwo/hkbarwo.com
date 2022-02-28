@@ -29,9 +29,9 @@ en:
 cn:
   date: 2021-06-15T10:21:36.543Z
   slug: magic-stage-schedule-2021-3
-  sessions: "9"
+  sessions: 9
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 演山日期
       content: |-
         6月15日至6月19日

@@ -73,7 +73,6 @@ zh:
     如有任何疑問，可致電2384 2929，或電郵 [david.chow@hkbarwo.com](mailto:david.chow@hkbarwo.com)向職員周朗峰先生查詢。
   pdfFile: /uploads/5kv2-_計劃內容_v3.pdf
 en:
-  category: notice
   content: |-
     
 

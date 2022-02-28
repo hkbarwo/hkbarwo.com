@@ -121,7 +121,6 @@ zh:
   title: 「八和頻道」啟動禮——傳媒採訪邀請
   pdfFile: /uploads/2.-「八和頻道」啟動禮—傳媒採訪邀請.pdf
 en:
-  category: notice
   content: |-
     
 

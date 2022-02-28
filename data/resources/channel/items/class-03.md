@@ -13,7 +13,16 @@ zh:
   slug: class-03
   youtubeVideoID: IXd9q9vJiVg
 en:
-  category: cantonese-opera-online-course
+  title: "Episode 3  Singing: Bongzi Chungban (梆子中板) (1)"
+  content: >-
+    The Banhong Style (板腔體) in Cantonese opera is divided into two major
+    categories of "Bongzi" (梆子) and "Yiwong" (二黃). In this episode, we will
+    introduce and demonstrate the category of "Bongzi Chungban", which
+    includes  "Chengsin" (正線), "Fansin  Chungban"(反線中板), "Traditional
+    Chungban"(古老中板).  
+
+
+    "Chungban" can comes in seven-word or ten-word per sentence with the beats made up of alternating bans and dings. The music starts with a ding. In terms of style, "Bongzi Chungban" can be sung in "Male Voice" (平喉), "Female Voice" (子喉), and "Bahong " (霸腔). Meanwhile, the mode of "Chungban" is changeable. It can be divided into) "Chengsin" (正線), "Fansin" (反線), and "Yifan" (乙反), and "Ti-Fa" (乙反). The rhythm can be slow, moderate, and fast.
 cn:
   date: 2021-02-28T19:02:06.706Z
   coverImage: /images/uploads/resources/channel/epi03.jpg

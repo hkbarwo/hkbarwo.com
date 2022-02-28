@@ -17,7 +17,7 @@ zh:
     ![陳劍聲主席領隊春祭 | 讓我們懷念的粵劇工作者](/uploads/57_compressed_page-0004.jpg "陳劍聲主席領隊春祭 | 讓我們懷念的粵劇工作者")
   pdfFile: /uploads/57_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2007-06-29T16:00:00.000Z
   category: report

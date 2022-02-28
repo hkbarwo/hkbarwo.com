@@ -15,9 +15,9 @@ en:
 cn:
   date: 2020-03-08T09:56:18.949Z
   slug: bahe-care-for-the-elderly-visiting-action
-  sessions: "1"
+  sessions: 1
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 活动日期
       content: 2020年3月8日
   type: activity

@@ -29,9 +29,9 @@ en:
 cn:
   date: 2022-07-14T08:51:41.270Z
   slug: cantonese-opera-performance-2022-sai-kung-hebe-haven
-  sessions: "9"
+  sessions: 9
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 演出日期
       content: |-
         7月14日至7月18日 

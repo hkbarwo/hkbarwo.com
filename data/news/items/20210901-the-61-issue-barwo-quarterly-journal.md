@@ -23,7 +23,7 @@ zh:
     ![汪明荃主席領隊春祭 | 讓我們懷念的粵劇工作者](/uploads/61_compressed_page-0006.jpg "汪明荃主席領隊春祭 | 讓我們懷念的粵劇工作者")
   pdfFile: /uploads/61_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2008-06-29T16:00:00.000Z
   category: report

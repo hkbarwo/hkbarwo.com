@@ -8,7 +8,13 @@ zh:
   category: cantonese-opera-online-course
   coverImage: /images/uploads/resources/channel/epi19.jpg
 en:
-  category: cantonese-opera-online-course
+  title: "Recitation: Nimbak (唸白) (1)"
+  content: In Cantonese opera, there is a famous saying that recitation is
+    weighted more important than signing.we can see that recitation is more
+    important . The actors will express their emotions through strong, weak,
+    fast, and slow pace. In this episode, we will demonstrate The " Nimbak
+    System" in Cantonese opera is divided into "Szebazk" (詩白poetic), "Dayan"
+    (打引), Yinghungbak (heroic,英雄白), and Longbak (浪白) .
 cn:
   date: 2021-02-28T19:17:33.539Z
   slug: class-19

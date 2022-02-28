@@ -19,7 +19,7 @@ en:
 cn:
   date: 2021-03-06T17:33:04.120Z
   slug: 19-20-school-year-report-performance
-  sessions: "1"
+  sessions: 1
   metadata:
     - label: 活动日期
       content: |-

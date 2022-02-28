@@ -9,6 +9,5 @@ zh:
   slug: inauguration-ceremony-of-the-39th-council
   youtubeVideoID: uVU4XfDf65s
 en:
-  category: notice
-  title: " Inauguration Ceremony of the 39th Board of Directors— documentary"
+  title: "Inauguration Ceremony of the 39th Board of Directors — documentary"
 ---

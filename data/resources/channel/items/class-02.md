@@ -12,7 +12,17 @@ zh:
   slug: class-02
   category: cantonese-opera-online-course
   youtubeVideoID: BhkMmtbyo3E
-en: {}
+en:
+  title: "Episode 2  Singing: Bongzi Sanban (梆子散板) (2)"
+  content: >-
+    The Banhong Style (板腔體) in Cantonese opera is divided into two major
+    categories of "Bongzi" (梆子) and "Yiwong" (二黃). In this episode, we will
+    introduce and demonstrate   the "Gwanfa" (滾花) category of Bongzi Sanban.
+    Gwanfa, which includes "Tuenkui" (short verses, 短句), "Cheungkui " (long
+    verses, 長句) and "Yifan Gwanfa " (乙反滾花).
+
+
+    "Gwanfa" is characterized by its melody without "Dingban" (叮板) and the singing before music. The actor will sing first, then the music would mimic the melody he sung, making an echoing effect. 
 cn:
   date: 2021-02-28T19:01:27.150Z
   coverImage: /images/uploads/resources/channel/epi02.jpg

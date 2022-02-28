@@ -26,7 +26,7 @@ zh:
     ![香港八和會館辦公室工作報告（2012年9月至11月）｜第三十五屆理事會第十五次至十八次會議議程 ｜ 2012年八和大事回顧](/uploads/78-page-007.jpg "香港八和會館辦公室工作報告（2012年9月至11月）｜第三十五屆理事會第十五次至十八次會議議程 ｜ 2012年八和大事回顧")
   pdfFile: /uploads/78.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2013-01-20T16:00:00.000Z
   slug: the-78-issue-barwo-quarterly-journal

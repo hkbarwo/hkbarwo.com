@@ -19,7 +19,7 @@ zh:
     ![開山劈石 奠基八和：陳醒棠口述歷史專訪](/uploads/64_compressed_page-0004.jpg "開山劈石 奠基八和：陳醒棠口述歷史專訪")
   pdfFile: /uploads/64_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2009-03-31T03:43:50.389Z
   slug: the-64-issue-barwo-quarterly

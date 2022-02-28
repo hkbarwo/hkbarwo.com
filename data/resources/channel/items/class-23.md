@@ -11,7 +11,11 @@ zh:
   category: cantonese-opera-online-course
   youtubeVideoID: XhrQj_cB4EY
 en:
-  category: cantonese-opera-online-course
+  title: "Episode 23  Action: Hand Gesture"
+  content: Hand gesture refers to the movement of hands and arms, including "Lai
+    San" (拉山) and "Chi Fat" (finger gestures).Different  kinds of  finger
+    gestures would be used by the character‘s different types of roles, genders,
+    costumes, identities and accessories.
 cn:
   date: 2021-02-28T19:20:44.481Z
   coverImage: /images/uploads/resources/channel/epi23.jpg

@@ -30,7 +30,7 @@ zh:
     ![八和會館與西九文化管理局 合辦農曆年棚戲演出 | 呂洪廣、黃肇生、劉建榮獲嘉許獎 | 總幹事岑金倩以服務八和為榮](/uploads/74_compressed_page-0008.jpg "八和會館與西九文化管理局 合辦農曆年棚戲演出 | 呂洪廣、黃肇生、劉建榮獲嘉許獎 | 總幹事岑金倩以服務八和為榮")
   pdfFile: /uploads/74_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2011-12-30T16:00:00.000Z
   slug: the-74-issue-barwo-quarterly-journal

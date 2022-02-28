@@ -17,7 +17,7 @@ zh:
     ![樂山公司羅守輝先生與爭取永久演出場地小組會議 | 文千歲演薛覺先戲劇人生](/uploads/54_compressed_page-0004.jpg "樂山公司羅守輝先生與爭取永久演出場地小組會議 | 文千歲演薛覺先戲劇人生")
   pdfFile: /uploads/54_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2006-09-29T16:00:00.000Z
   category: report

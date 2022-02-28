@@ -29,9 +29,9 @@ en:
 cn:
   date: 2021-09-22T10:26:36.645Z
   slug: magic-stage-schedule-2021-5
-  sessions: "9"
+  sessions: 9
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 演出日期
       content: |-
         9月22日至9月26日

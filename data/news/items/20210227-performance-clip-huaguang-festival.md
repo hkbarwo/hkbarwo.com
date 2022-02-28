@@ -9,7 +9,6 @@ zh:
   slug: performance-clip-huaguang-festival-1
   youtubeVideoID: NFWYprnLNcQ
 en:
-  category: event
   title: Performance Clip of Wei Tuo from the  "Grand Birthday Celebration at
     Mount Heung Fa"  2020 – Lee Lung
 ---

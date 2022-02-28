@@ -55,7 +55,6 @@ zh:
     附件二：[「預防及控制疾病（規定及指引）（業務及處所）規例全文](https://www.gld.gov.hk/egazette/pdf/20212588e/cgn20212588193.pdf)
   pdfFile: /uploads/ilovepdf_merged.pdf
 en:
-  category: notice
   title: The Home Affairs Bureau promulgated the epidemic prevention measures to
     be followed upon resumption of  San Gung Hei（神功戲）
   content: "### Only available in Chinese version"

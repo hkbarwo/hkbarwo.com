@@ -9,6 +9,5 @@ zh:
   slug: huaguang-festival-twentytwenty-ceremony-highlights
   youtubeVideoID: ifJ4kUUpvHA
 en:
-  category: event
   title: The Wah Kwong Festival (華光誕) 2020- Worship
 ---

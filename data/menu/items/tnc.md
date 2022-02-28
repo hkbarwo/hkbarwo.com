@@ -4,7 +4,7 @@ zh:
   slug: tnc
   page: tnc
 en:
-  title: Terms
+  title: Website Information
 cn:
   slug: tnc
   page: tnc

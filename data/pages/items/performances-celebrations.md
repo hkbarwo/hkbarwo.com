@@ -5,7 +5,7 @@ zh:
   url: /performances/celebrations
   wip: false
 en:
-  title: Ritual Performances Information
+  title: Information of San Gung Hei
   wip: false
 cn:
   slug: performances-celebrations

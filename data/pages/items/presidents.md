@@ -4,7 +4,7 @@ zh:
   slug: presidents
   url: /about/organization/presidents
 en:
-  title: 會長
+  title: President
 cn:
   slug: presidents
   url: /about/organization/presidents

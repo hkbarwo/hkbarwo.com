@@ -123,7 +123,6 @@ zh:
        hazelcheung@hkbarwo.com
   pdfFile: /uploads/press-release_粵劇新秀演出系列2021-22_大專場.pdf
 en:
-  category: notice
   title: '"Forty Years of Cherished Love", a performance of the Cantonese Opera
     Young Talent Showcase, was held as a guided show at the City University of
     Hong Kong for the first time'

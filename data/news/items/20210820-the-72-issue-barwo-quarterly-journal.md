@@ -24,7 +24,7 @@ zh:
     ![《香港戲曲年鑑2010》資料徵集 | 八和代表出席香港教育學院「社區綜藝節2011」啟動禮 | 農曆年三十晚賀壽 | 八和網頁推陳出新](/uploads/72_compressed_page-0006.jpg "《香港戲曲年鑑2010》資料徵集 | 八和代表出席香港教育學院「社區綜藝節2011」啟動禮 | 農曆年三十晚賀壽 | 八和網頁推陳出新")
   pdfFile: /uploads/72_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2011-03-30T16:00:00.000Z
   slug: the-72-issue-barwo-quarterly-journal

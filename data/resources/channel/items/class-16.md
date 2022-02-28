@@ -8,7 +8,12 @@ zh:
   coverImage: /images/uploads/resources/channel/epi16.jpg
   youtubeVideoID: 47S04Ibe34g
 en:
-  category: cantonese-opera-online-course
+  title: "Episode 16  Singing: Paizi (牌子) (2)"
+  content: ' Some of the songs, which sung in Mandarin, usually accompanied by
+    Suona (嗩吶) or other music accompaniment Paizi originated from Kunqu Opera or
+    Yikyeunghong (弋陽腔). In this episode, we will demonstrate"We the Six Nations"
+    (俺六國), "Grief for Ngan Wui " (嘆顏回), " Mourning in the dawn"  (嘆五更), "Drowsy
+    (矇矓)".'
 cn:
   date: 2021-02-28T19:15:20.933Z
   slug: class-16

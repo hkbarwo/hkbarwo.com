@@ -29,9 +29,9 @@ en:
 cn:
   date: 2021-07-13T10:24:24.348Z
   slug: magic-stage-schedule-2021-4
-  sessions: "11"
+  sessions: 11
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 演出日期
       content: |-
         7月13日至7月18日

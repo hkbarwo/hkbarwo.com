@@ -26,26 +26,21 @@ zh:
 en:
   commitieesTitle: ""
   commitiees: []
-  title: 香港戲劇舞台燈光佈景職工會有限公司
-  title2: (燈光佈景部)
-  shortTitle: 燈光佈景部
+  title: Hong Kong Theatre Lighting and Scenic Artists Association Limited
+  title2: (Lighting and Scenic Department)
+  shortTitle: Lighting and Scenic Department
   description: >-
-    「香港八和會館燈光佈景部」(簡稱「畫部工會」)前身隸屬「廣東機器工會」(第三特別區分會)即「佈景燈光工會」。「機器工會」行業包括：汽車、內河船、電工及機械。由於範圍廣，會員多，處事團結，所以有一定的約束力及影響力。
+    The CAAHK Lighting and Scenic Department (shortly known as the Scenic Workers’ Union) formerly belonged to the Guangdong Mechanical Workers’ Union (3rd Special District Branch) under the Scenic and Lighting Workers’ Union. The Mechanical Workers' Union includes industries such as automobiles, river vessels, and electrical and mechanical work. Due to its wide scope and a large number of members who have developed strong bonding with each other, the group possessed a certain binding force and influence.
 
+    Due to the gradual advancement of technology in the early days of the Republic of China, Cantonese opera performances changed from using large lamp poles to generators and electric lighting. Hence, Cantonese opera was linked to the machinery industry. According to Mr. Lee Chu, the current Chairman of the Scenic Workers’ Union, and Mr. Tsui Kuen, a senior representative of the industry, the Mechanical Workers' Union at the time would exert strong power in protecting the rights and interests of its members, especially in terms of wage and equality. Whenever the workers participate in the performance, they must report to the local Mechanical Workers' Union and show a Divisional Work Permit before they could perform on the stage. Otherwise, the Mechanical Workers' Union could exercise its right to stop the workers from work.
 
-    民初時代，因為科技日漸進步，粵劇演出也由燃點大光燈的形式改用發電機及電燈照明，所以與機器行業扯上關係。據「畫部工會」現任理事長李珠及元老派代表徐權所講，當時的「機器工會」十分維護會員的權益，如遇上欠薪的戲船行走。工友參加演出時，必須到當地「機器工會」報到，並要出示一張「分區會開工紙」才可開班，否則「機器工會」有權叫工友停工。
+    Before the liberation, all Cantonese opera troupes must register with the Machinery Workers' Union and send workers to work in Hong Kong before they could stage their performances in Hong Kong. As the Machinery Workers' Union in Guangzhou was dissolved after the liberation, members who stayed in Hong Kong could only register with the Hong Kong  Machinery Workers' Union in order to continue working in theatrical troupes.
 
+    In October 1965, Mr. Mak Bing-wing, the then Chairman of the CAAHK, discussed with Mr. Ho Dou-hung and Mr. Yip Chung, representatives of the Scenic Workers' Union, and invited workers of the industry to join the CAAHK as members of the Cantonese opera community. Ho and Yip, together with Choi Sin-kok, Choi Kei, Chui Kuen, etc., were responsible for leading the workers in the Scenic Department. At the same time, the Lighting and Scenic Department of the CAAHK was formally established.
 
-    解放前，如在香港有粵劇演出，必須在廣州「機器工會」登記,派人到港參加工作。解放後，廣州「機器工會」已取消，留港的會員祇可在香港「機器工會」登記，繼續參加戲班工作。
+    As a veteran technician, Mr. Ho Dou-hung started everything from scratch. With decades of hard work, the Lighting and Scenic Department is finally running smoothly. Around 20 years ago, he rented the present self-owned club-house as the gathering place for members, with income mainly from collecting monthly membership fees, welfare fees paid by members who deliver classes, and mahjong recreational fees. However, the Department still relies on subsidies from enthusiastic directors when the reserve is insufficient to cover annual expenditures (for events such as welfare for lunar year end, paper offerings, general expenses, etc.).
 
-
-    一九六五年十月，當時八和會館主席麥炳榮與「畫部工會」代表何斗雄及葉仲商議，邀請工友加入會館作為粵劇界一份子，並由他們兩人及蔡先覺、蔡基、徐權等負責領導畫部工友，同時亦正式成立「香港八和會館燈光佈景部」。
-
-
-    元老派何斗雄及會務，是從艱苦經營開始，至今總算平穩；二十多年前是租用現今的自置會址作會員聚集的地方，收入來自每月會費，開班的會員繳納福利費及麻雀康樂費。但全年開支如：歲晚福利、福壽金、常務開支等有不敷之時，均依賴熱心的理事補貼才能解決經濟問題。
-
-
-    「畫部工會」於一九九零年正式註冊為「香港戲劇舞台燈光佈景職工會有限公司」，並於同年由各理事集資買下現有的會址，繼績承擔聯繫會員及發展會務的工作。目前面對會員老化及入行者少的問題，三位均表示寄望不大的態度。從前面對的問題是一般的班務，但可糊口維生，祇擔心年輕者染上陋習；如今因收入不足以吸引年輕力壯者入行，缺乏繼承者延續一些傳統手藝，所以祇可淡然面對。
+    The Scenic Workers' Union was officially registered as the Hong Kong Theatre Lighting and Scenic Artists Association Limited in 1990. In the same year, the directors raised funds to purchase the existing club-house in order to carry on with the work of members' liaison and further development. In facing the succession problem due to ageing of members and a decreasing number of new joiners in the industry, all three veteran technicians were not optimistic. While the problems in the past were mainly operation-related and the concerns over young practitioners developing bad habits, the workload was sufficient for practitioners to make a living. Today, however, the low income nature of the industry has failed to attract young people, which results in a lack of inheritors to carry on with traditional crafts. In the midst of such helpless situation, the old master can only go with the flow indifferently.
 cn:
   slug: theatre-lighting-and-scenic-artists-association
   logo: /images/uploads/associations/lighting-set-g.svg

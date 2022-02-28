@@ -35,14 +35,14 @@ cn:
   date: 1999-12-31T19:07:01.895Z
   purchaseURL: http://example.com
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: Example
       content: Example
   youtubeVideoID: ScMzIvxBSi4
   location: Example
   content: Example
   tel: "23456789"
-  sessions: "1"
+  sessions: 1
   type: performance
   title: Example (DO NOT EDIT)
   email: hello@example.com

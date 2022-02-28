@@ -23,7 +23,7 @@ zh:
     ![口述歷史黃君林專訪](/uploads/62_compressed_page-0006.jpg "口述歷史黃君林專訪")
   pdfFile: /uploads/62_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2008-09-29T16:00:00.000Z
   slug: the-62-issue-barwo-quarterly-journal

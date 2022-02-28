@@ -80,7 +80,6 @@ zh:
     附件二：演出證明範本
   pdfFile: /uploads/新冠狀病毒病的免費檢測安排_連附件一和二.pdf
 en:
-  category: notice
   title: Free COVID-19 testing arrangement
   content: "**Only available in Chinese version**"
 ---

@@ -23,7 +23,7 @@ zh:
     ![滂沱大雨祭先友 春祭彰顯慎終追遠 | 讓我們懷念的粵劇工作者](/uploads/53_compressed_page-0006.jpg "滂沱大雨祭先友 春祭彰顯慎終追遠 | 讓我們懷念的粵劇工作者")
   pdfFile: /uploads/53_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2006-06-29T16:00:00.000Z
   category: report

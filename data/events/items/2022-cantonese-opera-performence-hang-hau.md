@@ -29,9 +29,9 @@ en:
 cn:
   date: 2022-05-06T01:47:50.336Z
   slug: 2022-cantonese-opera-performence-hang-hau
-  sessions: "9"
+  sessions: 9
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 演出日期
       content: |-
         5月6日至5月10日

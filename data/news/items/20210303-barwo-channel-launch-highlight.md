@@ -7,7 +7,7 @@ zh:
   youtubeVideoID: 6aNrs7-QuQ0
   content: ""
 en:
-  category: event
+  title: event
 cn:
   date: 2021-03-02T16:00:00.000Z
   slug: barwo-channel-launch-highlight

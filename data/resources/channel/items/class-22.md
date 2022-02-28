@@ -11,7 +11,14 @@ zh:
     本集動作須由專業導師指導，敬請觀眾切勿模仿。
   youtubeVideoID: C_f68Yfq4Eo
 en:
-  category: cantonese-opera-online-course
+  title: "Episode 22  Action: Waist and Leg Skills"
+  content: >-
+    Being the basic skills of opera actors, waist and leg skills are  required
+    for routines, posturing and martial arts gestures while performing on the
+    stage.
+
+
+    The following stunts are performed by professionals under expert supervision, please do not try this at home
 cn:
   date: 2021-02-28T19:19:56.954Z
   slug: class-22

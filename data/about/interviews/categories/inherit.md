@@ -12,15 +12,15 @@ zh:
     - image: /uploads/inherit2.jpg
       caption: 與大專、中及小學開辦「粵劇藝術課程」
 en:
-  title: 傳承
-  articleContent: 過去粵劇演員及各有關部門的培訓，都是師徒制模式。八和會館自成立八和粵劇學院後，一直為培訓粵劇行業接班人而努力。礙於香港社會整體對藝術學科並不重視，所以粵劇培訓課程，都只能在課餘進行。八和粵劇學院在80年代曾舉辦過粵劇演員培訓課程，後來因為學院裝修，而一度停辦。直到後來汪明荃主席上任，希望八和主辦的粵劇課程能得到社會進一步認同，於是在1996年與香港中文大學校外進修學院，聯合主辦的「粵劇培訓（初級、高級）證書課程」，1998年又與香港演藝學院合辦相關課程。隨著1999年起香港演藝學院全日制粵劇演藝證書、文憑及學位課程等陸續投入運作，八和改變培訓目標，課程改為「青少年粵劇演員訓練班」，招收13-18歲青少年，讓學員在修畢課程後可選擇投考大學或演藝學院銜接課程。除演員培訓，八和亦有就其他粵劇專業項門開辦培訓班，務求令粵劇藝術得到規範化的承傳。
-  articleTitle: 專業培訓
-  articlePhotosTitle: 粵劇普及教育
+  title: Inheritance
+  articleContent: In the past, training of Cantonese Opera actors and related departments were based on the model of apprenticeship. Since the establishment of the Cantonese Opera Academy (COA) of Hong Kong, the CAAHK has been working with tremendous effort in training successors in the Cantonese Opera industry. However, as the Hong Kong society as a whole did not pay much attention to art subjects, Cantonese Opera training courses could only be conducted on part-time basis. Although the COA did organize training for Cantonese Opera actors in the 1980s, the courses were temporarily suspended due to the renovation of the COA. After taking over the office, Chairperson Dr. Liza Wang Ming-chuen, Chairman, hoped that the Cantonese Opera courses sponsored by CAAHK could be further recognized by the society. Hence, she initiated collaboration with the School of Continuing and Professional Studies, The Chinese University of Hong Kong and jointly organized the Certificate Course in Cantonese Opera Training (Elementary and Advanced). In 1998, she further co-organized related courses with the Hong Kong Academy for Performing Arts (HKAPA). With the HKAPA offering the certificate, diploma and degree courses in Cantonese Opera performing arts on full-time basis since 1999, the CAAHK changed its training objectives, in which the Course for Young Cantonese Opera Performers was launched. By enrolling young people aged 13 to18, students can now choose to enroll in the relevant conversion programmes offered by the local universities or the APA after completing the courses. In addition to training for actors, the COA also offers training courses for other Cantonese Opera specialties in order to standardize the inheritance of Cantonese Opera art in a comprehensive manner.
+  articleTitle: Professional Training
+  articlePhotosTitle: Universal Education for Cantonese Opera
   articlePhotos:
     - image: /uploads/inherit1.jpg
-      caption: 八和粵劇學院：青少年粵劇演員訓練班
+      caption: Cantonese Opera Academy (COA) of Hong Kong - Course for Young Cantonese Opera Performers
     - image: /uploads/inherit2.jpg
-      caption: 與大專、中及小學開辦「粵劇藝術課程」
+      caption: Organized “Course on the Art of Cantonese Opera” with various primary schools, secondary schools, and tertiary institutions
 cn:
   slug: inherit
   color: "#4CB6DD"

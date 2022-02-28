@@ -24,7 +24,7 @@ zh:
 
     謹啟
 en:
-  category: xianyou
+  title: xianyou
 cn:
   date: 2021-03-28T16:00:00.000Z
   slug: hkbarwo-notice0329

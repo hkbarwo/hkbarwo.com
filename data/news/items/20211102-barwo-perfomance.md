@@ -126,7 +126,6 @@ zh:
 
     電郵： annieyuen@hkbarwo.com
 en:
-  category: notice
   title: The performance "Grand Birthday Celebration at Mount Heung  Fa" for the
     celebration of Wah Kwong Festival in 2021ended with complete success
   content: "### Only available in Chinese version"

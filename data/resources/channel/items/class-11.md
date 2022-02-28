@@ -7,7 +7,14 @@ zh:
   coverImage: /images/uploads/resources/channel/epi11.jpg
   content: 「打贏唱梆子，打輸唱二黃」，粵劇唱腔兩大體系之一的二黃，旋律比較蒼涼、鬱結，今集會介紹及示範二黃慢板包括迴龍腔二黃、長句二黃和反線二黃等。
   youtubeVideoID: W3B1PXmdcTc
-en: {}
+en:
+  title: "Episode 11  Singing: Yiwong Manban (二黃慢板)"
+  content: '"You sing Bongzi (梆子) when you win, you sing Yiwong when you lose"
+    .Being one of the two major systems of singing styles in Cantonese opera,
+    "Yiwong" is featured by its relatively bleak and desolate melody. In this
+    episode, we will introduce and demonstrate "Yiwong Manban", including
+    "Wuilonghong Yiwong" (迴龍腔二黃), "Changgui Yiwong" (長句二黃), "Fansin Yiwong"
+    (反線二黃). '
 cn:
   date: 2021-02-28T19:11:25.711Z
   slug: class-11

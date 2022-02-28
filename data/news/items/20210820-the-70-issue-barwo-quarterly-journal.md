@@ -23,7 +23,7 @@ zh:
     ![八和粵劇學院結業演出](/uploads/70_compressed_page-0006.jpg "八和粵劇學院結業演出")
   pdfFile: /uploads/70_compressed.pdf
 en:
-  category: report
+  title: report
 cn:
   date: 2010-10-30T16:00:00.000Z
   slug: the-70-issue-barwo-quarterly-journal

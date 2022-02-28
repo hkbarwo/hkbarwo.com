@@ -31,11 +31,11 @@ cn:
   slug: inauguration-ceremony-of-the-39th-council
   date: 2020-11-12T17:39:24.751Z
   metadata:
-    - isShowInList: "true"
+    - isShowInList: true
       label: 活动日期
       content: 2020年11月13日
   location: 高山剧场
-  sessions: "1"
+  sessions: 1
   type: activity
   title: 华光先师宝诞《香花山大贺寿》演出暨「第三十九届理事会就职典礼」
   content: 第三十九届理事会就职典礼邀请得廖成利律师担任主礼嘉宾，第三十九届理事会全体理事宣誓就职。为庆祝华光先师宝诞，同场上演粤剧传统神诞例戏《香花山贺寿》和《仙姬送子》，由大老倌李龙饰演韦驮、邓美玲饰演观音、温玉瑜饰演曹宝、黎耀威饰演董永、庄婉仙饰七姐。

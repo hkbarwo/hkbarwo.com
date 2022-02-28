@@ -36,7 +36,7 @@ zh:
   slug: barwo-football-team-competition-20210921
   pdfFile: /uploads/20210927-公告-最新消息-八和足球隊對九龍巴士足球隊勝出4比3.pdf
 en:
-  category: event
+  title: event
 cn:
   date: 2021-09-26T16:00:00.000Z
   category: event

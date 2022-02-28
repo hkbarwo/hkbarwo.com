@@ -139,7 +139,6 @@ zh:
   title: 政府擴大疫苗氣泡  粵劇表演者須於2月24日完成打針
   pdfFile: /uploads/20220104_公告.pdf
 en:
-  category: notice
   content: |-
     
 

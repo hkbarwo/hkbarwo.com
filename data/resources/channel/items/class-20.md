@@ -8,7 +8,12 @@ zh:
   slug: class-20
   category: cantonese-opera-online-course
 en:
-  category: cantonese-opera-online-course
+  title: "Episode 20  Recitation: Nimbak (唸白) (2)"
+  content: In Cantonese opera, there is a famous saying that recitation is
+    weighted more important than signing. we can see that recitation is more
+    importantThe actors will express their emotions through strong, weak, fast,
+    and slow pace. In this episode, we will demonstrate Gongs & Drums Recitation
+    (鑼鼓口白), Haugu (口古), rhymed Haubak (有韻口白), Baklam (白欖) and Dukjong(讀狀).
 cn:
   date: 2021-02-28T19:18:16.205Z
   coverImage: /images/uploads/resources/channel/epi20.jpg

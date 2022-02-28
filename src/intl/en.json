@@ -5,7 +5,7 @@
   "channel.videos.more": "More Videos",
   "channel.list.empty": "Coming soon",
 
-  "chronicle.download.pdf": "Download PDF",
+  "chronicle.download.pdf": "Download List of Past Important Events",
 
   "contact.form.title": "Question and share",
   "contact.placeholder.name": "Name",
@@ -14,7 +14,7 @@
   "contact.placeholder.content": "Content",
   "contact.thankyou": "Thank you for your comments and sharing, if necessary, we will reply to you!",
 
-  "committee.past": "Past Committees",
+  "committee.past": "Previous Board of Directors",
   "download.pdf": "Download PDF",
 
   "empty": "No content",
@@ -24,8 +24,9 @@
 
   "home.news.title": "News",
   "home.news.more": "More news",
+  "home.souvenir.title": "Order CAAHK Souvenirs",
 
-  "know.more": "More",
+  "know.more": "Discover More",
 
   "list.empty": "No items",
 
@@ -35,7 +36,7 @@
 
   "member.apply": "Join Us",
 
-  "member.directory.header": "{key}",
+  "member.directory.header": "{stroke1} to {stroke2} strokes",
   "member.directory.alias": "Alias",
   "member.directory.gender": "Gender",
   "member.directory.gender.female": "Female",
