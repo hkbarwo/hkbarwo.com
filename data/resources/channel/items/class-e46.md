@@ -8,7 +8,7 @@ zh:
   title: " 第四十六集 其他：廣東音樂 (二) 英語字幕版"
   content: 廣東音樂是流行於中國廣東珠江三角洲一帶的器樂曲，是漢族傳統器樂合奏代表類別之一，音色清脆明亮，旋律流暢優美，節奏活潑歡快。
   slug: class-e46
-  youtubeVideoID: 4tcECVSLHkk
+  youtubeVideoID: o3CYxwZufr8
   coverImage: https://hkbarwo.com/uploads/c46.png
 en:
   content: >-
