@@ -12,6 +12,7 @@ zh:
     板腔體分了「梆子」和「二黃」兩大體系，今集會介紹及示範梆子類的唱法。\
     \
     今集的兩位藝術總監龍貫天和陳咏儀挑選了梆子首板及煞板示範：首板通常出現於一場戲開首，作為一句「上句」；煞板通常用於一場戲結束句，為一句「下句」。
+  coverImage: https://hkbarwo.com/images/uploads/resources/channel/epi01.jpg
 en:
   category: cantonese-opera-online-course
   content: >-
