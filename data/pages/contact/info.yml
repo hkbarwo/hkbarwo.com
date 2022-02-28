@@ -1,17 +1,3 @@
-zh:
-  phone: (852) 2384 2929
-  fax: (852) 2770 7956
-  email: enquiry@hkbarwo.com
-  address: 香港油麻地彌敦道493號展望大廈4字樓A室
-  title: 聯絡我們
-  subtitle: 聯絡資料
-  openingHours: |
-    星期一至五：上午8時45分至下午4時45分
-    星期六、日及公眾假期休息
-en:
-  address: Unit A., 4/F, Prospect Bldg, 493 Nathan Road, Yau Ma Tei, Kowloon, Hong Kong
-  title: Contact Us
-  subtitle: Contact
 cn:
   phone: (852) 2384 2929
   fax: (852) 2770 7956
@@ -20,5 +6,22 @@ cn:
   subtitle: 联络资料
   address: 香港油麻地弥敦道493号展望大厦4字楼A室
   openingHours: |
-    星期一至五：上午8时45分至下午4时45分
+    星期一至五：上午9时至下午5时50分
     星期六、日及公众假期休息
+zh:
+  phone: (852) 2384 2929
+  fax: (852) 2770 7956
+  email: enquiry@hkbarwo.com
+  address: 香港油麻地彌敦道493號展望大廈4字樓A室
+  title: 聯絡我們
+  subtitle: 聯絡資料
+  openingHours: |
+    星期一至五：上午9時至下午5時50分
+    星期六、日及公眾假期休息
+en:
+  address: Unit A., 4/F, Prospect Bldg, 493 Nathan Road, Yau Ma Tei, Kowloon, Hong Kong
+  title: Contact Us
+  subtitle: Contact
+  openingHours: |-
+    Opening Hours：Monday to Friday from 9am-5:50pm
+    Closed on Saturday, Sunday and Public Holiday
