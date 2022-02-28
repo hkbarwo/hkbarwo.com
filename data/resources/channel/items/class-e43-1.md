@@ -1,6 +1,7 @@
 ---
 cn:
   date: 2022-02-28T07:50:47.747Z
+  category: cantonese-opera-online-course
 zh:
   date: 2022-02-28T07:50:47.821Z
   content: |-
@@ -10,7 +11,7 @@ zh:
   title: 第四十三集 唱：牌子 (五) 英語字幕版
   category: cantonese-opera-online-course
   slug: class-e43
-  youtubeVideoID: ISWI_1Rbeoo
+  youtubeVideoID: yLSjHhskJQc
   coverImage: https://hkbarwo.com/uploads/c43.png
 en:
   title: "Barwo Channel: Online Class of Cantonese Opera - Episode 43 Singing:
