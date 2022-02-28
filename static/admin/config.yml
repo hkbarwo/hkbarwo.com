@@ -855,7 +855,11 @@ collections:
           - name: "address"
             label: "地址"
             i18n: true
-            widget: string
+            widget: text
+          - name: "openingHours"
+            label: "開放時間"
+            i18n: true
+            widget: text
   - name: "resourcesPage"
     label: "資源中心頁面"
     i18n: true

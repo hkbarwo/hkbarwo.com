@@ -5,6 +5,9 @@ zh:
   address: 香港油麻地彌敦道493號展望大廈4字樓A室
   title: 聯絡我們
   subtitle: 聯絡資料
+  openingHours: |
+    星期一至五：上午8時45分至下午4時45分
+    星期六、日及公眾假期休息
 en:
   address: Unit A., 4/F, Prospect Bldg, 493 Nathan Road, Yau Ma Tei, Kowloon, Hong Kong
   title: Contact Us
@@ -16,3 +19,6 @@ cn:
   title: 联络我们
   subtitle: 联络资料
   address: 香港油麻地弥敦道493号展望大厦4字楼A室
+  openingHours: |
+    星期一至五：上午8时45分至下午4时45分
+    星期六、日及公众假期休息

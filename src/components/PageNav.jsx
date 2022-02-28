@@ -422,6 +422,15 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
                 </span>
                 <span>{pageContext.contact.address}</span>
               </li>
+              <li className="flex items-start mt-8">
+                <span className="flex items-center justify-center w-24 h-24 mr-8">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12,20a8,8,0,1,1,8-8A8,8,0,0,1,12,20ZM12,5.14A6.86,6.86,0,1,0,18.86,12,6.86,6.86,0,0,0,12,5.14Z" fill="currentColor"/>
+                    <path d="M14.61,15.35,11.47,12.2V6.9h1.12v4.83l2.82,2.82Z" fill="currentColor"/>
+                  </svg>
+                </span>
+                <span className="whitespace-pre">{pageContext.contact.openingHours}</span>
+              </li>
             </ul>
             <div className="mx-auto mt-20 md:mx-0">
               {/* <NewsletterSection {...pageContext.newsletter} /> */}

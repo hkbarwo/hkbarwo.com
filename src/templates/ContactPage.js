@@ -45,7 +45,7 @@ function ContactForm(props) {
           placeholder={intl.formatMessage({ id: 'contact.placeholder.content' })}
         />
         <BlueButton
-          className="mt-20 px-24 w-full text-center justify-center"
+          className="justify-center w-full px-24 mt-20 text-center"
           tagName="button"
         >
           <FormattedMessage id="send" />
@@ -61,10 +61,10 @@ export default function ContactPage(props) {
   const { pageItem } = pageContext;
   return (
     <Page {...props}>
-      <section className="lg:flex mx-auto max-w-screen-xl w-full mt-96">
+      <section className="w-full max-w-screen-xl mx-auto lg:flex mt-96">
         <div className="lg:mr-48">
           {pageContext.contact.subtitle && (
-            <h1 className="mb-32 text-primary text-36 font-bold font-serif">
+            <h1 className="mb-32 font-serif font-bold text-primary text-36">
               {pageContext.contact.subtitle}
             </h1>
           )}
@@ -123,6 +123,15 @@ export default function ContactPage(props) {
               </span>
               <span>{pageContext.contact.address}</span>
             </li>
+            <li className="flex items-start mt-8">
+              <span className="flex items-center justify-center w-24 h-24 mr-8 text-tertiary">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M12,20a8,8,0,1,1,8-8A8,8,0,0,1,12,20ZM12,5.14A6.86,6.86,0,1,0,18.86,12,6.86,6.86,0,0,0,12,5.14Z" fill="currentColor"/>
+                  <path d="M14.61,15.35,11.47,12.2V6.9h1.12v4.83l2.82,2.82Z" fill="currentColor"/>
+                </svg>
+              </span>
+              <span className="whitespace-pre">{pageContext.contact.openingHours}</span>
+            </li>
           </ul>
         </div>
 
@@ -144,7 +153,7 @@ export default function ContactPage(props) {
           <FormattedMessage id="contact.form.title" />
         </StrikethroughHeading>
 
-        <ContactForm className="max-w-sm w-full mx-auto" />
+        <ContactForm className="w-full max-w-sm mx-auto" />
       </section>
     </Page>
   );

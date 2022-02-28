@@ -10,6 +10,7 @@ exports.fetchSiteData = async ({ graphql }, { locale }) => {
             address
             subtitle
             title
+            openingHours
           }
         }
       }
