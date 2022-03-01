@@ -140,4 +140,6 @@ en:
     
 
     ### Only available in Chinese version
+  category: notice
+  title: Catonese Talent Showcase 2022-22 Phase 6：Ticket will be available for sale
 ---
