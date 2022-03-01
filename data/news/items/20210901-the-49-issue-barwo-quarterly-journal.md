@@ -1,7 +1,7 @@
 ---
 cn:
   date: 2005-06-29T16:00:00.000Z
-  category: report
+  category: newsletter
   slug: the-49-issue-barwo-quarterly-journal
   pdfFile: /uploads/49_compressed.pdf
   title: 第49期《八和汇报》
@@ -35,6 +35,6 @@ zh:
   pdfFile: /uploads/49_compressed.pdf
 en:
   title: Issue 49
-  category: report
+  category: newsletter
   content: "### Only available in Chinese version"
 ---
