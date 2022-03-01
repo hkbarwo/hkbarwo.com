@@ -140,4 +140,6 @@ en:
     
 
     ### Only available in Chinese version
+  category: notice
+  title: Cantonese Talent Showcase 2021-22 Phase 6:Tickets will be available for sale
 ---
