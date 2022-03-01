@@ -1,7 +1,7 @@
 ---
 cn:
   date: ""
-  title: 疫情恶化、闭馆停工、业界水深火热 八和组成专责小组尽力为业界争取政府支持
+  title: 疫情恶化、闭馆停工、业界水深火热 八和组成专责小组尽力为业界争取政府支援
   content: >-
     2022年初，本港疫情急剧恶化，从1月7日起，政府收紧社交距离措施，包括全面关闭所有表演场地，粤剧界顿时再次陷入困境。1月10日，八和理事会在第39届第19次会议上，主动讨论上述情况及对策，决定向政府力陈业界的困境、要求立即提供支持，并同意将业界联名签署信件（详阅附件一），一并提交政府，让政府直接了解同业的苦况和心声。
 
@@ -30,6 +30,7 @@ cn:
 
 
     二零二二年二月十日
+  category: notice
 zh:
   cn:
     category: notice
@@ -107,5 +108,7 @@ en:
     
 
     ### Only available in Chinese version
-  title: "Established Task Force for making every effort to "
+  title: Established Task Force for making every effort to enlist government
+    support for the industry
+  category: notice
 ---
