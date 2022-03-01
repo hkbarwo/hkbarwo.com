@@ -63,5 +63,5 @@ en:
     
 
     ### Only available in Chinese version
-  title: "Issue 111 of BarWo Newsletter "
+  title: "Issue 111 "
 ---
