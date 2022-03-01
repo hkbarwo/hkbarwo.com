@@ -24,7 +24,7 @@ cn:
     ![康文署主办全城大戏候 | 香港粤剧演员会 陈剑烽任理事长 | 陈小汉粤剧特辑 欢迎到本会观看](/uploads/47_compressed_page-0006.jpg "康文署主办全城大戏候 | 香港粤剧演员会 陈剑烽任理事长 | 陈小汉粤剧特辑 欢迎到本会观看")
 zh:
   date: 2004-12-30T16:00:00.000Z
-  category: report
+  category: newsletter
   title: 第47期《八和匯報》
   slug: the-47-issue-barwo-quarterly-journal
   content: >-
