@@ -50,24 +50,6 @@ en:
   category: report
   title: Issue 42 of BarWo Newletter
   slug: the-41-issue-barwo-quarterly-journal
-  content: >-
-    ![近百年香港粵劇回顧與前瞻：政府會堂賀歲有空檔 歡迎粵劇團租用 | 八和召開會員大會
-    選舉第三十一屆理事](/uploads/41_compressed_page-0001.jpg "近百年香港粵劇回顧與前瞻：政府會堂賀歲有空檔
-    歡迎粵劇團租用 | 八和召開會員大會 選舉第三十一屆理事")
-
-
-    ![封相與送子 兩例戲祖源](/uploads/41_compressed_page-0002.jpg "封相與送子 兩例戲祖源")
-
-
-    ![香港八和會館第三十屆理事會第二十三至二十四次會議議程及辦公室報告（2002年12月至2003年4月）](/uploads/41_compressed_page-0003.jpg "香港八和會館第三十屆理事會第二十三至二十四次會議議程及辦公室報告（2002年12月至2003年4月）")
-
-
-    ![阮兆輝得藝術成就獎 陳嘉慧黃綺劉惠鳴獲新進獎 | 培訓課程結業演出 王超群與敖龍參與](/uploads/41_compressed_page-0004.jpg "阮兆輝得藝術成就獎 陳嘉慧黃綺劉惠鳴獲新進獎 | 培訓課程結業演出 王超群與敖龍參與")
-
-
-    ![《楚漢爭》演員名單及演出相片](/uploads/41_compressed_page-0005.jpg "《楚漢爭》演員名單及演出相片")
-
-
-    ![陳劍聲主席領隊春祭 | 為粵劇貢獻了一生 | 讓我們懷念的粵劇工作者](/uploads/41_compressed_page-0006.jpg "陳劍聲主席領隊春祭 | 為粵劇貢獻了一生 | 讓我們懷念的粵劇工作者")
+  content: "### Only available in Chinese version"
   pdfFile: /uploads/41_compressed.pdf
 ---
