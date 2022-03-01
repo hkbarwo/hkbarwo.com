@@ -25,7 +25,7 @@ cn:
     ![师父诞竞投福物得款九十三万 | 广州振兴粤剧十周年庆典 本港红伶参与交流演出](/uploads/43_compressed_page-0006.jpg "师父诞竞投福物得款九十三万 | 广州振兴粤剧十周年庆典 本港红伶参与交流演出")
 zh:
   date: 2003-12-30T16:00:00.000Z
-  category: report
+  category: newsletter
   title: 第43期《八和匯報》
   slug: the-43-issue-barwo-quarterly-journal
   content: >-
