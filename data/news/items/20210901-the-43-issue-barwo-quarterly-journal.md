@@ -48,7 +48,7 @@ zh:
     ![師父誕競投福物得款九十三萬 | 廣州振興粵劇十周年慶典 本港紅伶參與交流演出](/uploads/43_compressed_page-0006.jpg "師父誕競投福物得款九十三萬 | 廣州振興粵劇十周年慶典 本港紅伶參與交流演出")
   pdfFile: /uploads/43_compressed.pdf
 en:
-  title: Issue 43 of BarWo Newletter
+  title: "Issue 43 "
   category: report
   content: |-
     
