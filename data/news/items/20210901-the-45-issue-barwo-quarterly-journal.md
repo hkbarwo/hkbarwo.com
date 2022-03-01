@@ -18,7 +18,7 @@ cn:
     ![春和日丽好踏春 陈剑声主席主祭 | 让我们怀念的粤剧工作者](/uploads/45_compressed_page-0004.jpg "春和日丽好踏春 陈剑声主席主祭 | 让我们怀念的粤剧工作者")
 zh:
   date: 2004-06-29T16:00:00.000Z
-  category: report
+  category: newsletter
   title: 第45期《八和匯報》
   slug: the-45-issue-barwo-quarterly-journal
   content: >-
@@ -34,7 +34,7 @@ zh:
     ![春和日麗好踏春 陳劍聲主席主祭 | 讓我們懷念的粵劇工作者](/uploads/45_compressed_page-0004.jpg "春和日麗好踏春 陳劍聲主席主祭 | 讓我們懷念的粵劇工作者")
   pdfFile: /uploads/45_compressed.pdf
 en:
-  title: Issue 45 of BarWo Newletter
+  title: "Issue 45 "
   content: |-
     
 
