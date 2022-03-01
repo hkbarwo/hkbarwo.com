@@ -32,6 +32,8 @@ cn:
     二零二二年二月十日
   category: notice
 zh:
+  en:
+    content: "> ### Only available in Chinese version."
   cn:
     category: notice
     title: 疫情恶化、闭馆停工、业界水深火热 八和组成专责小组尽力为业界争取政府支援
@@ -52,6 +54,8 @@ zh:
 
 
       二零二二年二月十日
+  slug: 5th-covid19-working-group-governement-funding
+  pdfFile: /uploads/公告＿疫情＿成立專責小組（已蓋印）.pdf
   zh:
     date: 2022-02-10T09:23:21.027Z
     category: notice
@@ -75,11 +79,8 @@ zh:
     slug: 5th-covid19-working-group-governement-funding
     title: 疫情惡化、閉館停工、業界水深火熱 八和組成專責小組盡力為業界爭取政府支援
     pdfFile: /uploads/公告＿疫情＿成立專責小組_final.pdf
-  en:
-    content: "> ### Only available in Chinese version."
   date: 2022-02-09T16:00:00.000Z
   title: 疫情惡化、閉館停工、業界水深火熱 八和組成專責小組盡力為業界爭取政府支援
-  category: notice
   content: >-
     2022年初，本港疫情急劇惡化，從1月7日起，政府收緊社交距離措施，包括全面關閉所有表演場地，粵劇界頓時再次陷入困境。1月10日，八和理事會在第39屆第19次會議上，主動討論上述情況及對策，決定向政府力陳業界的困境、要求立即提供支援，並同意將業界聯名簽署信件（詳閱附件一），一併提交政府，讓政府直接了解同業的苦況和心聲。
 
@@ -102,7 +103,7 @@ zh:
 
 
     二零二二年二月十日
-  slug: 5th-covid19-working-group-governement-funding
+  category: notice
 en:
   content: |-
     
