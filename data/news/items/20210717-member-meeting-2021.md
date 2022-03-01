@@ -1,4 +1,35 @@
 ---
+cn:
+  date: 2021-07-16T16:00:00.000Z
+  slug: member-meeting-2021
+  category: event
+  pdfFile: /uploads/2021會員周年大會順利舉行.pdf
+  title: 2021会员周年大会顺利举行
+  content: >-
+    ![](/uploads/whatsapp-image-2021-07-17-at-3.15.47-pm.jpeg)
+
+
+    　　香港八和会馆于7月17日上午11时正，假座油麻地戏院举行「2021会员周年大会」。本会主席汪明荃博士及副主席龙贯天、新剑郎、吴仟峰代表理事会主持会议。与此同时，大会亦邀请得法律顾问廖成利律师和「何铁文、苏汉章、梁树贤会计师行有限公司」负责人梁树贤先生列席参与。
+
+
+    　　在是次会议，先由主席汪明荃博士宣读2020-2021年度的工作报告，简介本会在过去一年的会务及工作成果，继而再由梁树贤先生宣读2020年度财政报告。出席会员一致通过以上报告，并表决委任「何铁文、苏汉章、梁树贤会计师行有限公司」为香港八和会馆2021年度的核数师 。
+
+
+    　　如欲下载会议的相片，可点击以下共享资料夹超连结；查询更多详情，可致电 2384 2929与行政秘书阮小姐联络。
+
+
+    香港八和会馆
+
+
+    二零二一年七月十七日
+
+
+    附件：香港八和会馆2020-2021年度工作报告
+
+
+    香港八和会馆2021会员周年大会相片：
+
+    <https://drive.google.com/drive/folders/1Uq-HYj0HttH7CEXzEZnh4J181VrAhuQd?usp=sharing>
 zh:
   date: 2021-07-16T16:00:00.000Z
   title: 2021會員周年大會順利舉行
@@ -31,36 +62,11 @@ zh:
     <https://drive.google.com/drive/folders/1Uq-HYj0HttH7CEXzEZnh4J181VrAhuQd?usp=sharing>
   images: ""
   pdfFile: /uploads/2021會員周年大會順利舉行.pdf
-en: {}
-cn:
-  date: 2021-07-16T16:00:00.000Z
-  slug: member-meeting-2021
+en:
   category: event
-  pdfFile: /uploads/2021會員周年大會順利舉行.pdf
-  title: 2021会员周年大会顺利举行
-  content: >-
-    ![](/uploads/whatsapp-image-2021-07-17-at-3.15.47-pm.jpeg)
+  content: |-
+    
 
-
-    　　香港八和会馆于7月17日上午11时正，假座油麻地戏院举行「2021会员周年大会」。本会主席汪明荃博士及副主席龙贯天、新剑郎、吴仟峰代表理事会主持会议。与此同时，大会亦邀请得法律顾问廖成利律师和「何铁文、苏汉章、梁树贤会计师行有限公司」负责人梁树贤先生列席参与。
-
-
-    　　在是次会议，先由主席汪明荃博士宣读2020-2021年度的工作报告，简介本会在过去一年的会务及工作成果，继而再由梁树贤先生宣读2020年度财政报告。出席会员一致通过以上报告，并表决委任「何铁文、苏汉章、梁树贤会计师行有限公司」为香港八和会馆2021年度的核数师 。
-
-
-    　　如欲下载会议的相片，可点击以下共享资料夹超连结；查询更多详情，可致电 2384 2929与行政秘书阮小姐联络。
-
-
-    香港八和会馆
-
-
-    二零二一年七月十七日
-
-
-    附件：香港八和会馆2020-2021年度工作报告
-
-
-    香港八和会馆2021会员周年大会相片：
-
-    <https://drive.google.com/drive/folders/1Uq-HYj0HttH7CEXzEZnh4J181VrAhuQd?usp=sharing>
+    ### Only available in Chinese version
+  title: "Annual General Meeting 2021 were successfully held "
 ---
