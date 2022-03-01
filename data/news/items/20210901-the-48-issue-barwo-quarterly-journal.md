@@ -1,7 +1,7 @@
 ---
 cn:
   date: 2005-03-30T16:00:00.000Z
-  category: report
+  category: newsletter
   slug: the-48-issue-barwo-quarterly-journal
   pdfFile: /uploads/48_compressed.pdf
   title: 第48期《八和汇报》
