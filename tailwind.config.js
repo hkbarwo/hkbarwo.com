@@ -25,8 +25,8 @@ module.exports = {
       'gray-24': '#242424',
     },
     fontFamily: {
-      'sans': ['Noto Sans TC', 'sans-serif'],
-      'serif': ['Noto Serif TC', 'serif'],
+      'sans': ['Noto Sans TC', 'Noto Sans SC', 'sans-serif'],
+      'serif': ['Noto Serif TC', 'Noto Serif SC', 'serif'],
     },
     spacing: {
       '0': '0rem',
