@@ -2,7 +2,7 @@
 cn:
   date: 2002-12-30T16:00:00.000Z
   slug: the-39-issue-barwo-quarterly-journal
-  category: report
+  category: newsletter
   pdfFile: /uploads/39_compressed.pdf
   title: 第39期《八和汇报》
   content: >-
@@ -49,7 +49,7 @@ zh:
   pdfFile: /uploads/39_compressed.pdf
 en:
   title: "Issue 39 "
-  category: report
+  category: newsletter
   content: |-
     
 
