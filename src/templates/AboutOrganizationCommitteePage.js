@@ -20,7 +20,7 @@ export default function AboutOrganizationCommitteePage(props) {
             <li key={page.slug} className="m-10">
               <Link
                 className={classNames(
-                  'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
+                  'block min-w-144 text-center rounded-8 border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
                   page.slug === pageItem.slug ? 'bg-tertiary text-white hover:bg-tertiary-light' : 'text-tertiary'
                 )}
                 to={page.localizedPath}
@@ -38,7 +38,7 @@ export default function AboutOrganizationCommitteePage(props) {
               <div className="relative z-20 mb-64 sm:mb-0">
                 <Menu.Button
                   className={classNames(
-                    'flex items-center px-24 py-8 text-white rounded-full',
+                    'flex items-center px-24 py-8 text-white rounded-8',
                     open ? 'bg-secondary-dark' : 'bg-secondary',
                     'hover:bg-secondary-dark',
                     'transition',

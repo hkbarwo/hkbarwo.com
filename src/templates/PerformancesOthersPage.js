@@ -36,7 +36,7 @@ export default function PerformancesOthersPage(props) {
                 <div className="relative z-20">
                   <Listbox.Button
                     className={classNames(
-                      'flex items-center px-24 py-8 text-white rounded-full',
+                      'flex items-center px-24 py-8 text-white rounded-8',
                       open ? 'bg-secondary-dark' : 'bg-secondary',
                       'hover:bg-secondary-dark',
                       'transition',
@@ -104,7 +104,7 @@ export default function PerformancesOthersPage(props) {
                   ))}
                 </ul>
                 <Link
-                  className="inline-flex items-center px-40 py-12 mt-20 text-white rounded-full bg-secondary"
+                  className="inline-flex items-center px-40 py-12 mt-20 text-white rounded-8 bg-secondary"
                   to={`/${locale}/performances/${event.slug}`}
                 >
                   <FormattedMessage id="know.more" />

@@ -45,7 +45,7 @@ export default function ImageSlideshow(props) {
           <li
             key={i}
             className={classNames(
-              'w-10 h-10 m-12 rounded-full',
+              'w-10 h-10 m-12 rounded-8',
               i === slideIndex ? 'bg-secondary' : 'bg-white'
             )}
           />

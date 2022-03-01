@@ -42,7 +42,7 @@ export default function EventsPage(props) {
                 ))}
               </ul>
               <Link
-                className="inline-flex items-center px-40 py-12 mt-20 text-white transition-colors duration-300 rounded-full bg-secondary hover:bg-secondary-dark"
+                className="inline-flex items-center px-40 py-12 mt-20 text-white transition-colors duration-300 rounded-8 bg-secondary hover:bg-secondary-dark"
                 to={`/${locale}/performances/${event.slug}`}
               >
                 <FormattedMessage id="know.more" />

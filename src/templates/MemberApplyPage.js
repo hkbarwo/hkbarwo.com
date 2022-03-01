@@ -84,7 +84,7 @@ export default function MemberApplyPage({ path, pageContext }) {
 
             <div className="text-center mt-72">
               <a
-                className="inline-flex items-center px-40 py-12 text-white transition-colors duration-300 rounded-full bg-secondary"
+                className="inline-flex items-center px-40 py-12 text-white transition-colors duration-300 rounded-8 bg-secondary"
                 href={pageData.pdf}
                 rel="noopener noreferrer"
                 target="blank"

@@ -48,7 +48,7 @@ function AssociationsDirectory({ ctaTo, data, items }) {
           ))}
         </ul>
         <Link
-          className="flex items-center px-24 py-10 mx-auto bg-white bg-opacity-25 border border-white rounded-full mt-60 group"
+          className="flex items-center px-24 py-10 mx-auto bg-white bg-opacity-25 border border-white rounded-8 mt-60 group"
           to={ctaTo}
         >
           {data.buttonTitle}
@@ -85,7 +85,7 @@ function AssociationsDirectory({ ctaTo, data, items }) {
             ))}
           </Swiper>
           <button
-            className="absolute z-10 p-16 bg-black border border-white rounded-full left-10 top-1/2 w-44 h-44 -mt-22 bg-opacity-10 group backdrop-filter backdrop-blur-md"
+            className="absolute z-10 p-16 bg-black border border-white rounded-8 left-10 top-1/2 w-44 h-44 -mt-22 bg-opacity-10 group backdrop-filter backdrop-blur-md"
             onClick={(e) => {
               e.preventDefault();
               controlledSwiper.slidePrev();
@@ -105,7 +105,7 @@ function AssociationsDirectory({ ctaTo, data, items }) {
             </svg>
           </button>
           <button
-            className="absolute z-10 p-16 bg-black border border-white rounded-full right-10 top-1/2 w-44 h-44 -mt-22 bg-opacity-10 group backdrop-filter backdrop-blur-md"
+            className="absolute z-10 p-16 bg-black border border-white rounded-8 right-10 top-1/2 w-44 h-44 -mt-22 bg-opacity-10 group backdrop-filter backdrop-blur-md"
             onClick={(e) => {
               e.preventDefault();
               controlledSwiper.slideNext();
@@ -137,7 +137,7 @@ function AssociationsDirectory({ ctaTo, data, items }) {
           ))}
         </ul>
         <Link
-          className="inline-flex items-center px-24 py-10 mx-auto mt-40 bg-white bg-opacity-25 border border-white rounded-full group"
+          className="inline-flex items-center px-24 py-10 mx-auto mt-40 bg-white bg-opacity-25 border border-white rounded-8 group"
           to={items[slideIndex].localizedPath}
         >
           {data.buttonTitle}

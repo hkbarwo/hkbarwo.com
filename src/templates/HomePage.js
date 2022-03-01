@@ -77,7 +77,7 @@ function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
             {!!slide.buttonLink && (
               slide.buttonLink.page ? (
                 <Link
-                  className="flex items-center px-24 py-10 mx-auto my-32 bg-white bg-opacity-25 border border-white rounded-full md:mt-60 group"
+                  className="flex items-center px-24 py-10 mx-auto my-32 bg-white bg-opacity-25 border border-white rounded-8 md:mt-60 group"
                   to={pages[slide.buttonLink.page].localizedPath}
                   alt={slide.buttonTitle}
                 >
@@ -97,7 +97,7 @@ function FullScreenSlide({ slide, pages, i, total, onClose, onNext, onPrev }) {
                 </Link>
               ) : (
                 <a
-                  className="flex items-center px-24 py-10 mx-auto my-32 bg-white bg-opacity-25 border border-white rounded-full md:mt-60 group"
+                  className="flex items-center px-24 py-10 mx-auto my-32 bg-white bg-opacity-25 border border-white rounded-8 md:mt-60 group"
                   href={slide.buttonLink.url}
                   alt={slide.buttonTitle}
                   target="_blank"
@@ -397,7 +397,7 @@ export default function HomePageTemplate({ pageContext, path }) {
             </ClientOnly>
 
             <button
-              className="absolute z-10 p-16 bg-black rounded-full left-20 top-1/2 w-44 h-44 -mt-22 bg-opacity-10 group backdrop-filter backdrop-blur-md"
+              className="absolute z-10 p-16 bg-black rounded-8 left-20 top-1/2 w-44 h-44 -mt-22 bg-opacity-10 group backdrop-filter backdrop-blur-md"
               onClick={() => {
                 controlledSwiper.slidePrev();
               }}
@@ -416,7 +416,7 @@ export default function HomePageTemplate({ pageContext, path }) {
               </svg>
             </button>
             <button
-              className="absolute z-10 p-16 bg-black rounded-full right-20 top-1/2 w-44 h-44 -mt-22 bg-opacity-10 group backdrop-filter backdrop-blur-md"
+              className="absolute z-10 p-16 bg-black rounded-8 right-20 top-1/2 w-44 h-44 -mt-22 bg-opacity-10 group backdrop-filter backdrop-blur-md"
               onClick={() => {
                 controlledSwiper.slideNext();
               }}

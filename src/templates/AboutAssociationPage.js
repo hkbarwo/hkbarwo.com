@@ -25,7 +25,7 @@ export default function AboutAssociationPage(props) {
             <li key={m.slug} className="m-10">
               <Link
                 className={classNames(
-                  'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
+                  'block min-w-144 text-center rounded-8 border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
                   m.slug === pageData.slug ? 'bg-tertiary text-white hover:bg-tertiary-light' : 'text-tertiary'
                 )}
                 to={m.localizedPath}
@@ -73,7 +73,7 @@ export default function AboutAssociationPage(props) {
             <h2 className="font-bold">{commitieesTitle}</h2>
             <ul className="grid grid-cols-1 mt-56 sm:grid-cols-2 lg:grid-cols-4 gap-x-40 gap-y-20">
               {commitiees.map(committee => (
-                <li className="p-10 text-center border rounded-full border-gray-bc">
+                <li className="p-10 text-center border rounded-8 border-gray-bc">
                   <div className="text-secondary">{committee.title}</div>
                   <div className="font-serif font-bold text-18">{committee.name}</div>
                 </li>

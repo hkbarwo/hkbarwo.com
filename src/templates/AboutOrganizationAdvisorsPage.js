@@ -48,7 +48,7 @@ export default function AboutOrganizationAdvisorsPage({ path, pageContext }) {
               <li key={page.slug} className="m-10">
                 <Link
                   className={classNames(
-                    'block min-w-144 text-center rounded-full border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
+                    'block min-w-144 text-center rounded-8 border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
                     page.slug === pageItem.slug ? 'bg-tertiary text-white hover:bg-tertiary-light' : 'text-tertiary'
                   )}
                   to={page.localizedPath}

@@ -9,11 +9,11 @@ function SearchBar(props) {
   const intl = useIntl();
   return (
     <div className="relative w-full max-w-md mx-auto">
-      <svg className="absolute top-16 left-16 w-16 h-16"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <svg className="absolute w-16 h-16 top-16 left-16"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
         <path d="M6.81,0a6.82,6.82,0,1,0,6.82,6.83h0A6.82,6.82,0,0,0,6.81,0Zm0,12.46a5.69,5.69,0,1,1,5.68-5.7v.06A5.68,5.68,0,0,1,6.81,12.46Zm9,2.2-3.1-3.1a7.74,7.74,0,0,1-.83.89L15,15.53a.6.6,0,0,0,.85,0,.6.6,0,0,0,0-.79Z"/>
       </svg>
       <input
-        className="block mt-48 w-full border border-gray-70 rounded-full p-10 pl-48 pr-32 text-center"
+        className="block w-full p-10 pl-48 pr-32 mt-48 text-center border border-gray-70 rounded-8"
         value={props.value}
         placeholder={intl.formatMessage({ id: 'photo.gallery.search.placeholder' })}
         onChange={(event) => {
@@ -60,11 +60,11 @@ export default function ResourcesPublicationsPage(props) {
       <SearchBar value={keyword} onChange={setKeyword} />
 
       {!photos.length ? (
-        <div className="py-72 text-36 text-gray-bc text-center font-serif font-light">
+        <div className="font-serif font-light text-center py-72 text-36 text-gray-bc">
           <FormattedMessage id={keyword ? "list.empty" : "photo.gallery.list.empty"} />
         </div>
       ) : (
-        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-48 mt-48 mx-auto w-full max-w-screen-lg">
+        <ul className="grid w-full max-w-screen-lg grid-cols-1 mx-auto mt-48 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-48">
           {photos.map((photo) => (
             <li key={photo.slug}>
               <button

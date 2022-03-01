@@ -35,7 +35,7 @@ export default function PerformancesCelebrationsPage(props) {
                 <div className="relative z-20">
                   <Listbox.Button
                     className={classNames(
-                      'flex items-center px-24 py-8 text-white rounded-full',
+                      'flex items-center px-24 py-8 text-white rounded-8',
                       open ? 'bg-secondary-dark' : 'bg-secondary',
                       'hover:bg-secondary-dark',
                       'transition',

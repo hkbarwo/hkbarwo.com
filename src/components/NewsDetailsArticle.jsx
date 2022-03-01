@@ -17,7 +17,7 @@ export default function NewsDetailsArticle(props) {
         
         {!!props.pdfFile && (
           <a
-            className="inline-flex items-center px-16 py-12 text-white transition-colors duration-300 rounded-full bg-secondary hover:bg-secondary-dark"
+            className="inline-flex items-center px-16 py-12 text-white transition-colors duration-300 rounded-8 bg-secondary hover:bg-secondary-dark"
             href={props.pdfFile}
             rel="noopener noreferrer"
             target="blank"
