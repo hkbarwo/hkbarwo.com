@@ -1,7 +1,7 @@
 ---
 cn:
   date: 2005-06-29T16:00:00.000Z
-  category: newsletter
+  category: report
   slug: the-49-issue-barwo-quarterly-journal
   pdfFile: /uploads/49_compressed.pdf
   title: 第49期《八和汇报》
@@ -18,7 +18,7 @@ cn:
     ![陈剑声主持春祭 | 让我们怀念的粤剧工作者](/uploads/49_compressed_page-0004.jpg "陈剑声主持春祭 | 让我们怀念的粤剧工作者")
 zh:
   date: 2005-06-29T16:00:00.000Z
-  category: newsletter
+  category: report
   title: 第49期《八和匯報》
   slug: the-49-issue-barwo-quarterly-journal
   content: >-
@@ -35,6 +35,6 @@ zh:
   pdfFile: /uploads/49_compressed.pdf
 en:
   title: Issue 49
-  category: newsletter
+  category: report
   content: "### Only available in Chinese version"
 ---

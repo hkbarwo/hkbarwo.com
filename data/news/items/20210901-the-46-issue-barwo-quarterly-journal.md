@@ -20,7 +20,7 @@ cn:
     ![演艺界女性第一人 汪明荃获颁银紫荆星章](/uploads/46_compressed_page-0004.jpg "演艺界女性第一人 汪明荃获颁银紫荆星章")
 zh:
   date: 2004-09-29T16:00:00.000Z
-  category: newsletter
+  category: report
   title: 第46期《八和匯報》
   slug: the-46-issue-barwo-quarterly-journal
   content: >-

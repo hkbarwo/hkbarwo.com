@@ -1,7 +1,7 @@
 ---
 cn:
   date: 2005-03-30T16:00:00.000Z
-  category: newsletter
+  category: report
   slug: the-48-issue-barwo-quarterly-journal
   pdfFile: /uploads/48_compressed.pdf
   title: 第48期《八和汇报》
@@ -25,7 +25,7 @@ cn:
     ![八和爱心献南亚二作表及演出花絮](/uploads/48_compressed_page-0006.jpg "八和爱心献南亚二作表及演出花絮")
 zh:
   date: 2005-03-30T16:00:00.000Z
-  category: newsletter
+  category: report
   title: 第48期《八和匯報》
   slug: the-48-issue-barwo-quarterly-journal
   content: >-
@@ -49,7 +49,7 @@ zh:
   pdfFile: /uploads/48_compressed.pdf
 en:
   title: Issue 48
-  category: newsletter
+  category: report
   content: |-
     
 

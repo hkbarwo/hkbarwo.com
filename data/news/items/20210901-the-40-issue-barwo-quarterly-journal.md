@@ -19,7 +19,7 @@ cn:
     ![八和应康文署邀请统筹「重温岭南风」 | 粤剧培训证书课程 | 梨园接班人](/uploads/40_compressed_page-0004.jpg "八和应康文署邀请统筹「重温岭南风」 | 粤剧培训证书课程 | 梨园接班人")
 zh:
   date: 2003-03-30T16:00:00.000Z
-  category: newsletter
+  category: report
   title: 第40期《八和匯報》
   slug: the-40-issue-barwo-quarterly-journal
   content: >-

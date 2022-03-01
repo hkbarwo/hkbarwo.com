@@ -18,7 +18,7 @@ cn:
     ![春和日丽好踏春 陈剑声主席主祭 | 让我们怀念的粤剧工作者](/uploads/45_compressed_page-0004.jpg "春和日丽好踏春 陈剑声主席主祭 | 让我们怀念的粤剧工作者")
 zh:
   date: 2004-06-29T16:00:00.000Z
-  category: newsletter
+  category: report
   title: 第45期《八和匯報》
   slug: the-45-issue-barwo-quarterly-journal
   content: >-

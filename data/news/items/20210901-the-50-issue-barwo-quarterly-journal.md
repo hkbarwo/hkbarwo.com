@@ -20,7 +20,7 @@ cn:
     ![康文署新订租场措施 | 新光接受续约 接受预订演期](/uploads/50_compressed_page-0004.jpg "康文署新订租场措施 | 新光接受续约 接受预订演期")
 zh:
   date: 2005-09-29T16:00:00.000Z
-  category: newsletter
+  category: report
   title: 第50期《八和匯報》
   slug: the-50-issue-barwo-quarterly-journal
   content: >-

@@ -5,7 +5,7 @@ cn:
   title: 八和汇报
 zh:
   title: 八和匯報
-  slug: newsletter
+  slug: report
   color: "#ffc557"
 en:
   title: Newsletter

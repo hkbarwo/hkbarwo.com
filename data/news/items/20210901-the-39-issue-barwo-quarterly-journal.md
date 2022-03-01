@@ -2,7 +2,7 @@
 cn:
   date: 2002-12-30T16:00:00.000Z
   slug: the-39-issue-barwo-quarterly-journal
-  category: newsletter
+  category: report
   pdfFile: /uploads/39_compressed.pdf
   title: 第39期《八和汇报》
   content: >-
@@ -27,7 +27,7 @@ zh:
   date: 2002-12-30T16:00:00.000Z
   title: 第39期《八和匯報》
   slug: the-39-issue-barwo-quarterly-journal
-  category: newsletter
+  category: report
   content: >-
     ![慶典華光誕筵開百席福物競投得款六十萬](/uploads/39_compressed_page-0001.jpg
     "慶典華光誕筵開百席福物競投得款六十萬")
@@ -49,7 +49,7 @@ zh:
   pdfFile: /uploads/39_compressed.pdf
 en:
   title: "Issue 39 "
-  category: newsletter
+  category: report
   content: |-
     
 
