@@ -48,7 +48,7 @@ zh:
     ![「戲曲資料中心」獲資助服務市民](/uploads/39_compressed_page-0006.jpg "「戲曲資料中心」獲資助服務市民")
   pdfFile: /uploads/39_compressed.pdf
 en:
-  title: Issue 39 of BarWo Newletter
+  title: "Issue 39 "
   category: report
   content: |-
     
