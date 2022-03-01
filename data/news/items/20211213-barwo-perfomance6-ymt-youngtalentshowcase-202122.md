@@ -140,4 +140,6 @@ en:
     
 
     ### Only available in Chinese version
+  category: notice
+  title: ：Tickets will be available for sale
 ---
