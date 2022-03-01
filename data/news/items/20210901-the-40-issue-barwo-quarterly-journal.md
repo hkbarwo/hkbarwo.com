@@ -1,4 +1,22 @@
 ---
+cn:
+  date: 2003-03-30T16:00:00.000Z
+  category: report
+  slug: the-40-issue-barwo-quarterly-journal
+  pdfFile: /uploads/40_compressed.pdf
+  title: 第40期《八和汇报》
+  content: >-
+    ![粤剧界力保新光戏院 | 律政司长出席以表支持 八和新春团拜喜气洋洋](/uploads/40_compressed_page-0001.jpg
+    "粤剧界力保新光戏院 | 律政司长出席以表支持 八和新春团拜喜气洋洋")
+
+
+    ![香港八和会馆第三十届理事会第十八次会议议程、特别会议议程及新光戏院续租约事宜特别会议议程](/uploads/40_compressed_page-0002.jpg "香港八和会馆第三十届理事会第十八次会议议程、特别会议议程及新光戏院续租约事宜特别会议议程")
+
+
+    ![香港八和会馆第三十届理事会第十九至二十二次会议议程及康文署约见特别会议](/uploads/40_compressed_page-0003.jpg "香港八和会馆第三十届理事会第十九至二十二次会议议程及康文署约见特别会议")
+
+
+    ![八和应康文署邀请统筹「重温岭南风」 | 粤剧培训证书课程 | 梨园接班人](/uploads/40_compressed_page-0004.jpg "八和应康文署邀请统筹「重温岭南风」 | 粤剧培训证书课程 | 梨园接班人")
 zh:
   date: 2003-03-30T16:00:00.000Z
   category: report
@@ -18,23 +36,10 @@ zh:
     ![八和應康文署邀請統籌「重溫嶺南風」 | 粵劇培訓證書課程 | 梨園接班人](/uploads/40_compressed_page-0004.jpg "八和應康文署邀請統籌「重溫嶺南風」 | 粵劇培訓證書課程 | 梨園接班人")
   pdfFile: /uploads/40_compressed.pdf
 en:
-  title: report
-cn:
-  date: 2003-03-30T16:00:00.000Z
+  title: Issue 40 of BarWo Newletter
   category: report
-  slug: the-40-issue-barwo-quarterly-journal
-  pdfFile: /uploads/40_compressed.pdf
-  title: 第40期《八和汇报》
-  content: >-
-    ![粤剧界力保新光戏院 | 律政司长出席以表支持 八和新春团拜喜气洋洋](/uploads/40_compressed_page-0001.jpg
-    "粤剧界力保新光戏院 | 律政司长出席以表支持 八和新春团拜喜气洋洋")
+  content: |-
+    
 
-
-    ![香港八和会馆第三十届理事会第十八次会议议程、特别会议议程及新光戏院续租约事宜特别会议议程](/uploads/40_compressed_page-0002.jpg "香港八和会馆第三十届理事会第十八次会议议程、特别会议议程及新光戏院续租约事宜特别会议议程")
-
-
-    ![香港八和会馆第三十届理事会第十九至二十二次会议议程及康文署约见特别会议](/uploads/40_compressed_page-0003.jpg "香港八和会馆第三十届理事会第十九至二十二次会议议程及康文署约见特别会议")
-
-
-    ![八和应康文署邀请统筹「重温岭南风」 | 粤剧培训证书课程 | 梨园接班人](/uploads/40_compressed_page-0004.jpg "八和应康文署邀请统筹「重温岭南风」 | 粤剧培训证书课程 | 梨园接班人")
+    ### Only available in Chinese version
 ---
