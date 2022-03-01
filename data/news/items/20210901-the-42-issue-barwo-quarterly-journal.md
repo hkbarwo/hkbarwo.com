@@ -48,7 +48,7 @@ zh:
 en:
   date: 2003-06-29T16:00:00.000Z
   category: report
-  title: Issue 42 of BarWo Newletter
+  title: "Issue 42 "
   slug: the-41-issue-barwo-quarterly-journal
   content: "### Only available in Chinese version"
   pdfFile: /uploads/41_compressed.pdf
