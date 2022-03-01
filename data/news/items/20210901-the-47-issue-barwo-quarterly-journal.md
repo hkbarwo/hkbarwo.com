@@ -1,7 +1,7 @@
 ---
 cn:
   date: 2004-12-30T16:00:00.000Z
-  category: report
+  category: newsletter
   slug: the-47-issue-barwo-quarterly-journal
   pdfFile: /uploads/47_compressed.pdf
   title: 第47期《八和汇报》
@@ -47,7 +47,7 @@ zh:
   pdfFile: /uploads/47_compressed.pdf
 en:
   title: Issue 47
-  category: report
+  category: newsletter
   content: |-
     
 
