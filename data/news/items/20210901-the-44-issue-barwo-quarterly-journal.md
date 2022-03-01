@@ -48,7 +48,7 @@ zh:
     ![吳君麗珍藏捐文物館](/uploads/44_compressed_page-0006.jpg "吳君麗珍藏捐文物館")
   pdfFile: /uploads/44.pdf
 en:
-  title: Issue 44 of BarWo Newletter
+  title: "Issue 44 "
   category: report
   content: |-
     
