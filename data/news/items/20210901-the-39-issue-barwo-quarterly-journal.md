@@ -1,4 +1,28 @@
 ---
+cn:
+  date: 2002-12-30T16:00:00.000Z
+  slug: the-39-issue-barwo-quarterly-journal
+  category: report
+  pdfFile: /uploads/39_compressed.pdf
+  title: 第39期《八和汇报》
+  content: >-
+    ![庆典华光诞筵开百席福物竞投得款六十万](/uploads/39_compressed_page-0001.jpg
+    "庆典华光诞筵开百席福物竞投得款六十万")
+
+
+    ![华光先师诞 香花山贺寿演员表](/uploads/39_compressed_page-0002.jpg "华光先师诞 香花山贺寿演员表")
+
+
+    ![香港八和会馆第三十届理事会第十五至十七次会议议程及办公室报告（2002年9月至11月）](/uploads/39_compressed_page-0003.jpg "香港八和会馆第三十届理事会第十五至十七次会议议程及办公室报告（2002年9月至11月）")
+
+
+    ![颁纪念座予上届福物得主](/uploads/39_compressed_page-0004.jpg "颁纪念座予上届福物得主")
+
+
+    ![华光先师宝诞竞投圣物得主名单及赞助者](/uploads/39_compressed_page-0005.jpg "华光先师宝诞竞投圣物得主名单及赞助者")
+
+
+    ![「戏曲资料中心」获资助服务市民](/uploads/39_compressed_page-0006.jpg "「戏曲资料中心」获资助服务市民")
 zh:
   date: 2002-12-30T16:00:00.000Z
   title: 第39期《八和匯報》
@@ -24,29 +48,10 @@ zh:
     ![「戲曲資料中心」獲資助服務市民](/uploads/39_compressed_page-0006.jpg "「戲曲資料中心」獲資助服務市民")
   pdfFile: /uploads/39_compressed.pdf
 en:
-  title: report
-cn:
-  date: 2002-12-30T16:00:00.000Z
-  slug: the-39-issue-barwo-quarterly-journal
+  title: Issue 39 of BarWo Newletter
   category: report
-  pdfFile: /uploads/39_compressed.pdf
-  title: 第39期《八和汇报》
-  content: >-
-    ![庆典华光诞筵开百席福物竞投得款六十万](/uploads/39_compressed_page-0001.jpg
-    "庆典华光诞筵开百席福物竞投得款六十万")
+  content: |-
+    
 
-
-    ![华光先师诞 香花山贺寿演员表](/uploads/39_compressed_page-0002.jpg "华光先师诞 香花山贺寿演员表")
-
-
-    ![香港八和会馆第三十届理事会第十五至十七次会议议程及办公室报告（2002年9月至11月）](/uploads/39_compressed_page-0003.jpg "香港八和会馆第三十届理事会第十五至十七次会议议程及办公室报告（2002年9月至11月）")
-
-
-    ![颁纪念座予上届福物得主](/uploads/39_compressed_page-0004.jpg "颁纪念座予上届福物得主")
-
-
-    ![华光先师宝诞竞投圣物得主名单及赞助者](/uploads/39_compressed_page-0005.jpg "华光先师宝诞竞投圣物得主名单及赞助者")
-
-
-    ![「戏曲资料中心」获资助服务市民](/uploads/39_compressed_page-0006.jpg "「戏曲资料中心」获资助服务市民")
+    ### Only available in Chinese version
 ---
