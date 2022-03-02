@@ -7,6 +7,6 @@ zh:
   url: https://indd.adobe.com/view/1202b4ee-dad1-42dd-84ad-9d17616774c2
   title: 童你講粵劇
   slug: ebook
-  image: https://indd.adobe.com/view/1202b4ee-dad1-42dd-84ad-9d17616774c2
+  image: /uploads/童你講粵劇.jpg
 en: {}
 ---
