@@ -1,4 +1,34 @@
 ---
+cn:
+  date: 2010-12-30T16:00:00.000Z
+  slug: the-71-issue-barwo-quarterly-journal
+  category: report
+  pdfFile: /uploads/71_compressed.pdf
+  title: 第71期《八和汇报》
+  content: >-
+    ![庆祝2010年（庚寅年）华光师父诞](/uploads/71_compressed_page-0001.jpg
+    "庆祝2010年（庚寅年）华光师父诞")
+
+
+    ![庆祝华光师父诞：贺诞例戏《香花山大贺寿》](/uploads/71_compressed_page-0002.jpg "庆祝华光师父诞：贺诞例戏《香花山大贺寿》")
+
+
+    ![庆祝华光师父诞：《天姬大送子》及致送纪念品予去年华光诞投得圣物得主](/uploads/71_compressed_page-0003.jpg "庆祝华光师父诞：《天姬大送子》及致送纪念品予去年华光诞投得圣物得主")
+
+
+    ![八和与吕润财中学合办「粤剧教学协作计划」 | 康文署主办粤剧日 | 艺术与科技教育中心（ATEC）「新高中音乐科粤剧基础课程」](/uploads/71_compressed_page-0004.jpg "八和与吕润财中学合办「粤剧教学协作计划」 | 康文署主办粤剧日 | 艺术与科技教育中心（ATEC）「新高中音乐科粤剧基础课程」")
+
+
+    ![戏曲年鉴首次出版 •再创香港演艺记录新里程 | 汪主席出席香港文化艺术界国庆筹委会活动 | 汪主席出席澳门粤剧曲艺总会成立6周年庆典](/uploads/71_compressed_page-0005.jpg "戏曲年鉴首次出版 •再创香港演艺记录新里程 | 汪主席出席香港文化艺术界国庆筹委会活动 | 汪主席出席澳门粤剧曲艺总会成立6周年庆典")
+
+
+    ![口述历史 •承传发展 | 香港粤剧演员会就职典礼](/uploads/71_compressed_page-0006.jpg "口述历史 •承传发展 | 香港粤剧演员会就职典礼")
+
+
+    ![香港八和会馆办公室报告（2010年9月至11月）及第三十四届理事会第十五至十七次会议议程](/uploads/71_compressed_page-0007.jpg "香港八和会馆办公室报告（2010年9月至11月）及第三十四届理事会第十五至十七次会议议程")
+
+
+    ![2010年度会员周年大会](/uploads/71_compressed_page-0008.jpg "2010年度会员周年大会")
 zh:
   date: 2010-12-30T16:00:00.000Z
   title: 第71期《八和匯報》
@@ -30,35 +60,7 @@ zh:
     ![2010年度會員週年大會](/uploads/71_compressed_page-0008.jpg "2010年度會員週年大會")
   pdfFile: /uploads/71_compressed.pdf
 en:
-  title: report
-cn:
-  date: 2010-12-30T16:00:00.000Z
-  slug: the-71-issue-barwo-quarterly-journal
+  title: Issue 71
   category: report
-  pdfFile: /uploads/71_compressed.pdf
-  title: 第71期《八和汇报》
-  content: >-
-    ![庆祝2010年（庚寅年）华光师父诞](/uploads/71_compressed_page-0001.jpg
-    "庆祝2010年（庚寅年）华光师父诞")
-
-
-    ![庆祝华光师父诞：贺诞例戏《香花山大贺寿》](/uploads/71_compressed_page-0002.jpg "庆祝华光师父诞：贺诞例戏《香花山大贺寿》")
-
-
-    ![庆祝华光师父诞：《天姬大送子》及致送纪念品予去年华光诞投得圣物得主](/uploads/71_compressed_page-0003.jpg "庆祝华光师父诞：《天姬大送子》及致送纪念品予去年华光诞投得圣物得主")
-
-
-    ![八和与吕润财中学合办「粤剧教学协作计划」 | 康文署主办粤剧日 | 艺术与科技教育中心（ATEC）「新高中音乐科粤剧基础课程」](/uploads/71_compressed_page-0004.jpg "八和与吕润财中学合办「粤剧教学协作计划」 | 康文署主办粤剧日 | 艺术与科技教育中心（ATEC）「新高中音乐科粤剧基础课程」")
-
-
-    ![戏曲年鉴首次出版 •再创香港演艺记录新里程 | 汪主席出席香港文化艺术界国庆筹委会活动 | 汪主席出席澳门粤剧曲艺总会成立6周年庆典](/uploads/71_compressed_page-0005.jpg "戏曲年鉴首次出版 •再创香港演艺记录新里程 | 汪主席出席香港文化艺术界国庆筹委会活动 | 汪主席出席澳门粤剧曲艺总会成立6周年庆典")
-
-
-    ![口述历史 •承传发展 | 香港粤剧演员会就职典礼](/uploads/71_compressed_page-0006.jpg "口述历史 •承传发展 | 香港粤剧演员会就职典礼")
-
-
-    ![香港八和会馆办公室报告（2010年9月至11月）及第三十四届理事会第十五至十七次会议议程](/uploads/71_compressed_page-0007.jpg "香港八和会馆办公室报告（2010年9月至11月）及第三十四届理事会第十五至十七次会议议程")
-
-
-    ![2010年度会员周年大会](/uploads/71_compressed_page-0008.jpg "2010年度会员周年大会")
+  content: "### Only available in Chinese version"
 ---
