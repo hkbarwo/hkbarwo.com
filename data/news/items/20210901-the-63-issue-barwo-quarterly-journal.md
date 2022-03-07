@@ -1,4 +1,29 @@
 ---
+cn:
+  date: 2008-12-30T16:00:00.000Z
+  slug: the-63-issue-barwo-quarterly-journal
+  category: report
+  pdfFile: /uploads/63_compressed.pdf
+  title: 第63期《八和汇报》
+  content: >-
+    ![香港八和会馆广州演出后记《斩二王》 | 跟进「新光戏院」租约事宜 |
+    岁晚特别福利金派发](/uploads/63_compressed_page-0001.jpg "香港八和会馆广州演出后记《斩二王》 |
+    跟进「新光戏院」租约事宜 | 岁晚特别福利金派发")
+
+
+    ![华光先师宝诞：投福物得主及赞助嘉宾名单及竞技福物得款百万](/uploads/63_compressed_page-0002.jpg "华光先师宝诞：投福物得主及赞助嘉宾名单及竞技福物得款百万")
+
+
+    ![香港八和会馆办公室报告（2008年8月至10月）及第三十三届理事会第十五至十七次会议议程](/uploads/63_compressed_page-0003.jpg "香港八和会馆办公室报告（2008年8月至10月）及第三十三届理事会第十五至十七次会议议程")
+
+
+    ![演员会和普福堂庆祝华光诞 ](/uploads/63_compressed_page-0004.jpg "演员会和普福堂庆祝华光诞 ")
+
+
+    ![贺华光先师诞全行献演 香花山与大送子](/uploads/63_compressed_page-0005.jpg "贺华光先师诞全行献演 香花山与大送子")
+
+
+    ![羊城国际粤剧节《斩二王》](/uploads/63_compressed_page-0006.jpg "羊城国际粤剧节《斩二王》")
 zh:
   date: 2008-12-30T16:00:00.000Z
   title: 第63期《八和匯報》
@@ -25,30 +50,10 @@ zh:
     ![羊城國際粵劇節《斬二王》](/uploads/63_compressed_page-0006.jpg "羊城國際粵劇節《斬二王》")
   pdfFile: /uploads/63_compressed.pdf
 en:
-  title: report
-cn:
-  date: 2008-12-30T16:00:00.000Z
-  slug: the-63-issue-barwo-quarterly-journal
+  title: Issue 63
   category: report
-  pdfFile: /uploads/63_compressed.pdf
-  title: 第63期《八和汇报》
-  content: >-
-    ![香港八和会馆广州演出后记《斩二王》 | 跟进「新光戏院」租约事宜 |
-    岁晚特别福利金派发](/uploads/63_compressed_page-0001.jpg "香港八和会馆广州演出后记《斩二王》 |
-    跟进「新光戏院」租约事宜 | 岁晚特别福利金派发")
+  content: |-
+    
 
-
-    ![华光先师宝诞：投福物得主及赞助嘉宾名单及竞技福物得款百万](/uploads/63_compressed_page-0002.jpg "华光先师宝诞：投福物得主及赞助嘉宾名单及竞技福物得款百万")
-
-
-    ![香港八和会馆办公室报告（2008年8月至10月）及第三十三届理事会第十五至十七次会议议程](/uploads/63_compressed_page-0003.jpg "香港八和会馆办公室报告（2008年8月至10月）及第三十三届理事会第十五至十七次会议议程")
-
-
-    ![演员会和普福堂庆祝华光诞 ](/uploads/63_compressed_page-0004.jpg "演员会和普福堂庆祝华光诞 ")
-
-
-    ![贺华光先师诞全行献演 香花山与大送子](/uploads/63_compressed_page-0005.jpg "贺华光先师诞全行献演 香花山与大送子")
-
-
-    ![羊城国际粤剧节《斩二王》](/uploads/63_compressed_page-0006.jpg "羊城国际粤剧节《斩二王》")
+    ### Only available in Chinese version
 ---
