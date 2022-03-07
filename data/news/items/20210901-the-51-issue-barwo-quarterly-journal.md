@@ -1,4 +1,27 @@
 ---
+cn:
+  date: 2005-12-30T16:00:00.000Z
+  category: report
+  slug: the-51-issue-barwo-quarterly-journal
+  pdfFile: /uploads/51_compressed.pdf
+  title: 第51期《八和汇报》
+  content: >-
+    ![第三十二届理事就职民政局长主礼](/uploads/51_compressed_page-0001.jpg "第三十二届理事就职民政局长主礼")
+
+
+    ![名伶义演救新光](/uploads/51_compressed_page-0002.jpg "名伶义演救新光")
+
+
+    ![香港八和会馆第三十二届理事会第二至四次会议内容及办公室报告（2005年9月至10月）](/uploads/51_compressed_page-0003.jpg "香港八和会馆第三十二届理事会第二至四次会议内容及办公室报告（2005年9月至10月）")
+
+
+    ![香港八和会馆第三十二届理事会第五次会议议程及办公室报告（2005年11月）](/uploads/51_compressed_page-0004.jpg "香港八和会馆第三十二届理事会第五次会议议程及办公室报告（2005年11月）")
+
+
+    ![华光先师宝诞投福物得主及赞助嘉宾名单及合照](/uploads/51_compressed_page-0005.jpg "华光先师宝诞投福物得主及赞助嘉宾名单及合照")
+
+
+    ![华光先师宝诞香花山贺寿演员表 | 红线女获颁荣誉博士](/uploads/51_compressed_page-0006.jpg "华光先师宝诞香花山贺寿演员表 | 红线女获颁荣誉博士")
 zh:
   date: 2005-12-30T16:00:00.000Z
   category: report
@@ -23,28 +46,10 @@ zh:
     ![華光先師寶誕香花山賀壽演員表 | 紅線女獲頒榮譽博士](/uploads/51_compressed_page-0006.jpg "華光先師寶誕香花山賀壽演員表 | 紅線女獲頒榮譽博士")
   pdfFile: /uploads/51_compressed.pdf
 en:
-  title: report
-cn:
-  date: 2005-12-30T16:00:00.000Z
+  title: Issue 51
   category: report
-  slug: the-51-issue-barwo-quarterly-journal
-  pdfFile: /uploads/51_compressed.pdf
-  title: 第51期《八和汇报》
-  content: >-
-    ![第三十二届理事就职民政局长主礼](/uploads/51_compressed_page-0001.jpg "第三十二届理事就职民政局长主礼")
+  content: |-
+    
 
-
-    ![名伶义演救新光](/uploads/51_compressed_page-0002.jpg "名伶义演救新光")
-
-
-    ![香港八和会馆第三十二届理事会第二至四次会议内容及办公室报告（2005年9月至10月）](/uploads/51_compressed_page-0003.jpg "香港八和会馆第三十二届理事会第二至四次会议内容及办公室报告（2005年9月至10月）")
-
-
-    ![香港八和会馆第三十二届理事会第五次会议议程及办公室报告（2005年11月）](/uploads/51_compressed_page-0004.jpg "香港八和会馆第三十二届理事会第五次会议议程及办公室报告（2005年11月）")
-
-
-    ![华光先师宝诞投福物得主及赞助嘉宾名单及合照](/uploads/51_compressed_page-0005.jpg "华光先师宝诞投福物得主及赞助嘉宾名单及合照")
-
-
-    ![华光先师宝诞香花山贺寿演员表 | 红线女获颁荣誉博士](/uploads/51_compressed_page-0006.jpg "华光先师宝诞香花山贺寿演员表 | 红线女获颁荣誉博士")
+    ### Only available in Chinese version
 ---
