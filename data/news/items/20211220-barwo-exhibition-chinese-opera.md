@@ -66,4 +66,6 @@ en:
     
 
     ### Only available in Chinese version
+  title: "Participated in the Opening Ceremony of the Photo Exhibition "
+  category: event
 ---
