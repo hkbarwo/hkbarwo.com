@@ -42,4 +42,6 @@ zh:
   images: ""
 en:
   content: "### Only available in Chinese version"
+  category: event
+  title: Barwo football team training match on 17th December 2021
 ---
