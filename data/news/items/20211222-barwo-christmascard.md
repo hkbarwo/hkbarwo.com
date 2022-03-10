@@ -29,5 +29,8 @@ zh:
     香港八和會館謹啟
 
     二零二一年十二月廿二日
-en: {}
+en:
+  title: " Christmas cards design by Barwo   Free  download"
+  category: event
+  content: "### Only available in Chinese version"
 ---
