@@ -33,9 +33,11 @@ en:
   shortTitle: Inheritance
   title: "The Cantonese Opera Academy of Hong Kong "
   subtitle: Inheritance and Education
-  description: The Cantonese Opera Academy of Hong Kong (COA )was officially
-    registered as a non-profit making charitable
-    organization，肩負著為香港社會培育粤劇人才的重任。學院原從屬於香港八和會館，學院董事會由同屆香港八和會館理事會成員，在自願情況下出任。
+  description: "The Cantonese Opera Academy of Hong Kong (COA )was officially
+    registered as a non-profit making charitable organization，carrying the
+    mission of grooming  Cantonese Opera  talent for Hong Kong. COA was
+    originally subordinate to CAAHK. The board of directors of COA was appointed
+    by the same board members of the CAAHK voluntarily. "
   buttonTitle: " 了解更多"
   buttonLink:
     page: channel
