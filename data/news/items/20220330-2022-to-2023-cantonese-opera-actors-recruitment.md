@@ -108,7 +108,7 @@ cn:
     **\*应征者的年龄以油麻地戏院场地伙伴计划的开始月份，即2022年7月1日计算。**
 zh:
   date: 2022-03-30T07:08:53.717Z
-  title: 香港八和會館 「粵劇新秀演出系列」 公開招募新秀演員 申請須知
+  title: 香港八和會館 「粵劇新秀演出系列」 公開招募新秀演員 申請須知及申請表格
   slug: 2022-to-2023-cantonese-opera-actors-recruitment
   category: job
   content: >-
