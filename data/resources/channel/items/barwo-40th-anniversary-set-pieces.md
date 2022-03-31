@@ -10,6 +10,6 @@ zh:
   title: "1994年八和成立40周年演出 傳統功架古老排場 《咬箭結拜》 "
   content: 大戰排場片段（張忠：羅家英、鄺瑞龍：新劍郎）
   slug: barwo-40th-anniversary-set-pieces
-  youtubeVideoID: 5QDErxHteA&t
+  youtubeVideoID: 5QDErxHteA
 en: {}
 ---
