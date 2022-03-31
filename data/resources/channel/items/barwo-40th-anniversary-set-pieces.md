@@ -1,7 +1,9 @@
 ---
 cn:
   date: 2022-03-31T09:27:50.321Z
-  category: notice
+  category: historic-footages
+  title: 1994年八和成立40周年演出 传统功架古老排场 《咬箭结拜》
+  content: 大战排场片段（张忠：罗家英、邝瑞龙：新剑郎）
 zh:
   date: 2022-03-31T09:27:50.337Z
   category: historic-footages
