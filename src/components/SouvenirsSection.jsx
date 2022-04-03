@@ -6,6 +6,7 @@ import BlueButton from "./BlueButton";
 import FormInput from "./FormInput";
 import StrikethroughHeading from "./StrikethroughHeading";
 import { SouvenirGallery } from "./SouvenirGallery";
+import { SouvenirsSlideshow } from "./SouvenirsSlideshow";
 
 function SouvenirSelectRow({ className, items, index, isHidden }) {
   const intl = useIntl();
@@ -207,6 +208,11 @@ export default function SouvenirsSection(props) {
   return (
     <section className={props.className}>
       <StrikethroughHeading id="souvenirs" className="mb-72">{props.title}</StrikethroughHeading>
+
+      <SouvenirsSlideshow
+        className="-mx-16 mt-80 mb-96 md:-mx-60"
+        items={props.items}
+      />
 
       <SouvenirGrid
         className="w-full max-w-screen-lg mx-auto"
