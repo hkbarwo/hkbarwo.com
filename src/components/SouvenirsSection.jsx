@@ -5,6 +5,7 @@ import classNames from "classnames";
 import BlueButton from "./BlueButton";
 import FormInput from "./FormInput";
 import StrikethroughHeading from "./StrikethroughHeading";
+import { SouvenirGallery } from "./SouvenirGallery";
 
 function SouvenirSelectRow({ className, items, index, isHidden }) {
   const intl = useIntl();
@@ -146,14 +147,18 @@ function SouvenirsForm(props) {
   );
 }
 
-function SouvenirGridItem({ code, title, image, price }) {
+function SouvenirGridItem({ code, title, image, price, gallery }) {
+  const [isOpen, setIsOpen] = React.useState(false);
   return (
     <div>
       <div className="aspect-w-1 aspect-h-1">
         <img
-          className="object-cover w-full h-full"
+          className="object-cover w-full h-full cursor-pointer"
           src={image}
           alt={title}
+          onClick={() => {
+            setIsOpen(true)
+          }}
         />
       </div>
       <div className="flex items-center justify-between mt-16 text-14">
@@ -164,6 +169,13 @@ function SouvenirGridItem({ code, title, image, price }) {
         <span className="font-bold text-primary text-24">${price}</span>
       </div>
       <div className="mt-8 font-bold text-18">{title}</div>
+      <SouvenirGallery
+        isOpen={isOpen}
+        items={[image, ...gallery]}
+        onClose={() => {
+          setIsOpen(false)
+        }}
+      />
     </div>
   );
 }
@@ -177,13 +189,14 @@ function SouvenirGrid(props) {
         props.className
       )}
     >
-      {items.map(({ slug, title, thumbnail, price }) => (
+      {items.map(({ slug, title, thumbnail, price, gallery }) => (
         <SouvenirGridItem
           key={slug}
           title={title}
           code={slug}
           image={thumbnail}
           price={price}
+          gallery={gallery}
         />
       ))}
     </div>

@@ -1418,11 +1418,15 @@ collections:
         widget: image
         required: false
         default: ""
-      - name: "images"
-        label: "圖片"
-        widget: image
-        required: false
-        default: ""
+      - name: "gallery"
+        label: "圖片集"
+        widget: list
+        field:
+          name: "image"
+          label: "圖片"
+          widget: image
+          required: false
+          default: ""
   - name: "member"
     label: "📄 會員專區頁面"
     i18n: true

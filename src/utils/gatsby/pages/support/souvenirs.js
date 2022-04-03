@@ -24,7 +24,7 @@ exports.createSupportSouvenirsPage = async ({ actions, graphql }, context) => {
               title
               thumbnail
               banner
-              images
+              gallery
               price
             }
           }
