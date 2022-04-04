@@ -28,8 +28,9 @@ function LanguageButton({ className, path, locale, targetLocale, children, isDis
   return (
     <Link
       className={classNames(
+        'language-button',
         className,
-        'mx-10 py-2 hover:opacity-100',
+        'py-2 hover:opacity-100',
         locale === targetLocale ? 'border-b' : hoverClass || 'opacity-40',
         {
           'pointer-events-none': isDisabled,
@@ -153,7 +154,7 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
     <div className="relative z-10">
       <div className="fixed top-0 right-0 h-full md:w-60">
         <div className="absolute top-0 right-full">
-          <div className="relative items-center hidden px-4 py-12 text-white md:flex bg-dark-gray bg-opacity-20 backdrop-filter backdrop-blur">
+          <div className="relative items-center hidden grid-flow-col gap-12 px-12 py-10 text-white md:grid bg-dark-gray bg-opacity-20 backdrop-filter backdrop-blur">
             <LanguageButton
               className="whitespace-nowrap"
               hoverClass="opacity-90"
@@ -288,7 +289,7 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
                 >{pageContext.general.themeSettings.dark}</label>
               </button> */}
 
-              <div className="grid grid-flow-col">
+              <div className="grid grid-flow-col gap-12 px-12 py-10">
                 <LanguageButton
                   path={path}
                   locale={locale}

@@ -126,6 +126,7 @@ html[lang="cn"] * {
   letter-spacing: 0.075em !important;
 }
 
-html[lang="en"] * {
+html[lang="en"] *,
+html .language-button {
   letter-spacing: 0 !important;
 }
