@@ -24,12 +24,13 @@ import SiteLogo from "./SiteLogo";
 //   </div>;
 // }
 
-function LanguageButton({ path, locale, targetLocale, children, isDisabled = false }) {
+function LanguageButton({ className, path, locale, targetLocale, children, isDisabled = false, hoverClass }) {
   return (
     <Link
       className={classNames(
+        className,
         'mx-10 py-2 hover:opacity-100',
-        locale === targetLocale ? 'border-b' : 'opacity-40',
+        locale === targetLocale ? 'border-b' : hoverClass || 'opacity-40',
         {
           'pointer-events-none': isDisabled,
         },
@@ -151,6 +152,31 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
   return (
     <div className="relative z-10">
       <div className="fixed top-0 right-0 h-full md:w-60">
+        <div className="absolute top-0 right-full">
+          <div className="relative items-center hidden px-4 py-12 text-white md:flex bg-dark-gray bg-opacity-20 backdrop-filter backdrop-blur">
+            <LanguageButton
+              className="whitespace-nowrap"
+              hoverClass="opacity-90"
+              path={path}
+              locale={locale}
+              targetLocale="zh"
+            >繁中</LanguageButton>
+            <LanguageButton
+              className="whitespace-nowrap"
+              hoverClass="opacity-90"
+              path={path}
+              locale={locale}
+              targetLocale="cn"
+            >簡中</LanguageButton>
+            <LanguageButton
+              className="whitespace-nowrap"
+              hoverClass="opacity-90"
+              path={path}
+              locale={locale}
+              targetLocale="en"
+            >ENG</LanguageButton>
+          </div>
+        </div>
         <button
           className={classNames(
             'p-10 pb-16 md:p-20 md:w-full bg-primary text-white rounded-bl-2xl md:rounded-none', 
@@ -262,21 +288,23 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
                 >{pageContext.general.themeSettings.dark}</label>
               </button> */}
 
-              <LanguageButton
-                path={path}
-                locale={locale}
-                targetLocale="zh"
-              >繁中</LanguageButton>
-              <LanguageButton
-                path={path}
-                locale={locale}
-                targetLocale="cn"
-              >簡中</LanguageButton>
-              <LanguageButton
-                path={path}
-                locale={locale}
-                targetLocale="en"
-              >ENG</LanguageButton>
+              <div className="grid grid-flow-col">
+                <LanguageButton
+                  path={path}
+                  locale={locale}
+                  targetLocale="zh"
+                >繁中</LanguageButton>
+                <LanguageButton
+                  path={path}
+                  locale={locale}
+                  targetLocale="cn"
+                >簡中</LanguageButton>
+                <LanguageButton
+                  path={path}
+                  locale={locale}
+                  targetLocale="en"
+                >ENG</LanguageButton>
+              </div>
 
               <button
                 className="ml-10 dark:bg-text-primary md:ml-32 md:-mr-20"
