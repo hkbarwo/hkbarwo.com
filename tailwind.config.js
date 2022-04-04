@@ -27,7 +27,7 @@ module.exports = {
     },
     fontFamily: {
       'sans': ['Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'sans-serif'],
-      'serif': ['Noto Serif', 'Noto Serif TC', 'Noto Serif SC', 'serif'],
+      'serif': ['Lora', 'Noto Serif TC', 'Noto Serif SC', 'serif'],
     },
     spacing: {
       '0': '0rem',
