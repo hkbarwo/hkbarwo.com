@@ -8,7 +8,6 @@ zh:
 en:
   title: Publication
   description: ""
-  wip: true
 cn:
   url: /resources/publications
   slug: publications

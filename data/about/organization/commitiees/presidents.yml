@@ -19,16 +19,18 @@ en:
   list:
     - name: 芳艷芬
       title: 永遠名譽會長
-      image: /images/uploads/organization/commitiees/female.png
+      image: /images/uploads/organization/commitiees/永遠名譽會長_芳艷芬-2x.jpg
     - title: 永遠名譽會長
       name: 關德興
-      image: /images/uploads/organization/commitiees/male.png
-    - {}
+      image: /images/uploads/organization/commitiees/永遠名譽會長_關德興-2x.jpg
     - name: 馬國超
       title: 永遠會長
-      image: /images/uploads/organization/commitiees/male.png
+      image: /images/uploads/organization/commitiees/永遠會長_馬國超.jpg
+    - name: 陳劍聲 MH
+      title: 永遠會長
+      image: /uploads/陳劍聲-陳杏葵-演-480-x-640.jpg
     - title: 永遠會長
-      name: 汪明荃 DLitt, SBS
+      name: DLitt, SBS 	Dr. Wang Ming-chuen Liza, DLitt, SBS
       image: /images/uploads/organization/commitiees/female.png
 cn:
   list:
