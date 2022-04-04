@@ -327,8 +327,11 @@ export default function HomePageTemplate({ pageContext, path }) {
           description={pageContext.pageItem.description}
         />
         <PageNav {...{ path, pageContext }} isHideMenuButton={isShowDetail} />
-        <header className="p-20 pt-16 bg-white md:hidden">
-          <SiteLogo className="mx-auto" style={{ maxWidth: 140 }} />
+        <header className="p-20 py-10 bg-white md:hidden">
+          <SiteLogo
+            className="mx-auto" style={{ maxHeight: 100 }}
+            locale={pageContext.locale}
+          />
         </header>
         <div className="fixed inset-0 items-stretch hidden md:flex">
           <section
@@ -459,12 +462,12 @@ export default function HomePageTemplate({ pageContext, path }) {
               className="text-white"
             >
               <a href={`#${slide.slug}`} onClick={(e) => onClickSlide(e, i)}>
-                <div className="aspect-w-1 aspect-h-1">   
-                  <img
-                    className="object-cover"
-                    src={`${slide.bgImage}`} alt={slide.title}
-                  />
-                </div>
+                <div
+                  className="relative bg-center bg-cover aspect-w-1 aspect-h-1 sm:aspect-w-16 sm:aspect-h-9"
+                  style={{
+                    backgroundImage: `url(${slide.bgImage})`,
+                  }}
+                />
                 <div
                   className="flex p-20"
                   style={{

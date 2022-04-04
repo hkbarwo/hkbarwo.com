@@ -13,11 +13,11 @@ export function SearchBox({ className, locale, onSearch }) {
   const isEmpty = !!(!query || query.length === 0);
   return (
     <form
-      className={classNames("mx-auto border-b-2 border-black leading-8 tracking-wide", className)}
+      className={classNames("px-8 py-4 w-full mx-auto border border-1 rounded-8 border-gray-24 leading-8 tracking-wide", className)}
       noValidate
       role="search"
-      style={{ maxWidth: 180 }}
       onSubmit={onSubmit}
+      style={{ maxWidth: 360 }}
     >
       <div className="relative flex items-center">
         {isEmpty && (
@@ -32,14 +32,14 @@ export function SearchBox({ className, locale, onSearch }) {
         )}
         {isEmpty && (
           <div
-            className="absolute left-0 right-0 text-center text-14 pointer-events-none"
+            className="absolute left-0 right-0 text-center pointer-events-none text-14"
             style={{ color: "#958045" }}
           >
             <FormattedMessage id="search.box.placeholder" />
           </div>
         )}
         <input
-          className="text-center w-full bg-transparent"
+          className="w-full text-center bg-transparent"
           type="search"
           value={query}
           onChange={event => setQuery(event.currentTarget.value)}

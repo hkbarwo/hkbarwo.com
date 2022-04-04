@@ -95,7 +95,7 @@ function ExpandableSubMenu({ item, pageContext, onClose, style }) {
       key={item.slug}
       style={style}
     >
-      <div className="relative flex items-center justify-center w-full py-4 font-serif font-bold tracking-wide text-center border-b border-current text-20">
+      <div className="relative flex items-center justify-center w-full py-4 mx-auto font-serif font-bold tracking-wide text-center border-b border-current border-gray-24 border-opacity-20 max-w-480 text-20">
         <Link
           className="tracking-wide"
           to={item.url}
@@ -179,7 +179,7 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
         </div>
         <button
           className={classNames(
-            'p-10 pb-16 md:p-20 md:w-full bg-primary text-white rounded-bl-2xl md:rounded-none', 
+            'p-20 md:w-full bg-primary text-white', 
             !!pageTitle ? 'md:bg-primary' : 'md:bg-transparent',
             {
               hidden: isHideMenuButton,
@@ -189,7 +189,7 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
             setOpen(true);
           }}
         >
-          <svg className="mx-auto" xmlns="http://www.w3.org/2000/svg" width="16" height="17.143" viewBox="0 0 16 17.143">
+          <svg className="mx-auto" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 17.143">
             <g fill="currentColor" transform="translate(0 -184)">
               <rect width="3" height="3" transform="translate(0 184)" />
               <rect width="3" height="3" transform="translate(0 191.071)" />
@@ -247,7 +247,7 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
             <SiteLogo className="w-logo-sm md:w-logo" locale={pageContext.locale} />
             <div className="flex justify-center flex-grow">
               <SearchBox
-                className="hidden md:block"
+                className="hidden xl:block"
                 locale={pageContext.locale}
                 onSearch={() => setOpen(false)}
               />
@@ -328,13 +328,13 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
           </header>
           
           <SearchBox
-            className="mt-24 md:hidden"
+            className="mt-24 xl:hidden"
             locale={pageContext.locale}
             onSearch={() => setOpen(false)}
           />
 
-          <nav className="flex-row-reverse flex-grow hidden mt-40 md:flex">
-            <ul className="flex-shrink-0 ml-20 mr-48 text-right">
+          <nav className="flex-row-reverse flex-grow hidden mt-40 xl:flex">
+            <ul className="flex-shrink-0 mx-48 text-right">
               {pageContext.menus['primary'].map((item, i) => (
                 <li
                   key={item.slug}
@@ -353,24 +353,24 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
                 </li>
               ))}
             </ul>
-            <ul className="flex flex-wrap justify-center flex-grow -m-10">
+            <ul className="grid justify-center flex-grow grid-flow-col gap-32 -m-10">
               {pageContext.menus['secondary'].map(item => (
                 <li
                   key={item.slug}
-                  className="m-10 text-center min-w-180"
+                  className="m-10 text-center min-w-100"
                 >
                   <Link
                     className="font-serif font-bold text-24"
                     to={item.url}
                     onClick={() => { setOpen(false) }}
                   >{item.title}</Link>
-                  <hr className="my-8" />
+                  <hr className="my-8 opacity-20 border-gray-24" />
                   <SubMenu item={item} pageContext={pageContext} />
                 </li>
               ))}
             </ul>
           </nav>
-          <nav className="mt-32 md:hidden">
+          <nav className="mt-32 xl:hidden">
             <ul>
               {pageContext.menus['primary-mobile'].map((item, i) => (
                 <ExpandableSubMenu
@@ -401,8 +401,8 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
               ))}
             </ul>
           </nav>
-          <footer className="flex flex-wrap items-end text-14">
-            <ul className="flex-grow hidden mt-32 md:block">
+          <footer className="flex flex-col flex-wrap items-center xl:items-end xl:flex-row text-14">
+            <ul className="flex-grow mt-32">
               <li className="flex items-center">
                 <span className="flex items-center justify-center w-24 h-24 mr-8">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18.712" height="18.298" viewBox="0 0 18.712 18.298">
@@ -469,11 +469,11 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
             </ul>
             <div className="mx-auto mt-20 md:mx-0">
               {/* <NewsletterSection {...pageContext.newsletter} /> */}
-              <div className="md:flex">
+              <div className="flex flex-col items-center xl:flex-row">
                 <div className="mb-16 text-right md:mb-0 md:mr-16">
                   {(pageContext.general.copyright || '').replace('{year}', new Date().getFullYear())}
                 </div>
-                <ul className="flex items-center justify-center -m-8">
+                <ul className="flex items-center justify-center -m-8 -mt-2 xl:-mt-8">
                   {/* <li className="m-8">
                     <a
                       href={pageContext.general.socialAccounts.facebook}

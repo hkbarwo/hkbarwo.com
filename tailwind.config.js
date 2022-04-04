@@ -95,10 +95,12 @@ module.exports = {
       minWidth: {
         '180': '11.25rem',
         '144': '144px',
+        '100': '100px',
       },
       maxWidth: {
         '180': '11.25rem',
         '480': '480px',
+        '960': '960px',
       },
       maxHeight: {
         '720': '720px',
