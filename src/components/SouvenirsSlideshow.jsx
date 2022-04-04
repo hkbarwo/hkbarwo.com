@@ -43,8 +43,8 @@ export function SouvenirsSlideshow({ items = [], className }) {
                 'w-12',
                 'h-12',
                 'rounded-full',
-                'border-primary',
-                'border',
+                'border-2',
+                activeIndex === index ? 'border-primary' : 'border-gray-bc',
                 {
                   'bg-primary': activeIndex === index,
                 }
