@@ -1,11 +1,10 @@
 import React from "react";
-import classNames from "classnames";
 
 import IntlProvider from "../components/IntlProvider";
-import Link from "../components/Link";
 import PageFooter from "../components/PageFooter";
 import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";
+import { PinkButton } from "../components/PinkButton";
 
 export default function AboutOrganizationPresidentsPage({ path, pageContext }) {
   const { locale, menus, pages, presidents, vicePresidents, pageItem } = pageContext;
@@ -37,15 +36,10 @@ export default function AboutOrganizationPresidentsPage({ path, pageContext }) {
           <ul className="flex flex-wrap items-center justify-center my-16">
             {pages[pageItem.parentPage].subPages.map(page => (
               <li key={page.slug} className="m-10">
-                <Link
-                  className={classNames(
-                    'block min-w-144 text-center rounded-8 border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
-                    page.slug === pageItem.slug ? 'bg-tertiary text-white hover:bg-tertiary-light' : 'text-tertiary'
-                  )}
+                <PinkButton
+                  isActive={page.slug === pageItem.slug}
                   to={page.localizedPath}
-                >
-                  {page.title}
-                </Link>
+                >{page.title}</PinkButton>
               </li>
             ))}
           </ul>

@@ -1,9 +1,8 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
-import classNames from "classnames";
 
-import Link from "../components/Link";
 import Page from "../components/Page";
+import { PinkButton } from "../components/PinkButton";
 
 export default function AboutAssociationPage(props) {
   const { pageContext } = props;
@@ -23,16 +22,11 @@ export default function AboutAssociationPage(props) {
         <ul className="flex flex-wrap items-center justify-center max-w-screen-lg mx-auto my-16">
           {subMenus.map(m => (
             <li key={m.slug} className="m-10">
-              <Link
-                className={classNames(
-                  'block min-w-144 text-center rounded-8 border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
-                  m.slug === pageData.slug ? 'bg-tertiary text-white hover:bg-tertiary-light' : 'text-tertiary'
-                )}
+              <PinkButton
+                isActive={m.slug === pageData.slug}
                 to={m.localizedPath}
                 alt={m.title}
-              >
-                {m.shortTitle}
-              </Link>
+              >{m.shortTitle}</PinkButton>
             </li>
           ))}
         </ul>

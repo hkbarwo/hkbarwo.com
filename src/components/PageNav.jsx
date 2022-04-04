@@ -43,11 +43,12 @@ function LanguageButton({ className, path, locale, targetLocale, children, isDis
 
 function SubMenu({ item, pageContext, className }) {
   const { locale } = pageContext;
+  const commonClassName = classNames('sub-menu', 'text-18 mt-16 tracking-wide', className)
   switch (item.slug) {
     case 'news': {
       const { newsCategories = [] } = pageContext;
       return (
-        <ul className={classNames('text-18 mt-16 tracking-wide', className)}>
+        <ul className={commonClassName}>
           {newsCategories.map(({ slug, title }, i) => (
             <li
               key={slug}
@@ -66,7 +67,7 @@ function SubMenu({ item, pageContext, className }) {
     default: {
       if (item.subPages && item.subPages.length) {
         return (
-          <ul className={classNames('text-18 mt-16 tracking-wide', className)}>
+          <ul className={commonClassName}>
             {item.subPages.map(({ slug, url = '', title }, i) => (
               <li
                 key={slug}

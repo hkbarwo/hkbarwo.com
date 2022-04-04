@@ -9,8 +9,8 @@ module.exports = {
       primary: '#caa846',
       secondary: '#34b1bf',
       'secondary-dark': '#268590',
-      tertiary: '#F21365',
-      'tertiary-light': '#FFA0A2',
+      tertiary: '#E53A65',
+      'tertiary-dark': '#D0355C',
 
       white: '#fff',
       'dark-gray': '#333',

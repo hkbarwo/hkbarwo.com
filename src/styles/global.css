@@ -73,8 +73,7 @@
 
 .ReactModal__Overlay {
   opacity: 0;
-  transform: translateY(-100%);
-  transition-property: opacity, transform;
+  transition-property: opacity;
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -85,7 +84,7 @@
 }
 
 .ReactModal__Overlay--before-close {
-  transform: translateY(-100%);
+  opacity: 0;
   transition-timing-function: ease-in;
 }
 
@@ -110,6 +109,26 @@
   animation-timing-function: ease-out;
   animation-iteration-count: 1;
   animation-fill-mode: both;
+}
+
+.sub-menu .menu-item a {
+  position: relative;
+}
+.sub-menu .menu-item a:not(.underline)::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  width: 100%;
+  margin-top: 4px;
+  border-bottom: 1px solid currentColor;
+  transition: all 0.2s ease;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(2px);
+}
+.sub-menu .menu-item a:not(.underline):hover::before {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .swiper-wrapper {

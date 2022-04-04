@@ -1,10 +1,9 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
-import classNames from "classnames";
 
 import ChannelVideoItem from "../components/ChannelVideoItem";
-import Link from "../components/Link";
 import Page from "../components/Page";
+import { PinkButton } from "../components/PinkButton";
 
 export default function ResourcesChannelCategoryPage(props) {
   const { pageContext } = props;
@@ -57,15 +56,10 @@ export default function ResourcesChannelCategoryPage(props) {
         <ul className="flex flex-wrap items-center justify-center my-16">
           {categories.map(c => (
             <li key={c.slug} className="m-10">
-              <Link
-                className={classNames(
-                  'block min-w-144 text-center rounded-8 border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
-                  c.slug === pageData.slug ? 'bg-tertiary text-white hover:bg-tertiary-light' : 'text-tertiary'
-                )}
+              <PinkButton
+                isActive={c.slug === pageData.slug}
                 to={c.localizedPath}
-              >
-                {c.title}
-              </Link>
+              >{c.title}</PinkButton>
             </li>
           ))}
         </ul>

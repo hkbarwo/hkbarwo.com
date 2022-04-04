@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "gatsby";
-import classNames from "classnames";
 
 import InterviewDetailsArticle from "../components/InterviewDetailsArticle";
 import Page from "../components/Page";
+import { PinkButton } from "../components/PinkButton";
 
 export default function InterviewCategoryPage(props) {
   const { pageContext } = props;
@@ -16,15 +15,12 @@ export default function InterviewCategoryPage(props) {
         <ul className="flex flex-wrap items-center justify-center my-16">
           {interviewCategories.map(category => (
             <li key={category.slug} className="m-10">
-              <Link
-                className={classNames(
-                  'block min-w-144 text-center rounded-8 border border-tertiary px-14 py-8 hover:bg-tertiary-light hover:text-white active:bg-tertiary transition-colors duration-300',
-                  category.slug === interviewCategory.slug ? 'bg-tertiary text-white hover:bg-tertiary-light' : 'text-tertiary'
-                )}
+              <PinkButton
+                isActive={category.slug === interviewCategory.slug}
                 to={category.localizedPath}
               >
                 {category.title}
-              </Link>
+              </PinkButton>
             </li>
           ))}
         </ul>
