@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react"
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, useIntl } from "react-intl";
 import Modal from "react-modal";
 import { Link } from "gatsby";
 import classNames from "classnames";
@@ -147,6 +147,7 @@ function ExpandableSubMenu({ item, pageContext, onClose, style }) {
 export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton = false, appendPageTitle }) {
   const { locale } = pageContext;
   const [isOpen, setOpen] = useState(false)
+  const intl = useIntl()
   return (
     <div className="relative z-10">
       <div className="fixed top-0 right-0 h-full md:w-60">
@@ -181,7 +182,13 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
         </button>
         {!!pageTitle && (
           <div className="hidden p-20 md:block">
-            <div className="w-16 mx-auto font-serif font-black text-center text-black uppercase break-all">
+            <div
+              className={classNames(
+                'mx-auto font-serif font-black',
+                intl.locale === 'en' ? 'absolute transform rotate-90 origin-bottom-left whitespace-no-wrap uppercase leading-tight' : 'w-16 text-center break-all'
+              )}
+              style={{ width: intl.locale === 'en' ? 'max-content' : 'auto' }}
+            >
               {pageTitle}
             </div>
           </div>

@@ -1,5 +1,6 @@
 import React, { useMemo } from "react"
 import classNames from "classnames";
+import { useIntl } from "react-intl";
 
 export function HomePageSlide({
   slide,
@@ -44,6 +45,7 @@ export function HomePageSlide({
       'opacity-0': isHidden,
     },
   ]), [isHidden, isEven, delayClass])
+  const intl = useIntl()
   return (
     <a
       className={classNames('flex h-full', isEven ? 'flex-col-reverse' : 'flex-col')}
@@ -87,12 +89,13 @@ export function HomePageSlide({
           </div>
           <h1
             className={classNames(
-              'mt-24 font-serif font-bold tracking-widest text-36',
+              'mt-24 font-serif font-bold tracking-widest',
               'transition',
               'duration-500',
               'delay-500',
               'transform',
               'ease-out',
+              intl.locale === 'en' ? 'text-28 2xl:text-36 leading-tight' : 'text-36',
               {
                 'opacity-0': isHidden,
                 'translate-x-1/4': isHidden,
@@ -101,12 +104,13 @@ export function HomePageSlide({
           >{slide.title}</h1>
           <h2
             className={classNames(
-              'mt-4 font-serif font-light tracking-widest text-28',
+              'mt-16 font-serif font-light tracking-widest ',
               'transition',
               'duration-500',
               'delay-700',
               'transform',
               'ease-out',
+              intl.locale === 'en' ? 'text-22 2xl:text-28 leading-none' : 'text-28',
               {
                 'opacity-0': isHidden,
                 'translate-x-1/4': isHidden,

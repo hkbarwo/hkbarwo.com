@@ -13,6 +13,7 @@ module.exports = {
       'tertiary-light': '#FFA0A2',
 
       white: '#fff',
+      'dark-gray': '#333',
       black: '#000',
       
       'logo-black': '#1a1818',
@@ -25,8 +26,8 @@ module.exports = {
       'gray-24': '#242424',
     },
     fontFamily: {
-      'sans': ['Noto Sans TC', 'Noto Sans SC', 'sans-serif'],
-      'serif': ['Noto Serif TC', 'Noto Serif SC', 'serif'],
+      'sans': ['Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'sans-serif'],
+      'serif': ['Noto Serif', 'Noto Serif TC', 'Noto Serif SC', 'serif'],
     },
     spacing: {
       '0': '0rem',
