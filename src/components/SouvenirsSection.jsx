@@ -153,14 +153,18 @@ function SouvenirGridItem({ code, title, image, price, gallery }) {
   return (
     <div>
       <div className="aspect-w-1 aspect-h-1">
-        <img
-          className="object-cover w-full h-full cursor-pointer"
-          src={image}
-          alt={title}
+        <button
+          className="block"
           onClick={() => {
             setIsOpen(true)
           }}
-        />
+        >
+          <img
+            className="object-cover w-full h-full cursor-pointer"
+            src={image}
+            alt={title}
+          />
+        </button>
       </div>
       <div className="flex items-center justify-between mt-16 text-14">
         <FormattedMessage

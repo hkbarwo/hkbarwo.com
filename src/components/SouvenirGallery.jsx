@@ -34,18 +34,21 @@ export function SouvenirGallery({
         <div className="flex flex-col justify-start flex-shrink-0">
           <div className="hidden grid-flow-row gap-16 lg:grid p-80">
             {items.map((image, i) => (
-              <img
+              <button
                 key={image}
-                className={classNames(
-                  'w-96 h-96 object-center cursor-pointer  transition-all',
-                  i === activeImageIndex ? 'hover:opacity-90' : 'opacity-50 hover:opacity-80',
-                )}
-                src={image}
-                alt=""
                 onClick={() => {
                   controlledSwiper.slideTo(i + 1)
                 }}
-              />
+              >
+                <img
+                  className={classNames(
+                    'w-96 h-96 object-center cursor-pointer  transition-all',
+                    i === activeImageIndex ? 'hover:opacity-90' : 'opacity-50 hover:opacity-80',
+                  )}
+                  src={image}
+                  alt=""
+                />
+              </button>
             ))}
           </div>
         </div>
