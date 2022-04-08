@@ -21,7 +21,7 @@ cn:
 zh:
   date: 2022-03-25T06:53:50.674Z
   title: " 2022年春祭儀式　由汪明荃主席帶領下致祭"
-  slug: 2022-spring-time-memorial-service
+  slug: 2022-spring-time-memorial-servic
   category: event
   content: |-
     基於新型冠狀病毒疫情未見明朗，為減輕疾病傳播風險，本會今年亦只由理事會成員代表前往大口環東華義莊致祭仙遊會友。
