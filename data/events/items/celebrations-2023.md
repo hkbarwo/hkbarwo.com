@@ -10,7 +10,7 @@ zh:
       content: |-
         5月4日至8日
 
-        三月十五至十九
+        三月十五至十九日
     - isShowInList: true
       label: 主辦機構
       content: 坑口區、將軍澳水陸居民慶祝天后寶誕
