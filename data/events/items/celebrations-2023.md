@@ -1,6 +1,6 @@
 ---
 cn:
-  date: 2022-04-11T07:16:52.679Z
+  date: 2023-05-04T05:30:05.536Z
   title: ""
 zh:
   sessions: 9
@@ -23,10 +23,10 @@ zh:
     - isShowInList: false
       label: 地點
       content: 坑口區、將軍澳
-  date: 2022-04-11T07:16:52.679Z
+  date: 2023-05-04T05:30:05.536Z
   title: 2023年 （癸卯年）表演一
   type: celebration
   slug: celebrations-2023
 en:
-  date: 2022-04-11T07:16:52.679Z
+  date: 2023-05-04T05:30:05.536Z
 ---
