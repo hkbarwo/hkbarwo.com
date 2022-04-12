@@ -11,13 +11,13 @@ zh:
         5月4日至8日
 
         三月十五至十九日
-    - isShowInList: true
+    - isShowInList: false
       label: 主辦機構
       content: 坑口區、將軍澳水陸居民慶祝天后寶誕
-    - isShowInList: true
+    - isShowInList: false
       label: 演出劇團
       content: 錦昇輝劇團
-    - isShowInList: true
+    - isShowInList: false
       label: 演員
       content: 衛駿輝、陳咏儀、阮兆輝、廖國森、裴駿軒、陳紀婷
     - isShowInList: false
