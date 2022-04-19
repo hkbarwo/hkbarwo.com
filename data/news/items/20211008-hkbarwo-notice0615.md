@@ -1,4 +1,19 @@
 ---
+cn:
+  date: 2021-06-14T16:00:00.000Z
+  slug: hkbarwo-notice0615
+  category: xianyou
+  pdfFile: /uploads/檔案編號ca2021-538_周華利.pdf
+  title: 仙游通告——周华利女士
+  content: |-
+    本会于近日接获会员周华利女士<艺名：艳影侬＞（演员部）的家人通知，
+    周女士已于2010年10月7日仙游，享寿79岁，现请各位会员按规定交付福寿金每位港币贰拾元正（HK$20），此是538份，请各属会协助收集为盼！
+
+    此致
+    各位会员
+
+    八和福寿金基金会
+    谨启
 zh:
   date: 2021-06-14T16:00:00.000Z
   content: |-
@@ -10,24 +25,9 @@ zh:
 
     八和福壽金基金會
     謹啟
-  title: 仙遊通告-周華利女士
+  title: 仙遊通告——周華利女士
   slug: hkbarwo-notice0615
   category: xianyou
   pdfFile: /uploads/檔案編號ca2021-538_周華利.pdf
 en: {}
-cn:
-  date: 2021-06-14T16:00:00.000Z
-  slug: hkbarwo-notice0615
-  category: xianyou
-  pdfFile: /uploads/檔案編號ca2021-538_周華利.pdf
-  title: 仙游通告-周华利女士
-  content: |-
-    本会于近日接获会员周华利女士<艺名：艳影侬＞（演员部）的家人通知，
-    周女士已于2010年10月7日仙游，享寿79岁，现请各位会员按规定交付福寿金每位港币贰拾元正（HK$20），此是538份，请各属会协助收集为盼！
-
-    此致
-    各位会员
-
-    八和福寿金基金会
-    谨启
 ---
