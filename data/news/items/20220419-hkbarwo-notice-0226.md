@@ -17,7 +17,7 @@ cn:
   category: xianyou
 zh:
   date: 2022-03-16T16:00:00.000Z
-  title: 仙遊通告——簡瑞苓
+  title: 仙遊通告——簡瑞苓先生
   category: xianyou
   slug: hkbarwo-notice-0226
   content: >-
