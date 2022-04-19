@@ -14,6 +14,7 @@ cn:
 
 
     二零二二年三月十七日
+  category: xianyou
 zh:
   date: 2022-03-16T16:00:00.000Z
   title: 仙遊通告——簡瑞苓
