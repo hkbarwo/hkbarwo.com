@@ -1,21 +1,4 @@
 ---
-zh:
-  gender: f
-  position: 演
-  slug: fung-chuen-wah
-  alias: 馮小華
-  photo: ""
-  role: 會友
-  title: 馮鑽華
-  thoughts: ""
-  description: ""
-en:
-  role: 會友
-  position: 演
-  title: Fung Chuen Wah
-  alias: 馮小華
-  description: ""
-  thoughts: ""
 cn:
   slug: fung-chuen-wah
   gender: f
@@ -23,4 +6,22 @@ cn:
   alias: 冯小华
   role: 会友
   title: 冯钻华
+zh:
+  gender: f
+  position: 演
+  slug: fung-chuen-wah
+  isDead: true
+  alias: 馮小華
+  photo: ""
+  role: 會友
+  title: 馮鑽華
+  thoughts: /
+  description: /
+en:
+  role: 會友
+  position: 演
+  title: Fung Chuen Wah
+  alias: 馮小華
+  description: ""
+  thoughts: ""
 ---
