@@ -1,14 +1,21 @@
 ---
+cn:
+  slug: wong-pang
+  gender: m
+  position: 画
+  role: 会友
+  title: 黄彭
 zh:
   gender: m
   position: 畫
   slug: wong-pang
-  alias: null
+  isDead: true
+  alias: /
   photo: ""
   role: 會友
   title: 黃彭
-  thoughts: ""
-  description: ""
+  thoughts: /
+  description: /
 en:
   role: 會友
   position: 畫
@@ -16,10 +23,4 @@ en:
   alias: null
   description: ""
   thoughts: ""
-cn:
-  slug: wong-pang
-  gender: m
-  position: 画
-  role: 会友
-  title: 黄彭
 ---
