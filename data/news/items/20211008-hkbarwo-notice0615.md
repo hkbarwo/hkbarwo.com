@@ -25,7 +25,7 @@ zh:
 
     八和福壽金基金會
     謹啟
-  title: 仙遊通告-周華利女士
+  title: 仙遊通告——周華利女士
   slug: hkbarwo-notice0615
   category: xianyou
   pdfFile: /uploads/檔案編號ca2021-538_周華利.pdf
