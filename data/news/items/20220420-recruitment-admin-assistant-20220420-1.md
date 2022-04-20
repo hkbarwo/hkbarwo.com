@@ -1,5 +1,6 @@
 ---
-cn: {}
+cn:
+  category: job
 zh:
   date: 2022-04-19T16:00:00.000Z
   category: job
