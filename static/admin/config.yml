@@ -1499,7 +1499,7 @@ collections:
     folder: "/data/members/items"
     slug: "{{fields.slug}}"
     create: true
-    delete: false
+    delete: true
     view_filters:
       - label: "仙遊"
         field: "isDead"
