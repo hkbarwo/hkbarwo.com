@@ -1,14 +1,21 @@
 ---
+cn:
+  slug: hon-kwan
+  gender: m
+  position: 音
+  role: 会友
+  title: 韩坤
 zh:
   gender: m
   position: 音
   slug: hon-kwan
-  alias: null
+  isDead: true
+  alias: /
   photo: ""
   role: 會友
   title: 韓坤
-  thoughts: ""
-  description: ""
+  thoughts: /
+  description: /
 en:
   role: 會友
   position: 音
@@ -16,10 +23,4 @@ en:
   alias: null
   description: ""
   thoughts: ""
-cn:
-  slug: hon-kwan
-  gender: m
-  position: 音
-  role: 会友
-  title: 韩坤
 ---
