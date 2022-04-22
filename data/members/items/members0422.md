@@ -6,7 +6,7 @@ cn:
   alias: /
 zh:
   gender: f
-  position: 音
+  position: 演
   slug: members0422
   isDead: true
   alias: /
