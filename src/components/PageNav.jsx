@@ -6,6 +6,7 @@ import classNames from "classnames";
 
 import useResize from "../utils/react-hooks/useResize";
 
+import LanguageButton from './LanguageButton';
 import { SearchBox } from "./SearchBox";
 import SiteLogo from "./SiteLogo";
 
@@ -23,23 +24,6 @@ import SiteLogo from "./SiteLogo";
 //     </div>
 //   </div>;
 // }
-
-function LanguageButton({ className, path, locale, targetLocale, children, isDisabled = false, hoverClass }) {
-  return (
-    <Link
-      className={classNames(
-        'language-button',
-        className,
-        'py-2 hover:opacity-100',
-        locale === targetLocale ? 'border-b' : hoverClass || 'opacity-40',
-        {
-          'pointer-events-none': isDisabled,
-        },
-      )}
-      to={path.replace(locale, targetLocale)}
-    >{children}</Link>
-  )
-}
 
 function SubMenu({ item, pageContext, className }) {
   const { locale } = pageContext;
@@ -153,77 +137,54 @@ export default function PageNav({ path, pageContext, pageTitle, isHideMenuButton
   const intl = useIntl()
   return (
     <div className="relative z-10">
-      <div className="fixed top-0 right-0 h-full md:w-60">
-        <div className="absolute top-0 right-full">
-          <div className="relative items-center hidden grid-flow-col gap-12 px-12 py-10 text-white md:grid bg-dark-gray bg-opacity-20 backdrop-filter backdrop-blur">
-            <LanguageButton
-              className="whitespace-nowrap"
-              hoverClass="opacity-90"
-              path={path}
-              locale={locale}
-              targetLocale="zh"
-            >繁中</LanguageButton>
-            <LanguageButton
-              className="whitespace-nowrap"
-              hoverClass="opacity-90"
-              path={path}
-              locale={locale}
-              targetLocale="cn"
-            >簡中</LanguageButton>
-            <LanguageButton
-              className="whitespace-nowrap"
-              hoverClass="opacity-90"
-              path={path}
-              locale={locale}
-              targetLocale="en"
-            >ENG</LanguageButton>
-          </div>
-        </div>
-        <button
-          className={classNames(
-            'p-20 md:w-full bg-primary text-white', 
-            !!pageTitle ? 'md:bg-primary' : 'md:bg-transparent',
-            {
-              hidden: isHideMenuButton,
-            }
-          )}
-          onClick={() => {
-            setOpen(true);
-          }}
-        >
-          <svg className="mx-auto" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 17.143">
-            <g fill="currentColor" transform="translate(0 -184)">
-              <rect width="3" height="3" transform="translate(0 184)" />
-              <rect width="3" height="3" transform="translate(0 191.071)" />
-              <rect width="3" height="3" transform="translate(0 198.143)" />
-              <rect width="3" height="3" transform="translate(6.5 184)" />
-              <rect width="3" height="3" transform="translate(6.5 191.071)" />
-              <rect width="3" height="3" transform="translate(6.5 198.143)" />
-              <rect width="3" height="3" transform="translate(13 184)" />
-              <rect width="3" height="3" transform="translate(13 191.071)" />
-              <rect width="3" height="3" transform="translate(13 198.143)" />
-            </g>
-          </svg>
-          <div className="w-16 mx-auto mt-16 uppercase break-all">
-            <FormattedMessage id="menu" />
-          </div>
-        </button>
-        {!!pageTitle && (
-          <div className="hidden p-20 md:block">
-            <div
-              className={classNames(
-                'mx-auto font-serif font-black',
-                intl.locale === 'en' ? 'absolute transform rotate-90 origin-bottom-left whitespace-no-wrap uppercase leading-tight' : 'w-16 text-center break-all'
-              )}
-              style={{ width: intl.locale === 'en' ? 'max-content' : 'auto' }}
-            >
-              {pageTitle}
+      <div className="fixed top-0 right-0 h-full pointer-events-none md:w-60">
+        <div className="pointer-events-auto">
+          <button
+            className={classNames(
+              'p-20 md:w-full bg-primary text-white',
+              !!pageTitle ? 'md:bg-primary' : 'md:bg-transparent',
+              {
+                hidden: isHideMenuButton,
+              }
+            )}
+            onClick={() => {
+              setOpen(true);
+            }}
+          >
+            <svg className="mx-auto" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 17.143">
+              <g fill="currentColor" transform="translate(0 -184)">
+                <rect width="3" height="3" transform="translate(0 184)" />
+                <rect width="3" height="3" transform="translate(0 191.071)" />
+                <rect width="3" height="3" transform="translate(0 198.143)" />
+                <rect width="3" height="3" transform="translate(6.5 184)" />
+                <rect width="3" height="3" transform="translate(6.5 191.071)" />
+                <rect width="3" height="3" transform="translate(6.5 198.143)" />
+                <rect width="3" height="3" transform="translate(13 184)" />
+                <rect width="3" height="3" transform="translate(13 191.071)" />
+                <rect width="3" height="3" transform="translate(13 198.143)" />
+              </g>
+            </svg>
+            <div className="w-16 mx-auto mt-16 uppercase break-all">
+              <FormattedMessage id="menu" />
             </div>
-          </div>
-        )}
-        {!!appendPageTitle && (
-          <div>{appendPageTitle}</div>
-        )}
+          </button>
+          {!!pageTitle && (
+            <div className="hidden p-20 md:block ">
+              <div
+                className={classNames(
+                  'mx-auto font-serif font-black',
+                  intl.locale === 'en' ? 'absolute transform rotate-90 origin-bottom-left whitespace-no-wrap uppercase leading-tight' : 'w-16 text-center break-all'
+                )}
+                style={{ width: intl.locale === 'en' ? 'max-content' : 'auto' }}
+              >
+                {pageTitle}
+              </div>
+            </div>
+          )}
+          {!!appendPageTitle && (
+            <div>{appendPageTitle}</div>
+          )}
+        </div>
       </div>
       
       <Modal

@@ -10,6 +10,7 @@ import useResize from "../utils/react-hooks/useResize";
 import ClientOnly from "../components/ClientOnly";
 import IntlProvider from "../components/IntlProvider";
 import Link from "../components/Link";
+import LanguageButton from "../components/LanguageButton";
 import { PageMeta } from "../components/Page";
 import PageNav from "../components/PageNav";
 import PageFooter from "../components/PageFooter";
@@ -439,19 +440,48 @@ export default function HomePageTemplate({ pageContext, path }) {
             </button>
           </section>
           <section className="relative w-60 bg-primary">
-            <ul className="absolute inset-x-24 bottom-24">
-              {pageContext.slides.map((slide, i) => (
-                <li
-                  key={slide.slug}
-                  className={classNames(
-                    'w-10 h-10 my-4 border border-white rounded-full transition-colors',
-                    {
-                      'bg-white': i === slideIndex,
-                    },
-                  )}
-                />
-              ))}
-            </ul>
+            <div className="absolute bottom-0 right-0">
+              <div className="relative items-center hidden grid-flow-row gap-12 px-12 py-16 text-white justify-items-center md:grid">
+                <LanguageButton
+                  className="leading-tight whitespace-nowrap text-16"
+                  hoverClass="text-primary-dark hover:text-white"
+                  activeClass="text-white"
+                  path={path}
+                  locale={pageContext.locale}
+                  targetLocale="zh"
+                >繁<br/>中</LanguageButton>
+                <LanguageButton
+                  className="leading-tight whitespace-nowrap text-16"
+                  hoverClass="text-primary-dark hover:text-white"
+                  activeClass="text-white"
+                  path={path}
+                  locale={pageContext.locale}
+                  targetLocale="cn"
+                >簡<br/>中</LanguageButton>
+                <LanguageButton
+                  className="leading-tight whitespace-nowrap text-14"
+                  hoverClass="text-primary-dark hover:text-white"
+                  activeClass="text-white"
+                  path={path}
+                  locale={pageContext.locale}
+                  targetLocale="en"
+                >EN</LanguageButton>
+              </div>
+              <hr className="mx-16 border-white" />
+              <ul className="p-24 pt-20">
+                {pageContext.slides.map((slide, i) => (
+                  <li
+                    key={slide.slug}
+                    className={classNames(
+                      'w-10 h-10 my-4 border border-white rounded-full transition-colors',
+                      {
+                        'bg-white': i === slideIndex,
+                      },
+                    )}
+                  />
+                ))}
+              </ul>
+            </div>
           </section>
         </div>
 
