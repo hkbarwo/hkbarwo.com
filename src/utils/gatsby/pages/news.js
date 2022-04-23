@@ -86,7 +86,7 @@ exports.createNewsPages = async ({ actions, graphql, md, algolia }, context) => 
     }
   });
 
-  await algolia.saveObjects(algoliaObjects);
+  algolia.saveObjects(algoliaObjects);
 
   newsCategories.forEach((category) => {
     const path = `${pageItem.url}/${category.slug}`;

@@ -148,4 +148,6 @@ exports.createPages = async (params) => {
       }
     });
   }
+
+  await params.algolia.saveAllObjects();
 };

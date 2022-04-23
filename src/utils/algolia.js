@@ -11,6 +11,8 @@ exports.createAlgoliaSearchAdminClient = async function () {
     searchIndex,
   };
 
+  const objectsToBeSaved = []
+
   if (appID && adminAPIKey) {
     algolia.client = algoliasearch(appID, adminAPIKey);
     algolia.index = algolia.client.initIndex(searchIndex);
@@ -19,9 +21,15 @@ exports.createAlgoliaSearchAdminClient = async function () {
       attributeForDistinct: 'name',
       distinct: true,
     });
-    algolia.saveObjects = algolia.index.saveObjects;
+    algolia.saveObjects = (objs) => {
+      objectsToBeSaved.push(objs)
+    };
+    algolia.saveAllObjects = async () => {
+      return algolia.index.saveObjects(objectsToBeSaved)
+    }
   } else {
     algolia.saveObjects = () => {};
+    algolia.saveAllObjects = () => {};
   }
 
   return algolia;
