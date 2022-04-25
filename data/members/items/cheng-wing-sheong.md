@@ -1,14 +1,21 @@
 ---
+cn:
+  slug: cheng-wing-sheong
+  gender: m
+  position: 音
+  role: 会友
+  title: 郑咏常
 zh:
   gender: m
   position: 音
   slug: cheng-wing-sheong
-  alias: null
+  isDead: true
+  alias: /
   photo: ""
   role: 會友
   title: 鄭詠常
-  thoughts: ""
-  description: ""
+  thoughts: /
+  description: /
 en:
   role: 會友
   position: 音
@@ -16,10 +23,4 @@ en:
   alias: null
   description: ""
   thoughts: ""
-cn:
-  slug: cheng-wing-sheong
-  gender: m
-  position: 音
-  role: 会友
-  title: 郑咏常
 ---
