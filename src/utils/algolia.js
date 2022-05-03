@@ -22,7 +22,7 @@ exports.createAlgoliaSearchAdminClient = async function () {
       distinct: true,
     });
     algolia.saveObjects = (objs) => {
-      objectsToBeSaved.push(objs)
+      objectsToBeSaved.push(...objs)
     };
     algolia.saveAllObjects = async () => {
       return algolia.index.saveObjects(objectsToBeSaved)
