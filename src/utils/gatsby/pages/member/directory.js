@@ -34,6 +34,7 @@ exports.createMemberDirectoryPage = async ({ actions, graphql }, context) => {
       members: allMarkdownRemark(
         filter: {
           fileAbsolutePath: {regex: "/data/members/items/"}
+          fields: { zh: { isDead: { ne: true } }}
         },
         sort: { fields: [fields___zh___slug], order: ASC }
       ) {
