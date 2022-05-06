@@ -6,10 +6,10 @@ cn:
 
     《八仙贺寿》**、**《加官》、《仙姬大送子》（2020）艺术总监：新剑郎
   category: featured-performances
-  title: " 2020《传统粤剧例戏及排场折子戏展演》例戏《八仙贺寿》、《加官》、《仙姬大送子》(繁体中文字幕)"
+  title: " 2020年《传统粤剧例戏及排场折子戏展演》例戏《八仙贺寿》、《加官》、《仙姬大送子》(繁体中文字幕)"
 zh:
   date: 2022-05-05T03:38:11.447Z
-  title: 2020《傳統粤劇例戲及排場折子戲展演》例戲《八仙賀壽》、《加官》、《仙姬大送子》(繁體中文字幕)
+  title: 2020年《傳統粤劇例戲及排場折子戲展演》例戲《八仙賀壽》、《加官》、《仙姬大送子》(繁體中文字幕)
   slug: lcsd-barwo-performance-2020-2
   category: featured-performances
   coverImage: /uploads/20200925140402342948969.jpg
@@ -23,4 +23,5 @@ en:
   title: Eight Immortals Bestowing Longevity,Blessing by the God of Fortune,  A
     Fairy Returns Her Son to the Mortal Father(2020) Traditional Chinese
     Subtitle
+  content: "**Only available in Chinese version**"
 ---
