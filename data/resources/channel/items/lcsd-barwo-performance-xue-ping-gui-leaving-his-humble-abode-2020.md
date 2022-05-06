@@ -60,4 +60,5 @@ en:
   category: featured-performances
   title: Excerpts from Formulaic Plays ( Zit Zi Hei) ——Xue Pinggui Leaving His
     Humble Abode (2020) Traditional Chinese Subtitle
+  content: "**Only available in Chinese version**"
 ---
