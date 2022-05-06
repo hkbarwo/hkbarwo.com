@@ -1,11 +1,15 @@
 ---
-cn: {}
+cn:
+  category: event
 zh:
   date: 2022-05-06T04:03:37.184Z
-  title: 八和足球隊友誼賽2022年5月初
+  title: 八和足球隊友誼賽（2022年5月）
   slug: hkbarwo-eventnotice0503
   category: event
   content: |-
+    各位會友：
+
+
     鑑於近日疫情稍微緩和，八和足球隊於五月四日下午四時三十分，在黃大仙摩士公園2號仿草足球場進行友誼賽。球賽順利舉行，各位球員在賽事期間，樂此不彼。
 
 
