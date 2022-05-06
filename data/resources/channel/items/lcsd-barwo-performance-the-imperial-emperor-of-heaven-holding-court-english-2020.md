@@ -15,10 +15,10 @@ zh:
 en:
   title: "''The Imperial Emperor of Heaven Holding Court'' (2020) English Subtitle"
   content: >-
-    ***The Imperial Emperor of Heaven Holding Court***
+    ''The Imperial Emperor of Heaven Holding Court''
 
 
-    **Artistic Director: Sun Kim-long**
+    Artistic Director: Sun Kim-long
 
 
     Conventionally, *The Imperial Emperor of Heaven Holding Court* is a formulaic playlet performed as a standard stage-opener for matinee shows, and is often staged alongside *Eight Immortals Bestowing Longevity* and *A Fairy Returns Her Son to the Mortal Father*.  Some of the routines adopted include the ‘Peach Blossom routine’ and the ‘Sun Moon routine’, played out in traditional style.  In the former, the Peach Blossom Fairy is the flower fairy that often appears in folklore.  She dresses in a set of armour in red, wears the seven-star headdress, with a long silk ribbon on her back and a peach wood sword wrapped in red silk in her hand.  The ‘Peach Blossom routine’ is made up of mincing steps, somersaults, backward bends, etc, all making up the bravura skills of a *wudan* (military female) but showing elegance and grace.  The ‘Sun Moon routine’ is for the God of Sun and the Goddess of Moon and depicts the movements of the sun and the moon in the sky.  The God of Sun stands tall and straight to suggest sunlight shining from above, while the Goddess of Moon strikes lower posture to suggest the moon rising at night.
