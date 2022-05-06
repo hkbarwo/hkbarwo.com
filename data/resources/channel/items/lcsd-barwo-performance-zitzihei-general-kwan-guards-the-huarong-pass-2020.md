@@ -3,7 +3,7 @@ cn:
   date: 2022-05-06T04:33:36.563Z
   category: featured-performances
   content: >-
-    排场折子戏《关公守华容》由康乐及文化事务署主办、 香港八和会馆制作
+    传统粤剧例戏及排场折子戏展演 (2020) 由康乐及文化事务署主办、香港八和会馆制作
 
 
     《关公守华容》
@@ -36,7 +36,7 @@ zh:
   slug: lcsd-barwo-performance-zitzihei-general-kwan-guards-the-huarong-pass-2020
   coverImage: /uploads/20200925140402342948969.jpg
   content: >-
-    排場折子戲《關公守華容》由康樂及文化事務署主辦、 香港八和會館製作
+    傳統粤劇例戲及排場折子戲展演 (2020) 由康樂及文化事務署主辦、 香港八和會館製作
 
 
     《關公守華容》
