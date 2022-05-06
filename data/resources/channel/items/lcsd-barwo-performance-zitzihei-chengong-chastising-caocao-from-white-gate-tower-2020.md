@@ -4,7 +4,7 @@ cn:
   category: featured-performances
   title: " 2020年《传统粤剧例戏及排场折子戏展演》排场折子戏《白门楼之陈宫骂曹》(繁体中文字幕)"
   content: >-
-    排场折子戏 《白门楼之陈宫骂曹》由康乐及文化事务署主办、香港八和会馆制作
+    传统粤剧例戏及排场折子戏展演 (2020) 由康乐及文化事务署主办、香港八和会馆制作
 
 
     《白门楼之陈宫骂曹》
@@ -23,7 +23,7 @@ zh:
   slug: lcsd-barwo-performance-zitzihei-chengong-chastising-caocao-from-white-gate-tower-2020
   category: featured-performances
   content: >-
-    排場折子戲 《白門樓之陳宮罵曹》由康樂及文化事務署主辦、 香港八和會館製作
+    傳統粤劇例戲及排場折子戲展演 (2020) 由康樂及文化事務署主辦、香港八和會館製作
 
 
     《白門樓之陳宮罵曹》
