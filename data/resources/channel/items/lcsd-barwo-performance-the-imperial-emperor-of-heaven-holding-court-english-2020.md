@@ -1,19 +1,19 @@
 ---
 cn:
   date: 2022-05-06T06:39:02.731Z
-  title: The Imperial Emperor of Heaven Holding Court (2020) English Subtitle
+  title: "''The Imperial Emperor of Heaven Holding Court'' (2020) English Subtitle"
   category: featured-performances
   content: Only available in English version
 zh:
   date: 2022-05-05T06:39:02.740Z
-  title: The Imperial Emperor of Heaven Holding Court (2020) English Subtitle
+  title: "''The Imperial Emperor of Heaven Holding Court''  (2020) English Subtitle"
   category: featured-performances
   coverImage: /uploads/22.png
   slug: lcsd-barwo-performance-the-imperial-emperor-of-heaven-holding-court-english-2020
   content: Only available in English version
   youtubeVideoID: 6YwwnSA6zhY
 en:
-  title: The Imperial Emperor of Heaven Holding Court (2020) English Subtitle
+  title: "''The Imperial Emperor of Heaven Holding Court'' (2020) English Subtitle"
   content: >-
     ***The Imperial Emperor of Heaven Holding Court***
 
@@ -25,4 +25,5 @@ en:
 
 
     The Imperial Emperor of Heaven is holding court.  The immortals report signs of unrest in the mortal world.  So the Emperor dispatches a heavenly host to descend from heaven to save the mortals.  The plot of this set piece exemplifies the Chinese people’s traditional view of the universe: Heaven above is mindful of the well-being of mortals; whenever there is disaster in the mortal world, heaven will send forces to their rescue.
+  category: featured-performances
 ---
