@@ -9,7 +9,7 @@ zh:
   date: 2022-05-05T07:00:26.411Z
   title: Excerpts from Formulaic Plays ( Zit Zi Hei) —— "Xue Pinggui Leaving His
     Humble Abode"  (2020) English Subtitle
-  slug: lcsd-barwo-performance-xue-ping-gui-leaving-his-humble-abode-english-2020
+  slug: lcsd-barwo-performance-xue-ping-gui-leaving-his-humble-abode-englishsubtitle-2020
   category: featured-performances
   youtubeVideoID: MUM6ZnEbk4g
   coverImage: /uploads/22.png
@@ -37,4 +37,5 @@ en:
 
 
     Official:   Shum Pak-chuen
+  category: featured-performances
 ---
