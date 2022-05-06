@@ -26,7 +26,7 @@ cn:
 zh:
   date: 2022-05-05T04:17:36.148Z
   title: 2020年《傳統粤劇例戲及排場折子戲展演》排場折子戲《打洞結拜》(繁體中文字幕)
-  slug: lcsd-barwo-performance-zitzihei-
+  slug: lcsd-barwo-performance-zitzihei-a-blood-oath-sworn-in-the-grotto-2020
   category: featured-performances
   coverImage: /uploads/20200925140402342948969.jpg
   content: >-
