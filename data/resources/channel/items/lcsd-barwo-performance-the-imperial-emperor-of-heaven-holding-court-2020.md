@@ -44,4 +44,5 @@ en:
   category: featured-performances
   title: The Imperial Emperor of Heaven Holding Court (2020) Traditional Chinese
     Subtitle
+  content: "**Only available in Chinese version**"
 ---
