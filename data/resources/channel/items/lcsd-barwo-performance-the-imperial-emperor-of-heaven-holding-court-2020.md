@@ -15,6 +15,7 @@ zh:
 
     \r\n"
   youtubeVideoID: -IY8btFZqr4
+  coverImage: /uploads/mar_3928.jpg
 en:
   category: featured-performances
   title: The Imperial Emperor of Heaven Holding Court (2020)
