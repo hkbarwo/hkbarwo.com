@@ -22,11 +22,11 @@ en:
     Fortune'', ''A Fairy Returns Her Son to the Mortal Father'' (2020) English
     Subtitle"
   content: |-
-    Eight Immortals Bestowing Longevity,
+    ''Eight Immortals Bestowing Longevity''
 
-    Blessing by the God of Fortune,
+    ''Blessing by the God of Fortune''
 
-    A Fairy Returns Her Son to the Mortal Father
+    ''A Fairy Returns Her Son to the Mortal Father''
 
     Artistic Director: Sun Kim-long
 ---
