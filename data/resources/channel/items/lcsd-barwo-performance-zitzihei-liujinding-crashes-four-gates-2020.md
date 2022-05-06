@@ -18,7 +18,7 @@ cn:
 
     赵匡胤联同将士高君保攻打南唐，被困寿州城。刘金定带兵到寿州城救驾，城池守卫森严，刘金定从东门、南门、西门，一直攻打至北门，每攻一门均会表演一段激烈而优美的身段和功架。一场激战后，刘金定成功营救赵匡胤及夫君高君保。
 zh:
-  date: 2022-05-06T06:20:52.034Z
+  date: 2022-05-05T06:20:52.034Z
   title: 2020年《傳統粤劇例戲及排場折子戲展演》排場折子戲《劉金定斬四門》(繁體中文字幕)
   slug: lcsd-barwo-performance-zitzihei-liujinding-crashes-four-gates-2020
   category: featured-performances
