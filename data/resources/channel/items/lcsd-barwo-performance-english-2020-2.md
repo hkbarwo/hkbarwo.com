@@ -12,7 +12,7 @@ zh:
     Fortune'', ''A Fairy Returns Her Son to the Mortal Father'' (2020) English
     Subtitle"
   coverImage: /uploads/22.png
-  slug: lcsd-barwo-performance-english-2020-2
+  slug: lcsd-barwo-performance-englishsubtilte-2020-2
   category: featured-performances
   content: Only available in English  version
   youtubeVideoID: bjPPBGPV8h8
@@ -28,5 +28,5 @@ en:
 
     A Fairy Returns Her Son to the Mortal Father
 
-    **Artistic Director: Sun Kim-long**
+    Artistic Director: Sun Kim-long
 ---
