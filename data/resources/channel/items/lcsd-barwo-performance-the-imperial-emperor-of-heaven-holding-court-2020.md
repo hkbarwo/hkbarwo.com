@@ -4,7 +4,7 @@ cn:
   category: featured-performances
   title: 2020年《传统粤剧例戏及排场折子戏展演》例戏《玉皇登殿》 ( 繁体中文字幕)
   content: >-
-    《传统粤剧例戏及排场折子戏展演》例戏《玉皇登殿》（2020），由康乐及文化事务署主办、 香港八和会馆制作
+    《传统粤剧例戏及排场折子戏展演》例戏（2020），由康乐及文化事务署主办、 香港八和会馆制作
 
 
     《玉皇登殿》艺术总监︰新剑郎
@@ -20,9 +20,7 @@ zh:
   slug: lcsd-barwo-performance-the-imperial-emperor-of-heaven-holding-court-2020
   category: featured-performances
   content: >-
-    《傳統粤劇例戲及排場折子戲展演》例戲《玉皇登殿》（2020），由康樂及文化事務署主辦、
-
-    香港八和會館製作
+    《傳統粤劇例戲及排場折子戲展演》（2020），由康樂及文化事務署主辦、香港八和會館製作
 
 
     《玉皇登殿》藝術總監︰新劍郎
