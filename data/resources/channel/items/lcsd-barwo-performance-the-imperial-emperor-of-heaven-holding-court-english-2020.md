@@ -9,7 +9,7 @@ zh:
   title: "''The Imperial Emperor of Heaven Holding Court''  (2020) English Subtitle"
   category: featured-performances
   coverImage: /uploads/22.png
-  slug: lcsd-barwo-performance-the-imperial-emperor-of-heaven-holding-court-english-2020
+  slug: lcsd-barwo-performance-the-imperial-emperor-of-heaven-holding-court-englishsubtitle-2020
   content: Only available in English version
   youtubeVideoID: 6YwwnSA6zhY
 en:
