@@ -1,7 +1,7 @@
 ---
 cn:
   date: 2022-06-02T02:51:06.653Z
-  title: 粤剧「江湖十八本」之《七贤眷》
+  title: 《七贤眷》
   metadata:
     - isShowInList: false
       label: 演出日期
@@ -60,7 +60,7 @@ zh:
 
         日場：下午2時（6月3日、7月23日）
   date: 2022-06-02T02:51:06.653Z
-  title: 粤劇「江湖十八本」之《七賢眷》
+  title: 《七賢眷》
   slug: barwo-lscd-seven-filial-kin-2022
   type: performance
   content: >-
