@@ -8,7 +8,7 @@ cn:
       content: |-
         2022年6月2-3日（星期四、五）
 
-        2022年7月23日（星期日）
+        2022年7月23日（星期六）
     - isShowInList: false
       label: 地点
       content: |-
@@ -46,7 +46,7 @@ zh:
       content: |-
         2022年6月2-3日（星期四、五）
 
-        2022年7月23日（星期日）
+        2022年7月23日（星期六）
     - isShowInList: false
       label: 地點
       content: |-
