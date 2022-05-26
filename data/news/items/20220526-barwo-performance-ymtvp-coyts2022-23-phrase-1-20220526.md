@@ -171,5 +171,9 @@ zh:
   slug: barwo-performance-ymtvp-coyts2022-23-phrase-1-20220526
   category: notice
   pdfFile: /uploads/press-release_油麻地計劃2022-23演期一.pdf
-en: {}
+en:
+  category: notice
+  title: Venue Partner of Yau Ma Tei Theatre——Cantonese Opera Youth Talent
+    Showcase Pharse 1
+  content: "**Only available in Chinese version**"
 ---
