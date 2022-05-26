@@ -163,12 +163,12 @@ zh:
 
     電話：2384-2939  電郵： [hazelcheung@hkbarwo.com](mailto:hazelcheung@hkbarwo.com)
   title: 油麻地戲院場地伙伴計劃 「粵劇新秀演出系列2022 – 23」七月載譽歸來 傾囊相授　攜手承傳；百位新秀 傾力演出
-  slug: barwo-performance-ymtvp-coyts2022-23-phrase-1-20220526
+  slug: barwo-performance-ymtvp-coyts2022-23-phase-1-20220526
   category: notice
   pdfFile: /uploads/press-release_油麻地計劃2022-23演期一.pdf
 en:
   category: notice
   title: Venue Partner of Yau Ma Tei Theatre——Cantonese Opera Youth Talent
-    Showcase Pharse 1
+    Showcase Phase 1
   content: "**Only available in Chinese version**"
 ---
