@@ -169,6 +169,6 @@ zh:
 en:
   category: notice
   title: Venue Partner of Yau Ma Tei Theatre——Cantonese Opera Youth Talent
-    Showcase Phase 1
+    Showcase 2022-23 Phase 1
   content: "**Only available in Chinese version**"
 ---
