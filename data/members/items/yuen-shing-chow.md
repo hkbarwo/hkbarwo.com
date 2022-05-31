@@ -1,14 +1,22 @@
 ---
+cn:
+  slug: yuen-shing-chow
+  gender: m
+  position: 武
+  role: 会友
+  title: 袁成就
+  isDead: true
 zh:
   gender: m
   position: 武
   slug: yuen-shing-chow
-  alias: null
+  isDead: true
+  alias: /
   photo: ""
   role: 會友
   title: 袁成就
-  thoughts: ""
-  description: ""
+  thoughts: /
+  description: /
 en:
   role: 會友
   position: 武
@@ -16,10 +24,4 @@ en:
   alias: null
   description: ""
   thoughts: ""
-cn:
-  slug: yuen-shing-chow
-  gender: m
-  position: 武
-  role: 会友
-  title: 袁成就
 ---
