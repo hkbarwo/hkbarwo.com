@@ -2,7 +2,7 @@
 cn:
   date: 2023-06-27T06:57:16.250Z
 zh:
-  sessions: 1
+  sessions: 9
   metadata:
     - isShowInList: true
       label: 演出日期
