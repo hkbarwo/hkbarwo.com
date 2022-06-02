@@ -1,6 +1,6 @@
 ---
 cn:
-  date: 2022-06-02T02:51:06.653Z
+  date: 2022-07-23T02:51:06.653Z
   title: 《七贤眷》
   metadata:
     - isShowInList: false
@@ -59,7 +59,7 @@ zh:
         夜場：下午7時30分（6月2日）
 
         日場：下午2時（6月3日、7月23日）
-  date: 2022-06-02T02:51:06.653Z
+  date: 2022-07-23T02:51:06.653Z
   title: 《七賢眷》
   slug: barwo-lscd-seven-filial-kin-2022
   type: performance
@@ -82,7 +82,7 @@ zh:
     尹飛燕、王超群、吳仟峰、吳立熙、吳國華、梁兆明、梁心怡、陳玉卿、溫玉瑜、龍貫天
   coverImage: /uploads/25a_seven_poster_preview_220428_page-0001.jpg
 en:
-  date: 2022-06-02T02:51:06.653Z
+  date: 2022-07-23T02:51:06.653Z
   title: Cantonese Opera "Seven Filial Kin" from "The Eighteen Libretti"
   content: "**Only available in Chinese version**"
 ---
