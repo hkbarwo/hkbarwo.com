@@ -23,7 +23,7 @@ zh:
       label: 地點
       content: 東涌
   date: 2022-09-15T01:25:27.535Z
-  title: 2022 壬寅年 表演十二
+  title: 2022 壬寅年 表演八
   slug: performances-tungchung-2022091115
   type: celebration
 en:
