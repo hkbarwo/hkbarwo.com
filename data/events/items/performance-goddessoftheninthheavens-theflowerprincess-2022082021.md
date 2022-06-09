@@ -52,11 +52,14 @@ zh:
         郭俊亨 飾 周鍾
 
         周洛童 飾 周瑞蘭
-  location: 高山劇場劇院
+    - isShowInList: false
+      content: 9478 7636 (劇團)
+      label: 票務查詢
+  location: ""
   title: 文軒靈音重塑唐滌生名劇——《九天玄女》及《帝女花》
   content: ""
   type: other
-  tel: 9478 7636 (劇團)
+  tel: ""
   sessions: 2
 en:
   date: 2022-08-21T01:25:23.736Z
