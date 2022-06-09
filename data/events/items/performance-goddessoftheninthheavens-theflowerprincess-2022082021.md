@@ -2,8 +2,7 @@
 cn:
   date: 2022-08-21T01:25:23.736Z
 zh:
-  photos:
-    - /uploads/whatsapp-image-2022-06-08-at-5.00.39-pm.jpeg
+  photos: []
   coverImage: /uploads/whatsapp-image-2022-06-08-at-5.00.39-pm.jpeg
   slug: performance-goddessoftheninthheavens-theflowerprincess-2022082021
   date: 2022-08-21T01:25:23.736Z
@@ -11,7 +10,7 @@ zh:
     - isShowInList: false
       label: 主辦劇團
       content: 文薈星輝粵劇團
-    - isShowInList: false
+    - isShowInList: true
       label: 演出日期
       content: |-
         2022年8月20日（星期六）：《九天玄女》
@@ -55,10 +54,7 @@ zh:
         周洛童 飾 周瑞蘭
   location: 高山劇場劇院
   title: 文軒靈音重塑唐滌生名劇——《九天玄女》及《帝女花》
-  content: |-
-    以上門票將於2022年6月11日（星期六）上午十時在城市售票網公開發售。
-
-    （相關演出資訊已獲授權轉載）
+  content: ""
   type: other
   tel: 9478 7636 (劇團)
   sessions: 2
