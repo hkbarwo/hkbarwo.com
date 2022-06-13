@@ -1,5 +1,6 @@
 ---
-cn: {}
+cn:
+  category: job
 zh:
   date: 2022-06-13T04:34:38.658Z
   title: 招聘告示—項目助理
