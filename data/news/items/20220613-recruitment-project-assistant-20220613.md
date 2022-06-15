@@ -3,7 +3,7 @@ cn:
   category: job
 zh:
   date: 2022-06-13T04:34:38.658Z
-  title: 招聘告示—項目助理
+  title: 招聘告示—項目助理(合約)
   slug: recruitment-project-assistant-20220613
   pdfFile: /uploads/recruitment-ad_pa_202206.pdf
   content: >-
