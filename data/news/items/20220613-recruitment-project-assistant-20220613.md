@@ -3,14 +3,14 @@ cn:
   category: job
 zh:
   date: 2022-06-13T04:34:38.658Z
-  title: 招聘告示—項目助理
+  title: 招聘告示—項目助理(合約)
   slug: recruitment-project-assistant-20220613
   pdfFile: /uploads/recruitment-ad_pa_202206.pdf
   content: >-
     香港八和會館（八和）是本港的慈善團體，為粵劇從業員的專業組織，以弘揚粵劇為己任。八和推行不同的大型計劃，為粵劇界培育不同崗位的人才，包括：「油麻地戲院場地伙伴計劃」、演出、展覽、交流項目等。八和現招聘以下職位：
 
 
-    項目助理
+    項目助理(合約)
 
 
     職責：
