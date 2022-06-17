@@ -111,4 +111,5 @@ zh:
 en:
   category: notice
   content: "### Only available in Chinese version"
+  title: The Passing of Renowned Cantonese Opera Veteran Yam Bing-yee
 ---
