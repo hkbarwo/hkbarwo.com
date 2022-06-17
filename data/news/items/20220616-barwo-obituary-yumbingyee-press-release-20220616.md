@@ -81,5 +81,9 @@ zh:
 
     二零二二年六月十六日
   pdfFile: /uploads/任冰兒辭世公告2.pdf
-en: {}
+en:
+  title: Announcement of  the Passing of Renowned Cantonese Opera Veteran Yum Bing
+    Yee Funeral
+  category: notice
+  content: "**Only available in Chinese version**"
 ---
