@@ -43,4 +43,7 @@ zh:
   title: 衷心感謝納高環保科技有限公司免費提供NASC納司克奈米科技抗病毒專業鍍膜服務
 en:
   category: notice
+  title: Grateful for Free NASC Antiviral Coating Service with NACO ENVIRONMENT &
+    TECHNOLOGY CO. LIMITED from the Coronavirus
+  content: "**Only available in Chinese version**"
 ---
