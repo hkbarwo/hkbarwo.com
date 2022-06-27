@@ -1,5 +1,6 @@
 ---
-cn: {}
+cn:
+  category: notice
 zh:
   date: 2022-06-27T09:50:07.574Z
   slug: barwo-performance-ymtvp-coyts2022-23-phase-2-20220627
@@ -104,5 +105,9 @@ zh:
 
     電話：2384-2939  　電郵： [hazelcheung@hkbarwo.com](mailto:hazelcheung@hkbarwo.com)
   pdfFile: /uploads/press-release_油麻地計劃2022-23演期二.pdf
-en: {}
+en:
+  category: notice
+  title: Venue Partner of Yau Ma Tei Theatre——Cantonese Opera Youth Talent
+    Showcase 2022-23 Phase 2
+  content: "**Only available in Chinese version**"
 ---
