@@ -1,5 +1,6 @@
 ---
-cn: {}
+cn:
+  category: job
 zh:
   date: 2022-07-06T16:00:00.000Z
   title: 招聘告示—項目經理(合約)
