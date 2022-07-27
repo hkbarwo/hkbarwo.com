@@ -1,5 +1,6 @@
 ---
-cn: {}
+cn:
+  category: notice
 zh:
   date: 2022-07-26T16:00:00.000Z
   title: 主席汪明荃博士榮膺金紫荊星章
