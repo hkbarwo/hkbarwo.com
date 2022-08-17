@@ -1,14 +1,23 @@
 ---
+cn:
+  slug: chau-kwok-chuen
+  gender: m
+  position: 音
+  role: 会友
+  title: 周国全
+  description: /
+  thoughts: /
 zh:
   gender: m
   position: 音
   slug: chau-kwok-chuen
-  alias: null
+  isDead: true
+  alias: /
   photo: ""
   role: 會友
   title: 周國全
-  thoughts: ""
-  description: ""
+  thoughts: /
+  description: /
 en:
   role: 會友
   position: 音
@@ -16,10 +25,4 @@ en:
   alias: null
   description: ""
   thoughts: ""
-cn:
-  slug: chau-kwok-chuen
-  gender: m
-  position: 音
-  role: 会友
-  title: 周国全
 ---
