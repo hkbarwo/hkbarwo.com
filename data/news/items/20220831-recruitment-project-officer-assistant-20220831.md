@@ -1,8 +1,9 @@
 ---
-cn: {}
+cn:
+  category: job
 zh:
   date: 2022-08-30T16:00:00.000Z
-  title: 招聘告示—項目主任
+  title: 招聘告示—項目主任(合約)
   slug: recruitment-project-officer-assistant-20220831
   category: job
   content: >-
