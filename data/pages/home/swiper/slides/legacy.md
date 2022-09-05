@@ -22,8 +22,8 @@ zh:
   buttonTitle: " 了解更多"
   slug: legacy
   buttonLink:
-    page: channel
-    url: ""
+    page: ""
+    url: https://www.hkbarwoymt.com/tc
   gradient:
     color1: "#e0281a"
     color2: "#e2867c"
