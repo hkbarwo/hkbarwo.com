@@ -1,8 +1,44 @@
+cn:
+  groups:
+    - title: 名誉赞助人
+      list:
+        - title: 香港特别行政区行政长官
+          name: 李家超 先生 大紫荆勋贤, SBS, PDSM, PMSM
+    - title: 荣誉顾问
+      list:
+        - name: 梁振英 先生 GBM, GBS, JP
+        - name: 李居明 先生
+    - title: 名誉顾问
+      list:
+        - name: 王䓪鸣 博士 DBE, JP
+        - name: 余少华 教授 JP
+        - name: 吴凤平 博士
+        - name: 梁安琪 女士 澳门立法会议员 BBS
+        - name: 陈幼坚 先生 MH
+        - name: "陈祖泽 先生 GBS, CBE, LVO, JP "
+        - name: 黄燕芳 女士
+        - name: 刘千石 先生 JP
+        - name: 蔡关颖琴 律师 MH
+        - name: 黎子流 先生
+        - name: 谭荣邦 先生 SBS, JP
+    - title: 财务顾问
+      list:
+        - name: 黄龙德 会计师 PhD, BBS, JP
+    - title: 法律顾问
+      list:
+        - name: 廖成利 律师
+        - name: 赖显荣 律师
+    - title: 医事顾问
+      list:
+        - name: 林建业 医生
+        - name: 袁汉 医生
+        - name: 邓智伟 医生
+  title: 赞助人及顾问
 zh:
   groups:
     - title: 名譽贊助人
       list:
-        - name: 林鄭月娥 女士 大紫荊勳賢, GBS, JP
+        - name: 李家超 先生 大紫荊勳賢, SBS, PDSM, PMSM
           title: 香港特別行政區行政長官
     - title: 榮譽顧問
       list:
@@ -39,8 +75,8 @@ en:
   groups:
     - title: 名譽贊助人
       list:
-        - name: 林鄭月娥 女士
-          title: 大紫荊勳賢, GBS, JP 香港特別行政區行政長官
+        - name: 李家超 先生 大紫荊勳賢, SBS, PDSM, PMSM
+          title: 香港特別行政區行政長官
     - title: 榮譽顧問
       list:
         - name: 梁振英 先生 GBM, GBS, JP
@@ -53,39 +89,3 @@ en:
       list:
         - name: 黃龍德 會計師 PhD, BBS, JP
   title: 贊助人及顧問
-cn:
-  groups:
-    - title: 名誉赞助人
-      list:
-        - title: 香港特别行政区行政长官
-          name: 林郑月娥 女士 大紫荆勋贤, GBS, JP
-    - title: 荣誉顾问
-      list:
-        - name: 梁振英 先生 GBM, GBS, JP
-        - name: 李居明 先生
-    - title: 名誉顾问
-      list:
-        - name: 王䓪鸣 博士 DBE, JP
-        - name: 余少华 教授 JP
-        - name: 吴凤平 博士
-        - name: 梁安琪 女士 澳门立法会议员 BBS
-        - name: 陈幼坚 先生 MH
-        - name: "陈祖泽 先生 GBS, CBE, LVO, JP "
-        - name: 黄燕芳 女士
-        - name: 刘千石 先生 JP
-        - name: 蔡关颖琴 律师 MH
-        - name: 黎子流 先生
-        - name: 谭荣邦 先生 SBS, JP
-    - title: 财务顾问
-      list:
-        - name: 黄龙德 会计师 PhD, BBS, JP
-    - title: 法律顾问
-      list:
-        - name: 廖成利 律师
-        - name: 赖显荣 律师
-    - title: 医事顾问
-      list:
-        - name: 林建业 医生
-        - name: 袁汉 医生
-        - name: 邓智伟 医生
-  title: 赞助人及顾问
