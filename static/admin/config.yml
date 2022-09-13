@@ -630,7 +630,7 @@ collections:
             label: "理事"
             i18n: true
             widget: list
-            default: "[]"
+            default: []
             fields:
               - name: "name"
                 label: "名稱"
