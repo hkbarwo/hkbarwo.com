@@ -103,15 +103,17 @@ export default function AboutOrganizationCommitteePage(props) {
         </div>
         <ul>
           <li className="mb-32 md:flex">
-            <div className="flex-1 p-8">
-              <img
-                className="block mx-auto md:mx-0"
-                src={committee.president.image}
-                alt={committee.president.name}
-              />
-            </div>
-            <div className="flex items-center justify-center flex-1 px-8 py-12">
-              <div className="md:p-14">
+            {!!committee.president.image && 
+              <div className="flex-1 p-8">
+                <img
+                  className="block mx-auto md:mx-0"
+                  src={committee.president.image}
+                  alt={committee.president.name}
+                />
+              </div>
+            }
+            <div className={classNames('flex items-center flex-1 py-12', { 'justify-center px-8': !!committee.president.image })}>
+              <div className={classNames({ 'md:p-14': !!committee.president.image })}>
                 <div className="text-16 md:text-20 text-secondary">{committee.president.title}</div>
                 <div className="font-serif font-bold text-24 md:text-32">{committee.president.name}</div>
               </div>
@@ -124,9 +126,11 @@ export default function AboutOrganizationCommitteePage(props) {
                   key={vicePresident.name}
                   className="w-1/2 px-8 py-12 sm:w-1/4"
                 >
-                  <div>
-                    <img className="w-full" src={vicePresident.image} alt={vicePresident.name} />
-                  </div>
+                  {!!vicePresident.image && 
+                    <div>
+                      <img className="w-full" src={vicePresident.image} alt={vicePresident.name} />
+                    </div>
+                  }
                   <div>
                     <div className="text-12 md:text-14 text-secondary">{vicePresident.title}</div>
                     <div className="font-serif font-bold text-14 md:text-16">{vicePresident.name}</div>
@@ -148,9 +152,11 @@ export default function AboutOrganizationCommitteePage(props) {
                         className="px-8 py-12"
                         key={member.name}
                       >
-                        <div>
-                          <img className="w-full" src={member.image} alt={member.name} />
-                        </div>
+                        {!!member.image &&
+                          <div>
+                            <img className="w-full" src={member.image} alt={member.name} />
+                          </div>
+                        }
                         <div>
                           <div className="text-12 md:text-14 text-secondary">{member.title}</div>
                           <div className="font-serif font-bold text-14 md:text-16">{member.name}</div>
