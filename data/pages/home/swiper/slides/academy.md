@@ -18,8 +18,8 @@ zh:
   buttonTitle: " 了解更多"
   slug: academy
   buttonLink:
-    page: channel
-    url: ""
+    page: ""
+    url: https://hkbarwocoa.com/aboutus/mission/
   gradient:
     color1: "#fc4786"
     color2: "#ffa7a7"
