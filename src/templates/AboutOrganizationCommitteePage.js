@@ -13,7 +13,7 @@ export default function AboutOrganizationCommitteePage(props) {
     <Page
       {...props}
       pageTitle={pages.organization.title}
-      articleClassName="max-w-screen-xl mx-auto"
+      articleClassName="w-full max-w-screen-xl mx-auto"
     >
       <nav className="px-14">
         <ul className="flex flex-wrap items-center justify-center my-16">

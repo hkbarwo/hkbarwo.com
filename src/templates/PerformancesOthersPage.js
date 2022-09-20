@@ -26,7 +26,7 @@ export default function PerformancesOthersPage(props) {
         key: item.slug,
         title: item.title,
       }))}
-      articleClassName="max-w-screen-xl mx-auto"
+      articleClassName="w-full max-w-screen-xl mx-auto"
     >
       {filteredPerformances.length > 0 ? (
         <Fragment>
