@@ -1,14 +1,21 @@
 ---
+cn:
+  slug: wong-cho-cheong
+  gender: m
+  position: 画
+  role: 会友
+  title: 黄祖昌
 zh:
   gender: m
   position: 畫
   slug: wong-cho-cheong
-  alias: null
+  isDead: true
+  alias: /
   photo: ""
   role: 會友
   title: 黃祖昌
-  thoughts: ""
-  description: ""
+  thoughts: /
+  description: /
 en:
   role: 會友
   position: 畫
@@ -16,10 +23,4 @@ en:
   alias: null
   description: ""
   thoughts: ""
-cn:
-  slug: wong-cho-cheong
-  gender: m
-  position: 画
-  role: 会友
-  title: 黄祖昌
 ---
