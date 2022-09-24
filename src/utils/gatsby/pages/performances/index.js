@@ -64,12 +64,12 @@ exports.createPerformancesPages = async (params, context) => {
     const path = `/${event.type === 'event' ? 'events' : 'performances'}/${event.slug}`;
     const localizedPath = `/${locale}${path}`;
 
-    event.metadata = event.metadata.map(({ content, ...data}) => {
+    event.metadata = event.metadata?.map(({ content, ...data}) => {
       return {
         content: md.render(content),
         ...data,
       };
-    })
+    }) || []
 
     event.content = md.render(event.content);
 
