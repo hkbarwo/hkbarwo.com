@@ -606,6 +606,7 @@ collections:
         label: "副主席"
         i18n: true
         widget: list
+        default: []
         fields:
           - name: "name"
             label: "名稱"
@@ -621,6 +622,7 @@ collections:
         label: "組"
         i18n: true
         widget: list
+        default: []
         fields:
           - name: "title"
             label: "名稱"

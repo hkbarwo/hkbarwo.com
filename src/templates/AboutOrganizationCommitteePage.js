@@ -121,7 +121,7 @@ export default function AboutOrganizationCommitteePage(props) {
           </li>
           <li className="mb-32">
             <ul className="flex flex-wrap">
-              {committee.vicePresidents.map((vicePresident) => (
+              {(committee.vicePresidents || []).map((vicePresident) => (
                 <li
                   key={vicePresident.name}
                   className="w-1/2 px-8 py-12 sm:w-1/4"
@@ -141,13 +141,13 @@ export default function AboutOrganizationCommitteePage(props) {
           </li>
           <li>
             <ul className="flex flex-wrap">
-              {committee.groups.map((group) => (
+              {(committee.groups || []).map((group) => (
                 <li
                   key={group.title}
                   className="w-1/2 md:w-1/4 lg:w-1/8"
                 >
                   <ul>
-                    {group.commitiees.map(member => (
+                    {(group.commitiees || []).map(member => (
                       <li
                         className="px-8 py-12"
                         key={member.name}
