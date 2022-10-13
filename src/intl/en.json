@@ -15,6 +15,10 @@
   "contact.thankyou": "Thank you for your comments and sharing, if necessary, we will reply to you!",
 
   "committee.past": "Previous Board of Directors",
+  "committee.member.title.president": "Chairman",
+  "committee.member.title.vicepresident": "Vice Chairman",
+  "committee.member.title.director": "Director",
+
   "download.pdf": "Download PDF",
 
   "empty": "No content",

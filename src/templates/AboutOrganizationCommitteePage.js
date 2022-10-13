@@ -82,7 +82,7 @@ export default function AboutOrganizationCommitteePage(props) {
                     {menuItems.map((menuItem) => (
                       <Menu.Item key={menuItem.key}>
                         <Link
-                          className="block px-16 py-8 text-center transition transition-colors duration-300 hover:bg-gray-e5"
+                          className="block px-16 py-8 text-center transition-colors duration-300 hover:bg-gray-e5"
                           to={menuItem.path}
                         >
                           {menuItem.title}
@@ -114,7 +114,7 @@ export default function AboutOrganizationCommitteePage(props) {
             }
             <div className={classNames('flex items-center flex-1 py-12', { 'justify-center px-8': !!committee.president.image })}>
               <div className={classNames({ 'md:p-14': !!committee.president.image })}>
-                <div className="text-16 md:text-20 text-secondary">{committee.president.title}</div>
+                <div className="mb-8 text-16 md:text-20 text-secondary">{committee.president.title || <FormattedMessage id="committee.member.title.president" />}</div>
                 <div className="font-serif font-bold text-24 md:text-32">{committee.president.name}</div>
               </div>
             </div>
@@ -132,7 +132,7 @@ export default function AboutOrganizationCommitteePage(props) {
                     </div>
                   }
                   <div>
-                    <div className="text-12 md:text-14 text-secondary">{vicePresident.title}</div>
+                    <div className="text-12 md:text-14 text-secondary">{vicePresident.title || <FormattedMessage id="committee.member.title.vicepresident" />}</div>
                     <div className="font-serif font-bold text-14 md:text-16">{vicePresident.name}</div>
                   </div>
                 </li>
@@ -158,7 +158,7 @@ export default function AboutOrganizationCommitteePage(props) {
                           </div>
                         }
                         <div>
-                          <div className="text-12 md:text-14 text-secondary">{member.title}</div>
+                          <div className="text-12 md:text-14 text-secondary">{member.title || <FormattedMessage id="committee.member.title.director" />}</div>
                           <div className="font-serif font-bold text-14 md:text-16">{member.name}</div>
                         </div>
                       </li>

@@ -596,6 +596,11 @@ collections:
             label: "名稱"
             i18n: true
             widget: string
+          - name: "title"
+            label: "職位"
+            i18n: true
+            widget: string
+            required: false
           - name: "image"
             label: "相片"
             widget: image
@@ -612,6 +617,11 @@ collections:
             label: "名稱"
             i18n: true
             widget: string
+          - name: "title"
+            label: "職位"
+            i18n: true
+            widget: string
+            required: false
           - name: "image"
             label: "相片"
             widget: image
