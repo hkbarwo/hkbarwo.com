@@ -42,7 +42,7 @@ export default function NewsPage({ path, pageContext }) {
           </h1>
           {newsItems.length > 0 ? (
             <ul className="md:px-60">
-              {newsItems.map((news) => {
+              {newsItems.slice(0, 42).map((news) => {
                 const { category, slug } = news;
                 return (
                   <li
