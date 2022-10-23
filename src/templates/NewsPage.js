@@ -95,7 +95,7 @@ export default function NewsPage({ path, pageContext }) {
               </ul>
               <div className="flex flex-col items-center mt-32">
                 <button
-                  className="flex-shrink-0 px-24 py-10 ml-32 text-white transition-colors duration-300 rounded-8 bg-secondary hover:bg-secondary-dark"
+                  className="flex-shrink-0 px-24 py-10 text-white transition-colors duration-300 rounded-8 bg-secondary hover:bg-secondary-dark"
                   onClick={handleClickLoadMore}
                 >
                   <FormattedMessage id="home.news.more" />
