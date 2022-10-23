@@ -73,7 +73,7 @@ export default function NewsPage({ path, pageContext }) {
                     <div className="flex items-center">
                       <h2 className="flex-grow tracking-wide text-20">{news.title}</h2>
                       <Link
-                        className="px-24 py-10 ml-32 text-white transition-colors duration-300 rounded-8 bg-secondary hover:bg-secondary-dark"
+                        className="flex-shrink-0 px-24 py-10 ml-32 text-white transition-colors duration-300 rounded-8 bg-secondary hover:bg-secondary-dark"
                         to={`/${locale}/news/${news.slug}`}
                       >
                         <FormattedMessage id="know.more" />
