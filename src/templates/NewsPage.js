@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import IntlProvider from "../components/IntlProvider";
 import Link from "../components/Link";
@@ -7,8 +7,17 @@ import PageNav from "../components/PageNav";
 import PageHeader from "../components/PageHeader";
 import { FormattedDate, FormattedMessage } from "react-intl";
 
+const POSTS_PER_PAGE = 10;
+
 export default function NewsPage({ path, pageContext }) {
   const { newsItems, newsCategory, newsCategories, locale } = pageContext;
+
+  const [postLimit, setPostLimit] = useState(POSTS_PER_PAGE);
+
+  const handleClickLoadMore = () => {
+    setPostLimit(postLimit + POSTS_PER_PAGE);
+  }
+
   return (
     <IntlProvider language={locale}>
       <main className="flex flex-col min-h-screen">
@@ -41,48 +50,58 @@ export default function NewsPage({ path, pageContext }) {
             <span className="flex-grow h-1 bg-current" />
           </h1>
           {newsItems.length > 0 ? (
-            <ul className="md:px-60">
-              {newsItems.slice(0, 42).map((news) => {
-                const { category, slug } = news;
-                return (
-                  <li
-                    key={slug}
-                    className="py-20 border-b border-gray-e5"
-                  >
-                    <div className="flex items-center justify-between mb-20">
-                      <div
-                        className="px-16 py-2 text-white rounded-full text-16"
-                        style={{ backgroundColor: category.color }}
-                      >{category.title}</div>
-                      <div className="flex items-center">
-                        <svg
-                          className="w-16 h-16 mr-8 text-gray-bc"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M10.44,11.19l-3-3v-5H8.53V7.78l2.66,2.66ZM8,15.44A7.44,7.44,0,1,1,15.44,8,7.44,7.44,0,0,1,8,15.44ZM8,1.62A6.38,6.38,0,1,0,14.38,8,6.38,6.38,0,0,0,8,1.62Z"
-                            fill="currentColor"
-                          />
-                        </svg>
-                        <span className="text-secondary text-14">
-                          <FormattedDate value={news.date} />
-                        </span>
+            <>
+              <ul className="md:px-60">
+                {newsItems.slice(0, postLimit).map((news) => {
+                  const { category, slug } = news;
+                  return (
+                    <li
+                      key={slug}
+                      className="py-20 border-b border-gray-e5"
+                    >
+                      <div className="flex items-center justify-between mb-20">
+                        <div
+                          className="px-16 py-2 text-white rounded-full text-16"
+                          style={{ backgroundColor: category.color }}
+                        >{category.title}</div>
+                        <div className="flex items-center">
+                          <svg
+                            className="w-16 h-16 mr-8 text-gray-bc"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M10.44,11.19l-3-3v-5H8.53V7.78l2.66,2.66ZM8,15.44A7.44,7.44,0,1,1,15.44,8,7.44,7.44,0,0,1,8,15.44ZM8,1.62A6.38,6.38,0,1,0,14.38,8,6.38,6.38,0,0,0,8,1.62Z"
+                              fill="currentColor"
+                            />
+                          </svg>
+                          <span className="text-secondary text-14">
+                            <FormattedDate value={news.date} />
+                          </span>
+                        </div>
                       </div>
-                    </div>
-                    <div className="flex items-center">
-                      <h2 className="flex-grow tracking-wide text-20">{news.title}</h2>
-                      <Link
-                        className="flex-shrink-0 px-24 py-10 ml-32 text-white transition-colors duration-300 rounded-8 bg-secondary hover:bg-secondary-dark"
-                        to={`/${locale}/news/${news.slug}`}
-                      >
-                        <FormattedMessage id="know.more" />
-                      </Link>
-                    </div>
-                  </li>
-                )
-              })}
-            </ul>
+                      <div className="flex items-center">
+                        <h2 className="flex-grow tracking-wide text-20">{news.title}</h2>
+                        <Link
+                          className="flex-shrink-0 px-24 py-10 ml-32 text-white transition-colors duration-300 rounded-8 bg-secondary hover:bg-secondary-dark"
+                          to={`/${locale}/news/${news.slug}`}
+                        >
+                          <FormattedMessage id="know.more" />
+                        </Link>
+                      </div>
+                    </li>
+                  )
+                })}
+              </ul>
+              <div className="flex flex-col items-center mt-32">
+                <button
+                  className="flex-shrink-0 px-24 py-10 ml-32 text-white transition-colors duration-300 rounded-8 bg-secondary hover:bg-secondary-dark"
+                  onClick={handleClickLoadMore}
+                >
+                  <FormattedMessage id="home.news.more" />
+                </button>
+              </div>
+            </>
           ) : (
             <p
               className="font-serif font-light text-center py-72 text-36 text-gray-bc"
