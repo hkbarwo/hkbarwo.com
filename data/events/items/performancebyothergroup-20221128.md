@@ -23,6 +23,7 @@ zh:
   title: 紀念林家聲博士逝世七週年——林派經典聲藝傳承
   slug: performancebyothergroup-20221128
   type: other
+  coverImage: /uploads/whatsapp-image-2022-08-28-at-9.13.21-pm.jpeg
 en:
   date: 2022-11-28T06:37:11.279Z
 ---
