@@ -25,6 +25,7 @@ zh:
   slug: performancebyothergroups-20221129
   photos:
     - /uploads/whatsapp-image-2022-08-28-at-9.13.21-pm-1-.jpeg
+  coverImage: /uploads/whatsapp-image-2022-08-28-at-9.13.21-pm-1-.jpeg
 en:
   date: 2022-11-29T05:00:44.735Z
 ---
