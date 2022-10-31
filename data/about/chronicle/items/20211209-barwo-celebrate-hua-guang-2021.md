@@ -10,7 +10,7 @@ zh:
   image: ""
   category: event
   title: 即使疫情未完全消退，但相對穩定，理事會決定如常舉辦2021及2022年華光先師寶誕慶祝活動
-  slug: barwo-celebrate-hua-guang-20211102
+  slug: barwo-celebrate-hua-guang-20211102-20221023
 en:
   title: 2 November 2021 - despite the factthe epidemichad not completely
     subsided, the situation was relatively stable. Hence, the Board of Directors
