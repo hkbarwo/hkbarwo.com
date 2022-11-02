@@ -69,7 +69,7 @@ zh:
           title: 理事
         - name: 高潤鴻
           title: 理事
-  title: 第三十八屆理事會
+  title: 第三十八屆
   slug: bod-38th
   period: 2017-2020
   president:
