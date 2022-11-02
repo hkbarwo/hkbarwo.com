@@ -70,7 +70,7 @@ zh:
         - name: 高潤鴻
           title: 理事
   title: 第三十八屆
-  slug: bod-38th
+  slug: 38th
   period: 2017-2020
   president:
     name: 汪明荃
