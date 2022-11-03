@@ -1,6 +1,6 @@
 ---
 cn:
-  date: 2022-11-03T08:02:05.733Z
+  date: 2023-02-11T08:02:05.733Z
 zh:
   sessions: 7
   metadata:
@@ -25,10 +25,10 @@ zh:
     - isShowInList: false
       label: 地點
       content: 大澳
-  date: 2022-11-03T08:02:05.733Z
+  date: 2023-02-11T08:02:05.733Z
   title: 2023年 （癸卯年）表演三
   slug: celebrations-20230208-11
   type: celebration
 en:
-  date: 2022-11-03T08:02:05.733Z
+  date: 2023-02-11T08:02:05.733Z
 ---
