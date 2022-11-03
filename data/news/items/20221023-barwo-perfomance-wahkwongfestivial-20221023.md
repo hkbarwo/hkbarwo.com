@@ -28,7 +28,7 @@ zh:
     2022年華光先師寶誕慶祝活動相片：
 
 
-    ![](/uploads/1.jpg)
+    ![](/uploads/99.jpg)
 
 
     ![](/uploads/2.jpg)
