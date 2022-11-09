@@ -3,10 +3,20 @@ cn:
   title: ""
   content: "\r\n"
   pdfFile: /uploads/recruitment-ad_am_po_20221102-002-.pdf
+  category: job
 zh:
   date: 2022-11-09T09:10:05.798Z
   title: 助理項目經理／項目主任（合約）
-  content: "職責：\r
+  content: "\r
+
+    香港八和會館（八和）是本港的慈善團體，為粵劇從業員的專業組織，以弘揚粵劇為己任。八和推行不同的大型計劃，為粵劇界培育不同崗位的人才，包括：「油\
+    麻地戲院場地伙伴計劃」、演出、展覽、交流項目等。八和現招聘以下職位：
+
+
+    助理項目經理／項目主任（合約）
+
+
+    職責：\r
 
     處理【油麻地戲院場地伙伴計劃】的日常行政、財政及採購工作\r
 
@@ -57,5 +67,6 @@ zh:
     m。"
   slug: project-officer-assistant-20221102
   category: job
+  pdfFile: /uploads/recruitment-ad_am_po_20221102-002-.pdf
 en: {}
 ---
