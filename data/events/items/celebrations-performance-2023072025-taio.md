@@ -5,7 +5,7 @@ cn:
 zh:
   sessions: 11
   metadata:
-    - isShowInList: false
+    - isShowInList: true
       label: 演出日期
       content: |-
         7月20至25日
