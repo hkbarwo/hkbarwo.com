@@ -29,7 +29,7 @@ zh:
       label: 地點
       content: 大澳
   date: 2023-07-25T01:23:06.142Z
-  title: 2023年 （癸卯年）表演六
+  title: 2023年 （癸卯年）表演七
   slug: celebrations-performance-2023072025-taio
   type: celebration
 en:
