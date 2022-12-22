@@ -73,13 +73,13 @@ export default function PerformancesCelebrationsPage(props) {
                     leaveTo="transform scale-95 opacity-0"
                   >
                     <Listbox.Options
-                      className="absolute w-full mt-10 overflow-hidden bg-white rounded-md shadow-md"
+                      className="absolute w-full mt-10 overflow-scroll bg-white rounded-md shadow-md max-h-212"
                       static={true}
                     >
                       {pageData.years.map((year) => (
                         <Listbox.Option
                           key={year}
-                          className="px-16 py-8 text-center transition transition-colors duration-300 hover:bg-gray-e5"
+                          className="px-16 py-8 text-center transition duration-300 hover:bg-gray-e5"
                           value={year}
                         >
                           {year}

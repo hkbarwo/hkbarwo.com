@@ -4,7 +4,7 @@ function getYearList(items) {
     const date = new Date(item.date)
     yearSet.add(date.getFullYear())
   })
-  return [...yearSet].sort()
+  return [...yearSet].sort().reverse()
 } 
 
 exports.createPerformancesPages = async (params, context) => {

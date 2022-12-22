@@ -76,7 +76,7 @@ export default function AboutOrganizationCommitteePage(props) {
                   leaveTo="transform scale-95 opacity-0"
                 >
                   <Menu.Items
-                    className="absolute w-full mt-10 overflow-hidden bg-white rounded-md shadow-md"
+                    className="absolute w-full mt-10 overflow-scroll bg-white rounded-md shadow-md max-h-212"
                     static={true}
                   >
                     {menuItems.map((menuItem) => (
