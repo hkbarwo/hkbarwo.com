@@ -18,10 +18,12 @@ zh:
       content: 鴻運粵劇團
     - isShowInList: false
       label: 演員
-      content: |
+      content: |-
         2月8-10日（共3）：李秋元、黃小鳯
+
         2月10-11日（共2天）藍天佑、鄭雅琪
-        2月8-11日（共4天）溫玉瑜、潔清、浩鋒、熙
+
+        2月8-11日（共4天）溫玉瑜、王潔清、吳立熙、詹浩鋒
     - isShowInList: false
       label: 地點
       content: 大澳
