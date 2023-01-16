@@ -10,10 +10,7 @@ cn:
         - name: 李居明 先生
     - title: 名誉顾问
       list:
-        - name: 王䓪鸣 博士 DBE, JP
-        - name: 余少华 教授 JP
         - name: 吴凤平 博士
-        - name: 梁安琪 女士 澳门立法会议员 BBS
         - name: 陈幼坚 先生 MH
         - name: "陈祖泽 先生 GBS, CBE, LVO, JP "
         - name: 黄燕芳 女士
@@ -46,11 +43,7 @@ zh:
         - name: 李居明 先生
     - title: 名譽顧問
       list:
-        - name: 王䓪鳴 博士 DBE, JP
-        - name: 余少華 教授 JP
         - name: 吳鳳平 博士
-        - name: 梁安琪 女士 澳門立法會議員 BBS
-          title: ""
         - name: 陳幼堅 先生 MH
         - name: "陳祖澤 先生 GBS, CBE, LVO, JP "
         - name: 黃燕芳 女士
@@ -83,8 +76,14 @@ en:
         - name: 李居明 先生
     - title: 名譽顧問
       list:
-        - name: 王䓪鳴 博士 DBE, JP
-        - name: 余少華 教授 JP
+        - name: 吳鳳平博士
+        - name: 陳幼堅先生, MH
+        - name: 陳祖澤先生,GBS,CBE,LVO,JP
+        - name: 黃燕芳女士
+        - name: 劉千石先生,JP
+        - name: 蔡關穎琴律師,MH
+        - name: 黎子流先生
+        - name: 譚榮邦先生,SBS
     - title: 財務顧問
       list:
         - name: 黃龍德 會計師 PhD, BBS, JP
