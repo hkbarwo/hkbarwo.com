@@ -51,6 +51,7 @@ exports.createAboutChroniclePage = async ({ actions, graphql }, context) => {
 
   const chronicle = [];
   let yearGrp = -1;
+  const currentYear = new Date().getFullYear();
   result.data.items.nodes.forEach(({ fields }) => {
     const item = fields[locale];
     item.year = new Date(item.date).getFullYear();
@@ -59,7 +60,7 @@ exports.createAboutChroniclePage = async ({ actions, graphql }, context) => {
     if (yearGrp !== year) {
       yearGrp = year;
       chronicle.push({
-        range: `${year - 10}-${year}`,
+        range: `${year - 10}-${Math.min(year, currentYear)}`,
         items: [],
       });
     }
