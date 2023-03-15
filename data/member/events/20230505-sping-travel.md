@@ -7,7 +7,7 @@ zh:
   slug: 20230505-sping-travel
   metadata:
     - label: 日期
-      content: 2023年5月5日
+      content: 2023年5月5日 (星期五)
     - label: 地點
       content: 大嶼山寶蓮寺
 en:
