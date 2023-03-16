@@ -3,7 +3,7 @@ cn:
   date: 2023-03-15T10:14:12.303Z
 zh:
   date: 2023-03-15T10:14:12.303Z
-  title: 2023 年春祭 (癸卯年)
+  title: 2023 春祭 (癸卯年)
   slug: 20230331-spring-festival
   metadata:
     - label: 活動日期
