@@ -1,14 +1,22 @@
 ---
+cn:
+  slug: lee-sai-out
+  gender: m
+  position: 贩
+  role: 会友
+  title: 李细牛
+  isDead: true
 zh:
   gender: m
   position: 販
   slug: lee-sai-out
-  alias: null
+  isDead: true
+  alias: " "
   photo: ""
   role: 會友
   title: 李細牛
-  thoughts: ""
-  description: ""
+  thoughts: " "
+  description: "  "
 en:
   role: 會友
   position: 販
@@ -16,10 +24,4 @@ en:
   alias: null
   description: ""
   thoughts: ""
-cn:
-  slug: lee-sai-out
-  gender: m
-  position: 贩
-  role: 会友
-  title: 李细牛
 ---
