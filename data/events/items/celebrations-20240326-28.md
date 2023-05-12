@@ -6,7 +6,7 @@ zh:
   slug: celebrations-20240326-28
   type: celebration
   date: 2023-11-27T09:50:16.857Z
-  sessions: 3
+  sessions: 5
   metadata:
     - isShowInList: false
       label: 演出日期
