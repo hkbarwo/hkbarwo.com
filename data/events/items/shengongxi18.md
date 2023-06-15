@@ -19,7 +19,7 @@ zh:
     - isShowInList: true
       label: 演員
       content: 衛駿輝、陳咏儀、陳鴻進、廖國森、阮兆輝、陳紀婷
-    - isShowInList: false
+    - isShowInList: true
       label: 地點
       content: 坑口
   date: 2023-06-15T06:55:02.905Z
