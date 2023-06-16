@@ -23,7 +23,7 @@ zh:
 
         2023年5月6 - 8日﹕鄭詠梅
 
-        2023年5月9日﹕張潔
+        2023年5月9日﹕張潔霞
     - isShowInList: false
       label: 地點
       content: 屯門
