@@ -1,6 +1,6 @@
 ---
 cn:
-  date: 2023-06-15T06:55:02.905Z
+  date: 2024-05-16T04:22:11.133Z
 zh:
   sessions: 9
   metadata:
@@ -22,10 +22,10 @@ zh:
     - isShowInList: true
       label: 地點
       content: 坑口
-  date: 2023-06-15T06:55:02.905Z
+  date: 2024-05-16T04:22:11.133Z
   title: 2024年 （甲辰年）表演十九
   slug: shengongxi19
   type: celebration
 en:
-  date: 2023-06-15T06:55:02.905Z
+  date: 2024-05-16T04:22:11.133Z
 ---
