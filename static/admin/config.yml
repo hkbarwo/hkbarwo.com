@@ -1537,10 +1537,13 @@ collections:
         label: "藝名"
         i18n: true
         widget: string
+        required: false
+        default: ""
       - name: "gender"
         label: "性別"
         widget: select
         required: false
+        default: "m"
         options:
           - label: "男"
             value: "m"
@@ -1554,11 +1557,13 @@ collections:
         label: "職稱"
         i18n: true
         widget: string
+        required: false
         default: ""
       - name: "position"
         label: "位置"
         i18n: true
         widget: string
+        required: false
         default: ""
       - name: "photo"
         label: "照片"
@@ -1570,10 +1575,14 @@ collections:
         label: "簡介"
         i18n: true
         widget: text
+        required: false
+        default: ""
       - name: "thoughts"
         label: "心聲"
         i18n: true
         widget: text
+        required: false
+        default: ""
   - name: "memberEvents"
     label: "🗃 會員活動"
     i18n: true
