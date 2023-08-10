@@ -1507,6 +1507,7 @@ collections:
             # public_folder: "/uploads/member/apply"
   - name: "members"
     label: "🗃 會員列表"
+    label_singular: "會員"
     i18n: true
     folder: "/data/members/items"
     slug: "{{fields.slug}}"
@@ -1523,8 +1524,13 @@ collections:
       - label: "女"
         field: "gender"
         pattern: 'f'
-    sortable_fields: ["title", "slug", "alias"]
+    sortable_fields: ["slug", "title", "alias", "modifiedAt"]
+    summary: "[{{fields.slug}}] {{fields.title}}"
     fields:
+      - name: "modifiedAt"
+        label: "修改時間"
+        required: false
+        widget: datetime
       - name: "title"
         label: "姓名"
         i18n: true
