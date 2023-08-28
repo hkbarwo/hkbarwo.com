@@ -1,6 +1,4 @@
 ---
-cn:
-  date: 2023-11-30T05:01:32.427Z
 zh:
   sessions: 7
   metadata:
@@ -22,10 +20,12 @@ zh:
     - isShowInList: false
       label: 地點
       content: 蒲苔島太平清醮
-  date: 2023-11-30T05:01:32.427Z
-  title: 2024年 （甲辰年）表演十七
+  date: 2024-02-24T11:12:49.127Z
+  title: 2024年 （甲辰年）表演二
   slug: celebrations-20240224-27
   type: celebration
+cn:
+  date: 2024-02-24T11:12:49.127Z
 en:
-  date: 2023-11-30T05:01:32.427Z
+  date: 2024-02-24T11:12:49.127Z
 ---
