@@ -1,11 +1,9 @@
 ---
-cn:
-  date: 2023-11-27T09:50:16.857Z
 zh:
-  title: 2024年 （甲辰年）表演十四
+  title: 2024年 （甲辰年）表演一
   slug: celebrations-20240326-28
   type: celebration
-  date: 2023-11-27T09:50:16.857Z
+  date: 2024-03-26T11:11:31.247Z
   sessions: 5
   metadata:
     - isShowInList: false
@@ -28,6 +26,8 @@ zh:
       label: 地點
       content: 上水古洞村
   purchaseURL: ""
+cn:
+  date: 2024-03-26T11:11:31.247Z
 en:
-  date: 2023-11-27T09:50:16.857Z
+  date: 2024-03-26T11:11:31.247Z
 ---
