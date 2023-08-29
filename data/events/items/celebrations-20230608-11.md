@@ -1,6 +1,4 @@
 ---
-cn:
-  date: 2023-11-29T02:39:57.979Z
 zh:
   sessions: 7
   metadata:
@@ -23,9 +21,11 @@ zh:
       label: 地點
       content: 大澳
   date: 2023-11-29T02:39:57.979Z
-  title: 2023年 （癸卯年）表演十六
+  title: 2023年 （癸卯年）表演十四
   slug: celebrations-20230608-11
   type: celebration
+cn:
+  date: 2023-11-29T02:39:57.979Z
 en:
   date: 2023-11-29T02:39:57.979Z
 ---
