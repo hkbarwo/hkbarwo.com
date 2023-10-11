@@ -1,6 +1,6 @@
 ---
 zh:
-  date: 2023-10-11T08:10:01.321Z
+  date: 2023-06-01T08:10:01.321Z
   title: 仙遊通告——徐耀成先生
   slug: xianyou-tusi
   category: xianyou
