@@ -2,7 +2,7 @@
 zh:
   date: 2023-10-11T08:10:01.321Z
   title: 仙遊通告——徐耀成先生
-  slug: xianyou-fung11102023
+  slug: xianyou-tusi
   category: xianyou
   content: |-
     本會會員徐耀成先生(徐三牛)(音樂部)已於2023年5月25日仙遊，享壽79歲，此是578份，請各會員備悉。
