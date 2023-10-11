@@ -18,8 +18,9 @@ zh:
     二零二三年十月十一日
   pdfFile: /uploads/仙遊會員通告_馮惠欣.pdf
   title: 仙遊通告——馮惠欣先生
-  slug: xianyou-tusi
+  slug: xianyou-fung11102023
   category: xianyou
-cn: {}
+cn:
+  category: xianyou
 en: {}
 ---
