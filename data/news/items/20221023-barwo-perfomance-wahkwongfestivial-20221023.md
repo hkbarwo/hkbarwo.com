@@ -1,6 +1,4 @@
 ---
-cn:
-  category: notice
 zh:
   date: 2022-10-23T14:01:08.672Z
   content: >-
@@ -28,40 +26,40 @@ zh:
     2022年華光先師寶誕慶祝活動相片：
 
 
-    ![](/uploads/99.jpg)
+    ![]()
 
 
-    ![](/uploads/2.jpg)
+    ![]()
 
 
-    ![](/uploads/3.jpg)
+    ![]()
 
 
-    ![](/uploads/4.jpg)
+    ![]()
 
 
-    ![](/uploads/5.jpg)
+    ![]()
 
 
-    ![](/uploads/6.jpg)
+    ![]()
 
 
-    ![](/uploads/7.jpg)
+    ![]()
 
 
-    ![](/uploads/8.jpg)
+    ![]()
 
 
-    ![](/uploads/9.jpg)
+    ![]()
 
 
     ![](/uploads/10.jpg)
 
 
-    ![](/uploads/11.jpg)
+    ![]()
 
 
-    ![](/uploads/12.jpg)
+    ![]()
 
 
     ![](/uploads/13.jpg)
@@ -97,6 +95,8 @@ zh:
     ![](/uploads/23.jpg)
   title: 2022年華光先師寶誕香花山大賀壽演出圓滿完成
   slug: barwo-perfomance-wahkwongfestivial-20221023
+  category: notice
+cn:
   category: notice
 en: {}
 ---
