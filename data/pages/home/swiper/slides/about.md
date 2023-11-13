@@ -7,7 +7,7 @@ zh:
   gradient:
     color1: "#f11462"
     color2: "#7785fd"
-  bgImage: /uploads/d-min.jpg
+  bgImage: /uploads/dsc_4102.jpg
   subtitle: 保育．傳承
   title: 八和會館
   bgImageFillStyle: contain
