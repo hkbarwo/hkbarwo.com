@@ -1,3 +1,41 @@
+zh:
+  groups:
+    - title: 名譽贊助人
+      list:
+        - name: 李家超先生 大紫荊勳賢, SBS, PDSM, PMSM
+          title: 中華人民共和國香港特別行政區行政長官
+    - title: 榮譽顧問
+      list:
+        - name: 梁振英先生 GBM, GBS, JP
+        - name: 李居明先生
+        - name: 方志基先生
+          title: ""
+        - title: ""
+          name: 何陳婉珍博士
+        - name: 温鑑銘先生
+        - name: 顏震鋒大律師
+    - title: 名譽顧問
+      list:
+        - name: 吳鳳平博士
+        - name: 陳幼堅先生 MH
+        - name: 陳祖澤先生 OBE, LVO, CBE, GBS, JP
+        - name: 黃燕芳女士
+        - name: 劉千石先生 JP
+        - name: 蔡關穎琴律師BBS, MH, JP
+        - name: 譚榮邦先生 SBS, JP
+    - title: 財務顧問
+      list:
+        - name: 黃龍德 會計師 PhD, BBS, JP
+    - title: 法律顧問
+      list:
+        - name: 廖成利 律師
+        - name: 賴顯榮 律師
+    - title: 醫事顧問
+      list:
+        - name: 林建業醫生
+        - name: 鄧智偉教授
+        - name: 鄺美玲醫生
+  title: 贊助人及顧問
 cn:
   groups:
     - title: 名誉赞助人
@@ -31,39 +69,6 @@ cn:
         - name: 袁汉 医生
         - name: 邓智伟 医生
   title: 赞助人及顾问
-zh:
-  groups:
-    - title: 名譽贊助人
-      list:
-        - name: 李家超 先生 大紫荊勳賢, SBS, PDSM, PMSM
-          title: 香港特別行政區行政長官
-    - title: 榮譽顧問
-      list:
-        - name: 梁振英 先生 GBM, GBS, JP
-        - name: 李居明 先生
-    - title: 名譽顧問
-      list:
-        - name: 吳鳳平 博士
-        - name: 陳幼堅 先生 MH
-        - name: "陳祖澤 先生 GBS, CBE, LVO, JP "
-        - name: 黃燕芳 女士
-        - name: 劉千石 先生 JP
-        - name: 蔡關穎琴 律師 MH
-        - name: 黎子流 先生
-        - name: 譚榮邦 先生 SBS, JP
-    - title: 財務顧問
-      list:
-        - name: 黃龍德 會計師 PhD, BBS, JP
-    - title: 法律顧問
-      list:
-        - name: 廖成利 律師
-        - name: 賴顯榮 律師
-    - title: 醫事顧問
-      list:
-        - name: 林建業 醫生
-        - name: 袁漢 醫生
-        - name: 鄧智偉 醫生
-  title: 贊助人及顧問
 en:
   groups:
     - title: 名譽贊助人
