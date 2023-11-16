@@ -61,6 +61,7 @@ zh:
   category: job
   slug: 20231116-recruitment-project-officer
   pdfFile: /uploads/recruitment-ad_po_pa-final-as-at-16-nov-2023.pdf
-cn: {}
+cn:
+  category: job
 en: {}
 ---
