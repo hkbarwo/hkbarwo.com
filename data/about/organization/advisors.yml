@@ -40,7 +40,7 @@ cn:
   groups:
     - title: 名誉赞助人
       list:
-        - title: 中华人民共和国香港特别行政区行政长官
+        - title: 香港特别行政区行政长官
           name: 李家超先生 大紫荆勋贤, SBS, PDSM, PMSM
     - title: 荣誉顾问
       list:
@@ -68,7 +68,7 @@ cn:
         - name: 赖显荣律师
     - title: 医事顾问
       list:
-        - name: 林建业医生
+        - name: 林建业 医生
         - name: 邓智伟教授
         - name: 邝美玲医生
   title: 赞助人及顾问
@@ -77,7 +77,8 @@ en:
     - title: 名譽贊助人
       list:
         - name: 李家超 先生 大紫荊勳賢, SBS, PDSM, PMSM
-          title: 香港特別行政區行政長官
+          title: The Chief Executive of the Hong Kong Special Administrative Region of the
+            People’s Republic of China
     - title: 榮譽顧問
       list:
         - name: 梁振英 先生 GBM, GBS, JP
