@@ -81,17 +81,20 @@ en:
             People’s Republic of China
     - title: 榮譽顧問
       list:
-        - name: 梁振英 先生 GBM, GBS, JP
-        - name: 李居明 先生
+        - name: 梁振英先生 GBM, GBS, JP
+        - name: 李居明先生
+        - name: 方志基先生
+        - name: 何陈婉珍博士
+        - name: 温鉴铭先生
+        - name: 颜震锋大律师
     - title: 名譽顧問
       list:
         - name: 吳鳳平博士
         - name: 陳幼堅先生, MH
-        - name: 陳祖澤先生,GBS,CBE,LVO,JP
+        - name: 陳祖澤先生 OBE, LVO, CBE, GBS, JP
         - name: 黃燕芳女士
         - name: 劉千石先生,JP
-        - name: 蔡關穎琴律師,MH
-        - name: 黎子流先生
+        - name: 蔡关颖琴律师 BBS, MH, JP
         - name: 譚榮邦先生,SBS
     - title: 財務顧問
       list:
@@ -102,7 +105,8 @@ en:
         - name: 賴顯榮 律師
     - title: 醫事顧問
       list:
-        - name: 林建業 醫生
-        - name: 袁漢 醫生
-        - name: 鄧智偉 醫生
+        - name: 林建業醫生
+        - name: 袁漢醫生
+        - name: 鄧智偉教授
+        - name: 鄺美玲醫生
   title: 贊助人及顧問
