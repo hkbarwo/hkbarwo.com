@@ -84,9 +84,9 @@ en:
         - name: 梁振英先生 GBM, GBS, JP
         - name: 李居明先生
         - name: 方志基先生
-        - name: 何陈婉珍博士
-        - name: 温鉴铭先生
-        - name: 颜震锋大律师
+        - name: 何陳婉珍博士
+        - name: 溫鑒銘先生
+        - name: 顏震鋒大律師
     - title: 名譽顧問
       list:
         - name: 吳鳳平博士
@@ -94,11 +94,11 @@ en:
         - name: 陳祖澤先生 OBE, LVO, CBE, GBS, JP
         - name: 黃燕芳女士
         - name: 劉千石先生,JP
-        - name: 蔡关颖琴律师 BBS, MH, JP
+        - name: 蔡關穎琴律師 BBS, MH, JP
         - name: 譚榮邦先生,SBS
     - title: 財務顧問
       list:
-        - name: 黃龍德 會計師 PhD, BBS, JP
+        - name: 黃龍德會計師 PhD, BBS, JP
     - title: 法律顧問
       list:
         - name: 廖成利 律師
@@ -106,7 +106,6 @@ en:
     - title: 醫事顧問
       list:
         - name: 林建業醫生
-        - name: 袁漢醫生
         - name: 鄧智偉教授
         - name: 鄺美玲醫生
   title: 贊助人及顧問
