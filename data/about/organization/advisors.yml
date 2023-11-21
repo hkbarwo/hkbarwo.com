@@ -74,38 +74,38 @@ cn:
   title: 赞助人及顾问
 en:
   groups:
-    - title: 名譽贊助人
+    - title: Honorary Sponsor
       list:
         - name: "The Honourable John KC LEE, GBM, SBS, PDSM, PMSM "
           title: The Chief Executive of the Hong Kong Special Administrative Region of the
             People’s Republic of China
-    - title: 榮譽顧問
+    - title: Honorary Advisors
       list:
-        - name: 梁振英先生 GBM, GBS, JP
-        - name: 李居明先生
+        - name: The Hon C Y LEUNG, GBM, GBS, JP
+        - name: Mr. Edward LI Kui Ming
         - name: 方志基先生
-        - name: 何陳婉珍博士
+        - name: Dr. Ina HO
         - name: 溫鑒銘先生
-        - name: 顏震鋒大律師
-    - title: 名譽顧問
+        - name: Mr. Ronald NGAN Barrister-at-law
+    - title: Consultants
       list:
-        - name: 吳鳳平博士
-        - name: 陳幼堅先生, MH
-        - name: 陳祖澤先生 OBE, LVO, CBE, GBS, JP
-        - name: 黃燕芳女士
-        - name: 劉千石先生,JP
-        - name: 蔡關穎琴律師 BBS, MH, JP
-        - name: 譚榮邦先生,SBS
-    - title: 財務顧問
+        - name: Dr. Dorothy NG Fung Ping
+        - name: Mr. Alan CHAN Yu Chien, MH
+        - name: Mr. John CHAN Cho Chak, OBE, LVO, CBE, GBS, JP
+        - name: Mrs. Anita WONG Yin Fong
+        - name: Mr. LAU Chin Shek, JP
+        - name: Mrs. Janice CHOI, BBS, MH, JP
+        - name: Mr. TAM Wing Pong, SBS
+    - title: Financial Consultant
       list:
-        - name: 黃龍德會計師 PhD, BBS, JP
-    - title: 法律顧問
+        - name: Mr. Patrick Lung-tak Wong, PhD, BBS, JP
+    - title: Legal Consultants
       list:
-        - name: 廖成利 律師
-        - name: 賴顯榮 律師
-    - title: 醫事顧問
+        - name: Mr. Bruce LIU Sing Lee
+        - name: Mr. Henry LAI Hin Wing
+    - title: Medical Consultants
       list:
-        - name: 林建業醫生
-        - name: 鄧智偉教授
-        - name: 鄺美玲醫生
-  title: 贊助人及顧問
+        - name: Dr. LAM Kin Yip
+        - name: Prof. Sydney TANG Chi Wai
+        - name: Dr. Maria KWONG May Ling
+  title: Sponsors and Advisors
