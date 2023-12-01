@@ -26,73 +26,73 @@ zh:
     2022年華光先師寶誕慶祝活動相片：
 
 
-    ![]()
+    ![](/uploads/2022-99.jpg)
 
 
-    ![]()
+    ![](/uploads/2022-2.jpg)
 
 
-    ![]()
+    ![](/uploads/2022-3.jpg)
 
 
-    ![]()
+    ![](/uploads/2022-4.jpg)
 
 
-    ![]()
+    ![](/uploads/2022-5.jpg)
 
 
-    ![]()
+    ![](/uploads/2022-6.jpg)
 
 
-    ![]()
+    ![](/uploads/2022-7.jpg)
 
 
-    ![]()
+    ![](/uploads/2022-8.jpg)
 
 
-    ![]()
+    ![](/uploads/2022-9.jpg)
 
 
-    ![](/uploads/10.jpg)
+    ![](/uploads/2022-10.jpg)
 
 
-    ![]()
+    ![](/uploads/2022-11.jpg)
 
 
-    ![]()
+    ![](/uploads/2022-12.jpg)
 
 
-    ![](/uploads/13.jpg)
+    ![](/uploads/2022-13.jpg)
 
 
-    ![](/uploads/14.jpg)
+    ![](/uploads/2022-14.jpg)
 
 
-    ![](/uploads/15.jpg)
+    ![](/uploads/2022-15.jpg)
 
 
-    ![](/uploads/16.jpg)
+    ![](/uploads/2022-16.jpg)
 
 
-    ![](/uploads/17.jpg)
+    ![](/uploads/2022-17.jpg)
 
 
-    ![](/uploads/18.jpg)
+    ![](/uploads/2022-18.jpg)
 
 
-    ![](/uploads/19.jpg)
+    ![](/uploads/2022-19.jpg)
 
 
-    ![](/uploads/20.jpg)
+    ![](/uploads/2022-20.jpg)
 
 
-    ![](/uploads/21.jpg)
+    ![](/uploads/2022-21.jpg)
 
 
-    ![](/uploads/22.jpg)
+    ![](/uploads/2022-22.jpg)
 
 
-    ![](/uploads/23.jpg)
+    ![](/uploads/2022-23.jpg)
   title: 2022年華光先師寶誕香花山大賀壽演出圓滿完成
   slug: barwo-perfomance-wahkwongfestivial-20221023
   category: notice
