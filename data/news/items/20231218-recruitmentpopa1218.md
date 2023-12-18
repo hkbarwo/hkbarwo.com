@@ -61,6 +61,7 @@ zh:
 
     2023年12月18日
   pdfFile: /uploads/recruitment-ad_po_pa-final-as-at-15-dec-2023.pdf
-cn: {}
+cn:
+  category: job
 en: {}
 ---
