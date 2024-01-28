@@ -63,6 +63,7 @@ zh:
   title: 2024年1月28號特別會員大會及歲晚福利派發
   category: event
   slug: 2024-membership-fee-egm
-cn: {}
+cn:
+  category: event
 en: {}
 ---
