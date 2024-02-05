@@ -16,26 +16,8 @@ zh:
         icon: /uploads/member/apply/02.svg
       - title: 交會員費和領取會員證
         icon: /uploads/member/apply/03.svg
-  pdf: /uploads/member/apply/入會申請表-2020版.pdf
+  pdf: https://hkbarwo.com/zh/member/apply
   image: /uploads/member/apply.jpg
-en:
-  description: 會員可以享有八和支援粵劇從業員的特別項目如每年獲派歲晚利是、以特惠價購買週年聯歡會的席券、住院慰問金(這項津貼屬一次性)等。
-  title: 加入成為我們會員
-  registration:
-    title: 如何加入
-    description: |-
-      ### 申請入會者需符合以下條件：
-
-      * 曾經受薪參與職業粵劇團的演出工作
-      * 經會員提議、和議及調查組簽名確認
-      * 為了讓更多粵劇從業員加入八和大家庭，放寬申請入會的年齡條件，不設年齡限制，但超過55歲入會的人士，則未能獲取八和會員的所有福利
-    steps:
-      - title: 填寫和繳交申請表
-        icon: /uploads/member/apply/01.svg
-      - title: 理事會審批
-        icon: /uploads/member/apply/02.svg
-      - title: 交會員費和領取會員證
-        icon: /uploads/member/apply/03.svg
 cn:
   registration:
     steps:
@@ -56,3 +38,21 @@ cn:
   image: /uploads/member/apply.jpg
   title: 加入成为我们会员
   description: 会员可以享有八和支援粤剧从业员的特别项目如每年获派岁晚利是、以特惠价购买周年联欢会的席券、住院慰问金(这项津贴属一次性)等。
+en:
+  description: 會員可以享有八和支援粵劇從業員的特別項目如每年獲派歲晚利是、以特惠價購買週年聯歡會的席券、住院慰問金(這項津貼屬一次性)等。
+  title: 加入成為我們會員
+  registration:
+    title: 如何加入
+    description: |-
+      ### 申請入會者需符合以下條件：
+
+      * 曾經受薪參與職業粵劇團的演出工作
+      * 經會員提議、和議及調查組簽名確認
+      * 為了讓更多粵劇從業員加入八和大家庭，放寬申請入會的年齡條件，不設年齡限制，但超過55歲入會的人士，則未能獲取八和會員的所有福利
+    steps:
+      - title: 填寫和繳交申請表
+        icon: /uploads/member/apply/01.svg
+      - title: 理事會審批
+        icon: /uploads/member/apply/02.svg
+      - title: 交會員費和領取會員證
+        icon: /uploads/member/apply/03.svg
