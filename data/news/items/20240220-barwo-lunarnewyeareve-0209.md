@@ -26,6 +26,7 @@ zh:
   category: event
   title: 2024年 八和會館除夕賀歲
   slug: barwo-lunarnewyeareve-0209
-cn: {}
+cn:
+  category: event
 en: {}
 ---
