@@ -24,4 +24,5 @@ en:
   position: ""
   description: ""
   thoughts: ""
+  title: Ko Wing Chun
 ---
