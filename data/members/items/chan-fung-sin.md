@@ -24,4 +24,5 @@ en:
   position: ""
   description: ""
   thoughts: ""
+  title: Chan Fung Sin
 ---
