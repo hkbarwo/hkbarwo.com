@@ -1,11 +1,11 @@
 ---
 zh:
   gender: f
-  position: ""
+  position: 演
   slug: chan-fung-sin
   isDead: false
   alias: ""
-  role: 演
+  role: 會友
   title: 陳鳳仙
   thoughts: ""
   modifiedAt: 2024-02-23T07:55:41.990Z
