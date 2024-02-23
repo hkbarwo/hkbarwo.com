@@ -12,11 +12,12 @@ zh:
   description: ""
 cn:
   alias: ""
-  role: ""
-  position: ""
+  role: 会友
+  position: 音
   description: ""
   thoughts: ""
   modifiedAt: 2024-02-23T07:57:58.857Z
+  title: 高永俊
 en:
   alias: ""
   role: ""
