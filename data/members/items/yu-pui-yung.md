@@ -12,11 +12,12 @@ zh:
   description: ""
 cn:
   alias: ""
-  role: ""
-  position: ""
+  role: 会友
+  position: 演
   description: ""
   thoughts: ""
   modifiedAt: 2024-02-23T07:49:14.921Z
+  title: 余佩融
 en:
   alias: ""
   role: ""
