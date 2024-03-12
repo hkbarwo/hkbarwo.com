@@ -16,7 +16,7 @@ zh:
         icon: /uploads/member/apply/02.svg
       - title: 交會員費和領取會員證
         icon: /uploads/member/apply/03.svg
-  pdf: https://hkbarwo.com/zh/member/apply
+  pdf: /uploads/入會表格_20240306.pdf
   image: /uploads/member/apply.jpg
 cn:
   registration:
