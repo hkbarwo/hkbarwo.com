@@ -22,10 +22,8 @@ zh:
       content: 大澳
   date: 2021-03-01T16:00:00.000Z
   type: celebration
-  title: 2021年(辛丑年)表演一
+  title: 2021年(辛丑年) 9月演出
   slug: magic-stage-schedule-2021-1
-en:
-  date: 2021-03-01T16:00:00.000Z
 cn:
   date: 2021-03-01T16:00:00.000Z
   slug: magic-stage-schedule-2021-1
@@ -47,4 +45,6 @@ cn:
       content: 大澳
   type: celebration
   title: 2021年(辛丑年)表演一
+en:
+  date: 2021-03-01T16:00:00.000Z
 ---
