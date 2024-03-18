@@ -22,7 +22,7 @@ zh:
       content: 大埔區
   date: 2023-06-27T06:57:16.250Z
   type: celebration
-  title: 2023年 （癸卯年）6月
+  title: 2023年 （癸卯年）6月演出
   slug: celebrations-20230623-27
 cn:
   date: 2023-06-27T06:57:16.250Z
