@@ -1,6 +1,4 @@
 ---
-cn:
-  date: 2023-05-09T08:18:19.253Z
 zh:
   sessions: 7
   metadata:
@@ -27,8 +25,10 @@ zh:
   date: 2023-05-09T08:18:19.253Z
   type: celebration
   slug: celebrations
-  title: 2023 （癸卯年） 表演四
+  title: 2023 （癸卯年） 5月演出
   content: ""
+cn:
+  date: 2023-05-09T08:18:19.253Z
 en:
   date: 2023-05-09T08:18:19.253Z
 ---
