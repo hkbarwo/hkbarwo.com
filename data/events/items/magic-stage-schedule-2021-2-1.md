@@ -21,11 +21,9 @@ zh:
       label: 地點
       content: 大埔舊墟
   date: 2021-05-02T10:16:23.851Z
-  title: 2021年(辛丑年)表演二
+  title: 2021年(辛丑年) 5月演出
   slug: magic-stage-schedule-2021-2
   type: celebration
-en:
-  date: 2021-05-02T10:16:23.851Z
 cn:
   date: 2021-05-02T10:16:23.851Z
   slug: magic-stage-schedule-2021-2
@@ -47,4 +45,6 @@ cn:
       content: 大埔旧墟
   title: 2021年(辛丑年)表演二
   type: celebration
+en:
+  date: 2021-05-02T10:16:23.851Z
 ---
