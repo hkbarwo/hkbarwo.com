@@ -21,11 +21,9 @@ zh:
       label: 地回
       content: 大澳
   date: 2021-07-13T10:24:24.348Z
-  title: 2021年(辛丑年)表演四
+  title: 2021年(辛丑年) 7月演出
   slug: magic-stage-schedule-2021-4
   type: celebration
-en:
-  date: 2021-07-13T10:24:24.348Z
 cn:
   date: 2021-07-13T10:24:24.348Z
   slug: magic-stage-schedule-2021-4
@@ -47,4 +45,6 @@ cn:
       content: 大澳
   type: celebration
   title: 2021年(辛丑年)表演四
+en:
+  date: 2021-07-13T10:24:24.348Z
 ---
