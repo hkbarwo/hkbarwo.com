@@ -1,6 +1,4 @@
 ---
-cn:
-  date: 2022-09-15T01:25:27.535Z
 zh:
   sessions: 9
   metadata:
@@ -23,9 +21,11 @@ zh:
       label: 地點
       content: 東涌
   date: 2022-09-15T01:25:27.535Z
-  title: 2022 壬寅年 表演八
+  title: 2022年(壬寅年) 9月演出
   slug: performances-tungchung-2022091115
   type: celebration
+cn:
+  date: 2022-09-15T01:25:27.535Z
 en:
   date: 2022-09-15T01:25:27.535Z
 ---
