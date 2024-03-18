@@ -1,26 +1,4 @@
 ---
-cn:
-  date: 2023-06-27T06:57:16.250Z
-  title: 2023年 （癸卯年）表演六
-  metadata:
-    - isShowInList: false
-      label: 演出日期
-      content: |-
-        6月23日至27日
-
-        五月初六至初十
-    - isShowInList: false
-      label: 主办机构
-      content: 大埔元洲仔庆祝大王爷宝诞
-    - isShowInList: false
-      label: 演出剧团
-      content: 鸿运粤剧团
-    - isShowInList: false
-      label: 演员
-      content: 龙贯天、陈咏仪、梁炜康、黎耀威、王洁清、黄成彬
-    - isShowInList: false
-      label: 地点
-      content: 大埔区
 zh:
   sessions: 9
   metadata:
@@ -44,8 +22,30 @@ zh:
       content: 大埔區
   date: 2023-06-27T06:57:16.250Z
   type: celebration
-  title: 2023年 （癸卯年）表演六
+  title: 2023年 （癸卯年）6月
   slug: celebrations-20230623-27
+cn:
+  date: 2023-06-27T06:57:16.250Z
+  title: 2023年 （癸卯年）表演六
+  metadata:
+    - isShowInList: false
+      label: 演出日期
+      content: |-
+        6月23日至27日
+
+        五月初六至初十
+    - isShowInList: false
+      label: 主办机构
+      content: 大埔元洲仔庆祝大王爷宝诞
+    - isShowInList: false
+      label: 演出剧团
+      content: 鸿运粤剧团
+    - isShowInList: false
+      label: 演员
+      content: 龙贯天、陈咏仪、梁炜康、黎耀威、王洁清、黄成彬
+    - isShowInList: false
+      label: 地点
+      content: 大埔区
 en:
   date: 2023-06-27T06:57:16.250Z
   title: ""
