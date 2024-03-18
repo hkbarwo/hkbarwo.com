@@ -21,11 +21,9 @@ zh:
       label: 地回
       content: 大埔元洲仔
   date: 2021-06-15T10:21:36.543Z
-  title: 2021年(辛丑年)表演三
+  title: 2021年(辛丑年) 6月演出
   slug: magic-stage-schedule-2021-3
   type: celebration
-en:
-  date: 2021-06-15T10:21:36.543Z
 cn:
   date: 2021-06-15T10:21:36.543Z
   slug: magic-stage-schedule-2021-3
@@ -47,4 +45,6 @@ cn:
       content: 大埔元洲仔
   title: 2021年(辛丑年)表演三
   type: celebration
+en:
+  date: 2021-06-15T10:21:36.543Z
 ---
