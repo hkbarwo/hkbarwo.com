@@ -1,7 +1,4 @@
 ---
-cn:
-  date: 2023-07-25T01:23:06.142Z
-  title: ""
 zh:
   sessions: 11
   metadata:
@@ -29,9 +26,12 @@ zh:
       label: 地點
       content: 大澳
   date: 2023-07-25T01:23:06.142Z
-  title: 2023年 （癸卯年）表演七
+  title: 2023年 （癸卯年）7月演出
   slug: celebrations-performance-2023072025-taio
   type: celebration
+cn:
+  date: 2023-07-25T01:23:06.142Z
+  title: ""
 en:
   date: 2023-07-25T01:23:06.142Z
 ---
