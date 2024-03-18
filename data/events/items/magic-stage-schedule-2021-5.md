@@ -22,10 +22,8 @@ zh:
       content: 東涌
   date: 2021-09-22T10:26:36.645Z
   slug: magic-stage-schedule-2021-5
-  title: 2021年(辛丑年)表演五
+  title: 2021年(辛丑年) 9月演出
   type: celebration
-en:
-  date: 2021-09-22T10:26:36.645Z
 cn:
   date: 2021-09-22T10:26:36.645Z
   slug: magic-stage-schedule-2021-5
@@ -47,4 +45,6 @@ cn:
       content: 东涌
   type: celebration
   title: 2021年(辛丑年)表演五
+en:
+  date: 2021-09-22T10:26:36.645Z
 ---
