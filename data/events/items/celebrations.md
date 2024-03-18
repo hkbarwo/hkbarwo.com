@@ -25,7 +25,7 @@ zh:
   date: 2023-05-09T08:18:19.253Z
   type: celebration
   slug: celebrations
-  title: 2023 （癸卯年） 5月演出
+  title: 2023年 （癸卯年） 5月演出
   content: ""
 cn:
   date: 2023-05-09T08:18:19.253Z
