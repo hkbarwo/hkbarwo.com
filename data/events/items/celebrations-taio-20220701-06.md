@@ -1,6 +1,4 @@
 ---
-cn:
-  date: 2022-07-06T07:27:11.706Z
 zh:
   sessions: 11
   metadata:
@@ -32,10 +30,12 @@ zh:
       label: 地點
       content: 大澳
   date: 2022-07-06T07:27:11.706Z
-  title: 2022 壬寅年  表演六
+  title: 2022年 (壬寅年)  7月演出
   slug: celebrations-taio-20220701-06
   type: celebration
   location: 大澳
+cn:
+  date: 2022-07-06T07:27:11.706Z
 en:
   date: 2022-07-06T07:27:11.706Z
 ---
