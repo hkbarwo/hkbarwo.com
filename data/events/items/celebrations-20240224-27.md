@@ -21,7 +21,7 @@ zh:
       label: 地點
       content: 蒲苔島太平清醮
   date: 2024-02-24T11:12:49.127Z
-  title: 2024年 （甲辰年）表演二
+  title: 2024年 （甲辰年）2月演出
   slug: celebrations-20240224-27
   type: celebration
 cn:
