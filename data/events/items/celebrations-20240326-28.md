@@ -9,7 +9,7 @@ zh:
     - isShowInList: false
       label: 演出日期
       content: |-
-        20243月26日至29日
+        2024年3月26日至29日
 
         二月十七日至廿日
     - isShowInList: false
