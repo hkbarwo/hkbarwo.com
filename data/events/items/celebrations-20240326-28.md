@@ -1,6 +1,6 @@
 ---
 zh:
-  title: 2024年 （甲辰年）表演一
+  title: 2024年 （甲辰年）3月演出
   slug: celebrations-20240326-28
   type: celebration
   date: 2024-03-26T11:11:31.247Z
@@ -9,7 +9,7 @@ zh:
     - isShowInList: false
       label: 演出日期
       content: |-
-        3月26日至29日
+        20243月26日至29日
 
         二月十七日至廿日
     - isShowInList: false
