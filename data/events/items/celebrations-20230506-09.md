@@ -1,6 +1,4 @@
 ---
-cn:
-  date: 2023-11-28T02:22:29.985Z
 zh:
   sessions: 7
   metadata:
@@ -28,9 +26,11 @@ zh:
       label: 地點
       content: 屯門
   date: 2023-11-28T02:22:29.985Z
-  title: 2023年 （癸卯年）表演十五
+  title: 2023年 （癸卯年）5月演出
   slug: celebrations-20230506-09
   type: celebration
+cn:
+  date: 2023-11-28T02:22:29.985Z
 en:
   date: 2023-11-28T02:22:29.985Z
 ---
