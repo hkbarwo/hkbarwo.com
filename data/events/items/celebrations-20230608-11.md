@@ -21,7 +21,7 @@ zh:
       label: 地點
       content: 大澳
   date: 2023-11-29T02:39:57.979Z
-  title: 2023年 （癸卯年）表演十四
+  title: 2023年 （癸卯年）6月演出
   slug: celebrations-20230608-11
   type: celebration
 cn:
