@@ -11,7 +11,7 @@ zh:
       content: |-
         2024年3月26日至29日
 
-        二月十七日至廿日
+        甲辰年二月十七日至廿日
     - isShowInList: false
       label: 主辦機構
       content: 上水古洞村觀音寶誕演戲籌委會
