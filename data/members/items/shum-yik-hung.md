@@ -11,12 +11,13 @@ zh:
   modifiedAt: 2024-04-03T01:50:56.310Z
   description: ""
 cn:
-  alias: ""
-  role: ""
-  position: ""
+  alias: 岑子峯
+  role: 会友
+  position: 演
   description: ""
   thoughts: ""
   modifiedAt: 2024-04-03T01:50:56.327Z
+  title: 岑奕鸿
 en:
   alias: ""
   role: ""
