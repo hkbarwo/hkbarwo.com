@@ -16,30 +16,9 @@ zh:
       iconDark: ""
     - title: ""
       content: |-
-        所有捐款可憑正式收據申請稅務減免，有關捐助事宜及資料，請聯絡阮小姐。
+        所有捐款可憑正式收據申請稅務減免，有關捐助事宜及資料，請透過以下方法聯絡。
         電話：2384-2929 
         電郵：enquiry@hkbarwo.com
-      icon: ""
-      iconDark: ""
-en:
-  title: Donation Methods
-  methods:
-    - title: Bank Transfer
-      content: |-
-        Name of the Bank: Hang Seng Bank
-        Account number*：284-015831-001
-        [*Please specify the account name: "香港八和會館" or "THE CHINESE ARTISTS ASSOCIATION OF HK"]
-      icon: /uploads/images/support/offering/bank.svg
-      iconDark: /uploads/images/support/offering/bank.svg
-    - title: Send a Cheque by Mail
-      content: |-
-        Payee: 香港八和會館 or THE CHINESE ARTISTS ASSOCIATION OF HK
-        Address: Unit A, 4/F, Prospect Building, 493 Nathan Road, Yau Ma Tei, Hong Kong
-      icon: /uploads/images/support/offering/mail.svg
-      iconDark: /uploads/images/support/offering/mail.svg
-    - title: ""
-      content: |-
-        All donations are tax deductible with official receipts. For donation and enquiries information, please contact Ms. Yuen at 2384 2929 or email: enquiry@hkbarwo.com 
       icon: ""
       iconDark: ""
 cn:
@@ -60,3 +39,28 @@ cn:
         电话：2384-2929 
         电邮：enquiry@hkbarwo.com
   title: 捐款办法
+en:
+  title: Donation Methods
+  methods:
+    - title: Bank Transfer
+      content: >-
+        Name of the Bank: Hang Seng Bank
+
+        Account number*：284-015831-001
+
+        [*Please specify the account name: "香港八和會館" or "THE CHINESE ARTISTS ASSOCIATION OF HK"]
+      icon: /uploads/images/support/offering/bank.svg
+      iconDark: /uploads/images/support/offering/bank.svg
+    - title: Send a Cheque by Mail
+      content: >-
+        Payee: 香港八和會館 or THE CHINESE ARTISTS ASSOCIATION OF HK
+
+        Address: Unit A, 4/F, Prospect Building, 493 Nathan Road, Yau Ma Tei, Hong Kong
+      icon: /uploads/images/support/offering/mail.svg
+      iconDark: /uploads/images/support/offering/mail.svg
+    - title: ""
+      content: "All donations are tax deductible with official receipts. For donation
+        and enquiries information, please contact Ms. Yuen at 2384 2929 or
+        email: enquiry@hkbarwo.com "
+      icon: ""
+      iconDark: ""
