@@ -1,7 +1,7 @@
 ---
 zh:
-  title: 演出及社區推廣活動
-  slug: performances-and-community-promotional-events
+  title: 演出及推廣活動
+  slug: performances-and-promotional-events
   subPages:
     - performances-upcoming
     - performances-past
@@ -12,7 +12,7 @@ zh:
   page: performances-upcoming
 cn:
   slug: events
-  title: 演出及社区推广活动
+  title: 演出及推广活动
   subPages:
     - performances-upcoming
     - performances-past
