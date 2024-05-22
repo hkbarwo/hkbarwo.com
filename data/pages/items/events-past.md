@@ -1,7 +1,7 @@
 ---
 zh:
   title: 活動
-  slug: events
+  slug: events-past
   url: /events/
   wip: false
 cn:

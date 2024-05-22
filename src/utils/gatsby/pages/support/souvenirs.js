@@ -1,7 +1,7 @@
 exports.createSupportSouvenirsPage = async ({ actions, graphql }, context) => {
   const { locale, defaultLocale, pages: { souvenirs: pageItem } } = context;
 
-  const result = await graphql(`
+  const pageResult = await graphql(`
     {
       page: yamlSupportSouvenirs {
         fields {
@@ -12,31 +12,53 @@ exports.createSupportSouvenirsPage = async ({ actions, graphql }, context) => {
           }
         }
       }
+    }
+  `);
+
+  const pageData = {
+    ...pageResult.data.page.fields[locale],
+  };
+
+  let itemsResult = await graphql(`
+    {
       items: allMarkdownRemark(
         filter: {fileAbsolutePath: {regex: "/data/support/souvenirs/"}},
         limit: 1000,
         sort: {order: ASC, fields: frontmatter___zh___slug}
       ) {
         nodes {
-          fields {
-            ${locale} {
-              slug
-              title
-              thumbnail
-              banner
-              gallery
-              price
-            }
-          }
+          id
         }
       }
     }
   `);
-
-  const pageData = {
-    ...result.data.page.fields[locale],
-    items: result.data.items.nodes.map(({ fields: { [locale]: item } }) => item)
-  };
+  if (itemsResult.data.items.nodes.length) {
+    itemsResult = await graphql(`
+      {
+        items: allMarkdownRemark(
+          filter: {fileAbsolutePath: {regex: "/data/support/souvenirs/"}},
+          limit: 1000,
+          sort: {order: ASC, fields: frontmatter___zh___slug}
+        ) {
+          nodes {
+            fields {
+              ${locale} {
+                slug
+                title
+                thumbnail
+                banner
+                gallery
+                price
+              }
+            }
+          }
+        }
+      }
+    `);
+    pageData.items = itemsResult.data.items.nodes.map(({ fields: { [locale]: item } }) => item)
+  } else {
+    pageData.items = [];
+  }
 
   actions.createPage({
     path: pageItem.localizedPath,
