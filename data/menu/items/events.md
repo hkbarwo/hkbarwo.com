@@ -1,19 +1,19 @@
 ---
 zh:
-  title: 演出及推廣活動
+  title: 演出及活動
   slug: performances-and-promotional-events
   subPages:
     - performances-past
     - events
     - performances-celebrations
     - performances-others
-  page: performances-past
+  page: events
 cn:
   slug: events
-  title: 演出及推广活动
+  title: 演出及活动
   subPages:
     - performances-past
-    - events-past
+    - events
     - performances-celebrations
     - performances-others
   page: performances-past
