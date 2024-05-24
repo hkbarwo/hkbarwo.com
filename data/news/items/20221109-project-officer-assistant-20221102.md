@@ -65,7 +65,7 @@ zh:
   pdfFile: /uploads/recruitment-ad_am_po_20221102-002-.pdf
 cn:
   title: ""
-  content: "\r\n"
+  content: ""
   pdfFile: /uploads/recruitment-ad_am_po_20221102-002-.pdf
   category: job
 en: {}
