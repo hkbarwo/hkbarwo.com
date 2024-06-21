@@ -20,8 +20,9 @@ cn:
   title: 陈碧仪
 en:
   alias: ""
-  role: ""
-  position: ""
+  role: 會友
+  position: 衣
   description: ""
   thoughts: ""
+  title: Chan Pik Yi
 ---
