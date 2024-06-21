@@ -20,8 +20,9 @@ cn:
   title: 马志和
 en:
   alias: ""
-  role: ""
-  position: ""
+  role: 會友
+  position: 演
   description: ""
   thoughts: ""
+  title: Ma Che Wo
 ---
