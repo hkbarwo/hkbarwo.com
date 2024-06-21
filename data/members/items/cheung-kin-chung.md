@@ -20,8 +20,9 @@ cn:
   title: 张建中
 en:
   alias: ""
-  role: ""
-  position: ""
+  role: 會友
+  position: 演
   description: ""
   thoughts: ""
+  title: Cheung Kin Chung
 ---
