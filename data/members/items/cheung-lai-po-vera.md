@@ -20,8 +20,9 @@ cn:
   title: 张丽宝
 en:
   alias: ""
-  role: ""
-  position: ""
+  role: 會友
+  position: 演
   description: ""
   thoughts: ""
+  title: Cheung Lai Po Vera
 ---
