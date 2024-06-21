@@ -20,8 +20,9 @@ cn:
   title: 陈静君
 en:
   alias: ""
-  role: ""
-  position: ""
+  role: 會友
+  position: 演
   description: ""
   thoughts: ""
+  title: Chan Tsing Kwan
 ---
