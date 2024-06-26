@@ -4,8 +4,8 @@ zh:
   title: 【香港文匯報】梅花獎得主楊霞雲 樓勝 傳統戲曲與時俱進 青春書寫婺劇人生
   category: media
   content: '![梅花獎得主楊霞雲 樓勝 傳統戲曲與時俱進
-    青春書寫婺劇人生](/uploads/2024年5月22日_香港文匯報_婺劇交流_page-0001.jpg "梅花獎得主楊霞雲 樓勝 傳統戲曲與時俱進
-    青春書寫婺劇人生")'
+    青春書寫婺劇人生](https://hkbarwo.com/uploads/2024年5月22日_香港文匯報_婺劇交流_page-0001.jpg?w=1440
+    "梅花獎得主楊霞雲 樓勝 傳統戲曲與時俱進 青春書寫婺劇人生")'
   slug: zhejiang-wu-opera-visiting
 cn:
   category: media
