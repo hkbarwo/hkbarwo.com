@@ -8,7 +8,7 @@ zh:
     - isShowInList: false
       label: 演出日期
       content: |-
-        2024年8月3日（星期六）：《雷鳴金鼓戰笳聲》\
+        2024年8月3日（星期六）：《雷鳴金鼓戰笳聲》
 
         2024年8月4日（星期日）：《帝女花》
     - isShowInList: false
