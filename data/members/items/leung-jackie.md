@@ -20,8 +20,9 @@ cn:
   title: 梁芷萁
 en:
   alias: ""
-  role: ""
-  position: ""
+  role: 會友
+  position: 演
   description: ""
   thoughts: ""
+  title: Leung Jackie
 ---
