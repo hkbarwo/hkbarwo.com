@@ -4,7 +4,7 @@ zh:
   position: 音
   slug: yuen-ching-keung
   isDead: false
-  alias: ""
+  alias: 阮強
   role: 會友
   title: 阮靖強
   thoughts: ""
