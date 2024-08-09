@@ -16,7 +16,7 @@ zh:
       label: 備註
 cn:
   date: 2024-03-11T04:29:56.630Z
-  title: 2023 春祭 (甲辰年)
+  title: 2024 春祭 (甲辰年)
   metadata:
     - label: 活動日期
       content: 2024年3月11日 (星期一)
@@ -30,7 +30,7 @@ cn:
       label: 備註
 en:
   date: 2024-03-11T04:29:56.630Z
-  title: 2023 春祭 (甲辰年)
+  title: 2024 春祭 (甲辰年)
   metadata:
     - label: 活動日期
       content: 2024年3月11日 (星期一)
