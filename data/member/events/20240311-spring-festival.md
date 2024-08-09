@@ -1,7 +1,7 @@
 ---
 zh:
   date: 2024-03-11T04:29:56.630Z
-  title: 2023 春祭 (甲辰年)
+  title: 2024 春祭 (甲辰年)
   slug: 20240311-spring-festival
   metadata:
     - label: 活動日期
