@@ -3,19 +3,14 @@ zh:
   gender: f
   position: 演
   slug: ling-oy-man
+  isDead: true
   alias: 凌劍初
   photo: ""
   role: 會友
   title: 凌愛文
   thoughts: ""
+  modifiedAt: 2024-11-21T04:33:52.630Z
   description: ""
-en:
-  role: 會友
-  position: 演
-  title: Ling Oy Man
-  alias: 凌劍初
-  description: ""
-  thoughts: ""
 cn:
   slug: ling-oy-man
   gender: f
@@ -23,4 +18,13 @@ cn:
   alias: 凌剑初
   role: 会友
   title: 凌爱文
+  modifiedAt: 2024-11-21T04:33:52.650Z
+  isDead: true
+en:
+  role: 會友
+  position: 演
+  title: Ling Oy Man
+  alias: 凌劍初
+  description: ""
+  thoughts: ""
 ---
