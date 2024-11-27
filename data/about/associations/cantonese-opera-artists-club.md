@@ -68,11 +68,13 @@ zh:
     ### 聯絡資訊
 
 
-    * **地址**：九龍油麻地吳淞街7號 2/F 三樓
+    **地址**：九龍油麻地吳淞街7號 2/F 三樓
 
-    * **WhatsApp電話**：98457976
 
-    * **電郵**：[hkcantoneseopera@yahoo.com.hk](mailto:hkcantoneseopera@yahoo.com.hk)
+    WhatsApp **電話**：98457976
+
+
+    **電郵**：hkcantoneseopera@yahoo.com.hk
   logoWhite: /images/uploads/associations/ca-artists-w.svg
 cn:
   slug: cantonese-opera-artists-club
@@ -95,11 +97,13 @@ cn:
     ### 联系信息
 
 
-    * **地址**：九龙油麻地吴淞街7号 2/F 三楼
+    **地址**：九龙油麻地吴淞街7号 2/F 三楼
 
-    * **WhatsApp电话**：98457976
 
-    * **电邮**：[hkcantoneseopera@yahoo.com.hk](mailto:hkcantoneseopera@yahoo.com.hk)
+    WhatsApp**电话**：98457976
+
+
+    **电邮**：hkcantoneseopera@yahoo.com.hk
 en:
   commitieesTitle: ""
   commitiees: []
@@ -129,9 +133,11 @@ en:
     ### Contact Information
 
 
-    * **Address**: 2/F, 7 Wu Song Street, Yau Ma Tei, Kowloon
+    Address: 2/F, 7 Wu Song Street, Yau Ma Tei, Kowloon
 
-    * **WhatsApp Phone**: 9845 7976
 
-    * **Email**: [hkcantoneseopera@yahoo.com.hk](mailto:hkcantoneseopera@yahoo.com.hk)
+    WhatsApp Phone: 9845 7976
+
+
+    Email: hkcantoneseopera@yahoo.com.hk
 ---
