@@ -123,7 +123,7 @@ en:
     The 25-member Board of Directors plays a crucial role, electing a Chairman and four Vice-Chairmen every three years. Noteworthy past chairpersons include Sun Hoi-Chuen, Chan Kwok-yuen, Wan Fai-yin, Chan Kim-fung, and Lau Wai-ming. Reforms since the ninth board include digitalization efforts, newsletters, social media, a "Job Matching Platform”, and "Caring Action" initiatives. Events like the "Wanchai Cantonese Opera Day”, fundraisers, and online concerts support members, with notable accomplishments in programs like the "Cantonese Opera Talent Development Program" by the Hong Kong Arts Development Council. In 2023, they received funding for the "Hong Kong-Singapore Cultural Exchange Performance Program”.
 
 
-    You can visit the Hong Kong Cantonese Opera Artists Club's Facebook page for more information: [Hong Kong Cantonese Opera Artists Club](https://www.facebook.com/hongkongcantoneseoperaartistsclub/).
+    You can visit the Hong Kong Cantonese Opera Artists Club Limited's Facebook page for more information: [Hong Kong Cantonese Opera Artists Club](https://www.facebook.com/hongkongcantoneseoperaartistsclub/).
 
 
     ### Contact Information
