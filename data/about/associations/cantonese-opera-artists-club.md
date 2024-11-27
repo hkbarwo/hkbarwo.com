@@ -1,12 +1,4 @@
 ---
-cn:
-  slug: cantonese-opera-artists-club
-  logo: /images/uploads/associations/ca-artists-g.svg
-  logoWhite: /images/uploads/associations/ca-artists-w.svg
-  title2: (演员组)
-  title: 香港粤剧演员会有限公司
-  shortTitle: 演员组
-  description: 八和演员组是八和属会中比较晚近成立的组织，原因过去八和有六个堂：兆和、庆和、福和、新和、永和、德和(包括銮舆堂)，都是演员组织，七十年代初，由石燕子、骆少驹等倡议，得到是届主席梁醒波及全体理事承认，演员组正式成立，但并没有重新登记会籍。石燕子去世后约两年，骆少驹邀请新海泉接手办理，重新组织。新海泉遂在八七年与陈国源、陈剑声、陈剑烽、何志成、梁鸣声、刘剑雄等先组成理监事会约数十人的组织，选出七人任董事，新海泉兼任董事长，正式向政府注册成立有限公司，于八八年初购入现有会址。演员组曾于八八、九零、九一这三年，分别在荃湾大会堂、新光、利舞台作筹款演出，以支持会务发展。现在，会员除了年终福利费贰百元(六十五岁以上贰百伍拾元)之外，尚有住院慰问金二百元、仙游帛金千元、福寿金会每次供款十元而已。此外，演员组亦曾于九二年十一月十七日，组织新界三栋屋博物馆粤剧展览参观团。
 zh:
   commitiees:
     - title: 理事長
@@ -65,38 +57,62 @@ zh:
   title: 香港粵劇演員會有限公司
   title2: (演員組)
   shortTitle: 演員組
-  description: 八和演員組是八和屬會中比較晚近成立的組織，原因過去八和有六個堂：兆和、慶和、福和、新和、永和、德和(包括鑾輿堂)，都是演員組織，七十年代初，由石燕子、駱少駒等倡議，得到是屆主席梁醒波及全體理事承認，演員組正式成立，但並沒有重新登記會籍。石燕子去世後約兩年，駱少駒邀請新海泉接手辦理，重新組織。新海泉遂在八七年與陳國源、陳劍聲、陳劍烽、何志成、梁鳴聲、劉劍雄等先組成理監事會約數十人的組織，選出七人任董事，新海泉兼任董事長，正式向政府註冊成立有限公司，於八八年初購入現有會址。演員組曾於八八、九零、九一這三年，分別在荃灣大會堂、新光、利舞台作籌款演出，以支持會務發展。現在，會員除了年終福利費貳百元(六十五歲以上貳百伍拾元)之外，尚有住院慰問金二百元、仙遊帛金千元、福壽金會每次供款十元而已。此外，演員組亦曾於九二年十一月十七日，組織新界三棟屋博物館粵劇展覽參觀團。
+  description: >-
+    八和演員組是八和屬會中比較晚近成立的組織，
+    七十年代初，由石燕子、駱少駒等倡議，得是屆八和主席梁醒波及全體理事同意，演員組正式成立，當時並沒有重新登記會籍，石燕子去世後兩年，駱少駒邀請新海泉接手辦理，重新組織，新海泉遂在一九八七年與陳國源、陳劍聲、陳劍烽、何志成、梁鳴聲、劉劍雄等先組成理監事會，選出七人任董事，新海泉兼任董事長，正式向政府註冊成立有限公司，於八八年初購入現有會址。\
+
+    \
+
+    演員組曾於八八、九零、九一這三年，分別在荃灣大會堂、新光戲院、利舞台作籌款演出，以支持會務發展。現在，除了設有每年福利金之外，尚有住院慰問金、仙遊帛金、福壽金。  理事會由會員公開選出廿五人組成，互選其中為一位理事長和四位副理事長，一直由理事會理事們親力親為聯手處理演員組事務，三年一屆，曾擔任理事長有新海泉、陳國源、尹飛燕、陳劍烽、劉惠鳴。自第九屆理事會開始進行多方面改革，將七零年代至今會員資料和文件等重新整理進行電腦化，銳化行政；並印刷［會訊］、［臉書］媒體帳號和增設手機號直接與會員保持關愛聯繫和發放消息，於二零一九年為會員推出［尋職配對平台］及「關愛行動」；成立至今，致力為會員謀福祉，舉辦多次活動，近年計有二零一七年協辦首屆［灣仔粵劇日］；三十一周年籌款演出；於二零二零年進行網上直播籌款演唱會，為受疫情影響的會員發放支援金；二零二三年十月獲得［香港藝術發展局］資助舉辦「香港一新加坡交流演出計劃等。\
+
+    \
+
+    演員組推廣粵劇不遺餘力，派出會員參加各類政府及社區表演，同時可讓會員增加演出。曾三度成功參與［香港藝術發展局］之［戲曲藝術人才培育計劃］。
   logoWhite: /images/uploads/associations/ca-artists-w.svg
+cn:
+  slug: cantonese-opera-artists-club
+  logo: /images/uploads/associations/ca-artists-g.svg
+  logoWhite: /images/uploads/associations/ca-artists-w.svg
+  title2: (演员组)
+  title: 香港粤剧演员会有限公司
+  shortTitle: 演员组
+  description: >-
+    八和演员组是八和属会中比较晚近成立的组织，
+    七十年代初，由石燕子、骆少驹等倡议，得是届八和主席梁醒波及全体理事同意，演员组正式成立，当时并没有重新登记会籍，石燕子去世后两年，骆少驹邀请新海泉接手办理，重新组织，新海泉遂在一九八七年与陈国源、陈剑声、陈剑烽、何志成、梁鸣声、刘剑雄等先组成理监事会，选出七人任董事，新海泉兼任董事长，正式向政府註册成立有限公司，于八八年初购入现有会址。\
+
+    \
+
+    演员组曾于八八、九零、九一这三年，分别在荃湾大会堂、新光戏院、利舞台作筹款演出，以支持会务发展。现在，除了设有每年福利金之外，尚有住院慰问金、仙游帛金、福寿金。  理事会由会员公开选出廿五人组成，互选其中为一位理事长和四位副理事长，一直由理事会理事们亲力亲为联手处理演员组事务，三年一届，曾担任理事长有新海泉、陈国源、尹飞燕、陈剑烽、刘惠鸣。自第九届理事会开始进行多方面改革，将七零年代至今会员资料和文件等重新整理进行电脑化，锐化行政；并印刷［会讯］、［脸书］媒体帐号和增设手机号直接与会员保持关爱联繫和发放消息，于二零一九年为会员推出［寻职配对平台］及「关爱行动」；成立至今，致力为会员谋福祉，举办多次活动，近年计有二零一七年协办首届［湾仔粤剧日］；三十一周年筹款演出；于二零二零年进行网上直播筹款演唱会，为受疫情影响的会员发放支援金；二零二三年十月获得［香港艺术发展局］资助举办「香港一新加坡交流演出计划等。\
+
+    \
+
+    演员组推广粤剧不遗馀力，派出会员参加各类政府及社区表演，同时可让会员增加演出。曾三度成功参与［香港艺术发展局］之［戏曲艺术人才培育计划］。
 en:
   commitieesTitle: ""
   commitiees: []
   title: Hong Kong Cantonese Opera Artists Club Limited
   title2: (Artists’ Group)
   shortTitle: Artists’ Group
-  description: The CAAHK Artists’ Group is relatively new among all affiliated
-    associations of CAAHK. In the past, there were six branches in CAAHK, namely
-    Siu Wo Tong, Hing Wo Tong, Fook Wo Tong, Sun Wo Tong, Wing Wo Tong, and Tak
-    Wo Tong (including Luen Yue Tong), which were all formed by actors and
-    actresses. In the early 1970s, under the initiation of Mr. Shek Yin-sze, Mr.
-    Lok Siu-kui, etc., along with recognition by Mr. Leung Sing-poh, the then
-    Chairman, and all directors, the Artists’ Group was formally established.
-    However, the membership was not re-registered. About two years after Shek's
-    death, Lok invited Mr. Sun Hoi-Chuen to take over and reorganize the Group.
-    In 1987, Sun, together with Mr. Chan Kwok-yuen, Mr. Chan Kim-sing, Mr. Chan
-    Kim-fung, Mr. Ho Chi-sing, Mr. Leung Ming-sing, Mr. Lau Kim-hung, etc.,
-    First formed an organization with about 10 - 20 members in the Board of
-    Directors, from which seven directors were elected, with Sun concurrently
-    serving as the Chairman. A formal application in registering the group as a
-    limited company was made to the Government. At the same time, the existing
-    club-house was purchased in early 1988. In the three years of 1988, 1990,
-    and 1991, the Artists' Group staged fund-raising performances in Tsuen Wan
-    Town Hall, Sun Beam Theatre, and Lee Theatre respectively to raise funds and
-    support the development of the Group. Nowadays, in addition to the lunar
-    year end welfare payment of $200 ($250 for members aged 65 and above),
-    members are also entitled to $200 as condolence money for hospitalization.
-    Meanwhile, relatives of members who have passed away will receive condolence
-    money of $1,000. In return, members have to pay $10 per month for buying
-    paper offerings. In addition, the artists' group organized a visit to the
-    Cantonese opera exhibition at the Sam Tung Uk Museum in the New Territories
-    on 17 November 1992.
+  description: "The CAAHK Artists’ Group, a newer addition within CAAHK's
+    affiliations, emerged from six branches founded by actors and actresses: Siu
+    Wo Tong, Hing Wo Tong, Fook Wo Tong, Sun Wo Tong, Wing Wo Tong, and Tak Wo
+    Tong (including Luen Yue Tong). In the early 1970s, luminaries like Mr. Shek
+    Yin-sze and Mr. Lok Siu-kui, supported by Mr. Leung Sing-poh and the board
+    of directors, established the Artists’ Group. After Shek's passing, Mr. Sun
+    Hoi-Chuen took the reins. In 1987, Sun, alongside Mr. Chan Kwok-yuen, Mr.
+    Chan Kim-sing, Mr. Chan Kim-fung, Mr. Ho Chi-sing, Mr. Leung Ming-sing, and
+    Mr. Lau Kim-hung, formed an initial board of 10 to 20 members, electing
+    seven directors with Sun as Chairman. The group became a limited company and
+    acquired a club-house in 1988. Fundraising performances followed in 1988,
+    1990, and 1991 at various venues.  The 25-member Board of Directors plays a
+    crucial role, electing a Chairman and four Vice-Chairmen every three years.
+    Noteworthy past chairpersons include Sun Hoi-Chuen, Chan Kwok-yuen, Wan
+    Fai-yin, Chan Kim-fung, and Lau Wai-ming. Reforms since the ninth board
+    include digitalization efforts, newsletters, social media, a \"Job Matching
+    Platform”, and \"Caring Action\" initiatives. Events like the \"Wanchai
+    Cantonese Opera Day”, fundraisers, and online concerts support members, with
+    notable accomplishments in programs like the \"Cantonese Opera Talent
+    Development Program\" by the Hong Kong Arts Development Council. In 2023,
+    they received funding for the \"Hong Kong-Singapore Cultural Exchange
+    Performance Program”."
 ---
