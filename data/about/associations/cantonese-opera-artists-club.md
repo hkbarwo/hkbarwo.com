@@ -76,26 +76,19 @@ en:
   title: Hong Kong Cantonese Opera Artists Club Limited
   title2: (Artists’ Group)
   shortTitle: Artists’ Group
-  description: "The CAAHK Artists’ Group, a newer addition within CAAHK's
-    affiliations, emerged from six branches founded by actors and actresses: Siu
-    Wo Tong, Hing Wo Tong, Fook Wo Tong, Sun Wo Tong, Wing Wo Tong, and Tak Wo
-    Tong (including Luen Yue Tong). In the early 1970s, luminaries like Mr. Shek
-    Yin-sze and Mr. Lok Siu-kui, supported by Mr. Leung Sing-poh and the board
-    of directors, established the Artists’ Group. After Shek's passing, Mr. Sun
-    Hoi-Chuen took the reins. In 1987, Sun, alongside Mr. Chan Kwok-yuen, Mr.
-    Chan Kim-sing, Mr. Chan Kim-fung, Mr. Ho Chi-sing, Mr. Leung Ming-sing, and
-    Mr. Lau Kim-hung, formed an initial board of 10 to 20 members, electing
-    seven directors with Sun as Chairman. The group became a limited company and
+  description: >-
+    The CAAHK Artists’ Group, a newer addition within CAAHK's affiliations,
+    emerged from six branches founded by actors and actresses: Siu Wo Tong, Hing
+    Wo Tong, Fook Wo Tong, Sun Wo Tong, Wing Wo Tong, and Tak Wo Tong (including
+    Luen Yue Tong). In the early 1970s, luminaries like Mr. Shek Yin-sze and Mr.
+    Lok Siu-kui, supported by Mr. Leung Sing-poh and the board of directors,
+    established the Artists’ Group. After Shek's passing, Mr. Sun Hoi-Chuen took
+    the reins. In 1987, Sun, alongside Mr. Chan Kwok-yuen, Mr. Chan Kim-sing,
+    Mr. Chan Kim-fung, Mr. Ho Chi-sing, Mr. Leung Ming-sing, and Mr. Lau
+    Kim-hung, formed an initial board of 10 to 20 members, electing seven
+    directors with Sun as Chairman. The group became a limited company and
     acquired a club-house in 1988. Fundraising performances followed in 1988,
-    1990, and 1991 at various venues.  The 25-member Board of Directors plays a
-    crucial role, electing a Chairman and four Vice-Chairmen every three years.
-    Noteworthy past chairpersons include Sun Hoi-Chuen, Chan Kwok-yuen, Wan
-    Fai-yin, Chan Kim-fung, and Lau Wai-ming. Reforms since the ninth board
-    include digitalization efforts, newsletters, social media, a \"Job Matching
-    Platform”, and \"Caring Action\" initiatives. Events like the \"Wanchai
-    Cantonese Opera Day”, fundraisers, and online concerts support members, with
-    notable accomplishments in programs like the \"Cantonese Opera Talent
-    Development Program\" by the Hong Kong Arts Development Council. In 2023,
-    they received funding for the \"Hong Kong-Singapore Cultural Exchange
-    Performance Program”."
+    1990, and 1991 at various venues. \
+
+    The 25-member Board of Directors plays a crucial role, electing a Chairman and four Vice-Chairmen every three years. Noteworthy past chairpersons include Sun Hoi-Chuen, Chan Kwok-yuen, Wan Fai-yin, Chan Kim-fung, and Lau Wai-ming. Reforms since the ninth board include digitalization efforts, newsletters, social media, a "Job Matching Platform”, and "Caring Action" initiatives. Events like the "Wanchai Cantonese Opera Day”, fundraisers, and online concerts support members, with notable accomplishments in programs like the "Cantonese Opera Talent Development Program" by the Hong Kong Arts Development Council. In 2023, they received funding for the "Hong Kong-Singapore Cultural Exchange Performance Program”.
 ---
