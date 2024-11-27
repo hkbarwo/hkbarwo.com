@@ -6,9 +6,9 @@ zh:
     - title: 副理事長
       name: 何志成
     - title: 副理事長
-      name: 呂洪廣
-    - title: 副理事長
       name: 溫玉瑜
+    - title: 副理事長
+      name: 呂洪廣
     - title: 副理事長
       name: 高麗
     - title: 總務主任
@@ -45,8 +45,6 @@ zh:
       name: 余大鵬
     - title: 康樂主任
       name: 翠縈
-    - title: 副康樂主任
-      name: 黃美娟
     - title: 婦女主任
       name: 葉沛纓
     - title: 副婦女主任
