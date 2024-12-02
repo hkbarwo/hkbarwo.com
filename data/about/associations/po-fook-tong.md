@@ -80,7 +80,15 @@ zh:
     目前會員約二百八十人，除了部份退休或移民外，大部份為全職樂師，部分為兼職或從事其他行業。而現屆理事，仍充滿雄心壯志，拓展會務，為會員謀福利。
 
 
-    而據「音樂部」提供的書面資料，一九五五年為第一屆「八和會館音樂部」(一般慣稱「音樂部」或「音樂組」) 。到一九八四年第廿一屆商議註冊，一九八五年正式註冊，現屆理事長麥惠文在一九九四年正式接任。
+    而據「音樂部」提供的書面資料，一九五五年為第一屆「八和會館音樂部」(一般慣稱「音樂部」或「音樂組」) 。到一九八四年第廿一屆商議註冊，一九八五年正式註冊，現屆理事長麥惠文在一九九四年正式接任。\
+     \
+    聯絡資訊 \
+
+    地址：九龍 彌敦道385號•平安大樓 3字樓 16室 Flat 16, 3/F. \
+
+    Tel: 23888506  WhatsApp: 65875271 \
+
+    電郵：hkpofooktong@gmail.com
 
 
     ![](/uploads/螢幕擷取畫面-2024-11-21-182153.png)
@@ -127,7 +135,7 @@ en:
   shortTitle: Po Fook Tong
   description: >-
     Before the liberation in 1949, there were already groups of professional
-    gong and drum players [mainly Pak Sau (cymbal players)] who frequently
+    gong and drum players \[mainly Pak Sau (cymbal players)] who frequently
     traveled to and from Hong Kong and Guangzhou. Their meeting place was at the
     house of their peer at 83 Temple Street (formerly known as Kong Yau).
     Musicians who often settled there included: Tam Kwai-wah, Cheung Yan Yiu
@@ -150,4 +158,18 @@ en:
     There are currently about 280 members in the Music Department. Except for some retired musicians or those who have migrated, most of the members are full-time musicians, while some work on a part-time basis or are engaged in other industries. The current Directors are full of ambitions to expand the size and bring more benefits for its members.
 
     According to the written information provided by the Music Department, the first council for the CAAHK Music Department (usually called the Music Department or Music Group) was formed in 1955. By the 24th session in 1984, members started to discuss about the possibility of registration, which was formally realized in 1985. Mr. Mak Wai-man, the current Chairman of the Board of Direction, formally took over the role since 1994.
+
+
+    Contact Information\
+
+    \
+
+    Address: Alhambra Building, 385 Nathan Road, Kowloon, Hong Kong 
+
+
+    Tel: 23888506  WhatsApp: 65875271\
+
+    \
+
+    Email: hkpofooktong@gmail.com
 ---
