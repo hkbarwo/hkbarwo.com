@@ -1,6 +1,48 @@
 ---
 zh:
-  commitiees: []
+  commitiees:
+    - title: 理事長
+      name: 藝青雲
+    - title: 副理事長
+      name: 陳劍烽
+    - title: 副理事長
+      name: 溫玉瑜
+    - title: 副理事長
+      name: 陳靖
+    - title: 副理事長
+      name: 林克輝
+    - title: 總務主任
+      name: 郭啟煇
+    - title: 副總務主任
+      name: 翠縈
+    - title: 副總務主任
+      name: 袁善婷
+    - title: 副總務主任
+      name: 廖錦成
+    - title: 財務主任
+      name: 劉秀瓊
+    - title: 副財務主任
+      name: 任丹楓
+    - title: 副財務主任
+      name: 葉千銘
+    - title: 福利主任
+      name: 黃湫萍
+    - title: 副福利主任
+      name: 陳國源
+    - title: 副福利主任
+      name: 瓊花女
+    - title: 公關主任
+      name: 張寶華
+    - title: 副公關主任
+      name: 何詩敏
+    - title: 副公關主任
+      name: 葉沛纓
+    - title: 稽核主任
+      name: 何志成
+    - title: 副稽核主任
+      name: 韋俊郎
+    - title: 副稽核主任
+      name: 余大鵬
   logo: /images/uploads/associations/san-wo-tong-g.svg
   slug: san-wo-tong
   commitieesTitle: ""
@@ -17,22 +59,6 @@ zh:
 
     慎和堂會員大部份為班政家、戲班經理，現今會員人數不足一百人，於2003年理事長馬國超的開放政策下(他認為所有願意發展粵劇，投資粵劇的人都應予以入會)，相信會員人數會有所增加。
   logoWhite: /images/uploads/associations/group-1144.svg
-en:
-  title: The Hong Kong Cantonese Opera Sun Wo Tong Company Limited
-  title2: (General Affairs Department)
-  shortTitle: General Affairs Department
-  description: >-
-    Shortly after the establishment of the Chinese Artist Association of Hong Kong (CAAHK) in 1953, it was proposed to merge the three halls of Chik Fook Tong, Chuen Fook Tong, and Shen Shing Tong and form the General Affairs Department of the CAAHK. By 1985, The Hong Kong Cantonese Opera Sun Wo Tong Company Limited was formally registered, and it was not until then that the General Affairs Department became independent as one of the Affiliated Associations of CAAHK. The Board of Directors is held once every two years.
-
-    Before becoming a limited company, the General Affairs Department did not offer any welfare to its members. Since 1985, the Department started to offer benefits and distribute $200 to each member at the end of the year, while each member has to pay a monthly membership fee of $2.
-
-    In April 1983, the General Affairs Department organized a fundraising performance entitled Cantonese Opera Evening by Renowned Performers and Celebrities (紅伶名流閏秀粵曲歌唱晚會) in the City Hall and the then Chairman was Mr. Wong Yim.
-
-    In 1985 (the year when the limited company was established), another fundraising performance was held in order to raise funds for purchasing a new club-house. The properties owned by the General Affairs Department include the current club-house (i.e. 4/F of Agatha House, 21 Ning Po Street, Yau Ma Tei, Kowloon), and a leased out unit located at Room 229, Wai Ching Shopping Centre, Wai Ching Street, Jordan Road, Kowloon.
-
-    Most of the members of Sun Wo Tong are social elites and troupe managers. Currently, the number of members is less than 100. Under the opening policy of Mr. Ma Kwok-chiu, the then Chairman in 2003, who believed that all those who are willing to develop and invest in Cantonese opera should join Sun Wo Tong, the number of members is expected to increase.
-  commitieesTitle: ""
-  commitiees: []
 cn:
   logo: /images/uploads/associations/san-wo-tong-g.svg
   slug: san-wo-tong
@@ -50,4 +76,26 @@ cn:
     事务部曾于一九八三年四月假座大会堂举办「红伶名流闰秀粤曲歌唱晚会」筹款义演，时黄炎为理事长；后在一九八五年，即成立有限公司那一年，又为买会址事宜举行筹款义演。事务部拥有的物业包括有现今的会址，即九龙油麻地宁波街21号嘉泰大厦四楼及一收租单位，位于九龙佐敦道伟澄街伟澄商场229室。
 
     慎和堂会员大部份为班政家、戏班经理，现今会员人数不足一百人，于2003年理事长马国超的开放政策下(他认为所有愿意发展粤剧，投资粤剧的人都应予以入会)，相信会员人数会有所增加。
+en:
+  title: The Hong Kong Cantonese Opera Sun Wo Tong Company Limited
+  title2: (General Affairs Department)
+  shortTitle: General Affairs Department
+  description: >-
+    Shortly after the establishment of the Chinese Artist Association of Hong
+    Kong (CAAHK) in 1953, it was proposed to merge the three halls of Chik Fook
+    Tong, Chuen Fook Tong, and Shen Shing Tong and form the General Affairs
+    Department of the CAAHK. By 1985, The Hong Kong Cantonese Opera Sun Wo Tong
+    Company Limited was formally registered, and it was not until then that the
+    General Affairs Department became independent as one of the Affiliated
+    Associations of CAAHK. The Board of Directors is held once every two years.
+
+    Before becoming a limited company, the General Affairs Department did not offer any welfare to its members. Since 1985, the Department started to offer benefits and distribute $200 to each member at the end of the year, while each member has to pay a monthly membership fee of $2.
+
+    In April 1983, the General Affairs Department organized a fundraising performance entitled Cantonese Opera Evening by Renowned Performers and Celebrities (紅伶名流閏秀粵曲歌唱晚會) in the City Hall and the then Chairman was Mr. Wong Yim.
+
+    In 1985 (the year when the limited company was established), another fundraising performance was held in order to raise funds for purchasing a new club-house. The properties owned by the General Affairs Department include the current club-house (i.e. 4/F of Agatha House, 21 Ning Po Street, Yau Ma Tei, Kowloon), and a leased out unit located at Room 229, Wai Ching Shopping Centre, Wai Ching Street, Jordan Road, Kowloon.
+
+    Most of the members of Sun Wo Tong are social elites and troupe managers. Currently, the number of members is less than 100. Under the opening policy of Mr. Ma Kwok-chiu, the then Chairman in 2003, who believed that all those who are willing to develop and invest in Cantonese opera should join Sun Wo Tong, the number of members is expected to increase.
+  commitieesTitle: ""
+  commitiees: []
 ---
