@@ -1,9 +1,57 @@
 ---
 zh:
-  commitiees: []
+  commitiees:
+    - title: 名譽副會長
+      name: 朱慶祥
+    - title: 名譽副會長
+      name: 梁樹根
+    - title: 名譽副會長
+      name: 陳小龍
+    - title: 理事長
+      name: 麥惠文
+    - title: 副理事長
+      name: 劉永全
+    - title: 副理事長
+      name: 王漢強
+    - title: 總務主任
+      name: 溫輝雄
+    - title: 副總務主任
+      name: 宋錦成
+    - title: "副總務 "
+      name: 莫少戈
+    - title: "財務主任 "
+      name: 霍寶林
+    - title: 副財務主任
+      name: 周熾楷
+    - title: 福利主任
+      name: 石嬌
+    - title: 副福利主任
+      name: 譚健生
+    - title: 副福利主任
+      name: 狄飛龍
+    - title: 康樂主任
+      name: 龍嘉麒
+    - title: 副康樂主任
+      name: 梁權
+    - title: 副康樂主任
+      name: 關杏美
+    - title: 調查主任
+      name: 煒唐
+    - title: 副調查主任
+      name: 張育培
+    - title: 副調查主任
+      name: 宋鍔
+    - title: 交際主任
+      name: 陳小佩
+    - title: 副交際主任
+      name: 陳定邦
+    - title: 張意堅
+      name: 稽核主任
+    - title: 理事兼行政
+      name: 關杏美
   logo: /images/uploads/associations/po-fook-tong-g.svg
   slug: po-fook-tong
-  commitieesTitle: ""
+  commitieesTitle: 香港八和會館(音樂部)第35屆理事  《香港普福堂粤劇樂師會有限公司》第15屆理事
   title: 香港普福堂粵劇樂師會有限公司
   title2: (音樂部)
   shortTitle: 普福堂
