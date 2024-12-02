@@ -89,9 +89,6 @@ zh:
     Tel: 23888506  WhatsApp: 65875271 \
 
     電郵：hkpofooktong@gmail.com
-
-
-    ![]()
   logoWhite: /images/uploads/associations/po-fook-tong-w.svg
 cn:
   logo: /images/uploads/associations/po-fook-tong-g.svg
