@@ -91,7 +91,7 @@ zh:
     電郵：hkpofooktong@gmail.com
 
 
-    ![](/uploads/螢幕擷取畫面-2024-11-21-182153.png)
+    ![]()
   logoWhite: /images/uploads/associations/po-fook-tong-w.svg
 cn:
   logo: /images/uploads/associations/po-fook-tong-g.svg
