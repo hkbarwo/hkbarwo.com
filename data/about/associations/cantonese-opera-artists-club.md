@@ -12,7 +12,7 @@ zh:
     - title: 副理事長
       name: 高麗
     - title: 總務主任
-      name: 郭啟輝
+      name: 郭啟煇
     - title: 副總務主任
       name: 廖錦成
     - title: 財務主任
