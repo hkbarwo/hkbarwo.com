@@ -13,7 +13,9 @@ zh:
         日興粵劇推廣工作室
     - isShowInList: false
       label: 演出日期
-      content: 7時正
+      content: |-
+        2025年3月31日（星期一）\
+        7時正
     - isShowInList: false
       label: 地點
       content: 沙田大會堂 演奏廳
@@ -21,11 +23,23 @@ zh:
       label: 嘉賓名單
       content: |-
         1.吳仟峰、陳穎球《重台別》
+
+
         2.黃偉坤、何伍麗卿 《痴夢》
+
+
         3.宋洪波、余美娟《鴛鴦血之殺廟》
+
+
         4.宋洪波、何杏華（折子戲）《新霸王別姬》
+
+
         5.文劍斐、吳石燕萍 《白龍關》（下卷）
+
+
         6.何日明、裘艷儂《魂夢繞山河》
+
+
         7.黃永杰、葉慕貞（折子戲）待定
     - isShowInList: false
       label: 票務查詢
