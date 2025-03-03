@@ -5,7 +5,7 @@ zh:
   type: other
   date: 2025-06-02T02:56:34.778Z
   coverImage: /uploads/whatsapp-image-2025-02-26-at-22.49.29.jpeg
-  sessions: 1
+  sessions: 3
   metadata:
     - isShowInList: false
       label: 主辦劇團
