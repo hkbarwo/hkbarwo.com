@@ -13,7 +13,9 @@ zh:
         日興粵劇推廣工作室
     - isShowInList: false
       label: 演出日期
-      content: 7時正
+      content: |-
+        2025年3月31日（星期一）\
+        7時正
     - isShowInList: false
       label: 地點
       content: 沙田大會堂 演奏廳
