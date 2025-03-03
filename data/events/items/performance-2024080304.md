@@ -1,7 +1,7 @@
 ---
 zh:
   title: 日興粵劇團 青年團 —— 《黃鶴樓》、《梟雄虎將美人威》、《枇杷山上英雄血》
-  slug: performance-2024080304
+  slug: performance-202506020304
   type: other
   date: 2025-06-02T02:56:34.778Z
   coverImage: /uploads/whatsapp-image-2025-02-26-at-22.49.29.jpeg
