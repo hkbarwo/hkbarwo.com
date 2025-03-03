@@ -7,10 +7,10 @@ zh:
       content: |-
         主辦：\
         沙田民政事務處\
+        日興粵劇推廣工作室\
         \
         協辦：\
-        日興文化發展促進會\
-        日興粵劇推廣工作室
+        日興文化發展促進會
     - isShowInList: false
       label: 演出日期
       content: |-
