@@ -8,6 +8,9 @@ zh:
   sessions: 3
   metadata:
     - isShowInList: false
+      label: " 主辦機構"
+      content: 粵劇營運創新會——日興粵劇推廣工作室
+    - isShowInList: false
       label: 主辦劇團
       content: 日興粵劇團 青年團
     - isShowInList: false
@@ -23,7 +26,7 @@ zh:
       content: 7時30分
     - isShowInList: false
       label: 地點
-      content: 沙田大會堂演奏廳
+      content: 沙田大會堂 演奏廳
     - isShowInList: false
       label: 演員名單
       content: |-
