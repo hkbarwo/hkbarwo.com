@@ -23,7 +23,7 @@ zh:
         2025年6月4日（星期三）：《枇杷山上英雄血》
     - isShowInList: false
       label: 演出時間
-      content: 7時30分
+      content: 晚上7時30分
     - isShowInList: false
       label: 地點
       content: 沙田大會堂 演奏廳
