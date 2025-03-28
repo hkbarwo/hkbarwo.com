@@ -3,7 +3,7 @@ zh:
   gender: m
   position: 班主
   slug: ng-wing-hey-calvin
-  isDead: false
+  isDead: true
   alias: null
   photo: ""
   role: 會友
@@ -18,7 +18,7 @@ cn:
   role: 会友
   title: 伍永熙
   modifiedAt: 2025-02-25T12:54:04.919Z
-  isDead: false
+  isDead: true
 en:
   role: 會友
   position: 班主
