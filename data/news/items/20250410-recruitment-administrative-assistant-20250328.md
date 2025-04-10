@@ -124,6 +124,7 @@ cn:
 
     2025年4月10日
   pdfFile: /uploads/recruitment-ad_administrative-assistant-250410.pdf
+  category: job
 en:
   category: job
   title: 招聘 行政助理（合約）
