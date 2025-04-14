@@ -36,7 +36,7 @@ zh:
   date: 2025-12-04T04:41:46.025Z
   type: celebration
   slug: celebrations-2023
-  title: 2025年（乙巳年）演出
+  title: 2025年（乙巳年）12月演出
 cn:
   date: 2025-12-04T04:41:46.025Z
 en:
