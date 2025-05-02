@@ -90,6 +90,7 @@ cn:
     \
      香港八和會館 2025年5月2日
   pdfFile: /uploads/招聘傳訊主任-communication-officer.pdf
+  category: job
 en:
   category: job
   title: 招聘 傳訊主任/助理主任（合約）
