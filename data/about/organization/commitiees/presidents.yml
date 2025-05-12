@@ -1,31 +1,52 @@
 zh:
   list:
     - title: 永遠名譽會長
-      name: 芳艷芬 BBS
+      name: 芳艷芬女士 BBS
       image: /images/uploads/organization/commitiees/永遠名譽會長_芳艷芬-2x.jpg
-    - name: 關德興 MBE
+    - name: 新馬師曾先生 MBE ┃理事會主席年期 1953-54 (第一及二屆) 、1972-75 (第〸六及〸七屆) 、1986-87 (第廿三屆)
+      title: 永遠會長
+      image: /uploads/_ouvtm~d.jpg
+    - name: 關德興 MBE ┃理事會主席年期 1955-58 (第三至六屆)
       title: 永遠會長
       image: /images/uploads/organization/commitiees/永遠名譽會長_關德興-2x.jpg
-    - name: 馬國超
+    - name: "何非凡先生┃理事會主席年期 1959-62 (第七至〸屆) "
+      title: 永遠會長
+      image: /uploads/_t3pf2~c.jpg
+    - name: "麥炳榮先生┃理事會主席年期 - 1963 (第〸一屆)  "
+      title: 永遠會長
+      image: /uploads/_3e7b2~1.jpg
+    - name: 梁醒波先生 MBE┃理事會主席年期 1964-71 (第〸二至〸五屆) 、1976-77 (第〸八屆)
+      title: 永遠會長
+      image: /uploads/_crfl8~g.jpg
+    - name: 黃炎先生┃ 理事會主席年期 1978-83 (第〸九至廿一屆)
+      title: 永遠會長
+      image: /uploads/_t6n7e~b.jpg
+    - name: 關海山先生┃理事會主席年期 1984-85 (第廿二屆)
+      title: 永遠會長
+      image: /uploads/_70fvo~a.jpg
+    - name: "馬國超先生 ┃理事會主席年期 1988-91 (第廿四及廿五屆) "
       title: 永遠會長
       image: /images/uploads/organization/commitiees/永遠會長_馬國超.jpg
-    - name: 陳劍聲 MH
+    - title: 永遠會長
+      name: 汪明荃博士 GBS,SBS, DLitt ┃理事會主席年期 1992-97 (第廿六及廿七屆) 、2007-23 (第〺三至〺九屆)
+      image: /images/uploads/organization/commitiees/永遠會長_汪明荃-dlitt-sbs-2x.jpg
+    - name: 陳劍聲女士┃理事會主席年期  1997-2007 (第廿八至〺二屆)
       title: 永遠會長
       image: /uploads/陳劍聲-陳杏葵-演-480-x-640.jpg
-    - title: 永遠會長
-      name: 汪明荃 GBS,SBS, DLitt
-      image: /images/uploads/organization/commitiees/永遠會長_汪明荃-dlitt-sbs-2x.jpg
-    - name: 龍貫天 B.B.S., M.H.
-      title: 永遠會長
-      image: /uploads/永遠會長-龍貫天.jpg
 cn:
   list:
     - title: 永远名誉会长
       name: 芳艳芬 BBS
       image: /images/uploads/organization/commitiees/永遠名譽會長_芳艷芬-2x.jpg
+    - name: 新马师曾先生 MBE
+      title: 永远会长
+      image: /uploads/_ouvtm~d.jpg
     - name: 关德兴 MBE
       title: 永远会长
       image: /images/uploads/organization/commitiees/永遠名譽會長_關德興-2x.jpg
+    - name: 何非凡先生
+      title: 永远会长
+      image: /uploads/_t3pf2~c.jpg
     - name: 马国超
       title: 永远会长
       image: /images/uploads/organization/commitiees/永遠會長_馬國超.jpg
@@ -35,9 +56,6 @@ cn:
     - title: 永远会长
       name: 汪明荃 GBS,SBS, DLitt
       image: /images/uploads/organization/commitiees/永遠會長_汪明荃-dlitt-sbs-2x.jpg
-    - name: 龙贯天 MH
-      title: 永远会长
-      image: /uploads/永遠會長-龍貫天.jpg
 en:
   list:
     - title: 永遠名譽會長
