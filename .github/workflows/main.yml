@@ -1,2 +1,0 @@
-- name: Check Node version
-  run: node -v
