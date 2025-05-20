@@ -60,7 +60,7 @@ zh:
     香港八和會館
 
     2025 年 5 月 19 日
-  pdfFile: /uploads/recruitment-ad_am_po_pa-final-as-at-28mar-2025.pdf
+  pdfFile: /uploads/recruitment-ad_am_po_pa-final-as-at-19-may-2025-1747622360307.pdf
 cn:
   category: job
   title: 招聘 高級項目主任／項目主任（合約）
@@ -119,7 +119,7 @@ cn:
     香港八和會館
 
     2025 年 5 月 19 日
-  pdfFile: /uploads/recruitment-ad_am_po_pa-final-as-at-28mar-2025.pdf
+  pdfFile: /uploads/recruitment-ad_am_po_pa-final-as-at-19-may-2025-1747622360307.pdf
 en:
   category: job
   title: 招聘 高級項目主任／項目主任（合約）
