@@ -46,6 +46,8 @@ zh:
     - title: 拓展事務主任
       name: 周熾楷
     - title: 副拓展事務主任
+      name: 張意堅
+    - title: 副拓展事務主任
       name: 麥嘉威
     - title: 康樂主任
       name: 陳定邦
