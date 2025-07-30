@@ -3,10 +3,26 @@ zh:
   title: 媒體報道
   slug: media
   color: "#4cb6dd"
-en:
-  title: Media
+  date: 2025-07-30T07:24:45.181Z
+  category: media
+  content: >-
+    感謝 #香港商報（記者 Alphy  攝影 Christine Chan）
+    報導，香港八和會館主辦的籌款演出《八方和合頌梨園》，已於7月22至23日在香港文化中心圓滿舉行。兩晚演出匯聚資深與新進演員，呈現多部經典粵劇選段，包括《六國大封相》《蝶影紅梨記》《牡丹亭驚夢》等，融合傳統與創新元素。
+
+
+    演出圓滿結束後，香港八和會館已隆重推出「粵劇新秀演出系列」。2025年7月至2026年1月，計劃在高山劇場新翼演藝廳，並舉辦相關推廣活動。
+
+
+    香港商報：https://www.hkcd.com.hk/content_app/2025-07/29/content_8706586.html
+
+    香港八和會館-粵劇新秀演出系列：https://www.facebook.com/share/p/1CMFQhsXZP/
+  images: /uploads/香港商報封面.jpg
 cn:
   slug: media
   color: "#4cb6dd"
   title: 媒体报道
+  date: ""
+  category: media
+en:
+  title: Media
 ---
