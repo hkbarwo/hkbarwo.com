@@ -6,52 +6,54 @@ zh:
     - title: 副理事長
       name: 何志成
     - title: 副理事長
-      name: 溫玉瑜
+      name: 高麗
     - title: 副理事長
       name: 呂洪廣
     - title: 副理事長
-      name: 高麗
+      name: 陳劍烽
     - title: 總務主任
       name: 郭啟煇
     - title: 副總務主任
       name: 廖錦成
+    - title: 副總務主任
+      name: 袁偉傑
     - title: 財務主任
-      name: 張寶華
-    - title: 副財務主任
-      name: 陳禧瑜
-    - title: 福利主任
       name: 黃湫萍
     - title: 副福利主任
-      name: 黃寶萱
-    - title: 監察主任
-      name: 陳劍烽
-    - title: 副監察主任
-      name: 陳銘英
-    - title: 公關主任
-      name: 王潔清
-    - title: 副公關主任
-      name: 阮德鏘
-    - title: 宣傳主任
-      name: 文雪裘
-    - title: 副宣傳主任
-      name: 譚穎倫
-    - title: 組訓主任
-      name: 陳鴻進
-    - title: 副組訓主任
-      name: 鄺邦
-    - title: 拓展主任
-      name: 陳國源
-    - title: 副拓展主任
-      name: 余大鵬
-    - title: 康樂主任
-      name: 翠縈
-    - title: 婦女主任
       name: 葉沛纓
-    - title: 副婦女主任
+    - title: 副財務主任
+      name: 温曜聲
+    - title: 福利主任
+      name: 陳銘英
+    - title: 副福利主任
+      name: 岑翠紅
+    - title: 監察主任
+      name: 温玉瑜
+    - title: 副監察主任
+      name: 鄺邦
+    - title: 公關主任
+      name: 林瑋婷
+    - title: 副公關主任
       name: 何詩敏
+    - title: 宣傳主任
+      name: 莊婉仙
+    - title: 副宣傳主任
+      name: 阮德鏘
+    - title: 組訓主任
+      name: 陳國源
+    - title: 副組訓主任
+      name: 余大鵬
+    - title: 拓展主任
+      name: 藝青雲
+    - title: 副拓展主任
+      name: 蘇志昌
+    - title: 康樂主任
+      name: 李鳳
+    - title: 副康樂主任
+      name: 千言
   logo: /images/uploads/associations/ca-artists-g.svg
   slug: cantonese-opera-artists-club
-  commitieesTitle: 第十二屆理事會（2022~）
+  commitieesTitle: 第十三屆理事會（2025~）
   title: 香港粵劇演員會有限公司
   title2: (演員組)
   shortTitle: 演員組
