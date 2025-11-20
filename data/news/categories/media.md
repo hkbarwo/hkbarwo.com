@@ -1,12 +1,8 @@
 ---
 zh:
   title: 媒體報道
+  color: "#2ec1ba"
   slug: media
-  color: "#4cb6dd"
-en:
-  title: Media
-cn:
-  slug: media
-  color: "#4cb6dd"
-  title: 媒体报道
+cn: {}
+en: {}
 ---
