@@ -1,12 +1,8 @@
 ---
-cn:
-  slug: job
-  color: "#ffa0a2"
-  title: 工作機會
 zh:
   title: 工作機會
   slug: job
-  color: "#ffa0a2"
-en:
-  title: Jobs
+  color: "#f5a4b3"
+cn: {}
+en: {}
 ---
