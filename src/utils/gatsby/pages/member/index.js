@@ -7,7 +7,6 @@ exports.createMemberPages = async (params, { ...context }) => {
   context.parentPage = parentPage;
   await Promise.all([
     createMemberApplyPage(params, context),
-    createMemberDirectoryPage(params, context),
     createMemberMemorialPage(params, context),
     createMemberEventsPage(params, context),
   ]);
