@@ -1,5 +1,4 @@
 const { createMemberApplyPage } = require("./apply");
-const { createMemberDirectoryPage } = require("./directory");
 const { createMemberEventsPage } = require("./events");
 const { createMemberMemorialPage } = require("./memorial");
 
