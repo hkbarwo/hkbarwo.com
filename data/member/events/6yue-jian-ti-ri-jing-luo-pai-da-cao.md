@@ -8,7 +8,7 @@ zh:
     - label: 活動時間
       content: 上午10:15至下午1
     - label: 活動地點
-      content: 通菜街170號富亨閣2樓
+      content: "八和粵劇學院 芳艷芬堂\r\n(太子通菜街170號富亨閣2字樓\r\n"
     - label: 備註
       content: "1.名額：20人
 
