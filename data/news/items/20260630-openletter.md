@@ -41,6 +41,7 @@ zh:
 
 
     ![](/uploads/回覆八和會員李余蕙芬公開信_20260629-_sign_page-0006.jpg)
-cn: {}
+cn:
+  category: notice
 en: {}
 ---
