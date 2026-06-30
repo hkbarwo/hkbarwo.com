@@ -3,7 +3,7 @@ zh:
   date: 2026-06-29T16:00:00.000Z
   category: notice
   title: 香港八和理事會回覆會員公開信
-  slug: openletter
+  slug: publicstatement
   content: >-
     致香港八和會館全體會員：
 
