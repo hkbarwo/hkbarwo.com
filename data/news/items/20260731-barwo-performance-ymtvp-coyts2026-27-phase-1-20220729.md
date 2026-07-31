@@ -2,7 +2,7 @@
 zh:
   date: 2026-07-29T09:32:49.240Z
   category: event
-  slug: barwo-performance-ymtvp-coyts2026-27-phase-1-20220729
+  slug: barwo-performance-ymtvp-coyts2026-27-phase-1-20260729
   title: 油麻地戲院場地伙伴計劃「優越新秀粵劇傳承計劃2026-27」 各界嘉賓祝賀演期開展 開幕演出《雷鳴金鼓戰笳聲》順利舉行
   content: >-
     致：各大傳媒編輯、採編主任
