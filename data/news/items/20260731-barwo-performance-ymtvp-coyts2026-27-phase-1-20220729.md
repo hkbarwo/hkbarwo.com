@@ -26,7 +26,7 @@ zh:
 
     香港八和會館
 
-    二零二六年七月
+    二零二六年七月二十九日
   pdfFile: /uploads/post-press-release_油麻地計劃2026-27開幕演出_w20260729-update-1-.pdf
 cn: {}
 en: {}
