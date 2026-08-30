@@ -1,14 +1,14 @@
 ---
 zh:
-  title: 過往演出
-  slug: performances-past
-  url: /performances/past
-  wip: false
-en:
-  title: Past Performances
+  title: 演出
+  slug: performances
+  url: /performances/
   wip: false
 cn:
   slug: performances-past
   url: /performances/past
-  title: 过往演出
+  title: 演出
+en:
+  title: Past Performances
+  wip: false
 ---
